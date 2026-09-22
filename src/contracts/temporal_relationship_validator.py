@@ -1,89 +1,121 @@
-from dataclasses import dataclass
-from datetime import date
-from typing import Dict, List, Optional
+from typing import Any, Dict, List
 
-
-@dataclass
-class TemporalRelationshipViolation:
-    source_doc_id: str
-    target_doc_id: str
-    message: str
+from src.contracts.models import (
+    DocumentMetadata,
+    DocumentRelation,
+)
+from src.contracts.rules import (
+    CrossDocumentTemporalRules,
+)
 
 
 class CrossDocumentTemporalValidator:
     """
-    Validates temporal relationships between legal documents.
+    Validates temporal constraints between legal documents.
 
-    This validator works at corpus/document-relation level.
-    It is intentionally separate from the single-document contract gate.
+    This validator operates at corpus level and therefore
+    is intentionally separated from the document contract.
     """
+
+    def __init__(
+        self,
+        rules: CrossDocumentTemporalRules,
+    ):
+        self.rules = rules
 
     def validate(
         self,
-        document: Dict,
-        related_documents: List[Dict],
-    ) -> List[TemporalRelationshipViolation]:
+        documents: List[Dict[str, Any]],
+        relations: List[Dict[str, Any]],
+    ) -> Dict[str, Any]:
+
+        if not self.rules.enabled:
+            return {
+                "status": "SKIPPED",
+                "violations": [],
+            }
+
+        document_map = {}
+
+        for raw_document in documents:
+            metadata = DocumentMetadata.model_validate(
+                raw_document
+            )
+
+            document_map[metadata.doc_id] = metadata
 
         violations = []
 
-        source_doc_id = document.get("doc_id")
+        for raw_relation in relations:
 
-        for related in related_documents:
+            relation = DocumentRelation.model_validate(
+                raw_relation
+            )
 
-            target_doc_id = related.get("doc_id")
+            relation_rules = self.rules.relations.get(
+                relation.relation_type
+            )
 
-            if not source_doc_id or not target_doc_id:
+            if relation_rules is None:
                 continue
 
-            violation = self._validate_order(
-                document,
-                related,
+            source = document_map.get(
+                relation.source_doc_id
             )
 
-            if violation:
-                violations.append(violation)
-
-        return violations
-
-    def _validate_order(
-        self,
-        source: Dict,
-        target: Dict,
-    ) -> Optional[TemporalRelationshipViolation]:
-
-        source_effective = self._parse_date(
-            source.get("effective_date")
-        )
-
-        target_issued = self._parse_date(
-            target.get("issued_date")
-        )
-
-        if source_effective is None or target_issued is None:
-            return None
-
-        if target_issued < source_effective:
-            return TemporalRelationshipViolation(
-                source_doc_id=source["doc_id"],
-                target_doc_id=target["doc_id"],
-                message=(
-                    "Related document is issued before the effective "
-                    "date of the document it modifies/replaces."
-                ),
+            target = document_map.get(
+                relation.target_doc_id
             )
 
-        return None
+            if source is None:
+                violations.append({
+                    "code": "SOURCE_DOCUMENT_MISSING",
+                    "source_doc_id": relation.source_doc_id,
+                    "target_doc_id": relation.target_doc_id,
+                })
+                continue
 
-    @staticmethod
-    def _parse_date(value) -> Optional[date]:
+            if target is None:
+                violations.append({
+                    "code": "TARGET_DOCUMENT_MISSING",
+                    "source_doc_id": relation.source_doc_id,
+                    "target_doc_id": relation.target_doc_id,
+                })
+                continue
 
-        if isinstance(value, date):
-            return value
+            if (
+                relation_rules.issued_after_target
+                and source.issued_date <= target.issued_date
+            ):
+                violations.append({
+                    "code": "INVALID_ISSUANCE_ORDER",
+                    "source_doc_id": source.doc_id,
+                    "target_doc_id": target.doc_id,
+                    "message": (
+                        "Related document must be issued "
+                        "after the target document."
+                    ),
+                })
 
-        if not isinstance(value, str):
-            return None
+            if (
+                relation_rules.effective_after_target
+                and source.effective_from <= target.effective_from
+            ):
+                violations.append({
+                    "code": "INVALID_EFFECTIVE_ORDER",
+                    "source_doc_id": source.doc_id,
+                    "target_doc_id": target.doc_id,
+                    "message": (
+                        "Related document must become effective "
+                        "after the target document."
+                    ),
+                })
 
-        try:
-            return date.fromisoformat(value)
-        except ValueError:
-            return None
+        return {
+            "status": (
+                "PASSED"
+                if not violations
+                else "QUARANTINE"
+            ),
+            "violations": violations,
+        }

@@ -1,5 +1,4 @@
 import os
-from typing import Any, Dict
 
 import yaml
 from pydantic import BaseModel, Field
@@ -38,13 +37,11 @@ def load_system_config(
         return SystemConfig()
 
     with open(config_path, "r", encoding="utf-8") as f:
-        data: Dict[str, Any] = yaml.safe_load(f) or {}
+        data = yaml.safe_load(f) or {}
 
     return SystemConfig(
         seed=data.get("system", {}).get("seed", 42),
-        db=DatabaseConfig(
-            **data.get("db", {})
-        ),
+        db=DatabaseConfig(**data.get("db", {})),
         contracts=ContractConfig(
             **data.get("contracts", {})
         ),

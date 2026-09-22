@@ -1,5 +1,5 @@
 from importlib import import_module
-from typing import Callable, Dict, Optional, Type
+from typing import Dict, Optional, Type
 
 from src.core.config import SystemConfig
 from src.core.interfaces import (
@@ -9,125 +9,127 @@ from src.core.interfaces import (
 
 
 class ComponentFactory:
-    """
-    Factory for creating system components.
-
-    Components are resolved from registries instead of
-    hard-coded if/elif chains.
-    """
 
     _CONTRACT_GATES: Dict[
         str,
-        str,
+        str
     ] = {
         "document": (
             "src.contracts.document_contract"
             ":ExecutableDocumentContract"
-        ),
+        )
     }
 
     _RETRIEVERS: Dict[
         str,
-        str,
+        str
     ] = {
-        "bm25": (
-            "src.baselines.bm25_baseline"
-            ":BM25Baseline"
-        ),
         "temporal": (
             "src.rag.temporal_retriever"
             ":TemporalRetriever"
+        ),
+        "bm25": (
+            "src.baselines.bm25_baseline"
+            ":BM25Baseline"
         ),
     }
 
     @staticmethod
     def _load_class(
-        class_path: str,
-    ) -> Type:
-        """
-        Dynamically import a class using:
+        target: str
+    ):
 
-            package.module:ClassName
-        """
-
-        module_name, class_name = class_path.split(
-            ":"
+        module_name, class_name = (
+            target.split(":")
         )
 
-        module = import_module(module_name)
+        module = import_module(
+            module_name
+        )
 
-        return getattr(module, class_name)
+        return getattr(
+            module,
+            class_name,
+        )
 
     @classmethod
-    def register_retriever(
+    def create_contract_gate(
         cls,
-        name: str,
-        class_path: str,
-    ) -> None:
-        """
-        Register a custom retriever implementation.
-        """
+        config: Optional[
+            SystemConfig
+        ] = None,
+        contract_type: str = "document",
+    ) -> BaseContractGate:
 
-        cls._RETRIEVERS[name] = class_path
+        config = (
+            config
+            or SystemConfig()
+        )
+
+        target = cls._CONTRACT_GATES.get(
+            contract_type
+        )
+
+        if target is None:
+            raise ValueError(
+                f"Unknown contract type: "
+                f"{contract_type}"
+            )
+
+        contract_class = (
+            cls._load_class(target)
+        )
+
+        return contract_class(
+            config=config
+        )
+
+    @classmethod
+    def create_retriever(
+        cls,
+        config: Optional[
+            SystemConfig
+        ] = None,
+        retriever_type: str = "temporal",
+    ) -> BaseRetriever:
+
+        config = (
+            config
+            or SystemConfig()
+        )
+
+        target = cls._RETRIEVERS.get(
+            retriever_type
+        )
+
+        if target is None:
+            raise ValueError(
+                f"Unknown retriever type: "
+                f"{retriever_type}"
+            )
+
+        retriever_class = (
+            cls._load_class(target)
+        )
+
+        return retriever_class(
+            config=config
+        )
 
     @classmethod
     def register_contract_gate(
         cls,
         name: str,
-        class_path: str,
+        target: str,
     ) -> None:
-        """
-        Register a custom contract gate implementation.
-        """
 
-        cls._CONTRACT_GATES[name] = class_path
+        cls._CONTRACT_GATES[name] = target
 
     @classmethod
-    def create_contract_gate(
+    def register_retriever(
         cls,
-        config: Optional[SystemConfig] = None,
-        contract_type: str = "document",
-    ) -> BaseContractGate:
+        name: str,
+        target: str,
+    ) -> None:
 
-        config = config or SystemConfig()
-
-        try:
-            class_path = cls._CONTRACT_GATES[
-                contract_type
-            ]
-        except KeyError as exc:
-            raise ValueError(
-                f"Unknown contract gate: {contract_type}. "
-                f"Available: {list(cls._CONTRACT_GATES)}"
-            ) from exc
-
-        contract_class = cls._load_class(
-            class_path
-        )
-
-        return contract_class(config=config)
-
-    @classmethod
-    def create_retriever(
-        cls,
-        config: Optional[SystemConfig] = None,
-        retriever_type: str = "temporal",
-    ) -> BaseRetriever:
-
-        config = config or SystemConfig()
-
-        try:
-            class_path = cls._RETRIEVERS[
-                retriever_type
-            ]
-        except KeyError as exc:
-            raise ValueError(
-                f"Unknown retriever: {retriever_type}. "
-                f"Available: {list(cls._RETRIEVERS)}"
-            ) from exc
-
-        retriever_class = cls._load_class(
-            class_path
-        )
-
-        return retriever_class(config=config)
+        cls._RETRIEVERS[name] = target

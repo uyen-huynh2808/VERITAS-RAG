@@ -1,11 +1,11 @@
 {
   "schema_contract": {
-    "doc_id_pattern": "^\\d+/\\d{4}/(NĐ-CP|TT-[A-Z]+|QH\\d+)$",
+    "doc_id_pattern": "^\\d+/\\d{4}/(NĐ-CP|TT-[A-Z]+|QH\\d+|QĐ-[A-Z]+|NQ-[A-Z]+)$",
     "required_fields": [
       "doc_id",
       "title",
       "issued_date",
-      "effective_date"
+      "effective_from"
     ],
     "allowed_doc_types": [
       "Nghị định",
@@ -17,11 +17,24 @@
   },
 
   "temporal_contract": {
-    "enforce_temporal_logic": true,
-    "rules": {
-      "start_on_or_after_issued": true,
-      "end_after_start": true,
-      "enforce_cross_document_ordering": true
+    "intra_document": {
+      "enabled": true,
+      "effective_from_on_or_after_issued": true,
+      "effective_to_after_effective_from": true
+    },
+
+    "cross_document": {
+      "enabled": true,
+      "relations": {
+        "amends": {
+          "issued_after_target": true,
+          "effective_after_target": true
+        },
+        "replaces": {
+          "issued_after_target": true,
+          "effective_after_target": true
+        }
+      }
     }
   },
 
@@ -32,14 +45,16 @@
 
     "table_integrity": {
       "require_headers": true,
-      "max_broken_cells_ratio": 0.05
+      "max_broken_cells_ratio": 0.05,
+      "check_merged_cells": true
     }
   },
 
   "provenance_contract": {
     "hash_algorithm": "sha256",
-    "require_page_number": true,
     "require_storage_path": true,
-    "require_chunk_page_number": true
+    "require_document_hash": true,
+    "require_chunk_page_number": true,
+    "require_chunk_hash": true
   }
 }

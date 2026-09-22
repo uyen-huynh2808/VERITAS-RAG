@@ -1,16 +1,14 @@
-"""Core module containing system configurations, environment setup,
-base interfaces, and component factory.
-"""
-
 from src.core.config import (
-    SystemConfig,
-    DatabaseConfig,
     ContractConfig,
+    DatabaseConfig,
     ModelConfig,
+    SystemConfig,
     load_system_config,
 )
 
-from src.core.environment import setup_environment
+from src.core.environment import (
+    setup_environment,
+)
 
 from src.core.interfaces import (
     BaseContractGate,
@@ -18,7 +16,9 @@ from src.core.interfaces import (
     BaseRetriever,
 )
 
-from src.core.factory import ComponentFactory
+from src.core.factory import (
+    ComponentFactory,
+)
 
 
 __all__ = [

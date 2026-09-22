@@ -1,120 +1,283 @@
 import re
-from dataclasses import dataclass
-
-
-@dataclass
-class QualityMetrics:
-    null_ratio: float
-    diacritic_ratio: float
-    ocr_noise_ratio: float
-    broken_cells_ratio: float
-    missing_table_headers: bool
+from typing import Any, Dict, List, Optional
 
 
 class QualityMetricsCalculator:
     """
-    Computes quality metrics from parsed Markdown/text.
+    Calculates extraction-quality indicators.
 
-    This class does NOT decide whether the document passes
-    the Quality Contract.
+    The calculator does not decide PASS/FAIL.
+    Threshold decisions belong to Quality Contract.
     """
 
     OCR_NOISE_PATTERN = re.compile(
-        r"(?:�|�{2,}|[^\w\s]{4,})"
+        r"[^\w\sÀ-ỹ.,;:!?%(){}\[\]\"'“”‘’\-+/=*#|<>]"
     )
 
-    DIACRITIC_PATTERN = re.compile(
-        r"[àáạảãâầấậẩẫăằắặẳẵ"
-        r"èéẹẻẽêềếệểễ"
-        r"ìíịỉĩ"
-        r"òóọỏõôồốộổỗơờớợởỡ"
-        r"ùúụủũưừứựửữ"
-        r"ỳýỵỷỹđ]",
-        re.IGNORECASE,
+    VIETNAMESE_DIACRITIC_PATTERN = re.compile(
+        r"[ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠƯẠẢẤẦẨẪẬẮẰẲẴẶ"
+        r"ẸẺẼẾỀỂỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪỬỮỰ"
+        r"ỲÝỶỸỴàáâãèéêìíòóôõùúăđĩũơư"
+        r"ạảấầẩẫậắằẳẵặẹẻẽếềểễệỉị"
+        r"ọỏốồổỗộớờởỡợụủứừửữựỳýỷỹỵ]"
     )
 
-    def calculate(self, content: str) -> QualityMetrics:
+    @classmethod
+    def calculate(
+        cls,
+        content: str,
+        tables: Optional[
+            List[Dict[str, Any]]
+        ] = None,
+    ) -> Dict[str, Any]:
 
-        if not content:
-            return QualityMetrics(
-                null_ratio=1.0,
-                diacritic_ratio=0.0,
-                ocr_noise_ratio=1.0,
-                broken_cells_ratio=1.0,
-                missing_table_headers=True,
-            )
+        metrics = {
+            "null_ratio": cls._null_ratio(content),
+            "diacritic_ratio": cls._diacritic_ratio(
+                content
+            ),
+            "ocr_noise_ratio": cls._ocr_noise_ratio(
+                content
+            ),
+            "broken_cells_ratio": cls._broken_cells_ratio(
+                content
+            ),
+            "missing_table_headers": (
+                cls._missing_table_headers(content)
+            ),
+            "merged_cell_issues": (
+                cls._merged_cell_issues(tables)
+                if tables is not None
+                else 0
+            ),
+        }
 
-        return QualityMetrics(
-            null_ratio=self._null_ratio(content),
-            diacritic_ratio=self._diacritic_ratio(content),
-            ocr_noise_ratio=self._ocr_noise_ratio(content),
-            broken_cells_ratio=self._broken_cells_ratio(content),
-            missing_table_headers=self._missing_table_headers(content),
-        )
+        return metrics
 
     @staticmethod
-    def _null_ratio(content: str) -> float:
-        corrupted = content.count("\x00") + content.count("\ufffd")
-        return corrupted / max(len(content), 1)
+    def _null_ratio(
+        content: str
+    ) -> float:
 
-    def _diacritic_ratio(self, content: str) -> float:
-        letters = [c for c in content if c.isalpha()]
+        if not content:
+            return 1.0
+
+        null_count = (
+            content.count("\x00")
+            + content.count("\ufffd")
+        )
+
+        return null_count / len(content)
+
+    @classmethod
+    def _diacritic_ratio(
+        cls,
+        content: str
+    ) -> float:
+        """
+        Proxy metric for Vietnamese diacritic integrity.
+
+        Measures the proportion of alphabetic characters that
+        belong to the Vietnamese character set containing
+        diacritics. This is not a ground-truth text preservation
+        accuracy measure.
+        """
+
+        letters = [
+            c for c in content
+            if c.isalpha()
+        ]
 
         if not letters:
             return 0.0
 
-        diacritics = len(self.DIACRITIC_PATTERN.findall(content))
+        vietnamese_chars = sum(
+            1
+            for c in letters
+            if cls.VIETNAMESE_DIACRITIC_PATTERN.match(c)
+        )
 
-        return diacritics / len(letters)
+        return vietnamese_chars / len(letters)
 
-    def _ocr_noise_ratio(self, content: str) -> float:
-        noise = len(self.OCR_NOISE_PATTERN.findall(content))
-        return noise / max(len(content), 1)
+    @classmethod
+    def _ocr_noise_ratio(
+        cls,
+        content: str
+    ) -> float:
 
-    @staticmethod
-    def _table_lines(content: str):
-        return [
-            line.strip()
+        if not content:
+            return 1.0
+
+        noise = len(
+            cls.OCR_NOISE_PATTERN.findall(content)
+        )
+
+        return noise / len(content)
+
+    @classmethod
+    def _broken_cells_ratio(
+        cls,
+        content: str
+    ) -> float:
+
+        table_lines = [
+            line
             for line in content.splitlines()
             if "|" in line
         ]
 
-    def _missing_table_headers(self, content: str) -> bool:
-        lines = self._table_lines(content)
-
-        if not lines:
-            return False
-
-        for i in range(len(lines) - 1):
-            separator = lines[i + 1]
-
-            if re.search(r"\|?\s*:?-{3,}:?\s*(\||$)", separator):
-                return False
-
-        return True
-
-    def _broken_cells_ratio(self, content: str) -> float:
-        lines = self._table_lines(content)
-
-        if not lines:
+        if not table_lines:
             return 0.0
 
-        expected_cells = None
-        broken = 0
-        total = 0
+        rows = [
+            line.strip().strip("|").split("|")
+            for line in table_lines
+        ]
 
-        for line in lines:
-            cells = [
-                cell.strip()
-                for cell in line.strip("|").split("|")
+        expected_columns = max(
+            len(row)
+            for row in rows
+        )
+
+        if expected_columns == 0:
+            return 0.0
+
+        broken_cells = sum(
+            abs(
+                len(row) - expected_columns
+            )
+            for row in rows
+        )
+
+        total_cells = sum(
+            len(row)
+            for row in rows
+        )
+
+        return broken_cells / max(
+            total_cells,
+            1,
+        )
+
+    @staticmethod
+    def _missing_table_headers(
+        content: str
+    ) -> bool:
+
+        lines = content.splitlines()
+
+        for i in range(
+            len(lines) - 1
+        ):
+            if "|" not in lines[i]:
+                continue
+
+            if re.match(
+                r"^\s*\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?\s*$",
+                lines[i + 1],
+            ):
+                return False
+
+        return any(
+            "|" in line
+            for line in lines
+        )
+
+    @staticmethod
+    def _merged_cell_issues(
+        tables: Optional[
+            List[Dict[str, Any]]
+        ]
+    ) -> int:
+        """
+        Detect invalid merged-cell structures from structured
+        table information.
+
+        Expected table format:
+        {
+            "rows": <number of rows>,
+            "columns": <number of columns>,
+            "cells": [
+                {
+                    "row": 0,
+                    "column": 0,
+                    "rowspan": 1,
+                    "colspan": 2
+                },
+                ...
             ]
+        }
 
-            if expected_cells is None:
-                expected_cells = len(cells)
+        A merged cell itself is valid. An issue is reported only
+        when its span is invalid or exceeds the table boundary.
+        """
 
-            total += expected_cells
+        if not tables:
+            return 0
 
-            if len(cells) != expected_cells:
-                broken += abs(len(cells) - expected_cells)
+        issues = 0
 
-        return broken / max(total, 1)
+        for table in tables:
+
+            total_rows = table.get("rows")
+            total_columns = table.get("columns")
+
+            cells = table.get(
+                "cells",
+                []
+            )
+
+            if (
+                not isinstance(total_rows, int)
+                or not isinstance(total_columns, int)
+                or total_rows < 1
+                or total_columns < 1
+            ):
+                # Cannot reliably validate structure
+                # without table dimensions.
+                continue
+
+            for cell in cells:
+
+                row = cell.get(
+                    "row",
+                    0
+                )
+                column = cell.get(
+                    "column",
+                    0
+                )
+                rowspan = cell.get(
+                    "rowspan",
+                    1
+                )
+                colspan = cell.get(
+                    "colspan",
+                    1
+                )
+
+                if (
+                    not isinstance(row, int)
+                    or not isinstance(column, int)
+                    or not isinstance(rowspan, int)
+                    or not isinstance(colspan, int)
+                ):
+                    issues += 1
+                    continue
+
+                if (
+                    row < 0
+                    or column < 0
+                    or rowspan < 1
+                    or colspan < 1
+                ):
+                    issues += 1
+                    continue
+
+                if (
+                    row + rowspan > total_rows
+                    or column + colspan > total_columns
+                ):
+                    issues += 1
+
+        return issues
