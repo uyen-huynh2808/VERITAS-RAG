@@ -29,10 +29,60 @@ class BaseContractGate(ABC):
         """
         raise NotImplementedError
 
+    def validate_metadata(
+        self,
+        metadata: Dict[str, Any],
+    ) -> Dict[str, Any]:
+        """
+        Validate document metadata before PDF parsing / Bronze ingestion.
+
+        Concrete contract gates may override this method when a separate
+        pre-ingestion schema gate is required.
+
+        Returns:
+            Validation report.
+        """
+        raise NotImplementedError(
+            f"{self.__class__.__name__} does not implement validate_metadata()."
+        )
+
+    def validate_parsed_document(
+        self,
+        metadata: Dict[str, Any],
+        content: str,
+        chunks: List[Dict[str, Any]],
+        pdf_paths: Optional[List[str]] = None,
+    ) -> Dict[str, Any]:
+        """
+        Validate a parsed logical document.
+
+        A logical document may originate from one or multiple physical PDF
+        files. The parser is responsible for merging those files into one
+        logical document while preserving provenance.
+
+        Args:
+            metadata: Logical document metadata.
+            content: Parsed/normalized document content.
+            chunks: Page-aware parsed chunks.
+            pdf_paths: Physical PDF source files belonging to the same
+                logical document.
+
+        Returns:
+            Validation report.
+        """
+        raise NotImplementedError(
+            f"{self.__class__.__name__} does not implement "
+            "validate_parsed_document()."
+        )
+
 
 class BaseParser(ABC):
     """
     Interface for document parsing.
+
+    A logical legal document may be represented by one or multiple physical
+    PDF files. The parser must treat all supplied paths as parts of the same
+    logical document and preserve continuous document-page provenance.
     """
 
     def __init__(
@@ -44,13 +94,21 @@ class BaseParser(ABC):
     @abstractmethod
     def parse(
         self,
-        pdf_path: str,
+        pdf_paths: List[str],
     ) -> Dict[str, Any]:
         """
-        Parse a PDF document.
+        Parse one logical document from one or multiple PDF files.
+
+        Args:
+            pdf_paths:
+                Ordered list of physical PDF files belonging to the same
+                logical document.
 
         Returns:
-            Parsed document information.
+            Parsed document information containing, at minimum:
+                - metadata
+                - markdown
+                - chunks
         """
         raise NotImplementedError
 
