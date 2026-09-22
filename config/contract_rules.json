@@ -1,0 +1,45 @@
+{
+  "schema_contract": {
+    "doc_id_pattern": "^\\d+/\\d{4}/(NĐ-CP|TT-[A-Z]+|QH\\d+)$",
+    "required_fields": [
+      "doc_id",
+      "title",
+      "issued_date",
+      "effective_date"
+    ],
+    "allowed_doc_types": [
+      "Nghị định",
+      "Thông tư",
+      "Luật",
+      "Quyết định",
+      "Nghị quyết"
+    ]
+  },
+
+  "temporal_contract": {
+    "enforce_temporal_logic": true,
+    "rules": {
+      "start_on_or_after_issued": true,
+      "end_after_start": true,
+      "enforce_cross_document_ordering": true
+    }
+  },
+
+  "quality_contract": {
+    "max_null_ratio": 0.05,
+    "min_diacritic_ratio": 0.85,
+    "max_ocr_noise_ratio": 0.02,
+
+    "table_integrity": {
+      "require_headers": true,
+      "max_broken_cells_ratio": 0.05
+    }
+  },
+
+  "provenance_contract": {
+    "hash_algorithm": "sha256",
+    "require_page_number": true,
+    "require_storage_path": true,
+    "require_chunk_page_number": true
+  }
+}

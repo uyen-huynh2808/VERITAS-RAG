@@ -1,0 +1,17 @@
+system:
+  seed: 42
+
+db:
+  duckdb_path: "data/silver_parquet/lakehouse.duckdb"
+  bronze_dir: "data/bronze_pdf"
+  silver_dir: "data/silver_parquet"
+  gold_dir: "data/gold_vectors"
+  quarantine_dir: "data/quarantine"
+
+contracts:
+  rules_path: "config/contract_rules.json"
+
+models:
+  embedding_model: "BAAI/bge-m3"
+  llm_provider: "gemini"
+  llm_model: "gemini-1.5-flash"
