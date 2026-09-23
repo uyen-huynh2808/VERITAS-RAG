@@ -32,6 +32,10 @@ class ComponentFactory:
             "src.baselines.bm25_baseline"
             ":BM25Baseline"
         ),
+        "naive_rag": (
+            "src.baselines.naive_rag_baseline"
+            ":NaiveRAGBaseline"
+        ),
     }
 
     @staticmethod
