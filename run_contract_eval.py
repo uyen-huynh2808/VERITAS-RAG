@@ -6,46 +6,180 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List
 
+# ---------------------------------------------------------------------------
+# Loading
+# ---------------------------------------------------------------------------
 
-# ============================================================================
-# I/O
-# ============================================================================
+def load_results(input_path: str | Path) -> List[Dict[str, Any]]:
+    """Load mutation/contract results from JSON."""
 
+    input_path = Path(input_path)
 
-def load_json(
-    path: str | Path,
-) -> Any:
+    with input_path.open("r", encoding="utf-8") as file:
+        data = json.load(file)
 
-    path = Path(path)
+    if isinstance(data, list):
+        return data
 
-    if not path.exists():
-        raise FileNotFoundError(
-            f"Input file not found: {path}"
+    if isinstance(data, dict) and "results" in data:
+        return data["results"]
+
+    raise ValueError(
+        "Input JSON must be a list or an object containing 'results'."
+    )
+
+# ---------------------------------------------------------------------------
+# Metrics
+# ---------------------------------------------------------------------------
+
+def contract_detection_rate(
+    results: List[Dict[str, Any]],
+) -> float | None:
+    """
+    Detection rate over mutated documents only.
+
+    A mutation is detected when:
+        expected == QUARANTINE
+        actual   == QUARANTINE
+    """
+
+    mutated = [
+        result
+        for result in results
+        if str(result.get("mutation_type", "")).lower() != "clean"
+        and str(result.get("expected", "")).upper() == "QUARANTINE"
+    ]
+
+    if not mutated:
+        return None
+
+    detected = sum(
+        1
+        for result in mutated
+        if str(result.get("actual", "")).upper() == "QUARANTINE"
+    )
+
+    return detected / len(mutated)
+
+def per_mutation_detection_rate(
+    results: List[Dict[str, Any]],
+) -> Dict[str, float | None]:
+    """Calculate detection rate for each mutation type."""
+
+    grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+
+    for result in results:
+        mutation_type = str(
+            result.get("mutation_type", "unknown")
         )
 
-    with path.open(
-        "r",
-        encoding="utf-8",
-    ) as file:
-        return json.load(file)
+        if mutation_type.lower() == "clean":
+            continue
 
+        grouped[mutation_type].append(result)
+
+    metrics: Dict[str, float | None] = {}
+
+    for mutation_type, mutation_results in grouped.items():
+        expected_mutations = [
+            result
+            for result in mutation_results
+            if str(result.get("expected", "")).upper()
+            == "QUARANTINE"
+        ]
+
+        if not expected_mutations:
+            metrics[mutation_type] = None
+            continue
+
+        detected = sum(
+            1
+            for result in expected_mutations
+            if str(result.get("actual", "")).upper()
+            == "QUARANTINE"
+        )
+
+        metrics[mutation_type] = (
+            detected / len(expected_mutations)
+        )
+
+    return metrics
+
+def confusion_matrix(
+    results: List[Dict[str, Any]],
+) -> Dict[str, int]:
+    """
+    Calculate PASS/QUARANTINE confusion matrix.
+
+    Positive = document should be quarantined.
+    """
+
+    tp = 0
+    tn = 0
+    fp = 0
+    fn = 0
+
+    for result in results:
+        expected = str(
+            result.get("expected", "")
+        ).upper()
+
+        actual = str(
+            result.get("actual", "")
+        ).upper()
+
+        if expected == "QUARANTINE" and actual == "QUARANTINE":
+            tp += 1
+        elif expected == "PASS" and actual == "PASS":
+            tn += 1
+        elif expected == "PASS" and actual == "QUARANTINE":
+            fp += 1
+        elif expected == "QUARANTINE" and actual == "PASS":
+            fn += 1
+
+    return {
+        "TP": tp,
+        "TN": tn,
+        "FP": fp,
+        "FN": fn,
+    }
+
+# ---------------------------------------------------------------------------
+# Evaluation
+# ---------------------------------------------------------------------------
+
+def evaluate_contracts(
+    results: List[Dict[str, Any]],
+) -> Dict[str, Any]:
+    """Evaluate contract detection performance."""
+
+    return {
+        "num_results": len(results),
+        "metrics": {
+            "contract_detection_rate": (
+                contract_detection_rate(results)
+            ),
+            "per_mutation_detection_rate": (
+                per_mutation_detection_rate(results)
+            ),
+            "confusion_matrix": confusion_matrix(results),
+        },
+    }
+
+# ---------------------------------------------------------------------------
+# Persistence
+# ---------------------------------------------------------------------------
 
 def save_json(
     data: Dict[str, Any],
-    path: str | Path,
+    output_path: str | Path,
 ) -> None:
+    """Save contract evaluation results."""
 
-    path = Path(path)
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    path.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    with path.open(
-        "w",
-        encoding="utf-8",
-    ) as file:
+    with output_path.open("w", encoding="utf-8") as file:
         json.dump(
             data,
             file,
@@ -53,208 +187,31 @@ def save_json(
             indent=2,
         )
 
-
-# ============================================================================
-# Contract metrics
-# ============================================================================
-
-
-def calculate_contract_metrics(
-    results: List[Dict[str, Any]],
-) -> Dict[str, Any]:
-
-    mutated = [
-        item
-        for item in results
-        if item.get("mutation_type") != "clean"
-    ]
-
-    if not mutated:
-        return {
-            "contract_detection_rate": None,
-            "sample_count": 0,
-            "by_mutation_type": {},
-        }
-
-    detected = 0
-
-    by_type: Dict[str, Dict[str, int]] = defaultdict(
-        lambda: {
-            "total": 0,
-            "detected": 0,
-        }
-    )
-
-    for item in mutated:
-
-        mutation_type = item.get(
-            "mutation_type",
-            "unknown",
-        )
-
-        expected = item.get(
-            "expected"
-        )
-
-        actual = item.get(
-            "actual"
-        )
-
-        by_type[mutation_type]["total"] += 1
-
-        correctly_detected = (
-            expected == "QUARANTINE"
-            and actual == "QUARANTINE"
-        )
-
-        if correctly_detected:
-            detected += 1
-            by_type[mutation_type][
-                "detected"
-            ] += 1
-
-    overall_rate = (
-        detected / len(mutated)
-    )
-
-    breakdown: Dict[str, Any] = {}
-
-    for mutation_type, stats in by_type.items():
-
-        total = stats["total"]
-
-        breakdown[mutation_type] = {
-            "total": total,
-            "detected": stats["detected"],
-            "detection_rate": (
-                stats["detected"] / total
-                if total
-                else 0.0
-            ),
-        }
-
-    return {
-        "contract_detection_rate": overall_rate,
-        "sample_count": len(mutated),
-        "by_mutation_type": breakdown,
-    }
-
-
-# ============================================================================
-# Optional confusion statistics
-# ============================================================================
-
-
-def calculate_contract_confusion(
-    results: List[Dict[str, Any]],
-) -> Dict[str, int]:
-
-    tp = 0
-    tn = 0
-    fp = 0
-    fn = 0
-
-    for item in results:
-
-        expected = item.get("expected")
-        actual = item.get("actual")
-
-        if expected == "QUARANTINE":
-            if actual == "QUARANTINE":
-                tp += 1
-            else:
-                fn += 1
-
-        elif expected == "PASS":
-            if actual == "PASS":
-                tn += 1
-            else:
-                fp += 1
-
-    return {
-        "true_positive": tp,
-        "true_negative": tn,
-        "false_positive": fp,
-        "false_negative": fn,
-    }
-
-
-# ============================================================================
-# Main experiment
-# ============================================================================
-
-
-def run_contract_eval(
-    input_path: str | Path,
-) -> Dict[str, Any]:
-
-    data = load_json(
-        input_path
-    )
-
-    if isinstance(data, dict):
-        results = data.get(
-            "results",
-            [],
-        )
-    elif isinstance(data, list):
-        results = data
-    else:
-        raise ValueError(
-            "Mutation result JSON must be a list "
-            "or an object containing 'results'."
-        )
-
-    metrics = calculate_contract_metrics(
-        results
-    )
-
-    confusion = calculate_contract_confusion(
-        results
-    )
-
-    return {
-        **metrics,
-        "confusion_matrix": confusion,
-    }
-
-
-# ============================================================================
+# ---------------------------------------------------------------------------
 # CLI
-# ============================================================================
-
+# ---------------------------------------------------------------------------
 
 def main() -> None:
-
     parser = argparse.ArgumentParser(
-        description=(
-            "Evaluate VERITAS Data Contract "
-            "using mutation testing."
-        )
+        description="Evaluate VERITAS-RAG contract/mutation results."
     )
 
     parser.add_argument(
         "--input",
-        type=Path,
         required=True,
-        help="Mutation test result JSON.",
+        help="Path to mutation result JSON.",
     )
 
     parser.add_argument(
         "--output",
-        type=Path,
-        default=Path(
-            "results/contract/"
-            "contract_metrics.json"
-        ),
-        help="Output metric JSON.",
+        default="results/contract/contract_metrics.json",
+        help="Output JSON path.",
     )
 
     args = parser.parse_args()
 
-    metrics = run_contract_eval(
-        args.input
-    )
+    results = load_results(args.input)
+    metrics = evaluate_contracts(results)
 
     save_json(
         metrics,
@@ -262,51 +219,12 @@ def main() -> None:
     )
 
     print(
-        "\n=== VERITAS Contract Evaluation ==="
+        json.dumps(
+            metrics,
+            ensure_ascii=False,
+            indent=2,
+        )
     )
-
-    rate = metrics[
-        "contract_detection_rate"
-    ]
-
-    if rate is None:
-        print(
-            "Contract Detection Rate: N/A"
-        )
-    else:
-        print(
-            "Contract Detection Rate: "
-            f"{rate:.4f}"
-        )
-
-    print(
-        f"Mutation samples: "
-        f"{metrics['sample_count']}"
-    )
-
-    print("\nMutation breakdown:")
-
-    for mutation_type, stats in (
-        metrics[
-            "by_mutation_type"
-        ].items()
-    ):
-        print(
-            f"  {mutation_type}: "
-            f"{stats['detection_rate']:.4f}"
-        )
-
-    print("\nConfusion matrix:")
-
-    for key, value in (
-        metrics[
-            "confusion_matrix"
-        ].items()
-    ):
-        print(
-            f"  {key}: {value}"
-        )
-
 
 if __name__ == "__main__":
     main()

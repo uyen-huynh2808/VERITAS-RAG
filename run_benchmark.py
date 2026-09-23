@@ -1,27 +1,63 @@
 from __future__ import annotations
 
 import argparse
+import json
 import time
 from abc import ABC, abstractmethod
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from run_eval import (
     BenchmarkSample,
     SystemOutput,
+    calculate_pipeline_overhead,
     evaluate_system,
-    load_evaluation_dataset,
     save_json,
-    save_system_result,
 )
 
+# ---------------------------------------------------------------------------
+# Dataset
+# ---------------------------------------------------------------------------
 
-# ============================================================================
-# System interface
-# ============================================================================
+def load_dataset(
+    dataset_path: str | Path,
+) -> List[BenchmarkSample]:
+    """Load benchmark samples from JSON."""
 
+    dataset_path = Path(dataset_path)
+
+    with dataset_path.open("r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    if isinstance(data, dict):
+        data = data.get("samples", data.get("data", data))
+
+    if not isinstance(data, list):
+        raise ValueError(
+            "Benchmark dataset must be a JSON list or contain "
+            "'samples'/'data'."
+        )
+
+    return [
+        BenchmarkSample(
+            query=item["query"],
+            t_event=item.get("t_event"),
+            gold_doc_ids=item.get("gold_doc_ids"),
+            gold_chunk_ids=item.get("gold_chunk_ids"),
+            gold_answer=item.get("gold_answer"),
+            gold_citation_doc_ids=item.get(
+                "gold_citation_doc_ids"
+            ),
+        )
+        for item in data
+    ]
+
+# ---------------------------------------------------------------------------
+# Benchmark system interface
+# ---------------------------------------------------------------------------
 
 class BenchmarkSystem(ABC):
+    """Common interface for all benchmark systems."""
 
     name: str
 
@@ -29,75 +65,26 @@ class BenchmarkSystem(ABC):
     def run(
         self,
         sample: BenchmarkSample,
+        top_k: int,
     ) -> SystemOutput:
-        """Run the system for one evaluation sample."""
-        raise NotImplementedError
+        """Run one benchmark sample."""
 
-
-# ============================================================================
-# Utility
-# ============================================================================
-
-
-def _extract_doc_id(
-    item: Dict[str, Any],
-) -> Any:
-
-    return (
-        item.get("doc_id")
-        or item.get("logical_doc_id")
-    )
-
-
-def _extract_chunk_id(
-    item: Dict[str, Any],
-) -> Any:
-
-    return item.get("chunk_id")
-
-
-def _normalize_retrieved_chunks(
-    items: List[Dict[str, Any]],
-) -> tuple[List[str], List[str]]:
-
-    doc_ids: List[str] = []
-    chunk_ids: List[str] = []
-
-    for item in items:
-
-        doc_id = _extract_doc_id(item)
-        chunk_id = _extract_chunk_id(item)
-
-        if doc_id is not None:
-            doc_ids.append(str(doc_id))
-
-        if chunk_id is not None:
-            chunk_ids.append(str(chunk_id))
-
-    return doc_ids, chunk_ids
-
-
-# ============================================================================
+# ---------------------------------------------------------------------------
 # BM25
-# ============================================================================
-
+# ---------------------------------------------------------------------------
 
 class BM25Adapter(BenchmarkSystem):
+    """Adapter around BM25Baseline."""
 
-    name = "bm25"
+    name = "BM25"
 
-    def __init__(
-        self,
-        retriever: Any,
-        top_k: int = 5,
-    ) -> None:
-
+    def __init__(self, retriever: Any):
         self.retriever = retriever
-        self.top_k = top_k
 
     def run(
         self,
         sample: BenchmarkSample,
+        top_k: int,
     ) -> SystemOutput:
 
         start = time.perf_counter()
@@ -105,52 +92,54 @@ class BM25Adapter(BenchmarkSystem):
         results = self.retriever.retrieve(
             query=sample.query,
             t_event=sample.t_event,
-            top_k=self.top_k,
+            top_k=top_k,
         )
 
-        latency = (
-            time.perf_counter()
-            - start
-        )
+        latency = time.perf_counter() - start
 
-        doc_ids, chunk_ids = (
-            _normalize_retrieved_chunks(
-                results
+        retrieved_doc_ids: List[str] = []
+        retrieved_chunk_ids: List[str] = []
+
+        for item in results:
+            doc_id = (
+                item.get("doc_id")
+                or item.get("logical_doc_id")
             )
-        )
+
+            chunk_id = item.get("chunk_id")
+
+            if doc_id:
+                retrieved_doc_ids.append(doc_id)
+
+            if chunk_id:
+                retrieved_chunk_ids.append(chunk_id)
 
         return SystemOutput(
             system_name=self.name,
-            retrieved_doc_ids=doc_ids,
-            retrieved_chunk_ids=chunk_ids,
+            retrieved_doc_ids=retrieved_doc_ids,
+            retrieved_chunk_ids=retrieved_chunk_ids,
             latency_seconds=latency,
             metadata={
                 "retrieval_method": "bm25",
             },
         )
 
-
-# ============================================================================
+# ---------------------------------------------------------------------------
 # Naive Flat RAG
-# ============================================================================
-
+# ---------------------------------------------------------------------------
 
 class NaiveRAGAdapter(BenchmarkSystem):
+    """Adapter around NaiveRAGBaseline."""
 
-    name = "naive_rag"
+    name = "Naive Flat RAG"
 
-    def __init__(
-        self,
-        rag_system: Any,
-        top_k: int = 5,
-    ) -> None:
-
+    def __init__(self, rag_system: Any):
         self.rag_system = rag_system
-        self.top_k = top_k
 
     def run(
         self,
         sample: BenchmarkSample,
+        top_k: int,
     ) -> SystemOutput:
 
         start = time.perf_counter()
@@ -158,221 +147,355 @@ class NaiveRAGAdapter(BenchmarkSystem):
         result = self.rag_system.run(
             query=sample.query,
             t_event=sample.t_event,
-            top_k=self.top_k,
+            top_k=top_k,
         )
 
-        latency = (
-            time.perf_counter()
-            - start
-        )
+        latency = time.perf_counter() - start
 
-        retrieved = result.get(
+        if not isinstance(result, dict):
+            raise TypeError(
+                "NaiveRAGBaseline.run() must return a dictionary."
+            )
+
+        retrieved_chunks = result.get(
             "retrieved_chunks",
             [],
         )
 
-        doc_ids, chunk_ids = (
-            _normalize_retrieved_chunks(
-                retrieved
+        retrieved_doc_ids: List[str] = []
+        retrieved_chunk_ids: List[str] = []
+
+        for item in retrieved_chunks:
+            if not isinstance(item, dict):
+                continue
+
+            doc_id = (
+                item.get("doc_id")
+                or item.get("logical_doc_id")
             )
-        )
+
+            chunk_id = item.get("chunk_id")
+
+            if doc_id:
+                retrieved_doc_ids.append(doc_id)
+
+            if chunk_id:
+                retrieved_chunk_ids.append(chunk_id)
 
         return SystemOutput(
             system_name=self.name,
-            answer=result.get(
-                "answer",
-                "",
-            ),
-            retrieved_doc_ids=doc_ids,
-            retrieved_chunk_ids=chunk_ids,
-            cited_doc_ids=result.get(
-                "cited_doc_ids",
-                [],
-            ),
-            cited_chunk_ids=result.get(
-                "cited_chunk_ids",
-                [],
-            ),
+            answer=result.get("answer", ""),
+            retrieved_doc_ids=retrieved_doc_ids,
+            retrieved_chunk_ids=retrieved_chunk_ids,
+            cited_doc_ids=result.get("cited_doc_ids"),
+            cited_chunk_ids=result.get("cited_chunk_ids"),
             latency_seconds=latency,
             metadata={
-                "retrieval_method": "naive_flat_rag",
+                "retrieval_method": "flat_vector",
             },
         )
 
-
-# ============================================================================
-# Current partial VERITAS-RAG
-# ============================================================================
-
+# ---------------------------------------------------------------------------
+# VERITAS-RAG
+# ---------------------------------------------------------------------------
 
 class VeritasAdapter(BenchmarkSystem):
+    """
+    Adapter for the current VERITAS-RAG pipeline.
 
-    name = "veritas_rag"
+    Current flow:
+        TemporalRetriever
+            ↓
+        LegalGeneratorAgent
+
+    Optional future components:
+        HARTValidator
+        LineageTracer
+    """
+
+    name = "VERITAS-RAG"
 
     def __init__(
         self,
         retriever: Any,
         generator: Any,
-        top_k: int = 5,
-        hart_validator: Any = None,
-        lineage_tracer: Any = None,
-    ) -> None:
-
+        hart_validator: Optional[Any] = None,
+        lineage_tracer: Optional[Any] = None,
+    ):
         self.retriever = retriever
         self.generator = generator
-        self.top_k = top_k
 
-        # Future Thesis components.
+        # These remain None during the current Seminar implementation.
         self.hart_validator = hart_validator
         self.lineage_tracer = lineage_tracer
 
     def run(
         self,
         sample: BenchmarkSample,
+        top_k: int,
     ) -> SystemOutput:
 
         start = time.perf_counter()
 
-        # --------------------------------------------------------------
-        # 1. Temporal / Gold retrieval
-        # --------------------------------------------------------------
+        # ---------------------------------------------------------------
+        # 1. Temporal retrieval
+        # ---------------------------------------------------------------
 
-        retrieved = self.retriever.retrieve(
+        evidences = self.retriever.retrieve(
             query=sample.query,
             t_event=sample.t_event,
-            top_k=self.top_k,
+            top_k=top_k,
         )
 
-        doc_ids, chunk_ids = (
-            _normalize_retrieved_chunks(
-                retrieved
+        # ---------------------------------------------------------------
+        # 2. Grounded generation
+        # ---------------------------------------------------------------
+
+        generated = self.generator.generate(
+            query=sample.query,
+            evidences=evidences,
+            t_event=sample.t_event,
+        )
+
+        answer = ""
+        cited_doc_ids: Optional[List[str]] = None
+        cited_chunk_ids: Optional[List[str]] = None
+        metadata: Dict[str, Any] = {}
+
+        if isinstance(generated, str):
+            answer = generated
+
+        elif isinstance(generated, dict):
+            answer = generated.get(
+                "answer",
+                generated.get("answer_text", ""),
             )
-        )
 
-        # --------------------------------------------------------------
-        # 2. Generation
-        # --------------------------------------------------------------
+            cited_doc_ids = generated.get(
+                "cited_doc_ids"
+            )
 
-        generation_result = self.generator.generate(
-            query=sample.query,
-            evidences=retrieved,
-            t_event=sample.t_event,
-        )
+            cited_chunk_ids = generated.get(
+                "cited_chunk_ids"
+            )
 
-        if isinstance(
-            generation_result,
-            str,
-        ):
-            answer = generation_result
-            cited_doc_ids = []
-            cited_chunk_ids = []
+            metadata.update(
+                generated.get("metadata", {})
+            )
 
         else:
-            answer = generation_result.get(
-                "answer",
-                generation_result.get(
-                    "answer_text",
-                    "",
-                ),
+            # Support the current GeneratedAnswer-style object.
+            answer = getattr(
+                generated,
+                "answer_text",
+                "",
             )
 
-            cited_doc_ids = generation_result.get(
-                "cited_doc_ids",
+            citations = getattr(
+                generated,
+                "citations",
                 [],
             )
 
-            cited_chunk_ids = generation_result.get(
-                "cited_chunk_ids",
-                [],
-            )
+            cited_doc_ids = []
 
-        # --------------------------------------------------------------
-        # 3. HART — currently skipped
-        # --------------------------------------------------------------
+            cited_chunk_ids = []
+
+            for citation in citations:
+                doc_id = getattr(
+                    citation,
+                    "logical_doc_id",
+                    None,
+                )
+
+                chunk_id = getattr(
+                    citation,
+                    "chunk_id",
+                    None,
+                )
+
+                if doc_id:
+                    cited_doc_ids.append(doc_id)
+
+                if chunk_id:
+                    cited_chunk_ids.append(chunk_id)
+
+        # ---------------------------------------------------------------
+        # 3. Normalize retrieved evidence
+        # ---------------------------------------------------------------
+
+        retrieved_doc_ids: List[str] = []
+        retrieved_chunk_ids: List[str] = []
+
+        for item in evidences:
+            if isinstance(item, dict):
+                doc_id = (
+                    item.get("logical_doc_id")
+                    or item.get("doc_id")
+                )
+
+                chunk_id = item.get("chunk_id")
+
+            else:
+                doc_id = getattr(
+                    item,
+                    "logical_doc_id",
+                    None,
+                )
+
+                if doc_id is None:
+                    doc_id = getattr(
+                        item,
+                        "doc_id",
+                        None,
+                    )
+
+                chunk_id = getattr(
+                    item,
+                    "chunk_id",
+                    None,
+                )
+
+            if doc_id:
+                retrieved_doc_ids.append(doc_id)
+
+            if chunk_id:
+                retrieved_chunk_ids.append(chunk_id)
+
+        # ---------------------------------------------------------------
+        # 4. Optional HART
+        # ---------------------------------------------------------------
 
         hart_result = None
 
         if self.hart_validator is not None:
-            hart_result = (
-                self.hart_validator.validate(
-                    answer=answer,
-                    evidences=retrieved,
-                )
+            hart_result = self.hart_validator.validate(
+                query=sample.query,
+                answer=answer,
+                evidences=evidences,
             )
 
-        # --------------------------------------------------------------
-        # 4. Lineage — currently skipped
-        # --------------------------------------------------------------
+            metadata["hart_enabled"] = True
+
+        else:
+            metadata["hart_enabled"] = False
+
+        # ---------------------------------------------------------------
+        # 5. Optional lineage
+        # ---------------------------------------------------------------
 
         lineage_records = None
 
         if self.lineage_tracer is not None:
-            lineage_records = (
-                self.lineage_tracer.trace(
-                    answer=answer,
-                    evidences=retrieved,
-                )
+            lineage_records = self.lineage_tracer.trace(
+                evidences=evidences,
+                citations=cited_chunk_ids,
             )
 
-        # --------------------------------------------------------------
-        # 5. Runtime
-        # --------------------------------------------------------------
+            metadata["lineage_enabled"] = True
 
-        latency = (
-            time.perf_counter()
-            - start
-        )
+        else:
+            metadata["lineage_enabled"] = False
+
+        latency = time.perf_counter() - start
 
         return SystemOutput(
             system_name=self.name,
             answer=answer,
-            retrieved_doc_ids=doc_ids,
-            retrieved_chunk_ids=chunk_ids,
+            retrieved_doc_ids=retrieved_doc_ids,
+            retrieved_chunk_ids=retrieved_chunk_ids,
             cited_doc_ids=cited_doc_ids,
             cited_chunk_ids=cited_chunk_ids,
             lineage_records=lineage_records,
             hart_result=hart_result,
             latency_seconds=latency,
-            metadata={
-                "retrieval_method": "veritas_temporal",
-                "hart_enabled": (
-                    self.hart_validator is not None
-                ),
-                "lineage_enabled": (
-                    self.lineage_tracer is not None
-                ),
-            },
+            metadata=metadata,
         )
 
+# ---------------------------------------------------------------------------
+# System construction
+# ---------------------------------------------------------------------------
 
-# ============================================================================
+def build_systems(
+    lakehouse_manager: Any,
+    enable_veritas: bool = True,
+) -> List[BenchmarkSystem]:
+    """
+    Build benchmark systems from the existing project components.
+    """
+
+    from src.baselines.bm25_baseline import BM25Baseline
+    from src.baselines.naive_rag_baseline import NaiveRAGBaseline
+
+    systems: List[BenchmarkSystem] = []
+
+    # ---------------------------------------------------------------
+    # BM25
+    # ---------------------------------------------------------------
+
+    bm25 = BM25Baseline(
+        lakehouse_manager=lakehouse_manager
+    )
+
+    systems.append(
+        BM25Adapter(bm25)
+    )
+
+    # ---------------------------------------------------------------
+    # Naive Flat RAG
+    # ---------------------------------------------------------------
+
+    naive_rag = NaiveRAGBaseline(
+        lakehouse_manager=lakehouse_manager
+    )
+
+    systems.append(
+        NaiveRAGAdapter(naive_rag)
+    )
+
+    # ---------------------------------------------------------------
+    # VERITAS-RAG
+    # ---------------------------------------------------------------
+
+    if enable_veritas:
+
+        from src.rag.temporal_retriever import TemporalRetriever
+        from src.rag.generator_agent import LegalGeneratorAgent
+
+        temporal_retriever = TemporalRetriever(
+            lakehouse_manager=lakehouse_manager
+        )
+
+        generator = LegalGeneratorAgent()
+
+        systems.append(
+            VeritasAdapter(
+                retriever=temporal_retriever,
+                generator=generator,
+
+                # Current Seminar:
+                # HART and Lineage are not implemented yet.
+                hart_validator=None,
+                lineage_tracer=None,
+            )
+        )
+
+    return systems
+
+# ---------------------------------------------------------------------------
 # Benchmark execution
-# ============================================================================
-
+# ---------------------------------------------------------------------------
 
 def run_system(
     system: BenchmarkSystem,
     samples: List[BenchmarkSample],
-) -> Dict[str, Any]:
-
-    print(
-        f"\n{'=' * 70}"
-    )
-
-    print(
-        f"Running: {system.name}"
-    )
-
-    print(
-        f"{'=' * 70}"
-    )
+    top_k: int,
+) -> List[SystemOutput]:
+    """Run one system over all benchmark samples."""
 
     outputs: List[SystemOutput] = []
 
-    for index, sample in enumerate(
-        samples,
-        start=1,
-    ):
+    for index, sample in enumerate(samples, start=1):
 
         print(
             f"[{system.name}] "
@@ -380,318 +503,242 @@ def run_system(
         )
 
         output = system.run(
-            sample
+            sample=sample,
+            top_k=top_k,
         )
 
-        outputs.append(
-            output
-        )
+        outputs.append(output)
 
-    metrics = evaluate_system(
-        samples,
-        outputs,
+    return outputs
+
+def benchmark_system(
+    system: BenchmarkSystem,
+    samples: List[BenchmarkSample],
+    top_k: int,
+) -> Dict[str, Any]:
+    """Run and evaluate one system."""
+
+    outputs = run_system(
+        system=system,
+        samples=samples,
+        top_k=top_k,
     )
 
-    return {
-        "system": system.name,
-        "metrics": metrics,
-        "outputs": outputs,
-    }
-
-
-# ============================================================================
-# Build systems
-# ============================================================================
-
-
-def build_systems(
-    lakehouse_manager: Any,
-    *,
-    enable_veritas: bool = True,
-) -> List[BenchmarkSystem]:
-
-    from src.baselines.bm25_baseline import (
-        BM25Baseline,
+    evaluation = evaluate_system(
+        outputs=outputs,
+        samples=samples,
+        recall_k=top_k,
     )
 
-    from src.baselines.naive_rag_baseline import (
-        NaiveRAGBaseline,
-    )
-
-    # --------------------------------------------------------------
-    # BM25
-    # --------------------------------------------------------------
-
-    bm25 = BM25Baseline(
-        lakehouse_manager=lakehouse_manager,
-    )
-
-    # --------------------------------------------------------------
-    # Naive Flat RAG
-    # --------------------------------------------------------------
-
-    naive_rag = NaiveRAGBaseline(
-        lakehouse_manager=lakehouse_manager,
-    )
-
-    systems: List[BenchmarkSystem] = [
-        BM25Adapter(
-            retriever=bm25,
-            top_k=5,
-        ),
-
-        NaiveRAGAdapter(
-            rag_system=naive_rag,
-            top_k=5,
-        ),
+    evaluation["outputs"] = [
+        {
+            "query": sample.query,
+            "t_event": sample.t_event,
+            "answer": output.answer,
+            "retrieved_doc_ids": output.retrieved_doc_ids,
+            "retrieved_chunk_ids": output.retrieved_chunk_ids,
+            "cited_doc_ids": output.cited_doc_ids,
+            "cited_chunk_ids": output.cited_chunk_ids,
+            "latency_seconds": output.latency_seconds,
+            "metadata": output.metadata,
+        }
+        for sample, output in zip(samples, outputs)
     ]
 
-    # --------------------------------------------------------------
-    # VERITAS
-    # --------------------------------------------------------------
+    return evaluation
 
-    if enable_veritas:
-
-        from src.rag.temporal_retriever import (
-            TemporalRetriever,
-        )
-
-        from src.rag.generator_agent import (
-            LegalGeneratorAgent,
-        )
-
-        temporal_retriever = (
-            TemporalRetriever(
-                lakehouse_manager=lakehouse_manager,
-            )
-        )
-
-        generator = LegalGeneratorAgent()
-
-        veritas = VeritasAdapter(
-            retriever=temporal_retriever,
-            generator=generator,
-
-            # Seminar:
-            # HART not implemented yet.
-            hart_validator=None,
-
-            # Seminar:
-            # Lineage not implemented yet.
-            lineage_tracer=None,
-
-            top_k=5,
-        )
-
-        systems.append(
-            veritas
-        )
-
-    return systems
-
-
-# ============================================================================
-# Benchmark comparison table
-# ============================================================================
-
+# ---------------------------------------------------------------------------
+# Comparison
+# ---------------------------------------------------------------------------
 
 def build_comparison(
-    results: List[Dict[str, Any]],
-) -> Dict[str, Dict[str, Any]]:
+    evaluations: Dict[str, Dict[str, Any]],
+) -> Dict[str, Any]:
+    """
+    Build a cross-system comparison.
 
-    comparison: Dict[str, Dict[str, Any]] = {}
+    Metrics that are not supported by a system remain null.
+    """
 
-    for result in results:
+    comparison: Dict[str, Any] = {
+        "systems": {},
+        "pipeline_overhead": {},
+    }
 
-        comparison[
-            result["system"]
-        ] = result["metrics"]
+    for system_name, evaluation in evaluations.items():
+
+        comparison["systems"][system_name] = (
+            evaluation.get("metrics", {})
+        )
+
+    # ---------------------------------------------------------------
+    # Pipeline overhead
+    # ---------------------------------------------------------------
+
+    latencies = {
+        name: evaluation.get(
+            "metrics",
+            {},
+        ).get("average_latency_seconds")
+        for name, evaluation in evaluations.items()
+    }
+
+    veritas_latency = latencies.get("VERITAS-RAG")
+
+    baseline_latencies = {
+        name: latency
+        for name, latency in latencies.items()
+        if name != "VERITAS-RAG"
+        and latency is not None
+    }
+
+    comparison["pipeline_overhead"]["veritas_vs_baselines"] = {}
+
+    if veritas_latency is not None:
+        for baseline_name, baseline_latency in baseline_latencies.items():
+            comparison["pipeline_overhead"][
+                "veritas_vs_baselines"
+            ][baseline_name] = calculate_pipeline_overhead(
+                system_latency=veritas_latency,
+                baseline_latency=baseline_latency,
+            )
 
     return comparison
 
-# ============================================================================
+# ---------------------------------------------------------------------------
 # CLI
-# ============================================================================
+# ---------------------------------------------------------------------------
 
 def main() -> None:
 
     parser = argparse.ArgumentParser(
         description=(
-            "Run BM25, Naive Flat RAG and "
+            "Run the BM25, Naive Flat RAG, and "
             "VERITAS-RAG benchmark."
         )
     )
 
     parser.add_argument(
         "--dataset",
-        type=Path,
         required=True,
-        help=(
-            "Evaluation dataset JSON."
-        ),
+        help="Path to benchmark dataset JSON.",
     )
 
     parser.add_argument(
         "--output-dir",
-        type=Path,
-        default=Path(
-            "results/seminar"
-        ),
-        help=(
-            "Directory for benchmark results."
-        ),
+        default="results/seminar",
+        help="Directory for benchmark results.",
+    )
+
+    parser.add_argument(
+        "--top-k",
+        type=int,
+        default=5,
+        help="Retrieval top-k.",
     )
 
     parser.add_argument(
         "--skip-veritas",
         action="store_true",
-        help=(
-            "Run only BM25 and Naive RAG."
-        ),
+        help="Skip VERITAS-RAG.",
     )
 
     args = parser.parse_args()
 
-    # --------------------------------------------------------------
-    # Dataset
-    # --------------------------------------------------------------
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    samples = load_evaluation_dataset(
+    # ---------------------------------------------------------------
+    # Load benchmark data
+    # ---------------------------------------------------------------
+
+    samples = load_dataset(
         args.dataset
     )
 
     print(
-        f"Loaded {len(samples)} "
-        f"evaluation samples."
+        f"Loaded {len(samples)} benchmark samples."
     )
 
-    # --------------------------------------------------------------
+    # ---------------------------------------------------------------
     # Lakehouse
-    # --------------------------------------------------------------
+    # ---------------------------------------------------------------
 
-    from src.database.lakehouse_manager import (
-        LakehouseManager,
-    )
+    from src.database.lakehouse_manager import LakehouseManager
 
-    lakehouse = LakehouseManager()
+    lakehouse_manager = LakehouseManager()
 
-    # --------------------------------------------------------------
-    # Systems
-    # --------------------------------------------------------------
+    # ---------------------------------------------------------------
+    # Build systems
+    # ---------------------------------------------------------------
 
     systems = build_systems(
-        lakehouse_manager=lakehouse,
-        enable_veritas=(
-            not args.skip_veritas
-        ),
+        lakehouse_manager=lakehouse_manager,
+        enable_veritas=not args.skip_veritas,
     )
 
-    # --------------------------------------------------------------
-    # Run
-    # --------------------------------------------------------------
+    # ---------------------------------------------------------------
+    # Run benchmark
+    # ---------------------------------------------------------------
 
-    all_results: List[
-        Dict[str, Any]
-    ] = []
+    evaluations: Dict[str, Dict[str, Any]] = {}
 
     for system in systems:
 
-        result = run_system(
-            system,
-            samples,
+        print()
+        print("=" * 70)
+        print(f"Running: {system.name}")
+        print("=" * 70)
+
+        evaluation = benchmark_system(
+            system=system,
+            samples=samples,
+            top_k=args.top_k,
         )
 
-        all_results.append(
-            result
+        evaluations[system.name] = evaluation
+
+        filename = (
+            system.name
+            .lower()
+            .replace(" ", "_")
+            .replace("-", "_")
+            + "_results.json"
         )
 
-        output_path = (
-            args.output_dir
-            / f"{system.name}_results.json"
+        save_json(
+            evaluation,
+            output_dir / filename,
         )
 
-        save_system_result(
-            system_name=system.name,
-            metrics=result["metrics"],
-            outputs=result["outputs"],
-            path=output_path,
-        )
-
-        print(
-            f"\nSaved: {output_path}"
-        )
-
-    # --------------------------------------------------------------
+    # ---------------------------------------------------------------
     # Comparison
-    # --------------------------------------------------------------
+    # ---------------------------------------------------------------
 
     comparison = build_comparison(
-        all_results
-    )
-
-    comparison_path = (
-        args.output_dir
-        / "comparison.json"
+        evaluations
     )
 
     save_json(
         comparison,
-        comparison_path,
+        output_dir / "comparison.json",
     )
+
+    print()
+    print("=" * 70)
+    print("Benchmark completed.")
+    print("=" * 70)
 
     print(
-        f"\nSaved comparison: "
-        f"{comparison_path}"
-    )
-
-    # --------------------------------------------------------------
-    # Console summary
-    # --------------------------------------------------------------
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "BENCHMARK SUMMARY"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    metric_names = [
-        "temporal_validity_accuracy",
-        "invalid_citation_rate",
-        "retrieval_recall_at_k",
-        "answer_faithfulness",
-        "lineage_traceability",
-        "average_latency_seconds",
-    ]
-
-    for system_name, metrics in comparison.items():
-
-        print(
-            f"\n{system_name}"
+        json.dumps(
+            comparison,
+            ensure_ascii=False,
+            indent=2,
         )
-
-        for metric_name in metric_names:
-
-            value = metrics.get(
-                metric_name
-            )
-
-            if value is None:
-                print(
-                    f"  {metric_name}: N/A"
-                )
-            else:
-                print(
-                    f"  {metric_name}: "
-                    f"{value:.4f}"
-                )
-
+    )
 
 if __name__ == "__main__":
     main()
