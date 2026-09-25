@@ -1,6 +1,7 @@
 from typing import Any, Dict, List
 
 from src.contracts.models import (
+    ContractIssue,
     DocumentMetadata,
     DocumentRelation,
 )
@@ -44,7 +45,7 @@ class CrossDocumentTemporalValidator:
 
             document_map[metadata.doc_id] = metadata
 
-        violations = []
+        violations: List[ContractIssue] = []
 
         for raw_relation in relations:
 
@@ -68,48 +69,70 @@ class CrossDocumentTemporalValidator:
             )
 
             if source is None:
-                violations.append({
-                    "code": "SOURCE_DOCUMENT_MISSING",
-                    "source_doc_id": relation.source_doc_id,
-                    "target_doc_id": relation.target_doc_id,
-                })
+                violations.append(
+                    ContractIssue(
+                        layer="temporal",
+                        code="SOURCE_DOCUMENT_MISSING",
+                        message="Source document is missing.",
+                        details={
+                            "source_doc_id": relation.source_doc_id,
+                            "target_doc_id": relation.target_doc_id,
+                        },
+                    )
+                )
                 continue
 
             if target is None:
-                violations.append({
-                    "code": "TARGET_DOCUMENT_MISSING",
-                    "source_doc_id": relation.source_doc_id,
-                    "target_doc_id": relation.target_doc_id,
-                })
+                violations.append(
+                    ContractIssue(
+                        layer="temporal",
+                        code="TARGET_DOCUMENT_MISSING",
+                        message="Target document is missing.",
+                        details={
+                            "source_doc_id": relation.source_doc_id,
+                            "target_doc_id": relation.target_doc_id,
+                        },
+                    )
+                )
                 continue
 
             if (
                 relation_rules.issued_after_target
                 and source.issued_date <= target.issued_date
             ):
-                violations.append({
-                    "code": "INVALID_ISSUANCE_ORDER",
-                    "source_doc_id": source.doc_id,
-                    "target_doc_id": target.doc_id,
-                    "message": (
-                        "Related document must be issued "
-                        "after the target document."
-                    ),
-                })
+                violations.append(
+                    ContractIssue(
+                        layer="temporal",
+                        code="INVALID_ISSUANCE_ORDER",
+                        message=(
+                            "Related document must be issued "
+                            "after the target document."
+                        ),
+                        details={
+                            "source_doc_id": source.doc_id,
+                            "target_doc_id": target.doc_id,
+                        },
+                    )
+                )
 
             if (
                 relation_rules.effective_after_target
                 and source.effective_from <= target.effective_from
             ):
-                violations.append({
-                    "code": "INVALID_EFFECTIVE_ORDER",
-                    "source_doc_id": source.doc_id,
-                    "target_doc_id": target.doc_id,
-                    "message": (
-                        "Related document must become effective "
-                        "after the target document."
-                    ),
-                })
+                violations.append(
+                    ContractIssue(
+                        layer="temporal",
+                        code="INVALID_EFFECTIVE_ORDER",
+                        message=(
+                            "Related document must become effective "
+                            "after the target document."
+                        ),
+                        details={
+                            "source_doc_id": source.doc_id,
+                            "target_doc_id": target.doc_id,
+                        },
+                    )
+                )
 
         return {
             "status": (

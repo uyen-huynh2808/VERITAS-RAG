@@ -15,6 +15,7 @@ from run_eval import (
     save_json,
 )
 
+
 # ---------------------------------------------------------------------------
 # Dataset
 # ---------------------------------------------------------------------------
@@ -30,7 +31,10 @@ def load_dataset(
         data = json.load(file)
 
     if isinstance(data, dict):
-        data = data.get("samples", data.get("data", data))
+        data = data.get(
+            "samples",
+            data.get("data", data),
+        )
 
     if not isinstance(data, list):
         raise ValueError(
@@ -52,6 +56,7 @@ def load_dataset(
         for item in data
     ]
 
+
 # ---------------------------------------------------------------------------
 # Benchmark system interface
 # ---------------------------------------------------------------------------
@@ -68,6 +73,8 @@ class BenchmarkSystem(ABC):
         top_k: int,
     ) -> SystemOutput:
         """Run one benchmark sample."""
+        raise NotImplementedError
+
 
 # ---------------------------------------------------------------------------
 # BM25
@@ -124,6 +131,7 @@ class BM25Adapter(BenchmarkSystem):
             },
         )
 
+
 # ---------------------------------------------------------------------------
 # Naive Flat RAG
 # ---------------------------------------------------------------------------
@@ -144,23 +152,24 @@ class NaiveRAGAdapter(BenchmarkSystem):
 
         start = time.perf_counter()
 
-        result = self.rag_system.run(
+        retrieved_chunks = self.rag_system.retrieve(
             query=sample.query,
             t_event=sample.t_event,
             top_k=top_k,
         )
 
+        generated = self.rag_system.generate_answer(
+            query=sample.query,
+            retrieved_chunks=retrieved_chunks,
+        )
+
         latency = time.perf_counter() - start
 
-        if not isinstance(result, dict):
+        if not isinstance(generated, dict):
             raise TypeError(
-                "NaiveRAGBaseline.run() must return a dictionary."
+                "NaiveRAGBaseline.generate_answer() "
+                "must return a dictionary."
             )
-
-        retrieved_chunks = result.get(
-            "retrieved_chunks",
-            [],
-        )
 
         retrieved_doc_ids: List[str] = []
         retrieved_chunk_ids: List[str] = []
@@ -184,16 +193,24 @@ class NaiveRAGAdapter(BenchmarkSystem):
 
         return SystemOutput(
             system_name=self.name,
-            answer=result.get("answer", ""),
+            answer=generated.get(
+                "answer_text",
+                generated.get("answer", ""),
+            ),
             retrieved_doc_ids=retrieved_doc_ids,
             retrieved_chunk_ids=retrieved_chunk_ids,
-            cited_doc_ids=result.get("cited_doc_ids"),
-            cited_chunk_ids=result.get("cited_chunk_ids"),
+            cited_doc_ids=generated.get(
+                "cited_doc_ids"
+            ),
+            cited_chunk_ids=generated.get(
+                "cited_chunk_ids"
+            ),
             latency_seconds=latency,
             metadata={
                 "retrieval_method": "flat_vector",
             },
         )
+
 
 # ---------------------------------------------------------------------------
 # VERITAS-RAG
@@ -225,7 +242,6 @@ class VeritasAdapter(BenchmarkSystem):
         self.retriever = retriever
         self.generator = generator
 
-        # These remain None during the current Seminar implementation.
         self.hart_validator = hart_validator
         self.lineage_tracer = lineage_tracer
 
@@ -284,7 +300,6 @@ class VeritasAdapter(BenchmarkSystem):
             )
 
         else:
-            # Support the current GeneratedAnswer-style object.
             answer = getattr(
                 generated,
                 "answer_text",
@@ -298,7 +313,6 @@ class VeritasAdapter(BenchmarkSystem):
             )
 
             cited_doc_ids = []
-
             cited_chunk_ids = []
 
             for citation in citations:
@@ -412,6 +426,7 @@ class VeritasAdapter(BenchmarkSystem):
             metadata=metadata,
         )
 
+
 # ---------------------------------------------------------------------------
 # System construction
 # ---------------------------------------------------------------------------
@@ -433,8 +448,10 @@ def build_systems(
     # BM25
     # ---------------------------------------------------------------
 
-    bm25 = BM25Baseline(
-        lakehouse_manager=lakehouse_manager
+    bm25 = BM25Baseline()
+
+    bm25.index_from_lakehouse(
+        lakehouse_manager
     )
 
     systems.append(
@@ -445,8 +462,10 @@ def build_systems(
     # Naive Flat RAG
     # ---------------------------------------------------------------
 
-    naive_rag = NaiveRAGBaseline(
-        lakehouse_manager=lakehouse_manager
+    naive_rag = NaiveRAGBaseline()
+
+    naive_rag.index_from_lakehouse(
+        lakehouse_manager
     )
 
     systems.append(
@@ -482,6 +501,7 @@ def build_systems(
 
     return systems
 
+
 # ---------------------------------------------------------------------------
 # Benchmark execution
 # ---------------------------------------------------------------------------
@@ -510,6 +530,7 @@ def run_system(
         outputs.append(output)
 
     return outputs
+
 
 def benchmark_system(
     system: BenchmarkSystem,
@@ -546,6 +567,7 @@ def benchmark_system(
     ]
 
     return evaluation
+
 
 # ---------------------------------------------------------------------------
 # Comparison
@@ -592,7 +614,9 @@ def build_comparison(
         and latency is not None
     }
 
-    comparison["pipeline_overhead"]["veritas_vs_baselines"] = {}
+    comparison["pipeline_overhead"][
+        "veritas_vs_baselines"
+    ] = {}
 
     if veritas_latency is not None:
         for baseline_name, baseline_latency in baseline_latencies.items():
@@ -604,6 +628,7 @@ def build_comparison(
             )
 
     return comparison
+
 
 # ---------------------------------------------------------------------------
 # CLI
@@ -671,74 +696,79 @@ def main() -> None:
 
     lakehouse_manager = LakehouseManager()
 
-    # ---------------------------------------------------------------
-    # Build systems
-    # ---------------------------------------------------------------
+    try:
+        # -----------------------------------------------------------
+        # Build systems
+        # -----------------------------------------------------------
 
-    systems = build_systems(
-        lakehouse_manager=lakehouse_manager,
-        enable_veritas=not args.skip_veritas,
-    )
-
-    # ---------------------------------------------------------------
-    # Run benchmark
-    # ---------------------------------------------------------------
-
-    evaluations: Dict[str, Dict[str, Any]] = {}
-
-    for system in systems:
-
-        print()
-        print("=" * 70)
-        print(f"Running: {system.name}")
-        print("=" * 70)
-
-        evaluation = benchmark_system(
-            system=system,
-            samples=samples,
-            top_k=args.top_k,
+        systems = build_systems(
+            lakehouse_manager=lakehouse_manager,
+            enable_veritas=not args.skip_veritas,
         )
 
-        evaluations[system.name] = evaluation
+        # -----------------------------------------------------------
+        # Run benchmark
+        # -----------------------------------------------------------
 
-        filename = (
-            system.name
-            .lower()
-            .replace(" ", "_")
-            .replace("-", "_")
-            + "_results.json"
+        evaluations: Dict[str, Dict[str, Any]] = {}
+
+        for system in systems:
+
+            print()
+            print("=" * 70)
+            print(f"Running: {system.name}")
+            print("=" * 70)
+
+            evaluation = benchmark_system(
+                system=system,
+                samples=samples,
+                top_k=args.top_k,
+            )
+
+            evaluations[system.name] = evaluation
+
+            filename = (
+                system.name
+                .lower()
+                .replace(" ", "_")
+                .replace("-", "_")
+                + "_results.json"
+            )
+
+            save_json(
+                evaluation,
+                output_dir / filename,
+            )
+
+        # -----------------------------------------------------------
+        # Comparison
+        # -----------------------------------------------------------
+
+        comparison = build_comparison(
+            evaluations
         )
 
         save_json(
-            evaluation,
-            output_dir / filename,
-        )
-
-    # ---------------------------------------------------------------
-    # Comparison
-    # ---------------------------------------------------------------
-
-    comparison = build_comparison(
-        evaluations
-    )
-
-    save_json(
-        comparison,
-        output_dir / "comparison.json",
-    )
-
-    print()
-    print("=" * 70)
-    print("Benchmark completed.")
-    print("=" * 70)
-
-    print(
-        json.dumps(
             comparison,
-            ensure_ascii=False,
-            indent=2,
+            output_dir / "comparison.json",
         )
-    )
+
+        print()
+        print("=" * 70)
+        print("Benchmark completed.")
+        print("=" * 70)
+
+        print(
+            json.dumps(
+                comparison,
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+
+    finally:
+        lakehouse_manager.close()
+
 
 if __name__ == "__main__":
     main()

@@ -43,10 +43,16 @@ class DocumentChunk(BaseModel):
     not only at document level.
     """
 
+    chunk_id: str
+    article_id: str
+
     text: str
     doc_id: str
+
     page_number: int
+
     doc_version_hash: str
+    chunk_hash: str
 
     @field_validator("page_number")
     @classmethod
@@ -78,7 +84,7 @@ class DocumentRelation(BaseModel):
 
 class QualityMetrics(BaseModel):
     null_ratio: float = 0.0
-    diacritic_ratio: float = 0.0
+    diacritic_density: float = 0.0
     ocr_noise_ratio: float = 0.0
     broken_cells_ratio: float = 0.0
     missing_table_headers: bool = False

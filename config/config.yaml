@@ -2,11 +2,16 @@ system:
   seed: 42
 
 db:
-  duckdb_path: "data/silver_parquet/lakehouse.duckdb"
-  bronze_dir: "data/bronze_pdf"
-  silver_dir: "data/silver_parquet"
-  gold_dir: "data/gold_vectors"
+  duckdb_path: "data/silver/lakehouse.duckdb"
+  bronze_dir: "data/bronze"
+  silver_dir: "data/silver"
+  gold_dir: "data/gold"
   quarantine_dir: "data/quarantine"
+
+chunking:
+  article_level: true
+  max_tokens: 512
+  overlap: 64
 
 contracts:
   rules_path: "config/contract_rules.json"

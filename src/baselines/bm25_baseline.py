@@ -2,6 +2,10 @@ import logging
 import re
 from typing import Any, Dict, List, Optional
 
+from src.core.config import SystemConfig
+from src.core.interfaces import BaseRetriever
+
+
 logger = logging.getLogger(__name__)
 
 
@@ -64,14 +68,18 @@ def tokenize_vietnamese_text(text: str) -> List[str]:
         )
         return words.split()
 
-    return re.findall(r"\w+", cleaned_text, flags=re.UNICODE)
+    return re.findall(
+        r"\w+",
+        cleaned_text,
+        flags=re.UNICODE,
+    )
 
 
 # ---------------------------------------------------------------------------
 # BM25 baseline
 # ---------------------------------------------------------------------------
 
-class BM25Baseline:
+class BM25Baseline(BaseRetriever):
     """
     Standard BM25 lexical retrieval baseline.
 
@@ -87,9 +95,12 @@ class BM25Baseline:
 
     def __init__(
         self,
+        config: Optional[SystemConfig] = None,
         k1: float = 1.5,
         b: float = 0.75,
     ):
+        super().__init__(config=config)
+
         if BM25Okapi is None:
             raise ImportError(
                 "The 'rank_bm25' package is required to run the BM25 "
@@ -130,7 +141,10 @@ class BM25Baseline:
             self.bm25_index = None
             return
 
-        self.corpus_chunks = [dict(chunk) for chunk in chunks]
+        self.corpus_chunks = [
+            dict(chunk)
+            for chunk in chunks
+        ]
 
         self.tokenized_corpus = [
             tokenize_vietnamese_text(
@@ -184,7 +198,11 @@ class BM25Baseline:
             """
         )
 
-        columns = [description[0] for description in cursor.description]
+        columns = [
+            description[0]
+            for description in cursor.description
+        ]
+
         rows = cursor.fetchall()
 
         chunks = [
@@ -202,8 +220,8 @@ class BM25Baseline:
     def retrieve(
         self,
         query: str,
-        top_k: int = 5,
         t_event: Optional[str] = None,
+        top_k: int = 5,
     ) -> List[Dict[str, Any]]:
         """
         Retrieve the top-k chunks using lexical BM25 scoring.
@@ -212,12 +230,12 @@ class BM25Baseline:
             query:
                 User query.
 
-            top_k:
-                Number of chunks to return.
-
             t_event:
                 Accepted for interface compatibility with temporal
                 retrievers, but intentionally ignored by this baseline.
+
+            top_k:
+                Number of chunks to return.
 
         Returns:
             Ranked chunk dictionaries with an additional `score` field.
@@ -242,7 +260,9 @@ class BM25Baseline:
         if not tokenized_query:
             return []
 
-        scores = self.bm25_index.get_scores(tokenized_query)
+        scores = self.bm25_index.get_scores(
+            tokenized_query
+        )
 
         scored_results: List[Dict[str, Any]] = []
 
@@ -250,7 +270,10 @@ class BM25Baseline:
             if score <= 0:
                 continue
 
-            chunk = dict(self.corpus_chunks[index])
+            chunk = dict(
+                self.corpus_chunks[index]
+            )
+
             chunk["score"] = float(score)
             chunk["retrieval_method"] = "bm25_baseline"
 

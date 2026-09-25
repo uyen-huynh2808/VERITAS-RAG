@@ -40,7 +40,7 @@
 
   "quality_contract": {
     "max_null_ratio": 0.05,
-    "min_diacritic_ratio": 0.85,
+    "min_diacritic_density": 0.10,
     "max_ocr_noise_ratio": 0.02,
 
     "table_integrity": {
@@ -54,6 +54,7 @@
     "hash_algorithm": "sha256",
     "require_storage_path": true,
     "require_document_hash": true,
+    "require_article_id": true,
     "require_chunk_page_number": true,
     "require_chunk_hash": true
   }

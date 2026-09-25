@@ -11,7 +11,7 @@ class QualityMetricsCalculator:
     """
 
     OCR_NOISE_PATTERN = re.compile(
-        r"[^\w\sÀ-ỹ.,;:!?%(){}\[\]\"'“”‘’\-+/=*#|<>]"
+        r"[^\w\sÀ-ỹ.,;:!?%(){}\[\]\"'“”‘’\-+/=\*#|<>]"
     )
 
     VIETNAMESE_DIACRITIC_PATTERN = re.compile(
@@ -33,7 +33,7 @@ class QualityMetricsCalculator:
 
         metrics = {
             "null_ratio": cls._null_ratio(content),
-            "diacritic_ratio": cls._diacritic_ratio(
+            "diacritic_density": cls._diacritic_density(
                 content
             ),
             "ocr_noise_ratio": cls._ocr_noise_ratio(
@@ -43,7 +43,7 @@ class QualityMetricsCalculator:
                 content
             ),
             "missing_table_headers": (
-                cls._missing_table_headers(content)
+                cls._missing_table_headers(tables)
             ),
             "merged_cell_issues": (
                 cls._merged_cell_issues(tables)
@@ -70,17 +70,18 @@ class QualityMetricsCalculator:
         return null_count / len(content)
 
     @classmethod
-    def _diacritic_ratio(
+    def _diacritic_density(
         cls,
         content: str
     ) -> float:
         """
-        Proxy metric for Vietnamese diacritic integrity.
+        Proxy metric for Vietnamese diacritic presence.
 
         Measures the proportion of alphabetic characters that
         belong to the Vietnamese character set containing
-        diacritics. This is not a ground-truth text preservation
-        accuracy measure.
+        diacritics. This metric reflects diacritic density in
+        the extracted text and is not a ground-truth measure
+        of OCR diacritic preservation.
         """
 
         letters = [
@@ -161,27 +162,28 @@ class QualityMetricsCalculator:
 
     @staticmethod
     def _missing_table_headers(
-        content: str
+        tables: Optional[List[Dict[str, Any]]]
     ) -> bool:
+        """
+        Only validate headers when structured tables actually exist.
+        """
+        if not tables:
+            return False
 
-        lines = content.splitlines()
-
-        for i in range(
-            len(lines) - 1
-        ):
-            if "|" not in lines[i]:
+        for table in tables:
+            cells = table.get("cells", [])
+            if not cells:
                 continue
 
-            if re.match(
-                r"^\s*\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?\s*$",
-                lines[i + 1],
-            ):
-                return False
+            has_header = any(
+                cell.get("row", 1) == 0
+                for cell in cells
+            )
 
-        return any(
-            "|" in line
-            for line in lines
-        )
+            if not has_header:
+                return True
+
+        return False
 
     @staticmethod
     def _merged_cell_issues(

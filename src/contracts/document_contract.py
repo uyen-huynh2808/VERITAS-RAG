@@ -38,6 +38,26 @@ class ExecutableDocumentContract(
     Layer 2: Temporal
     Layer 3: Quality
     Layer 4: Provenance
+
+    Validation is enforced across the Medallion lifecycle
+    through multiple checkpoints.
+
+    Pre-parse:
+        Schema + document-level provenance
+
+    Bronze:
+        Schema + document-level provenance
+        (revalidated after Bronze persistence)
+
+    Silver:
+        Temporal + Quality
+
+    Gold:
+        Chunk-level provenance + final integrity
+
+    The contract remains one executable four-layer contract.
+    The layers are enforced at different pipeline checkpoints
+    according to the data lifecycle.
     """
 
     def __init__(
@@ -266,18 +286,18 @@ class ExecutableDocumentContract(
             )
 
         if (
-            metrics.diacritic_ratio
-            < rules.min_diacritic_ratio
+            metrics.diacritic_density
+            < rules.min_diacritic_density
         ):
             issues.append(
                 ContractIssue(
                     layer="quality",
-                    code="DIACRITIC_RATIO_LOW",
+                    code="DIACRITIC_DENSITY_LOW",
                     message=(
-                        f"diacritic_ratio="
-                        f"{metrics.diacritic_ratio:.4f} "
+                        f"diacritic_density="
+                        f"{metrics.diacritic_density:.4f} "
                         f"< "
-                        f"{rules.min_diacritic_ratio:.4f}"
+                        f"{rules.min_diacritic_density:.4f}"
                     ),
                 )
             )
@@ -356,12 +376,9 @@ class ExecutableDocumentContract(
     # Layer 4 — Provenance
     # ========================================================
 
-    def _validate_provenance(
+    def _validate_document_provenance(
         self,
         metadata: DocumentMetadata,
-        chunks: Optional[
-            List[Dict[str, Any]]
-        ],
     ) -> tuple[
         Optional[str],
         List[ContractIssue]
@@ -401,12 +418,23 @@ class ExecutableDocumentContract(
             )
             return None, issues
 
-        actual_hash = (
-            self._compute_hash(
+        try:
+            actual_hash = self._compute_hash(
                 storage_path,
                 rules.hash_algorithm,
             )
-        )
+        except (
+            OSError,
+            ValueError,
+        ) as exc:
+            issues.append(
+                ContractIssue(
+                    layer="provenance",
+                    code="SOURCE_HASH_FAILED",
+                    message=str(exc),
+                )
+            )
+            return None, issues
 
         if rules.require_document_hash:
             if not metadata.doc_version_hash:
@@ -415,12 +443,14 @@ class ExecutableDocumentContract(
                         layer="provenance",
                         code="DOCUMENT_HASH_MISSING",
                         message=(
-                            "doc_version_hash is required "
-                            "by the provenance contract."
+                            "doc_version_hash is required."
                         ),
                     )
                 )
-            elif metadata.doc_version_hash.lower() != actual_hash:
+            elif (
+                metadata.doc_version_hash.lower()
+                != actual_hash
+            ):
                 issues.append(
                     ContractIssue(
                         layer="provenance",
@@ -432,30 +462,43 @@ class ExecutableDocumentContract(
                     )
                 )
 
-        if rules.require_chunk_page_number:
-            if not chunks:
-                issues.append(
-                    ContractIssue(
-                        layer="provenance",
-                        code="CHUNKS_MISSING",
-                        message=(
-                            "Chunk-level provenance "
-                            "is required."
-                        ),
-                    )
-                )
-
-            else:
-                issues.extend(
-                    self._validate_chunks(
-                        chunks,
-                        metadata.doc_id,
-                        actual_hash,
-                        rules.require_chunk_hash,
-                    )
-                )
-
         return actual_hash, issues
+
+    def _validate_chunk_provenance(
+        self,
+        metadata: DocumentMetadata,
+        chunks: Optional[
+            List[Dict[str, Any]]
+        ],
+        actual_hash: str,
+    ) -> List[ContractIssue]:
+
+        rules = (
+            self.rules
+            .provenance_contract
+        )
+
+        if not rules.require_chunk_page_number:
+            return []
+
+        if not chunks:
+            return [
+                ContractIssue(
+                    layer="provenance",
+                    code="CHUNKS_MISSING",
+                    message=(
+                        "Chunk-level provenance "
+                        "is required."
+                    ),
+                )
+            ]
+
+        return self._validate_chunks(
+            chunks,
+            metadata.doc_id,
+            actual_hash,
+            rules.require_chunk_hash,
+        )
 
     @staticmethod
     def _compute_hash(
@@ -490,7 +533,7 @@ class ExecutableDocumentContract(
         require_hash: bool,
     ) -> List[ContractIssue]:
 
-        issues = []
+        issues: List[ContractIssue] = []
 
         for index, raw_chunk in enumerate(
             chunks
@@ -523,10 +566,44 @@ class ExecutableDocumentContract(
                     issues.append(
                         ContractIssue(
                             layer="provenance",
+                            code="CHUNK_DOCUMENT_HASH_MISMATCH",
+                            message=(
+                                f"Chunk {index} references a different "
+                                f"document version."
+                            ),
+                        )
+                    )
+
+                # ------------------------------------------------
+                # Canonical chunk hash
+                #
+                # Must match chunk_builder.py exactly:
+                #   chunk_id
+                #   doc_version_hash
+                #   text
+                # ------------------------------------------------
+                payload = (
+                    f"chunk_id={chunk.chunk_id}\n"
+                    f"doc_version_hash={chunk.doc_version_hash}\n"
+                    f"text={chunk.text}"
+                )
+
+                computed_chunk_hash = hashlib.sha256(
+                    payload.encode("utf-8")
+                ).hexdigest()
+
+                if (
+                    require_hash
+                    and chunk.chunk_hash.lower()
+                    != computed_chunk_hash
+                ):
+                    issues.append(
+                        ContractIssue(
+                            layer="provenance",
                             code="CHUNK_HASH_MISMATCH",
                             message=(
-                                f"Chunk {index} has "
-                                f"incorrect document hash."
+                                f"Chunk {index} has an invalid "
+                                f"content hash."
                             ),
                         )
                     )
@@ -546,7 +623,662 @@ class ExecutableDocumentContract(
         return issues
 
     # ========================================================
-    # Main document-level validation
+    # Pre-parse checkpoint
+    # ========================================================
+
+    def validate_pre_parse(
+        self,
+        metadata: Dict[str, Any],
+    ) -> Dict[str, Any]:
+        """
+        Validate the document before parsing.
+
+        Enforced layers:
+            - Schema
+            - Document-level Provenance
+
+        A failure at this checkpoint means the document must be
+        quarantined and must not enter Bronze.
+        """
+
+        report = ContractReport(
+            status="PASSED",
+            timestamp=datetime.now(
+                timezone.utc
+            ).isoformat(),
+            doc_id=metadata.get(
+                "doc_id"
+            ),
+        )
+
+        schema_result = (
+            self.validate_metadata(
+                metadata
+            )
+        )
+
+        if (
+            schema_result["status"]
+            == "QUARANTINE"
+        ):
+
+            report.status = "QUARANTINE"
+            report.layer_status[
+                "schema"
+            ] = "FAILED"
+
+            report.layer_status[
+                "provenance"
+            ] = "NOT_CHECKED"
+
+            report.issues.extend(
+                schema_result["issues"]
+            )
+
+            self._write_quarantine_report(
+                report
+            )
+
+            return report.model_dump()
+
+        report.layer_status[
+            "schema"
+        ] = "PASSED"
+
+        normalized_metadata = (
+            DocumentMetadata.model_validate(
+                schema_result["metadata"]
+            )
+        )
+
+        actual_hash, provenance_issues = (
+            self._validate_document_provenance(
+                normalized_metadata
+            )
+        )
+
+        report.layer_status[
+            "provenance"
+        ] = (
+            "FAILED"
+            if provenance_issues
+            else "PASSED"
+        )
+
+        report.computed_doc_version_hash = (
+            actual_hash
+        )
+
+        report.issues.extend(
+            provenance_issues
+        )
+
+        if report.issues:
+            report.status = "QUARANTINE"
+
+            self._write_quarantine_report(
+                report
+            )
+
+        return report.model_dump()
+
+    # ========================================================
+    # Bronze checkpoint
+    # ========================================================
+
+    def validate_bronze(
+        self,
+        metadata: Dict[str, Any],
+    ) -> Dict[str, Any]:
+        """
+        Validate data after Bronze materialization.
+
+        Enforced layers:
+            - Schema
+            - Document-level Provenance
+
+        This checkpoint verifies that the persisted Bronze
+        representation still satisfies the document-level
+        contract.
+
+        Temporal and Quality validation are intentionally
+        deferred to the Silver checkpoint because Bronze
+        remains a parsed, near-raw representation.
+        """
+
+        report = ContractReport(
+            status="PASSED",
+            timestamp=datetime.now(
+                timezone.utc
+            ).isoformat(),
+            doc_id=metadata.get(
+                "doc_id"
+            ),
+        )
+
+        schema_result = (
+            self.validate_metadata(
+                metadata
+            )
+        )
+
+        if (
+            schema_result["status"]
+            == "QUARANTINE"
+        ):
+
+            report.status = "QUARANTINE"
+            report.layer_status[
+                "schema"
+            ] = "FAILED"
+
+            report.layer_status[
+                "provenance"
+            ] = "NOT_CHECKED"
+
+            report.issues.extend(
+                schema_result["issues"]
+            )
+
+            self._write_quarantine_report(
+                report
+            )
+
+            return report.model_dump()
+
+        report.layer_status[
+            "schema"
+        ] = "PASSED"
+
+        normalized_metadata = (
+            DocumentMetadata.model_validate(
+                schema_result["metadata"]
+            )
+        )
+
+        actual_hash, provenance_issues = (
+            self._validate_document_provenance(
+                normalized_metadata
+            )
+        )
+
+        report.layer_status[
+            "provenance"
+        ] = (
+            "FAILED"
+            if provenance_issues
+            else "PASSED"
+        )
+
+        report.computed_doc_version_hash = (
+            actual_hash
+        )
+
+        report.issues.extend(
+            provenance_issues
+        )
+
+        if report.issues:
+            report.status = "QUARANTINE"
+
+            self._write_quarantine_report(
+                report
+            )
+
+        return report.model_dump()
+
+    # ========================================================
+    # Silver checkpoint
+    # ========================================================
+
+    def validate_silver(
+        self,
+        metadata: Dict[str, Any],
+        content: str,
+        tables: Optional[
+            List[Dict[str, Any]]
+        ] = None,
+    ) -> Dict[str, Any]:
+        """
+        Validate the normalized Silver representation.
+
+        Enforced layers:
+            - Temporal
+            - Quality
+
+        Chunk-level provenance is intentionally not evaluated
+        here because chunks do not yet exist.
+
+        A failure means the document must not be promoted
+        from Silver to Gold.
+        """
+
+        report = ContractReport(
+            status="PASSED",
+            timestamp=datetime.now(
+                timezone.utc
+            ).isoformat(),
+            doc_id=metadata.get(
+                "doc_id"
+            ),
+        )
+
+        schema_result = (
+            self.validate_metadata(
+                metadata
+            )
+        )
+
+        if (
+            schema_result["status"]
+            == "QUARANTINE"
+        ):
+
+            report.status = "QUARANTINE"
+            report.layer_status[
+                "schema"
+            ] = "FAILED"
+
+            report.layer_status[
+                "temporal"
+            ] = "NOT_CHECKED"
+
+            report.layer_status[
+                "quality"
+            ] = "NOT_CHECKED"
+
+            report.issues.extend(
+                schema_result["issues"]
+            )
+
+            self._write_quarantine_report(
+                report
+            )
+
+            return report.model_dump()
+
+        normalized_metadata = (
+            DocumentMetadata.model_validate(
+                schema_result["metadata"]
+            )
+        )
+
+        report.layer_status[
+            "schema"
+        ] = "PASSED"
+
+        # ----------------------------------------------------
+        # Layer 2 — Temporal
+        # ----------------------------------------------------
+
+        temporal_issues = (
+            self._validate_temporal(
+                normalized_metadata
+            )
+        )
+
+        report.layer_status[
+            "temporal"
+        ] = (
+            "FAILED"
+            if temporal_issues
+            else "PASSED"
+        )
+
+        report.issues.extend(
+            temporal_issues
+        )
+
+        # ----------------------------------------------------
+        # Layer 3 — Quality
+        # ----------------------------------------------------
+
+        quality_metrics, quality_issues = (
+            self._validate_quality(
+                content,
+                tables=tables,
+            )
+        )
+
+        report.quality_metrics = (
+            quality_metrics
+        )
+
+        report.layer_status[
+            "quality"
+        ] = (
+            "FAILED"
+            if quality_issues
+            else "PASSED"
+        )
+
+        report.issues.extend(
+            quality_issues
+        )
+
+        if report.issues:
+            report.status = "QUARANTINE"
+
+            self._write_quarantine_report(
+                report
+            )
+
+        return report.model_dump()
+
+    # ========================================================
+    # Gold checkpoint
+    # ========================================================
+
+    def validate_gold(
+        self,
+        metadata: Dict[str, Any],
+        chunks: List[Dict[str, Any]],
+    ) -> Dict[str, Any]:
+        """
+        Validate the final Gold-ready chunks.
+
+        Enforced layer:
+            - Chunk-level Provenance
+
+        Gold is the first checkpoint at which chunk-level
+        provenance can be evaluated because chunks are created
+        only after Silver normalization.
+
+        A failure means the chunks must not be materialized
+        as trusted Gold data.
+        """
+
+        report = ContractReport(
+            status="PASSED",
+            timestamp=datetime.now(
+                timezone.utc
+            ).isoformat(),
+            doc_id=metadata.get(
+                "doc_id"
+            ),
+        )
+
+        # ----------------------------------------------------
+        # Schema normalization
+        # ----------------------------------------------------
+
+        schema_result = (
+            self.validate_metadata(
+                metadata
+            )
+        )
+
+        if (
+            schema_result["status"]
+            == "QUARANTINE"
+        ):
+
+            report.status = "QUARANTINE"
+
+            report.layer_status[
+                "schema"
+            ] = "FAILED"
+
+            report.layer_status[
+                "provenance"
+            ] = "NOT_CHECKED"
+
+            report.issues.extend(
+                schema_result["issues"]
+            )
+
+            self._write_quarantine_report(
+                report
+            )
+
+            return report.model_dump()
+
+        normalized_metadata = (
+            DocumentMetadata.model_validate(
+                schema_result["metadata"]
+            )
+        )
+
+        report.layer_status[
+            "schema"
+        ] = "PASSED"
+
+        # ----------------------------------------------------
+        # Layer 4 — Document Provenance
+        #
+        # Re-check the source document before validating
+        # chunk-level provenance.
+        # ----------------------------------------------------
+
+        actual_hash, document_provenance_issues = (
+            self._validate_document_provenance(
+                normalized_metadata
+            )
+        )
+
+        report.computed_doc_version_hash = (
+            actual_hash
+        )
+
+        report.issues.extend(
+            document_provenance_issues
+        )
+
+        if document_provenance_issues:
+            report.layer_status[
+                "provenance"
+            ] = "FAILED"
+
+        elif actual_hash is not None:
+            chunk_provenance_issues = (
+                self._validate_chunk_provenance(
+                    normalized_metadata,
+                    chunks,
+                    actual_hash,
+                )
+            )
+
+            report.issues.extend(
+                chunk_provenance_issues
+            )
+
+            report.layer_status[
+                "provenance"
+            ] = (
+                "FAILED"
+                if chunk_provenance_issues
+                else "PASSED"
+            )
+
+        else:
+            report.layer_status[
+                "provenance"
+            ] = "FAILED"
+
+        # ----------------------------------------------------
+        # Final Gold decision
+        # ----------------------------------------------------
+
+        if report.issues:
+            report.status = "QUARANTINE"
+
+            self._write_quarantine_report(
+                report
+            )
+
+        return report.model_dump()
+
+    # ========================================================
+    # Compatibility: post-parse checkpoint
+    # ========================================================
+
+    def validate_post_parse(
+        self,
+        metadata: Dict[str, Any],
+        content: str,
+        chunks: Optional[
+            List[Dict[str, Any]]
+        ] = None,
+        tables: Optional[
+            List[Dict[str, Any]]
+        ] = None,
+    ) -> Dict[str, Any]:
+        """
+        Backward-compatible post-parse validation.
+
+        The new pipeline should NOT use this method as its main
+        orchestration checkpoint.
+
+        New orchestration should use:
+
+            validate_pre_parse()
+            validate_bronze()
+            validate_silver()
+            validate_gold()
+
+        This compatibility method preserves the previous
+        behavior for existing callers that still expect a
+        single post-parse validation step.
+        """
+
+        report = ContractReport(
+            status="PASSED",
+            timestamp=datetime.now(
+                timezone.utc
+            ).isoformat(),
+            doc_id=metadata.get(
+                "doc_id"
+            ),
+        )
+
+        schema_result = (
+            self.validate_metadata(
+                metadata
+            )
+        )
+
+        if (
+            schema_result["status"]
+            == "QUARANTINE"
+        ):
+
+            report.status = "QUARANTINE"
+            report.layer_status[
+                "schema"
+            ] = "FAILED"
+
+            report.issues.extend(
+                schema_result["issues"]
+            )
+
+            self._write_quarantine_report(
+                report
+            )
+
+            return report.model_dump()
+
+        normalized_metadata = (
+            DocumentMetadata.model_validate(
+                schema_result["metadata"]
+            )
+        )
+
+        report.layer_status[
+            "schema"
+        ] = "PASSED"
+
+        temporal_issues = (
+            self._validate_temporal(
+                normalized_metadata
+            )
+        )
+
+        report.layer_status[
+            "temporal"
+        ] = (
+            "FAILED"
+            if temporal_issues
+            else "PASSED"
+        )
+
+        report.issues.extend(
+            temporal_issues
+        )
+
+        quality_metrics, quality_issues = (
+            self._validate_quality(
+                content,
+                tables=tables,
+            )
+        )
+
+        report.quality_metrics = (
+            quality_metrics
+        )
+
+        report.layer_status[
+            "quality"
+        ] = (
+            "FAILED"
+            if quality_issues
+            else "PASSED"
+        )
+
+        report.issues.extend(
+            quality_issues
+        )
+
+        actual_hash, document_provenance_issues = (
+            self._validate_document_provenance(
+                normalized_metadata
+            )
+        )
+
+        report.layer_status[
+            "provenance"
+        ] = (
+            "FAILED"
+            if document_provenance_issues
+            else "PASSED"
+        )
+
+        report.computed_doc_version_hash = (
+            actual_hash
+        )
+
+        report.issues.extend(
+            document_provenance_issues
+        )
+
+        if actual_hash is not None:
+            chunk_provenance_issues = (
+                self._validate_chunk_provenance(
+                    normalized_metadata,
+                    chunks,
+                    actual_hash,
+                )
+            )
+
+            report.issues.extend(
+                chunk_provenance_issues
+            )
+
+            if chunk_provenance_issues:
+                report.layer_status[
+                    "provenance"
+                ] = "FAILED"
+
+        if report.issues:
+            report.status = "QUARANTINE"
+
+            self._write_quarantine_report(
+                report
+            )
+
+        return report.model_dump()
+
+    # ========================================================
+    # Full contract validation
     # ========================================================
 
     def validate(
@@ -560,6 +1292,19 @@ class ExecutableDocumentContract(
             List[Dict[str, Any]]
         ] = None,
     ) -> Dict[str, Any]:
+        """
+        Execute the complete four-layer contract.
+
+        This method is retained for compatibility with callers
+        that need full validation in one call.
+
+        The Medallion-aware pipeline should normally use:
+
+            validate_pre_parse()
+            validate_bronze()
+            validate_silver()
+            validate_gold()
+        """
 
         report = ContractReport(
             status="PASSED",
@@ -664,10 +1409,9 @@ class ExecutableDocumentContract(
         # Layer 4 — Provenance
         # ----------------------------------------------------
 
-        actual_hash, provenance_issues = (
-            self._validate_provenance(
-                normalized_metadata,
-                chunks,
+        actual_hash, document_provenance_issues = (
+            self._validate_document_provenance(
+                normalized_metadata
             )
         )
 
@@ -675,7 +1419,7 @@ class ExecutableDocumentContract(
             "provenance"
         ] = (
             "FAILED"
-            if provenance_issues
+            if document_provenance_issues
             else "PASSED"
         )
 
@@ -684,8 +1428,26 @@ class ExecutableDocumentContract(
         )
 
         report.issues.extend(
-            provenance_issues
+            document_provenance_issues
         )
+
+        if actual_hash is not None:
+            chunk_provenance_issues = (
+                self._validate_chunk_provenance(
+                    normalized_metadata,
+                    chunks,
+                    actual_hash,
+                )
+            )
+
+            report.issues.extend(
+                chunk_provenance_issues
+            )
+
+            if chunk_provenance_issues:
+                report.layer_status[
+                    "provenance"
+                ] = "FAILED"
 
         # ----------------------------------------------------
         # Final decision

@@ -54,8 +54,13 @@ class BaseParser(ABC):
     @abstractmethod
     def parse(
         self,
-        pdf_path: str,
-    ) -> Dict[str, Any]:
+        parts_paths: List[str],
+        logical_doc_id: str,
+    ) -> Any:
+        """
+        Parse a logical legal document that may consist
+        of one or multiple physical PDF parts.
+        """
         raise NotImplementedError
 
 

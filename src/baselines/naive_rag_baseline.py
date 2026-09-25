@@ -3,6 +3,9 @@ from typing import Any, Dict, List, Optional
 
 import numpy as np
 
+from src.core.config import SystemConfig
+from src.core.interfaces import BaseRetriever
+
 
 logger = logging.getLogger(__name__)
 
@@ -48,6 +51,7 @@ def cosine_similarity_matrix(
     a_norm = a / (
         np.linalg.norm(a, axis=1, keepdims=True) + 1e-10
     )
+
     b_norm = b / (
         np.linalg.norm(b, axis=1, keepdims=True) + 1e-10
     )
@@ -59,7 +63,7 @@ def cosine_similarity_matrix(
 # Naive Flat RAG baseline
 # ---------------------------------------------------------------------------
 
-class NaiveRAGBaseline:
+class NaiveRAGBaseline(BaseRetriever):
     """
     Naive Flat RAG baseline using dense vector retrieval and direct LLM
     generation.
@@ -77,10 +81,13 @@ class NaiveRAGBaseline:
 
     def __init__(
         self,
+        config: Optional[SystemConfig] = None,
         model_name: str = "BAAI/bge-m3",
         embedding_dim: int = 1024,
         llm_client: Optional[Any] = None,
     ):
+        super().__init__(config=config)
+
         self.model_name = model_name
         self.embedding_dim = embedding_dim
         self.llm_client = llm_client
@@ -98,7 +105,9 @@ class NaiveRAGBaseline:
             )
 
         try:
-            self.embedder = SentenceTransformer(self.model_name)
+            self.embedder = SentenceTransformer(
+                self.model_name
+            )
 
             logger.info(
                 "Initialized SentenceTransformer with model: %s",
@@ -207,9 +216,13 @@ class NaiveRAGBaseline:
                 for chunk in self.corpus_chunks
             ]
 
-            self.corpus_embeddings = self.encode_texts(texts)
+            self.corpus_embeddings = self.encode_texts(
+                texts
+            )
 
-        if len(self.corpus_embeddings) != len(self.corpus_chunks):
+        if len(self.corpus_embeddings) != len(
+            self.corpus_chunks
+        ):
             raise ValueError(
                 "Number of embeddings does not match number of chunks."
             )
@@ -275,8 +288,8 @@ class NaiveRAGBaseline:
     def retrieve(
         self,
         query: str,
-        top_k: int = 5,
         t_event: Optional[str] = None,
+        top_k: int = 5,
     ) -> List[Dict[str, Any]]:
         """
         Retrieve top-k chunks using cosine similarity.
@@ -317,16 +330,24 @@ class NaiveRAGBaseline:
         # query_vector contains exactly one query.
         scores = similarity_matrix[0]
 
-        top_k = min(top_k, len(scores))
+        top_k = min(
+            top_k,
+            len(scores),
+        )
 
         top_indices = np.argsort(scores)[::-1][:top_k]
 
         results: List[Dict[str, Any]] = []
 
         for index in top_indices:
-            chunk = dict(self.corpus_chunks[index])
+            chunk = dict(
+                self.corpus_chunks[index]
+            )
 
-            chunk["score"] = float(scores[index])
+            chunk["score"] = float(
+                scores[index]
+            )
+
             chunk["retrieval_method"] = (
                 "naive_flat_rag_dense"
             )
@@ -374,7 +395,9 @@ class NaiveRAGBaseline:
                 )
             )
 
-        context_str = "\n\n".join(context_blocks)
+        context_str = "\n\n".join(
+            context_blocks
+        )
 
         prompt = (
             "Dựa vào các đoạn văn bản dưới đây, "
@@ -390,7 +413,10 @@ class NaiveRAGBaseline:
             )
 
             if isinstance(response, dict):
-                answer_text = response.get("text", "")
+                answer_text = response.get(
+                    "text",
+                    "",
+                )
             else:
                 answer_text = str(response)
 
