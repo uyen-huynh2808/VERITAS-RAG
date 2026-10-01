@@ -1,440 +1,187 @@
-import logging
-from typing import Any, Dict, List, Optional
+from __future__ import annotations
 
+from dataclasses import dataclass
+from pathlib import Path
+from typing import List, Optional
+
+import faiss
 import numpy as np
-
-from src.core.config import SystemConfig
-from src.core.interfaces import BaseRetriever
-
-
-logger = logging.getLogger(__name__)
+import pandas as pd
+from FlagEmbedding import BGEM3FlagModel
 
 
-# ---------------------------------------------------------------------------
-# Optional dependency
-# ---------------------------------------------------------------------------
+# ============================================================
+# Data classes
+# ============================================================
 
-try:
-    from sentence_transformers import SentenceTransformer
+@dataclass
+class RetrievedChunk:
+    chunk_id: str
+    article_id: str
+    logical_doc_id: str
+    text: str
+    global_page: int
+    score: float
+    effective_from: Optional[str] = None
+    effective_to: Optional[str] = None
 
-    HAS_SENTENCE_TRANSFORMERS = True
-except ImportError:
-    SentenceTransformer = None
-    HAS_SENTENCE_TRANSFORMERS = False
-    logger.warning(
-        "Library 'sentence-transformers' is not installed. "
-        "Dense embedding retrieval will not be available."
-    )
 
+# ============================================================
+# Naive Dense RAG Retriever
+# ============================================================
 
-# ---------------------------------------------------------------------------
-# Utility
-# ---------------------------------------------------------------------------
-
-def cosine_similarity_matrix(
-    a: np.ndarray,
-    b: np.ndarray,
-) -> np.ndarray:
+class NaiveDenseRetriever:
     """
-    Compute pairwise cosine similarity between two sets of vectors.
+    Baseline 2: Dense Retrieval using BGE-M3 + FAISS.
 
-    Args:
-        a: Shape (M, D)
-        b: Shape (N, D)
+    Input
+    -----
+    gold_chunks.parquet
 
-    Returns:
-        Similarity matrix of shape (M, N).
-    """
-    if a.size == 0 or b.size == 0:
-        return np.empty((0, 0), dtype=np.float32)
+    Output
+    ------
+    Top-K RetrievedChunk
 
-    a_norm = a / (
-        np.linalg.norm(a, axis=1, keepdims=True) + 1e-10
-    )
-
-    b_norm = b / (
-        np.linalg.norm(b, axis=1, keepdims=True) + 1e-10
-    )
-
-    return np.dot(a_norm, b_norm.T)
-
-
-# ---------------------------------------------------------------------------
-# Naive Flat RAG baseline
-# ---------------------------------------------------------------------------
-
-class NaiveRAGBaseline(BaseRetriever):
-    """
-    Naive Flat RAG baseline using dense vector retrieval and direct LLM
-    generation.
-
-    This baseline intentionally does NOT perform:
-    - contract validation
-    - temporal as-of filtering
-    - HART verification
-    - lineage tracing
-    - article-level temporal reasoning
-
-    It represents a standard flat RAG pipeline:
-        chunks -> embeddings -> cosine retrieval -> LLM generation
+    Notes
+    -----
+    - Dense embedding
+    - Flat retrieval
+    - No temporal filtering
+    - No contracts
     """
 
     def __init__(
         self,
-        config: Optional[SystemConfig] = None,
-        model_name: str = "BAAI/bge-m3",
-        embedding_dim: int = 1024,
-        llm_client: Optional[Any] = None,
+        gold_path: str | Path,
+        embedding_model: str = "BAAI/bge-m3",
+        use_fp16: bool = False,
     ):
-        super().__init__(config=config)
 
-        self.model_name = model_name
-        self.embedding_dim = embedding_dim
-        self.llm_client = llm_client
+        self.gold_path = Path(gold_path)
 
-        self.embedder: Optional[Any] = None
+        self.df = pd.read_parquet(self.gold_path)
 
-        self.corpus_chunks: List[Dict[str, Any]] = []
-        self.corpus_embeddings: Optional[np.ndarray] = None
+        self.texts = (
+            self.df["text_content"]
+            .fillna("")
+            .astype(str)
+            .tolist()
+        )
 
-        if not HAS_SENTENCE_TRANSFORMERS:
-            raise ImportError(
-                "The 'sentence-transformers' package is required to run "
-                "the Naive Flat RAG baseline. "
-                "Install it with: pip install sentence-transformers"
-            )
+        self.model = BGEM3FlagModel(
+            embedding_model,
+            use_fp16=use_fp16,
+        )
 
-        try:
-            self.embedder = SentenceTransformer(
-                self.model_name
-            )
+        self.index = None
 
-            logger.info(
-                "Initialized SentenceTransformer with model: %s",
-                self.model_name,
-            )
+        self._build_index()
 
-        except Exception as exc:
-            raise RuntimeError(
-                f"Failed to load embedding model '{self.model_name}'."
-            ) from exc
-
-    # ------------------------------------------------------------------
+    # --------------------------------------------------------
     # Embedding
-    # ------------------------------------------------------------------
+    # --------------------------------------------------------
 
-    def encode_texts(
+    def _encode(
         self,
         texts: List[str],
     ) -> np.ndarray:
-        """
-        Encode text strings into dense embeddings using BGE-M3.
-        """
-        if not texts:
-            return np.empty(
-                (0, self.embedding_dim),
-                dtype=np.float32,
-            )
 
-        embeddings = self.embedder.encode(
+        output = self.model.encode(
             texts,
-            show_progress_bar=False,
-            convert_to_numpy=True,
+            batch_size=16,
+            max_length=512,
         )
 
-        return np.asarray(
-            embeddings,
-            dtype=np.float32,
-        )
+        embeddings = output["dense_vecs"]
 
-    # ------------------------------------------------------------------
-    # Indexing
-    # ------------------------------------------------------------------
+        embeddings = embeddings.astype("float32")
 
-    def index_documents(
-        self,
-        chunks: List[Dict[str, Any]],
-    ) -> None:
-        """
-        Index flat legal-document chunks.
+        faiss.normalize_L2(embeddings)
 
-        Expected fields include:
-            chunk_id
-            article_id
-            logical_doc_id
-            physical_file_id
-            file_path
-            part_no
-            physical_page
-            global_page
-            text_content
-        """
-        if not chunks:
-            logger.warning(
-                "Naive Flat RAG indexer received an empty chunk list."
-            )
+        return embeddings
 
-            self.corpus_chunks = []
-            self.corpus_embeddings = None
-            return
+    # --------------------------------------------------------
+    # Build FAISS index
+    # --------------------------------------------------------
 
-        self.corpus_chunks = [
-            dict(chunk)
-            for chunk in chunks
-        ]
+    def _build_index(self):
 
-        # Reuse pre-computed Gold embeddings when every chunk has one.
-        has_all_embeddings = all(
-            chunk.get("embedding") is not None
-            and len(chunk.get("embedding")) > 0
-            for chunk in self.corpus_chunks
-        )
+        embeddings = self._encode(self.texts)
 
-        if has_all_embeddings:
-            logger.info(
-                "Using pre-computed embeddings for %d chunks.",
-                len(self.corpus_chunks),
-            )
+        dimension = embeddings.shape[1]
 
-            self.corpus_embeddings = np.asarray(
-                [
-                    chunk["embedding"]
-                    for chunk in self.corpus_chunks
-                ],
-                dtype=np.float32,
-            )
+        self.index = faiss.IndexFlatIP(dimension)
 
-        else:
-            logger.info(
-                "Encoding %d chunks using %s.",
-                len(self.corpus_chunks),
-                self.model_name,
-            )
+        self.index.add(embeddings)
 
-            texts = [
-                chunk.get("text_content", "")
-                for chunk in self.corpus_chunks
-            ]
-
-            self.corpus_embeddings = self.encode_texts(
-                texts
-            )
-
-        if len(self.corpus_embeddings) != len(
-            self.corpus_chunks
-        ):
-            raise ValueError(
-                "Number of embeddings does not match number of chunks."
-            )
-
-    def index_from_lakehouse(
-        self,
-        lakehouse_manager: Any,
-    ) -> None:
-        """
-        Load Gold chunks from DuckDB and build the flat dense index.
-
-        No temporal filtering is applied because this is an intentionally
-        non-temporal baseline.
-        """
-        cursor = lakehouse_manager.conn.execute(
-            """
-            SELECT
-                chunk_id,
-                article_id,
-                logical_doc_id,
-                physical_file_id,
-                file_path,
-                part_no,
-                physical_page,
-                global_page,
-                chunk_index,
-                text_content,
-                embedding,
-                issued_date,
-                effective_from,
-                effective_to,
-                status,
-                metadata_json
-            FROM gold_chunks
-            WHERE text_content IS NOT NULL
-              AND text_content <> '';
-            """
-        )
-
-        columns = [
-            description[0]
-            for description in cursor.description
-        ]
-
-        rows = cursor.fetchall()
-
-        chunks = [
-            dict(zip(columns, row))
-            for row in rows
-        ]
-
-        logger.info(
-            "Loaded %d Gold chunks from lakehouse.",
-            len(chunks),
-        )
-
-        self.index_documents(chunks)
-
-    # ------------------------------------------------------------------
+    # --------------------------------------------------------
     # Retrieval
-    # ------------------------------------------------------------------
+    # --------------------------------------------------------
 
     def retrieve(
         self,
         query: str,
-        t_event: Optional[str] = None,
         top_k: int = 5,
-    ) -> List[Dict[str, Any]]:
-        """
-        Retrieve top-k chunks using cosine similarity.
+    ) -> List[RetrievedChunk]:
 
-        `t_event` is intentionally ignored to preserve the definition
-        of the Naive Flat RAG baseline.
-        """
-        if t_event is not None:
-            logger.debug(
-                "Naive Flat RAG intentionally ignores t_event=%s.",
-                t_event,
-            )
+        query_embedding = self._encode([query])
 
-        if top_k <= 0:
-            return []
-
-        if (
-            not self.corpus_chunks
-            or self.corpus_embeddings is None
-            or len(self.corpus_embeddings) == 0
-        ):
-            logger.error(
-                "Naive RAG index is empty. "
-                "Call index_documents() first."
-            )
-            return []
-
-        query_vector = self.encode_texts([query])
-
-        similarity_matrix = cosine_similarity_matrix(
-            query_vector,
-            self.corpus_embeddings,
-        )
-
-        if similarity_matrix.size == 0:
-            return []
-
-        # query_vector contains exactly one query.
-        scores = similarity_matrix[0]
-
-        top_k = min(
+        scores, indices = self.index.search(
+            query_embedding,
             top_k,
-            len(scores),
         )
 
-        top_indices = np.argsort(scores)[::-1][:top_k]
+        results: List[RetrievedChunk] = []
 
-        results: List[Dict[str, Any]] = []
+        for score, idx in zip(scores[0], indices[0]):
 
-        for index in top_indices:
-            chunk = dict(
-                self.corpus_chunks[index]
+            row = self.df.iloc[int(idx)]
+
+            results.append(
+                RetrievedChunk(
+                    chunk_id=row["chunk_id"],
+                    article_id=row["article_id"],
+                    logical_doc_id=row["logical_doc_id"],
+                    text=row["text_content"],
+                    global_page=int(row["global_page"]),
+                    score=float(score),
+                    effective_from=(
+                        None
+                        if pd.isna(row["effective_from"])
+                        else row["effective_from"].isoformat()
+                    ),
+                    effective_to=(
+                        None
+                        if pd.isna(row["effective_to"])
+                        else row["effective_to"].isoformat()
+                    ),
+                )
             )
-
-            chunk["score"] = float(
-                scores[index]
-            )
-
-            chunk["retrieval_method"] = (
-                "naive_flat_rag_dense"
-            )
-
-            results.append(chunk)
 
         return results
 
-    # ------------------------------------------------------------------
-    # Generation
-    # ------------------------------------------------------------------
 
-    def generate_answer(
-        self,
-        query: str,
-        retrieved_chunks: List[Dict[str, Any]],
-    ) -> Dict[str, Any]:
-        """
-        Generate an answer directly from retrieved chunks.
+# ============================================================
+# Example
+# ============================================================
 
-        No HART verification or provenance-aware citation generation
-        is performed in this baseline.
-        """
-        if not retrieved_chunks:
-            return {
-                "query": query,
-                "answer_text": (
-                    "Không tìm thấy văn bản phù hợp "
-                    "để trả lời câu hỏi."
-                ),
-                "retrieved_chunks": [],
-                "pipeline": "naive_flat_rag_baseline",
-            }
+if __name__ == "__main__":
 
-        context_blocks = []
+    retriever = NaiveDenseRetriever(
+        gold_path="data/gold/gold_chunks.parquet"
+    )
 
-        for chunk in retrieved_chunks:
-            context_blocks.append(
-                (
-                    f"[Source: "
-                    f"{chunk.get('logical_doc_id', 'Doc')} "
-                    f"- Article "
-                    f"{chunk.get('article_id', '')}]\n"
-                    f"{chunk.get('text_content', '')}"
-                )
-            )
+    query = (
+        "Nghị định 168/2024 có hiệu lực từ ngày nào?"
+    )
 
-        context_str = "\n\n".join(
-            context_blocks
-        )
+    chunks = retriever.retrieve(
+        query=query,
+        top_k=3,
+    )
 
-        prompt = (
-            "Dựa vào các đoạn văn bản dưới đây, "
-            "hãy trả lời câu hỏi pháp lý.\n\n"
-            f"VĂN BẢN:\n{context_str}\n\n"
-            f"CÂU HỎI: {query}\n\n"
-            "CÂU TRẢ LỜI:"
-        )
-
-        if self.llm_client is not None:
-            response = self.llm_client.generate(
-                prompt=prompt,
-            )
-
-            if isinstance(response, dict):
-                answer_text = response.get(
-                    "text",
-                    "",
-                )
-            else:
-                answer_text = str(response)
-
-        else:
-            first_doc = retrieved_chunks[0].get(
-                "logical_doc_id",
-                "Văn bản",
-            )
-
-            answer_text = (
-                f"[Naive RAG Output] "
-                f"Dựa trên {first_doc}, "
-                "quy định như sau: ..."
-            )
-
-        return {
-            "query": query,
-            "answer_text": answer_text,
-            "retrieved_chunks": retrieved_chunks,
-            "pipeline": "naive_flat_rag_baseline",
-        }
+    for chunk in chunks:
+        print("=" * 80)
+        print(chunk.chunk_id)
+        print(f"Score: {chunk.score:.4f}")
+        print(chunk.text[:250])

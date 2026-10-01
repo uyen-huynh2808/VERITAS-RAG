@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Điều 13 Nghị định 238/2026/NĐ-CP đã sửa đổi khoản 1 Điều 42 Nghị định 168/2024/NĐ-CP điều chỉnh mức phạt tiền tối đa của Chủ tịch UBND cấp xã từ 5.000.000 đồng lên bao nhiêu?",
+  "answer": "Mức phạt tiền tối đa của Chủ tịch Ủy ban nhân dân cấp xã được nâng lên **37.500.000 đồng**.",
+  "latency_ms": 19783.721099985996,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:d47cf368-09fa-4fda-b950-84e0c071794d:6:0",
+      "article_id": "d47cf368-09fa-4fda-b950-84e0c071794d",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung Điều 42 \" Điều 42. Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
+      "global_page": 6,
+      "score": 0.6963537931442261,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:c0aaaf25-290e-454d-9876-031a41102c4f:65:0",
+      "article_id": "c0aaaf25-290e-454d-9876-031a41102c4f",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 5.000.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 10.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp huyện có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng;",
+      "global_page": 65,
+      "score": 0.6711935997009277,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:3e9e1265-2686-4d9b-b73b-565e8e8ddb3c:7:0",
+      "article_id": "3e9e1265-2686-4d9b-b73b-565e8e8ddb3c",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung Điều 43 \" Điều 43. Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 7.500.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 15.000.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng đồn Công an, Thủ trưởng đơn vị Cảnh sát cơ động cấp tiểu đoàn, Trưởng trạm, Đội trưởng có quyền: Phạt cảnh cáo; Phạt tiền đến 22.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 45.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng Công an cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông gồm: Trưởng phòng Hướng dẫn tuyên truyền, điều tra, giải quyết tai nạn giao thông, Trưởng phòng Hướng dẫn, đăng ký và kiểm định phương tiện, Trưởng phòng Hướng dẫn, đào tạo, sát hạch, quản lý giấy phép của người điều khiển phương tiện giao thông, Trưởng phòng Hướng dẫn tuần tra, kiểm soát giao thông đường bộ, đường sắt, Trưởng phòng Hướng",
+      "global_page": 7,
+      "score": 0.6119610667228699,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:47:1",
+      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "quy định tại điểm g, điểm h khoản 8 Điều này. Phạt tiền từ 800.000 đồng đến 1.200.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 1.600.000 đồng đến 2.400.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 4.000.000 đồng đến 8.000.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi",
+      "global_page": 47,
+      "score": 0.6058499813079834,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:3cbe5991-bb99-4560-96e6-39557b11d66f:66:0",
+      "article_id": "3cbe5991-bb99-4560-96e6-39557b11d66f",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 500.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền: Phạt cảnh cáo; Phạt tiền đến 1.500.000 đồng. Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 2.500.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 5.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng Công an cấp tỉnh bao gồm: Trưởng phòng Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Cảnh sát giao thông, Trưởng phòng Cảnh sát cơ động, Trung đoàn trưởng Trung đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c, điểm d khoản 3 Điều 3) của Nghị định này. Giám đốc Công an cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
+      "global_page": 66,
+      "score": 0.5844764709472656,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

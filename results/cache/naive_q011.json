@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Vào ngày 10/07/2026, Nghị định 238/2026/NĐ-CP đã được ký ban hành nhưng chưa đến ngày 15/08/2026. Nếu một vụ vi phạm giao thông xảy ra vào ngày này thì văn bản quy phạm pháp luật nào áp dụng để xử phạt?",
+  "answer": "Theo quy định chuyển tiếp được nêu trong cả Nghị định 168/2024/NĐ‑CP và Nghị định 238/2026/NĐ‑CP, khi một hành vi vi phạm hành chính xảy ra **trước ngày Nghị định mới có hiệu lực** thì phải áp dụng **nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm**.  \n\nNgày 10/07/2026 là ngày Nghị định 238/2026/NĐ‑CP chưa có hiệu lực (hiệu lực dự kiến từ 15/08/2026), vì vậy vụ vi phạm giao thông vào ngày này sẽ được xử phạt theo **Nghị định 168/2024/N",
+  "latency_ms": 20684.00370000745,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52:80:0",
+      "article_id": "fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Trường hợp hành vi vi phạm hành chính đang được thực hiện, thì áp dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm để xử phạt.",
+      "global_page": 80,
+      "score": 0.6746360063552856,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:21632b79-d008-427a-90c4-9e9ff6d94f93:11:0",
+      "article_id": "21632b79-d008-427a-90c4-9e9ff6d94f93",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Nơi nhận: Ban Bí thư Trung ương Đảng; Thủ tướng, các Phó Thủ tướng Chính phủ; Các bộ, cơ quan ngang bộ; HĐND, UBND các tỉnh, thành phố trực thuộc trung ương: Văn phòng Trung ương và các Ban của Đảng; Văn phòng Tổng Bí thư; Văn phòng Chủ tịch nước; Hội đồng Dân tộc và các Ủy ban của Quốc hội; Văn phòng Quốc hội; Tòa án nhân dân tối cao; Viện kiểm sát nhân dân tối cao; Kiểm toán nhà nước; Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam; Cơ quan trung ương của các tổ chức chính trị - xã hội; VPCP: BTCN, các PCN, Trợ lý TTg, các Vụ, Cục, Công báo; Lưu: VT, CN (2). pvc TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Phạm Gia Túc",
+      "global_page": 11,
+      "score": 0.6448718309402466,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:1",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm g khoản 4 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về không thực hiện đúng các nội dung thông tin đã niêm yết (tuyến đường, lịch trình, hành trình vận tải) quy định tại Điều 20 (điểm c khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lệnh vận chuyển, giấy vận tải quy định tại Điều 20 (điểm e khoản 5), Điều 21 (điểm đ khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm đ khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 2 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa nguy hiểm mà không làm sạch hoặc không bóc (xóa) biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó quy định tại Điều 23 (khoản 1) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm e khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm e khoản 2 Điều 26 của Nghị định này. Đối với những hành vi vi phạm quy định về tải trọng, khổ giới hạn của phương tiện, của đường bộ quy định tại Điều 21, Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định tại Điều 21, vừa thực hiện hành vi vi phạm quy định tại Điều 34 của Nghị định này thì bị xử phạt về từng hành vi vi phạm; đối với những hành vi vi phạm được quy định tại điểm a khoản 4, điểm a khoản 5 Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định về tổng trọng lượng (khối lượng toàn bộ)",
+      "global_page": 70,
+      "score": 0.6306829452514648,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:2",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 8), trong trường hợp cá",
+      "global_page": 69,
+      "score": 0.6208791732788086,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:1636dac6-76f9-461c-9065-062d5f508c5e:74:0",
+      "article_id": "1636dac6-76f9-461c-9065-062d5f508c5e",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "đ) Khoản 10 (trong trường hợp người vi phạm là người điều khiển phương tiện); điểm a khoản 14 (trong trường hợp người vi phạm là người điều khiển phương tiện) Điều 12; Điểm a khoản 4; điểm a, điểm b khoản 5; khoản 6; điểm b khoản 7; điểm a khoản 8; khoản 9 Điều 13; Điểm a, điểm b khoản 2; điểm a khoản 3; khoản 4 Điều 14; Điểm a, điểm đ khoản 1; điểm b, điểm c, điểm d, điểm đ khoản 2; khoản 3 Điều 16; Khoản 1; điểm a khoản 4; khoản 5; khoản 6; khoản 7; khoản 8; khoản 9 Điều 18; Khoản 2 Điều 19; Điểm b, điểm đ, điểm e, điểm h khoản 8; điểm b, điểm đ khoản 9; khoản 10; điểm a khoản 11; điểm a, điểm b, điểm d khoản 12; điểm d khoản 13; điểm i khoản 14; điểm c khoản 16; khoản 17 Điều 32; Điểm b khoản 5 Điều 34; Khoản 3 Điều 35; Các hành vi vi phạm khác quy định tại Nghị định này thuộc trường hợp thật cần thiết cần phải ngăn chặn ngay hành vi vi phạm hành chính mà nếu không tạm giữ thì sẽ gây hậu quả nghiêm trọng cho xã hội. Để bảo đảm thi hành quyết định xử phạt vi phạm hành chính hoặc để xác minh tình tiết làm căn cứ ra quyết định xử phạt, người có thẩm quyền xử phạt có thể quyết định tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm một trong các hành vi quy định tại Nghị định này theo quy định tại điểm a, điểm c khoản 1; khoản 2; khoản 6; khoản 7; khoản 8 Điều 125 của Luật Xử lý vi phạm hành chính. Khi bị tạm giữ giấy tờ theo quy định tại khoản 6 Điều 125 của Luật Xử lý vi phạm hành chính, nếu quá thời hạn hẹn đến giải quyết vụ việc vi phạm ghi trong biên bản vi phạm hành chính, người vi phạm chưa thực hiện giải quyết vụ việc vi phạm theo quy định mà vẫn tiếp tục điều khiển phương tiện hoặc đưa phương tiện ra tham gia giao thông thì bị áp dụng xử phạt như hành vi không có giấy tờ. Đối với trường hợp tại thời điểm kiểm tra, người điều khiển phương tiện không xuất trình được một, một số hoặc tất cả các giấy tờ (giấy phép lái xe, chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận còn hiệu lực của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe), giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường) theo quy định (bản giấy hoặc thông tin của các giấy tờ được tích hợp",
+      "global_page": 74,
+      "score": 0.6127594113349915,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

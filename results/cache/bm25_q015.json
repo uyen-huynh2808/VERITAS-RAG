@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Vào ngày 05/01/2025, quy định xử phạt đối với người điều khiển xe ô tô không chấp hành hiệu lệnh của đèn tín hiệu giao thông tại Nghị định 168/2024/NĐ-CP đã có hiệu lực thi hành để áp dụng hay chưa?",
+  "answer": "Có. Theo Context 1, Nghị định 168/2024/NĐ‑CP được ban hành có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025 (trừ một số quy định riêng được nêu ở khoản 2). Các quy định xử phạt vi phạm giao thông, trong đó có hành vi không chấp hành hiệu lệnh của đèn tín hiệu giao thông đối với người điều khiển xe ô tô (nêu trong Context 5), không nằm trong những ngoại lệ này. Vì vậy vào ngày",
+  "latency_ms": 23103.771800000686,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:8b606477-d050-498b-ace3-531aae4efa02:80:0",
+      "article_id": "8b606477-d050-498b-ace3-531aae4efa02",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy định tại khoản 2 Điều này. Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026; quy định tại điểm b khoản 1 Điều 32 của Nghị định này có hiệu lực thi hành theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe gắn máy.",
+      "global_page": 80,
+      "score": 38.30917910448142,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 36.29734370453113,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
+      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
+      "global_page": 77,
+      "score": 32.339316824706124,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:575a8070-43d4-499b-b4c0-5b369a16560d:12:0",
+      "article_id": "575a8070-43d4-499b-b4c0-5b369a16560d",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy vi phạm quy tắc giao thông đường bộ Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, trừ các hành vi vi phạm quy định tại điểm b, điểm d, điểm e khoản 2; điểm a, điểm c, điểm d, điểm h khoản 3; điểm a, điểm b, điểm c, điểm d khoản 4; điểm b, điểm d khoản 6; điểm a, điểm b, điểm c khoản 7; điểm a khoản 8; điểm b khoản 9; điểm a khoản 10 Điều này; Không có tín hiệu trước khi vượt hoặc có tín hiệu vượt xe nhưng không sử dụng trong suốt quá trình vượt xe; Lùi xe mô tô ba bánh không quan sát hai bên, phía sau xe hoặc không có tín hiệu lùi xe; Chở người ngồi trên xe sử dụng ô (dù); đ) Không tuân thủ các quy định về nhường đường tại nơi đường giao nhau, trừ các hành vi vi phạm quy định tại điểm c, điểm d khoản 6 Điều này; Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước hoặc chuyển làn đường không đúng quy định 'mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề'; Không sử dụng đèn chiếu sáng trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn; Tránh xe không đúng quy định; sử dụng đèn chiếu xa khi gặp người đi bộ qua đường hoặc khi đi trên đoạn đường qua khu dân cư có hệ thống chiếu sáng đang hoạt động hoặc khi gặp xe đi ngược chiều (trừ trường hợp dải phân cách có khả năng chống chói) hoặc khi chuyển hướng xe tại nơi đường giao nhau; không nhường đường cho xe đi ngược chiều theo quy định tại nơi đường hẹp, đường dốc, nơi có chướng ngại vật; Sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định; Điều khiển xe chạy dưới tốc độ tối thiểu trên đoạn đường bộ có quy định tốc độ tối thiểu cho phép. Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: Dừng xe, đỗ xe trên phần đường xe chạy ở đoạn đường ngoài đô thị nơi có lề đường; Điều khiển xe chạy quá tốc độ quy định",
+      "global_page": 12,
+      "score": 31.658905457075154,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d47f2e08-5005-41e1-8b9b-97675ffc88a1:6:0",
+      "article_id": "d47f2e08-5005-41e1-8b9b-97675ffc88a1",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô vi phạm quy tắc giao thông đường bộ Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: Không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường, trừ các hành vi vi phạm quy định tại điểm a, điểm c, điểm d, điểm đ khoản 2; điểm a, điểm d, điểm đ, điểm e, điểm n, điểm o khoản 3; điểm a, điểm b, điểm đ, điểm e, điểm i, điểm k, điểm l khoản 4; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm i, điểm k khoản 5; điểm a khoản 6; khoản 7; điểm b, điểm d khoản 9; điểm a khoản 10; điểm đ khoản 11 Điều này; Khi ra, vào vị trí dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết; Không báo hiệu bằng đèn khẩn cấp hoặc không đặt biển cảnh báo 'Chú ý xe đỗ' theo quy định trong trường hợp gặp sự cố kỹ thuật (hoặc bất khả kháng khác) buộc phải đỗ xe chiếm một phần đường xe chạy hoặc tại nơi không được phép đỗ xe, trừ hành vi vi phạm quy định tại điểm c khoản 7 Điều này; Không gắn biển báo hiệu ở phía trước xe kéo, phía sau xe được kéo; điều khiển xe kéo rơ moóc không có biển báo hiệu theo quy định; đ) Sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định. Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: Chuyển làn đường không đúng nơi cho phép hoặc không có tín hiệu báo trước hoặc chuyển làn đường không đúng quy định 'mỗi lần chuyển làn đường chỉ được phép chuyển sang một làn đường liền kề', trừ các hành vi vi phạm quy định tại điểm g khoản 5 Điều này; Chở người trên buồng lái quá số lượng quy định; Không tuân thủ các quy định về nhường đường tại nơi đường bộ giao nhau, trừ các hành vi vi phạm quy định tại điểm n, điểm o khoản 5 Điều này;",
+      "global_page": 6,
+      "score": 31.53317536969896,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

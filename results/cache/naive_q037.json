@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Điều 2 Nghị định 238/2026/NĐ-CP bổ sung khoản 1a vào Điều 6 Nghị định 168/2024/NĐ-CP quy định hình thức xử phạt nào đối với hành vi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô nhưng không sử dụng thiết bị an toàn phù hợp cho trẻ em?",
+  "answer": "Phạt cảnh cáo.",
+  "latency_ms": 15563.472899986664,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:95f74dfb-0f7e-4f1d-99de-fb020abd6dd8:2:0",
+      "article_id": "95f74dfb-0f7e-4f1d-99de-fb020abd6dd8",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "\"1a. Phạt cảnh cáo đối với người điều khiển xe ô tô thực hiện hành vi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe mà không sử dụng thiết bị an toàn phù hợp cho trẻ em theo quy định (trừ xe ô tô kinh doanh vận tải hành khách).\". Sửa đổi, bổ sung điểm m khoản 3 như sau: \"m) Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô ngồi cùng hàng ghế với người lái xe (trừ xe ô tô chỉ có một hàng ghế);\".",
+      "global_page": 2,
+      "score": 0.7793459296226501,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:f3bc5f2f-12b5-4c83-8722-d30b370a3ebc:43:0",
+      "article_id": "f3bc5f2f-12b5-4c83-8722-d30b370a3ebc",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Sử dụng xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh không có biển báo dấu hiệu nhận biết là xe chở trẻ em mầm non, học sinh theo quy định. Phạt tiền từ 5.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 10.000.000 đồng đến 12.000.000 đồng đối với tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải thực hiện một trong các hành vi vi phạm sau đây: Không thực hiện việc cung cấp, cập nhật, truyền, lưu trữ, quản lý thông tin, dữ liệu từ thiết bị giám sát hành trình theo quy định; Không thực hiện đúng nội dung thông tin đã niêm yết trên xe theo quy định; Sử dụng phương tiện kinh doanh vận tải không lắp thiết bị giám sát hành trình của xe (đối với hình thức kinh doanh vận tải có quy định phương tiện phải lắp thiết bị) hoặc lắp thiết bị nhưng thiết bị không hoạt động, không đúng quy chuẩn theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô; Sử dụng xe trung chuyển chở hành khách không đúng quy định; đ) Sử dụng lái xe điều khiển xe khách giường nằm hai tầng, xe ô tô đưa đón trẻ em mầm non, học sinh chưa đủ số năm kinh nghiệm theo quy định; Sử dụng xe kinh doanh vận tải hành khách theo hợp đồng mà trên xe không có hợp đồng vận tải, danh sách hành khách kèm theo, thiết bị để truy cập nội dung hợp đồng điện tử và danh sách hành khách theo quy định hoặc có hợp đồng vận tải, danh sách hành khách, thiết bị để truy cập nhưng không bảo đảm yêu cầu theo quy định, chở người không có tên trong danh sách hành khách hoặc vận chuyển không đúng đối tượng theo quy định (đối với xe kinh doanh vận tải hành khách theo hợp đồng vận chuyển trẻ em mầm non, học sinh, sinh viên, cán bộ, công chức, viên chức, công nhân); Sử dụng xe ô tô kinh doanh vận tải không lắp thiết bị ghi nhận hình ảnh người lái xe theo quy định (đối với loại xe có quy định phải lắp thiết bị ghi nhận hình ảnh người lái xe) hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không ghi, không lưu trữ được dữ liệu trên xe trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô; Không thực hiện việc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu thu thập từ thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô theo quy định; Sử dụng",
+      "global_page": 43,
+      "score": 0.6810101270675659,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d47f2e08-5005-41e1-8b9b-97675ffc88a1:8:0",
+      "article_id": "d47f2e08-5005-41e1-8b9b-97675ffc88a1",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Chở người trên xe ô tô không thắt dây đai an toàn (tại vị trí có trang bị dây đai an toàn) khi xe đang chạy; Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô ngồi cùng hàng ghế với người lái xe (trừ loại xe ô tô chỉ có một hàng ghế) hoặc không sử dụng thiết bị an toàn phù hợp cho trẻ em theo quy định; Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần; Điều khiển xe chạy dưới tốc độ tối thiểu trên đoạn đường bộ có quy định tốc độ tối thiểu cho phép; Điều khiển xe chạy tốc độ thấp hơn các xe khác đi cùng chiều mà không đi về làn đường bên phải chiều đi của mình, trừ trường hợp các xe khác đi cùng chiều chạy quá tốc độ quy định. Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: Điều khiển xe không đủ điều kiện để thu phí theo hình thức điện tử tự động không dừng (xe không gắn thẻ đầu cuối) đi vào làn đường dành riêng thu phí theo hình thức điện tử tự động không dừng tại các trạm thu phí; Dừng xe, đỗ xe tại vị trí: bên trái đường một chiều hoặc bên trái (theo hướng lưu thông) của đường đôi; trên đoạn đường cong hoặc gần đầu dốc nơi tầm nhìn bị che khuất; trên cầu (trừ trường hợp tổ chức giao thông cho phép), gầm cầu vượt (trừ những nơi cho phép dừng xe, đỗ xe), song song với một xe khác đang dừng, đỗ, trừ hành vi vi phạm quy định tại điểm c khoản 7 Điều này; Không thực hiện biện pháp bảo đảm an toàn theo quy định khi xe ô tô bị hư hỏng ngay tại nơi đường bộ giao nhau cùng mức với đường sắt; Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn; đ) Lùi xe, quay đầu xe trong hầm đường bộ; dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định; không có báo hiệu bằng đèn khẩn cấp, không đặt biển cảnh báo 'Chú ý xe đỗ' (hoặc đèn cảnh báo) về phía sau xe khoảng cách đảm bảo an toàn khi dừng xe, đỗ xe trong hầm đường bộ trong trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe; Lùi xe ở đường một chiều, đường có biển 'Cấm đi ngược chiều', khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, nơi đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất; lùi xe không quan sát hai bên, phía sau xe hoặc không có tín hiệu lùi xe, trừ hành vi vi phạm quy định tại điểm đ khoản 11 Điều này; Điều",
+      "global_page": 8,
+      "score": 0.6808940172195435,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:5bf52d7d-96e5-4d14-a1c2-309ad34da561:45:0",
+      "article_id": "5bf52d7d-96e5-4d14-a1c2-309ad34da561",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "học sinh Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh thực hiện một trong các hành vi vi phạm sau đây: Không hướng dẫn trẻ em mầm non, học sinh ngồi đúng vị trí quy định trong xe; Điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh tiểu học không có dây đai an toàn phù hợp với lứa tuổi hoặc không có ghế ngồi phù hợp với lứa tuổi theo quy định; Điều khiển xe không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô. Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với hành vi điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh tiểu học, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh tiểu học không có hoặc không đủ người quản lý trên mỗi xe ô tô theo quy định tại khoản 3 Điều 46 của Luật Trật tự, an toàn giao thông đường bộ. Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với người điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với hoạt động đưa đón trẻ em mầm non, học sinh thực hiện một trong các hành vi vi phạm sau đây: Điều khiển xe không có thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô; Điều khiển xe không có thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh hoặc không có thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe hoặc không có thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe; Điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh không có màu sơn theo quy định; Điều khiển xe ô tô kinh doanh vận tải chở trẻ em mầm non, học sinh, xe ô tô kinh doanh vận tải kết hợp với",
+      "global_page": 45,
+      "score": 0.6778837442398071,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:996750b5-0b9a-415f-9911-ababa6027e13:3:0",
+      "article_id": "996750b5-0b9a-415f-9911-ababa6027e13",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 21 Sửa đổi, bổ sung điểm b khoản 2 như sau: \"b) Chở hàng trên nóc thùng xe; chở hàng vượt quá bề rộng thùng xe (kể cả bề rộng rơ moóc và sơ mi rơ moóc); chở hàng vượt phía trước, phía sau thùng xe (kể cả rơ moóc và sơ mi rơ moóc) trên 10% chiều dài toàn bộ của xe theo thiết kế được ghi trong chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe, trừ hành vi vi phạm quy định tại điểm d khoản 8 Điều 21 Nghị định này\". Sửa đổi, bổ sung điểm b khoản 3 như sau: \"b) Điều khiển xe ô tô kinh doanh vận tải, xe ô tô đầu kéo, xe vận tải nội bộ không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô.\". Sửa đổi, bổ sung điểm c khoản 5 như sau: Điều khiển xe ô tô kinh doanh vận tải, xe ô tô đầu kéo, xe vận tải nội bộ không lắp thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô;\". Sửa đổi, bổ sung khoản 8 như sau:",
+      "global_page": 3,
+      "score": 0.6610705852508545,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Điều 18 Nghị định 238/2026/NĐ-CP bổ sung các khoản nào vào sau khoản 2 Điều 53 Nghị định 168/2024/NĐ-CP để quy định lộ trình có hiệu lực xử phạt liên quan đến camera ghi nhận hình ảnh?",
+  "answer": "",
+  "latency_ms": 20168.63200001535,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 0.6718360185623169,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
+      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
+      "global_page": 77,
+      "score": 0.5583417415618896,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:1",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm g khoản 4 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về không thực hiện đúng các nội dung thông tin đã niêm yết (tuyến đường, lịch trình, hành trình vận tải) quy định tại Điều 20 (điểm c khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lệnh vận chuyển, giấy vận tải quy định tại Điều 20 (điểm e khoản 5), Điều 21 (điểm đ khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm đ khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 2 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa nguy hiểm mà không làm sạch hoặc không bóc (xóa) biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó quy định tại Điều 23 (khoản 1) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm e khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm e khoản 2 Điều 26 của Nghị định này. Đối với những hành vi vi phạm quy định về tải trọng, khổ giới hạn của phương tiện, của đường bộ quy định tại Điều 21, Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định tại Điều 21, vừa thực hiện hành vi vi phạm quy định tại Điều 34 của Nghị định này thì bị xử phạt về từng hành vi vi phạm; đối với những hành vi vi phạm được quy định tại điểm a khoản 4, điểm a khoản 5 Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định về tổng trọng lượng (khối lượng toàn bộ)",
+      "global_page": 70,
+      "score": 0.5484175682067871,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:2",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 8), trong trường hợp cá",
+      "global_page": 69,
+      "score": 0.5471715331077576,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:f3c5b4ef-ed30-4e3c-bb5b-f364cc156992:64:0",
+      "article_id": "f3c5b4ef-ed30-4e3c-bb5b-f364cc156992",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "; Điều 33; Điều 35; Điều 36. Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này như sau: Điểm đ khoản 1; điểm d, điểm đ khoản 2; điểm b, điểm d, điểm đ, điểm e, điểm g khoản 3 Điều 6; Điểm d, điểm e, điểm g, điểm i khoản 1; điểm a, điểm d, điểm e, điểm g, điểm h, điểm i, điểm k khoản 2; điểm b, điểm c, điểm e, điểm g, điểm k khoản 3; điểm b, điểm d, điểm đ khoản 4 Điều 7; Khoản 2; điểm b, điểm c khoản 3; điểm c, điểm d, điểm đ, điểm e khoản 4 Điều 8; Điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm i, điểm k, điểm l, điểm m, điểm n, điểm o khoản 1; khoản 2; điểm a, điểm b, điểm c khoản 3; điểm d, điểm đ khoản 4 Điều 9; đ) Khoản 1; điểm b, điểm c khoản 2 Điều 10;",
+      "global_page": 64,
+      "score": 0.5470446348190308,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

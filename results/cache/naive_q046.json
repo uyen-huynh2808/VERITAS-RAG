@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Mức thẩm quyền phạt tiền tối đa đối với cá nhân vi phạm của Trưởng Công an cấp xã tại thời điểm ngày 01/09/2026 theo Nghị định 238/2026/NĐ-CP thay đổi như thế nào (tăng hay giảm bao nhiêu tiền) so với thời điểm ngày 01/05/2025 theo Nghị định 168/2024/NĐ-CP?",
+  "answer": "Theo Nghị định 238/2026/NĐ‑CP (được sửa đổi, bổ sung Điều 43), Trưởng Công an cấp xã có thẩm quyền “phạt tiền đến **37.500.000 đồng**”.\n\nTheo Nghị định 168/2024/NĐ‑CP (điều 42), Trưởng Công an cấp xã chỉ có thẩm quyền “phạt tiền đến **2.500.000 đồng**”.\n\nVì vậy, so với thời điểm 01/05/2025, mức phạt tiền tối đa của Trưởng Công an cấp xã vào ngày 01/09/2026 đã **tăng**:\n\n**37.500.000 đ – 2.500.000 đ = 35.000.000 đồng**.",
+  "latency_ms": 20046.607800002676,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:3e9e1265-2686-4d9b-b73b-565e8e8ddb3c:7:0",
+      "article_id": "3e9e1265-2686-4d9b-b73b-565e8e8ddb3c",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung Điều 43 \" Điều 43. Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 7.500.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 15.000.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng đồn Công an, Thủ trưởng đơn vị Cảnh sát cơ động cấp tiểu đoàn, Trưởng trạm, Đội trưởng có quyền: Phạt cảnh cáo; Phạt tiền đến 22.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 45.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng Công an cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông gồm: Trưởng phòng Hướng dẫn tuyên truyền, điều tra, giải quyết tai nạn giao thông, Trưởng phòng Hướng dẫn, đăng ký và kiểm định phương tiện, Trưởng phòng Hướng dẫn, đào tạo, sát hạch, quản lý giấy phép của người điều khiển phương tiện giao thông, Trưởng phòng Hướng dẫn tuần tra, kiểm soát giao thông đường bộ, đường sắt, Trưởng phòng Hướng",
+      "global_page": 7,
+      "score": 0.652888298034668,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:d47cf368-09fa-4fda-b950-84e0c071794d:6:0",
+      "article_id": "d47cf368-09fa-4fda-b950-84e0c071794d",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung Điều 42 \" Điều 42. Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
+      "global_page": 6,
+      "score": 0.646759569644928,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:3cbe5991-bb99-4560-96e6-39557b11d66f:66:0",
+      "article_id": "3cbe5991-bb99-4560-96e6-39557b11d66f",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 500.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền: Phạt cảnh cáo; Phạt tiền đến 1.500.000 đồng. Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 2.500.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 5.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng Công an cấp tỉnh bao gồm: Trưởng phòng Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Cảnh sát giao thông, Trưởng phòng Cảnh sát cơ động, Trung đoàn trưởng Trung đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c, điểm d khoản 3 Điều 3) của Nghị định này. Giám đốc Công an cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
+      "global_page": 66,
+      "score": 0.6402310132980347,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:f3c5b4ef-ed30-4e3c-bb5b-f364cc156992:64:0",
+      "article_id": "f3c5b4ef-ed30-4e3c-bb5b-f364cc156992",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "; Điều 33; Điều 35; Điều 36. Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này như sau: Điểm đ khoản 1; điểm d, điểm đ khoản 2; điểm b, điểm d, điểm đ, điểm e, điểm g khoản 3 Điều 6; Điểm d, điểm e, điểm g, điểm i khoản 1; điểm a, điểm d, điểm e, điểm g, điểm h, điểm i, điểm k khoản 2; điểm b, điểm c, điểm e, điểm g, điểm k khoản 3; điểm b, điểm d, điểm đ khoản 4 Điều 7; Khoản 2; điểm b, điểm c khoản 3; điểm c, điểm d, điểm đ, điểm e khoản 4 Điều 8; Điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm i, điểm k, điểm l, điểm m, điểm n, điểm o khoản 1; khoản 2; điểm a, điểm b, điểm c khoản 3; điểm d, điểm đ khoản 4 Điều 9; đ) Khoản 1; điểm b, điểm c khoản 2 Điều 10;",
+      "global_page": 64,
+      "score": 0.6337486505508423,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:c0aaaf25-290e-454d-9876-031a41102c4f:65:0",
+      "article_id": "c0aaaf25-290e-454d-9876-031a41102c4f",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 5.000.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 10.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp huyện có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng;",
+      "global_page": 65,
+      "score": 0.6265918612480164,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

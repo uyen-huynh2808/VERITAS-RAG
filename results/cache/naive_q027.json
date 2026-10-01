@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Tra cứu quy định về mức phạt tiền áp dụng đối với người điều khiển xe ô tô không gắn đủ biển số xe theo pháp luật giao thông có hiệu lực vào ngày 01/09/2026.",
+  "answer": "",
+  "latency_ms": 2168.948700011242,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:6421599d-0f83-4d26-ba16-0880efec32d3:30:0",
+      "article_id": "6421599d-0f83-4d26-ba16-0880efec32d3",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe không gắn biển số (đối với loại xe có quy định phải gắn biển số); Điều khiển xe không có hệ thống hãm hoặc có hệ thống hãm nhưng không bảo đảm tiêu chuẩn kỹ thuật; điều khiển xe có hệ thống chuyển hướng không bảo đảm tiêu chuẩn kỹ thuật; Điều khiển xe có các bộ phận chuyên dùng lắp đặt không đúng vị trí; không bảo đảm an toàn khi di chuyển; Điều khiển xe không có đủ đèn chiếu sáng; không có bộ phận giảm thanh, giảm khói hoặc có nhưng không có tác dụng, không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn; đ) Điều khiển xe có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường nhưng đã hết hiệu lực (hạn sử dụng) dưới 01 tháng (kể cả rơ moóc); Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, không đúng quy cách theo quy định; gắn biển số không rõ chữ, số của biển số xe hoặc sử dụng chất liệu khác sơn, dán lên chữ, số của biển số xe; gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc (của chữ, số, nền biển số xe), hình dạng, kích thước của biển số xe. Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe hoạt động không đúng phạm vi quy định; Điều khiển xe không có giấy chứng nhận hoặc tem kiểm định an toàn kỹ thuật và bảo vệ môi trường (đối với loại xe có quy định phải kiểm định, trừ xe đăng ký tạm thời) hoặc có nhưng đã hết hiệu lực (hạn sử dụng) từ 01 tháng trở lên (kể cả rơ moóc); Điều khiển xe không có chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe) hoặc sử dụng chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe) đã hết hạn sử dụng, hết hiệu lực (kể cả rơ moóc); Điều khiển xe gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp (kể cả rơ moóc); đ) Sử dụng chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực",
+      "global_page": 30,
+      "score": 0.7303246259689331,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d2765de0-1e6d-4320-9e08-524865f7bea0:26:1",
+      "article_id": "d2765de0-1e6d-4320-9e08-524865f7bea0",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "định, trừ xe đăng ký tạm thời) hoặc có nhưng đã hết hiệu lực (hạn sử dụng) từ 01 tháng trở lên (kể cả rơ moóc và sơ mi rơ moóc). Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe đăng ký tạm thời, xe có phạm vi hoạt động hạn chế hoạt động quá phạm vi, tuyến đường, thời hạn cho phép; Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) không gắn biển số (đối với loại xe có quy định phải gắn biển số). Phạt tiền từ 20.000.000 đồng đến 26.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp (kể cả rơ moóc và sơ mi rơ moóc); Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, không đúng quy cách theo quy định; gắn biển số không rõ chữ, số hoặc sử dụng chất liệu khác sơn, dán lên chữ, số của biển số xe; gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc (của chữ, số, nền biển số xe), hình dạng, kích thước của biển số xe (kể cả rơ moóc và sơ mi rơ moóc). Tịch thu phương tiện đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây:",
+      "global_page": 26,
+      "score": 0.7114675045013428,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:16854e36-c9a3-4264-a778-eee3a832fc8c:57:0",
+      "article_id": "16854e36-c9a3-4264-a778-eee3a832fc8c",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Xử phạt người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với người điều khiển phương tiện giao thông cơ giới đường bộ gắn biển số nước ngoài thực hiện một trong các hành vi vi phạm sau đây: Giấy tờ của phương tiện không có bản dịch sang tiếng Anh hoặc tiếng Việt theo quy định; Điều khiển xe chở hành khách không có danh sách hành khách theo quy định. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với hành vi điều khiển xe tham gia giao thông tại Việt Nam không có văn bản chấp thuận hoặc cấp phép của cơ quan có thẩm quyền cấp theo quy định (đối với loại xe tham gia giao thông tại Việt Nam có quy định phải được chấp thuận hoặc cấp phép). Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với một trong các hành vi vi phạm sau đây:",
+      "global_page": 57,
+      "score": 0.707560122013092,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:7cce9f9b-93fb-49ab-88d8-23792d7d1ae5:28:1",
+      "article_id": "7cce9f9b-93fb-49ab-88d8-23792d7d1ae5",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "thẩm quyền cấp; Điều khiển xe đăng ký tạm thời hoạt động quá phạm vi, tuyến đường, thời hạn cho phép; Điều khiển xe không có bộ phận giảm thanh, giảm khói hoặc có nhưng không bảo đảm quy chuẩn môi trường về khí thải, tiếng ồn; đ) Sử dụng còi không đúng quy chuẩn kỹ thuật cho từng loại xe. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe không gắn biển số (đối với loại xe có quy định phải gắn biển số); gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp; Điều khiển xe gắn biển số không đúng vị trí, không đúng quy cách theo quy định; gắn biển số không rõ chữ, số hoặc sử dụng chất liệu khác sơn, dán lên chữ, số của biển số xe; gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc (của chữ, số, nền biển số xe), hình dạng, kích thước của biển số xe.",
+      "global_page": 28,
+      "score": 0.7031121850013733,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:16854e36-c9a3-4264-a778-eee3a832fc8c:58:0",
+      "article_id": "16854e36-c9a3-4264-a778-eee3a832fc8c",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều khiển phương tiện không gắn ký hiệu phân biệt quốc gia theo quy định; Điều khiển phương tiện không có giấy phép liên vận, giấy phép vận tải đường bộ quốc tế theo quy định hoặc có nhưng đã hết giá trị sử dụng; Vận chuyển hành khách hoặc hàng hóa không đúng với quy định tại các điều ước quốc tế mà Việt Nam đã ký kết, trừ các hành vi vi phạm quy định tại khoản 1, khoản 4, khoản 5, khoản 6 Điều này. Phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển phương tiện không gắn biển số tạm thời hoặc gắn biển số tạm thời không do cơ quan có thẩm quyền cấp (nếu có quy định phải gắn biển số tạm thời); Điều khiển xe ô tô có tay lái bên phải tham gia giao thông mà không đi theo đoàn, không có người, phương tiện hỗ trợ, hướng dẫn giao thông theo quy định. Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với hành vi hoạt động quá phạm vi, tuyến đường, đoạn đường được phép hoạt động. Phạt tiền từ 30.000.000 đồng đến 35.000.000 đồng đối với hành vi lưu hành phương tiện trên lãnh thổ Việt Nam quá thời hạn quy định. Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2; điểm b, điểm c khoản 3; điểm a khoản 4; khoản 6 Điều này còn bị áp dụng biện pháp khắc phục hậu quả buộc tái xuất phương tiện khỏi Việt Nam.",
+      "global_page": 58,
+      "score": 0.6999891400337219,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

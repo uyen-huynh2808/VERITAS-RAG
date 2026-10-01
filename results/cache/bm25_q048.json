@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Trường hợp tài xế chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét ngồi cùng hàng ghế với người lái xe: nếu vi phạm vào ngày 10/07/2026 và nếu vi phạm vào ngày 20/08/2026 thì căn cứ vào quy định nào của Nghị định 168/2024/NĐ-CP và Nghị định 238/2026/NĐ-CP, và mức phạt có thay đổi không?",
+  "answer": "",
+  "latency_ms": 19046.271200000774,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:95f74dfb-0f7e-4f1d-99de-fb020abd6dd8:2:0",
+      "article_id": "95f74dfb-0f7e-4f1d-99de-fb020abd6dd8",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "\"1a. Phạt cảnh cáo đối với người điều khiển xe ô tô thực hiện hành vi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe mà không sử dụng thiết bị an toàn phù hợp cho trẻ em theo quy định (trừ xe ô tô kinh doanh vận tải hành khách).\". Sửa đổi, bổ sung điểm m khoản 3 như sau: \"m) Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô ngồi cùng hàng ghế với người lái xe (trừ xe ô tô chỉ có một hàng ghế);\".",
+      "global_page": 2,
+      "score": 76.32535407125037,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
+      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
+      "global_page": 77,
+      "score": 62.05895611832215,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d47f2e08-5005-41e1-8b9b-97675ffc88a1:8:0",
+      "article_id": "d47f2e08-5005-41e1-8b9b-97675ffc88a1",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Chở người trên xe ô tô không thắt dây đai an toàn (tại vị trí có trang bị dây đai an toàn) khi xe đang chạy; Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô ngồi cùng hàng ghế với người lái xe (trừ loại xe ô tô chỉ có một hàng ghế) hoặc không sử dụng thiết bị an toàn phù hợp cho trẻ em theo quy định; Chạy trong hầm đường bộ không sử dụng đèn chiếu sáng gần; Điều khiển xe chạy dưới tốc độ tối thiểu trên đoạn đường bộ có quy định tốc độ tối thiểu cho phép; Điều khiển xe chạy tốc độ thấp hơn các xe khác đi cùng chiều mà không đi về làn đường bên phải chiều đi của mình, trừ trường hợp các xe khác đi cùng chiều chạy quá tốc độ quy định. Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: Điều khiển xe không đủ điều kiện để thu phí theo hình thức điện tử tự động không dừng (xe không gắn thẻ đầu cuối) đi vào làn đường dành riêng thu phí theo hình thức điện tử tự động không dừng tại các trạm thu phí; Dừng xe, đỗ xe tại vị trí: bên trái đường một chiều hoặc bên trái (theo hướng lưu thông) của đường đôi; trên đoạn đường cong hoặc gần đầu dốc nơi tầm nhìn bị che khuất; trên cầu (trừ trường hợp tổ chức giao thông cho phép), gầm cầu vượt (trừ những nơi cho phép dừng xe, đỗ xe), song song với một xe khác đang dừng, đỗ, trừ hành vi vi phạm quy định tại điểm c khoản 7 Điều này; Không thực hiện biện pháp bảo đảm an toàn theo quy định khi xe ô tô bị hư hỏng ngay tại nơi đường bộ giao nhau cùng mức với đường sắt; Không nhường đường cho xe xin vượt khi có đủ điều kiện an toàn; đ) Lùi xe, quay đầu xe trong hầm đường bộ; dừng xe, đỗ xe trong hầm đường bộ không đúng nơi quy định; không có báo hiệu bằng đèn khẩn cấp, không đặt biển cảnh báo 'Chú ý xe đỗ' (hoặc đèn cảnh báo) về phía sau xe khoảng cách đảm bảo an toàn khi dừng xe, đỗ xe trong hầm đường bộ trong trường hợp gặp sự cố kỹ thuật hoặc bất khả kháng khác buộc phải dừng xe, đỗ xe; Lùi xe ở đường một chiều, đường có biển 'Cấm đi ngược chiều', khu vực cấm dừng, trên phần đường dành cho người đi bộ qua đường, nơi đường bộ giao nhau, nơi đường bộ giao nhau cùng mức với đường sắt, nơi tầm nhìn bị che khuất; lùi xe không quan sát hai bên, phía sau xe hoặc không có tín hiệu lùi xe, trừ hành vi vi phạm quy định tại điểm đ khoản 11 Điều này; Điều",
+      "global_page": 8,
+      "score": 53.36486573723125,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d47f2e08-5005-41e1-8b9b-97675ffc88a1:7:1",
+      "article_id": "d47f2e08-5005-41e1-8b9b-97675ffc88a1",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "ở nơi đường không giao nhau cùng mức); Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt; dừng xe, đỗ xe trong phạm vi bảo vệ công trình đường sắt, phạm vi an toàn của đường sắt; đ) Dừng xe, đỗ xe tại vị trí: nơi đường bộ giao nhau hoặc trong phạm vi 05 mét tính từ mép đường giao nhau; điểm đón, trả khách; trước cổng hoặc trong phạm vi 05 mét hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ra, vào; nơi phần đường có bề rộng chỉ đủ cho một làn xe cơ giới; che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông; nơi mở dải phân cách giữa; cách xe ô tô đang đỗ ngược chiều dưới 20 mét trên đường phố hẹp, dưới 40 mét trên đường có một làn xe cơ giới trên một chiều đường; Đỗ xe không sát theo lề đường, vỉa hè phía bên phải theo chiều đi hoặc bánh xe gần nhất cách lề đường, vỉa hè quá 0,25 mét; đỗ xe trên đường dành riêng cho xe buýt; đỗ xe trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước; đỗ, để xe ở vỉa hè trái quy định của pháp luật; đỗ xe nơi có biển 'Cấm đỗ xe' hoặc biển 'Cấm dừng xe và đỗ xe', trừ hành vi vi phạm quy định tại điểm đ khoản 4, điểm c khoản 7 Điều này; Không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn; Điều khiển xe ô tô kéo theo xe khác, vật khác (trừ trường hợp kéo theo một rơ moóc, sơ mi rơ moóc hoặc một xe ô tô, xe máy chuyên dùng khác khi xe này không tự chạy được); điều khiển xe ô tô đẩy xe khác, vật khác; điều khiển xe kéo rơ moóc, sơ mi rơ moóc kéo thêm rơ moóc hoặc xe khác, vật khác; không nối chắc chắn, an toàn giữa xe kéo và xe được kéo khi kéo nhau; Chở người trên xe được kéo, trừ người điều khiển; Không thắt dây đai an toàn khi điều khiển xe chạy trên đường;",
+      "global_page": 7,
+      "score": 44.14573795455455,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 43.00439386323888,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    }
+  ]
+}

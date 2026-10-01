@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Tìm quy định về xử phạt hành vi vận chuyển vật liệu xây dựng, đất đá làm rơi vãi xuống đường gây mất an toàn giao thông theo pháp luật có hiệu lực vào ngày 01/09/2026.",
+  "answer": "",
+  "latency_ms": 18969.92209999007,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:a8813bc6-57bf-4d88-bb11-1156976b366f:2:0",
+      "article_id": "a8813bc6-57bf-4d88-bb11-1156976b366f",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung điểm a khoản 2 Điều 17 \"a) Chở vật liệu xây dựng, đất đá, phế thải, hàng rời mà không che đậy; làm rơi vãi hàng hóa, vật liệu xây dựng, đất đá, phế thải, bùn, hàng rời xuống đường; chở hàng hoặc chất thải để nước chảy xuống đường;\".",
+      "global_page": 2,
+      "score": 55.525859843114894,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:20d7d2e4-bb88-42c3-a2a7-e281765f1c13:31:0",
+      "article_id": "20d7d2e4-bb88-42c3-a2a7-e281765f1c13",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô, máy kéo và các loại xe tương tự xe ô tô vi phạm quy định về bảo vệ môi trường khi tham gia giao thông Phạt tiền từ 500.000 đồng đến 1.000.000 đồng đối với hành vi điều khiển xe không đáp ứng yêu cầu về vệ sinh lưu thông trong đô thị. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Chở đất đá, phế thải, hàng rời mà không có mui, bạt che đậy hoặc có mui, bạt che đậy nhưng vẫn để rơi vãi; làm rơi vãi hàng hóa trên đường bộ; chở hàng hoặc chất thải để nước chảy xuống mặt đường gây mất an toàn giao thông; Lôi kéo bùn, đất, cát, nguyên liệu, vật liệu hoặc chất phế thải khác ra đường bộ gây mất an toàn giao thông. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe đổ trái phép rác, đất, cát, đá, vật liệu, chất phế thải trong phạm vi đất dành cho đường bộ ở đoạn đường ngoài đô thị. Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với người điều khiển xe thực hiện hành vi đổ trái phép rác, đất, cát, đá, vật liệu, chất phế thải ra đường phố. Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện (khi điều khiển xe ô tô) thực hiện hành vi vi phạm quy định tại khoản 3, khoản 4 Điều này còn bị trừ điểm giấy phép lái xe 02 điểm. Mục 3. VI PHẠM QUY ĐỊNH VỀ NGƯỜI ĐIỀU KHIỂN PHƯƠNG TIỆN THAM GIA GIAO THÔNG ĐƯỜNG BỘ",
+      "global_page": 31,
+      "score": 51.29360465920814,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:8218ba03-dbc8-4e35-b631-afcb3195dd61:57:0",
+      "article_id": "8218ba03-dbc8-4e35-b631-afcb3195dd61",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Xử phạt người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với người điều khiển phương tiện thực hiện một trong các hành vi vi phạm sau đây: Vận chuyển hàng hóa mà sắp xếp, chằng buộc hàng hóa không bảo đảm an toàn hoặc gây nguy hiểm cho người, phương tiện tham gia giao thông; Vận chuyển hàng hóa trên xe gây cản trở tầm nhìn của người lái xe hoặc che khuất đèn, biển số xe (đối với loại xe có đèn, biển số xe); để rơi hàng hóa xuống đường. Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với một trong các hành vi vi phạm sau đây: Chở hành lý, hàng hóa vượt quá khối lượng cho phép của xe; Chở hành lý, hàng hóa vượt quá khổ giới hạn cho phép của xe; Vận chuyển hàng rời, vật liệu xây dựng, phế thải để rơi vãi xuống đường hoặc gây ra tiếng ồn, bụi bẩn; Vận chuyển hàng hóa vượt phía trước, phía sau xe mà không có báo hiệu màu đỏ tại điểm đầu và điểm cuối cùng của hàng hóa khi xe hoạt động ban ngày; vận chuyển hàng hóa vượt phía trước, phía sau xe mà không có đèn hoặc báo hiệu khi xe hoạt động vào ban đêm hoặc khi trời tối.",
+      "global_page": 57,
+      "score": 45.107973444247385,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:f4b7e8fc-dfdf-451f-9835-86bd5dab1b30:24:0",
+      "article_id": "f4b7e8fc-dfdf-451f-9835-86bd5dab1b30",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Chiếm dụng dải phân cách giữa của đường đôi làm nơi: bày, bán hàng hóa; để vật liệu xây dựng; để xe, trông, giữ xe. Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với cá nhân, từ 4.000.000 đồng đến 6.000.000 đồng đối với tổ chức thực hiện hành vi sử dụng trái phép lòng đường, vỉa hè để: họp chợ; kinh doanh dịch vụ ăn uống; bày, bán hàng hóa; sửa chữa phương tiện, máy móc, thiết bị; rửa xe; đặt, treo biển hiệu, biển quảng cáo. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng đối với cá nhân, từ 4.000.000 đồng đến 8.000.000 đồng đối với tổ chức cố ý thay đổi, xóa dấu vết hiện trường vụ tai nạn giao thông, trừ các hành vi vi phạm quy định tại điểm g khoản 4, khoản 8 Điều 6; điểm b khoản 5, điểm c khoản 9 Điều 7; điểm d khoản 5, điểm c khoản 8 Điều 8; điểm a khoản 4 Điều 9 của Nghị định này. Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với cá nhân, từ 6.000.000 đồng đến 10.000.000 đồng đối với tổ chức thực hiện hành vi bày, bán máy móc, thiết bị, vật tư hoặc sản xuất, gia công hàng hóa trên lòng đường, vỉa hè. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 8.000.000 đồng đến 12.000.000 đồng đối với tổ chức thực hiện hành vi không chấp hành yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ, trừ các hành vi vi phạm quy định tại điểm b, điểm d khoản 11 Điều 6; điểm đ, điểm g khoản 9 Điều 7; điểm b, điểm d khoản 9 Điều 8; điểm c khoản 4 Điều 9; điểm b khoản 5 Điều 34 của Nghị định này. Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với cá nhân thực hiện một trong các hành vi vi phạm sau đây: Đặt, để chướng ngại vật, vật cản khác trái phép trên đường bộ; đổ chất gây trơn trượt trên đường bộ; đổ, xả thải, làm rơi vãi hóa chất, chất thải gây mất an toàn giao thông đường bộ; Xâm phạm tính mạng, sức khỏe, tài sản của người bị nạn, người gây tai nạn giao thông đường bộ hoặc người giúp đỡ, cứu chữa, đưa người bị nạn đi cấp cứu; Hủy hoại, làm hư hỏng, làm mất tác dụng thiết bị điều khiển, giám sát giao thông đường bộ, thiết bị thông minh hỗ trợ chỉ huy, điều khiển giao thông đường bộ. Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với cá nhân, từ 20.000.000 đồng đến 30.000.000 đồng đối với tổ chức thực hiện hành vi sử dụng tạm thời lòng đường, vỉa hè vào mục đích khác (theo quy định phải có giấy phép) mà không có giấy phép hoặc có giấy phép nhưng đã hết giá trị sử dụng hoặc thực hiện không",
+      "global_page": 24,
+      "score": 30.470243380205325,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:8b606477-d050-498b-ace3-531aae4efa02:80:0",
+      "article_id": "8b606477-d050-498b-ace3-531aae4efa02",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy định tại khoản 2 Điều này. Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026; quy định tại điểm b khoản 1 Điều 32 của Nghị định này có hiệu lực thi hành theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe gắn máy.",
+      "global_page": 80,
+      "score": 29.948075302618978,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

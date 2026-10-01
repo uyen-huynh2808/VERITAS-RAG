@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Trường hợp tài xế chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét ngồi cùng hàng ghế với người lái xe: nếu vi phạm vào ngày 10/07/2026 và nếu vi phạm vào ngày 20/08/2026 thì căn cứ vào quy định nào của Nghị định 168/2024/NĐ-CP và Nghị định 238/2026/NĐ-CP, và mức phạt có thay đổi không?",
+  "answer": "",
+  "latency_ms": 21193.61879999633,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:95f74dfb-0f7e-4f1d-99de-fb020abd6dd8:2:0",
+      "article_id": "95f74dfb-0f7e-4f1d-99de-fb020abd6dd8",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "\"1a. Phạt cảnh cáo đối với người điều khiển xe ô tô thực hiện hành vi chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe mà không sử dụng thiết bị an toàn phù hợp cho trẻ em theo quy định (trừ xe ô tô kinh doanh vận tải hành khách).\". Sửa đổi, bổ sung điểm m khoản 3 như sau: \"m) Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô ngồi cùng hàng ghế với người lái xe (trừ xe ô tô chỉ có một hàng ghế);\".",
+      "global_page": 2,
+      "score": 0.6796687245368958,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:2",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 8), trong trường hợp cá",
+      "global_page": 69,
+      "score": 0.6398817300796509,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:1",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "tại Điều 13 (điểm c khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm i khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về kích thước thùng xe, khoang chở hành lý (hầm xe), lắp thêm hoặc tháo bớt ghế, giường nằm trên xe ô tô quy định tại Điều 13 (điểm d khoản 3, điểm b khoản 4) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm d khoản 11, điểm h khoản 14), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô quy định tại Điều 20 (điểm l khoản 5, điểm đ khoản 6), Điều 21 (điểm b khoản 3, điểm c khoản 5), Điều 27 (điểm c khoản 1, điểm a khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c, điểm g khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô quy định tại Điều 29 (khoản 1, khoản 3), Điều 30 (khoản 1, khoản 2) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm m, điểm n khoản 7), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về dây đai an toàn, hướng dẫn cho hành khách về an toàn giao thông, thoát hiểm khi xảy ra sự cố trên xe quy định tại Điều 20 (điểm h, điểm i khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 2, điểm đ khoản 4) trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26",
+      "global_page": 69,
+      "score": 0.6232007741928101,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:0",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm c khoản 8 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ quy định tại Điều 29 (khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 32 (điểm o khoản 7), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm o khoản 7 Điều 32 của Nghị định này; Các hành vi vi phạm quy định về thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe quy định tại Điều 27 (điểm b khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 6 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về màu sơn, biển báo dấu hiệu nhận biết của xe chở trẻ em mầm non, học sinh quy định tại Điều 27 (điểm c, điểm d khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c, điểm d khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về chở hàng siêu trường, siêu trọng, chở quá khổ, quá tải, quá số người quy định tại Điều 20, Điều 21, Điều 22, Điều 34 và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại Điều 32 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa là phương tiện vận tải, máy móc, thiết bị kỹ thuật, hàng dạng trụ quy định tại Điều 21 (điểm a khoản 10) và hành vi vi phạm tương ứng quy định tại Điều 32 (điểm đ khoản 13), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 13 Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện",
+      "global_page": 70,
+      "score": 0.6211408376693726,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 0.6196244359016418,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    }
+  ]
+}

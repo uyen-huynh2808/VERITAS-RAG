@@ -1,455 +1,361 @@
 from __future__ import annotations
 
 import json
+import re
+import unicodedata
 from dataclasses import asdict, dataclass
+from datetime import date
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import List, Optional, Set
+
 
 # ---------------------------------------------------------------------------
-# Data structures
+# Configuration
+# ---------------------------------------------------------------------------
+
+DEFAULT_K = 5
+
+
+# ---------------------------------------------------------------------------
+# Data models
 # ---------------------------------------------------------------------------
 
 @dataclass
 class BenchmarkSample:
-    """
-    Ground-truth information for one benchmark query.
-
-    gold_doc_ids:
-        Documents considered temporally valid for this query at t_event.
-
-    gold_chunk_ids:
-        Gold evidence chunks relevant to the query.
-
-    gold_answer:
-        Reference answer, if available.
-
-    gold_citation_doc_ids:
-        Optional document-level citation ground truth.
-    """
-
+    id: str
     query: str
-    t_event: Optional[str] = None
+    t_event: str
+    difficulty: str
+    category: str
+    gold_doc_ids: List[str]
+    gold_article_ids: List[str]
+    gold_chunk_ids: List[str]
+    gold_answer: str
+    gold_citation_doc_ids: List[str]
 
-    gold_doc_ids: Optional[List[str]] = None
-    gold_chunk_ids: Optional[List[str]] = None
 
-    gold_answer: Optional[str] = None
-    gold_citation_doc_ids: Optional[List[str]] = None
+@dataclass
+class RetrievedChunk:
+    chunk_id: str
+    article_id: str
+    logical_doc_id: str
+    text: str
+    global_page: int
+    score: float
+    effective_from: Optional[str] = None
+    effective_to: Optional[str] = None
+
 
 @dataclass
 class SystemOutput:
-    """
-    Standardized output produced by every benchmark system.
-    """
+    question: str
+    answer: str
+    retrieved_chunks: List[RetrievedChunk]
+    latency_ms: float
 
-    system_name: str
 
-    answer: str = ""
+@dataclass
+class EvaluationResult:
+    sample_id: str
+    model_name: str
+    recall_at_k: float
+    temporal_validity: float
+    invalid_citation_rate: float
+    faithfulness: float
+    latency_ms: float
 
-    retrieved_doc_ids: Optional[List[str]] = None
-    retrieved_chunk_ids: Optional[List[str]] = None
-
-    cited_doc_ids: Optional[List[str]] = None
-    cited_chunk_ids: Optional[List[str]] = None
-
-    # Future VERITAS components
-    lineage_records: Optional[List[Dict[str, Any]]] = None
-    hart_result: Optional[Dict[str, Any]] = None
-
-    latency_seconds: Optional[float] = None
-
-    metadata: Optional[Dict[str, Any]] = None
 
 # ---------------------------------------------------------------------------
-# Helpers
+# Dataset loading
 # ---------------------------------------------------------------------------
 
-def _unique(values: Optional[List[str]]) -> List[str]:
-    """Return unique non-empty string values while preserving order."""
+def load_dataset(path: str | Path) -> List[BenchmarkSample]:
+    path = Path(path)
 
-    if not values:
-        return []
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
 
-    result: List[str] = []
+    return [BenchmarkSample(**sample) for sample in data["samples"]]
 
-    for value in values:
-        if value and value not in result:
-            result.append(value)
-
-    return result
 
 # ---------------------------------------------------------------------------
-# Retrieval metrics
+# Recall@K
 # ---------------------------------------------------------------------------
 
 def retrieval_recall_at_k(
-    output: SystemOutput,
     sample: BenchmarkSample,
-    k: int,
-) -> Optional[float]:
+    output: SystemOutput,
+    k: int = DEFAULT_K,
+) -> float:
     """
-    Sample-level Recall@K.
+    Retrieval Recall@K at chunk level.
 
-    A sample is counted as a hit when at least one gold chunk is present
-    among the top-k retrieved chunks.
+    Only the first K retrieved chunks are evaluated.
+    The benchmark gold set is gold_chunk_ids.
 
-    Returns None when no chunk-level ground truth is available.
+    Formula:
+        |gold_chunks ∩ retrieved_top_k| / |gold_chunks|
     """
+    if k <= 0:
+        raise ValueError("k must be > 0")
 
-    if not sample.gold_chunk_ids:
-        return None
-
-    retrieved = _unique(output.retrieved_chunk_ids)[:k]
-    gold = set(_unique(sample.gold_chunk_ids))
+    gold: Set[str] = set(sample.gold_chunk_ids)
 
     if not gold:
-        return None
+        return 0.0
 
-    return 1.0 if any(chunk_id in gold for chunk_id in retrieved) else 0.0
+    retrieved_top_k = output.retrieved_chunks[:k]
+    retrieved: Set[str] = {
+        chunk.chunk_id
+        for chunk in retrieved_top_k
+    }
 
-def aggregate_retrieval_recall(
-    outputs: List[SystemOutput],
-    samples: List[BenchmarkSample],
-    k: int,
-) -> Optional[float]:
-    """Calculate mean sample-level Recall@K."""
+    return len(gold & retrieved) / len(gold)
 
-    values: List[float] = []
-
-    for output, sample in zip(outputs, samples):
-        score = retrieval_recall_at_k(output, sample, k)
-
-        if score is not None:
-            values.append(score)
-
-    if not values:
-        return None
-
-    return sum(values) / len(values)
 
 # ---------------------------------------------------------------------------
-# Temporal validity
+# Date / temporal validity
 # ---------------------------------------------------------------------------
+
+def _parse_date(value: Optional[str]) -> Optional[date]:
+    """
+    Parse ISO date strings (YYYY-MM-DD).
+
+    NULL / empty values are accepted as missing values.
+    In the current Gold dataset, effective_to is NULL because no upper
+    validity bound is encoded.
+
+    A non-empty, non-NULL value with an invalid format raises ValueError
+    instead of being silently treated as missing.
+    """
+    if value is None:
+        return None
+
+    value = str(value).strip()
+
+    if value == "" or value.lower() in {"null", "none"}:
+        return None
+
+    return date.fromisoformat(value)
+
 
 def temporal_validity_accuracy(
-    output: SystemOutput,
     sample: BenchmarkSample,
-) -> Optional[float]:
+    output: SystemOutput,
+    k: int = DEFAULT_K,
+) -> float:
     """
-    Check whether retrieved documents are temporally valid for t_event.
+    Fraction of the top-K retrieved chunks whose temporal interval contains
+    t_event.
 
-    The benchmark dataset must define gold_doc_ids as documents that are
-    legally valid at the supplied t_event.
+    Current Gold convention:
+        effective_from = required lower bound
+        effective_to   = NULL means no encoded upper bound
 
-    A sample is counted as correct when at least one retrieved document
-    belongs to that temporally valid ground-truth set.
+    Therefore:
+        valid iff
+            effective_from <= t_event
+        AND
+            (effective_to IS NULL OR t_event <= effective_to)
+
+    Note:
+    This metric evaluates the temporal metadata stored in Gold. It does not
+    independently infer that a document became invalid because another legal
+    document later amended/replaced it when that relation is not encoded in
+    effective_to.
     """
+    if k <= 0:
+        raise ValueError("k must be > 0")
 
-    if not sample.gold_doc_ids:
-        return None
+    retrieved_top_k = output.retrieved_chunks[:k]
 
-    retrieved = set(_unique(output.retrieved_doc_ids))
-    valid_docs = set(_unique(sample.gold_doc_ids))
+    if not retrieved_top_k:
+        return 0.0
 
-    if not valid_docs:
-        return None
+    t_event = _parse_date(sample.t_event)
 
-    return 1.0 if retrieved.intersection(valid_docs) else 0.0
+    if t_event is None:
+        return 0.0
 
-def aggregate_temporal_validity_accuracy(
-    outputs: List[SystemOutput],
-    samples: List[BenchmarkSample],
-) -> Optional[float]:
-    """Calculate mean temporal validity accuracy."""
+    valid = 0
 
-    values: List[float] = []
+    for chunk in retrieved_top_k:
+        start = _parse_date(chunk.effective_from)
+        end = _parse_date(chunk.effective_to)
 
-    for output, sample in zip(outputs, samples):
-        score = temporal_validity_accuracy(output, sample)
+        if start is None:
+            continue
 
-        if score is not None:
-            values.append(score)
+        if start <= t_event and (end is None or t_event <= end):
+            valid += 1
 
-    if not values:
-        return None
+    return valid / len(retrieved_top_k)
 
-    return sum(values) / len(values)
 
 # ---------------------------------------------------------------------------
-# Citation metrics
+# Citation extraction
+# ---------------------------------------------------------------------------
+
+# Vietnamese legal-document identifiers such as:
+#   238/2026/NĐ-CP
+#   01/2021/TT-BKHĐT
+#   12/2020/QĐ-TTg
+#   15/2020/QH14
+#   05/2024/NQ-CP
+DOC_PATTERN = re.compile(
+    r"\b\d+/\d{4}/[A-ZĐ0-9]+(?:-[A-ZĐ0-9]+)*\b",
+    flags=re.IGNORECASE,
+)
+
+
+def _normalize_unicode(text: str) -> str:
+    """Normalize Vietnamese text to NFC."""
+    return unicodedata.normalize("NFC", text or "")
+
+
+def extract_cited_documents(text: str) -> Set[str]:
+    """
+    Extract Vietnamese legal-document IDs from an answer.
+
+    Matching is case-insensitive; extracted IDs are normalized to uppercase
+    so comparison with gold annotations is stable.
+    """
+    text = _normalize_unicode(text)
+    matches = DOC_PATTERN.findall(text)
+
+    return {match.upper() for match in matches}
+
+
+# ---------------------------------------------------------------------------
+# Invalid citation rate
 # ---------------------------------------------------------------------------
 
 def invalid_citation_rate(
-    output: SystemOutput,
     sample: BenchmarkSample,
-) -> Optional[float]:
-    """
-    Fraction of cited documents that are not temporally valid gold documents.
-
-    Returns None when no citations were produced.
-    """
-
-    cited = _unique(output.cited_doc_ids)
-
-    if not cited:
-        return None
-
-    if not sample.gold_doc_ids:
-        return None
-
-    valid_docs = set(_unique(sample.gold_doc_ids))
-
-    invalid_count = sum(
-        1 for doc_id in cited if doc_id not in valid_docs
-    )
-
-    return invalid_count / len(cited)
-
-def aggregate_invalid_citation_rate(
-    outputs: List[SystemOutput],
-    samples: List[BenchmarkSample],
-) -> Optional[float]:
-    """Calculate mean invalid citation rate."""
-
-    values: List[float] = []
-
-    for output, sample in zip(outputs, samples):
-        score = invalid_citation_rate(output, sample)
-
-        if score is not None:
-            values.append(score)
-
-    if not values:
-        return None
-
-    return sum(values) / len(values)
-
-# ---------------------------------------------------------------------------
-# Answer faithfulness
-# ---------------------------------------------------------------------------
-
-def answer_faithfulness(
     output: SystemOutput,
-) -> Optional[float]:
+) -> float:
     """
-    Return an externally computed faithfulness score.
+    Invalid Citation Rate:
 
-    The benchmark does not fabricate a score.
+        number of predicted citations not in gold
+        -----------------------------------------
+              number of predicted citations
 
-    Future evaluators may store:
-        output.metadata["faithfulness_score"]
+    A response with no explicit legal-document citation receives 0.0 here.
+    This means "no invalid citation was detected"; it does NOT mean that the
+    answer has good citation coverage.
     """
+    predicted = extract_cited_documents(output.answer)
 
-    if not output.metadata:
-        return None
-
-    score = output.metadata.get("faithfulness_score")
-
-    if score is None:
-        return None
-
-    try:
-        return float(score)
-    except (TypeError, ValueError):
-        return None
-
-def aggregate_answer_faithfulness(
-    outputs: List[SystemOutput],
-) -> Optional[float]:
-    """Calculate mean answer faithfulness."""
-
-    values: List[float] = []
-
-    for output in outputs:
-        score = answer_faithfulness(output)
-
-        if score is not None:
-            values.append(score)
-
-    if not values:
-        return None
-
-    return sum(values) / len(values)
-
-# ---------------------------------------------------------------------------
-# Lineage
-# ---------------------------------------------------------------------------
-
-def lineage_traceability(
-    output: SystemOutput,
-) -> Optional[float]:
-    """
-    Check page-level lineage completeness.
-
-    Required lineage fields:
-    - chunk_id
-    - logical_doc_id
-    - physical_file_id
-    - physical_page
-
-    Returns None when lineage has not been implemented.
-    """
-
-    if output.lineage_records is None:
-        return None
-
-    if not output.lineage_records:
+    if not predicted:
         return 0.0
 
-    required_fields = {
-        "chunk_id",
-        "logical_doc_id",
-        "physical_file_id",
-        "physical_page",
+    gold = {
+        _normalize_unicode(doc_id).upper()
+        for doc_id in sample.gold_citation_doc_ids
     }
 
-    valid_records = 0
+    invalid = predicted - gold
 
-    for record in output.lineage_records:
-        if required_fields.issubset(record.keys()):
-            valid_records += 1
+    return len(invalid) / len(predicted)
 
-    return valid_records / len(output.lineage_records)
-
-def aggregate_lineage_traceability(
-    outputs: List[SystemOutput],
-) -> Optional[float]:
-    """Calculate mean lineage traceability."""
-
-    values: List[float] = []
-
-    for output in outputs:
-        score = lineage_traceability(output)
-
-        if score is not None:
-            values.append(score)
-
-    if not values:
-        return None
-
-    return sum(values) / len(values)
 
 # ---------------------------------------------------------------------------
-# Latency / overhead
+# Lexical faithfulness
 # ---------------------------------------------------------------------------
 
-def average_latency(
-    outputs: List[SystemOutput],
-) -> Optional[float]:
-    """Calculate average latency in seconds."""
-
-    values = [
-        output.latency_seconds
-        for output in outputs
-        if output.latency_seconds is not None
-    ]
-
-    if not values:
-        return None
-
-    return sum(values) / len(values)
-
-def calculate_pipeline_overhead(
-    system_latency: Optional[float],
-    baseline_latency: Optional[float],
-) -> Optional[float]:
+def normalize(text: str) -> Set[str]:
     """
-    Calculate relative pipeline overhead.
+    Lightweight lexical normalization used for the seminar faithfulness proxy.
 
-    Formula:
-        (system_latency - baseline_latency) / baseline_latency
-
-    Example:
-        baseline = 1.0s
-        system   = 1.2s
-        overhead = 0.20 = 20%
+    This is intentionally a lexical overlap metric, not an NLI/HART
+    faithfulness score.
     """
+    text = _normalize_unicode(text).lower()
+    text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
 
-    if system_latency is None or baseline_latency is None:
-        return None
+    # Keep single-character letters and all numeric tokens because legal
+    # references such as "Điều 5", "Khoản 1", and "Điểm a" are meaningful.
+    return {
+        token
+        for token in text.split()
+        if len(token) > 1 or token.isdigit() or token.isalpha()
+    }
 
-    if baseline_latency <= 0:
-        return None
 
-    return (system_latency - baseline_latency) / baseline_latency
+def answer_faithfulness(
+    sample: BenchmarkSample,
+    output: SystemOutput,
+    k: int = DEFAULT_K,
+) -> float:
+    """
+    Lexical evidence-overlap proxy over the same top-K evidence used by the
+    other retrieval metrics:
+
+        |answer_tokens ∩ evidence_tokens|
+        ---------------------------------
+              |answer_tokens|
+
+    Important:
+    This is NOT semantic faithfulness and cannot detect contradiction.
+    """
+    if k <= 0:
+        raise ValueError("k must be > 0")
+
+    retrieved_top_k = output.retrieved_chunks[:k]
+
+    evidence = " ".join(
+        chunk.text
+        for chunk in retrieved_top_k
+    )
+
+    answer_tokens = normalize(output.answer)
+    evidence_tokens = normalize(evidence)
+
+    if not answer_tokens:
+        return 0.0
+
+    supported = answer_tokens & evidence_tokens
+
+    return len(supported) / len(answer_tokens)
+
 
 # ---------------------------------------------------------------------------
-# System-level evaluation
+# System evaluation
 # ---------------------------------------------------------------------------
 
 def evaluate_system(
-    outputs: List[SystemOutput],
-    samples: List[BenchmarkSample],
-    recall_k: int = 5,
-) -> Dict[str, Any]:
-    """
-    Evaluate one benchmark system against the supplied dataset.
-    """
+    sample: BenchmarkSample,
+    output: SystemOutput,
+    model_name: str,
+    k: int = DEFAULT_K,
+) -> EvaluationResult:
+    return EvaluationResult(
+        sample_id=sample.id,
+        model_name=model_name,
+        recall_at_k=retrieval_recall_at_k(sample, output, k=k),
+        temporal_validity=temporal_validity_accuracy(sample, output, k=k),
+        invalid_citation_rate=invalid_citation_rate(sample, output),
+        faithfulness=answer_faithfulness(sample, output, k=k),
+        latency_ms=output.latency_ms,
+    )
 
-    return {
-        "system_name": (
-            outputs[0].system_name
-            if outputs
-            else None
-        ),
-        "num_samples": len(samples),
-        "metrics": {
-            "retrieval_recall_at_k": aggregate_retrieval_recall(
-                outputs,
-                samples,
-                recall_k,
-            ),
-            "temporal_validity_accuracy": (
-                aggregate_temporal_validity_accuracy(
-                    outputs,
-                    samples,
-                )
-            ),
-            "invalid_citation_rate": (
-                aggregate_invalid_citation_rate(
-                    outputs,
-                    samples,
-                )
-            ),
-            "answer_faithfulness": (
-                aggregate_answer_faithfulness(outputs)
-            ),
-            "lineage_traceability": (
-                aggregate_lineage_traceability(outputs)
-            ),
-            "average_latency_seconds": average_latency(outputs),
-        },
-    }
 
 # ---------------------------------------------------------------------------
-# Persistence
+# JSON output
 # ---------------------------------------------------------------------------
 
 def save_json(
-    data: Dict[str, Any],
-    output_path: str | Path,
+    results: List[EvaluationResult],
+    path: str | Path,
 ) -> None:
-    """Save evaluation results as JSON."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
 
-    output_path = Path(output_path)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    with output_path.open("w", encoding="utf-8") as file:
+    with path.open("w", encoding="utf-8") as f:
         json.dump(
-            data,
-            file,
+            [asdict(result) for result in results],
+            f,
             ensure_ascii=False,
             indent=2,
         )
-
-def save_outputs(
-    outputs: List[SystemOutput],
-    output_path: str | Path,
-) -> None:
-    """Save raw system outputs as JSON."""
-
-    payload = {
-        "outputs": [asdict(output) for output in outputs]
-    }
-
-    save_json(payload, output_path)

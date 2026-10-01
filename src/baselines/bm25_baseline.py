@@ -1,287 +1,222 @@
-import logging
+from __future__ import annotations
+
+import math
 import re
-from typing import Any, Dict, List, Optional
+from collections import Counter, defaultdict
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Dict, List
+from typing import Optional
 
-from src.core.config import SystemConfig
-from src.core.interfaces import BaseRetriever
-
-
-logger = logging.getLogger(__name__)
-
-
-# ---------------------------------------------------------------------------
-# Optional dependencies
-# ---------------------------------------------------------------------------
-
-try:
-    from rank_bm25 import BM25Okapi
-except ImportError as exc:
-    BM25Okapi = None
-    _BM25_IMPORT_ERROR = exc
+import pandas as pd
 
 
-TOKENIZER_ENGINE = "whitespace"
+# ============================================================
+# Data classes
+# ============================================================
 
-try:
-    from pyvi import ViTokenizer
+@dataclass
+class RetrievedChunk:
+    chunk_id: str
+    article_id: str
+    logical_doc_id: str
+    text: str
+    global_page: int
+    score: float
+    effective_from: Optional[str] = None
+    effective_to: Optional[str] = None
 
-    TOKENIZER_ENGINE = "pyvi"
-except ImportError:
-    try:
-        import underthesea
+# ============================================================
+# BM25 Retriever
+# ============================================================
 
-        TOKENIZER_ENGINE = "underthesea"
-    except ImportError:
-        pass
-
-
-logger.info(
-    "BM25 baseline initialized with tokenizer engine: '%s'",
-    TOKENIZER_ENGINE,
-)
-
-
-# ---------------------------------------------------------------------------
-# Tokenization
-# ---------------------------------------------------------------------------
-
-def tokenize_vietnamese_text(text: str) -> List[str]:
+class BM25Retriever:
     """
-    Tokenize Vietnamese legal text into normalized word tokens.
+    Baseline 1: Pure lexical BM25 retrieval.
 
-    PyVi is preferred, followed by Underthesea. A regex-based tokenizer
-    is used as a lightweight fallback when neither NLP package is available.
-    """
-    if not text:
-        return []
+    Input:
+        Gold Parquet
 
-    cleaned_text = text.lower().strip()
+    Output:
+        Top-K RetrievedChunk
 
-    if TOKENIZER_ENGINE == "pyvi":
-        tokenized = ViTokenizer.tokenize(cleaned_text)
-        return tokenized.split()
-
-    if TOKENIZER_ENGINE == "underthesea":
-        words = underthesea.word_tokenize(
-            cleaned_text,
-            format="text",
-        )
-        return words.split()
-
-    return re.findall(
-        r"\w+",
-        cleaned_text,
-        flags=re.UNICODE,
-    )
-
-
-# ---------------------------------------------------------------------------
-# BM25 baseline
-# ---------------------------------------------------------------------------
-
-class BM25Baseline(BaseRetriever):
-    """
-    Standard BM25 lexical retrieval baseline.
-
-    This baseline intentionally does NOT perform:
-    - contract validation
-    - temporal as-of filtering
-    - HART verification
-    - lineage tracing
-
-    It operates directly over the indexed Gold chunks and retrieves
-    documents using lexical BM25 similarity only.
+    Notes
+    -----
+    - No embedding
+    - No temporal filtering
+    - No data contracts
     """
 
     def __init__(
         self,
-        config: Optional[SystemConfig] = None,
+        gold_path: str | Path,
         k1: float = 1.5,
         b: float = 0.75,
     ):
-        super().__init__(config=config)
-
-        if BM25Okapi is None:
-            raise ImportError(
-                "The 'rank_bm25' package is required to run the BM25 "
-                "baseline. Install it with: pip install rank-bm25"
-            ) from _BM25_IMPORT_ERROR
-
+        self.gold_path = Path(gold_path)
         self.k1 = k1
         self.b = b
 
-        self.bm25_index: Optional[BM25Okapi] = None
-        self.corpus_chunks: List[Dict[str, Any]] = []
-        self.tokenized_corpus: List[List[str]] = []
+        self.df = pd.read_parquet(self.gold_path)
 
-    def index_documents(
-        self,
-        chunks: List[Dict[str, Any]],
-    ) -> None:
-        """
-        Build a BM25 index over legal text chunks.
+        self.documents = self.df["text_content"].fillna("").tolist()
 
-        Expected chunk fields include:
-            chunk_id
-            article_id
-            logical_doc_id
-            physical_file_id
-            file_path
-            part_no
-            physical_page
-            global_page
-            text_content
-        """
-        if not chunks:
-            logger.warning(
-                "BM25 indexer received an empty document list."
+        self.doc_len = []
+        self.avgdl = 0.0
+
+        self.term_freqs = []
+        self.doc_freq = defaultdict(int)
+        self.idf = {}
+
+        self._build_index()
+
+    # --------------------------------------------------------
+    # Tokenizer
+    # --------------------------------------------------------
+
+    @staticmethod
+    def tokenize(text: str) -> List[str]:
+        text = text.lower()
+        text = re.sub(r"[^\w\s]", " ", text)
+        return text.split()
+
+    # --------------------------------------------------------
+    # Build BM25 index
+    # --------------------------------------------------------
+
+    def _build_index(self):
+
+        total_len = 0
+
+        for doc in self.documents:
+
+            tokens = self.tokenize(doc)
+
+            total_len += len(tokens)
+            self.doc_len.append(len(tokens))
+
+            tf = Counter(tokens)
+            self.term_freqs.append(tf)
+
+            for term in tf:
+                self.doc_freq[term] += 1
+
+        N = len(self.documents)
+        self.avgdl = total_len / max(N, 1)
+
+        for term, df in self.doc_freq.items():
+            self.idf[term] = math.log(
+                1 + (N - df + 0.5) / (df + 0.5)
             )
-            self.corpus_chunks = []
-            self.tokenized_corpus = []
-            self.bm25_index = None
-            return
 
-        self.corpus_chunks = [
-            dict(chunk)
-            for chunk in chunks
-        ]
+    # --------------------------------------------------------
+    # Score one document
+    # --------------------------------------------------------
 
-        self.tokenized_corpus = [
-            tokenize_vietnamese_text(
-                chunk.get("text_content", "")
-            )
-            for chunk in self.corpus_chunks
-        ]
-
-        self.bm25_index = BM25Okapi(
-            self.tokenized_corpus,
-            k1=self.k1,
-            b=self.b,
-        )
-
-        logger.info(
-            "Indexed %d chunks with BM25.",
-            len(self.corpus_chunks),
-        )
-
-    def index_from_lakehouse(
+    def _score(
         self,
-        lakehouse_manager: Any,
-    ) -> None:
-        """
-        Load Gold chunks from the DuckDB lakehouse and build the BM25 index.
+        query_tokens: List[str],
+        doc_index: int,
+    ) -> float:
 
-        No temporal filtering is applied because this is an intentionally
-        non-temporal lexical baseline.
-        """
-        cursor = lakehouse_manager.conn.execute(
-            """
-            SELECT
-                chunk_id,
-                article_id,
-                logical_doc_id,
-                physical_file_id,
-                file_path,
-                part_no,
-                physical_page,
-                global_page,
-                chunk_index,
-                text_content,
-                issued_date,
-                effective_from,
-                effective_to,
-                status,
-                metadata_json
-            FROM gold_chunks
-            WHERE text_content IS NOT NULL
-              AND text_content <> '';
-            """
-        )
+        score = 0.0
+        tf = self.term_freqs[doc_index]
+        dl = self.doc_len[doc_index]
 
-        columns = [
-            description[0]
-            for description in cursor.description
-        ]
+        for term in query_tokens:
 
-        rows = cursor.fetchall()
+            if term not in tf:
+                continue
 
-        chunks = [
-            dict(zip(columns, row))
-            for row in rows
-        ]
+            freq = tf[term]
+            idf = self.idf.get(term, 0)
 
-        logger.info(
-            "Loaded %d Gold chunks from lakehouse for BM25 indexing.",
-            len(chunks),
-        )
+            numerator = freq * (self.k1 + 1)
 
-        self.index_documents(chunks)
+            denominator = (
+                freq
+                + self.k1
+                * (
+                    1
+                    - self.b
+                    + self.b * dl / self.avgdl
+                )
+            )
+
+            score += idf * numerator / denominator
+
+        return score
+
+    # --------------------------------------------------------
+    # Retrieval
+    # --------------------------------------------------------
 
     def retrieve(
         self,
         query: str,
-        t_event: Optional[str] = None,
         top_k: int = 5,
-    ) -> List[Dict[str, Any]]:
-        """
-        Retrieve the top-k chunks using lexical BM25 scoring.
+    ) -> List[RetrievedChunk]:
 
-        Args:
-            query:
-                User query.
+        query_tokens = self.tokenize(query)
 
-            t_event:
-                Accepted for interface compatibility with temporal
-                retrievers, but intentionally ignored by this baseline.
+        scores = []
 
-            top_k:
-                Number of chunks to return.
+        for idx in range(len(self.documents)):
+            score = self._score(query_tokens, idx)
 
-        Returns:
-            Ranked chunk dictionaries with an additional `score` field.
-        """
-        if top_k <= 0:
-            return []
+            if score > 0:
+                scores.append((idx, score))
 
-        if t_event is not None:
-            logger.debug(
-                "BM25 baseline intentionally ignores t_event=%s.",
-                t_event,
+        scores.sort(key=lambda x: x[1], reverse=True)
+
+        results: List[RetrievedChunk] = []
+
+        for idx, score in scores[:top_k]:
+
+            row = self.df.iloc[idx]
+
+            results.append(
+                RetrievedChunk(
+                    chunk_id=row["chunk_id"],
+                    article_id=row["article_id"],
+                    logical_doc_id=row["logical_doc_id"],
+                    text=row["text_content"],
+                    global_page=int(row["global_page"]),
+                    score=float(score),
+                    effective_from=(
+                        None
+                        if pd.isna(row["effective_from"])
+                        else row["effective_from"].isoformat()
+                    ),
+                    effective_to=(
+                        None
+                        if pd.isna(row["effective_to"])
+                        else row["effective_to"].isoformat()
+                    ),
+                )
             )
 
-        if self.bm25_index is None:
-            logger.error(
-                "BM25 index is empty. Call index_documents() first."
-            )
-            return []
+        return results
 
-        tokenized_query = tokenize_vietnamese_text(query)
 
-        if not tokenized_query:
-            return []
+# ============================================================
+# Example
+# ============================================================
 
-        scores = self.bm25_index.get_scores(
-            tokenized_query
-        )
+if __name__ == "__main__":
 
-        scored_results: List[Dict[str, Any]] = []
+    retriever = BM25Retriever(
+        "data/gold/gold_chunks.parquet"
+    )
 
-        for index, score in enumerate(scores):
-            if score <= 0:
-                continue
+    query = (
+        "Nghị định 168/2024 có hiệu lực từ ngày nào?"
+    )
 
-            chunk = dict(
-                self.corpus_chunks[index]
-            )
+    chunks = retriever.retrieve(query, top_k=3)
 
-            chunk["score"] = float(score)
-            chunk["retrieval_method"] = "bm25_baseline"
-
-            scored_results.append(chunk)
-
-        scored_results.sort(
-            key=lambda item: item["score"],
-            reverse=True,
-        )
-
-        return scored_results[:top_k]
+    for c in chunks:
+        print("=" * 80)
+        print(c.chunk_id)
+        print(c.score)
+        print(c.text[:250])

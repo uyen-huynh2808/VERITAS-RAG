@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Nghị định 238/2026/NĐ-CP bổ sung khoản 3a vào Điều 29 Nghị định 168/2024/NĐ-CP quy định khung tiền phạt là bao nhiêu đối với xe cứu hộ giao thông đường bộ vi phạm?",
+  "answer": "Phạt tiền từ **5.000.000 đồng đến 10.000.000 đồng** đối với các hành vi vi phạm của xe cứu hộ giao thông đường bộ được quy định trong",
+  "latency_ms": 22112.788500002353,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:6322e6b5-53a2-44ed-a2b8-a6e22e2c3782:5:0",
+      "article_id": "6322e6b5-53a2-44ed-a2b8-a6e22e2c3782",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 29 Bổ sung khoản 3a vào sau khoản 3 như sau: \"3a. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với một trong các hành vi sau đây: Điều khiển xe ô tô cứu hộ giao thông đường bộ chở xe được cứu hộ mà vượt quá khối lượng cho phép chuyên chở của xe cứu hộ; kéo theo xe được cứu hộ mà vượt quá khối lượng cho phép kéo theo của xe cứu hộ được ghi trong chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe; Điều khiển xe ô tô cứu hộ giao thông đường bộ kéo theo xe không đúng đối tượng được cứu hộ theo quy định tại khoản 1 Điều 54 Luật Trật tự, an toàn giao thông đường bộ.\". Sửa đổi, bổ sung khoản 4 như sau: \"4. Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực hiện hành vi quy định tại khoản 3, khoản 3a Điều này bị trừ điểm giấy phép lái xe 02 điểm.\".",
+      "global_page": 5,
+      "score": 0.7265516519546509,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
+      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
+      "global_page": 77,
+      "score": 0.6460111141204834,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:49dc8635-9467-44e1-8a34-74fe07960754:5:0",
+      "article_id": "49dc8635-9467-44e1-8a34-74fe07960754",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 32 Bổ sung khoản 9a vào sau khoản 9 như sau: \"9a. Phạt tiền từ 5.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 10.000.000 đồng đến 12.000.000 đồng đối với tổ chức là chủ xe ô tô đầu kéo, xe vận tải nội bộ thực hiện một trong các hành vi vi phạm sau đây: Đưa xe không lắp thiết bị giám sát hành trình của xe hoặc có lắp thiết bị giám sát hành trình nhưng không hoạt động, không đúng quy chuẩn theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô; Đưa xe không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không ghi, không lưu trữ được dữ liệu theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô.\". Bổ sung điểm e vào sau điểm đ khoản 11 như sau: \"e) Giao phương tiện hoặc để cho người làm công, người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 8a Điều 20 của Nghị định này.\". Bổ sung điểm e vào sau điểm đ khoản 13 như sau: \"e) Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c, điểm d, điểm e khoản 8 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c, điểm d, điểm e khoản 8 Điều 21 của Nghị định này.\". Sửa đổi, bổ sung điểm l khoản 19 như sau: \"l) Thực hiện hành vi vi phạm quy định tại điểm o khoản 7, khoản 9a Điều này buộc lắp đặt dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ, thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe theo đúng quy định.\". Sửa đổi, bổ sung điểm c khoản 21 như sau: \"c) Thực hiện hành vi quy định tại điểm a, điểm b, điểm đ, điểm e khoản 13; điểm a, điểm b, điểm c, điểm d khoản 14; điểm a khoản 16 Điều này trong trường hợp chủ phương tiện là người trực tiếp điều khiển",
+      "global_page": 5,
+      "score": 0.6293289661407471,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:eb6ef603-acc3-4b21-aec6-cd236224ae76:46:0",
+      "article_id": "eb6ef603-acc3-4b21-aec6-cd236224ae76",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe cứu hộ giao thông đường bộ Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với hành vi vi phạm điều khiển xe ô tô cứu hộ giao thông đường bộ không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô. Phạt tiền từ 2.000.000 đồng đến 3.000.000 đồng đối với hành vi vi phạm điều khiển xe ô tô cứu hộ giao thông đường bộ không có dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ theo quy định. Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi vi phạm điều khiển xe ô tô cứu hộ giao thông đường bộ không lắp thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô. Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực hiện hành vi quy định tại khoản 3 Điều này bị trừ điểm giấy phép lái xe 02 điểm.",
+      "global_page": 46,
+      "score": 0.6272101402282715,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:3e9e1265-2686-4d9b-b73b-565e8e8ddb3c:7:0",
+      "article_id": "3e9e1265-2686-4d9b-b73b-565e8e8ddb3c",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung Điều 43 \" Điều 43. Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 7.500.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 15.000.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng đồn Công an, Thủ trưởng đơn vị Cảnh sát cơ động cấp tiểu đoàn, Trưởng trạm, Đội trưởng có quyền: Phạt cảnh cáo; Phạt tiền đến 22.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 45.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng Công an cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông gồm: Trưởng phòng Hướng dẫn tuyên truyền, điều tra, giải quyết tai nạn giao thông, Trưởng phòng Hướng dẫn, đăng ký và kiểm định phương tiện, Trưởng phòng Hướng dẫn, đào tạo, sát hạch, quản lý giấy phép của người điều khiển phương tiện giao thông, Trưởng phòng Hướng dẫn tuần tra, kiểm soát giao thông đường bộ, đường sắt, Trưởng phòng Hướng",
+      "global_page": 7,
+      "score": 0.6103119850158691,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    }
+  ]
+}

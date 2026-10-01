@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Một vụ vi phạm giao thông đường bộ xảy ra ngày 14/08/2026 và bị phát hiện lập biên bản cùng ngày. Quyết định xử phạt ban hành sau đó phải căn cứ theo quy định của văn bản nào?",
+  "answer": "Theo quy định chuyển tiếp trong Nghị định 168/2024/NĐ‑CP (xem Context 3), nếu hành vi vi phạm đang được thực hiện",
+  "latency_ms": 22057.678699988173,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:68:0",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Thủ tục xử phạt, nguyên tắc xử phạt đối với chủ phương tiện, người điều khiển phương tiện vi phạm quy định liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ Trong trường hợp chủ phương tiện vi phạm có mặt tại nơi xảy ra vi phạm thì người có thẩm quyền căn cứ vào hành vi vi phạm để lập biên bản vi phạm hành chính và tiến hành xử phạt theo quy định của pháp luật. Trong trường hợp chủ phương tiện vi phạm không có mặt tại nơi xảy ra vi phạm thì người có thẩm quyền căn cứ vào hành vi vi phạm để lập biên bản vi phạm hành chính đối với chủ phương tiện và tiến hành xử phạt theo quy định của pháp luật, người điều khiển phương tiện phải ký vào biên bản vi phạm hành chính với tư cách là người chứng kiến. Đối với những hành vi vi phạm mà cùng được quy định tại các điều khác nhau của Chương II của Nghị định này, trong trường hợp đối tượng vi phạm trùng nhau thì xử phạt như sau:",
+      "global_page": 68,
+      "score": 46.25367809086235,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:21632b79-d008-427a-90c4-9e9ff6d94f93:11:0",
+      "article_id": "21632b79-d008-427a-90c4-9e9ff6d94f93",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Nơi nhận: Ban Bí thư Trung ương Đảng; Thủ tướng, các Phó Thủ tướng Chính phủ; Các bộ, cơ quan ngang bộ; HĐND, UBND các tỉnh, thành phố trực thuộc trung ương: Văn phòng Trung ương và các Ban của Đảng; Văn phòng Tổng Bí thư; Văn phòng Chủ tịch nước; Hội đồng Dân tộc và các Ủy ban của Quốc hội; Văn phòng Quốc hội; Tòa án nhân dân tối cao; Viện kiểm sát nhân dân tối cao; Kiểm toán nhà nước; Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam; Cơ quan trung ương của các tổ chức chính trị - xã hội; VPCP: BTCN, các PCN, Trợ lý TTg, các Vụ, Cục, Công báo; Lưu: VT, CN (2). pvc TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Phạm Gia Túc",
+      "global_page": 11,
+      "score": 39.811985462337276,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52:80:0",
+      "article_id": "fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Trường hợp hành vi vi phạm hành chính đang được thực hiện, thì áp dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm để xử phạt.",
+      "global_page": 80,
+      "score": 34.589162147553736,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:73:0",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "chính, pháp luật về đo lường để làm căn cứ xác định hành vi vi phạm đối với cá nhân, tổ chức khi thực hiện một trong các hành vi vi phạm quy định tại Nghị định này. Việc xác minh để phát hiện hành vi vi phạm quy định tại điểm a khoản 3, điểm h khoản 7 Điều 32 của Nghị định này được thực hiện thông qua công tác điều tra, giải quyết vụ tai nạn giao thông; qua công tác đăng ký xe; qua công tác xử lý vụ việc vi phạm hành chính tại trụ sở đơn vị. Trường hợp quá thời hạn hẹn đến giải quyết vụ việc vi phạm được ghi trong biên bản vi phạm hành chính hoặc trong thông báo của người có thẩm quyền xử phạt hoặc quá thời hạn thi hành quyết định xử phạt mà chủ phương tiện vi phạm, người vi phạm chưa thực hiện giải quyết vụ việc vi phạm theo quy định hoặc chưa chấp hành quyết định xử phạt thì người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm (đối với phương tiện có quy định phải kiểm định), cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe (nếu đã xác định được người vi phạm). Việc gửi thông báo được thực hiện bằng văn bản hoặc thực hiện thông báo bằng phương thức điện tử thông qua kết nối, chia sẻ dữ liệu khi đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin. Cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe trước khi thực hiện đăng kiểm, đăng ký xe, cấp, đổi, cấp lại giấy phép lái xe có trách nhiệm tra cứu dữ liệu phương tiện vi phạm, người vi phạm được cơ quan Cảnh sát giao thông gửi thông báo đến; Trường hợp khi tra cứu dữ liệu theo quy định tại điểm a khoản này nếu có thông tin về phương tiện vi phạm, người vi phạm thì chưa giải quyết việc đăng kiểm, đăng ký phương tiện vi phạm, chưa cấp, đổi, cấp lại giấy phép lái xe đối với người vi phạm; Sau khi chủ phương tiện, người vi phạm đã giải quyết vụ việc vi phạm theo quy định, người có thẩm quyền xử phạt phải gửi thông báo ngay cho cơ quan đăng kiểm, cơ quan đăng ký xe, cơ quan cấp giấy phép lái xe bằng văn bản hoặc theo hình thức kết nối, chia sẻ dữ liệu khi đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin để thực hiện việc đăng kiểm, đăng ký xe, cấp, đổi, cấp lại giấy phép lái xe theo quy định. Việc gửi quyết định xử phạt vi phạm hành chính, quyết định tạm giữ tang vật, phương tiện, giấy phép, chứng chỉ hành nghề theo thủ tục hành chính và các biểu mẫu khác trong xử phạt vi phạm hành chính thực hiện theo quy",
+      "global_page": 73,
+      "score": 33.17272198572727,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:1636dac6-76f9-461c-9065-062d5f508c5e:74:0",
+      "article_id": "1636dac6-76f9-461c-9065-062d5f508c5e",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "đ) Khoản 10 (trong trường hợp người vi phạm là người điều khiển phương tiện); điểm a khoản 14 (trong trường hợp người vi phạm là người điều khiển phương tiện) Điều 12; Điểm a khoản 4; điểm a, điểm b khoản 5; khoản 6; điểm b khoản 7; điểm a khoản 8; khoản 9 Điều 13; Điểm a, điểm b khoản 2; điểm a khoản 3; khoản 4 Điều 14; Điểm a, điểm đ khoản 1; điểm b, điểm c, điểm d, điểm đ khoản 2; khoản 3 Điều 16; Khoản 1; điểm a khoản 4; khoản 5; khoản 6; khoản 7; khoản 8; khoản 9 Điều 18; Khoản 2 Điều 19; Điểm b, điểm đ, điểm e, điểm h khoản 8; điểm b, điểm đ khoản 9; khoản 10; điểm a khoản 11; điểm a, điểm b, điểm d khoản 12; điểm d khoản 13; điểm i khoản 14; điểm c khoản 16; khoản 17 Điều 32; Điểm b khoản 5 Điều 34; Khoản 3 Điều 35; Các hành vi vi phạm khác quy định tại Nghị định này thuộc trường hợp thật cần thiết cần phải ngăn chặn ngay hành vi vi phạm hành chính mà nếu không tạm giữ thì sẽ gây hậu quả nghiêm trọng cho xã hội. Để bảo đảm thi hành quyết định xử phạt vi phạm hành chính hoặc để xác minh tình tiết làm căn cứ ra quyết định xử phạt, người có thẩm quyền xử phạt có thể quyết định tạm giữ phương tiện, giấy tờ có liên quan đến người điều khiển và phương tiện vi phạm một trong các hành vi quy định tại Nghị định này theo quy định tại điểm a, điểm c khoản 1; khoản 2; khoản 6; khoản 7; khoản 8 Điều 125 của Luật Xử lý vi phạm hành chính. Khi bị tạm giữ giấy tờ theo quy định tại khoản 6 Điều 125 của Luật Xử lý vi phạm hành chính, nếu quá thời hạn hẹn đến giải quyết vụ việc vi phạm ghi trong biên bản vi phạm hành chính, người vi phạm chưa thực hiện giải quyết vụ việc vi phạm theo quy định mà vẫn tiếp tục điều khiển phương tiện hoặc đưa phương tiện ra tham gia giao thông thì bị áp dụng xử phạt như hành vi không có giấy tờ. Đối với trường hợp tại thời điểm kiểm tra, người điều khiển phương tiện không xuất trình được một, một số hoặc tất cả các giấy tờ (giấy phép lái xe, chứng nhận đăng ký xe (hoặc bản sao chứng nhận đăng ký xe có chứng thực kèm theo bản gốc giấy biên nhận còn hiệu lực của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài trong trường hợp tổ chức tín dụng, chi nhánh ngân hàng nước ngoài giữ bản gốc chứng nhận đăng ký xe), giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường) theo quy định (bản giấy hoặc thông tin của các giấy tờ được tích hợp",
+      "global_page": 74,
+      "score": 32.41179354200549,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

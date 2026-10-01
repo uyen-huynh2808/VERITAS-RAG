@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Tra cứu quy định về mức phạt tiền áp dụng đối với người điều khiển xe ô tô không gắn đủ biển số xe theo pháp luật giao thông có hiệu lực vào ngày 01/09/2026.",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 18421.220699994592,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:8b606477-d050-498b-ace3-531aae4efa02:80:0",
+      "article_id": "8b606477-d050-498b-ace3-531aae4efa02",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy định tại khoản 2 Điều này. Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026; quy định tại điểm b khoản 1 Điều 32 của Nghị định này có hiệu lực thi hành theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe gắn máy.",
+      "global_page": 80,
+      "score": 34.470155304792506,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 30.74661243870904,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:6124f704-017d-4288-8daa-bb521edf050a:34:0",
+      "article_id": "6124f704-017d-4288-8daa-bb521edf050a",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Xử phạt các hành vi vi phạm quy định về điều kiện của người điều khiển xe máy chuyên dùng Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với người điều khiển xe máy chuyên dùng không có chứng nhận bảo hiểm bắt buộc trách nhiệm dân sự theo quy định của pháp luật. Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người điều khiển xe máy chuyên dùng không có bằng (hoặc chứng chỉ) điều khiển xe máy chuyên dùng, không có giấy phép lái xe (hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm, giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tẩy xóa, giấy phép lái xe không còn hiệu lực) hoặc không có chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ. Mục 4. VI PHẠM QUY ĐỊNH VỀ BẢO ĐẢM TRẬT TỰ, AN TOÀN GIAO THÔNG ĐƯỜNG BỘ ĐỐI VỚI XE Ô TÔ VẬN CHUYỂN HÀNH KHÁCH, HÀNG HÓA, HÀNG SIÊU TRƯỜNG, SIÊU TRỌNG, HÀNG HÓA NGUY HIỂM, CHỞ TRẺ EM MẦM NON, HỌC SINH; XE CHỞ NGƯỜI BỐN BÁNH CÓ GẮN ĐỘNG CƠ, XE CHỞ HÀNG BỐN BÁNH CÓ GẮN ĐỘNG CƠ; XE CỨU HỘ GIAO THÔNG ĐƯỜNG BỘ; XE VẬN CHUYỂN ĐỘNG VẬT SỐNG, THỰC PHẨM TƯƠI SỐNG; XE CỨU THƯƠNG",
+      "global_page": 34,
+      "score": 28.39338232679835,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:65f7cc3c-cc52-4d14-a269-4ae644e26018:63:0",
+      "article_id": "65f7cc3c-cc52-4d14-a269-4ae644e26018",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Phạt tiền từ 16.000.000 đồng đến 20.000.000 đồng đối với cơ sở đăng kiểm thực hiện một trong các hành vi vi phạm sau đây: Kiểm định, cấp giấy chứng nhận kiểm định cho xe cơ giới, xe máy chuyên dùng, kiểm định khí thải xe mô tô, xe gắn máy không đúng quy định, tiêu chuẩn, quy chuẩn kỹ thuật; Đưa ra các yêu cầu trái quy định về trình tự, thủ tục đăng kiểm đối với cá nhân, tổ chức; Từ chối cung cấp dịch vụ kiểm định không đúng quy định của pháp luật. Phạt tiền từ 16.000.000 đồng đến 20.000.000 đồng đối với cơ sở sản xuất, lắp ráp, cơ sở nhập khẩu, cơ sở bảo hành, bảo dưỡng hoặc tổ chức, cá nhân được ủy quyền thực hiện một trong các hành vi vi phạm sau đây: Sử dụng, cung cấp hồ sơ, tài liệu giả để thực hiện việc kiểm tra, chứng nhận, thử nghiệm nhưng chưa đến mức bị truy cứu trách nhiệm hình sự; Sử dụng thiết bị, dụng cụ không đảm bảo theo quy định của pháp luật về đo lường để kiểm tra chất lượng xuất xưởng xe cơ giới, xe máy chuyên dùng, phụ tùng xe cơ giới. Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm còn bị áp dụng hình thức xử phạt bổ sung sau đây: Thực hiện hành vi quy định tại khoản 1 Điều này bị tước quyền sử dụng chứng chỉ đăng kiểm viên từ 01 tháng đến 03 tháng; Thực hiện hành vi quy định tại điểm a, điểm b, điểm c, điểm d, điểm g khoản 2; khoản 4 Điều này bị tước quyền sử dụng giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới từ 01 tháng đến 03 tháng. Chương III THẨM QUYỀN, THỦ TỤC XỬ PHẠT, TRỪ ĐIỂM, PHỤC HỒI ĐIỂM GIẤY PHÉP LÁI XE Mục 1. THẨM QUYỀN XỬ PHẠT",
+      "global_page": 63,
+      "score": 27.48789526634523,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d47f2e08-5005-41e1-8b9b-97675ffc88a1:7:1",
+      "article_id": "d47f2e08-5005-41e1-8b9b-97675ffc88a1",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "ở nơi đường không giao nhau cùng mức); Không tuân thủ các quy định về dừng xe, đỗ xe tại nơi đường bộ giao nhau cùng mức với đường sắt; dừng xe, đỗ xe trong phạm vi bảo vệ công trình đường sắt, phạm vi an toàn của đường sắt; đ) Dừng xe, đỗ xe tại vị trí: nơi đường bộ giao nhau hoặc trong phạm vi 05 mét tính từ mép đường giao nhau; điểm đón, trả khách; trước cổng hoặc trong phạm vi 05 mét hai bên cổng trụ sở cơ quan, tổ chức có bố trí đường cho xe ra, vào; nơi phần đường có bề rộng chỉ đủ cho một làn xe cơ giới; che khuất biển báo hiệu đường bộ, đèn tín hiệu giao thông; nơi mở dải phân cách giữa; cách xe ô tô đang đỗ ngược chiều dưới 20 mét trên đường phố hẹp, dưới 40 mét trên đường có một làn xe cơ giới trên một chiều đường; Đỗ xe không sát theo lề đường, vỉa hè phía bên phải theo chiều đi hoặc bánh xe gần nhất cách lề đường, vỉa hè quá 0,25 mét; đỗ xe trên đường dành riêng cho xe buýt; đỗ xe trên miệng cống thoát nước, miệng hầm của đường điện thoại, điện cao thế, chỗ dành riêng cho xe chữa cháy lấy nước; đỗ, để xe ở vỉa hè trái quy định của pháp luật; đỗ xe nơi có biển 'Cấm đỗ xe' hoặc biển 'Cấm dừng xe và đỗ xe', trừ hành vi vi phạm quy định tại điểm đ khoản 4, điểm c khoản 7 Điều này; Không sử dụng hoặc sử dụng không đủ đèn chiếu sáng trong thời gian từ 18 giờ ngày hôm trước đến 06 giờ ngày hôm sau hoặc khi có sương mù, khói, bụi, trời mưa, thời tiết xấu làm hạn chế tầm nhìn; Điều khiển xe ô tô kéo theo xe khác, vật khác (trừ trường hợp kéo theo một rơ moóc, sơ mi rơ moóc hoặc một xe ô tô, xe máy chuyên dùng khác khi xe này không tự chạy được); điều khiển xe ô tô đẩy xe khác, vật khác; điều khiển xe kéo rơ moóc, sơ mi rơ moóc kéo thêm rơ moóc hoặc xe khác, vật khác; không nối chắc chắn, an toàn giữa xe kéo và xe được kéo khi kéo nhau; Chở người trên xe được kéo, trừ người điều khiển; Không thắt dây đai an toàn khi điều khiển xe chạy trên đường;",
+      "global_page": 7,
+      "score": 26.58678764295255,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

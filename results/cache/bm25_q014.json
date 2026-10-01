@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Vào ngày 15/08/2026, người điều khiển xe ô tô thực hiện hành vi dán thêm chữ làm thay đổi hình dạng biển số xe sẽ bị xử phạt theo Nghị định 168/2024/NĐ-CP nguyên bản hay theo quy định đã được sửa đổi bởi Nghị định 238/2026/NĐ-CP?",
+  "answer": "Theo các nội dung được trích trong **Context 2** và **Context 3**, Nghị định 238/2026/NĐ‑CP đã sửa đổi, bổ sung các điểm b của",
+  "latency_ms": 18369.998099980876,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
+      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
+      "global_page": 77,
+      "score": 58.6902873561868,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:f6735874-8b33-4b40-aa8e-e041347e6faf:2:0",
+      "article_id": "f6735874-8b33-4b40-aa8e-e041347e6faf",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung điểm b khoản 3 Điều 14 \"b) Điều khiển xe gắn biển số không đúng vị trí, không đúng quy cách theo quy định; gắn biển số không rõ chữ, số hoặc sơn, dán lên chữ, số của biển số xe; gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc (của chữ, số, nền biển số xe), hình dạng, kích thước của biển số xe; sử dụng chất liệu, vật liệu, thiết bị làm thay đổi khả năng nhận diện thông tin biển số xe của phương tiện, thiết bị kỹ thuật nghiệp vụ.\".",
+      "global_page": 2,
+      "score": 40.61857114914955,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:2435bc4d-82ce-4d06-bc30-f99cc34df68c:2:0",
+      "article_id": "2435bc4d-82ce-4d06-bc30-f99cc34df68c",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung điểm b khoản 8 Điều 13 \"b) Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, không đúng quy cách theo quy định; gắn biển số không rõ chữ, số hoặc sơn, dán lên chữ, số của biển số xe; gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc (của chữ, số, nền biển số xe), hình dạng, kích thước của biển số xe; sử dụng chất liệu, vật liệu, thiết bị làm thay đổi khả năng nhận diện thông tin biển số xe của phương tiện, thiết bị kỹ thuật nghiệp vụ (kể cả rơ moóc và sơ mi rơ moóc).\".",
+      "global_page": 2,
+      "score": 39.86268049820158,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:52:1",
+      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "a khoản 5 Điều 34 của Nghị định này; Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này; Tự ý thay đổi tổng thành khung, tổng thành máy (động cơ), hệ thống phanh, hệ thống truyền động (truyền lực), hệ thống chuyển động hoặc tự ý cải tạo kết cấu, hình dáng, kích thước của xe không đúng thiết kế của nhà sản xuất hoặc thiết kế trong hồ sơ đã nộp cho cơ quan đăng ký xe hoặc thiết kế cải tạo đã được cơ quan có thẩm quyền phê duyệt; tự ý thay đổi tính năng sử dụng của xe hoặc tự ý lắp đặt thêm cơ cấu nâng hạ thùng xe, nâng hạ công-ten-nơ trên xe (kể cả rơ moóc và sơ mi rơ moóc). Tịch thu phương tiện đối với chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện một trong các hành vi vi phạm sau đây: Cắt, hàn, tẩy xoá, đục sửa, đóng lại trái phép số khung, số động cơ (số máy); đưa phương tiện đã bị cắt, hàn, tẩy xoá, đục sửa, đóng lại trái phép số khung, số động cơ (số máy) tham gia giao thông; Cải tạo xe ô tô loại khác thành xe ô tô chở người; Đưa phương tiện quá niên hạn sử dụng tham gia giao thông, trừ hành vi vi phạm quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Tái phạm hành vi quy định tại khoản 5 Điều này (trong trường hợp chở vượt trên 100% số người quy định được phép chở của phương tiện);",
+      "global_page": 52,
+      "score": 32.95859819404437,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d2765de0-1e6d-4320-9e08-524865f7bea0:26:1",
+      "article_id": "d2765de0-1e6d-4320-9e08-524865f7bea0",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "định, trừ xe đăng ký tạm thời) hoặc có nhưng đã hết hiệu lực (hạn sử dụng) từ 01 tháng trở lên (kể cả rơ moóc và sơ mi rơ moóc). Phạt tiền từ 10.000.000 đồng đến 12.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe đăng ký tạm thời, xe có phạm vi hoạt động hạn chế hoạt động quá phạm vi, tuyến đường, thời hạn cho phép; Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) không gắn biển số (đối với loại xe có quy định phải gắn biển số). Phạt tiền từ 20.000.000 đồng đến 26.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp (kể cả rơ moóc và sơ mi rơ moóc); Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, không đúng quy cách theo quy định; gắn biển số không rõ chữ, số hoặc sử dụng chất liệu khác sơn, dán lên chữ, số của biển số xe; gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc (của chữ, số, nền biển số xe), hình dạng, kích thước của biển số xe (kể cả rơ moóc và sơ mi rơ moóc). Tịch thu phương tiện đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây:",
+      "global_page": 26,
+      "score": 32.674377014788206,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

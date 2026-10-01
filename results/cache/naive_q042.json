@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Điều 5 Nghị định 238/2026/NĐ-CP sửa đổi điểm a khoản 2 Điều 17 Nghị định 168/2024/NĐ-CP bổ sung thêm những hành vi vi phạm nào đối với ô tô chở hàng hóa, vật liệu?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 22496.03070001467,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "238/2026/NĐ-CP:996750b5-0b9a-415f-9911-ababa6027e13:3:0",
+      "article_id": "996750b5-0b9a-415f-9911-ababa6027e13",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 21 Sửa đổi, bổ sung điểm b khoản 2 như sau: \"b) Chở hàng trên nóc thùng xe; chở hàng vượt quá bề rộng thùng xe (kể cả bề rộng rơ moóc và sơ mi rơ moóc); chở hàng vượt phía trước, phía sau thùng xe (kể cả rơ moóc và sơ mi rơ moóc) trên 10% chiều dài toàn bộ của xe theo thiết kế được ghi trong chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe, trừ hành vi vi phạm quy định tại điểm d khoản 8 Điều 21 Nghị định này\". Sửa đổi, bổ sung điểm b khoản 3 như sau: \"b) Điều khiển xe ô tô kinh doanh vận tải, xe ô tô đầu kéo, xe vận tải nội bộ không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô.\". Sửa đổi, bổ sung điểm c khoản 5 như sau: Điều khiển xe ô tô kinh doanh vận tải, xe ô tô đầu kéo, xe vận tải nội bộ không lắp thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô;\". Sửa đổi, bổ sung khoản 8 như sau:",
+      "global_page": 3,
+      "score": 0.6852006912231445,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:52:1",
+      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "a khoản 5 Điều 34 của Nghị định này; Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này; Tự ý thay đổi tổng thành khung, tổng thành máy (động cơ), hệ thống phanh, hệ thống truyền động (truyền lực), hệ thống chuyển động hoặc tự ý cải tạo kết cấu, hình dáng, kích thước của xe không đúng thiết kế của nhà sản xuất hoặc thiết kế trong hồ sơ đã nộp cho cơ quan đăng ký xe hoặc thiết kế cải tạo đã được cơ quan có thẩm quyền phê duyệt; tự ý thay đổi tính năng sử dụng của xe hoặc tự ý lắp đặt thêm cơ cấu nâng hạ thùng xe, nâng hạ công-ten-nơ trên xe (kể cả rơ moóc và sơ mi rơ moóc). Tịch thu phương tiện đối với chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện một trong các hành vi vi phạm sau đây: Cắt, hàn, tẩy xoá, đục sửa, đóng lại trái phép số khung, số động cơ (số máy); đưa phương tiện đã bị cắt, hàn, tẩy xoá, đục sửa, đóng lại trái phép số khung, số động cơ (số máy) tham gia giao thông; Cải tạo xe ô tô loại khác thành xe ô tô chở người; Đưa phương tiện quá niên hạn sử dụng tham gia giao thông, trừ hành vi vi phạm quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Tái phạm hành vi quy định tại khoản 5 Điều này (trong trường hợp chở vượt trên 100% số người quy định được phép chở của phương tiện);",
+      "global_page": 52,
+      "score": 0.6687585115432739,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:1",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "tại Điều 13 (điểm c khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm i khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về kích thước thùng xe, khoang chở hành lý (hầm xe), lắp thêm hoặc tháo bớt ghế, giường nằm trên xe ô tô quy định tại Điều 13 (điểm d khoản 3, điểm b khoản 4) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm d khoản 11, điểm h khoản 14), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô quy định tại Điều 20 (điểm l khoản 5, điểm đ khoản 6), Điều 21 (điểm b khoản 3, điểm c khoản 5), Điều 27 (điểm c khoản 1, điểm a khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c, điểm g khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô quy định tại Điều 29 (khoản 1, khoản 3), Điều 30 (khoản 1, khoản 2) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm m, điểm n khoản 7), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về dây đai an toàn, hướng dẫn cho hành khách về an toàn giao thông, thoát hiểm khi xảy ra sự cố trên xe quy định tại Điều 20 (điểm h, điểm i khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 2, điểm đ khoản 4) trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26",
+      "global_page": 69,
+      "score": 0.6682932376861572,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:71:1",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "khoản 11; điểm a, điểm b, điểm c khoản 13; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g khoản 14; khoản 15; điểm a, điểm b khoản 16; điểm g khoản 17 Điều 32 thì buộc hạ phần hàng quá tải, dỡ phần hàng quá khổ theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm; Thực hiện hành vi vi phạm quy định tại khoản 1; khoản 2; điểm a, điểm c, điểm d khoản 3; khoản 4; khoản 5 Điều 34 thì buộc hạ phần hàng quá tải, dỡ phần hàng quá khổ theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm; Thực hiện hành vi vi phạm quy định tại khoản 2, khoản 4 Điều 20; khoản 5, khoản 6, các điểm d, đ khoản 17 Điều 32 thì buộc bố trí phương tiện khác để chở số hành khách vượt quá quy định được phép chở của phương tiện; Thực hiện hành vi vi phạm quy định tại khoản 1, điểm đ khoản 8, khoản 10 Điều 21 thì buộc chằng buộc hàng hóa theo quy định; buộc dỡ hàng hóa trên nóc buồng lái; buộc chốt, đóng (cố định) cửa sau, cửa bên thùng xe; buộc sử dụng cơ cấu khóa hãm công-ten-nơ theo quy định. Chủ phương tiện bị xử phạt theo quy định tại Nghị định này là một trong các đối tượng sau đây: Cá nhân, tổ chức đứng tên trong chứng nhận đăng ký xe; Trường hợp người điều khiển phương tiện là chồng (vợ) của cá nhân đứng tên trong chứng nhận đăng ký xe thì người điều khiển phương tiện là đối tượng để áp dụng xử phạt như chủ phương tiện; Đối với phương tiện được thuê tài chính của tổ chức có chức năng cho thuê tài chính thì cá nhân, tổ chức thuê phương tiện là đối tượng để áp dụng xử phạt như chủ phương tiện; Đối với phương tiện thuộc sở hữu của thành viên hợp tác xã và được hợp tác xã đứng tên làm thủ tục đăng ký kinh doanh vận tải bằng xe ô tô thì hợp tác xã đó là đối tượng để áp dụng xử phạt như chủ phương",
+      "global_page": 71,
+      "score": 0.6481622457504272,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 0.6456055045127869,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    }
+  ]
+}

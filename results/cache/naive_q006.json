@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Quy định chuyển tiếp tại Điều 54 Nghị định 168/2024/NĐ-CP xử lý như thế nào đối với các hành vi vi phạm hành chính xảy ra và kết thúc trước ngày Nghị định này có hiệu lực?",
+  "answer": "Theo quy định chuyển tiếp tại Điều 54 của Nghị định 168/2024/NĐ‑CP:\n\n- **Nếu hành vi vi phạm hành chính (liên quan đến trật tự, an toàn giao thông trên đường bộ) đã xảy ra và đã kết thúc trước ngày Nghị định này có hiệu lực**, thì **đối tượng bị xử phạt sẽ bị áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm** để xác định mức phạt và các biện pháp xử lý khác.  \n\n- **Nếu hành vi vi phạm đang được thực hiện (chưa kết thúc) thì sẽ áp dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm** để xử phạt.  \n\nNhư vậy, đối với các vi phạm đã hoàn thành trước khi Nghị định 168/2024/NĐ‑CP có hiệu lực, pháp luật áp dụng quy định của nghị định cũ (nghị định đang có hiệu lực vào thời điểm vi phạm) để xử lý.",
+  "latency_ms": 15011.694000015268,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52:80:0",
+      "article_id": "fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Trường hợp hành vi vi phạm hành chính đang được thực hiện, thì áp dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm để xử phạt.",
+      "global_page": 80,
+      "score": 0.6697604656219482,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:21632b79-d008-427a-90c4-9e9ff6d94f93:11:0",
+      "article_id": "21632b79-d008-427a-90c4-9e9ff6d94f93",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Nơi nhận: Ban Bí thư Trung ương Đảng; Thủ tướng, các Phó Thủ tướng Chính phủ; Các bộ, cơ quan ngang bộ; HĐND, UBND các tỉnh, thành phố trực thuộc trung ương: Văn phòng Trung ương và các Ban của Đảng; Văn phòng Tổng Bí thư; Văn phòng Chủ tịch nước; Hội đồng Dân tộc và các Ủy ban của Quốc hội; Văn phòng Quốc hội; Tòa án nhân dân tối cao; Viện kiểm sát nhân dân tối cao; Kiểm toán nhà nước; Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam; Cơ quan trung ương của các tổ chức chính trị - xã hội; VPCP: BTCN, các PCN, Trợ lý TTg, các Vụ, Cục, Công báo; Lưu: VT, CN (2). pvc TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Phạm Gia Túc",
+      "global_page": 11,
+      "score": 0.6610987186431885,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:c0aaaf25-290e-454d-9876-031a41102c4f:66:0",
+      "article_id": "c0aaaf25-290e-454d-9876-031a41102c4f",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này.",
+      "global_page": 66,
+      "score": 0.5886828899383545,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 0.5855329632759094,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:f3c5b4ef-ed30-4e3c-bb5b-f364cc156992:64:0",
+      "article_id": "f3c5b4ef-ed30-4e3c-bb5b-f364cc156992",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "; Điều 33; Điều 35; Điều 36. Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất trong phạm vi chức năng, nhiệm vụ được giao có liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ có thẩm quyền xử phạt đối với các hành vi vi phạm quy định tại các điểm, khoản, điều của Nghị định này như sau: Điểm đ khoản 1; điểm d, điểm đ khoản 2; điểm b, điểm d, điểm đ, điểm e, điểm g khoản 3 Điều 6; Điểm d, điểm e, điểm g, điểm i khoản 1; điểm a, điểm d, điểm e, điểm g, điểm h, điểm i, điểm k khoản 2; điểm b, điểm c, điểm e, điểm g, điểm k khoản 3; điểm b, điểm d, điểm đ khoản 4 Điều 7; Khoản 2; điểm b, điểm c khoản 3; điểm c, điểm d, điểm đ, điểm e khoản 4 Điều 8; Điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm i, điểm k, điểm l, điểm m, điểm n, điểm o khoản 1; khoản 2; điểm a, điểm b, điểm c khoản 3; điểm d, điểm đ khoản 4 Điều 9; đ) Khoản 1; điểm b, điểm c khoản 2 Điều 10;",
+      "global_page": 64,
+      "score": 0.5835399627685547,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}

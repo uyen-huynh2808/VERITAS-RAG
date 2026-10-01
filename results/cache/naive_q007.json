@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Theo Điều 21 Nghị định 238/2026/NĐ-CP, việc xử lý chuyển tiếp đối với hành vi vi phạm hành chính xảy ra và kết thúc trước ngày Nghị định 238/2026/NĐ-CP có hiệu lực thi hành được áp dụng theo văn bản nào?",
+  "answer": "Theo quy định chuyển tiếp tại Điều 21 của Nghị định 238/2026/NĐ‑CP, các hành vi vi phạm hành chính xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sẽ được xử phạt **theo nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm**",
+  "latency_ms": 15210.548200004268,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52:80:0",
+      "article_id": "fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Trường hợp hành vi vi phạm hành chính đang được thực hiện, thì áp dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm để xử phạt.",
+      "global_page": 80,
+      "score": 0.6307138204574585,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:21632b79-d008-427a-90c4-9e9ff6d94f93:11:0",
+      "article_id": "21632b79-d008-427a-90c4-9e9ff6d94f93",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Nơi nhận: Ban Bí thư Trung ương Đảng; Thủ tướng, các Phó Thủ tướng Chính phủ; Các bộ, cơ quan ngang bộ; HĐND, UBND các tỉnh, thành phố trực thuộc trung ương: Văn phòng Trung ương và các Ban của Đảng; Văn phòng Tổng Bí thư; Văn phòng Chủ tịch nước; Hội đồng Dân tộc và các Ủy ban của Quốc hội; Văn phòng Quốc hội; Tòa án nhân dân tối cao; Viện kiểm sát nhân dân tối cao; Kiểm toán nhà nước; Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam; Cơ quan trung ương của các tổ chức chính trị - xã hội; VPCP: BTCN, các PCN, Trợ lý TTg, các Vụ, Cục, Công báo; Lưu: VT, CN (2). pvc TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Phạm Gia Túc",
+      "global_page": 11,
+      "score": 0.6266361474990845,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:2",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 8), trong trường hợp cá",
+      "global_page": 69,
+      "score": 0.5857362747192383,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:1",
+      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm g khoản 4 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về không thực hiện đúng các nội dung thông tin đã niêm yết (tuyến đường, lịch trình, hành trình vận tải) quy định tại Điều 20 (điểm c khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lệnh vận chuyển, giấy vận tải quy định tại Điều 20 (điểm e khoản 5), Điều 21 (điểm đ khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm đ khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 2 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa nguy hiểm mà không làm sạch hoặc không bóc (xóa) biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó quy định tại Điều 23 (khoản 1) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm e khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm e khoản 2 Điều 26 của Nghị định này. Đối với những hành vi vi phạm quy định về tải trọng, khổ giới hạn của phương tiện, của đường bộ quy định tại Điều 21, Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định tại Điều 21, vừa thực hiện hành vi vi phạm quy định tại Điều 34 của Nghị định này thì bị xử phạt về từng hành vi vi phạm; đối với những hành vi vi phạm được quy định tại điểm a khoản 4, điểm a khoản 5 Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định về tổng trọng lượng (khối lượng toàn bộ)",
+      "global_page": 70,
+      "score": 0.5823333859443665,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
+      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
+      "global_page": 9,
+      "score": 0.5613522529602051,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "question": "Khoản 17 Điều 19 Nghị định 238/2026/NĐ-CP bãi bỏ những điểm nào thuộc khoản 17 Điều 32 của Nghị định 168/2024/NĐ-CP?",
+  "answer": "",
+  "latency_ms": 15962.914800009457,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
+      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
+      "global_page": 77,
+      "score": 33.8504235671581,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "238/2026/NĐ-CP:f571b77f-7670-47e3-b3f4-b2925cd04818:10:1",
+      "article_id": "f571b77f-7670-47e3-b3f4-b2925cd04818",
+      "logical_doc_id": "238/2026/NĐ-CP",
+      "text": "b khoản 8 Điều 21; điểm a khoản 1, khoản 3, khoản 5 Điều 26; điểm b khoản 1, điểm d khoản 11, điểm h khoản 14, điểm c, điểm d khoản 18, điểm đ, điểm g khoản 19, khoản 20 Điều 32; điểm a khoản 4 Điều 40; khoản 3 Điều 48. Bỏ cụm từ \"giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường\" tại điểm b, điểm d khoản 7 Điều 32, cụm từ \"điểm e, điểm g khoản 7;\" tại điểm đ khoản 18 Điều 32. Bỏ cụm từ \"tại nơi phát hiện vi phạm\" tại điểm c khoản 5 Điều 47. Bỏ cụm từ \"Điểm g khoản 5;\" tại điểm a khoản 1 Điều 48. Bỏ cụm từ \"điểm m khoản 3 Điều 6,\" tại khoản 2 Điều 53. Bỏ cụm từ \"trực thuộc trung ương\" tại Điều 55. Bãi bỏ điểm d, điểm đ, điểm e, điểm g khoản 17 Điều 32. Chương II",
+      "global_page": 10,
+      "score": 32.6884749222721,
+      "effective_from": "2026-08-15",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:79:0",
+      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "'5. Đối với các hành vi vi phạm quy định về chở người vượt quá quy định được phép chở của phương tiện, vi phạm quy định về tải trọng của phương tiện, của cầu, đường được quy định tại Điều 65 của Nghị định này, người điều khiển phương tiện, chủ phương tiện, đơn vị kinh doanh vận tải, dịch vụ hỗ trợ vận tải, cá nhân, tổ chức xếp hàng lên phương tiện giao thông đường sắt buộc chấm dứt hành vi vi phạm theo quy định cụ thể sau đây:'. Sửa đổi, bổ sung khoản 4 Điều 82 như sau: '4. Khi phương tiện bị tạm giữ theo quy định tại khoản 2 Điều này, chủ phương tiện phải chịu mọi chi phí (nếu có) cho việc sử dụng phương tiện khác thay thế để vận chuyển người, hàng hóa được chở trên phương tiện bị tạm giữ.'. Bãi bỏ một số điểm, khoản, điều sau đây: Bãi bỏ khoản 1 Điều 3; Bãi bỏ điểm b, điểm e, điểm g, điểm k, điểm l, điểm m, điểm q, điểm r, điểm t, điểm u, điểm v, điểm x, điểm y khoản 2 Điều 4; Bãi bỏ điểm a khoản 1 Điều 4a; Bãi bỏ Điều 5, Điều 6, Điều 7, Điều 8, Điều 9, Điều 10, Điều 11; đ) Bãi bỏ khoản 1; điểm c khoản 2; điểm a, điểm đ khoản 3; điểm c, điểm d khoản 5; điểm e, điểm g, điểm i khoản 6; khoản 7; điểm a khoản 8 Điều 12; Bãi bỏ Điều 16, Điều 17, Điều 18, Điều 19, Điều 20, Điều 21, Điều 22; Bãi bỏ điểm a khoản 1; khoản 2; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm k, điểm m, điểm n khoản 3; khoản 4; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm h, điểm i, điểm k, điểm l, điểm m, điểm o, điểm p, điểm q khoản 5; khoản 6; khoản 7; khoản 7a Điều 23; Bãi bỏ khoản 1; khoản 2; khoản 3; điểm b, điểm c khoản 4; khoản 5; khoản 6; khoản 7; khoản 8; khoản 8a; khoản 9 Điều 24; Bãi bỏ Điều 25, Điều 26, Điều 27; Bãi bỏ khoản 1; điểm e, điểm g, điểm h khoản 2; điểm a khoản 3; điểm a, điểm e, điểm g, điểm q khoản 4; khoản 5; điểm c, điểm đ, điểm e, điểm g, điểm m, điểm o, điểm p khoản 6; điểm đ, điểm h, điểm i khoản 7; điểm a, điểm b khoản 8; khoản 9; điểm c, điểm d, điểm đ khoản 10; điểm c, điểm d, điểm i khoản 11 Điều 28; Bãi bỏ Điều 29, Điều 30, Điều 32, Điều 33, Điều 34, Điều 35, Điều 36, Điều 37, Điều 38; Bãi bỏ điểm a, điểm đ, điểm h khoản 2; điểm a, điểm b, điểm c, điểm d, điểm g, điểm h, điểm i khoản 3; điểm a, điểm b, điểm",
+      "global_page": 79,
+      "score": 27.380084479792675,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:573f7e69-ce0d-4fa9-a7ca-ad96853166c0:65:0",
+      "article_id": "573f7e69-ce0d-4fa9-a7ca-ad96853166c0",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": "; Khoản 1 Điều 17; Điểm b khoản 3 Điều 20; Khoản 1, khoản 2 Điều 33; Khoản 1 Điều 35. Thanh tra đường bộ, người được giao thực hiện nhiệm vụ thanh tra chuyên ngành đường bộ trong phạm vi chức năng, nhiệm vụ được giao có thẩm quyền xử phạt tại các điểm, khoản, điều của Nghị định này như sau: Khoản 1; điểm a, điểm b, điểm c, điểm d, điểm e khoản 2; khoản 3; khoản 4; khoản 5; điểm a khoản 6; điểm a, điểm d, điểm g, điểm h khoản 7; điểm a, điểm b khoản 8 Điều 26; điểm a khoản 2; điểm i, điểm l khoản 7; điểm b khoản 8; điểm a khoản 9; điểm c khoản 16; điểm a, điểm b khoản 17 Điều 32 khi thực hiện công tác thanh tra, kiểm tra tại đơn vị vận tải, bến xe, bãi đỗ xe, trạm dừng nghỉ, đơn vị thực hiện dịch vụ hỗ trợ vận tải;",
+      "global_page": 65,
+      "score": 23.156330033957598,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    },
+    {
+      "chunk_id": "168/2024/NĐ-CP:6462cb26-05e1-484d-8ddd-ed43449fefc5:63:0",
+      "article_id": "6462cb26-05e1-484d-8ddd-ed43449fefc5",
+      "logical_doc_id": "168/2024/NĐ-CP",
+      "text": ", Điều 7, Điều 8, Điều 9, Điều 10, Điều 11, Điều 12, Điều 13, Điều 14, Điều 15, Điều 16, Điều 17, Điều 18, Điều 19, Điều 20, Điều 21, Điều 22, Điều 23, Điều 24, Điều 25, Điều 26, Điều 27, Điều 28, Điều 29, Điều 30, Điều 31, Điều 32, Điều 33, Điều 34, Điều 35, Điều 36; Khoản 1, điểm a khoản 3, điểm b khoản 4, khoản 5 Điều 37;",
+      "global_page": 63,
+      "score": 19.839149659968772,
+      "effective_from": "2025-01-01",
+      "effective_to": null
+    }
+  ]
+}
