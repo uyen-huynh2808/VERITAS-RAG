@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Vào ngày 01/01/2028, quy định xử phạt đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ không lắp thiết bị ghi nhận hình ảnh người lái xe theo khoản 3 Điều 53 Nghị định 168/2024/NĐ-CP (được bổ sung bởi Nghị định 238/2026/NĐ-CP) đã bắt đầu có hiệu lực thi hành chưa?",
-  "answer": "Có. Theo nội dung bổ sung khoản 3 Điều 53 của Nghị định 238/2026/NĐ‑CP, quy định xử phạt liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ có hiệu",
-  "latency_ms": 23524.78110001539,
+  "answer": "Có, quy định xử phạt được bổ sung tại khoản 3 Điều 53 Nghị định 168/2024/NĐ‑CP có hiệu lực thi hành kể từ ngày 01 /01 /2028.",
+  "latency_ms": 22349.19149999041,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
-      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "chunk_id": "238/2026/NĐ-CP:1ed1be7a-80d0-4dee-a6c9-970269bd98e3:9:0",
+      "article_id": "1ed1be7a-80d0-4dee-a6c9-970269bd98e3",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
       "global_page": 9,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:1f00e057-69be-4fa9-80f4-6f9121370c16:3:0",
-      "article_id": "1f00e057-69be-4fa9-80f4-6f9121370c16",
+      "chunk_id": "238/2026/NĐ-CP:7299296d-b02b-4479-8790-951e68b41a33:3:0",
+      "article_id": "7299296d-b02b-4479-8790-951e68b41a33",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô; Điều khiển xe vận tải hành khách theo hợp đồng sử dụng hợp đồng điện tử không có thiết bị do đơn vị kinh doanh vận tải cung cấp để truy cập được nội dung của hợp đồng điện tử, danh sách hành khách hoặc có thiết bị do đơn vị kinh doanh vận tải cung cấp nhưng không truy cập được nội dung của hợp đồng điện tử, danh sách hành khách; có hợp đồng điện tử nhưng không đúng theo quy định hoặc tự ý thay đổi thông tin của hợp đồng điện tử, danh sách hành khách đã ký; đón khách, chở người không có tên trong danh sách hành khách theo hợp đồng đã ký;\"; Bổ sung điểm n vào sau điểm m như sau: \"n) Điều khiển xe ô tô kinh doanh vận tải hành khách từ 08 chỗ trở lên (không kể chỗ của người lái xe) không lắp thiết bị ghi nhận hình ảnh khoang chở khách hoặc có lắp thiết bị ghi nhận hình ảnh khoang chở khách nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh khoang chở khách lắp trên xe ô tô.\". Sửa đổi, bổ sung điểm đ khoản 6 như sau: \"đ) Điều khiển xe kinh doanh vận tải hành khách, xe vận tải nội bộ không lắp thiết bị giám sát hành trình của xe theo quy định hoặc có lắp thiết bị giám sát hành trình của xe nhưng thiết bị không hoạt động theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô;\". Bổ sung khoản 8a vào sau khoản 8 như sau: \"8a. Phạt tiền từ 12.000.000 đồng đến 14.000.000 đồng đối với người điều khiển xe ô tô không kinh doanh vận tải hành khách nhưng chở người có thu tiền hoặc ký hợp đồng, nhận đặt chỗ để chở người trên xe.\". Sửa đổi, bổ sung điểm c khoản 10 như sau: \"c) Thực hiện hành vi vi phạm quy định tại khoản 8, khoản 8a Điều này bị trừ điểm giấy phép lái xe 06 điểm;\".",
       "global_page": 3,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:1",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:69:1",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "tại Điều 13 (điểm c khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm i khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về kích thước thùng xe, khoang chở hành lý (hầm xe), lắp thêm hoặc tháo bớt ghế, giường nằm trên xe ô tô quy định tại Điều 13 (điểm d khoản 3, điểm b khoản 4) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm d khoản 11, điểm h khoản 14), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô quy định tại Điều 20 (điểm l khoản 5, điểm đ khoản 6), Điều 21 (điểm b khoản 3, điểm c khoản 5), Điều 27 (điểm c khoản 1, điểm a khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c, điểm g khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lắp, sử dụng thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe ô tô quy định tại Điều 29 (khoản 1, khoản 3), Điều 30 (khoản 1, khoản 2) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm m, điểm n khoản 7), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về dây đai an toàn, hướng dẫn cho hành khách về an toàn giao thông, thoát hiểm khi xảy ra sự cố trên xe quy định tại Điều 20 (điểm h, điểm i khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 2, điểm đ khoản 4) trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26",
       "global_page": 69,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:10403d5a-3b70-425e-8413-6f47e94b85e0:4:0",
-      "article_id": "10403d5a-3b70-425e-8413-6f47e94b85e0",
+      "chunk_id": "238/2026/NĐ-CP:3bbc7184-b2a9-4e80-a5c2-a5de575104f5:4:0",
+      "article_id": "3bbc7184-b2a9-4e80-a5c2-a5de575104f5",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 26 Sửa đổi, bổ sung một số điểm của khoản 7 như sau: Sửa đổi, bổ sung điểm e như sau: \"e) Sử dụng xe kinh doanh vận tải hành khách theo hợp đồng mà trên xe không có hợp đồng vận tải, danh sách hành khách; không có thiết bị để truy cập nội dung hợp đồng điện tử, danh sách hành khách theo quy định; có hợp đồng nhưng không đúng theo quy định; tự ý thay đổi thông tin của hợp đồng điện tử, danh sách hành khách đã ký; đón khách, chở người không có tên trong danh sách hành khách theo hợp đồng đã ký; đón, trả khách tại trụ sở chính, trụ sở chi nhánh, văn phòng đại diện hoặc tại một địa điểm cố định khác do đơn vị kinh doanh vận tải thuê, hợp tác kinh doanh, trên các tuyến đường phố; vận chuyển không đúng đối tượng theo quy định (áp dụng đối với xe kinh doanh vận tải hành khách theo hợp đồng vận chuyển trẻ em mầm non, học sinh, sinh viên, cán bộ, công chức, viên chức, công nhân);\"; Bổ sung điểm k, điểm l vào sau điểm i như sau: \"k) Sử dụng xe ô tô kinh doanh vận tải hành khách từ 08 chỗ trở lên (không kể chỗ của người lái xe) không lắp thiết bị ghi nhận hình ảnh khoang chở khách theo quy định hoặc có lắp thiết bị ghi nhận hình ảnh khoang chở khách nhưng không ghi, không lưu trữ được dữ liệu trên xe trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh khoang chở khách trên xe ô tô; Không thực hiện việc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu thu thập từ thiết bị ghi nhận hình ảnh khoang chở khách lắp trên xe ô tô theo quy định.\". Bổ sung điểm d vào sau điểm c khoản 8 như sau: \"d) Sử dụng xe ô tô kinh doanh vận tải hành khách theo hợp đồng mà xác nhận đặt chỗ cho từng hành khách đi xe ngoài hợp đồng đã ký kết hoặc bán vé, thu tiền ngoài hợp đồng đã ký kết; ấn định hành trình, lịch trình cố định để phục vụ cho nhiều hành khách hoặc nhiều người thuê vận tải khác nhau.\". Sửa đổi, bổ sung điểm c, điểm d khoản 13 như sau: \"c) Thực hiện hành vi quy định tại điểm đ, điểm e khoản 4; điểm c, điểm g, điểm k khoản 7 Điều này buộc lắp đặt thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe, thiết bị ghi nhận hình ảnh khoang chở khách, dây đai an toàn, ghế ngồi cho trẻ em mầm non, học sinh tiểu học trên xe theo đúng quy định; Thực hiện hành vi quy định tại",
       "global_page": 4,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:78:1",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:78:1",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "(điểm d khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện hoặc là nhân viên phục vụ trên xe thì bị xử phạt theo quy định tại điểm d khoản 6 Điều 28 của Nghị định này;'; Sửa đổi, bổ sung điểm l khoản 3 Điều 80 như sau: 'l) Các hành vi vi phạm quy định về kinh doanh vận tải hành khách theo hợp đồng quy định tại Điều 23 (điểm n khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 28 (điểm p khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 28 Nghị định này;'; Sửa đổi, bổ sung đoạn đầu khoản 5 Điều 80 như sau:",
       "global_page": 78,

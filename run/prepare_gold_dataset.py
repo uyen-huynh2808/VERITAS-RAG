@@ -978,11 +978,14 @@ class BenchmarkDatasetBuilder:
         """
         Create the benchmark JSON skeleton.
 
-        Gold IDs are populated from the actual materialized Gold data
-        when a question explicitly identifies a gold document.
+        Gold document, article, and chunk IDs are taken from the
+        manually annotated source question file.
 
-        gold_answer and gold_citation_doc_ids remain empty unless they
-        were already provided in the source question file.
+        The materialized Gold data is used only to validate that the
+        annotated article/chunk IDs actually exist.
+
+        gold_answer and gold_citation_doc_ids remain unchanged from
+        the source question file.
         """
 
         with open(
@@ -1010,35 +1013,58 @@ class BenchmarkDatasetBuilder:
                 )
             )
 
-            gold_article_ids: List[str] = []
-            gold_chunk_ids: List[str] = []
+            gold_article_ids = list(
+                question.get(
+                    "gold_article_ids",
+                    [],
+                )
+            )
+
+            gold_chunk_ids = list(
+                question.get(
+                    "gold_chunk_ids",
+                    [],
+                )
+            )
+
+            available_chunks: List[Dict[str, Any]] = []
 
             for doc_id in gold_doc_ids:
-                gold_chunks = (
-                    self._get_gold_chunks(
-                        doc_id
-                    )
+                available_chunks.extend(
+                    self._get_gold_chunks(doc_id)
                 )
 
-                gold_article_ids.extend(
-                    chunk["article_id"]
-                    for chunk in gold_chunks
-                    if chunk.get("article_id")
-                )
+            valid_chunk_ids = {
+                chunk["chunk_id"]
+                for chunk in available_chunks
+                if chunk.get("chunk_id")
+            }
 
-                gold_chunk_ids.extend(
-                    chunk["chunk_id"]
-                    for chunk in gold_chunks
-                    if chunk.get("chunk_id")
-                )
+            valid_article_ids = {
+                chunk["article_id"]
+                for chunk in available_chunks
+                if chunk.get("article_id")
+            }
 
-            gold_article_ids = sorted(
-                set(gold_article_ids)
+            invalid_chunks = (
+                set(gold_chunk_ids) - valid_chunk_ids
             )
 
-            gold_chunk_ids = sorted(
-                set(gold_chunk_ids)
+            invalid_articles = (
+                set(gold_article_ids) - valid_article_ids
             )
+
+            if invalid_chunks:
+                raise ValueError(
+                    f"Question {question['id']} contains Gold chunk IDs "
+                    f"not found in Gold: {sorted(invalid_chunks)}"
+                )
+
+            if invalid_articles:
+                raise ValueError(
+                    f"Question {question['id']} contains Gold article IDs "
+                    f"not found in Gold: {sorted(invalid_articles)}"
+                )
 
             dataset["samples"].append(
                 {

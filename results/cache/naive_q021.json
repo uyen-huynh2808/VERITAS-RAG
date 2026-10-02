@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Vào ngày 20/09/2026, hành vi người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô có dung tích xi-lanh từ 50 cm3 trở lên bị xử phạt theo Nghị định 168/2024/NĐ-CP nguyên bản hay Nghị định 238/2026/NĐ-CP?",
   "answer": "",
-  "latency_ms": 20164.133900019806,
+  "latency_ms": 16364.499599992996,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:8cd7bd72-0d32-4554-9b17-15a379bb77f9:33:0",
-      "article_id": "8cd7bd72-0d32-4554-9b17-15a379bb77f9",
+      "chunk_id": "168/2024/NĐ-CP:f661a67a-2043-4464-af66-f6622c66c9c5:33:0",
+      "article_id": "f661a67a-2043-4464-af66-f6622c66c9c5",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "một trong các hành vi vi phạm sau đây: Không có giấy phép lái xe hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm hoặc sử dụng giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tẩy xóa, giấy phép lái xe không còn hiệu lực, giấy phép lái xe không phù hợp với loại xe đang điều khiển; Có giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp (trừ giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo giấy phép lái xe quốc gia phù hợp với loại xe được phép điều khiển; Sử dụng giấy phép lái xe không hợp lệ (giấy phép lái xe có số phôi ghi ở mặt sau không trùng với số phôi được cấp mới nhất trong hệ thống thông tin quản lý giấy phép lái xe). Phạt tiền từ 4.000.000 đồng đến 6.000.000 đồng đối với người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô. Phạt tiền từ 6.000.000 đồng đến 8.000.000 đồng đối với người điều khiển xe mô tô hai bánh có dung tích xi-lanh trên 125 cm 3 trở lên hoặc có công suất động cơ điện trên 11 kW, xe mô tô ba bánh thực hiện một trong các hành vi vi phạm sau đây: Có giấy phép lái xe nhưng không phù hợp với loại xe đang điều khiển; Không có giấy phép lái xe hoặc sử dụng giấy phép lái xe đã bị trừ hết điểm, giấy phép lái xe không do cơ quan có thẩm quyền cấp, giấy phép lái xe bị tẩy xóa, giấy phép lái xe không còn hiệu lực; Có giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp (trừ giấy phép lái xe quốc tế do Việt Nam cấp) nhưng không mang theo giấy phép lái xe quốc gia phù hợp với loại xe được phép điều khiển; Sử dụng giấy phép lái xe không hợp lệ (giấy phép lái xe có số phôi ghi ở mặt sau không trùng với số phôi được cấp mới nhất trong hệ thống thông tin quản lý giấy phép lái xe). Phạt tiền từ 8.000.000 đồng đến 10.000.000 đồng đối với người điều khiển xe ô tô và các loại xe tương tự xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ vi phạm một trong các hành vi sau đây: Có giấy phép lái xe nhưng đã hết hạn sử dụng dưới 01 năm; Có giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về",
       "global_page": 33,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:52:1",
-      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "chunk_id": "168/2024/NĐ-CP:43296887-9e85-4e45-9d77-7a26e51ef874:52:1",
+      "article_id": "43296887-9e85-4e45-9d77-7a26e51ef874",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "a khoản 5 Điều 34 của Nghị định này; Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này; Tự ý thay đổi tổng thành khung, tổng thành máy (động cơ), hệ thống phanh, hệ thống truyền động (truyền lực), hệ thống chuyển động hoặc tự ý cải tạo kết cấu, hình dáng, kích thước của xe không đúng thiết kế của nhà sản xuất hoặc thiết kế trong hồ sơ đã nộp cho cơ quan đăng ký xe hoặc thiết kế cải tạo đã được cơ quan có thẩm quyền phê duyệt; tự ý thay đổi tính năng sử dụng của xe hoặc tự ý lắp đặt thêm cơ cấu nâng hạ thùng xe, nâng hạ công-ten-nơ trên xe (kể cả rơ moóc và sơ mi rơ moóc). Tịch thu phương tiện đối với chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng, xe mô tô, xe gắn máy và các loại xe tương tự xe ô tô, xe mô tô, xe gắn máy thực hiện một trong các hành vi vi phạm sau đây: Cắt, hàn, tẩy xoá, đục sửa, đóng lại trái phép số khung, số động cơ (số máy); đưa phương tiện đã bị cắt, hàn, tẩy xoá, đục sửa, đóng lại trái phép số khung, số động cơ (số máy) tham gia giao thông; Cải tạo xe ô tô loại khác thành xe ô tô chở người; Đưa phương tiện quá niên hạn sử dụng tham gia giao thông, trừ hành vi vi phạm quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Tái phạm hành vi quy định tại khoản 5 Điều này (trong trường hợp chở vượt trên 100% số người quy định được phép chở của phương tiện);",
       "global_page": 52,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:630ae0ad-d3e3-4345-b787-efc8d3ebe1fd:2:0",
-      "article_id": "630ae0ad-d3e3-4345-b787-efc8d3ebe1fd",
+      "chunk_id": "238/2026/NĐ-CP:281b104a-dbe5-43dc-805b-325af73bbf50:2:0",
+      "article_id": "281b104a-dbe5-43dc-805b-325af73bbf50",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi bổ sung điểm a khoản 4 Điều 18 \"a) Người từ đủ 16 tuổi đến dưới 18 tuổi điều khiển xe mô tô và các loại xe tương tự xe mô tô;\".",
       "global_page": 2,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:0",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:70:0",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm c khoản 8 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ quy định tại Điều 29 (khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 32 (điểm o khoản 7), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm o khoản 7 Điều 32 của Nghị định này; Các hành vi vi phạm quy định về thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe quy định tại Điều 27 (điểm b khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 6 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về màu sơn, biển báo dấu hiệu nhận biết của xe chở trẻ em mầm non, học sinh quy định tại Điều 27 (điểm c, điểm d khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c, điểm d khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về chở hàng siêu trường, siêu trọng, chở quá khổ, quá tải, quá số người quy định tại Điều 20, Điều 21, Điều 22, Điều 34 và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại Điều 32 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa là phương tiện vận tải, máy móc, thiết bị kỹ thuật, hàng dạng trụ quy định tại Điều 21 (điểm a khoản 10) và hành vi vi phạm tương ứng quy định tại Điều 32 (điểm đ khoản 13), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 13 Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện",
       "global_page": 70,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:2",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:69:2",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 8), trong trường hợp cá",
       "global_page": 69,

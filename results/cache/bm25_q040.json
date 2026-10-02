@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Nghị định 238/2026/NĐ-CP bổ sung khoản 3a vào Điều 29 Nghị định 168/2024/NĐ-CP quy định khung tiền phạt là bao nhiêu đối với xe cứu hộ giao thông đường bộ vi phạm?",
-  "answer": "Phạt tiền từ **5.000.000 đồng đến 10.000.000 đồng** đối với các hành vi vi phạm quy định về xe ô tô cứu hộ giao thông đường bộ được nêu trong khoản 3a của Điều 29.",
-  "latency_ms": 26029.433499992592,
+  "answer": "Phạt tiền từ **5.000.000 đồng đến 10.000.000 đồng**.",
+  "latency_ms": 23972.030499979155,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:77:0",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
       "global_page": 77,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:6322e6b5-53a2-44ed-a2b8-a6e22e2c3782:5:0",
-      "article_id": "6322e6b5-53a2-44ed-a2b8-a6e22e2c3782",
+      "chunk_id": "238/2026/NĐ-CP:4708f3bc-cbf0-4395-b3c9-1488e73cb619:5:0",
+      "article_id": "4708f3bc-cbf0-4395-b3c9-1488e73cb619",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 29 Bổ sung khoản 3a vào sau khoản 3 như sau: \"3a. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với một trong các hành vi sau đây: Điều khiển xe ô tô cứu hộ giao thông đường bộ chở xe được cứu hộ mà vượt quá khối lượng cho phép chuyên chở của xe cứu hộ; kéo theo xe được cứu hộ mà vượt quá khối lượng cho phép kéo theo của xe cứu hộ được ghi trong chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe; Điều khiển xe ô tô cứu hộ giao thông đường bộ kéo theo xe không đúng đối tượng được cứu hộ theo quy định tại khoản 1 Điều 54 Luật Trật tự, an toàn giao thông đường bộ.\". Sửa đổi, bổ sung khoản 4 như sau: \"4. Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực hiện hành vi quy định tại khoản 3, khoản 3a Điều này bị trừ điểm giấy phép lái xe 02 điểm.\".",
       "global_page": 5,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:49dc8635-9467-44e1-8a34-74fe07960754:5:0",
-      "article_id": "49dc8635-9467-44e1-8a34-74fe07960754",
+      "chunk_id": "238/2026/NĐ-CP:943d4426-644e-47c0-9a6a-4a37d0d6b57d:5:0",
+      "article_id": "943d4426-644e-47c0-9a6a-4a37d0d6b57d",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 32 Bổ sung khoản 9a vào sau khoản 9 như sau: \"9a. Phạt tiền từ 5.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 10.000.000 đồng đến 12.000.000 đồng đối với tổ chức là chủ xe ô tô đầu kéo, xe vận tải nội bộ thực hiện một trong các hành vi vi phạm sau đây: Đưa xe không lắp thiết bị giám sát hành trình của xe hoặc có lắp thiết bị giám sát hành trình nhưng không hoạt động, không đúng quy chuẩn theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô; Đưa xe không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không ghi, không lưu trữ được dữ liệu theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô.\". Bổ sung điểm e vào sau điểm đ khoản 11 như sau: \"e) Giao phương tiện hoặc để cho người làm công, người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 8a Điều 20 của Nghị định này.\". Bổ sung điểm e vào sau điểm đ khoản 13 như sau: \"e) Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c, điểm d, điểm e khoản 8 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c, điểm d, điểm e khoản 8 Điều 21 của Nghị định này.\". Sửa đổi, bổ sung điểm l khoản 19 như sau: \"l) Thực hiện hành vi vi phạm quy định tại điểm o khoản 7, khoản 9a Điều này buộc lắp đặt dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ, thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe theo đúng quy định.\". Sửa đổi, bổ sung điểm c khoản 21 như sau: \"c) Thực hiện hành vi quy định tại điểm a, điểm b, điểm đ, điểm e khoản 13; điểm a, điểm b, điểm c, điểm d khoản 14; điểm a khoản 16 Điều này trong trường hợp chủ phương tiện là người trực tiếp điều khiển",
       "global_page": 5,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:f571b77f-7670-47e3-b3f4-b2925cd04818:10:0",
-      "article_id": "f571b77f-7670-47e3-b3f4-b2925cd04818",
+      "chunk_id": "238/2026/NĐ-CP:9f953047-ae03-42c2-9c2a-22bb97c12139:10:0",
+      "article_id": "9f953047-ae03-42c2-9c2a-22bb97c12139",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung cụm từ \", trừ hành vi vi phạm quy định tại điểm b khoản 3a Điều 29 của Nghị định này\" vào sau cụm từ \"xe được kéo khi kéo nhau\" tại điểm h khoản 3 Điều 6. Bổ sung cụm từ \"hoặc chuyển làn đường không bảo đảm khoảng cách an toàn với xe phía trước, xe phía sau, xe hai bên\" vào sau cụm từ \"chỉ được phép chuyển sang một làn đường liền kề\" tại điểm a khoản 2, điểm g khoản 5 Điều 6; điểm e khoản 1 Điều 7; điểm h khoản 6 Điều 8. Bổ sung cụm từ \"hoặc có quy định cấm của cấp có thẩm quyền đối với loại phương tiện đang điều khiển\" vào sau cụm từ \"đối với loại phương tiện đang điều khiển\" tại điểm i khoản 5 Điều 6, điểm b khoản 6 Điều 7, điểm d khoản 6 Điều 8 Nghị định này. Bổ sung cụm từ \"hoặc dải dừng xe khẩn cấp\" vào sau cụm từ \"làn dừng xe khẩn cấp\" tại điểm c khoản 7 Điều 6, điểm b khoản 6 Điều 8. Bổ sung cụm từ \"khoản 1; điểm d,\" vào trước cụm từ \"điểm đ\" tại điểm a khoản 6 Điều 14. Bổ sung cụm từ \", xe vận tải nội bộ\" vào sau cụm từ \"xe ô tô kinh doanh vận tải\" tại điểm d khoản 6 Điều 20, điểm b khoản 5 Điều 21. Bổ sung cụm từ \", điểm l\" vào sau cụm từ \"điểm h\" tại khoản 11 Điều 26. Bổ sung cụm từ \"Điều 20 (điểm l khoản 5, điểm đ khoản 6), Điều 21 (điểm b khoản 3, điểm c khoản 5),\" vào trước cụm từ \"Điều 29\", cụm từ \"; khoản 9a\" vào sau cụm từ \"điểm n khoản 7\" tại điểm h khoản 3 Điều 47. Bổ sung cụm từ \", khoản 3, khoản 4\" vào sau cụm từ \"khoản 2\" tại khoản 1 Điều 53. Thay thế cụm từ \"chở người trên nóc xe; để người đu bám ở cửa xe, bên ngoài thành xe khi xe đang chạy\" bằng cụm từ \"để người nằm, ngồi, đu bám bên ngoài xe khi xe đang chạy\" tại điểm p khoản 5 Điều 6. Thay thế cụm từ \"giấy chứng nhận kiểm định\" bằng cụm từ \"chứng nhận kiểm định\" tại điểm q, điểm r khoản 3 Điều 3; điểm d khoản 3, điểm b khoản 4 Điều 13; điểm c khoản 3 Điều 18; điểm a, điểm d khoản 2, điểm a, điểm d khoản 5, điểm a, điểm b khoản 6, điểm a, điểm b khoản 7, điểm a, điểm b khoản 8 Điều 21; điểm a khoản 1, khoản 3, khoản 5 Điều 26; điểm b khoản 1, điểm d khoản 11, điểm h khoản 14, điểm c, điểm d khoản 18, điểm đ, điểm g khoản 19, khoản 20 Điều 32; điểm a khoản 4 Điều 40; khoản 3 Điều 48. Bỏ cụm từ \"giấy chứng nhận kiểm định an toàn kỹ",
       "global_page": 10,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:0",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:70:0",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm c khoản 8 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ giao thông đường bộ quy định tại Điều 29 (khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 32 (điểm o khoản 7), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm o khoản 7 Điều 32 của Nghị định này; Các hành vi vi phạm quy định về thiết bị ghi nhận hình ảnh trẻ em mầm non, học sinh và thiết bị có chức năng cảnh báo, chống bỏ quên trẻ em trên xe quy định tại Điều 27 (điểm b khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 6 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về màu sơn, biển báo dấu hiệu nhận biết của xe chở trẻ em mầm non, học sinh quy định tại Điều 27 (điểm c, điểm d khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c, điểm d khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về chở hàng siêu trường, siêu trọng, chở quá khổ, quá tải, quá số người quy định tại Điều 20, Điều 21, Điều 22, Điều 34 và các hành vi vi phạm tương ứng quy định tại Điều 32, trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại Điều 32 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa là phương tiện vận tải, máy móc, thiết bị kỹ thuật, hàng dạng trụ quy định tại Điều 21 (điểm a khoản 10) và hành vi vi phạm tương ứng quy định tại Điều 32 (điểm đ khoản 13), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 13 Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện",
       "global_page": 70,

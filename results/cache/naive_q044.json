@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Khoản 17 Điều 19 Nghị định 238/2026/NĐ-CP bãi bỏ những điểm nào thuộc khoản 17 Điều 32 của Nghị định 168/2024/NĐ-CP?",
-  "answer": "Theo Nghị định 238/2026/NĐ‑CP, khoản 17 Điều 19 quy định bãi bỏ **điểm d, điểm đ, điểm e và điểm g** thuộc khoản 17 Điều 32 của Nghị định 168/2024/NĐ‑CP.",
-  "latency_ms": 12793.101299990667,
+  "answer": "",
+  "latency_ms": 13265.347999986261,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:cc25620f-1aa7-4baf-aba3-56f7d54473a1:64:0",
-      "article_id": "cc25620f-1aa7-4baf-aba3-56f7d54473a1",
+      "chunk_id": "168/2024/NĐ-CP:17096c63-d3a3-4c31-a531-3d90a29fc35b:64:0",
+      "article_id": "17096c63-d3a3-4c31-a531-3d90a29fc35b",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": ", Điều 17; Điểm b khoản 3; điểm a, điểm c, điểm d, điểm g khoản 5; điểm a, điểm b, điểm c khoản 6 Điều 20; Khoản 2, khoản 3, khoản 4, khoản 5 Điều 23;",
       "global_page": 64,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:f571b77f-7670-47e3-b3f4-b2925cd04818:10:1",
-      "article_id": "f571b77f-7670-47e3-b3f4-b2925cd04818",
+      "chunk_id": "238/2026/NĐ-CP:9f953047-ae03-42c2-9c2a-22bb97c12139:10:1",
+      "article_id": "9f953047-ae03-42c2-9c2a-22bb97c12139",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "b khoản 8 Điều 21; điểm a khoản 1, khoản 3, khoản 5 Điều 26; điểm b khoản 1, điểm d khoản 11, điểm h khoản 14, điểm c, điểm d khoản 18, điểm đ, điểm g khoản 19, khoản 20 Điều 32; điểm a khoản 4 Điều 40; khoản 3 Điều 48. Bỏ cụm từ \"giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường\" tại điểm b, điểm d khoản 7 Điều 32, cụm từ \"điểm e, điểm g khoản 7;\" tại điểm đ khoản 18 Điều 32. Bỏ cụm từ \"tại nơi phát hiện vi phạm\" tại điểm c khoản 5 Điều 47. Bỏ cụm từ \"Điểm g khoản 5;\" tại điểm a khoản 1 Điều 48. Bỏ cụm từ \"điểm m khoản 3 Điều 6,\" tại khoản 2 Điều 53. Bỏ cụm từ \"trực thuộc trung ương\" tại Điều 55. Bãi bỏ điểm d, điểm đ, điểm e, điểm g khoản 17 Điều 32. Chương II",
       "global_page": 10,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:79:1",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:79:1",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "đ khoản 10; điểm c, điểm d, điểm i khoản 11 Điều 28; Bãi bỏ Điều 29, Điều 30, Điều 32, Điều 33, Điều 34, Điều 35, Điều 36, Điều 37, Điều 38; Bãi bỏ điểm a, điểm đ, điểm h khoản 2; điểm a, điểm b, điểm c, điểm d, điểm g, điểm h, điểm i khoản 3; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm i, điểm k, điểm l khoản 4; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm g, điểm h, điểm i, điểm k, điểm l, điểm n, điểm p, điểm q khoản 5; khoản 6; điểm a, điểm c, điểm d khoản 8 Điều 74; Bãi bỏ điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm h, điểm k, điểm n khoản 3; khoản 4; điểm a, điểm b, điểm c, điểm d, điểm e khoản 5; khoản 8; khoản 10; khoản 12 Điều 80; Bãi bỏ điểm b, điểm g, điểm h, điểm i khoản 1; khoản 6 Điều 81; Bãi bỏ khoản 1, khoản 3 Điều 82.",
       "global_page": 79,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:6462cb26-05e1-484d-8ddd-ed43449fefc5:63:0",
-      "article_id": "6462cb26-05e1-484d-8ddd-ed43449fefc5",
+      "chunk_id": "168/2024/NĐ-CP:e6be6e81-af40-473a-b2ff-136ed53e276c:63:0",
+      "article_id": "e6be6e81-af40-473a-b2ff-136ed53e276c",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": ", Điều 7, Điều 8, Điều 9, Điều 10, Điều 11, Điều 12, Điều 13, Điều 14, Điều 15, Điều 16, Điều 17, Điều 18, Điều 19, Điều 20, Điều 21, Điều 22, Điều 23, Điều 24, Điều 25, Điều 26, Điều 27, Điều 28, Điều 29, Điều 30, Điều 31, Điều 32, Điều 33, Điều 34, Điều 35, Điều 36; Khoản 1, điểm a khoản 3, điểm b khoản 4, khoản 5 Điều 37;",
       "global_page": 63,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:80:0",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:80:0",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Bỏ một số cụm từ tại các điểm, khoản, điều sau đây: Bỏ cụm từ 'camera', cụm từ 'dây an toàn' và cụm từ 'thiết bị giám sát hành trình' tại điểm p khoản 2 Điều 4; Bỏ cụm từ 'điểm a' tại điểm c khoản 1 Điều 4a; Bỏ cụm từ 'Sử dụng trái phép lòng đường đô thị, hè phố để: Họp chợ; kinh doanh dịch vụ ăn uống; bày, bán hàng hóa; sửa chữa phương tiện, máy móc, thiết bị; rửa xe; đặt, treo biển hiệu, biển quảng cáo;' và cụm từ ', trừ các hành vi vi phạm quy định tại điểm d, điểm đ, điểm e, điểm g khoản 6; khoản 7; điểm a khoản 8 Điều này' tại điểm b khoản 5 Điều 12; Bỏ cụm từ 'Điều 9, Điều 10, Điều 11,' tại điểm đ khoản 3, cụm từ 'Điều 32, Điều 34;' tại điểm k khoản 3, cụm từ 'điểm a khoản 2 Điều 16; điểm a khoản 6 Điều 23; điểm a khoản 2 Điều 32' tại khoản 3a và cụm từ 'Điểm a khoản 1,' tại điểm g khoản 4 Điều 74.",
       "global_page": 80,

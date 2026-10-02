@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Theo Điều 20 Nghị định 238/2026/NĐ-CP, cơ quan nào chịu trách nhiệm chủ trì, phối hợp với các bộ, ngành liên quan hướng dẫn và tổ chức thực hiện Nghị định?",
-  "answer": "Bộ Công an là cơ quan chịu trách nhiệm chủ trì, phối hợp với các bộ, ngành liên quan để hướng dẫn và tổ chức thực hiện Nghị định 238/2026/NĐ‑CP.",
-  "latency_ms": 15647.61919999728,
+  "answer": "Theo Điều 20 của Nghị định 238/2026/NĐ‑CP, **Bộ Công an** là cơ quan chịu trách nhiệm chủ trì, phối hợp với các bộ, ngành liên quan để hướng dẫn và tổ chức thực hiện Nghị định này.",
+  "latency_ms": 8475.850099988747,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:11:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:11:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này. Bộ Công an chủ trì, phối hợp với các bộ, ngành liên quan chịu trách nhiệm hướng dẫn và tổ chức thực hiện Nghị định này.",
       "global_page": 11,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c6f42ec6-29b5-43c6-8dfd-507722c4c01c:80:0",
-      "article_id": "c6f42ec6-29b5-43c6-8dfd-507722c4c01c",
+      "chunk_id": "168/2024/NĐ-CP:d8cf737c-7e3c-485f-b861-acd7d7d19f8b:80:0",
+      "article_id": "d8cf737c-7e3c-485f-b861-acd7d7d19f8b",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các cơ quan, đơn vị có liên quan chịu trách nhiệm thi hành Nghị định này./. Nơi nhận: Ban Bí thư Trung ương Đảng; Thủ tướng, các Phó Thủ tướng Chính phủ; Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; HĐND, UBND các tỉnh, thành phố trực thuộc trung ương; Văn phòng Trung ương và các Ban của Đảng; Văn phòng Tổng Bí thư; Văn phòng Chủ tịch nước; Hội đồng Dân tộc và các Ủy ban của Quốc hội; Văn phòng Quốc hội; Tòa án nhân dân tối cao; Viện kiểm sát nhân dân tối cao; Kiểm toán nhà nước; Ủy ban Giám sát tài chính Quốc gia; Ngân hàng Chính sách xã hội; Ngân hàng Phát triển Việt Nam; Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam; Cơ quan trung ương của các đoàn thể; VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng TTĐT, TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Trần Hồng Hà",
       "global_page": 80,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:1",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:70:1",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm g khoản 4 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về không thực hiện đúng các nội dung thông tin đã niêm yết (tuyến đường, lịch trình, hành trình vận tải) quy định tại Điều 20 (điểm c khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lệnh vận chuyển, giấy vận tải quy định tại Điều 20 (điểm e khoản 5), Điều 21 (điểm đ khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm đ khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 2 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa nguy hiểm mà không làm sạch hoặc không bóc (xóa) biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó quy định tại Điều 23 (khoản 1) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm e khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm e khoản 2 Điều 26 của Nghị định này. Đối với những hành vi vi phạm quy định về tải trọng, khổ giới hạn của phương tiện, của đường bộ quy định tại Điều 21, Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định tại Điều 21, vừa thực hiện hành vi vi phạm quy định tại Điều 34 của Nghị định này thì bị xử phạt về từng hành vi vi phạm; đối với những hành vi vi phạm được quy định tại điểm a khoản 4, điểm a khoản 5 Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định về tổng trọng lượng (khối lượng toàn bộ)",
       "global_page": 70,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:2",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:69:2",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 26 của Nghị định này; Các hành vi vi phạm quy định về đón, trả khách; nhận, trả hàng quy định tại Điều 20 (khoản 8), Điều 21 (khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm c khoản 8), trong trường hợp cá",
       "global_page": 69,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:10:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:10:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026. ĐIỀU KHOẢN THI HÀNH",
       "global_page": 10,

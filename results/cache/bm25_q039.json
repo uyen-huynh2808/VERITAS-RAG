@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Điều 13 Nghị định 238/2026/NĐ-CP đã sửa đổi khoản 1 Điều 42 Nghị định 168/2024/NĐ-CP điều chỉnh mức phạt tiền tối đa của Chủ tịch UBND cấp xã từ 5.000.000 đồng lên bao nhiêu?",
   "answer": "Mức phạt tiền tối đa của Chủ tịch Ủy ban nhân dân cấp xã được điều chỉnh lên **37.500.000 đồng**.",
-  "latency_ms": 18467.54799998598,
+  "latency_ms": 18079.93389997864,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:77:0",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
       "global_page": 77,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:d47cf368-09fa-4fda-b950-84e0c071794d:6:0",
-      "article_id": "d47cf368-09fa-4fda-b950-84e0c071794d",
+      "chunk_id": "238/2026/NĐ-CP:d5b41854-9e48-4576-baf0-4888b58a59ff:6:0",
+      "article_id": "d5b41854-9e48-4576-baf0-4888b58a59ff",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung Điều 42 \" Điều 42. Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
       "global_page": 6,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:47:1",
-      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "chunk_id": "168/2024/NĐ-CP:43296887-9e85-4e45-9d77-7a26e51ef874:47:1",
+      "article_id": "43296887-9e85-4e45-9d77-7a26e51ef874",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "quy định tại điểm g, điểm h khoản 8 Điều này. Phạt tiền từ 800.000 đồng đến 1.200.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 1.600.000 đồng đến 2.400.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 4.000.000 đồng đến 8.000.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi",
       "global_page": 47,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:e9f048fb-2f12-4e1c-8bb7-660a2f2cd61d:68:0",
-      "article_id": "e9f048fb-2f12-4e1c-8bb7-660a2f2cd61d",
+      "chunk_id": "168/2024/NĐ-CP:69e9a5e1-56a8-440b-afd5-679e855057bf:68:0",
+      "article_id": "69e9a5e1-56a8-440b-afd5-679e855057bf",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thực hiện theo quy định tại Điều 52 của Luật Xử lý vi phạm hành chính. Thẩm quyền xử phạt vi phạm hành chính của các chức danh quy định tại Điều 42, Điều 43 và Điều 44 của Nghị định này là thẩm quyền áp dụng đối với một hành vi vi phạm hành chính của cá nhân; trong trường hợp phạt tiền, thẩm quyền xử phạt tổ chức gấp 02 lần thẩm quyền xử phạt cá nhân. Trường hợp cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại khoản 2, khoản 4 Điều 20; khoản 5, khoản 6 Điều 32 của Nghị định này, việc xác định mức tối thiểu và mức tối đa của khung tiền phạt đối với hành vi vi phạm được căn cứ vào mức tối thiểu và mức tối đa của khung tiền phạt quy định đối với mỗi người vượt quá quy định nhân với số người thực tế vượt quá quy định được phép chở của phương tiện.",
       "global_page": 68,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c0aaaf25-290e-454d-9876-031a41102c4f:65:0",
-      "article_id": "c0aaaf25-290e-454d-9876-031a41102c4f",
+      "chunk_id": "168/2024/NĐ-CP:5ae0c5bf-8be1-435c-8cd2-8513146d4621:65:0",
+      "article_id": "5ae0c5bf-8be1-435c-8cd2-8513146d4621",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 5.000.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 10.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp huyện có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng;",
       "global_page": 65,

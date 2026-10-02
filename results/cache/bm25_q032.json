@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Tra cứu quy định về thời hiệu xử phạt vi phạm hành chính đối với hành vi vi phạm trật tự, an toàn giao thông đường bộ áp dụng trong tháng 05/2025.",
   "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 19302.988999988884,
+  "latency_ms": 18407.31660000165,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:597a9aa5-a03a-4b87-a82e-9569a4187c00:76:0",
-      "article_id": "597a9aa5-a03a-4b87-a82e-9569a4187c00",
+      "chunk_id": "168/2024/NĐ-CP:5cfde1b6-3136-469d-adc0-206e2c27edeb:76:0",
+      "article_id": "5cfde1b6-3136-469d-adc0-206e2c27edeb",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thẩm quyền, trình tự, thủ tục phục hồi điểm giấy phép lái xe Thẩm quyền phục hồi điểm giấy phép lái xe Cục trưởng Cục Cảnh sát giao thông có trách nhiệm quản lý, vận hành Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ để thực hiện cập nhật, tự động phục hồi điểm giấy phép lái xe đối với trường hợp quy định tại khoản 2 Điều này; Cục trưởng Cục Cảnh sát giao thông, Trưởng phòng Cảnh sát giao thông nơi tổ chức kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ có thẩm quyền phục hồi điểm cho giấy phép lái xe đối với trường hợp quy định tại khoản 3 Điều này. Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất Khi đủ thời hạn 12 tháng, kể từ ngày bị trừ điểm giấy phép lái xe gần nhất, dữ liệu điểm giấy phép lái xe sẽ được tự động phục hồi đủ 12 điểm (gồm cả giấy phép lái xe đang trong thời hạn bị tước quyền sử dụng) và cập nhật tự động trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ; Ngay sau khi dữ liệu điểm giấy phép lái xe được phục hồi, Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ sẽ tự động chuyển thông tin thông báo cho người được phục hồi điểm giấy phép lái xe biết việc phục hồi điểm theo quy định tại điểm c khoản này; Việc thông báo phục hồi điểm giấy phép lái xe thực hiện bằng phương thức điện tử thông qua tài khoản của công dân đăng ký trên Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động; đồng thời cập nhật thông tin về giấy phép lái xe được phục hồi điểm trên Trang thông tin điện tử của Cục Cảnh sát giao thông. Trường hợp giấy phép lái xe được thể hiện dưới hình thức thông điệp dữ liệu thì thực hiện cập nhật trạng thái phục hồi điểm giấy phép lái xe trong căn cước điện tử, tài khoản định danh điện tử trên ứng dụng định danh quốc gia.",
       "global_page": 76,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:e0dec370-3daf-4497-b4d0-84f4b0b01335:2:0",
-      "article_id": "e0dec370-3daf-4497-b4d0-84f4b0b01335",
+      "chunk_id": "168/2024/NĐ-CP:6e520205-5d3f-4faf-8f7f-2f6d4321ca4a:2:0",
+      "article_id": "6e520205-5d3f-4faf-8f7f-2f6d4321ca4a",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Hình thức xử phạt vi phạm hành chính, biện pháp khắc phục hậu quả; thu hồi giấy phép, chứng chỉ hành nghề Đối với mỗi hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ, cá nhân, tổ chức vi phạm phải chịu một trong các hình thức xử phạt chính sau đây: Cảnh cáo; Phạt tiền; Tịch thu phương tiện được sử dụng để vi phạm hành chính. Căn cứ vào tính chất, mức độ vi phạm, cá nhân, tổ chức vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ còn có thể bị áp dụng một hoặc nhiều hình thức xử phạt bổ sung sau đây: Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn; Đình chỉ hoạt động có thời hạn; Tịch thu tang vật vi phạm hành chính, phương tiện được sử dụng để vi phạm hành chính trong trường hợp không áp dụng là hình thức xử phạt chính theo quy định tại điểm c khoản 1 Điều này. Các biện pháp khắc phục hậu quả vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm: Buộc khôi phục lại tình trạng ban đầu đã bị thay đổi do vi phạm hành chính gây ra, trừ các biện pháp khắc phục hậu quả quy định tại điểm e, điểm n, điểm p khoản này;",
       "global_page": 2,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:435c9d96-f201-4c12-a5b5-a520c572dd83:1:0",
-      "article_id": "435c9d96-f201-4c12-a5b5-a520c572dd83",
+      "chunk_id": "168/2024/NĐ-CP:0b31183d-8b67-43e8-904a-2c5e7507234b:1:0",
+      "article_id": "0b31183d-8b67-43e8-904a-2c5e7507234b",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Phạm vi điều chỉnh Nghị định này quy định về: Xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ bao gồm: hành vi vi phạm hành chính; hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể theo từng chức danh đối với hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; Mức trừ điểm giấy phép lái xe đối với từng hành vi vi phạm hành chính; trình tự, thủ tục, thẩm quyền trừ điểm, phục hồi điểm giấy phép lái xe để quản lý việc chấp hành pháp luật về trật tự, an toàn giao thông đường bộ của người lái xe. Các hành vi vi phạm hành chính trong lĩnh vực quản lý nhà nước khác liên quan đến trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ mà không quy định tại Nghị định này thì áp dụng quy định tại các Nghị định quy định về xử phạt vi phạm hành chính trong các lĩnh vực đó để xử phạt.",
       "global_page": 1,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c98a60e2-2bbc-4b6a-a2ad-7b449ad9f4fd:68:0",
-      "article_id": "c98a60e2-2bbc-4b6a-a2ad-7b449ad9f4fd",
+      "chunk_id": "168/2024/NĐ-CP:48f3c51f-84cd-4162-8bc5-11b8564f62be:68:0",
+      "article_id": "48f3c51f-84cd-4162-8bc5-11b8564f62be",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thẩm quyền lập biên bản vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ Các chức danh có thẩm quyền xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ được quy định tại Điều 42, Điều 43 và Điều 44 của Nghị định này. Công chức thuộc Thanh tra Sở Giao thông vận tải đang thi hành công vụ, nhiệm vụ có thẩm quyền lập biên bản đối với các hành vi vi phạm xảy ra trong phạm vi địa bàn quản lý của Thanh tra Sở Giao thông vận tải. Mục 2. THỦ TỤC XỬ PHẠT",
       "global_page": 68,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:597a9aa5-a03a-4b87-a82e-9569a4187c00:77:0",
-      "article_id": "597a9aa5-a03a-4b87-a82e-9569a4187c00",
+      "chunk_id": "168/2024/NĐ-CP:5cfde1b6-3136-469d-adc0-206e2c27edeb:77:0",
+      "article_id": "5cfde1b6-3136-469d-adc0-206e2c27edeb",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe bị trừ hết điểm Sau khi người có giấy phép lái xe bị trừ hết điểm tham gia kiểm tra nội dung kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và đạt yêu cầu, kết quả kiểm tra được cập nhật vào phần mềm kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ và đồng bộ dữ liệu với Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ, dữ liệu điểm giấy phép lái xe sẽ được phục hồi đủ 12 điểm và cập nhật tự động trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ; Ngay sau khi dữ liệu điểm giấy phép lái xe được phục hồi đủ 12 điểm thì người có thẩm quyền quy định tại điểm b khoản 1 Điều này thông báo cho người được phục hồi điểm giấy phép lái xe biết việc phục hồi điểm; Việc thông báo phục hồi điểm giấy phép lái xe thực hiện bằng văn bản theo mẫu quy định của Bộ trưởng Bộ Công an và được giao trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc thực hiện thông báo bằng phương thức điện tử thông qua tài khoản của công dân đăng ký trên Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động; đồng thời cập nhật thông tin về giấy phép lái xe được phục hồi điểm trên Trang thông tin điện tử của Cục Cảnh sát giao thông. Trường hợp giấy phép lái xe được thể hiện dưới hình thức thông điệp dữ liệu thì cơ quan, người có thẩm quyền thực hiện cập nhật trạng thái phục hồi điểm giấy phép lái xe trong căn cước điện tử, tài khoản định danh điện tử trên ứng dụng định danh quốc gia. Chương IV ĐIỀU KHOẢN THI HÀNH",
       "global_page": 77,

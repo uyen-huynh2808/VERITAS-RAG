@@ -145,10 +145,12 @@ class BenchmarkRunner:
                     sample=sample,
                     output=cached,
                     model_name=self.model_name,
+                    k=self.top_k,
                 )
 
         retrieved_chunks = self.retriever.retrieve(
             query=sample.query,
+            t_event=sample.t_event,
             top_k=self.top_k,
         )
 
@@ -163,6 +165,7 @@ class BenchmarkRunner:
             sample=sample,
             output=output,
             model_name=self.model_name,
+            k=self.top_k,
         )
 
     # --------------------------------------------------------

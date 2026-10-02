@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Tính đến ngày 01/08/2026, các quy định bổ sung về mức xử phạt tiền mới đối với Chủ tịch UBND cấp xã tại Nghị định 238/2026/NĐ-CP đã có giá trị thi hành pháp lý hay chưa?",
-  "answer": "Theo các thông tin trong **Context 3** (điều khoản thi hành của Nghị định 238/2026/NĐ‑CP) thì Nghị định này chỉ có hiệu lực thi hành **từ ngày 15 tháng 8 năm 2026**. Vì vậy, tính đến ngày **01/08/2026**, các quy định mới về mức phạt tiền đối với Chủ tịch Ủy ban nhân dân cấp xã (được quy định trong Điều 42 của Nghị định) **chưa có giá trị thi hành pháp lý**.",
-  "latency_ms": 13837.945100007346,
+  "answer": "Theo **Context 3** (điều khoản thi hành) của Nghị định 238/2026/NĐ‑CP:  \n\n> “Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày **15 tháng 8 năm 2026**.”  \n\nDo đó, vào ngày **01/08/2026** Nghị định này (cũng như các quy định bổ sung về mức phạt tiền mới cho Chủ tịch UBND cấp xã được nêu trong **Context 1**) **chưa có giá trị thi hành pháp lý**.  \n\n**Kết luận:** Các quy định mới về mức xử phạt tiền đối với Chủ tịch UBND cấp xã chưa có hiệu lực vào ngày 01/08/2026.",
+  "latency_ms": 15020.652499981225,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:d47cf368-09fa-4fda-b950-84e0c071794d:6:0",
-      "article_id": "d47cf368-09fa-4fda-b950-84e0c071794d",
+      "chunk_id": "238/2026/NĐ-CP:d5b41854-9e48-4576-baf0-4888b58a59ff:6:0",
+      "article_id": "d5b41854-9e48-4576-baf0-4888b58a59ff",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung Điều 42 \" Điều 42. Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
       "global_page": 6,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c0aaaf25-290e-454d-9876-031a41102c4f:65:0",
-      "article_id": "c0aaaf25-290e-454d-9876-031a41102c4f",
+      "chunk_id": "168/2024/NĐ-CP:5ae0c5bf-8be1-435c-8cd2-8513146d4621:65:0",
+      "article_id": "5ae0c5bf-8be1-435c-8cd2-8513146d4621",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thẩm quyền xử phạt của Chủ tịch Ủy ban nhân dân các cấp Chủ tịch Ủy ban nhân dân cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 5.000.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 10.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại các điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Chủ tịch Ủy ban nhân dân cấp huyện có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Chủ tịch Ủy ban nhân dân cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng;",
       "global_page": 65,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:10:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:10:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026. ĐIỀU KHOẢN THI HÀNH",
       "global_page": 10,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:3e9e1265-2686-4d9b-b73b-565e8e8ddb3c:7:0",
-      "article_id": "3e9e1265-2686-4d9b-b73b-565e8e8ddb3c",
+      "chunk_id": "238/2026/NĐ-CP:0984607a-06ed-4926-9987-c744fc6c90a6:7:0",
+      "article_id": "0984607a-06ed-4926-9987-c744fc6c90a6",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung Điều 43 \" Điều 43. Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 7.500.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 15.000.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng đồn Công an, Thủ trưởng đơn vị Cảnh sát cơ động cấp tiểu đoàn, Trưởng trạm, Đội trưởng có quyền: Phạt cảnh cáo; Phạt tiền đến 22.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính có giá trị không vượt quá 45.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c khoản 3 Điều 3) của Nghị định này. Trưởng Công an cấp xã có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông gồm: Trưởng phòng Hướng dẫn tuyên truyền, điều tra, giải quyết tai nạn giao thông, Trưởng phòng Hướng dẫn, đăng ký và kiểm định phương tiện, Trưởng phòng Hướng dẫn, đào tạo, sát hạch, quản lý giấy phép của người điều khiển phương tiện giao thông, Trưởng phòng Hướng dẫn tuần tra, kiểm soát giao thông đường bộ, đường sắt, Trưởng phòng Hướng",
       "global_page": 7,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
-      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "chunk_id": "238/2026/NĐ-CP:1ed1be7a-80d0-4dee-a6c9-970269bd98e3:9:0",
+      "article_id": "1ed1be7a-80d0-4dee-a6c9-970269bd98e3",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
       "global_page": 9,

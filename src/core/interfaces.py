@@ -3,7 +3,6 @@ from typing import Any, Dict, List, Optional
 
 from src.core.config import SystemConfig
 
-
 class BaseContractGate(ABC):
 
     def __init__(
@@ -76,7 +75,23 @@ class BaseRetriever(ABC):
     def retrieve(
         self,
         query: str,
-        t_event: str,
+        t_event: Optional[str] = None,
         top_k: int = 5,
     ) -> List[Dict[str, Any]]:
+        """
+        Retrieve the top-K chunks for a query.
+
+        Parameters
+        ----------
+        query:
+            User query.
+
+        t_event:
+            Event date used by temporal-aware retrieval.
+            Baseline retrievers may intentionally ignore this
+            parameter because they do not perform temporal filtering.
+
+        top_k:
+            Number of chunks to retrieve.
+        """
         raise NotImplementedError

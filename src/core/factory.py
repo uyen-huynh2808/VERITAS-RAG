@@ -10,115 +10,85 @@ from src.core.interfaces import (
 
 class ComponentFactory:
 
-    _CONTRACT_GATES: Dict[
-        str,
-        str
-    ] = {
+    _CONTRACT_GATES: Dict[str, str] = {
         "document": (
             "src.contracts.document_contract"
             ":ExecutableDocumentContract"
         )
     }
 
-    _RETRIEVERS: Dict[
-        str,
-        str
-    ] = {
+    _RETRIEVERS: Dict[str, str] = {
         "temporal": (
             "src.rag.temporal_retriever"
             ":TemporalRetriever"
         ),
         "bm25": (
             "src.baselines.bm25_baseline"
-            ":BM25Baseline"
+            ":BM25Retriever"
         ),
-        "naive_rag": (
+        "naive": (
             "src.baselines.naive_rag_baseline"
-            ":NaiveRAGBaseline"
+            ":NaiveDenseRetriever"
         ),
     }
 
     @staticmethod
-    def _load_class(
-        target: str
-    ):
+    def _load_class(target: str):
+        module_name, class_name = target.split(":")
 
-        module_name, class_name = (
-            target.split(":")
-        )
+        module = import_module(module_name)
 
-        module = import_module(
-            module_name
-        )
-
-        return getattr(
-            module,
-            class_name,
-        )
+        return getattr(module, class_name)
 
     @classmethod
     def create_contract_gate(
         cls,
-        config: Optional[
-            SystemConfig
-        ] = None,
+        config: Optional[SystemConfig] = None,
         contract_type: str = "document",
     ) -> BaseContractGate:
 
-        config = (
-            config
-            or SystemConfig()
-        )
+        config = config or SystemConfig()
 
-        target = cls._CONTRACT_GATES.get(
-            contract_type
-        )
+        target = cls._CONTRACT_GATES.get(contract_type)
 
         if target is None:
             raise ValueError(
-                f"Unknown contract type: "
-                f"{contract_type}"
+                f"Unknown contract type: {contract_type}"
             )
 
-        contract_class = (
-            cls._load_class(target)
-        )
+        contract_class = cls._load_class(target)
 
-        return contract_class(
-            config=config
-        )
+        return contract_class(config=config)
 
     @classmethod
     def create_retriever(
         cls,
-        config: Optional[
-            SystemConfig
-        ] = None,
+        config: Optional[SystemConfig] = None,
         retriever_type: str = "temporal",
+        gold_path: Optional[str] = None,
     ) -> BaseRetriever:
 
-        config = (
-            config
-            or SystemConfig()
-        )
+        config = config or SystemConfig()
 
-        target = cls._RETRIEVERS.get(
-            retriever_type
-        )
+        target = cls._RETRIEVERS.get(retriever_type)
 
         if target is None:
             raise ValueError(
-                f"Unknown retriever type: "
-                f"{retriever_type}"
+                f"Unknown retriever type: {retriever_type}"
             )
 
-        retriever_class = (
-            cls._load_class(target)
-        )
+        retriever_class = cls._load_class(target)
 
-        return retriever_class(
-            config=config
-        )
+        if retriever_type in {"bm25", "naive"}:
+            if gold_path is None:
+                raise ValueError(
+                    f"gold_path is required for "
+                    f"{retriever_type} retriever"
+                )
+
+            return retriever_class(gold_path)
+
+        return retriever_class(config=config)
 
     @classmethod
     def register_contract_gate(

@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Mức thẩm quyền phạt tiền tối đa đối với cá nhân vi phạm của Trưởng Công an cấp xã tại thời điểm ngày 01/09/2026 theo Nghị định 238/2026/NĐ-CP thay đổi như thế nào (tăng hay giảm bao nhiêu tiền) so với thời điểm ngày 01/05/2025 theo Nghị định 168/2024/NĐ-CP?",
   "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 22741.58949998673,
+  "latency_ms": 22701.014299993403,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:77:0",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
       "global_page": 77,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:8b606477-d050-498b-ace3-531aae4efa02:80:0",
-      "article_id": "8b606477-d050-498b-ace3-531aae4efa02",
+      "chunk_id": "168/2024/NĐ-CP:ffe04e1d-ec66-48f7-930b-395635226484:80:0",
+      "article_id": "ffe04e1d-ec66-48f7-930b-395635226484",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy định tại khoản 2 Điều này. Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026; quy định tại điểm b khoản 1 Điều 32 của Nghị định này có hiệu lực thi hành theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe gắn máy.",
       "global_page": 80,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:52:0",
-      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "chunk_id": "168/2024/NĐ-CP:43296887-9e85-4e45-9d77-7a26e51ef874:52:0",
+      "article_id": "43296887-9e85-4e45-9d77-7a26e51ef874",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 4 Điều 34 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c khoản 4 Điều 34 của Nghị định này; Đưa xe ô tô tải (kể cả rơ moóc và sơ mi rơ moóc) có kích thước thùng xe không đúng với thông số kỹ thuật được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe tham gia giao thông; Giao xe hoặc để cho người không đủ điều kiện theo quy định tại khoản 1 Điều 56 (đối với xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ và các loại xe tương tự xe ô tô), khoản 2 Điều 56 (đối với xe máy chuyên dùng) của Luật Trật tự, an toàn giao thông đường bộ điều khiển xe tham gia giao thông (bao gồm cả trường hợp người điều khiển phương tiện có giấy phép lái xe nhưng đã hết hạn sử dụng hoặc đang trong thời gian bị tước quyền sử dụng; chứng chỉ bồi dưỡng kiến thức pháp luật về giao thông đường bộ bị tước quyền sử dụng trước ngày 01/01/2025 và đang trong thời gian bị tước). Phạt tiền từ 30.000.000 đồng đến 40.000.000 đồng đối với cá nhân, từ 60.000.000 đồng đến 80.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô khi giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 7 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 7 Điều 21 của Nghị định này. Phạt tiền từ 65.000.000 đồng đến 75.000.000 đồng đối với cá nhân, từ 130.000.000 đồng đến 150.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô khi thực hiện một trong các hành vi vi phạm sau đây: Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 5 Điều 34 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 5 Điều 34 của Nghị định này; Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 8 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a,",
       "global_page": 52,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:e9f048fb-2f12-4e1c-8bb7-660a2f2cd61d:68:0",
-      "article_id": "e9f048fb-2f12-4e1c-8bb7-660a2f2cd61d",
+      "chunk_id": "168/2024/NĐ-CP:69e9a5e1-56a8-440b-afd5-679e855057bf:68:0",
+      "article_id": "69e9a5e1-56a8-440b-afd5-679e855057bf",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thực hiện theo quy định tại Điều 52 của Luật Xử lý vi phạm hành chính. Thẩm quyền xử phạt vi phạm hành chính của các chức danh quy định tại Điều 42, Điều 43 và Điều 44 của Nghị định này là thẩm quyền áp dụng đối với một hành vi vi phạm hành chính của cá nhân; trong trường hợp phạt tiền, thẩm quyền xử phạt tổ chức gấp 02 lần thẩm quyền xử phạt cá nhân. Trường hợp cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại khoản 2, khoản 4 Điều 20; khoản 5, khoản 6 Điều 32 của Nghị định này, việc xác định mức tối thiểu và mức tối đa của khung tiền phạt đối với hành vi vi phạm được căn cứ vào mức tối thiểu và mức tối đa của khung tiền phạt quy định đối với mỗi người vượt quá quy định nhân với số người thực tế vượt quá quy định được phép chở của phương tiện.",
       "global_page": 68,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:3cbe5991-bb99-4560-96e6-39557b11d66f:66:0",
-      "article_id": "3cbe5991-bb99-4560-96e6-39557b11d66f",
+      "chunk_id": "168/2024/NĐ-CP:a82c2a92-a371-40d6-959b-7577a8af0e0a:66:0",
+      "article_id": "a82c2a92-a371-40d6-959b-7577a8af0e0a",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 500.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền: Phạt cảnh cáo; Phạt tiền đến 1.500.000 đồng. Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 2.500.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 5.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng Công an cấp tỉnh bao gồm: Trưởng phòng Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Cảnh sát giao thông, Trưởng phòng Cảnh sát cơ động, Trung đoàn trưởng Trung đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c, điểm d khoản 3 Điều 3) của Nghị định này. Giám đốc Công an cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
       "global_page": 66,

@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Trích xuất quy định về thời hạn tước quyền sử dụng giấy phép lái xe đối với hành vi điều khiển xe ô tô trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 mg/100 ml máu vào ngày 20/02/2025.",
   "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 1420.5699000158347,
+  "latency_ms": 16731.174000015017,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:6e7da719-f774-4e53-8ebd-abf296970623:6:0",
-      "article_id": "6e7da719-f774-4e53-8ebd-abf296970623",
+      "chunk_id": "168/2024/NĐ-CP:b4b1f3f0-b366-463a-978d-04d88b1c30ab:6:0",
+      "article_id": "b4b1f3f0-b366-463a-978d-04d88b1c30ab",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "tước quyền sử dụng đối với giấy phép lái xe có thời hạn khi người điều khiển xe ô tô, xe tương tự xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ thực hiện hành vi vi phạm hành chính có quy định bị tước quyền sử dụng giấy phép lái xe. Trong thời gian bị tước quyền sử dụng, người có giấy phép lái xe tích hợp được cấp, đổi giấy phép lái xe đối với giấy phép lái xe không bị tước quyền sử dụng. Trường hợp giấy phép, chứng chỉ hành nghề được cấp dưới dạng điện tử hoặc thể hiện dưới hình thức thông điệp dữ liệu thì cơ quan, người có thẩm quyền thực hiện tạm giữ, tước trên môi trường điện tử theo quy định nếu đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin. Việc tạm giữ, tước quyền sử dụng được cập nhật trạng thái trên cơ sở dữ liệu, căn cước điện tử, tài khoản định danh điện tử và ứng dụng thông tin điện tử khác theo quy định. Chương II HÀNH VI VI PHẠM, HÌNH THỨC, MỨC XỬ PHẠT, MỨC TRỪ ĐIỂM GIẤY PHÉP LÁI XE VÀ BIỆN PHÁP KHẮC PHỤC HẬU QUẢ VI PHẠM HÀNH CHÍNH VỀ TRẬT TỰ, AN TOÀN GIAO THÔNG TRONG LĨNH VỰC GIAO THÔNG ĐƯỜNG BỘ Mục 1. VI PHẠM QUY TẮC GIAO THÔNG ĐƯỜNG BỘ",
       "global_page": 6,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:4ebb57dd-71e5-4988-b54d-e86071ecd06d:20:0",
-      "article_id": "4ebb57dd-71e5-4988-b54d-e86071ecd06d",
+      "chunk_id": "168/2024/NĐ-CP:05b2d188-be17-42ad-8783-cbe5e6a99dc1:20:0",
+      "article_id": "05b2d188-be17-42ad-8783-cbe5e6a99dc1",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "điểm e, điểm g, điểm i khoản 6; điểm b, điểm c khoản 7 Điều này. Phạt tiền từ 18.000.000 đồng đến 20.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: Điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở; Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ; Điều khiển xe trên đường mà trong cơ thể có chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng; Không chấp hành yêu cầu kiểm tra về chất ma túy hoặc chất kích thích khác mà pháp luật cấm sử dụng của người thi hành công vụ; đ) Lùi xe trên đường cao tốc; đi ngược chiều trên đường cao tốc; quay đầu xe trên đường cao tốc; Vi phạm quy định tại điểm b khoản 8 Điều này mà gây tai nạn giao thông.",
       "global_page": 20,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:8c11a7d1-d616-4a16-baec-7b1401541855:21:1",
-      "article_id": "8c11a7d1-d616-4a16-baec-7b1401541855",
+      "chunk_id": "168/2024/NĐ-CP:ede0711f-e752-47d4-bdae-07df51594c37:21:1",
+      "article_id": "ede0711f-e752-47d4-bdae-07df51594c37",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "độ cồn vượt quá 80 miligam/100 mililít máu hoặc vượt quá 0,4 miligam/1 lít khí thở; Không chấp hành yêu cầu kiểm tra về nồng độ cồn của người thi hành công vụ; Người điều khiển xe đạp máy không đội 'mũ bảo hiểm cho người đi mô tô, xe máy' hoặc đội 'mũ bảo hiểm cho người đi mô tô, xe máy' không cài quai đúng quy cách khi tham gia giao thông trên đường bộ; đ) Chở người ngồi trên xe đạp máy không đội 'mũ bảo hiểm cho người đi mô tô, xe máy' hoặc đội 'mũ bảo hiểm cho người đi mô tô, xe máy' không cài quai đúng quy cách, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật.",
       "global_page": 21,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:6e7da719-f774-4e53-8ebd-abf296970623:5:0",
-      "article_id": "6e7da719-f774-4e53-8ebd-abf296970623",
+      "chunk_id": "168/2024/NĐ-CP:b4b1f3f0-b366-463a-978d-04d88b1c30ab:5:0",
+      "article_id": "b4b1f3f0-b366-463a-978d-04d88b1c30ab",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Phù hiệu cấp cho xe ô tô tham gia kinh doanh vận tải; Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường; Giấy phép đào tạo lái xe; Giấy phép sát hạch; đ) Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới; Chứng chỉ đăng kiểm viên; Giấy phép lái xe quốc gia; giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp (trừ giấy phép lái xe quốc tế do Việt Nam cấp); giấy phép lái xe quốc tế mà Việt Nam ký kết điều ước quốc tế về việc công nhận lẫn nhau giấy phép lái xe quốc tế. Trình tự, thủ tục tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính. Trường hợp một cá nhân thực hiện nhiều hành vi vi phạm hành chính mà bị xử phạt trong cùng một lần thì bị phạt tiền đối với từng hành vi vi phạm, nếu có hành vi vi phạm bị tước quyền sử dụng giấy phép lái xe và hành vi vi phạm bị trừ điểm giấy phép lái xe thì chỉ áp dụng hình thức tước quyền sử dụng giấy phép lái xe. Thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép, chứng chỉ hành nghề như sau: Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt đã tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép, chứng chỉ hành nghề là thời điểm quyết định xử phạt vi phạm hành chính có hiệu lực thi hành; Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt chưa tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì người có thẩm quyền xử phạt vẫn ra quyết định xử phạt vi phạm hành chính theo quy định đối với hành vi vi phạm. Trong nội dung quyết định xử phạt phải ghi rõ thời điểm bắt đầu tính hiệu lực thi hành của hình thức xử phạt bổ sung tước quyền sử dụng giấy phép, chứng chỉ hành nghề là kể từ thời điểm mà người vi phạm xuất trình giấy phép, chứng chỉ hành nghề cho người có thẩm quyền xử phạt tạm giữ; Khi giữ và trả lại giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng theo quy định tại điểm b khoản này, người có thẩm quyền xử phạt phải lập biên bản và lưu hồ sơ xử phạt vi phạm hành chính. Trong thời gian bị",
       "global_page": 5,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:d47f2e08-5005-41e1-8b9b-97675ffc88a1:11:1",
-      "article_id": "d47f2e08-5005-41e1-8b9b-97675ffc88a1",
+      "chunk_id": "168/2024/NĐ-CP:da3ea534-5a71-4278-af3e-f942a8d806f3:11:1",
+      "article_id": "da3ea534-5a71-4278-af3e-f942a8d806f3",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "bị tịch thu thiết bị phát tín hiệu ưu tiên lắp đặt, sử dụng trái quy định; Thực hiện hành vi quy định tại khoản 12 Điều này bị tước quyền sử dụng giấy phép lái xe từ 10 tháng đến 12 tháng; Thực hiện hành vi quy định tại điểm a, điểm b, điểm c, điểm d khoản 11; khoản 13; khoản 14 Điều này bị tước quyền sử dụng giấy phép lái xe từ 22 tháng đến 24 tháng. Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển xe thực hiện hành vi vi phạm còn bị trừ điểm giấy phép lái xe như sau: Thực hiện hành vi quy định tại điểm h, điểm i khoản 3; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm g khoản 4; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g, điểm i, điểm k, điểm n, điểm o khoản 5 Điều này bị trừ điểm giấy phép lái xe 02 điểm; Thực hiện hành vi quy định tại điểm h khoản 5; khoản 6; điểm b khoản 7; điểm b, điểm c, điểm d khoản 9 Điều này bị trừ điểm giấy phép lái xe 04 điểm;",
       "global_page": 11,

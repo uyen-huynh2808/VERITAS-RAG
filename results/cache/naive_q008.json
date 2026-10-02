@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Nghị định 168/2024/NĐ-CP quy định thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ để xác định vi phạm là bao lâu tính từ thời điểm ghi nhận?",
-  "answer": "Theo Nghị định 168/2024/NĐ‑CP, thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ để xác định vi phạm được tính **từ thời điểm thiết bị ghi nhận kết quả cho đến hết ngày cuối cùng của thời hiệu xử phạt vi phạm hành chính**.  \n\nĐối với các vi phạm về trật tự, an toàn giao thông trên đường bộ, thời hiệu xử phạt là **01 năm**, vì vậy kết quả thu thập được sẽ có giá trị sử dụng trong vòng **1 năm tính từ thời điểm ghi nhận**.",
-  "latency_ms": 19202.308400010224,
+  "answer": "Theo Nghị định 168/2024/NĐ‑CP, thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ để xác định vi phạm được tính **từ thời điểm thiết bị ghi nhận được kết quả** cho đến **ngày cuối cùng của thời hiệu xử phạt vi phạm hành chính** đối với hành vi vi phạm (đối với các vi phạm về trật tự, an toàn giao thông trên đường bộ thời hiệu này là 01 năm).",
+  "latency_ms": 19231.3998999889,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:c7e152e7-39a0-4921-92cf-6e31ecc8ef13:4:0",
-      "article_id": "c7e152e7-39a0-4921-92cf-6e31ecc8ef13",
+      "chunk_id": "168/2024/NĐ-CP:992dccb4-9846-4739-b4fe-cbb043db478c:4:0",
+      "article_id": "992dccb4-9846-4739-b4fe-cbb043db478c",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thời hiệu xử phạt vi phạm hành chính; hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện Thời hiệu xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ là 01 năm. Thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tổ chức cung cấp để xác định cá nhân, tổ chức vi phạm được tính từ thời điểm phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật của cá nhân, tổ chức ghi nhận được kết quả cho đến hết ngày cuối cùng của thời hiệu xử phạt vi phạm hành chính đối với hành vi vi phạm quy định tại khoản 1 Điều 6 của Luật Xử lý vi phạm hành chính. Quá thời hạn nêu trên mà người có thẩm quyền không ra quyết định xử phạt theo quy định thì kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tổ chức cung cấp không còn giá trị sử dụng. Trường hợp cá nhân, tổ chức cố tình trốn tránh, cản trở việc xử phạt thì thời hạn sử dụng kết quả thu thập được bằng phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tổ chức cung cấp được tính lại kể từ thời điểm chấm dứt hành vi trốn tránh, cản trở việc xử phạt. Hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện Việc xác định hành vi vi phạm hành chính đã kết thúc, hành vi vi phạm hành chính đang thực hiện để tính thời hiệu xử phạt vi phạm hành chính được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính; Đối với các hành vi vi phạm được phát hiện thông qua phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật do cá nhân, tổ chức cung cấp: thời điểm chấm dứt hành vi vi phạm được tính từ thời điểm phương tiện, thiết bị kỹ thuật nghiệp vụ, phương tiện, thiết bị kỹ thuật ghi nhận hành vi vi phạm.",
       "global_page": 4,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
-      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "chunk_id": "238/2026/NĐ-CP:1ed1be7a-80d0-4dee-a6c9-970269bd98e3:9:0",
+      "article_id": "1ed1be7a-80d0-4dee-a6c9-970269bd98e3",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
       "global_page": 9,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c0aaaf25-290e-454d-9876-031a41102c4f:66:0",
-      "article_id": "c0aaaf25-290e-454d-9876-031a41102c4f",
+      "chunk_id": "168/2024/NĐ-CP:5ae0c5bf-8be1-435c-8cd2-8513146d4621:66:0",
+      "article_id": "5ae0c5bf-8be1-435c-8cd2-8513146d4621",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này.",
       "global_page": 66,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52:80:0",
-      "article_id": "fe5aa1a0-4ab7-4d03-beb6-4783e5dfee52",
+      "chunk_id": "168/2024/NĐ-CP:e46eb3e4-ce20-432c-8dbf-db2e6cddd378:80:0",
+      "article_id": "e46eb3e4-ce20-432c-8dbf-db2e6cddd378",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Điều khoản chuyển tiếp Trường hợp hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày Nghị định này có hiệu lực thi hành sau đó mới bị phát hiện hoặc đang xem xét giải quyết thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Trường hợp hành vi vi phạm hành chính đang được thực hiện, thì áp dụng nghị định đang có hiệu lực tại thời điểm phát hiện hành vi vi phạm để xử phạt.",
       "global_page": 80,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:0",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:69:0",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Các hành vi vi phạm quy định về biển số, chứng nhận đăng ký xe, chứng nhận đăng ký xe tạm thời quy định tại Điều 13 (điểm a khoản 4; điểm a khoản 6; điểm a, điểm b khoản 7; điểm a khoản 8), Điều 14 (điểm a, điểm b, điểm c khoản 2; điểm a khoản 3), Điều 16 (điểm a khoản 1; điểm a, điểm c, điểm d, điểm đ khoản 2) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm đ, điểm e, điểm h khoản 8; điểm đ khoản 9; điểm a, điểm b khoản 12; điểm d khoản 13), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe quy định tại Điều 13 (điểm a khoản 5; điểm a, điểm b khoản 6), Điều 16 (điểm đ khoản 1; điểm b, điểm đ khoản 2) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm b, điểm đ khoản 9; điểm a khoản 11), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về thời gian lái xe, thời gian nghỉ giữa hai lần lái xe liên tục của người lái xe, phù hiệu quy định tại Điều 20 (điểm d khoản 6, khoản 7), Điều 21 (điểm b khoản 5, điểm c khoản 6) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm d khoản 9, điểm đ khoản 11), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niên hạn sử dụng của phương tiện quy định tại Điều 13 (điểm a khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm c khoản 17), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm c khoản 17 Điều 32 của Nghị định này; đ) Các hành vi vi phạm quy định về niên hạn sử dụng của phương tiện quy định tại Điều 13 (điểm c khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm i khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm",
       "global_page": 69,

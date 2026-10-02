@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Tìm quy định về xử phạt vi phạm hành chính đối với xe cứu hộ giao thông đường bộ chở xe vượt quá khối lượng chở cho phép tại thời điểm ngày 01/10/2026.",
-  "answer": "**Quy định áp dụng**\n\n- **Văn bản:** Nghị định 238/2026/NĐ‑CP (sửa đổi, bổ",
-  "latency_ms": 22274.431700003333,
+  "answer": "**Quy định hiện hành (tính đến ngày 01/10/2026)**  \n\n- **Văn bản:** Nghị định 238/2026/NĐ‑CP (sửa đổi, bổ sung một số điểm, khoản của Điều 29).  \n- **Khoản quy định:** **Khoản 3a** (được bổ sung vào sau khoản 3).  \n\n**Nội dung khoản 3a:**  \n> “Phạt tiền từ **5.000.000 đồng đến 10.000.000 đồng** đối với một trong các hành vi sau đây:  \n> - Điều khiển xe ô tô **cứu hộ giao thông",
+  "latency_ms": 23358.09850000078,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:6322e6b5-53a2-44ed-a2b8-a6e22e2c3782:5:0",
-      "article_id": "6322e6b5-53a2-44ed-a2b8-a6e22e2c3782",
+      "chunk_id": "238/2026/NĐ-CP:4708f3bc-cbf0-4395-b3c9-1488e73cb619:5:0",
+      "article_id": "4708f3bc-cbf0-4395-b3c9-1488e73cb619",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 29 Bổ sung khoản 3a vào sau khoản 3 như sau: \"3a. Phạt tiền từ 5.000.000 đồng đến 10.000.000 đồng đối với một trong các hành vi sau đây: Điều khiển xe ô tô cứu hộ giao thông đường bộ chở xe được cứu hộ mà vượt quá khối lượng cho phép chuyên chở của xe cứu hộ; kéo theo xe được cứu hộ mà vượt quá khối lượng cho phép kéo theo của xe cứu hộ được ghi trong chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe; Điều khiển xe ô tô cứu hộ giao thông đường bộ kéo theo xe không đúng đối tượng được cứu hộ theo quy định tại khoản 1 Điều 54 Luật Trật tự, an toàn giao thông đường bộ.\". Sửa đổi, bổ sung khoản 4 như sau: \"4. Ngoài việc bị áp dụng hình thức xử phạt, người điều khiển phương tiện thực hiện hành vi quy định tại khoản 3, khoản 3a Điều này bị trừ điểm giấy phép lái xe 02 điểm.\".",
       "global_page": 5,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c2d5de09-cd77-43b1-9f60-11bef6529e34:38:0",
-      "article_id": "c2d5de09-cd77-43b1-9f60-11bef6529e34",
+      "chunk_id": "168/2024/NĐ-CP:24e39d29-e052-4e09-97c9-887bd1b2b6a2:38:0",
+      "article_id": "24e39d29-e052-4e09-97c9-887bd1b2b6a2",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Điều khiển xe ô tô tham gia kinh doanh vận tải hàng hóa không lắp thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô; Điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ (bao gồm khối lượng bản thân rơ moóc, sơ mi rơ moóc và khối lượng hàng chuyên chở) của rơ moóc, sơ mi rơ moóc vượt khối lượng cho phép kéo theo được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 30% đến 50%. Phạt tiền từ 5.000.000 đồng đến 7.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) chở hàng vượt trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 50% đến 100%; Điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ (bao gồm khối lượng bản thân rơ moóc, sơ mi rơ moóc và khối lượng hàng chuyên chở) của rơ moóc, sơ mi rơ moóc vượt khối lượng cho phép kéo theo được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 50% đến 100%; Điều khiển xe không có hoặc không gắn phù hiệu theo quy định (đối với loại xe có quy định phải gắn phù hiệu) hoặc có phù hiệu nhưng đã hết giá trị sử dụng hoặc sử dụng phù hiệu không do cơ quan có thẩm quyền cấp; Điều khiển xe chở hàng trong đô thị không chạy đúng tuyến, phạm vi, thời gian quy định; đ) Vận chuyển hàng hóa, cung ứng dịch vụ không có giấy phép (đối với trường hợp phải có giấy phép) hoặc có nhưng không thực hiện đúng quy định ghi trong giấy phép, trừ các hành vi vi phạm quy định tại điểm b khoản 1, điểm a, điểm c, điểm d khoản 3 Điều 22; khoản 5 Điều 23; khoản 1, điểm b khoản 3 Điều 34 của Nghị định này. Phạt tiền từ 7.000.000 đồng đến 8.000.000 đồng đối với một trong các hành vi sau đây: Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) chở hàng vượt trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 100% đến 150%; Điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ (bao gồm khối lượng bản thân rơ moóc, sơ mi rơ moóc và",
       "global_page": 38,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c2d5de09-cd77-43b1-9f60-11bef6529e34:37:0",
-      "article_id": "c2d5de09-cd77-43b1-9f60-11bef6529e34",
+      "chunk_id": "168/2024/NĐ-CP:24e39d29-e052-4e09-97c9-887bd1b2b6a2:37:0",
+      "article_id": "24e39d29-e052-4e09-97c9-887bd1b2b6a2",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Xử phạt, trừ điểm giấy phép lái xe của người điều khiển xe ô tô tải, máy kéo (bao gồm cả rơ moóc hoặc sơ mi rơ moóc được kéo theo) và các loại xe tương tự xe ô tô vận chuyển hàng hóa vi phạm quy định về bảo đảm trật tự, an toàn giao thông đường bộ với xe ô tô vận chuyển hàng hóa Phạt tiền từ 600.000 đồng đến 800.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe xếp hàng trên nóc buồng lái, xếp hàng làm lệch xe; Không chốt, đóng cố định cửa sau, cửa bên thùng xe khi xe đang chạy. Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) chở hàng vượt trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 10% đến 30% (trừ xe xi téc chở chất lỏng), trên 20% đến 30% đối với xe xi téc chở chất lỏng; Chở hàng trên nóc thùng xe; chở hàng vượt quá bề rộng thùng xe (kể cả bề rộng rơ moóc và sơ mi rơ moóc); chở hàng vượt phía trước, phía sau thùng xe (kể cả rơ moóc và sơ mi rơ moóc) trên 1,1 lần chiều dài toàn bộ của xe theo thiết kế được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe; Chở người trên mui xe; Điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ (bao gồm khối lượng bản thân rơ moóc, sơ mi rơ moóc và khối lượng hàng chuyên chở) của rơ moóc, sơ mi rơ moóc vượt khối lượng cho phép kéo theo được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 10% đến 30%; đ) Điều khiển xe kinh doanh vận tải hàng hóa không có hoặc không mang theo giấy vận tải bằng văn bản giấy theo quy định hoặc không có thiết bị để truy cập vào được phần mềm thể hiện nội dung của giấy vận tải theo quy định hoặc có thiết bị để truy cập nhưng không cung cấp cho lực lượng chức năng khi có yêu cầu. Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với một trong các hành vi vi phạm sau đây: Không sử dụng thẻ nhận dạng lái xe để đăng nhập thông tin theo quy định hoặc sử dụng thẻ nhận dạng lái xe của lái xe khác để đăng nhập thông tin khi điều khiển xe tham gia kinh doanh vận tải hàng hóa; Điều khiển xe ô tô đầu kéo không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận",
       "global_page": 37,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c2d5de09-cd77-43b1-9f60-11bef6529e34:38:1",
-      "article_id": "c2d5de09-cd77-43b1-9f60-11bef6529e34",
+      "chunk_id": "168/2024/NĐ-CP:24e39d29-e052-4e09-97c9-887bd1b2b6a2:38:1",
+      "article_id": "24e39d29-e052-4e09-97c9-887bd1b2b6a2",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 100% đến 150%; Điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ (bao gồm khối lượng bản thân rơ moóc, sơ mi rơ moóc và khối lượng hàng chuyên chở) của rơ moóc, sơ mi rơ moóc vượt khối lượng cho phép kéo theo được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 100% đến 150%. Phạt tiền từ 8.000.000 đồng đến 12.000.000 đồng đối với một trong các hành vi sau đây: Điều khiển xe (kể cả rơ moóc và sơ mi rơ moóc) chở hàng vượt trọng tải (khối lượng hàng chuyên chở) cho phép tham gia giao thông được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 150%; Điều khiển xe kéo theo rơ moóc, sơ mi rơ moóc mà khối lượng toàn bộ (bao gồm khối lượng bản thân rơ moóc, sơ mi rơ moóc và khối lượng hàng chuyên chở) của rơ moóc, sơ mi rơ moóc vượt khối lượng cho phép kéo theo được ghi trong giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe trên 150%; Chở công-ten-nơ trên xe (kể cả sơ mi rơ moóc) không bảo đảm quy chuẩn, tiêu chuẩn kỹ thuật của côngten-nơ theo quy định;",
       "global_page": 38,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:8218ba03-dbc8-4e35-b631-afcb3195dd61:57:0",
-      "article_id": "8218ba03-dbc8-4e35-b631-afcb3195dd61",
+      "chunk_id": "168/2024/NĐ-CP:2f46fbaa-d9fd-413e-9372-dda89f8c3999:57:0",
+      "article_id": "2f46fbaa-d9fd-413e-9372-dda89f8c3999",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Xử phạt người điều khiển xe mô tô, xe gắn máy, xe thô sơ thực hiện hành vi vi phạm vận chuyển hành khách, hàng hóa Phạt tiền từ 300.000 đồng đến 400.000 đồng đối với người điều khiển phương tiện thực hiện một trong các hành vi vi phạm sau đây: Vận chuyển hàng hóa mà sắp xếp, chằng buộc hàng hóa không bảo đảm an toàn hoặc gây nguy hiểm cho người, phương tiện tham gia giao thông; Vận chuyển hàng hóa trên xe gây cản trở tầm nhìn của người lái xe hoặc che khuất đèn, biển số xe (đối với loại xe có đèn, biển số xe); để rơi hàng hóa xuống đường. Phạt tiền từ 400.000 đồng đến 600.000 đồng đối với một trong các hành vi vi phạm sau đây: Chở hành lý, hàng hóa vượt quá khối lượng cho phép của xe; Chở hành lý, hàng hóa vượt quá khổ giới hạn cho phép của xe; Vận chuyển hàng rời, vật liệu xây dựng, phế thải để rơi vãi xuống đường hoặc gây ra tiếng ồn, bụi bẩn; Vận chuyển hàng hóa vượt phía trước, phía sau xe mà không có báo hiệu màu đỏ tại điểm đầu và điểm cuối cùng của hàng hóa khi xe hoạt động ban ngày; vận chuyển hàng hóa vượt phía trước, phía sau xe mà không có đèn hoặc báo hiệu khi xe hoạt động vào ban đêm hoặc khi trời tối.",
       "global_page": 57,

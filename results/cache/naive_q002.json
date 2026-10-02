@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Nghị định 238/2026/NĐ-CP do Chính phủ ban hành vào ngày nào và thời điểm có hiệu lực thi hành chung là ngày nào?",
   "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 1190.2859999972861,
+  "latency_ms": 952.6202999986708,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:10:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:10:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026. ĐIỀU KHOẢN THI HÀNH",
       "global_page": 10,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:8b606477-d050-498b-ace3-531aae4efa02:80:0",
-      "article_id": "8b606477-d050-498b-ace3-531aae4efa02",
+      "chunk_id": "168/2024/NĐ-CP:ffe04e1d-ec66-48f7-930b-395635226484:80:0",
+      "article_id": "ffe04e1d-ec66-48f7-930b-395635226484",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy định tại khoản 2 Điều này. Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026; quy định tại điểm b khoản 1 Điều 32 của Nghị định này có hiệu lực thi hành theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe gắn máy.",
       "global_page": 80,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
-      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "chunk_id": "238/2026/NĐ-CP:1ed1be7a-80d0-4dee-a6c9-970269bd98e3:9:0",
+      "article_id": "1ed1be7a-80d0-4dee-a6c9-970269bd98e3",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
       "global_page": 9,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:11:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:11:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này. Bộ Công an chủ trì, phối hợp với các bộ, ngành liên quan chịu trách nhiệm hướng dẫn và tổ chức thực hiện Nghị định này.",
       "global_page": 11,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:70:1",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:70:1",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niêm yết thông tin (hành trình chạy xe) quy định tại Điều 20 (điểm k khoản 3) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm g khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm g khoản 4 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về không thực hiện đúng các nội dung thông tin đã niêm yết (tuyến đường, lịch trình, hành trình vận tải) quy định tại Điều 20 (điểm c khoản 3) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm b khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm b khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về lệnh vận chuyển, giấy vận tải quy định tại Điều 20 (điểm e khoản 5), Điều 21 (điểm đ khoản 2) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm đ khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm đ khoản 2 Điều 26 của Nghị định này; Các hành vi vi phạm quy định về vận chuyển hàng hóa nguy hiểm mà không làm sạch hoặc không bóc (xóa) biểu trưng nguy hiểm trên phương tiện khi không tiếp tục vận chuyển loại hàng hóa đó quy định tại Điều 23 (khoản 1) và hành vi vi phạm tương ứng quy định tại Điều 26 (điểm e khoản 2), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm e khoản 2 Điều 26 của Nghị định này. Đối với những hành vi vi phạm quy định về tải trọng, khổ giới hạn của phương tiện, của đường bộ quy định tại Điều 21, Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định tại Điều 21, vừa thực hiện hành vi vi phạm quy định tại Điều 34 của Nghị định này thì bị xử phạt về từng hành vi vi phạm; đối với những hành vi vi phạm được quy định tại điểm a khoản 4, điểm a khoản 5 Điều 34 của Nghị định này, trong trường hợp chủ phương tiện, người điều khiển phương tiện vừa thực hiện hành vi vi phạm quy định về tổng trọng lượng (khối lượng toàn bộ)",
       "global_page": 70,

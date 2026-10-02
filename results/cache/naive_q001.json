@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Nghị định 168/2024/NĐ-CP được Chính phủ ký ban hành vào ngày nào và có hiệu lực thi hành chính thức từ ngày nào?",
   "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 1652.0635000197217,
+  "latency_ms": 2444.666800001869,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:10:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:10:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026. ĐIỀU KHOẢN THI HÀNH",
       "global_page": 10,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:8b606477-d050-498b-ace3-531aae4efa02:80:0",
-      "article_id": "8b606477-d050-498b-ace3-531aae4efa02",
+      "chunk_id": "168/2024/NĐ-CP:ffe04e1d-ec66-48f7-930b-395635226484:80:0",
+      "article_id": "ffe04e1d-ec66-48f7-930b-395635226484",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy định tại khoản 2 Điều này. Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026; quy định tại điểm b khoản 1 Điều 32 của Nghị định này có hiệu lực thi hành theo quy định của pháp luật bảo vệ môi trường về kiểm định khí thải xe mô tô, xe gắn máy.",
       "global_page": 80,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
-      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "chunk_id": "238/2026/NĐ-CP:1ed1be7a-80d0-4dee-a6c9-970269bd98e3:9:0",
+      "article_id": "1ed1be7a-80d0-4dee-a6c9-970269bd98e3",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
       "global_page": 9,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:11:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:11:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này. Bộ Công an chủ trì, phối hợp với các bộ, ngành liên quan chịu trách nhiệm hướng dẫn và tổ chức thực hiện Nghị định này.",
       "global_page": 11,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c6f42ec6-29b5-43c6-8dfd-507722c4c01c:80:0",
-      "article_id": "c6f42ec6-29b5-43c6-8dfd-507722c4c01c",
+      "chunk_id": "168/2024/NĐ-CP:d8cf737c-7e3c-485f-b861-acd7d7d19f8b:80:0",
+      "article_id": "d8cf737c-7e3c-485f-b861-acd7d7d19f8b",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Trách nhiệm thi hành Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các cơ quan, đơn vị có liên quan chịu trách nhiệm thi hành Nghị định này./. Nơi nhận: Ban Bí thư Trung ương Đảng; Thủ tướng, các Phó Thủ tướng Chính phủ; Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; HĐND, UBND các tỉnh, thành phố trực thuộc trung ương; Văn phòng Trung ương và các Ban của Đảng; Văn phòng Tổng Bí thư; Văn phòng Chủ tịch nước; Hội đồng Dân tộc và các Ủy ban của Quốc hội; Văn phòng Quốc hội; Tòa án nhân dân tối cao; Viện kiểm sát nhân dân tối cao; Kiểm toán nhà nước; Ủy ban Giám sát tài chính Quốc gia; Ngân hàng Chính sách xã hội; Ngân hàng Phát triển Việt Nam; Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam; Cơ quan trung ương của các đoàn thể; VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng TTĐT, TM. CHÍNH PHỦ KT. THỦ TƯỚNG PHÓ THỦ TƯỚNG Trần Hồng Hà",
       "global_page": 80,

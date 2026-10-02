@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Nghị định 238/2026/NĐ-CP được ban hành nhằm mục đích sửa đổi, bổ sung một số điều của văn bản quy phạm pháp luật nào?",
   "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 9563.368400005857,
+  "latency_ms": 11554.14049999672,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:77:0",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
       "global_page": 77,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:620ca097-2f37-492e-bc84-86e570e3db1f:10:0",
-      "article_id": "620ca097-2f37-492e-bc84-86e570e3db1f",
+      "chunk_id": "238/2026/NĐ-CP:a8af118f-e939-4c09-9dd1-cc8643acc252:10:0",
+      "article_id": "a8af118f-e939-4c09-9dd1-cc8643acc252",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Hiệu lực thi hành Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2026. ĐIỀU KHOẢN THI HÀNH",
       "global_page": 10,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:f571b77f-7670-47e3-b3f4-b2925cd04818:9:0",
-      "article_id": "f571b77f-7670-47e3-b3f4-b2925cd04818",
+      "chunk_id": "238/2026/NĐ-CP:9f953047-ae03-42c2-9c2a-22bb97c12139:9:0",
+      "article_id": "9f953047-ae03-42c2-9c2a-22bb97c12139",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung, thay thế, bãi bỏ một số cụm từ, điểm, khoản, điều",
       "global_page": 9,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:78:1",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:78:1",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "(điểm d khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện hoặc là nhân viên phục vụ trên xe thì bị xử phạt theo quy định tại điểm d khoản 6 Điều 28 của Nghị định này;'; Sửa đổi, bổ sung điểm l khoản 3 Điều 80 như sau: 'l) Các hành vi vi phạm quy định về kinh doanh vận tải hành khách theo hợp đồng quy định tại Điều 23 (điểm n khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 28 (điểm p khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 28 Nghị định này;'; Sửa đổi, bổ sung đoạn đầu khoản 5 Điều 80 như sau:",
       "global_page": 78,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:1758a0f6-a034-4a05-97e9-27ed6cb6d748:9:0",
-      "article_id": "1758a0f6-a034-4a05-97e9-27ed6cb6d748",
+      "chunk_id": "238/2026/NĐ-CP:18265c30-171f-4b95-80a7-651a2bd8135c:9:0",
+      "article_id": "18265c30-171f-4b95-80a7-651a2bd8135c",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung khoản 2 Điều 46 \"2. Công chức, viên chức đang thi hành công vụ, nhiệm vụ có thẩm quyền lập biên bản vi phạm hành chính đối với các hành vi vi phạm.\".",
       "global_page": 9,

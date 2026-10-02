@@ -186,7 +186,7 @@ def temporal_validity_accuracy(
         if start is None:
             continue
 
-        if start <= t_event and (end is None or t_event <= end):
+        if start <= t_event and (end is None or t_event < end):
             valid += 1
 
     return valid / len(retrieved_top_k)

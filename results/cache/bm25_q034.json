@@ -2,11 +2,11 @@
   "version": 2,
   "question": "Trích xuất quy định về mức phạt tiền tối đa thuộc thẩm quyền của Giám đốc Công an cấp tỉnh đối với cá nhân vi phạm giao thông tại thời điểm ngày 01/11/2026.",
   "answer": "",
-  "latency_ms": 24131.0811000003,
+  "latency_ms": 24501.29869999364,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:3cbe5991-bb99-4560-96e6-39557b11d66f:66:0",
-      "article_id": "3cbe5991-bb99-4560-96e6-39557b11d66f",
+      "chunk_id": "168/2024/NĐ-CP:a82c2a92-a371-40d6-959b-7577a8af0e0a:66:0",
+      "article_id": "a82c2a92-a371-40d6-959b-7577a8af0e0a",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thẩm quyền xử phạt của Công an nhân dân Chiến sĩ Công an nhân dân đang thi hành công vụ có quyền: Phạt cảnh cáo; Phạt tiền đến 500.000 đồng. Thủ trưởng đơn vị Cảnh sát cơ động cấp đại đội, Trưởng trạm, Đội trưởng của người quy định tại khoản 1 Điều này có quyền: Phạt cảnh cáo; Phạt tiền đến 1.500.000 đồng. Trưởng Công an cấp xã, Trưởng đồn Công an, Trưởng trạm Công an cửa khẩu, khu chế xuất, Tiểu đoàn trưởng Tiểu đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 2.500.000 đồng; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 5.000.000 đồng; Áp dụng biện pháp khắc phục hậu quả quy định tại điểm a, điểm b khoản 3 Điều 3 của Nghị định này. Trưởng Công an cấp huyện; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát giao thông; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội; Trưởng phòng Công an cấp tỉnh bao gồm: Trưởng phòng Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Cảnh sát giao thông, Trưởng phòng Cảnh sát cơ động, Trung đoàn trưởng Trung đoàn Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 15.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện được sử dụng để vi phạm hành chính có giá trị không vượt quá 30.000.000 đồng; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 (trừ điểm c, điểm d khoản 3 Điều 3) của Nghị định này. Giám đốc Công an cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 37.500.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn;",
       "global_page": 66,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:e9f048fb-2f12-4e1c-8bb7-660a2f2cd61d:68:0",
-      "article_id": "e9f048fb-2f12-4e1c-8bb7-660a2f2cd61d",
+      "chunk_id": "168/2024/NĐ-CP:69e9a5e1-56a8-440b-afd5-679e855057bf:68:0",
+      "article_id": "69e9a5e1-56a8-440b-afd5-679e855057bf",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả Nguyên tắc xác định thẩm quyền xử phạt vi phạm hành chính và áp dụng biện pháp khắc phục hậu quả về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thực hiện theo quy định tại Điều 52 của Luật Xử lý vi phạm hành chính. Thẩm quyền xử phạt vi phạm hành chính của các chức danh quy định tại Điều 42, Điều 43 và Điều 44 của Nghị định này là thẩm quyền áp dụng đối với một hành vi vi phạm hành chính của cá nhân; trong trường hợp phạt tiền, thẩm quyền xử phạt tổ chức gấp 02 lần thẩm quyền xử phạt cá nhân. Trường hợp cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại khoản 2, khoản 4 Điều 20; khoản 5, khoản 6 Điều 32 của Nghị định này, việc xác định mức tối thiểu và mức tối đa của khung tiền phạt đối với hành vi vi phạm được căn cứ vào mức tối thiểu và mức tối đa của khung tiền phạt quy định đối với mỗi người vượt quá quy định nhân với số người thực tế vượt quá quy định được phép chở của phương tiện.",
       "global_page": 68,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:3e9e1265-2686-4d9b-b73b-565e8e8ddb3c:8:0",
-      "article_id": "3e9e1265-2686-4d9b-b73b-565e8e8ddb3c",
+      "chunk_id": "238/2026/NĐ-CP:0984607a-06ed-4926-9987-c744fc6c90a6:8:0",
+      "article_id": "0984607a-06ed-4926-9987-c744fc6c90a6",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "dẫn điều khiển giao thông và dẫn đoàn, Trưởng phòng Quản lý, khai thác, xử lý, vận hành dữ liệu và chuyển đổi số; Trưởng phòng nghiệp vụ thuộc Cục Cảnh sát quản lý hành chính về trật tự xã hội gồm: Trưởng phòng Hướng dẫn, quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ và pháo, Trưởng phòng Hướng dẫn, quản lý các ngành, nghề đầu tư kinh doanh có điều kiện về an ninh, trật tự và con dấu, Giám đốc Trung tâm dữ liệu quốc gia về dân cư; Thủ trưởng đơn vị Cảnh sát cơ động cấp trung đoàn; Trưởng phòng Công an cấp tỉnh gồm: Trưởng phòng Cảnh sát quản lý hành chính về trật tự xã hội, Trưởng phòng Cảnh sát giao thông, Trưởng phòng Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 60.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Giám đốc Công an cấp tỉnh có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này. Cục trưởng Cục Cảnh sát giao thông, Cục trưởng Cục Cảnh sát quản lý hành chính về trật tự xã hội, Tư lệnh Cảnh sát cơ động có quyền: Phạt cảnh cáo; Phạt tiền đến 75.000.000 đồng; Tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn; Tịch thu tang vật, phương tiện vi phạm hành chính; đ) Áp dụng các biện pháp khắc phục hậu quả quy định tại khoản 3 Điều 3 của Nghị định này.\".",
       "global_page": 8,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:47:1",
-      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "chunk_id": "168/2024/NĐ-CP:43296887-9e85-4e45-9d77-7a26e51ef874:47:1",
+      "article_id": "43296887-9e85-4e45-9d77-7a26e51ef874",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "quy định tại điểm g, điểm h khoản 8 Điều này. Phạt tiền từ 800.000 đồng đến 1.200.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 1.600.000 đồng đến 2.400.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 20 của Nghị định này. Phạt tiền từ 2.000.000 đồng đến 4.000.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 75.000.000 đồng đối với chủ phương tiện là cá nhân, từ 4.000.000 đồng đến 8.000.000 đồng trên mỗi người vượt quá quy định được phép chở của phương tiện nhưng tổng mức phạt tiền tối đa không vượt quá 150.000.000 đồng đối với chủ phương tiện là tổ chức giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi",
       "global_page": 47,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:f3bc5f2f-12b5-4c83-8722-d30b370a3ebc:44:0",
-      "article_id": "f3bc5f2f-12b5-4c83-8722-d30b370a3ebc",
+      "chunk_id": "168/2024/NĐ-CP:3db508b6-d3e9-41e3-b8ff-72c333cf21a3:44:0",
+      "article_id": "3db508b6-d3e9-41e3-b8ff-72c333cf21a3",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô không có nhân sự cho từng vị trí công việc theo quy định; Đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị giám sát hành trình của xe ô tô không báo cáo về việc cập nhật, thay đổi phần mềm của thiết bị theo quy định. Phạt tiền từ 40.000.000 đồng đến 60.000.000 đồng đối với đơn vị sản xuất, lắp ráp, nhập khẩu thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô, đơn vị cung cấp dịch vụ liên quan đến giám sát hành trình, ghi nhận hình ảnh người lái xe thực hiện một trong các hành vi vi phạm sau đây: Làm sai lệch thông tin, dữ liệu của thiết bị giám sát hành trình của xe ô tô; Làm sai lệch thông tin, dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô. Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với cá nhân, từ 80.000.000 đồng đến 100.000.000 đồng đối với tổ chức kinh doanh vận tải, dịch vụ hỗ trợ vận tải tái phạm hành vi quy định tại điểm a, điểm h khoản 7 Điều này. Ngoài việc bị phạt tiền, cá nhân, tổ chức thực hiện hành vi vi phạm quy định tại điểm c khoản 2; điểm a, điểm b, điểm đ, điểm g khoản 4; điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g khoản 7; điểm c khoản 8 Điều này còn bị áp dụng các hình thức xử phạt bổ sung tước quyền sử dụng phù hiệu từ 01 tháng đến 03 tháng (nếu có hoặc đã được cấp) đối với xe vi phạm. Ngoài việc bị áp dụng hình thức xử phạt, cá nhân, tổ chức thực hiện hành vi vi phạm còn bị áp dụng các biện pháp khắc phục hậu quả sau đây: Thực hiện hành vi quy định tại điểm a khoản 4 Điều này buộc cấp thẻ nhận dạng lái xe cho lái xe theo quy định; Thực hiện hành vi quy định tại điểm b, điểm c, điểm d khoản 4; điểm a khoản 8 Điều này buộc tổ chức tập huấn, hướng dẫn nghiệp vụ, quy trình hoặc tổ chức khám sức khỏe định kỳ cho lái xe và nhân viên phục vụ trên xe theo quy định; Thực hiện hành vi quy định tại điểm đ, điểm e khoản 4; điểm c, điểm g khoản 7 Điều này buộc lắp đặt thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe, dây đai an toàn, ghế ngồi cho trẻ em mầm non, học sinh tiểu học trên xe theo đúng quy định; Thực hiện hành vi quy định tại điểm a, điểm h khoản 7; khoản 11 Điều này buộc cung cấp, cập nhật, truyền dẫn, lưu trữ, quản lý thông tin, dữ liệu thu thập từ thiết bị giám sát",
       "global_page": 44,

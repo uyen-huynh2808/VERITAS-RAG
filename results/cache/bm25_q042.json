@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Điều 5 Nghị định 238/2026/NĐ-CP sửa đổi điểm a khoản 2 Điều 17 Nghị định 168/2024/NĐ-CP bổ sung thêm những hành vi vi phạm nào đối với ô tô chở hàng hóa, vật liệu?",
-  "answer": "Theo Điều 5 của Nghị định 238/2026/NĐ‑CP, khi sửa đổi, bổ sung điểm **a** khoản 2 Điều 17 của Nghị định 168/2024/NĐ‑CP, đã bổ sung các hành vi vi phạm sau đối với ô tô chở hàng hóa, vật liệu:\n\n1. **Chở vật liệu xây dựng, đất đá, phế thải, hàng rời",
-  "latency_ms": 23935.92049999279,
+  "answer": "Điều 5 Nghị định 238/2026/NĐ‑CP, khi sửa đổi điểm a khoản 2 Điều 17 của Nghị định 168/2024/NĐ‑CP, đã bổ sung các hành vi vi phạm sau đối với ô tô chở hàng hóa, vật liệu:\n\n1. **Chở vật liệu xây dựng, đất đá, phế thải, hàng rời mà không che đậy**;  \n2. **Làm rơi,",
+  "latency_ms": 23398.846900003264,
   "retrieved_chunks": [
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:77:0",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
       "global_page": 77,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:a8813bc6-57bf-4d88-bb11-1156976b366f:2:0",
-      "article_id": "a8813bc6-57bf-4d88-bb11-1156976b366f",
+      "chunk_id": "238/2026/NĐ-CP:d8efdf26-745e-408e-96d4-180406234907:2:0",
+      "article_id": "d8efdf26-745e-408e-96d4-180406234907",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung điểm a khoản 2 Điều 17 \"a) Chở vật liệu xây dựng, đất đá, phế thải, hàng rời mà không che đậy; làm rơi vãi hàng hóa, vật liệu xây dựng, đất đá, phế thải, bùn, hàng rời xuống đường; chở hàng hoặc chất thải để nước chảy xuống đường;\".",
       "global_page": 2,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:996750b5-0b9a-415f-9911-ababa6027e13:3:0",
-      "article_id": "996750b5-0b9a-415f-9911-ababa6027e13",
+      "chunk_id": "238/2026/NĐ-CP:2d2acea4-902e-4685-baa0-4113c6242c7f:3:0",
+      "article_id": "2d2acea4-902e-4685-baa0-4113c6242c7f",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 21 Sửa đổi, bổ sung điểm b khoản 2 như sau: \"b) Chở hàng trên nóc thùng xe; chở hàng vượt quá bề rộng thùng xe (kể cả bề rộng rơ moóc và sơ mi rơ moóc); chở hàng vượt phía trước, phía sau thùng xe (kể cả rơ moóc và sơ mi rơ moóc) trên 10% chiều dài toàn bộ của xe theo thiết kế được ghi trong chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe, trừ hành vi vi phạm quy định tại điểm d khoản 8 Điều 21 Nghị định này\". Sửa đổi, bổ sung điểm b khoản 3 như sau: \"b) Điều khiển xe ô tô kinh doanh vận tải, xe ô tô đầu kéo, xe vận tải nội bộ không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô.\". Sửa đổi, bổ sung điểm c khoản 5 như sau: Điều khiển xe ô tô kinh doanh vận tải, xe ô tô đầu kéo, xe vận tải nội bộ không lắp thiết bị giám sát hành trình hoặc có lắp thiết bị giám sát hành trình nhưng không có tác dụng trong quá trình xe tham gia giao thông theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình lắp trên xe ô tô;\". Sửa đổi, bổ sung khoản 8 như sau:",
       "global_page": 3,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:49dc8635-9467-44e1-8a34-74fe07960754:5:0",
-      "article_id": "49dc8635-9467-44e1-8a34-74fe07960754",
+      "chunk_id": "238/2026/NĐ-CP:943d4426-644e-47c0-9a6a-4a37d0d6b57d:5:0",
+      "article_id": "943d4426-644e-47c0-9a6a-4a37d0d6b57d",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 32 Bổ sung khoản 9a vào sau khoản 9 như sau: \"9a. Phạt tiền từ 5.000.000 đồng đến 6.000.000 đồng đối với cá nhân, từ 10.000.000 đồng đến 12.000.000 đồng đối với tổ chức là chủ xe ô tô đầu kéo, xe vận tải nội bộ thực hiện một trong các hành vi vi phạm sau đây: Đưa xe không lắp thiết bị giám sát hành trình của xe hoặc có lắp thiết bị giám sát hành trình nhưng không hoạt động, không đúng quy chuẩn theo quy định hoặc làm sai lệch dữ liệu của thiết bị giám sát hành trình của xe ô tô; Đưa xe không lắp thiết bị ghi nhận hình ảnh người lái xe hoặc có lắp thiết bị ghi nhận hình ảnh người lái xe nhưng không ghi, không lưu trữ được dữ liệu theo quy định hoặc làm sai lệch dữ liệu của thiết bị ghi nhận hình ảnh người lái xe lắp trên xe ô tô.\". Bổ sung điểm e vào sau điểm đ khoản 11 như sau: \"e) Giao phương tiện hoặc để cho người làm công, người điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 8a Điều 20 của Nghị định này.\". Bổ sung điểm e vào sau điểm đ khoản 13 như sau: \"e) Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c, điểm d, điểm e khoản 8 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm c, điểm d, điểm e khoản 8 Điều 21 của Nghị định này.\". Sửa đổi, bổ sung điểm l khoản 19 như sau: \"l) Thực hiện hành vi vi phạm quy định tại điểm o khoản 7, khoản 9a Điều này buộc lắp đặt dụng cụ, thiết bị chuyên dùng để cứu hộ, hỗ trợ cứu hộ, thiết bị giám sát hành trình, thiết bị ghi nhận hình ảnh người lái xe trên xe theo đúng quy định.\". Sửa đổi, bổ sung điểm c khoản 21 như sau: \"c) Thực hiện hành vi quy định tại điểm a, điểm b, điểm đ, điểm e khoản 13; điểm a, điểm b, điểm c, điểm d khoản 14; điểm a khoản 16 Điều này trong trường hợp chủ phương tiện là người trực tiếp điều khiển",
       "global_page": 5,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:71:0",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:71:0",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "của xe, vừa thực hiện hành vi vi phạm quy định về tải trọng trục xe thì bị xử phạt theo quy định của hành vi vi phạm có mức phạt tiền cao hơn. Đối với các hành vi vi phạm quy định về sử dụng lòng đường, vỉa hè vào mục đích khác, bảo vệ môi trường, chở người vượt quá quy định được phép chở của phương tiện, vi phạm quy định về tải trọng, khổ giới hạn của phương tiện, của đường bộ vi phạm về chằng buộc vận chuyển hàng hóa quy định tại Điều 12, Điều 17, Điều 20, Điều 21, Điều 26, Điều 32, Điều 34 của Nghị định này, người điều khiển phương tiện, chủ phương tiện, đơn vị kinh doanh vận tải, dịch vụ hỗ trợ vận tải, cá nhân, tổ chức vi phạm, xếp hàng lên xe ô tô thì buộc chấm dứt hành vi vi phạm theo quy định cụ thể sau đây: Thực hiện hành vi vi phạm quy định tại điểm g khoản 2; khoản 7; khoản 9; điểm a khoản 11; điểm b khoản 14 Điều 12 thì buộc thu dọn thóc, lúa, rơm, rạ, nông, lâm, hải sản, máy tuốt lúa trên đường bộ; thu dọn chướng ngại vật, vật cản khác, vật sắc nhọn, chất gây trơn trượt trên đường bộ, hàng hóa, vật tư, hóa chất, chất thải; thu dọn phương tiện, máy móc, thiết bị, biển hiệu, biển quảng cáo theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm; Thực hiện hành vi vi phạm quy định tại khoản 2, khoản 3, khoản 4 Điều 17 thì buộc thu dọn rác, chất phế thải, vật liệu, hàng hóa theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm; Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d khoản 2; điểm a, điểm d khoản 5; điểm a, điểm b khoản 6; khoản 7; điểm a, điểm b khoản 8 Điều 21 thì buộc hạ phần hàng quá tải, dỡ phần hàng vượt quá kích thước quy định theo hướng dẫn của lực lượng chức năng tại nơi phát hiện vi phạm; Thực hiện hành vi vi phạm quy định tại điểm a khoản 1; khoản 3; khoản 5 Điều 26 thì buộc hạ phần hàng xếp vượt quá tải trọng cho phép chở của xe trong trường hợp phương tiện được xếp hàng chưa rời khỏi khu vực xếp hàng; đ) Thực hiện hành vi vi phạm quy định tại điểm đ, điểm e, điểm g khoản 7; điểm c khoản 9; điểm b, điểm c khoản 11; điểm a, điểm b, điểm c khoản 13; điểm a, điểm b, điểm c, điểm d, điểm đ, điểm e, điểm g khoản 14; khoản 15; điểm a, điểm b khoản 16; điểm g khoản 17 Điều 32 thì buộc hạ phần hàng quá tải, dỡ phần hàng quá khổ theo hướng dẫn của lực lượng chức năng tại nơi phát hiện",
       "global_page": 71,

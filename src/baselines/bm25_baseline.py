@@ -154,6 +154,7 @@ class BM25Retriever:
     def retrieve(
         self,
         query: str,
+        t_event: Optional[str] = None,
         top_k: int = 5,
     ) -> List[RetrievedChunk]:
 

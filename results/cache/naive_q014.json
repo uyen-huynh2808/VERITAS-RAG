@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Vào ngày 15/08/2026, người điều khiển xe ô tô thực hiện hành vi dán thêm chữ làm thay đổi hình dạng biển số xe sẽ bị xử phạt theo Nghị định 168/2024/NĐ-CP nguyên bản hay theo quy định đã được sửa đổi bởi Nghị định 238/2026/NĐ-CP?",
-  "answer": "Theo nội dung **Điểm b, Khoản 8, Điều 13** được sửa đổi, bổ sung trong **Nghị định 238/2026/NĐ‑CP** (xem Context 1), hành vi:\n\n*“dán thêm chữ, làm thay đổi hình dạng biển số xe”*  \n\nđược quy định là",
-  "latency_ms": 19280.816400016192,
+  "answer": "Hành vi “dán thêm chữ làm thay đổi hình dạng biển số xe” được quy định trong **đ",
+  "latency_ms": 20102.18819999136,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:2435bc4d-82ce-4d06-bc30-f99cc34df68c:2:0",
-      "article_id": "2435bc4d-82ce-4d06-bc30-f99cc34df68c",
+      "chunk_id": "238/2026/NĐ-CP:5147d10f-a323-4f06-bd7a-811efe4eb4e3:2:0",
+      "article_id": "5147d10f-a323-4f06-bd7a-811efe4eb4e3",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung điểm b khoản 8 Điều 13 \"b) Điều khiển xe không gắn đủ biển số hoặc gắn biển số không đúng vị trí, không đúng quy cách theo quy định; gắn biển số không rõ chữ, số hoặc sơn, dán lên chữ, số của biển số xe; gắn biển số bị bẻ cong, che lấp, làm thay đổi chữ, số, màu sắc (của chữ, số, nền biển số xe), hình dạng, kích thước của biển số xe; sử dụng chất liệu, vật liệu, thiết bị làm thay đổi khả năng nhận diện thông tin biển số xe của phương tiện, thiết bị kỹ thuật nghiệp vụ (kể cả rơ moóc và sơ mi rơ moóc).\".",
       "global_page": 2,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:585531db-a849-4577-9ba5-9382f7ec5add:69:0",
-      "article_id": "585531db-a849-4577-9ba5-9382f7ec5add",
+      "chunk_id": "168/2024/NĐ-CP:dd222685-88a3-4e0e-be5a-e0385ef0a808:69:0",
+      "article_id": "dd222685-88a3-4e0e-be5a-e0385ef0a808",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Các hành vi vi phạm quy định về biển số, chứng nhận đăng ký xe, chứng nhận đăng ký xe tạm thời quy định tại Điều 13 (điểm a khoản 4; điểm a khoản 6; điểm a, điểm b khoản 7; điểm a khoản 8), Điều 14 (điểm a, điểm b, điểm c khoản 2; điểm a khoản 3), Điều 16 (điểm a khoản 1; điểm a, điểm c, điểm d, điểm đ khoản 2) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm đ, điểm e, điểm h khoản 8; điểm đ khoản 9; điểm a, điểm b khoản 12; điểm d khoản 13), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường của xe quy định tại Điều 13 (điểm a khoản 5; điểm a, điểm b khoản 6), Điều 16 (điểm đ khoản 1; điểm b, điểm đ khoản 2) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm b, điểm đ khoản 9; điểm a khoản 11), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về thời gian lái xe, thời gian nghỉ giữa hai lần lái xe liên tục của người lái xe, phù hiệu quy định tại Điều 20 (điểm d khoản 6, khoản 7), Điều 21 (điểm b khoản 5, điểm c khoản 6) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm d khoản 9, điểm đ khoản 11), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 32 của Nghị định này; Các hành vi vi phạm quy định về niên hạn sử dụng của phương tiện quy định tại Điều 13 (điểm a khoản 9) và các hành vi vi phạm tương ứng quy định tại Điều 32 (điểm c khoản 17), trong trường hợp chủ phương tiện là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm c khoản 17 Điều 32 của Nghị định này; đ) Các hành vi vi phạm quy định về niên hạn sử dụng của phương tiện quy định tại Điều 13 (điểm c khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 26 (điểm i khoản 7), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại điểm i khoản 7 Điều 26 của Nghị định này; Các hành vi vi phạm",
       "global_page": 69,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:c3da0178-93f7-4965-8384-e2eecfcf5943:51:0",
-      "article_id": "c3da0178-93f7-4965-8384-e2eecfcf5943",
+      "chunk_id": "168/2024/NĐ-CP:43296887-9e85-4e45-9d77-7a26e51ef874:51:0",
+      "article_id": "43296887-9e85-4e45-9d77-7a26e51ef874",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Lắp đặt, sử dụng thiết bị thay đổi biển số trên xe trái quy định (kể cả rơ moóc và sơ mi rơ moóc); Đưa phương tiện giao thông thông minh không có giấy phép hoạt động hoặc giấy phép hoạt động hết hạn sử dụng hoặc hoạt động không đúng nội dung ghi trong giấy phép tham gia giao thông. Phạt tiền từ 20.000.000 đồng đến 26.000.000 đồng đối với cá nhân, từ 40.000.000 đồng đến 52.000.000 đồng đối với tổ chức là chủ xe ô tô, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm sau đây: Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a, điểm b khoản 6 Điều 21 của Nghị định này; Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 22 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 2 Điều 22 của Nghị định này; Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 3 Điều 34 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại khoản 3 Điều 34 của Nghị định này; Đưa phương tiện gắn biển số không đúng với chứng nhận đăng ký xe hoặc gắn biển số không do cơ quan có thẩm quyền cấp (kể cả rơ moóc và sơ mi rơ moóc) tham gia giao thông; đ) Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 10 Điều 21 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 10 Điều 21 của Nghị định này. Phạt tiền từ 28.000.000 đồng đến 30.000.000 đồng đối với cá nhân, từ 56.000.000 đồng đến 60.000.000 đồng đối với tổ chức là chủ xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ, xe máy chuyên dùng và các loại xe tương tự xe ô tô thực hiện một trong các hành vi vi phạm sau đây: Giao phương tiện hoặc để cho người làm công, người đại diện điều khiển phương tiện thực hiện hành vi vi phạm quy định tại điểm a khoản 3 Điều 22 của Nghị định này hoặc trực tiếp điều khiển phương tiện thực hiện hành vi vi phạm quy định tại",
       "global_page": 51,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:78:1",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:78:1",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "(điểm d khoản 6), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện hoặc là nhân viên phục vụ trên xe thì bị xử phạt theo quy định tại điểm d khoản 6 Điều 28 của Nghị định này;'; Sửa đổi, bổ sung điểm l khoản 3 Điều 80 như sau: 'l) Các hành vi vi phạm quy định về kinh doanh vận tải hành khách theo hợp đồng quy định tại Điều 23 (điểm n khoản 5) và các hành vi vi phạm tương ứng quy định tại Điều 28 (điểm p khoản 4), trong trường hợp cá nhân kinh doanh vận tải là người trực tiếp điều khiển phương tiện thì bị xử phạt theo quy định tại các điểm, khoản tương ứng của Điều 28 Nghị định này;'; Sửa đổi, bổ sung đoạn đầu khoản 5 Điều 80 như sau:",
       "global_page": 78,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "238/2026/NĐ-CP:e1e12c92-5e1d-41c2-8909-bc9c225c7341:9:0",
-      "article_id": "e1e12c92-5e1d-41c2-8909-bc9c225c7341",
+      "chunk_id": "238/2026/NĐ-CP:1ed1be7a-80d0-4dee-a6c9-970269bd98e3:9:0",
+      "article_id": "1ed1be7a-80d0-4dee-a6c9-970269bd98e3",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Bổ sung khoản 3, khoản 4 vào sau khoản 2 Điều 53 \"3. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh người lái xe đối với xe ô tô kinh doanh vận tải hành khách dưới 08 chỗ (không kể chỗ của người lái xe), xe ô tô kinh doanh vận tải hàng hóa (trừ xe ô tô đầu kéo), xe vận tải nội bộ tại điểm l khoản 5 Điều 20, điểm b khoản 3 Điều 21, điểm b khoản 9a Điều 32 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2028. Quy định xử phạt vi phạm hành chính liên quan đến thiết bị ghi nhận hình ảnh khoang chở khách tại điểm n khoản 5 Điều 20; điểm k, điểm l khoản 7 Điều 26 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2029 và theo quy định của pháp luật về thiết bị ghi nhận hình ảnh khoang chở khách trên phương tiện giao thông đường bộ.\".",
       "global_page": 9,

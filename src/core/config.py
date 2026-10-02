@@ -5,10 +5,10 @@ from pydantic import BaseModel, Field
 
 
 class DatabaseConfig(BaseModel):
-    duckdb_path: str = "data/silver_parquet/lakehouse.duckdb"
-    bronze_dir: str = "data/bronze_pdf"
-    silver_dir: str = "data/silver_parquet"
-    gold_dir: str = "data/gold_vectors"
+    duckdb_path: str = "data/silver/lakehouse.duckdb"
+    bronze_dir: str = "data/bronze"
+    silver_dir: str = "data/silver"
+    gold_dir: str = "data/gold"
     quarantine_dir: str = "data/quarantine"
 
 
@@ -18,8 +18,8 @@ class ContractConfig(BaseModel):
 
 class ModelConfig(BaseModel):
     embedding_model: str = "BAAI/bge-m3"
-    llm_provider: str = "gemini"
-    llm_model: str = "gemini-1.5-flash"
+    llm_provider: str = "groq"
+    llm_model: str = "openai/gpt-oss-120b"
 
 
 class SystemConfig(BaseModel):

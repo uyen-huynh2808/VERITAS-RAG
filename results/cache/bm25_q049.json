@@ -1,12 +1,12 @@
 {
   "version": 2,
   "question": "Tại thời điểm ngày 01/09/2026, quy định về việc không thực hiện trừ điểm giấy phép lái xe đối với GPLX đang trong thời hạn bị tước quyền sử dụng có điểm gì khác biệt (bổ sung loại giấy phép/trường hợp nào) so với quy định ban đầu tại Điều 50 Nghị định 168/2024/NĐ-CP?",
-  "answer": "Theo quy định được sửa đổi, bổ sung tại Điều 50 của Nghị định 168/2024/NĐ‑CP (điều được nêu trong **Context 1**), điểm **đ)** đã được thay đổi thành:\n\n> “**Không trừ điểm giấy phép lái xe khi giấy phép lái xe đó đang trong thời hạn bị tước quyền sử dụng giấy phép lái xe, **giấy phép lái xe quốc tế**.”  \n\nTrong khi ở quy định ban đầu (được ghi trong **Context 5**) chỉ có nội dung:\n\n> “**đ) Không trừ điểm giấy phép lái xe khi giấy phép lái xe đó đang trong thời hạn bị tước quyền sử dụng giấy phép lái xe.**”\n\n**Sự khác",
-  "latency_ms": 23339.94810000877,
+  "answer": "Theo quy định được sửa đổi, bổ sung trong Nghị định 238/2026/NĐ‑CP (điều 50), tại thời điểm 01/09/2026 **điểm đ** đã được mở rộng như sau:\n\n- **Trước đây** (theo nội dung gốc của Điều 50 trong Nghị định 168/2024/NĐ",
+  "latency_ms": 24135.40249998914,
   "retrieved_chunks": [
     {
-      "chunk_id": "238/2026/NĐ-CP:949305ea-72e5-4014-a01f-e991667e3f8b:9:0",
-      "article_id": "949305ea-72e5-4014-a01f-e991667e3f8b",
+      "chunk_id": "238/2026/NĐ-CP:e7552065-f9fe-409a-b75a-ca4e574a5506:9:0",
+      "article_id": "e7552065-f9fe-409a-b75a-ca4e574a5506",
       "logical_doc_id": "238/2026/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điểm, khoản của Điều 50 Sửa đổi, bổ sung điểm đ khoản 1 như sau: \"đ) Không trừ điểm giấy phép lái xe khi giấy phép lái xe đó đang trong thời hạn bị tước quyền sử dụng giấy phép lái xe, giấy phép lái xe quốc tế.\". Sửa đổi, bổ sung đoạn thứ hai điểm a khoản 3 như sau: \"Trường hợp Chủ tịch Ủy ban nhân dân cấp xã, Chủ tịch Ủy ban nhân dân cấp tỉnh ra quyết định xử phạt vi phạm hành chính đối với hành vi vi phạm có trừ điểm giấy phép lái xe thì Trưởng phòng Cảnh sát giao thông Công an cấp tỉnh có trách nhiệm cập nhật dữ liệu trừ điểm giấy phép lái xe vào Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ;\".",
       "global_page": 9,
@@ -15,8 +15,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:d4d6b00e-4068-496c-b30c-940ed126dc38:77:0",
-      "article_id": "d4d6b00e-4068-496c-b30c-940ed126dc38",
+      "chunk_id": "168/2024/NĐ-CP:4f75bd63-b1ee-462c-b359-b9f1afe3da98:77:0",
+      "article_id": "4f75bd63-b1ee-462c-b359-b9f1afe3da98",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Sửa đổi, bổ sung một số điều của Nghị định số 100/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ và đường sắt đã được sửa đổi, bổ sung một số điều theo Nghị định số 123/2021/NĐ-CP ngày 28 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực hàng hải; giao thông đường bộ, đường sắt; hàng không dân dụng Bổ sung khoản 2a vào sau khoản 2 Điều 1 như sau: '2a. Hình thức, mức xử phạt, biện pháp khắc phục hậu quả đối với từng hành vi vi phạm hành chính; thẩm quyền lập biên bản, thẩm quyền xử phạt, mức phạt tiền cụ thể đối với từng chức danh về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ thì áp dụng quy định tại Nghị định quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe'. Sửa đổi, bổ sung một số điểm của khoản 6 Điều 28 như sau: Sửa đổi, bổ sung điểm d khoản 6 Điều 28 như sau: 'd) Không thực hiện đúng các nội dung đã đăng ký, niêm yết về: giá cước; giá dịch vụ; tiêu chuẩn chất lượng dịch vụ vận tải, dịch vụ hỗ trợ vận tải;'; Sửa đổi, bổ sung điểm i khoản 6 Điều 28 như sau: 'i) Sử dụng phương tiện kinh doanh vận tải có chất lượng không bảo đảm điều kiện của hình thức kinh doanh đã đăng ký;'. Sửa đổi, bổ sung điểm a, điểm b khoản 10 Điều 28 như sau: 'a) Thực hiện hành vi vi phạm quy định tại điểm a, điểm b, điểm d, điểm đ, điểm h, điểm l, điểm o, điểm p, điểm r, điểm s, điểm t khoản 4; điểm d, điểm i, điểm k, điểm l, điểm n, điểm q khoản 6; điểm e khoản 7",
       "global_page": 77,
@@ -25,8 +25,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:6e7da719-f774-4e53-8ebd-abf296970623:5:0",
-      "article_id": "6e7da719-f774-4e53-8ebd-abf296970623",
+      "chunk_id": "168/2024/NĐ-CP:b4b1f3f0-b366-463a-978d-04d88b1c30ab:5:0",
+      "article_id": "b4b1f3f0-b366-463a-978d-04d88b1c30ab",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Phù hiệu cấp cho xe ô tô tham gia kinh doanh vận tải; Giấy chứng nhận, tem kiểm định an toàn kỹ thuật và bảo vệ môi trường; Giấy phép đào tạo lái xe; Giấy phép sát hạch; đ) Giấy chứng nhận đủ điều kiện hoạt động kiểm định xe cơ giới; Chứng chỉ đăng kiểm viên; Giấy phép lái xe quốc gia; giấy phép lái xe quốc tế do các nước tham gia Công ước của Liên hợp quốc về Giao thông đường bộ năm 1968 cấp (trừ giấy phép lái xe quốc tế do Việt Nam cấp); giấy phép lái xe quốc tế mà Việt Nam ký kết điều ước quốc tế về việc công nhận lẫn nhau giấy phép lái xe quốc tế. Trình tự, thủ tục tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính. Trường hợp một cá nhân thực hiện nhiều hành vi vi phạm hành chính mà bị xử phạt trong cùng một lần thì bị phạt tiền đối với từng hành vi vi phạm, nếu có hành vi vi phạm bị tước quyền sử dụng giấy phép lái xe và hành vi vi phạm bị trừ điểm giấy phép lái xe thì chỉ áp dụng hình thức tước quyền sử dụng giấy phép lái xe. Thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép, chứng chỉ hành nghề như sau: Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt đã tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì thời điểm bắt đầu tính thời hạn tước quyền sử dụng giấy phép, chứng chỉ hành nghề là thời điểm quyết định xử phạt vi phạm hành chính có hiệu lực thi hành; Trường hợp tại thời điểm ra quyết định xử phạt vi phạm hành chính mà người có thẩm quyền xử phạt chưa tạm giữ được giấy phép, chứng chỉ hành nghề của cá nhân, tổ chức vi phạm thì người có thẩm quyền xử phạt vẫn ra quyết định xử phạt vi phạm hành chính theo quy định đối với hành vi vi phạm. Trong nội dung quyết định xử phạt phải ghi rõ thời điểm bắt đầu tính hiệu lực thi hành của hình thức xử phạt bổ sung tước quyền sử dụng giấy phép, chứng chỉ hành nghề là kể từ thời điểm mà người vi phạm xuất trình giấy phép, chứng chỉ hành nghề cho người có thẩm quyền xử phạt tạm giữ; Khi giữ và trả lại giấy phép, chứng chỉ hành nghề bị tước quyền sử dụng theo quy định tại điểm b khoản này, người có thẩm quyền xử phạt phải lập biên bản và lưu hồ sơ xử phạt vi phạm hành chính. Trong thời gian bị",
       "global_page": 5,
@@ -35,8 +35,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:597a9aa5-a03a-4b87-a82e-9569a4187c00:76:0",
-      "article_id": "597a9aa5-a03a-4b87-a82e-9569a4187c00",
+      "chunk_id": "168/2024/NĐ-CP:5cfde1b6-3136-469d-adc0-206e2c27edeb:76:0",
+      "article_id": "5cfde1b6-3136-469d-adc0-206e2c27edeb",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Thẩm quyền, trình tự, thủ tục phục hồi điểm giấy phép lái xe Thẩm quyền phục hồi điểm giấy phép lái xe Cục trưởng Cục Cảnh sát giao thông có trách nhiệm quản lý, vận hành Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ để thực hiện cập nhật, tự động phục hồi điểm giấy phép lái xe đối với trường hợp quy định tại khoản 2 Điều này; Cục trưởng Cục Cảnh sát giao thông, Trưởng phòng Cảnh sát giao thông nơi tổ chức kiểm tra kiến thức pháp luật về trật tự, an toàn giao thông đường bộ có thẩm quyền phục hồi điểm cho giấy phép lái xe đối với trường hợp quy định tại khoản 3 Điều này. Trình tự, thủ tục phục hồi điểm giấy phép lái xe đối với trường hợp giấy phép lái xe chưa bị trừ hết điểm và không bị trừ điểm trong thời hạn 12 tháng từ ngày bị trừ điểm gần nhất Khi đủ thời hạn 12 tháng, kể từ ngày bị trừ điểm giấy phép lái xe gần nhất, dữ liệu điểm giấy phép lái xe sẽ được tự động phục hồi đủ 12 điểm (gồm cả giấy phép lái xe đang trong thời hạn bị tước quyền sử dụng) và cập nhật tự động trong Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ; Ngay sau khi dữ liệu điểm giấy phép lái xe được phục hồi, Cơ sở dữ liệu về xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ sẽ tự động chuyển thông tin thông báo cho người được phục hồi điểm giấy phép lái xe biết việc phục hồi điểm theo quy định tại điểm c khoản này; Việc thông báo phục hồi điểm giấy phép lái xe thực hiện bằng phương thức điện tử thông qua tài khoản của công dân đăng ký trên Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động; đồng thời cập nhật thông tin về giấy phép lái xe được phục hồi điểm trên Trang thông tin điện tử của Cục Cảnh sát giao thông. Trường hợp giấy phép lái xe được thể hiện dưới hình thức thông điệp dữ liệu thì thực hiện cập nhật trạng thái phục hồi điểm giấy phép lái xe trong căn cước điện tử, tài khoản định danh điện tử trên ứng dụng định danh quốc gia.",
       "global_page": 76,
@@ -45,8 +45,8 @@
       "effective_to": null
     },
     {
-      "chunk_id": "168/2024/NĐ-CP:4ff28d8e-cb19-4d00-aca4-89ce8f4dd715:75:0",
-      "article_id": "4ff28d8e-cb19-4d00-aca4-89ce8f4dd715",
+      "chunk_id": "168/2024/NĐ-CP:e08963b6-444e-4b11-bf99-d0c87233a0a3:75:0",
+      "article_id": "e08963b6-444e-4b11-bf99-d0c87233a0a3",
       "logical_doc_id": "168/2024/NĐ-CP",
       "text": "Nguyên tắc, thẩm quyền, trình tự, thủ tục trừ điểm giấy phép lái xe Nguyên tắc trừ điểm giấy phép lái xe Việc trừ điểm giấy phép lái xe được thực hiện ngay sau khi quyết định xử phạt vi phạm hành chính đối với hành vi vi phạm mà theo quy định của Nghị định này bị trừ điểm giấy phép lái xe có hiệu lực thi hành; Trường hợp cá nhân thực hiện nhiều hành vi vi phạm hành chính hoặc vi phạm hành chính nhiều lần mà bị xử phạt trong cùng một lần, nếu có từ 02 hành vi vi phạm trở lên theo quy định bị trừ điểm giấy phép lái xe thì chỉ áp dụng trừ điểm đối với hành vi vi phạm bị trừ nhiều điểm nhất; Trường hợp số điểm còn lại của giấy phép lái xe ít hơn số điểm bị trừ thì áp dụng trừ hết số điểm còn lại của giấy phép lái xe đó; Trường hợp giấy phép lái xe tích hợp giấy phép lái xe không thời hạn (xe mô tô, xe tương tự xe mô tô) và giấy phép lái xe có thời hạn (xe ô tô, xe tương tự xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ) thì người có thẩm quyền xử phạt thực hiện trừ điểm đối với giấy phép lái xe không thời hạn khi người điều khiển xe mô tô, xe tương tự xe mô tô hoặc trừ điểm giấy phép lái xe có thời hạn khi người điều khiển xe ô tô, xe tương tự xe ô tô, xe chở người bốn bánh có gắn động cơ, xe chở hàng bốn bánh có gắn động cơ thực hiện hành vi vi phạm hành chính có quy định bị trừ điểm giấy phép lái xe; đ) Không trừ điểm giấy phép lái xe khi giấy phép lái xe đó đang trong thời hạn bị tước quyền sử dụng giấy phép lái xe. Thẩm quyền trừ điểm giấy phép lái xe Người có thẩm quyền áp dụng hình thức xử phạt tước quyền sử dụng giấy phép, chứng chỉ hành nghề có thời hạn hoặc đình chỉ hoạt động có thời hạn quy định tại Chương II Phần thứ hai của Luật Xử lý vi phạm hành chính, Mục 1 Chương III của Nghị định này và có thẩm quyền xử phạt vi phạm hành chính đối với",
       "global_page": 75,

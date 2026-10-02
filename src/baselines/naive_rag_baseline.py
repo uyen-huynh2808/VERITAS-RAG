@@ -118,10 +118,11 @@ class NaiveDenseRetriever:
     # Retrieval
     # --------------------------------------------------------
 
-    def retrieve(
+    def retrieve( 
         self,
-        query: str,
-        top_k: int = 5,
+        query: str, 
+        t_event: Optional[str] = None, 
+        top_k: int = 5, 
     ) -> List[RetrievedChunk]:
 
         query_embedding = self._encode([query])

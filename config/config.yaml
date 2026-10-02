@@ -18,5 +18,5 @@ contracts:
 
 models:
   embedding_model: "BAAI/bge-m3"
-  llm_provider: "gemini"
-  llm_model: "gemini-1.5-flash"
+  llm_provider: "groq"
+  llm_model: "openai/gpt-oss-120b"
