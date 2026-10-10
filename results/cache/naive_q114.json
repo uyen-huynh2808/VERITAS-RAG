@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một văn bản quy phạm pháp luật khác quy định cùng vấn đề với Luật Công nghiệp công nghệ số nhưng cho cơ chế ưu đãi thuận lợi hơn; tại 01/01/2026, quy tắc ưu tiên của Điều 50 dẫn đến lựa chọn quy định nào?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 23139.64860001579,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:4:2:0",
+      "article_id": "71/2025/QH15:article:4",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Chính sách phát triển công nghiệp công nghệ số Huy động nguồn lực đầu tư cho nghiên cứu, phát triển, thiết kế, chuyển giao công nghệ; từng bước làm chủ công nghệ số; xây dựng hạ tầng công nghiệp công nghệ số dùng chung quy mô vùng, quốc gia nhằm thúc đẩy hoạt động công nghiệp công nghệ số. Đào tạo, phát triển nguồn nhân lực công nghiệp công nghệ số; phát triển cơ sở giáo dục chuyên ngành công nghệ số; có cơ chế ưu đãi đặc biệt nhằm thu hút, trọng dụng nhân lực công nghiệp công nghệ số chất lượng cao, nhân tài công nghệ số. Có cơ chế thử nghiệm có kiểm soát đối với sản phẩm, dịch vụ ứng dụng công nghệ số trong các ngành, lĩnh vực, trong đó có cơ chế loại trừ trách nhiệm đối với cơ quan, tổ chức, doanh nghiệp, cá nhân trong thử nghiệm. Có cơ chế ưu đãi về đất đai, tín dụng, thuế và các cơ chế ưu đãi khác trong nghiên cứu, thử nghiệm, phát triển, sản xuất, ứng dụng sản phẩm, dịch vụ công nghệ số. Phát triển thị trường cho công nghiệp công nghệ số; có cơ chế đặt hàng, ưu tiên đầu tư, thuê, mua sắm sản phẩm, dịch vụ công nghệ số sử dụng nguồn vốn ngân sách nhà nước. Phát triển dữ liệu số trong hoạt động công nghiệp công nghệ số trở thành tài nguyên, tư liệu sản xuất quan trọng và là nền tảng phục vụ nghiên cứu, thúc đẩy phát triển công nghiệp công nghệ số. Đẩy mạnh phát triển, ứng dụng trí tuệ nhân tạo trong các ngành, lĩnh vực và các mặt của đời sống kinh tế - xã hội; đưa trí tuệ nhân tạo trở thành phương thức sản xuất mới; thúc đẩy mạnh mẽ năng lực nội sinh quốc gia, tạo ra những mô hình kinh tế mới với năng suất và giá trị vượt trội. Nhà nước có chính sách ưu đãi cao nhất để thúc đẩy nghiên cứu, phát triển, triển khai, sử dụng trí tuệ nhân tạo. Có chính sách ưu đãi vượt trội để phát triển công nghiệp bán dẫn, hình thành hệ sinh thái bán dẫn Việt Nam. Phát triển công nghiệp công nghệ số bền vững, sử dụng năng lượng tiết kiệm và hiệu quả, giảm thiểu tác động xấu đến môi trường.",
+      "global_page": 2,
+      "score": 0.6023915410041809,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:4",
+      "provision_path": "4",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:16:6:0",
+      "article_id": "71/2025/QH15:article:16",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Thúc đẩy nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số Hoạt động nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số được hưởng ưu đãi cao nhất theo quy định pháp luật về khoa học, công nghệ và đổi mới sáng tạo; chuyển đổi số. Nhà nước bố trí kinh phí để thực hiện, hỗ trợ nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số từ nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại Điều 11 của Luật này. Tổ chức, cá nhân thực hiện hoạt động nghiên cứu và phát triển công nghệ số được ưu tiên, tạo điều kiện sử dụng trang thiết bị tại phòng thí nghiệm trọng điểm quốc gia, cơ sở ươm tạo công nghệ, cơ sở ươm tạo công nghệ cao, ươm tạo doanh nghiệp công nghệ cao, cơ sở ươm tạo doanh nghiệp khoa học và công nghệ, cơ sở nghiên cứu khoa học và công nghệ của nhà nước. Các khoản chi của doanh nghiệp cho nghiên cứu và phát triển công nghệ số được tăng mức chi bổ sung khi xác định thu nhập chịu thuế thu nhập doanh nghiệp theo quy định pháp luật về thuế thu nhập doanh nghiệp.",
+      "global_page": 6,
+      "score": 0.591675877571106,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:16",
+      "provision_path": "16",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:33:14:0",
+      "article_id": "71/2025/QH15:article:33",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Phát triển sản phẩm, dịch vụ công nghệ số thân thiện môi trường Sản phẩm, dịch vụ công nghệ số thân thiện môi trường được ưu tiên thực hiện mua sắm xanh đối với dự án đầu tư, nhiệm vụ có sử dụng ngân sách nhà nước theo quy định của pháp luật về bảo vệ môi trường và pháp luật khác có liên quan. Nhà nước có cơ chế hỗ trợ tổ chức, doanh nghiệp nghiên cứu, cải tiến, chuyển đổi hoạt động công nghiệp công nghệ số để tạo ra sản phẩm, dịch vụ công nghệ số là sản phẩm, dịch vụ thân thiện môi trường theo quy định pháp luật về bảo vệ môi trường từ nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại Điều 11 của Luật này. Mục 9. THÔNG TIN VỀ CÔNG NGHIỆP CÔNG NGHỆ SỐ",
+      "global_page": 14,
+      "score": 0.5907429456710815,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:33",
+      "provision_path": "33",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:20:8:0",
+      "article_id": "71/2025/QH15:article:20",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Thu hút, trọng dụng nhân tài công nghệ số Nhân tài công nghệ số là nhân lực công nghiệp công nghệ số chất lượng cao đáp ứng tiêu chí nhân tài trong lĩnh vực khoa học, công nghệ và đổi mới sáng tạo theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo. Chính sách hỗ trợ, ưu đãi đối với nhân tài công nghệ số: Được hưởng các ưu đãi đối với nhân lực công nghiệp công nghệ số chất lượng cao quy định tại khoản 2 và khoản 3 Điều 19 của Luật này; Được hưởng cơ chế đặc biệt về lương, thưởng cạnh tranh với mức lương, thưởng trên thế giới; được ưu tiên tuyển dụng, sử dụng, bổ nhiệm theo quy định pháp luật về cán bộ, công chức; viên chức; Được hỗ trợ về môi trường làm việc, không gian sống, nhà ở, phương tiện đi lại; Được hỗ trợ tham gia hoạt động hợp tác quốc tế về công nghiệp công nghệ số; đ) Được hỗ trợ tài chính và cơ sở vật chất cho nghiên cứu và phát triển trong lĩnh vực công nghệ số; Được tôn vinh, khen thưởng theo quy định của pháp luật về thi đua, khen thưởng.",
+      "global_page": 8,
+      "score": 0.5907405018806458,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:20",
+      "provision_path": "20",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:31:13:0",
+      "article_id": "71/2025/QH15:article:31",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Ưu đãi thuê, mua sắm sản phẩm, dịch vụ công nghệ số sử dụng vốn ngân sách nhà nước Các sản phẩm, dịch vụ công nghệ số đáp ứng quy định của Bộ trưởng Bộ Khoa học và Công nghệ thì được hưởng ưu đãi về lựa chọn nhà thầu theo quy định của pháp luật về đấu thầu. Đối với gói thầu thuê, mua sắm sản phẩm, dịch vụ công nghệ số sử dụng ngân sách nhà nước để thực hiện các nhiệm vụ trọng điểm về chuyển đổi số quốc gia hoặc theo yêu cầu tại nghị quyết của Quốc hội, Ủy ban Thường vụ Quốc hội, Chính phủ, quyết định của Thủ tướng Chính phủ được thực hiện theo hình thức chỉ định thầu hoặc lựa chọn nhà thầu trong trường hợp đặc biệt theo quy định của pháp luật về đấu thầu. Nhà nước đặt hàng cho tổ chức, doanh nghiệp, cá nhân nghiên cứu, sản xuất và cung cấp sản phẩm, dịch vụ công nghệ số trọng điểm; sản phẩm, dịch vụ công nghệ số thuộc các dự án quan trọng quốc gia, dự án có",
+      "global_page": 13,
+      "score": 0.5894842147827148,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:31",
+      "provision_path": "31",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

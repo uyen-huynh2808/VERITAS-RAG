@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một doanh nghiệp ký thỏa ước tập thể vào ngày 01/01/2021 nhưng không ghi ngày hiệu lực; theo quy định về hiệu lực thỏa ước, ngày nào là mốc bắt đầu áp dụng?",
+  "answer": "Theo quy định (xem Context 2), nếu các bên không thỏa thuận ngày có hiệu lực, thỏa ước lao động tập thể sẽ có hiệu lực kể từ ngày ký kết. Vì doanh nghiệp ký thỏa ước vào ngày 01/01/2021 và không ghi ngày hiệu lực, nên mốc bắt đầu áp dụng là **ngày 01/01/2021**.",
+  "latency_ms": 10377.855599974282,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:27:0",
+      "article_id": "45/2019/QH14:article:78",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "doanh nghiệp có hiệu lực áp dụng đối với toàn bộ người sử dụng lao động và người lao động của các doanh nghiệp tham gia thỏa ước lao động tập thể. Thỏa ước lao động tập thể có thời hạn từ 01 năm đến 03 năm. Thời hạn cụ thể do các bên thỏa thuận và ghi trong thỏa ước lao động tập thể. Các bên có quyền thỏa thuận thời hạn khác nhau đối với các nội dung của thỏa ước lao động tập thể.",
+      "global_page": 27,
+      "score": 0.6727774143218994,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:78",
+      "provision_path": "78",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",
+      "article_id": "45/2019/QH14:article:78",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hiệu lực và thời hạn của thỏa ước lao động tập thể Ngày có hiệu lực của thỏa ước lao động tập thể do các bên thỏa thuận và được ghi trong thỏa ước. Trường hợp các bên không thỏa thuận ngày có hiệu lực thì thỏa ước lao động tập thể có hiệu lực kể từ ngày ký kết. Thỏa ước lao động tập thể sau khi có hiệu lực phải được các bên tôn trọng thực hiện. Thỏa ước lao động tập thể doanh nghiệp có hiệu lực áp dụng đối với người sử dụng lao động và toàn bộ người lao động của doanh nghiệp. Thỏa ước lao động tập thể ngành và thỏa ước lao động tập thể có nhiều",
+      "global_page": 26,
+      "score": 0.6631665229797363,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:78",
+      "provision_path": "78",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:79:27:0",
+      "article_id": "45/2019/QH14:article:79",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Thực hiện thỏa ước lao động tập thể tại doanh nghiệp Người sử dụng lao động, người lao động, bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực. Trường hợp quyền, nghĩa vụ và lợi ích của các bên trong hợp đồng lao động đã giao kết trước ngày thỏa ước lao động tập thể có hiệu lực thấp hơn quy định tương ứng của thỏa ước lao động tập thể thì phải thực hiện theo thỏa ước lao động tập thể. Quy định của người sử dụng lao động chưa phù hợp với thỏa ước lao động tập thể thì phải được sửa đổi cho phù hợp; trong thời gian chưa sửa đổi thì thực hiện theo nội dung tương ứng của thỏa ước lao động tập thể. Khi một bên cho rằng bên kia thực hiện không đầy đủ hoặc vi phạm thỏa ước lao động tập thể thì có quyền yêu cầu thi hành đúng thỏa ước lao động tập thể và các bên có trách nhiệm cùng xem xét giải quyết; nếu không giải quyết được, mỗi bên đều có quyền yêu cầu giải quyết tranh chấp lao động tập thể theo quy định của pháp luật.",
+      "global_page": 27,
+      "score": 0.6391233205795288,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:79",
+      "provision_path": "79",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",
+      "article_id": "45/2019/QH14:article:220",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hiệu lực thi hành Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021. Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp pháp đã giao kết có nội dung không trái hoặc bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định của Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về việc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực lượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã, người làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định nhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ luật này. Bộ luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 8 thông qua ngày 20 tháng 11 năm 2019./. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân",
+      "global_page": 68,
+      "score": 0.6372308135032654,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:220",
+      "provision_path": "220",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:article:30:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "Hiệu lực thi hành",
+      "global_page": 12,
+      "score": 0.6037027835845947,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:article:30",
+      "provision_path": "30",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

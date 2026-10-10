@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Luật Dân số 113/2025/QH15 sửa khoản 1 Điều 139 của Bộ luật Lao động về thời gian nghỉ thai sản khi sinh con theo những mức nào?",
+  "answer": "Theo Luật Dân số 113/2025/QH15, khoản 1 Điều 139 của Bộ luật Lao động được sửa đổi như sau:\n\n- **Lao động nữ nghỉ thai sản trước và sau khi sinh con**: tổng thời gian **06 tháng** (đối với lần sinh thứ nhất).  \n- **Trường hợp sinh con thứ hai**: tổng thời gian **07 tháng**.  \n- **Thời gian nghỉ trước khi sinh** không được vượt quá **02 tháng**.  \n- **Trường hợp sinh đôi trở lên** (từ con thứ hai trở đi): mỗi đứa con thêm **01 tháng** nghỉ thai sản cho người mẹ.  \n\nNhư vậy, mức nghỉ thai sản được quy định theo các trường hợp: 6 tháng cho lần sinh đầu, 7 tháng cho lần sinh thứ hai, tối đa 2 tháng trước",
+  "latency_ms": 6907.141299918294,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.1:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung khoản 1 Điều 139 của Bộ luật Lao động số 49/2019/QH14 đã được sửa đổi, bổ sung theo Luật số 71/2025/QH15 như sau: “1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; trường hợp sinh con thứ hai, lao động nữ được nghỉ thai sản trước và sau khi sinh con là 07 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ hai trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.”.",
+      "global_page": 11,
+      "score": 60.04030368723662,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.1",
+      "provision_path": "29.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:27:0",
+      "article_id": "41/2024/QH15:article:53",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Thời gian nghỉ việc hưởng chế độ thai sản khi sinh con Thời gian nghỉ việc hưởng chế độ thai sản của lao động nữ khi sinh con được thực hiện theo quy định tại khoản 1 Điều 139 của Bộ luật Lao động. Trường hợp lao động nữ trở lại làm việc trước khi hết thời gian nghỉ việc hưởng chế độ thai sản khi sinh con theo quy định tại khoản 4 Điều 139 của Bộ luật Lao động thì được hưởng tiền lương của những ngày làm việc do người sử dụng lao động trả và tiếp tục được hưởng trợ cấp thai sản theo mức quy định tại Điều 59 của Luật này; người sử dụng lao động và người lao động có trách nhiệm đóng bảo hiểm xã hội bắt buộc cho thời gian người lao động trở lại làm việc. Lao động nam đang tham gia bảo hiểm xã hội bắt buộc khi vợ sinh con được nghỉ việc hưởng chế độ thai sản với thời gian như sau: 05 ngày làm việc; 07 ngày làm việc khi vợ sinh con phải phẫu thuật hoặc sinh con dưới 32 tuần tuổi; Trường hợp vợ sinh đôi thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi; Trường hợp vợ sinh đôi phải phẫu thuật thì được nghỉ 14 ngày làm việc. Trường hợp sinh ba trở lên phải phẫu thuật thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi. Ngày bắt đầu nghỉ việc hưởng chế độ thai sản quy định tại khoản 2 Điều này phải trong khoảng thời gian 60 ngày kể từ ngày vợ sinh con, trường hợp người lao động nghỉ nhiều lần thì ngày bắt đầu nghỉ việc của",
+      "global_page": 27,
+      "score": 46.92116477744126,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:53",
+      "provision_path": "53",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung một số điều của Bộ luật Lao động số 45/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2025/QH15 và Luật số 113/2025/QH15 như sau:",
+      "global_page": 18,
+      "score": 46.72695564501415,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1",
+      "provision_path": "43.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội số 41/2024/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 73/2025/QH15 và Luật số 84/2025/QH15 như sau: “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.",
+      "global_page": 11,
+      "score": 40.592287027705986,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.2",
+      "provision_path": "29.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:139:42:0",
+      "article_id": "45/2019/QH14:article:139",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Nghỉ thai sản Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động. Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử",
+      "global_page": 42,
+      "score": 40.45740630791302,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:139",
+      "provision_path": "139",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

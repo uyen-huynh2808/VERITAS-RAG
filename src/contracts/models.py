@@ -1,10 +1,11 @@
 from datetime import date
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Literal, Optional
 
 from pydantic import (
     BaseModel,
     Field,
     field_validator,
+    model_validator,
 )
 
 class DocumentMetadata(BaseModel):
@@ -45,6 +46,8 @@ class DocumentChunk(BaseModel):
 
     chunk_id: str
     article_id: str
+    provision_id: Optional[str] = None
+    provision_path: Optional[str] = None
 
     text: str
     doc_id: str
@@ -56,18 +59,36 @@ class DocumentChunk(BaseModel):
 
     @field_validator("page_number")
     @classmethod
-    def validate_page_number(
-        cls,
-        value: int,
-    ) -> int:
-
+    def validate_page_number(cls, value: int) -> int:
         if value < 1:
-            raise ValueError(
-                "page_number must be >= 1."
-            )
-
+            raise ValueError("page_number must be >= 1.")
         return value
 
+
+class ProvisionRecord(BaseModel):
+    """Validated node in the Silver legal-provision hierarchy."""
+
+    provision_id: str
+    logical_doc_id: str
+    article_id: str
+    parent_provision_id: Optional[str] = None
+    level: Literal["article", "clause", "point"]
+    number: str
+    path: str
+    effectivity_mode: Literal[
+        "inherit", "explicit_date", "external_trigger", "unknown"
+    ]
+    effective_from: Optional[date] = None
+    effective_to: Optional[date] = None
+    trigger_reference: Optional[str] = None
+
+    @model_validator(mode="after")
+    def validate_temporal_state(self):
+        if self.effectivity_mode == "explicit_date" and self.effective_from is None:
+            raise ValueError("explicit_date provisions require effective_from.")
+        if self.effectivity_mode == "external_trigger" and not self.trigger_reference:
+            raise ValueError("external_trigger provisions require trigger_reference.")
+        return self
 
 class DocumentRelation(BaseModel):
     """

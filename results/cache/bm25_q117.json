@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại 01/01/2021, nếu cần xác định hiệu lực của một thỏa thuận lao động đã ký trước đó nhưng có điều kiện thuận lợi hơn cho người lao động, cần truy xuất điều khoản thi hành của văn bản nào?",
+  "answer": "Cần tra cứu **Bộ luật Lao động 45/2019/QH14**, cụ thể là **điều 220** (điều quy định về hiệu lực thi hành). Điều này nêu rõ rằng Bộ luật có hiệu lực từ ngày 01 /01 /2021 và rằng các thỏa ước lao động đã ký trước đó, nếu có nội dung không trái hoặc có điều kiện thuận lợi hơn cho người lao động, vẫn được tiếp tục thực hiện. Vì vậy, để xác định",
+  "latency_ms": 18009.41729999613,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",
+      "article_id": "45/2019/QH14:article:220",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hiệu lực thi hành Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021. Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp pháp đã giao kết có nội dung không trái hoặc bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định của Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về việc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực lượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã, người làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định nhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ luật này. Bộ luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 8 thông qua ngày 20 tháng 11 năm 2019./. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân",
+      "global_page": 68,
+      "score": 56.071372385523404,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:220",
+      "provision_path": "220",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 50.6980039223527,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:20:7:0",
+      "article_id": "45/2019/QH14:article:20",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Loại hợp đồng lao động Hợp đồng lao động phải được giao kết theo một trong các loại sau đây: Hợp đồng lao động không xác định thời hạn là hợp đồng mà trong đó hai bên không xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng; Hợp đồng lao động xác định thời hạn là hợp đồng mà trong đó hai bên xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng. Khi hợp đồng lao động quy định tại điểm b khoản 1 Điều này hết hạn mà người lao động vẫn tiếp tục làm việc thì thực hiện như sau: Trong thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn, hai bên phải ký kết hợp đồng lao động mới; trong thời gian chưa ký kết hợp đồng lao động mới thì quyền, nghĩa vụ và lợi ích của hai bên được thực hiện theo hợp đồng đã giao kết; Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn; Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng lao động xác định thời hạn thì cũng chỉ được ký thêm 01 lần, sau đó nếu người lao động vẫn tiếp tục làm việc thì phải ký kết hợp đồng lao động không xác định thời hạn, trừ hợp đồng lao động đối với người được thuê làm giám đốc trong doanh nghiệp có vốn nhà nước và trường hợp quy định tại khoản 1 Điều 149, khoản 2 Điều 151 và khoản 4 Điều 177 của Bộ luật này.",
+      "global_page": 7,
+      "score": 42.14645407105492,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:20",
+      "provision_path": "20",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "14. Hồ sơ đề nghị giải quyết thủ tục hành chính đã được nộp hợp lệ trước ngày 01 tháng 01 năm 2026 và thuộc thẩm quyền của cơ quan được quy định tại Luật số 74/2014/QH13, thì cơ quan có thẩm quyền đó tiếp tục thụ lý, giải quyết theo quy định của pháp luật tại thời điểm nộp hồ sơ, kể cả trong trường hợp thẩm quyền giải quyết thủ tục hành chính đó đã điều chỉnh theo quy định của Luật này. Các cơ sở giáo dục nghề nghiệp đã có quyết định về việc thành lập, cho phép thành lập, chia, tách, sáp nhập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 phải đáp ứng quy định chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn 60 tháng kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.",
+      "global_page": 20,
+      "score": 40.03418487201806,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.14",
+      "provision_path": "45.14",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:35:12:0",
+      "article_id": "45/2019/QH14:article:35",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Quyền đơn phương chấm dứt hợp đồng lao động của người lao động Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải báo trước cho người sử dụng lao động như sau: Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn; Ít nhất 30 ngày nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng; Ít nhất 03 ngày làm việc nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng; Đối với một số ngành, nghề, công việc đặc thù thì thời hạn báo trước được thực hiện theo quy định của Chính phủ. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây: Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không được bảo đảm điều kiện làm việc theo thỏa thuận, trừ trường hợp quy định tại Điều 29 của Bộ luật này; Không được trả đủ lương hoặc trả lương không đúng thời hạn, trừ trường hợp quy định tại khoản 4 Điều 97 của Bộ luật này; Bị người sử dụng lao động ngược đãi, đánh đập hoặc có lời nói, hành vi nhục mạ, hành vi làm ảnh hưởng đến sức khỏe, nhân phẩm, danh dự; bị cưỡng bức lao động; Bị quấy rối tình dục tại nơi làm việc; đ) Lao động nữ mang thai phải nghỉ việc theo quy định tại khoản 1 Điều 138 của Bộ luật này; Đủ tuổi nghỉ hưu theo quy định tại Điều 169 của Bộ luật này, trừ trường hợp các bên có thỏa thuận khác; Người sử dụng lao động cung cấp thông tin không trung thực theo quy định tại khoản 1 Điều 16 của Bộ luật này làm ảnh hưởng đến việc thực hiện hợp đồng lao động.",
+      "global_page": 12,
+      "score": 39.946618850623594,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:35",
+      "provision_path": "35",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

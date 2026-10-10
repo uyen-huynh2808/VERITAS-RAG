@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật An toàn, vệ sinh lao động về đối tượng áp dụng chế độ tai nạn lao động, bệnh nghề nghiệp dựa trên nhóm đối tượng nào của Điều 2 Luật Bảo hiểm xã hội?",
+  "answer": "",
+  "latency_ms": 18216.530699981377,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",
+      "article_id": "41/2024/QH15:article:139",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Sửa đổi, bổ sung một số luật có liên quan đến bảo hiểm xã hội Sửa đổi, bổ sung một số điều của Luật An toàn, vệ sinh lao động số 84/2015/QH13 như sau: Sửa đổi, bổ sung khoản 7 Điều 42 như sau: '7. Chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 1 Điều 43 như sau: '1. Đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại Mục này là người lao động tham gia bảo hiểm xã hội bắt buộc theo quy định tại các điểm a, b, c, d, đ, e, i và l khoản 1 Điều 2 và người sử dụng lao động quy định tại khoản 3 Điều 2 của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung điểm b khoản 2 Điều 44 như sau: 'b) Tiền sinh lời của hoạt động đầu tư từ quỹ theo quy định tại Điều 120 và Điều 121 của Luật Bảo hiểm xã hội;'; Sửa đổi, bổ sung khoản 3 Điều 49 như sau: '3. Việc tạm dừng, hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng, trợ cấp phục vụ thực hiện theo quy định tại Điều 75 của Luật Bảo hiểm xã hội; hồ sơ, trình tự giải quyết hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng thực hiện theo quy định tại Điều 80 và Điều 81 của Luật Bảo hiểm xã hội.'; đ) Sửa đổi, bổ sung khoản 5 Điều 49 như sau: '5. Người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng khi ra nước ngoài để định cư được giải quyết hưởng trợ cấp một lần; mức trợ cấp một lần bằng 03 tháng mức trợ cấp đang hưởng. Hồ sơ, trình tự giải quyết trợ cấp một lần thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 3 Điều 53 như sau: '3. Người lao động bị chết trong thời gian điều trị thương tật, bệnh tật mà chưa được giám định mức suy giảm khả năng lao động. Hồ sơ hưởng chế độ tử tuất trong trường hợp người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định tại khoản 1 Điều 90 của Luật Bảo hiểm xã hội.'. Sửa đổi, bổ sung điểm e khoản 3 Điều 57 của Luật Việc làm số 38/2013/QH13 như sau:",
+      "global_page": 61,
+      "score": 0.7558025121688843,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:139",
+      "provision_path": "139",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:1:1:0",
+      "article_id": "41/2024/QH15:article:1",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Phạm vi điều chỉnh Luật này quy định về quyền, trách nhiệm của cơ quan, tổ chức, cá nhân đối với bảo hiểm xã hội và tổ chức thực hiện bảo hiểm xã hội; trợ cấp hưu trí xã hội; đăng ký tham gia và quản lý thu, đóng bảo hiểm xã hội; các chế độ, chính sách bảo hiểm xã hội bắt buộc, bảo hiểm xã hội tự nguyện; quỹ bảo hiểm xã hội; bảo hiểm hưu trí bổ sung; khiếu nại, tố cáo và xử lý vi phạm về bảo hiểm xã hội; quản lý nhà nước về bảo hiểm xã hội.",
+      "global_page": 1,
+      "score": 0.6275082230567932,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:1",
+      "provision_path": "1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:2:1:0",
+      "article_id": "45/2019/QH14:article:2",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Đối tượng áp dụng Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động. Người sử dụng lao động. Người lao động nước ngoài làm việc tại Việt Nam. Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.",
+      "global_page": 1,
+      "score": 0.61783766746521,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:3:0",
+      "article_id": "41/2024/QH15:article:2",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đối tượng quy định tại điểm b và điểm i khoản 1 Điều này đồng thời cũng thuộc đối tượng quy định tại điểm a hoặc điểm l khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng tương ứng quy định tại điểm b hoặc điểm i khoản 1 Điều này; Đối tượng quy định tại điểm i và điểm n khoản 1 Điều này làm việc tại nhiều doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã thì tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, hợp tác xã hoặc liên hiệp hợp tác xã đầu tiên tham gia quản lý, điều hành; Đối tượng quy định tại điểm g và điểm k khoản 1 Điều này đồng thời thuộc đối tượng quy định tại một trong các điểm a, i và l khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng tương ứng quy định tại điểm a, i hoặc l khoản 1 Điều này theo thứ tự đến trước; đ) Đối tượng quy định tại điểm k khoản 1 Điều này đồng thời thuộc đối tượng quy định tại điểm m hoặc điểm n khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng quy định tại điểm k khoản 1 Điều này; Đối tượng quy định tại điểm m và điểm n khoản 1 Điều này đồng thời thuộc nhiều đối tượng quy định tại khoản 1 Điều này thì việc tham gia bảo hiểm xã hội bắt buộc theo quy định của Chính phủ; Đối tượng quy định tại điểm e khoản 1 Điều này đồng thời thuộc đối tượng quy định tại điểm k hoặc điểm m khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng quy định tại điểm e khoản 1 Điều này. Ủy ban Thường vụ Quốc hội quyết định việc tham gia bảo hiểm xã hội bắt buộc đối với đối tượng khác ngoài đối tượng quy định tại khoản 1 Điều này mà có việc làm, thu nhập ổn định, thường xuyên trên cơ sở đề xuất của Chính phủ phù hợp với điều kiện phát triển kinh tế - xã hội từng thời kỳ. Trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc bao gồm: Người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng. Chính phủ quy định đối tượng hưởng trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc; Lao động là người giúp việc gia đình; Đối tượng quy định tại điểm m và điểm n khoản 1 Điều này đã đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động, trừ trường hợp thời gian đóng bảo hiểm xã hội còn thiếu tối đa 06 tháng quy định tại khoản 7 Điều 33 của Luật",
+      "global_page": 3,
+      "score": 0.6034907698631287,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:4:5:0",
+      "article_id": "41/2024/QH15:article:4",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "đ) Bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định của Luật An toàn, vệ sinh lao động. Bảo hiểm xã hội tự nguyện có các chế độ sau đây: Trợ cấp thai sản; Hưu trí; Tử tuất; Bảo hiểm tai nạn lao động theo quy định của Luật An toàn, vệ sinh lao động. Bảo hiểm thất nghiệp theo quy định của Luật Việc làm. Bảo hiểm hưu trí bổ sung.",
+      "global_page": 5,
+      "score": 0.6031399369239807,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:4",
+      "provision_path": "4",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

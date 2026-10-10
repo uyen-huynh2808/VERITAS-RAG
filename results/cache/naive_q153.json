@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/01/2021, nếu cần xác định cách áp dụng Bộ luật Lao động đối với cán bộ, công chức, viên chức và một số nhóm người có chế độ lao động do văn bản pháp luật khác quy định, cần truy xuất khoản nào của Điều 220?",
+  "answer": "",
+  "latency_ms": 15404.687199974433,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",
+      "article_id": "45/2019/QH14:article:220",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hiệu lực thi hành Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021. Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp pháp đã giao kết có nội dung không trái hoặc bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định của Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về việc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực lượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã, người làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định nhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ luật này. Bộ luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 8 thông qua ngày 20 tháng 11 năm 2019./. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân",
+      "global_page": 68,
+      "score": 0.6316275596618652,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:220",
+      "provision_path": "220",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:2:1:0",
+      "article_id": "45/2019/QH14:article:2",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Đối tượng áp dụng Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động. Người sử dụng lao động. Người lao động nước ngoài làm việc tại Việt Nam. Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.",
+      "global_page": 1,
+      "score": 0.602928638458252,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",
+      "article_id": "41/2024/QH15:article:139",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Sửa đổi, bổ sung một số luật có liên quan đến bảo hiểm xã hội Sửa đổi, bổ sung một số điều của Luật An toàn, vệ sinh lao động số 84/2015/QH13 như sau: Sửa đổi, bổ sung khoản 7 Điều 42 như sau: '7. Chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 1 Điều 43 như sau: '1. Đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại Mục này là người lao động tham gia bảo hiểm xã hội bắt buộc theo quy định tại các điểm a, b, c, d, đ, e, i và l khoản 1 Điều 2 và người sử dụng lao động quy định tại khoản 3 Điều 2 của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung điểm b khoản 2 Điều 44 như sau: 'b) Tiền sinh lời của hoạt động đầu tư từ quỹ theo quy định tại Điều 120 và Điều 121 của Luật Bảo hiểm xã hội;'; Sửa đổi, bổ sung khoản 3 Điều 49 như sau: '3. Việc tạm dừng, hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng, trợ cấp phục vụ thực hiện theo quy định tại Điều 75 của Luật Bảo hiểm xã hội; hồ sơ, trình tự giải quyết hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng thực hiện theo quy định tại Điều 80 và Điều 81 của Luật Bảo hiểm xã hội.'; đ) Sửa đổi, bổ sung khoản 5 Điều 49 như sau: '5. Người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng khi ra nước ngoài để định cư được giải quyết hưởng trợ cấp một lần; mức trợ cấp một lần bằng 03 tháng mức trợ cấp đang hưởng. Hồ sơ, trình tự giải quyết trợ cấp một lần thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 3 Điều 53 như sau: '3. Người lao động bị chết trong thời gian điều trị thương tật, bệnh tật mà chưa được giám định mức suy giảm khả năng lao động. Hồ sơ hưởng chế độ tử tuất trong trường hợp người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định tại khoản 1 Điều 90 của Luật Bảo hiểm xã hội.'. Sửa đổi, bổ sung điểm e khoản 3 Điều 57 của Luật Việc làm số 38/2013/QH13 như sau:",
+      "global_page": 61,
+      "score": 0.5904880166053772,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:139",
+      "provision_path": "139",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:66:1",
+      "article_id": "45/2019/QH14:article:219",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành hoặc có đủ 15 năm làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn bao gồm cả thời gian làm việc ở nơi có phụ cấp khu vực hệ số 0,7 trở lên trước ngày 01 tháng 01 năm 2021; Người bị nhiễm HIV do tai nạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao. Lao động nữ là cán bộ, công chức cấp xã hoặc là người hoạt động không chuyên trách ở xã, phường, thị trấn tham gia bảo hiểm xã hội khi nghỉ việc mà có từ đủ 15 năm đến dưới 20 năm đóng bảo hiểm xã hội và đủ tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động thì được hưởng lương hưu.",
+      "global_page": 66,
+      "score": 0.5803176760673523,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:219",
+      "provision_path": "219",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung một số điều của Bộ luật Lao động số 45/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2025/QH15 và Luật số 113/2025/QH15 như sau:",
+      "global_page": 18,
+      "score": 0.578572690486908,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1",
+      "provision_path": "43.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

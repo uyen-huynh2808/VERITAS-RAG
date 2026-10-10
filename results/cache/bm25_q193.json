@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 sửa khoản 3 Điều 61 của Bộ luật Lao động về việc thu học phí khi người sử dụng lao động tuyển người vào học nghề, tập nghề như thế nào?",
+  "answer": "Luật Giáo dục nghề nghiệp 124/2025/QH15 đã sửa khoản 3 Điều 61 của Bộ luật Lao động, quy định:\n\n**“Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không được thu học phí.”**  \n\n(Nguồn: Điều 43, khoản 43.1.b, tài liệu 124/2025/QH15).",
+  "latency_ms": 9700.476599973626,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.b:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "b) Sửa đổi, bổ sung khoản 3 Điều 61 như sau: “3. Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không được thu học phí.”.",
+      "global_page": 18,
+      "score": 69.4658781415,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1.b",
+      "provision_path": "43.1.b",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:61:20:0",
+      "article_id": "45/2019/QH14:article:61",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Học nghề, tập nghề để làm việc cho người sử dụng lao động Học nghề để làm việc cho người sử dụng lao động là việc người sử dụng lao động tuyển người vào để đào tạo nghề nghiệp tại nơi làm việc. Thời gian học nghề theo chương trình đào tạo của từng trình độ theo quy định của Luật Giáo dục nghề nghiệp. Tập nghề để làm việc cho người sử dụng lao động là việc người sử dụng lao động tuyển người vào để hướng dẫn thực hành công việc, tập làm nghề theo vị trí việc làm tại nơi làm việc. Thời hạn tập nghề không quá 03 tháng. Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không phải đăng ký hoạt động giáo dục nghề nghiệp; không được thu học phí; phải ký hợp đồng đào tạo theo quy định của Luật Giáo dục nghề nghiệp. Người học nghề, người tập nghề phải đủ 14 tuổi trở lên và phải có đủ sức khỏe phù hợp với yêu cầu học nghề, tập nghề. Người học nghề, người tập nghề thuộc danh mục nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành phải từ đủ 18 tuổi trở lên, trừ lĩnh vực nghệ thuật, thể dục, thể thao.",
+      "global_page": 20,
+      "score": 54.72952474029255,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:61",
+      "provision_path": "61",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:61:21:0",
+      "article_id": "45/2019/QH14:article:61",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Trong thời gian học nghề, tập nghề, nếu người học nghề, người tập nghề trực tiếp hoặc tham gia lao động thì được người sử dụng lao động trả lương theo mức do hai bên thỏa thuận. Hết thời hạn học nghề, tập nghề, hai bên phải ký kết hợp đồng lao động khi đủ các điều kiện theo quy định của Bộ luật này.",
+      "global_page": 21,
+      "score": 39.00961281716559,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:61",
+      "provision_path": "61",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung một số điều của Bộ luật Lao động số 45/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2025/QH15 và Luật số 113/2025/QH15 như sau:",
+      "global_page": 18,
+      "score": 37.85717569191695,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1",
+      "provision_path": "43.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.3:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "3. Sửa đổi, bổ sung một số điều, khoản, điểm của Luật Nhà ở số 27/2023/QH15 đã được sửa đổi, bổ sung một số điều theo Luật số 43/2024/QH15, Luật số 47/2024/QH15, Luật số 84/2025/QH15, Luật số 90/2025/QH15 và Luật số 93/2025/QH15 như sau:",
+      "global_page": 11,
+      "score": 37.56071137237528,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.3",
+      "provision_path": "29.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

@@ -91,8 +91,12 @@ class BenchmarkDatasetBuilder:
             self.config
         )
 
+        self.rules = self.contract.rules
+        hash_algorithm = self.rules.provenance_contract.hash_algorithm
         self.parser = PDFParser(
-            prefer_docling=True
+            prefer_docling=self.config.parser.prefer_docling,
+            hash_algorithm=hash_algorithm,
+            header_ocr_engine=self.config.parser.header_ocr_engine,
         )
 
         self.lakehouse = LakehouseManager(
@@ -104,8 +108,9 @@ class BenchmarkDatasetBuilder:
 
         self.chunk_builder = ChunkBuilder(
             lakehouse=self.lakehouse,
-            chunk_size=512,
-            chunk_overlap=64,
+            chunk_size=self.config.chunking.max_tokens,
+            chunk_overlap=self.config.chunking.overlap,
+            hash_algorithm=hash_algorithm,
         )
 
     # ------------------------------------------------------------------
@@ -115,7 +120,7 @@ class BenchmarkDatasetBuilder:
     @staticmethod
     def _compute_file_hash(
         storage_path: str,
-        algorithm: str = "sha256",
+        algorithm: str,
     ) -> str:
         """
         Compute the physical PDF hash before parsing.
@@ -181,15 +186,15 @@ class BenchmarkDatasetBuilder:
         return parsed.parts[0].file_hash
 
     # ------------------------------------------------------------------
-    # SILVER ARTICLE LOADING
+    # SILVER PROVISION LOADING
     # ------------------------------------------------------------------
 
-    def _get_silver_articles(
+    def _get_silver_provisions(
         self,
         logical_doc_id: str,
     ) -> List[Dict[str, Any]]:
         """
-        Load the actual Silver articles that will become ChunkBuilder
+        Load the actual Silver provisions that will become ChunkBuilder
         input.
 
         Chunk generation deliberately reads from Silver rather than
@@ -201,14 +206,20 @@ class BenchmarkDatasetBuilder:
         cursor = self.lakehouse.conn.execute(
             """
             SELECT
+                provision_id,
                 article_id,
                 logical_doc_id,
-                article_number,
-                article_title,
+                parent_provision_id,
+                level,
+                provision_number,
+                provision_path,
+                title,
                 content,
                 issued_date,
                 effective_from,
                 effective_to,
+                effectivity_mode,
+                trigger_reference,
                 status,
                 start_physical_file_id,
                 start_physical_page,
@@ -217,11 +228,11 @@ class BenchmarkDatasetBuilder:
                 start_global_page,
                 end_global_page,
                 page_segments_json
-            FROM silver_articles
+            FROM silver_provisions
             WHERE logical_doc_id = ?
             ORDER BY
                 start_global_page,
-                article_id;
+                provision_path;
             """,
             [logical_doc_id],
         )
@@ -233,7 +244,7 @@ class BenchmarkDatasetBuilder:
             for description in cursor.description
         ]
 
-        articles: List[Dict[str, Any]] = []
+        provisions: List[Dict[str, Any]] = []
 
         for row in rows:
             record = dict(
@@ -252,17 +263,21 @@ class BenchmarkDatasetBuilder:
                 except json.JSONDecodeError as exc:
                     raise ValueError(
                         "Invalid page_segments_json in Silver "
-                        f"for article {record.get('article_id')}."
+                        f"for provision {record.get('provision_id')}."
                     ) from exc
             else:
                 page_segments = []
 
-            articles.append(
+            provisions.append(
                 {
+                    "provision_id": record["provision_id"],
                     "article_id": record["article_id"],
+                    "parent_provision_id": record["parent_provision_id"],
                     "logical_doc_id": record["logical_doc_id"],
-                    "article_number": record["article_number"],
-                    "article_title": record["article_title"],
+                    "level": record["level"],
+                    "provision_number": record["provision_number"],
+                    "provision_path": record["provision_path"],
+                    "title": record["title"],
                     "content": record["content"],
                     "issued_date": record["issued_date"],
                     "effective_from": record[
@@ -271,6 +286,8 @@ class BenchmarkDatasetBuilder:
                     "effective_to": record[
                         "effective_to"
                     ],
+                    "effectivity_mode": record["effectivity_mode"],
+                    "trigger_reference": record["trigger_reference"],
                     "status": record["status"],
                     "start_physical_file_id": record[
                         "start_physical_file_id"
@@ -294,7 +311,7 @@ class BenchmarkDatasetBuilder:
                 }
             )
 
-        return articles
+        return provisions
 
     # ------------------------------------------------------------------
     # GOLD LOOKUP
@@ -325,6 +342,8 @@ class BenchmarkDatasetBuilder:
                 global_page,
                 chunk_index,
                 text_content,
+                provision_id,
+                provision_path,
                 issued_date,
                 effective_from,
                 effective_to,
@@ -383,6 +402,8 @@ class BenchmarkDatasetBuilder:
                 {
                     "chunk_id": chunk["chunk_id"],
                     "article_id": chunk["article_id"],
+                    "provision_id": chunk["provision_id"],
+                    "provision_path": chunk["provision_path"],
                     "text": chunk["text_content"],
                     "doc_id": chunk["logical_doc_id"],
                     "page_number": global_page,
@@ -401,47 +422,58 @@ class BenchmarkDatasetBuilder:
 
     def process_document(
         self,
-        logical_doc_id: str,
-        pdf_paths: List[str],
-        metadata: Dict[str, Any],
+        pdf_path: str,
     ) -> bool:
+        storage_path = str(Path(pdf_path))
+
         logger.info(
-            "Ingesting logical document: %s",
-            logical_doc_id,
+            "Ingesting PDF: %s",
+            storage_path,
         )
 
         # --------------------------------------------------------------
         # 0. INPUT VALIDATION
         # --------------------------------------------------------------
 
-        if len(pdf_paths) != 1:
+        path = Path(storage_path)
+
+        if not path.exists():
             logger.error(
-                "Expected exactly one PDF for %s, got %d.",
-                logical_doc_id,
-                len(pdf_paths),
+                "PDF does not exist: %s",
+                storage_path,
             )
             return False
 
-        storage_path = metadata.get(
-            "storage_path"
-        )
-
-        if not storage_path:
+        if not path.is_file():
             logger.error(
-                "Missing storage_path for %s.",
-                logical_doc_id,
+                "PDF path is not a file: %s",
+                storage_path,
             )
             return False
+
+        if path.suffix.lower() != ".pdf":
+            logger.error(
+                "Input is not a PDF: %s",
+                storage_path,
+            )
+            return False
+
+        pdf_paths = [storage_path]
 
         # --------------------------------------------------------------
-        # 1. PRE-PARSE DOCUMENT HASH
+        # 1. DOCUMENT HASH
+        # --------------------------------------------------------------
+        #
+        # The physical PDF hash is still computed before parsing.
+        # The legal metadata is NOT hard-coded here; it will be extracted
+        # by PDFParser from the PDF itself.
         # --------------------------------------------------------------
 
         try:
             computed_preparse_hash = (
                 self._compute_file_hash(
                     storage_path=storage_path,
-                    algorithm="sha256",
+                    algorithm=self.rules.provenance_contract.hash_algorithm,
                 )
             )
         except (
@@ -450,23 +482,77 @@ class BenchmarkDatasetBuilder:
         ) as exc:
             logger.error(
                 "Unable to compute document hash for %s: %s",
-                logical_doc_id,
+                storage_path,
                 exc,
             )
             return False
 
-        metadata_for_contract = dict(
-            metadata
+        # --------------------------------------------------------------
+        # 2. PARSE + EXTRACT DOCUMENT METADATA
+        # --------------------------------------------------------------
+        #
+        # PDFParser extracts:
+        #   - doc_id
+        #   - title
+        #   - doc_type
+        #   - issued_date
+        #   - effective_from
+        #   - effective_to
+        #   - per-article effective-date rules
+        #
+        # No legal metadata is supplied by the ingestion caller.
+        # --------------------------------------------------------------
+
+        parsed = self.parser.parse(
+            parts_paths=pdf_paths,
+            logical_doc_id=None,
         )
+
+        logical_doc_id = parsed.logical_doc_id
+
+        logger.info(
+            "Parsed %s: %d physical part(s), %d page(s), "
+            "%d article(s)",
+            logical_doc_id,
+            len(parsed.parts),
+            len(parsed.pages),
+            len(parsed.articles),
+        )
+
+        if not parsed.pages:
+            logger.warning(
+                "No pages were extracted for %s.",
+                logical_doc_id,
+            )
+            return False
+
+        if not parsed.articles:
+            logger.warning(
+                "No articles were extracted for %s.",
+                logical_doc_id,
+            )
+            return False
+
+        metadata_for_contract = dict(
+            parsed.metadata
+        )
+
+        metadata_for_contract[
+            "storage_path"
+        ] = storage_path
 
         metadata_for_contract[
             "doc_version_hash"
         ] = computed_preparse_hash
 
         # --------------------------------------------------------------
-        # 2. PRE-PARSE CONTRACT
+        # 3. PRE-PARSE CONTRACT
         #
         #    Schema + Document Provenance
+        #
+        #    The checkpoint remains in the same pipeline position before
+        #    Bronze materialization. Metadata is now extracted by the
+        #    parser instead of being hard-coded by the caller.
         #
         #    FAIL → no Bronze
         # --------------------------------------------------------------
@@ -492,38 +578,6 @@ class BenchmarkDatasetBuilder:
             "Pre-parse contract validation PASSED: %s",
             logical_doc_id,
         )
-
-        # --------------------------------------------------------------
-        # 3. PARSE
-        # --------------------------------------------------------------
-
-        parsed = self.parser.parse(
-            parts_paths=pdf_paths,
-            logical_doc_id=logical_doc_id,
-        )
-
-        logger.info(
-            "Parsed %s: %d physical part(s), %d page(s), "
-            "%d article(s)",
-            logical_doc_id,
-            len(parsed.parts),
-            len(parsed.pages),
-            len(parsed.articles),
-        )
-
-        if not parsed.pages:
-            logger.warning(
-                "No pages were extracted for %s.",
-                logical_doc_id,
-            )
-            return False
-
-        if not parsed.articles:
-            logger.warning(
-                "No articles were extracted for %s.",
-                logical_doc_id,
-            )
-            return False
 
         # --------------------------------------------------------------
         # 4. VERIFY PARSED DOCUMENT HASH
@@ -676,58 +730,18 @@ class BenchmarkDatasetBuilder:
             return False
 
         # --------------------------------------------------------------
-        # 8. SILVER: ARTICLES
+        # 8. SILVER: HIERARCHICAL PROVISIONS AND EFFECTIVITY RULES
         # --------------------------------------------------------------
 
-        silver_articles = [
-            {
-                "article_id": article.article_id,
-                "logical_doc_id": logical_doc_id,
-                "article_number": article.article_number,
-                "article_title": article.article_title,
-                "content": article.content,
-                "issued_date": metadata.get(
-                    "issued_date"
-                ),
-                "effective_from": metadata.get(
-                    "effective_from"
-                ),
-                "effective_to": metadata.get(
-                    "effective_to"
-                ),
-                "status": article.status,
-                "start_physical_file_id": (
-                    article.start_physical_file_id
-                ),
-                "start_physical_page": (
-                    article.start_physical_page
-                ),
-                "end_physical_file_id": (
-                    article.end_physical_file_id
-                ),
-                "end_physical_page": (
-                    article.end_physical_page
-                ),
-                "start_global_page": (
-                    article.start_global_page
-                ),
-                "end_global_page": (
-                    article.end_global_page
-                ),
-                "page_segments": (
-                    article.page_segments
-                ),
-            }
-            for article in parsed.articles
-        ]
-
         try:
-            self.lakehouse.insert_silver_articles(
-                silver_articles
+            self.lakehouse.insert_silver_provisions(
+                provisions=parsed.provisions,
+                effectivity_rules=parsed.effectivity_rules,
+                logical_doc_id=logical_doc_id,
             )
         except Exception as exc:
             logger.exception(
-                "Silver article persistence failed for %s: %s",
+                "Silver provision persistence failed for %s: %s",
                 logical_doc_id,
                 exc,
             )
@@ -790,23 +804,23 @@ class BenchmarkDatasetBuilder:
         #     It consumes the materialized Silver representation.
         # --------------------------------------------------------------
 
-        silver_chunk_articles = (
-            self._get_silver_articles(
+        silver_chunk_provisions = (
+            self._get_silver_provisions(
                 logical_doc_id
             )
         )
 
-        if not silver_chunk_articles:
+        if not silver_chunk_provisions:
             logger.error(
-                "No Silver articles available for chunk generation "
+                "No Silver provisions available for chunk generation "
                 "after Silver validation: %s",
                 logical_doc_id,
             )
             return False
 
         logger.info(
-            "Loaded %d Silver article(s) for chunk generation: %s",
-            len(silver_chunk_articles),
+            "Loaded %d Silver provision(s) for chunk generation: %s",
+            len(silver_chunk_provisions),
             logical_doc_id,
         )
 
@@ -821,7 +835,7 @@ class BenchmarkDatasetBuilder:
 
         gold_ready_chunks = (
             self.chunk_builder.build_chunks(
-                articles=silver_chunk_articles,
+                provisions=silver_chunk_provisions,
                 logical_doc_id=logical_doc_id,
                 doc_version_hash=doc_version_hash,
             )
@@ -978,11 +992,11 @@ class BenchmarkDatasetBuilder:
         """
         Create the benchmark JSON skeleton.
 
-        Gold document, article, and chunk IDs are taken from the
+        Gold document, provision, and chunk references are taken from the
         manually annotated source question file.
 
         The materialized Gold data is used only to validate that the
-        annotated article/chunk IDs actually exist.
+        annotated provision/chunk references actually exist.
 
         gold_answer and gold_citation_doc_ids remain unchanged from
         the source question file.
@@ -995,29 +1009,36 @@ class BenchmarkDatasetBuilder:
         ) as f:
             source = json.load(f)
 
+        output = Path(output_path)
+        existing: Dict[str, Any] = {}
+        existing_dataset: Dict[str, Any] = {}
+        if output.exists():
+            with output.open("r", encoding="utf-8") as f:
+                existing_dataset = json.load(f)
+            existing = {
+                sample["id"]: sample
+                for sample in existing_dataset.get("samples", [])
+                if sample.get("id") is not None
+            }
+
         dataset: Dict[str, Any] = {
-            "dataset_name": source["dataset_name"],
-            "version": source["version"],
-            "split": source["split"],
+            "dataset_name": source.get("dataset_name", existing_dataset.get("dataset_name")),
+            "version": source.get("version", existing_dataset.get("version")),
+            "split": source.get("split", existing_dataset.get("split")),
             "samples": [],
         }
 
+        source_ids = set()
         for question in source.get(
             "samples",
             [],
         ):
+            question_id = question["id"]
+            source_ids.add(question_id)
+            old = existing.get(question_id, {})
             gold_doc_ids = list(
-                question.get(
-                    "gold_doc_ids",
-                    [],
-                )
-            )
-
-            gold_article_ids = list(
-                question.get(
-                    "gold_article_ids",
-                    [],
-                )
+                question.get("gold_doc_ids")
+                or old.get("gold_doc_ids", [])
             )
 
             gold_chunk_ids = list(
@@ -1026,7 +1047,37 @@ class BenchmarkDatasetBuilder:
                     [],
                 )
             )
+            gold_provisions = [
+                dict(reference)
+                for reference in (
+                    question.get("gold_provisions")
+                    or old.get("gold_provisions", [])
+                )
+            ]
+            gold_doc_ids = list(
+                dict.fromkeys(
+                    gold_doc_ids
+                    + [
+                        reference.get("logical_doc_id")
+                        for reference in gold_provisions
+                        if reference.get("logical_doc_id")
+                    ]
+                )
+            )
 
+            for reference in gold_provisions:
+                if (
+                    not reference.get("logical_doc_id")
+                    or not (
+                        reference.get("provision_id")
+                        or reference.get("provision_path")
+                    )
+                ):
+                    raise ValueError(
+                        f"Question {question_id} has an invalid gold_provisions "
+                        "entry; expected logical_doc_id and provision_id "
+                        "or provision_path."
+                    )
             available_chunks: List[Dict[str, Any]] = []
 
             for doc_id in gold_doc_ids:
@@ -1040,34 +1091,53 @@ class BenchmarkDatasetBuilder:
                 if chunk.get("chunk_id")
             }
 
-            valid_article_ids = {
-                chunk["article_id"]
+            valid_provisions_by_id = {
+                (chunk["logical_doc_id"], chunk["provision_id"]): chunk.get(
+                    "provision_path"
+                )
                 for chunk in available_chunks
-                if chunk.get("article_id")
+                if chunk.get("logical_doc_id") and chunk.get("provision_id")
             }
-
+            valid_provisions_by_path = {
+                (chunk["logical_doc_id"], chunk["provision_path"]): chunk.get(
+                    "provision_id"
+                )
+                for chunk in available_chunks
+                if chunk.get("logical_doc_id") and chunk.get("provision_path")
+            }
             invalid_chunks = (
                 set(gold_chunk_ids) - valid_chunk_ids
             )
 
-            invalid_articles = (
-                set(gold_article_ids) - valid_article_ids
-            )
-
+            invalid_provisions = []
+            for reference in gold_provisions:
+                logical_doc_id = reference["logical_doc_id"]
+                provision_id = reference.get("provision_id")
+                provision_path = reference.get("provision_path")
+                if provision_id:
+                    actual_path = valid_provisions_by_id.get(
+                        (logical_doc_id, provision_id)
+                    )
+                    if actual_path is None or (
+                        provision_path and actual_path != provision_path
+                    ):
+                        invalid_provisions.append(reference)
+                elif (logical_doc_id, provision_path) not in valid_provisions_by_path:
+                    invalid_provisions.append(reference)
             if invalid_chunks:
                 raise ValueError(
                     f"Question {question['id']} contains Gold chunk IDs "
                     f"not found in Gold: {sorted(invalid_chunks)}"
                 )
 
-            if invalid_articles:
+            if invalid_provisions:
                 raise ValueError(
-                    f"Question {question['id']} contains Gold article IDs "
-                    f"not found in Gold: {sorted(invalid_articles)}"
+                    f"Question {question['id']} contains provision references "
+                    "not found in Gold: "
+                    f"{invalid_provisions}"
                 )
 
-            dataset["samples"].append(
-                {
+            generated = {
                     "id": question["id"],
                     "query": question["query"],
                     "t_event": question["t_event"],
@@ -1080,9 +1150,7 @@ class BenchmarkDatasetBuilder:
                         "temporal",
                     ),
                     "gold_doc_ids": gold_doc_ids,
-                    "gold_article_ids": (
-                        gold_article_ids
-                    ),
+                    "gold_provisions": gold_provisions,
                     "gold_chunk_ids": (
                         gold_chunk_ids
                     ),
@@ -1097,9 +1165,17 @@ class BenchmarkDatasetBuilder:
                         )
                     ),
                 }
-            )
+            # Preserve all existing manually maintained fields for matched IDs.
+            generated.update(old)
+            generated["gold_doc_ids"] = gold_doc_ids
+            if question.get("gold_provisions"):
+                generated["gold_provisions"] = gold_provisions
+            dataset["samples"].append(generated)
 
-        output = Path(output_path)
+        # Keep removed source questions and their annotations until a user removes them.
+        for question_id, old in existing.items():
+            if question_id not in source_ids:
+                dataset["samples"].append(old)
 
         output.parent.mkdir(
             parents=True,
@@ -1138,62 +1214,51 @@ class BenchmarkDatasetBuilder:
 def main() -> None:
     builder = BenchmarkDatasetBuilder()
 
+    incoming_dir = Path(
+        builder.config.db.incoming_dir
+    )
+
+    pdf_paths = sorted(
+        incoming_dir.glob("*.pdf")
+    )
+
+    if not pdf_paths:
+        raise FileNotFoundError(
+            f"No PDF files found in incoming directory: "
+            f"{incoming_dir}"
+        )
+
     try:
-        success_168 = builder.process_document(
-            logical_doc_id="168/2024/NĐ-CP",
-            pdf_paths=[
-                "data/incoming/Nghi-dinh-168-2024.pdf"
-            ],
-            metadata={
-                "doc_id": "168/2024/NĐ-CP",
-                "title": "Nghị định 168/2024/NĐ-CP",
-                "issued_date": "2024-12-26",
-                "effective_from": "2025-01-01",
-                "doc_type": "Nghị định",
-                "storage_path": (
-                    "data/incoming/"
-                    "Nghi-dinh-168-2024.pdf"
-                ),
-            },
-        )
+        failed_documents: List[str] = []
 
-        success_238 = builder.process_document(
-            logical_doc_id="238/2026/NĐ-CP",
-            pdf_paths=[
-                "data/incoming/Nghi-dinh-238-2026.pdf"
-            ],
-            metadata={
-                "doc_id": "238/2026/NĐ-CP",
-                "title": "Nghị định 238/2026/NĐ-CP",
-                "issued_date": "2026-06-26",
-                "effective_from": "2026-08-15",
-                "doc_type": "Nghị định",
-                "storage_path": (
-                    "data/incoming/"
-                    "Nghi-dinh-238-2026.pdf"
-                ),
-            },
-        )
+        for pdf_path in pdf_paths:
+            try:
+                success = builder.process_document(
+                    pdf_path=str(pdf_path)
+                )
+            except Exception:
+                logger.exception(
+                    "Document processing raised an error for %s",
+                    pdf_path,
+                )
+                success = False
 
-        if not success_168:
+            if not success:
+                failed_documents.append(str(pdf_path))
+
+        if failed_documents:
             raise RuntimeError(
-                "Failed to materialize "
-                "168/2024/NĐ-CP through Gold."
-            )
-
-        if not success_238:
-            raise RuntimeError(
-                "Failed to materialize "
-                "238/2026/NĐ-CP through Gold."
+                "Failed to materialize the following PDFs "
+                "through Gold: "
+                + ", ".join(failed_documents)
             )
 
         builder.export_benchmark_skeleton(
             questions_path=(
-                "data/benchmark/questions.json"
+                builder.config.benchmark.questions_path
             ),
             output_path=(
-                "data/splits/"
-                "vn_legal_temporal_eval_split.json"
+                builder.config.benchmark.output_path
             ),
         )
 

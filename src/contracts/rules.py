@@ -45,12 +45,13 @@ class QualityRules(BaseModel):
     table_integrity: TableIntegrityRules
 
 class ProvenanceRules(BaseModel):
-    hash_algorithm: str = "sha256"
+    hash_algorithm: str
     require_storage_path: bool = True
     require_document_hash: bool = True
     require_article_id: bool = True
     require_chunk_page_number: bool = True
     require_chunk_hash: bool = True
+    require_provision_id: bool = True
 
 class ContractRules(BaseModel):
     schema_contract: SchemaRules

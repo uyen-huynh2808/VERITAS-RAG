@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Trong thời hạn 02 năm kể từ ngày Luật Công nghiệp công nghệ số có hiệu lực, nếu luật, nghị quyết của Quốc hội, pháp lệnh hoặc nghị quyết của Ủy ban Thường vụ Quốc hội liên quan chưa được sửa đổi, bổ sung thì cơ chế xử lý khó khăn, vướng mắc theo điều khoản chuyển tiếp được thực hiện như thế nào?",
+  "answer": "Trong thời hạn 02 năm kể từ ngày Luật Công nghiệp công nghệ số có hiệu lực, nếu các luật, nghị quyết của Quốc hội, pháp lệnh hoặc nghị quyết của Ủy ban Thường vụ Quốc hội liên quan **chưa được sửa đổi, bổ sung**, thì:\n\n1. **Chính phủ** được giao nhiệm vụ **ban hành văn bản quy phạm pháp luật điều chỉnh** nhằm giải quyết các khó khăn, vướng mắc trong việc phát triển công nghiệp công nghệ số theo quy định của luật hiện hành.  \n2. Các văn bản này phải được **đưa ra để thống nhất áp dụng** và thực",
+  "latency_ms": 1562.070499989204,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",
+      "article_id": "71/2025/QH15:article:51",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Quy định chuyển tiếp Khu công nghệ thông tin tập trung đã được quy hoạch, thành lập, công nhận, mở rộng, đang hoạt động theo quy định của pháp luật được tự động chuyển thành khu công nghệ số tập trung và thực hiện theo quy định tại Luật này. Trong thời gian luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban Thường vụ Quốc hội chưa được sửa đổi, bổ sung trong thời hạn 02 năm từ ngày Luật này có hiệu lực thi hành, giao Chính phủ ban hành văn bản quy phạm pháp luật điều chỉnh để giải quyết khó khăn, vướng mắc cho phát triển công nghiệp công nghệ số được quy định tại luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban Thường vụ Quốc hội để thống nhất áp dụng, định kỳ báo cáo Ủy ban Thường vụ Quốc hội; trường hợp liên quan đến luật, nghị quyết của Quốc hội thì báo cáo Quốc hội tại kỳ họp gần nhất. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 9 thông qua ngày 14 tháng 6 năm 2025.",
+      "global_page": 22,
+      "score": 0.7508410811424255,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:51",
+      "provision_path": "51",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "14. Hồ sơ đề nghị giải quyết thủ tục hành chính đã được nộp hợp lệ trước ngày 01 tháng 01 năm 2026 và thuộc thẩm quyền của cơ quan được quy định tại Luật số 74/2014/QH13, thì cơ quan có thẩm quyền đó tiếp tục thụ lý, giải quyết theo quy định của pháp luật tại thời điểm nộp hồ sơ, kể cả trong trường hợp thẩm quyền giải quyết thủ tục hành chính đó đã điều chỉnh theo quy định của Luật này. Các cơ sở giáo dục nghề nghiệp đã có quyết định về việc thành lập, cho phép thành lập, chia, tách, sáp nhập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 phải đáp ứng quy định chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn 60 tháng kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.",
+      "global_page": 20,
+      "score": 0.6010358333587646,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.14",
+      "provision_path": "45.14",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:1:1:0",
+      "article_id": "71/2025/QH15:article:1",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Phạm vi điều chỉnh Luật này quy định về phát triển công nghiệp công nghệ số, công nghiệp bán dẫn, trí tuệ nhân tạo, tài sản số, quyền và trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan. Luật này không điều chỉnh hoạt động công nghiệp công nghệ số chỉ phục vụ mục đích quốc phòng, an ninh, hoạt động cơ yếu để bảo vệ thông tin bí mật nhà nước.",
+      "global_page": 1,
+      "score": 0.5986189246177673,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:1",
+      "provision_path": "1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:18:7:1",
+      "article_id": "71/2025/QH15:article:18",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "ngoài được công nhận rộng rãi. Trách nhiệm của Bộ, cơ quan ngang Bộ, Hội đồng nhân dân cấp tỉnh: Bộ Giáo dục và Đào tạo thực hiện quy định tại khoản 1 Điều này; Bộ Khoa học và Công nghệ thực hiện quy định tại khoản 2 Điều này từ nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại Điều 11 của Luật này; Hội đồng nhân dân cấp tỉnh bố trí ngân sách địa phương, quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ quy định tại khoản 3 Điều này.",
+      "global_page": 7,
+      "score": 0.5965799689292908,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:18",
+      "provision_path": "18",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:15:6:0",
+      "article_id": "71/2025/QH15:article:15",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Sản phẩm, dịch vụ công nghệ số hạn chế chuyển giao Danh mục sản phẩm, dịch vụ công nghệ số hạn chế chuyển giao; thẩm quyền, trình tự, thủ tục xem xét chấp thuận chuyển giao đối với sản phẩm, dịch vụ công nghệ số hạn chế chuyển giao được thực hiện theo quy định của pháp luật về chuyển giao công nghệ và pháp luật khác có liên quan. Mục 2. NGHIÊN CỨU VÀ PHÁT TRIỂN SẢN PHẨM, DỊCH VỤ CÔNG NGHỆ SỐ",
+      "global_page": 6,
+      "score": 0.5959671139717102,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:15",
+      "provision_path": "15",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

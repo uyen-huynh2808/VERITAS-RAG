@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Ngày 30/06/2025, Luật Bảo hiểm xã hội 41/2024/QH15 đã có hiệu lực thi hành chưa?",
+  "answer": "Không, vào ngày 30/06/2025 Luật Bảo hiểm xã hội số 41/2024/QH15 chưa có hiệu lực thi hành; hiệu lực thi hành của luật này bắt đầu từ ngày 01 tháng 7 năm 2025.",
+  "latency_ms": 10326.553399907425,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội số 41/2024/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 73/2025/QH15 và Luật số 84/2025/QH15 như sau: “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.",
+      "global_page": 11,
+      "score": 37.591088182385796,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.2",
+      "provision_path": "29.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 37.28261940544662,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.3:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "3. Pháp lệnh Dân số số 06/2003/PL-UBTVQH11 đã được sửa đổi, bổ sung theo Pháp lệnh số 07/2025/UBTVQH15 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 10 thông qua ngày 10 tháng 12 năm 2025. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn 07/10/2026, 22:15 about:blank about:blank 12/12",
+      "global_page": 12,
+      "score": 33.94504928822285,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:30.3",
+      "provision_path": "30.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 32.351341855777335,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.3:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "3. Sửa đổi, bổ sung một số điều, khoản, điểm của Luật Nhà ở số 27/2023/QH15 đã được sửa đổi, bổ sung một số điều theo Luật số 43/2024/QH15, Luật số 47/2024/QH15, Luật số 84/2025/QH15, Luật số 90/2025/QH15 và Luật số 93/2025/QH15 như sau:",
+      "global_page": 11,
+      "score": 31.184809554201383,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.3",
+      "provision_path": "29.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

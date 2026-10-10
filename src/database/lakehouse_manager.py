@@ -1,10 +1,12 @@
 import json
+import hashlib
 import logging
 import shutil
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import numpy as np
+from src.contracts.models import ProvisionRecord
 
 try:
     import duckdb
@@ -150,8 +152,8 @@ class LakehouseManager:
         """
         Initialize the Bronze/Silver/Gold relational schema.
 
-        Existing tables are not destructively migrated here. A clean
-        database should be used when changing the schema definition.
+        Create the current schema. Legacy schema upgrades and backfills
+        are intentionally handled by rebuilding from source documents.
         """
 
         logger.info(
@@ -209,38 +211,51 @@ class LakehouseManager:
             """
         )
 
-        # --------------------------------------------------------------
-        # SILVER: articles
-        # --------------------------------------------------------------
-
         self.conn.execute(
             """
-            CREATE TABLE IF NOT EXISTS silver_articles (
-                article_id VARCHAR PRIMARY KEY,
+            CREATE TABLE IF NOT EXISTS silver_provisions (
+                provision_id VARCHAR PRIMARY KEY,
                 logical_doc_id VARCHAR NOT NULL,
-
-                article_number VARCHAR NOT NULL,
-                article_title VARCHAR,
+                article_id VARCHAR NOT NULL,
+                parent_provision_id VARCHAR,
+                level VARCHAR NOT NULL,
+                provision_number VARCHAR NOT NULL,
+                provision_path VARCHAR NOT NULL,
+                title VARCHAR,
                 content VARCHAR NOT NULL,
-
                 issued_date DATE,
                 effective_from DATE,
                 effective_to DATE,
-
-                status VARCHAR DEFAULT 'active',
-
-                start_physical_file_id VARCHAR NOT NULL,
-                start_physical_page INTEGER NOT NULL,
-
-                end_physical_file_id VARCHAR NOT NULL,
-                end_physical_page INTEGER NOT NULL,
-
-                start_global_page INTEGER NOT NULL,
-                end_global_page INTEGER NOT NULL,
-
+                effectivity_mode VARCHAR NOT NULL,
+                trigger_reference VARCHAR,
+                status VARCHAR,
+                start_physical_file_id VARCHAR,
+                start_physical_page INTEGER,
+                end_physical_file_id VARCHAR,
+                end_physical_page INTEGER,
+                start_global_page INTEGER,
+                end_global_page INTEGER,
                 page_segments_json VARCHAR NOT NULL,
+                text_start INTEGER,
+                text_end INTEGER,
+                UNIQUE(logical_doc_id, provision_path)
+            );
+            """
+        )
 
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        self.conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS silver_effectivity_rules (
+                rule_id VARCHAR PRIMARY KEY,
+                logical_doc_id VARCHAR NOT NULL,
+                target_path VARCHAR NOT NULL,
+                mode VARCHAR NOT NULL,
+                effective_from DATE,
+                effective_to DATE,
+                trigger_reference VARCHAR,
+                source_text VARCHAR NOT NULL,
+                source_article_id VARCHAR,
+                source_pages_json VARCHAR
             );
             """
         )
@@ -277,15 +292,61 @@ class LakehouseManager:
                 status VARCHAR DEFAULT 'active',
 
                 metadata_json VARCHAR,
+                provision_id VARCHAR,
+                provision_path VARCHAR,
+                effectivity_mode VARCHAR,
+                trigger_reference VARCHAR,
 
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             );
             """
         )
 
+        self._validate_current_schema()
+
         logger.info(
             "DuckDB lakehouse schema initialized successfully."
         )
+
+    def _validate_current_schema(self) -> None:
+        """Fail fast on an old database; this project rebuilds rather than migrates."""
+        required_columns = {
+            "silver_provisions": {
+                "provision_id",
+                "parent_provision_id",
+                "level",
+                "provision_path",
+                "effectivity_mode",
+            },
+            "silver_effectivity_rules": {
+                "source_article_id",
+                "source_pages_json",
+            },
+            "gold_chunks": {
+                "provision_id",
+                "provision_path",
+                "effectivity_mode",
+                "trigger_reference",
+            },
+        }
+        incompatible = {}
+        for table, expected in required_columns.items():
+            actual = {
+                row[1]
+                for row in self.conn.execute(
+                    f"PRAGMA table_info('{table}')"
+                ).fetchall()
+            }
+            missing = expected - actual
+            if missing:
+                incompatible[table] = sorted(missing)
+        if incompatible:
+            raise RuntimeError(
+                "The configured DuckDB uses an incompatible legacy schema. "
+                "This pipeline does not migrate old databases; rebuild the "
+                "lakehouse from source documents. Missing columns: "
+                f"{incompatible}"
+            )
 
     # ------------------------------------------------------------------
     # Internal helpers
@@ -536,127 +597,189 @@ class LakehouseManager:
             len(pages_data),
         )
 
-    # ------------------------------------------------------------------
-    # SILVER: articles
-    # ------------------------------------------------------------------
-
-    def insert_silver_articles(
+    def insert_silver_provisions(
         self,
-        articles_data: List[Dict[str, Any]],
+        provisions: List[Dict[str, Any]],
+        effectivity_rules: List[Dict[str, Any]],
+        logical_doc_id: str,
     ) -> None:
-        """
-        Persist normalized legal articles and their page segments
-        into Silver.
+        """Persist hierarchical provisions and their source effectivity rules."""
+        provision_ids = {row.get("provision_id") for row in provisions}
+        paths = [row.get("path") for row in provisions]
+        if None in provision_ids or len(provision_ids) != len(provisions):
+            raise ValueError("Silver provisions require unique provision IDs.")
+        if len(set(paths)) != len(paths):
+            raise ValueError("Silver provision paths must be unique per document.")
 
-        Silver is the normalized representation consumed by the
-        ChunkBuilder.
-
-        Contract validation is performed by the orchestration layer
-        before Gold chunk construction.
-        """
-
-        for article in articles_data:
-            page_segments = article.get(
-                "page_segments",
-                [],
-            )
-
-            serializable_segments = []
-
-            for segment in page_segments:
-                if hasattr(
-                    segment,
-                    "__dict__",
+        by_id = {row["provision_id"]: row for row in provisions}
+        by_path = {row["path"]: row for row in provisions}
+        allowed_levels = {"article", "clause", "point"}
+        allowed_modes = {"inherit", "explicit_date", "external_trigger", "unknown"}
+        for provision in provisions:
+            ProvisionRecord.model_validate(provision)
+            if provision.get("level") not in allowed_levels:
+                raise ValueError(
+                    f"Unsupported provision level: {provision.get('level')}"
+                )
+            parent_id = provision.get("parent_provision_id")
+            if parent_id is not None and parent_id not in by_id:
+                raise ValueError(
+                    f"Missing parent provision {parent_id} for {provision['provision_id']}"
+                )
+            parent = by_id.get(parent_id) if parent_id else None
+            if provision["level"] == "article":
+                if parent is not None or provision["path"] != provision["number"]:
+                    raise ValueError("Article provisions must be hierarchy roots.")
+            elif provision["level"] == "clause":
+                if (
+                    parent is None
+                    or parent["level"] != "article"
+                    or provision["path"] != f"{parent['path']}.{provision['number']}"
                 ):
-                    segment = vars(segment)
-
-                serializable_segments.append(
-                    dict(segment)
+                    raise ValueError("Clause provision has an invalid parent/path.")
+            elif provision["level"] == "point":
+                if (
+                    parent is None
+                    or parent["level"] != "clause"
+                    or provision["path"] != f"{parent['path']}.{provision['number']}"
+                ):
+                    raise ValueError("Point provision has an invalid parent/path.")
+            if provision.get("effectivity_mode") not in allowed_modes:
+                raise ValueError(
+                    f"Unsupported effectivity mode: {provision.get('effectivity_mode')}"
                 )
 
-            page_segments_json = json.dumps(
-                serializable_segments,
+        unresolved_targets = sorted(
+            {
+                rule.get("target_path")
+                for rule in effectivity_rules
+                if rule.get("target_path") != "*"
+                and rule.get("target_path") not in by_path
+            }
+        )
+        if unresolved_targets:
+            raise ValueError(
+                "Effectivity rule targets were not found in the extracted "
+                f"provision tree: {unresolved_targets}"
+            )
+
+        rules_by_target: Dict[str, set] = {}
+        for rule in effectivity_rules:
+            mode = rule.get("mode")
+            if mode == "explicit_date" and not rule.get("effective_from"):
+                raise ValueError("Explicit effectivity rules require effective_from.")
+            if mode == "external_trigger" and not rule.get("trigger_reference"):
+                raise ValueError("External effectivity rules require a source trigger.")
+            signature = (
+                mode,
+                str(rule.get("effective_from") or ""),
+                str(rule.get("effective_to") or ""),
+                str(rule.get("trigger_reference") or ""),
+            )
+            rules_by_target.setdefault(rule.get("target_path", "*"), set()).add(signature)
+        conflicts = sorted(
+            target for target, signatures in rules_by_target.items()
+            if len(signatures) > 1
+        )
+        if conflicts:
+            raise ValueError(
+                "Conflicting effectivity rules require manual resolution for "
+                f"provisions: {conflicts}"
+            )
+
+        for provision in provisions:
+            segments = json.dumps(
+                provision.get("page_segments") or [],
                 ensure_ascii=False,
                 default=str,
             )
-
             self.conn.execute(
                 """
-                INSERT OR REPLACE INTO silver_articles (
-                    article_id,
-                    logical_doc_id,
-                    article_number,
-                    article_title,
-                    content,
-                    issued_date,
-                    effective_from,
-                    effective_to,
-                    status,
-                    start_physical_file_id,
-                    start_physical_page,
-                    end_physical_file_id,
-                    end_physical_page,
-                    start_global_page,
-                    end_global_page,
-                    page_segments_json
-                )
-                VALUES (
-                    ?, ?, ?, ?, ?,
-                    ?, ?, ?, ?,
-                    ?, ?, ?, ?,
-                    ?, ?, ?
-                );
+                INSERT INTO silver_provisions (
+                    provision_id, logical_doc_id, article_id,
+                    parent_provision_id, level, provision_number,
+                    provision_path, title, content, issued_date,
+                    effective_from, effective_to, effectivity_mode,
+                    trigger_reference, status, start_physical_file_id,
+                    start_physical_page, end_physical_file_id,
+                    end_physical_page, start_global_page, end_global_page,
+                    page_segments_json, text_start, text_end
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT (provision_id) DO UPDATE SET
+                    logical_doc_id = excluded.logical_doc_id,
+                    article_id = excluded.article_id,
+                    parent_provision_id = excluded.parent_provision_id,
+                    level = excluded.level,
+                    provision_number = excluded.provision_number,
+                    provision_path = excluded.provision_path,
+                    title = excluded.title,
+                    content = excluded.content,
+                    issued_date = excluded.issued_date,
+                    effective_from = excluded.effective_from,
+                    effective_to = excluded.effective_to,
+                    effectivity_mode = excluded.effectivity_mode,
+                    trigger_reference = excluded.trigger_reference,
+                    status = excluded.status,
+                    start_physical_file_id = excluded.start_physical_file_id,
+                    start_physical_page = excluded.start_physical_page,
+                    end_physical_file_id = excluded.end_physical_file_id,
+                    end_physical_page = excluded.end_physical_page,
+                    start_global_page = excluded.start_global_page,
+                    end_global_page = excluded.end_global_page,
+                    page_segments_json = excluded.page_segments_json,
+                    text_start = excluded.text_start,
+                    text_end = excluded.text_end
                 """,
                 (
-                    article["article_id"],
-                    article["logical_doc_id"],
-                    article["article_number"],
-                    article.get(
-                        "article_title",
-                        "",
-                    ),
-                    article["content"],
-                    article.get("issued_date"),
-                    article.get("effective_from"),
-                    article.get("effective_to"),
-                    article.get(
-                        "status",
-                        "active",
-                    ),
-                    article[
-                        "start_physical_file_id"
-                    ],
-                    int(
-                        article[
-                            "start_physical_page"
-                        ]
-                    ),
-                    article[
-                        "end_physical_file_id"
-                    ],
-                    int(
-                        article[
-                            "end_physical_page"
-                        ]
-                    ),
-                    int(
-                        article[
-                            "start_global_page"
-                        ]
-                    ),
-                    int(
-                        article[
-                            "end_global_page"
-                        ]
-                    ),
-                    page_segments_json,
+                    provision["provision_id"], logical_doc_id,
+                    provision["article_id"], provision.get("parent_provision_id"),
+                    provision["level"], provision["number"], provision["path"],
+                    provision.get("title"), provision.get("content", ""),
+                    provision.get("issued_date"), provision.get("effective_from"),
+                    provision.get("effective_to"), provision.get("effectivity_mode", "inherit"),
+                    provision.get("trigger_reference"), provision.get("status"),
+                    provision.get("start_physical_file_id"),
+                    provision.get("start_physical_page"),
+                    provision.get("end_physical_file_id"),
+                    provision.get("end_physical_page"),
+                    provision.get("start_global_page"),
+                    provision.get("end_global_page"), segments,
+                    provision.get("text_start"), provision.get("text_end"),
                 ),
             )
 
-        logger.info(
-            "Persisted %d article(s) into Silver.",
-            len(articles_data),
-        )
+        for rule in effectivity_rules:
+            if rule.get("mode") not in {"explicit_date", "external_trigger", "unknown"}:
+                raise ValueError(f"Unsupported effectivity rule mode: {rule.get('mode')}")
+            source_text = str(rule.get("source_text") or "")
+            rule_identity = "\n".join(
+                (
+                    logical_doc_id,
+                    str(rule.get("target_path", "*")),
+                    str(rule.get("mode", "unknown")),
+                    str(rule.get("effective_from") or ""),
+                    str(rule.get("effective_to") or ""),
+                    source_text,
+                )
+            )
+            rule_id = hashlib.sha256(rule_identity.encode("utf-8")).hexdigest()
+            self.conn.execute(
+                """
+                INSERT OR REPLACE INTO silver_effectivity_rules (
+                    rule_id, logical_doc_id, target_path, mode,
+                    effective_from, effective_to, trigger_reference,
+                    source_text, source_article_id, source_pages_json
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    rule_id, logical_doc_id, rule.get("target_path", "*"),
+                    rule.get("mode", "unknown"), rule.get("effective_from"),
+                    rule.get("effective_to"), rule.get("trigger_reference"),
+                    source_text,
+                    rule.get("source_article_id"),
+                    json.dumps(rule.get("source_pages") or []),
+                ),
+            )
 
     # ------------------------------------------------------------------
     # GOLD
@@ -762,6 +885,22 @@ class LakehouseManager:
                     "Gold chunk requires text_content/text."
                 )
 
+            if not chunk.get("provision_id"):
+                raise ValueError("Gold chunk requires provision_id.")
+            if chunk.get("effectivity_mode") not in {
+                "inherit", "explicit_date", "external_trigger", "unknown"
+            }:
+                raise ValueError("Gold chunk has an invalid effectivity_mode.")
+            provision_exists = self.conn.execute(
+                "SELECT 1 FROM silver_provisions WHERE provision_id = ?",
+                [chunk["provision_id"]],
+            ).fetchone()
+            if provision_exists is None:
+                raise ValueError(
+                    "Gold chunk references a missing Silver provision: "
+                    f"{chunk['provision_id']}"
+                )
+
             part_no = int(
                 chunk.get(
                     "part_no",
@@ -797,12 +936,17 @@ class LakehouseManager:
                     effective_from,
                     effective_to,
                     status,
-                    metadata_json
+                    metadata_json,
+                    provision_id,
+                    provision_path,
+                    effectivity_mode,
+                    trigger_reference
                 )
                 VALUES (
                     ?, ?, ?, ?, ?, ?,
                     ?, ?, ?, ?, ?, ?,
-                    ?, ?, ?, ?, ?
+                    ?, ?, ?, ?, ?,
+                    ?, ?, ?, ?
                 );
                 """,
                 (
@@ -831,6 +975,10 @@ class LakehouseManager:
                         "active",
                     ),
                     metadata_json,
+                    chunk["provision_id"],
+                    chunk.get("provision_path"),
+                    chunk.get("effectivity_mode"),
+                    chunk.get("trigger_reference"),
                 ),
             )
 
@@ -882,7 +1030,11 @@ class LakehouseManager:
                 effective_from,
                 effective_to,
                 status,
-                metadata_json
+                metadata_json,
+                provision_id,
+                provision_path,
+                effectivity_mode,
+                trigger_reference
             FROM gold_chunks
             WHERE effective_from <= ?::DATE
             AND (
@@ -983,16 +1135,28 @@ class LakehouseManager:
                 g.physical_page,
                 g.global_page,
 
-                a.article_number,
-                a.article_title,
+                a.provision_number,
+                a.title,
+
+                g.provision_id,
+                g.provision_path,
+                g.effectivity_mode,
+                g.trigger_reference,
+                v.level,
+                v.title,
+                v.parent_provision_id,
 
                 p.total_physical_pages,
                 p.start_global_page
 
             FROM gold_chunks AS g
 
-            LEFT JOIN silver_articles AS a
+            LEFT JOIN silver_provisions AS a
                 ON g.article_id = a.article_id
+               AND a.level = 'article'
+
+            LEFT JOIN silver_provisions AS v
+                ON g.provision_id = v.provision_id
 
             LEFT JOIN bronze_pdf_parts AS p
                 ON g.logical_doc_id = p.logical_doc_id
@@ -1022,8 +1186,15 @@ class LakehouseManager:
             "global_page": row[9],
             "article_number": row[10],
             "article_title": row[11],
-            "total_physical_pages_in_part": row[12],
-            "part_start_global_page": row[13],
+            "provision_id": row[12],
+            "provision_path": row[13],
+            "effectivity_mode": row[14],
+            "trigger_reference": row[15],
+            "provision_level": row[16],
+            "provision_title": row[17],
+            "parent_provision_id": row[18],
+            "total_physical_pages_in_part": row[19],
+            "part_start_global_page": row[20],
         }
 
     # ------------------------------------------------------------------
@@ -1038,7 +1209,8 @@ class LakehouseManager:
         table_mapping = {
             "bronze_pdf_parts": self.bronze_dir,
             "silver_pages": self.silver_dir,
-            "silver_articles": self.silver_dir,
+            "silver_provisions": self.silver_dir,
+            "silver_effectivity_rules": self.silver_dir,
             "gold_chunks": self.gold_dir,
         }
 

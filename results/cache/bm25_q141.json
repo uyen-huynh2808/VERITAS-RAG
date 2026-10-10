@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/07/2025, nếu cần xác định hỗ trợ dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số, nên truy xuất điều khoản nào?",
+  "answer": "Bạn nên tra cứu **Điều 29** (Provision 29) của Nghị định **71/2025/QH15** – đây là điều khoản quy định về “Hỗ trợ, ưu đãi dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số”.",
+  "latency_ms": 22403.40740000829,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:29:12:0",
+      "article_id": "71/2025/QH15:article:29",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hỗ trợ, ưu đãi dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số Dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số được hỗ trợ kinh phí trực tiếp từ ngân sách địa phương theo quy định của Luật Ngân sách nhà nước hoặc từ Chương trình phát triển công nghiệp công nghệ số cho các hoạt động bao gồm: Đào tạo phát triển nguồn nhân lực công nghiệp công nghệ số;",
+      "global_page": 12,
+      "score": 50.926951652175305,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:29",
+      "provision_path": "29",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:40:17:0",
+      "article_id": "71/2025/QH15:article:40",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hỗ trợ, ưu đãi doanh nghiệp tham gia chuỗi cung ứng bán dẫn Dự án sản xuất sản phẩm phụ trợ trực tiếp trong công nghiệp bán dẫn là dự án sản xuất nguyên liệu, vật tư, linh kiện để cung cấp trực tiếp cho dự án sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn. Dự án theo quy định tại khoản 1 Điều này được hưởng các hỗ trợ, ưu đãi như đối với dự án sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn quy định tại các khoản 2, 3 và 4 Điều 28 của Luật này. Doanh nghiệp thực hiện dự án theo quy định tại khoản 1 Điều này được hưởng chế độ ưu tiên quy định tại khoản 5 Điều 28 của Luật này. Thủ tục xuất khẩu, nhập khẩu tại chỗ giữa các doanh nghiệp chế xuất thực hiện dự án sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn, doanh nghiệp chế xuất thực hiện dự án sản xuất thiết bị điện tử, doanh nghiệp chế xuất thực hiện dự án sản xuất sản phẩm phụ trợ trực tiếp trong công nghiệp bán dẫn theo chỉ định giao và nhận hàng hóa của các thương nhân nước ngoài thực hiện quy định của pháp luật về hải quan. Khoản thu nhập phát sinh tại Việt Nam của thương nhân nước ngoài từ hoạt động xuất khẩu, nhập khẩu tại chỗ thực hiện theo quy định của pháp luật về thuế thu nhập doanh nghiệp và được bảo đảm không bị đánh trùng thuế. Doanh nghiệp thực hiện dự án sản xuất thiết bị điện tử đáp ứng tiêu chí do Bộ trưởng Bộ Khoa học và Công nghệ quy định được hưởng hỗ trợ, ưu đãi về thuế thu nhập doanh nghiệp theo quy định của pháp luật về thuế thu nhập doanh nghiệp. Doanh nghiệp tự chứng minh việc đáp ứng tiêu chí để được hưởng ưu đãi quy định tại khoản này và chịu trách nhiệm về tính chính xác đối với thông tin cung cấp. Dự án sản xuất sản phẩm phụ trợ trực tiếp trong công nghiệp bán dẫn và dự án sản xuất thiết bị điện tử được hỗ trợ một phần hoặc toàn bộ kinh phí để sản xuất mẫu thử, mua công nghệ và đổi mới công nghệ theo quy định của pháp luật về chuyển giao công nghệ từ nguồn ngân sách địa phương theo quy định của pháp luật về ngân sách nhà nước hoặc từ nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại Điều 11 của Luật này. Hội đồng nhân dân cấp tỉnh quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ từ ngân sách địa phương cho các dự án quy định tại khoản này phù hợp với điều kiện của địa phương. Chương IV",
+      "global_page": 17,
+      "score": 38.508552629420834,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:40",
+      "provision_path": "40",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:28:12:0",
+      "article_id": "71/2025/QH15:article:28",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hỗ trợ, ưu đãi đầu tư đối với sản xuất sản phẩm, cung cấp dịch vụ công nghệ số Sản xuất sản phẩm, cung cấp dịch vụ công nghệ số là ngành, nghề ưu đãi đầu tư, được hưởng các ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Sản xuất sản phẩm, cung cấp dịch vụ công nghệ số trọng điểm; sản xuất sản phẩm phần mềm; phát triển hệ thống trí tuệ nhân tạo; nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn; đầu tư xây dựng trung tâm dữ liệu trí tuệ nhân tạo là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Dự án sản xuất sản phẩm công nghệ số trọng điểm; dự án nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn; dự án xây dựng trung tâm dữ liệu trí tuệ nhân tạo có quy mô đầu tư lớn thuộc đối tượng dự án ưu đãi, hỗ trợ đầu tư đặc biệt theo quy định tại Luật Đầu tư thì được hưởng ưu đãi theo quy định của pháp luật về thuế thu nhập doanh nghiệp; đất đai và pháp luật khác có liên quan. Dự án sản xuất sản phẩm công nghệ số trọng điểm; dự án nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn; dự án xây dựng trung tâm dữ liệu trí tuệ nhân tạo được nhà nước hỗ trợ trực tiếp chi phí đầu tư xây dựng nhà máy, hạ tầng kỹ thuật, trang thiết bị máy móc từ nguồn chi đầu tư phát triển từ ngân sách địa phương theo quy định của pháp luật về ngân sách nhà nước và các quy định pháp luật khác có liên quan. Hội đồng nhân dân cấp tỉnh quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ từ ngân sách địa phương cho các dự án quy định tại khoản này phù hợp với điều kiện của địa phương. Doanh nghiệp thực hiện dự án sản xuất sản phẩm công nghệ số trọng điểm, dự án nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn, dự án xây dựng trung tâm dữ liệu trí tuệ nhân tạo được hưởng chế độ ưu tiên theo quy định của pháp luật về hải quan.",
+      "global_page": 12,
+      "score": 33.89800133888356,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:28",
+      "provision_path": "28",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:18:7:0",
+      "article_id": "71/2025/QH15:article:18",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Thúc đẩy hoạt động đào tạo, đào tạo lại, bồi dưỡng về công nghệ số trong hệ thống giáo dục quốc dân; Có chính sách tín dụng ưu đãi về lãi suất, điều kiện và thời hạn vay tiền cho người học ngành đào tạo về công nghệ số theo quy định của pháp luật về giáo dục, tài chính; Có chính sách cấp học bổng, trợ cấp xã hội; miễn, giảm học phí, hỗ trợ tiền học phí và chi phí sinh hoạt cho người học ngành đào tạo về công nghệ số theo quy định của pháp luật về giáo dục, tài chính; Phát triển nền tảng dạy và học trực tuyến mở, mô hình đào tạo công nghệ số thích ứng với quá trình chuyển đổi số, đào tạo liên ngành kết hợp giữa công nghệ số và các ngành, lĩnh vực khác; đ) Hỗ trợ đầu tư cơ sở vật chất bao gồm thiết bị đào tạo, phòng thí nghiệm, bản quyền phần mềm, nền tảng số dùng chung và công cụ kỹ thuật cần thiết khác phục vụ đào tạo nhân lực công nghiệp công nghệ số. Nhà nước có chính sách hỗ trợ phát triển nhân lực công nghiệp công nghệ số trong doanh nghiệp và cơ quan nhà nước như sau: Hỗ trợ đánh giá kỹ năng công nghệ số; Hỗ trợ hợp tác, kết nối giữa doanh nghiệp với viện nghiên cứu, cơ sở giáo dục đại học, cơ sở giáo dục nghề nghiệp trong đào tạo nhân lực công nghiệp công nghệ số, trong đó ưu tiên doanh nghiệp nhỏ và vừa; Tổ chức tập huấn, bồi dưỡng nâng cao kiến thức, kỹ năng công nghệ số cho nhân lực công nghiệp công nghệ số; Hỗ trợ thu nhập tăng thêm đối với người làm công tác chuyên trách về công nghiệp công nghệ số theo vị trí việc làm được cơ quan, người có thẩm quyền phê duyệt. Địa phương có chính sách hỗ trợ phát triển nhân lực công nghiệp công nghệ số làm việc tại các dự án nghiên cứu, sản xuất sản phẩm công nghệ số trọng điểm, chip bán dẫn, hệ thống trí tuệ nhân tạo như sau: Hỗ trợ một phần chi phí thuê nhân lực công nghiệp công nghệ số chất lượng cao; Hỗ trợ một phần chi phí đào tạo, đào tạo lại, bồi dưỡng nâng cao chất lượng nguồn nhân lực của doanh nghiệp. Khuyến khích các tổ chức, cá nhân đào tạo, đào tạo lại, bồi dưỡng, đánh giá, công nhận kỹ năng công nghệ số của người học theo các chuẩn quốc tế, chuẩn khu vực, chuẩn nước ngoài được công nhận rộng rãi. Trách nhiệm của Bộ, cơ quan ngang Bộ, Hội đồng nhân dân cấp tỉnh: Bộ Giáo dục và Đào tạo thực hiện quy định tại khoản 1 Điều này; Bộ Khoa học và Công nghệ thực hiện quy định tại khoản 2 Điều này từ nguồn tài chính cho phát triển công nghiệp công nghệ số quy định",
+      "global_page": 7,
+      "score": 33.393021155061554,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:18",
+      "provision_path": "18",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:11:4:0",
+      "article_id": "71/2025/QH15:article:11",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Tài chính cho phát triển công nghiệp công nghệ số Nguồn tài chính cho phát triển công nghiệp công nghệ số: Nguồn ngân sách nhà nước cho khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số theo quy định của pháp luật về ngân sách nhà nước; khoa học, công nghệ và đổi mới sáng tạo; chuyển đổi số; Nguồn ngân sách nhà nước chi đầu tư phát triển và chi thường xuyên cho các hoạt động kinh tế theo quy định của pháp luật về ngân sách nhà nước; Quỹ hỗ trợ đầu tư theo quy định của pháp luật về đầu tư; Nguồn vốn vay, đóng góp, tài trợ, đầu tư của các doanh nghiệp, tổ chức, cá nhân trong và ngoài nước bao gồm Quỹ phát triển khoa học và công nghệ của doanh nghiệp và các quỹ, nguồn tài chính hợp pháp khác theo quy định của pháp luật. Việc lập kế hoạch, dự toán, phân bổ, quản lý, sử dụng ngân sách nhà nước hàng năm quy định tại điểm a khoản 1 Điều này thực hiện theo quy định của pháp luật về ngân sách nhà nước; khoa học, công nghệ và đổi mới sáng tạo; đầu tư công; chuyển đổi số. Chính phủ quy định nội dung chi, lập dự toán, phân bổ, quản lý, sử dụng nguồn tài chính quy định tại điểm a khoản 1 Điều này; hướng dẫn sử dụng các nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại khoản 1 Điều này.",
+      "global_page": 4,
+      "score": 32.5763471902125,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:11",
+      "provision_path": "11",
+      "effectivity_mode": "explicit_date",
+      "trigger_reference": NaN
+    }
+  ]
+}

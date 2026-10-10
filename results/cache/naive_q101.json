@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại 01/07/2026, Luật Dân số có hiệu lực nhưng các điểm c và d khoản 1 Điều 14 chưa có hiệu lực; tình huống này được giải thích bằng sự khác nhau giữa hiệu lực chung và hiệu lực riêng như thế nào?",
+  "answer": "Theo các văn bản được trích dẫn:\n\n- **Hiệu lực chung của Luật**: Theo Điều 30.1 (Context 3), “Luật này có hiệu lực kể từ ngày 01 tháng 7 năm 2026, tr",
+  "latency_ms": 3960.196999949403,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.2:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Quy định tại điểm c và điểm d khoản 1 Điều 14 của Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2027.",
+      "global_page": 12,
+      "score": 0.6435946226119995,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:30.2",
+      "provision_path": "30.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 0.6231236457824707,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.1:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Luật này có hiệu lực kể từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này.",
+      "global_page": 12,
+      "score": 0.6091017127037048,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:30.1",
+      "provision_path": "30.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:44:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Hiệu lực thi hành",
+      "global_page": 19,
+      "score": 0.6077309250831604,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:44",
+      "provision_path": "44",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:article:30:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "Hiệu lực thi hành",
+      "global_page": 12,
+      "score": 0.6077309250831604,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:article:30",
+      "provision_path": "30",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

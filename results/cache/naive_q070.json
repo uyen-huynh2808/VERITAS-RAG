@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một người lao động gia nhập doanh nghiệp sau khi thỏa ước lao động tập thể đã có hiệu lực; tại ngày gia nhập, họ có phải thực hiện thỏa ước đang có hiệu lực không?",
+  "answer": "Có. Theo Điều 79 của Luật Lao động 45/2019/QH14:  \n\n> “Người sử dụng lao động, người lao động, **bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực**, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực.”  \n\nDo đó, khi người lao động mới gia nhập doanh nghiệp sau khi thỏa ước lao động tập thể đã có hiệu lực, họ phải tuân thủ các quy định, quyền lợi và nghĩa vụ được quy định trong thỏa ước đó.",
+  "latency_ms": 12901.470400043763,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:79:27:0",
+      "article_id": "45/2019/QH14:article:79",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Thực hiện thỏa ước lao động tập thể tại doanh nghiệp Người sử dụng lao động, người lao động, bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực. Trường hợp quyền, nghĩa vụ và lợi ích của các bên trong hợp đồng lao động đã giao kết trước ngày thỏa ước lao động tập thể có hiệu lực thấp hơn quy định tương ứng của thỏa ước lao động tập thể thì phải thực hiện theo thỏa ước lao động tập thể. Quy định của người sử dụng lao động chưa phù hợp với thỏa ước lao động tập thể thì phải được sửa đổi cho phù hợp; trong thời gian chưa sửa đổi thì thực hiện theo nội dung tương ứng của thỏa ước lao động tập thể. Khi một bên cho rằng bên kia thực hiện không đầy đủ hoặc vi phạm thỏa ước lao động tập thể thì có quyền yêu cầu thi hành đúng thỏa ước lao động tập thể và các bên có trách nhiệm cùng xem xét giải quyết; nếu không giải quyết được, mỗi bên đều có quyền yêu cầu giải quyết tranh chấp lao động tập thể theo quy định của pháp luật.",
+      "global_page": 27,
+      "score": 0.7850308418273926,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:79",
+      "provision_path": "79",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",
+      "article_id": "45/2019/QH14:article:78",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hiệu lực và thời hạn của thỏa ước lao động tập thể Ngày có hiệu lực của thỏa ước lao động tập thể do các bên thỏa thuận và được ghi trong thỏa ước. Trường hợp các bên không thỏa thuận ngày có hiệu lực thì thỏa ước lao động tập thể có hiệu lực kể từ ngày ký kết. Thỏa ước lao động tập thể sau khi có hiệu lực phải được các bên tôn trọng thực hiện. Thỏa ước lao động tập thể doanh nghiệp có hiệu lực áp dụng đối với người sử dụng lao động và toàn bộ người lao động của doanh nghiệp. Thỏa ước lao động tập thể ngành và thỏa ước lao động tập thể có nhiều",
+      "global_page": 26,
+      "score": 0.7120972871780396,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:78",
+      "provision_path": "78",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:27:0",
+      "article_id": "45/2019/QH14:article:78",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "doanh nghiệp có hiệu lực áp dụng đối với toàn bộ người sử dụng lao động và người lao động của các doanh nghiệp tham gia thỏa ước lao động tập thể. Thỏa ước lao động tập thể có thời hạn từ 01 năm đến 03 năm. Thời hạn cụ thể do các bên thỏa thuận và ghi trong thỏa ước lao động tập thể. Các bên có quyền thỏa thuận thời hạn khác nhau đối với các nội dung của thỏa ước lao động tập thể.",
+      "global_page": 27,
+      "score": 0.6768321990966797,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:78",
+      "provision_path": "78",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:80:27:0",
+      "article_id": "45/2019/QH14:article:80",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Thực hiện thỏa ước lao động tập thể doanh nghiệp trong trường hợp chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp Trường hợp chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp thì người sử dụng lao động kế tiếp và tổ chức đại diện người lao động có quyền thương lượng theo quy định tại Điều 68 của Bộ luật này căn cứ vào phương án sử dụng lao động để xem xét lựa chọn việc tiếp tục thực hiện, sửa đổi, bổ sung thỏa ước lao động tập thể doanh nghiệp cũ hoặc thương lượng để ký kết thỏa ước lao động tập thể mới. Trường hợp thỏa ước lao động tập thể doanh nghiệp hết hiệu lực do người sử dụng lao động chấm dứt hoạt động thì quyền lợi của người lao động được giải quyết theo quy định của pháp luật.",
+      "global_page": 27,
+      "score": 0.6689586639404297,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:80",
+      "provision_path": "80",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:85:28:0",
+      "article_id": "45/2019/QH14:article:85",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Gia nhập và rút khỏi thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp Doanh nghiệp có thể gia nhập thỏa ước lao động tập thể ngành, thỏa ước lao động tập thể có nhiều doanh nghiệp khi có sự đồng thuận của tất cả người sử dụng lao động và tổ chức đại diện người lao động tại doanh nghiệp là thành viên của thỏa ước, trừ trường hợp quy định tại khoản 1 Điều 84 của Bộ luật này. Doanh nghiệp thành viên của thỏa ước lao động tập thể ngành, thỏa ước lao động tập thể có nhiều doanh nghiệp được rút khỏi thỏa ước lao động tập thể khi có sự đồng thuận của tất cả người sử dụng lao động và tổ chức đại diện người lao động tại doanh nghiệp là thành viên của thỏa ước, trừ trường hợp có khó khăn đặc biệt trong hoạt động sản xuất, kinh doanh. Chính phủ quy định chi tiết Điều này.",
+      "global_page": 28,
+      "score": 0.641626238822937,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:85",
+      "provision_path": "85",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

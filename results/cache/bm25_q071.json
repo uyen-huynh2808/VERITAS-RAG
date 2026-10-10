@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một khoản đóng bảo hiểm xã hội bắt buộc theo luật cũ chưa được người sử dụng lao động đóng đủ đến hết 30/06/2025; từ 01/07/2025 khoản này được xử lý theo cơ chế nào của Luật mới?",
+  "answer": "Theo quy định trong Điều 141.10 của Luật mới, nếu khoản bảo hiểm xã hội bắt buộc (cũng như bảo hiểm thất nghiệp) mà người sử dụng lao động phải nộp theo Luật cũ chưa được đóng đủ đến hết ngày 30 / 06 / 2025, thì kể từ ngày 01 / 07 / 2025 khoản này sẽ được xử lý theo **các quy định về chậm đóng và trốn đóng** của Luật bảo hiểm xã hội hiện hành.",
+  "latency_ms": 21139.523299993016,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",
+      "article_id": "41/2024/QH15:article:141",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "10. Người lao động có từ đủ 15 năm đóng bảo hiểm xã hội trở lên và có văn bản của cơ quan bảo hiểm xã hội xác nhận về việc chờ đủ điều kiện về tuổi đời để hưởng lương hưu được quy định tại Nghị định số 12/CP ngày 26 tháng 01 năm 1995 được sửa đổi, bổ sung một số điều theo Nghị định số 01/2003/NĐ-CP ngày 09 tháng 01 năm 2003 của Chính phủ thì được hưởng lương hưu khi nam đủ 60 tuổi, nữ đủ 55 tuổi. Cán bộ xã thuộc đối tượng điều chỉnh của Nghị định số 09/1998/NĐ-CP ngày 23 tháng 01 năm 1998 của Chính phủ đã có quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng trợ cấp hằng tháng của cơ quan bảo hiểm xã hội thì được hưởng trợ cấp hằng tháng khi nam đủ 55 tuổi, nữ đủ 50 tuổi. Đối tượng quy định tại điểm a, b, c, d, đ, g và i khoản 1 Điều 2 của Luật này đã tham gia bảo hiểm xã hội trước ngày Luật này có hiệu lực thi hành mà có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì mức lương hưu hằng tháng thấp nhất bằng mức tham chiếu. Đối với số tiền bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp mà người sử dụng lao động có trách nhiệm đóng theo quy định của Luật số 58/2014/QH13, Luật Việc làm số 38/2013/QH13 nhưng đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này. Khi chưa bãi bỏ mức lương cơ sở thì mức tham chiếu quy định tại Luật này bằng mức lương cơ sở. Tại thời điểm mức lương cơ sở bị bãi bỏ thì mức tham chiếu không thấp hơn mức lương cơ sở đó. Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật số 58/2014/QH13 được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026. Chính phủ quy định chi tiết Điều này. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 7 thông qua ngày 29 tháng 6 năm 2024. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn",
+      "global_page": 63,
+      "score": 54.53856496268711,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:provision:141.10",
+      "provision_path": "141.10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:39:21:0",
+      "article_id": "41/2024/QH15:article:39",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp là hành vi của người sử dụng lao động thuộc một trong các trường hợp sau đây để không đóng hoặc đóng không đầy đủ bảo hiểm xã hội, bảo hiểm thất nghiệp cho người lao động: Sau 60 ngày kể từ ngày hết thời hạn quy định tại khoản 1 Điều 28 của Luật này mà người sử dụng lao động không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm xã hội bắt buộc; Sau 60 ngày kể từ ngày hết thời hạn phải tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp mà người sử dụng lao động không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm thất nghiệp; Đăng ký tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc thấp hơn quy định tại khoản 1 Điều 31 của Luật này; Đăng ký tiền lương làm căn cứ đóng bảo hiểm thất nghiệp thấp hơn quy định của pháp luật về bảo hiểm thất nghiệp; đ) Không đóng hoặc đóng không đầy đủ số tiền đã đăng ký bảo hiểm xã hội bắt buộc sau 60 ngày kể từ ngày đóng bảo hiểm xã hội bắt buộc chậm nhất quy định tại khoản 4 Điều 34 của Luật này và đã được cơ quan có thẩm quyền đôn đốc theo quy định tại Điều 35 của Luật này;",
+      "global_page": 21,
+      "score": 52.86438345442426,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:39",
+      "provision_path": "39",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:38:21:0",
+      "article_id": "41/2024/QH15:article:38",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp là hành vi của người sử dụng lao động thuộc một trong các trường hợp sau đây: Chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng theo hồ sơ tham gia bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp đã đăng ký kể từ sau ngày đóng bảo hiểm xã hội chậm nhất quy định tại khoản 4 Điều 34 của Luật này hoặc kể từ sau ngày đóng bảo hiểm thất nghiệp chậm nhất theo quy định của pháp luật về bảo hiểm thất nghiệp, trừ trường hợp quy định tại điểm đ và điểm e khoản 1 Điều 39 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm xã hội bắt buộc trong thời hạn 60 ngày kể từ ngày hết thời hạn quy định tại khoản 1 Điều 28 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm thất nghiệp trong thời hạn 60 ngày kể từ ngày hết thời hạn phải tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp; Thuộc trường hợp không bị coi là trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp theo quy định tại khoản 2 Điều 39 của Luật này.",
+      "global_page": 21,
+      "score": 52.504756965501876,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:38",
+      "provision_path": "38",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:5:5:0",
+      "article_id": "41/2024/QH15:article:5",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Nguyên tắc bảo hiểm xã hội Mức hưởng bảo hiểm xã hội bắt buộc và bảo hiểm xã hội tự nguyện được tính trên cơ sở mức đóng và thời gian đóng bảo hiểm xã hội; có chia sẻ giữa những người tham gia bảo hiểm xã hội theo quy định của Luật này. Mức đóng bảo hiểm xã hội bắt buộc được tính trên cơ sở tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc. Mức đóng bảo hiểm xã hội tự nguyện được tính trên cơ sở thu nhập làm căn cứ đóng bảo hiểm xã hội tự nguyện do người tham gia lựa chọn. Người vừa có thời gian đóng bảo hiểm xã hội bắt buộc vừa có thời gian đóng bảo hiểm xã hội tự nguyện được hưởng chế độ trợ cấp hằng tháng, chế độ hưu trí và chế độ tử tuất trên cơ sở thời gian đã đóng bảo hiểm xã hội bắt buộc và bảo hiểm xã hội tự nguyện. Thời gian đóng bảo hiểm xã hội đã được tính hưởng bảo hiểm xã hội một lần thì không được tính vào thời gian làm cơ sở tính hưởng chế độ bảo hiểm xã hội. Quỹ bảo hiểm xã hội được quản lý tập trung, thống nhất, công khai, minh bạch; được sử dụng đúng mục đích và được hạch toán độc lập theo các quỹ thành phần, các nhóm đối tượng thực hiện chế độ tiền lương do Nhà nước quy định và chế độ tiền lương do người sử dụng lao động quyết định. Việc thực hiện bảo hiểm xã hội phải đơn giản, dễ dàng, thuận tiện, bảo đảm kịp thời và đầy đủ quyền lợi của người tham gia, người thụ hưởng chế độ bảo hiểm xã hội. Thời gian đóng bảo hiểm xã hội tối thiểu để xác định điều kiện hưởng lương hưu và trợ cấp tuất hằng tháng tính theo năm, một năm phải tính đủ 12 tháng. Trường hợp tính mức hưởng, thời gian đóng bảo hiểm xã hội có tháng lẻ từ 01 tháng đến 06 tháng được tính là nửa năm, từ 07 tháng đến 11 tháng được tính là một năm. Việc giải quyết các chế độ bảo hiểm xã hội được xác định theo quy định của pháp luật về bảo hiểm xã hội tại thời điểm hưởng chế độ bảo hiểm xã hội.",
+      "global_page": 5,
+      "score": 51.015778461889084,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:5",
+      "provision_path": "5",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:58:30:0",
+      "article_id": "41/2024/QH15:article:58",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Lao động nữ sinh con nhưng không đủ điều kiện quy định tại khoản 2 hoặc khoản 3 hoặc khoản 5 Điều 50 của Luật này mà người chồng có đủ điều kiện quy định tại khoản 2 Điều 50 của Luật này thì người chồng được trợ cấp một lần. Lao động nữ mang thai hộ có đủ điều kiện theo quy định tại khoản 2 hoặc khoản 3 Điều 50 của Luật này thì được trợ cấp một lần khi sinh con. Trường hợp người mang thai hộ không tham gia bảo hiểm xã hội bắt buộc hoặc không đủ điều kiện thì người mẹ nhờ mang thai hộ đã đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 12 tháng tính đến thời điểm nhận con được trợ cấp một lần. Trường hợp người mang thai hộ, người mẹ nhờ mang thai hộ không tham gia bảo hiểm xã hội bắt buộc hoặc không đủ điều kiện thì người chồng của người mẹ nhờ mang thai hộ đã đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 12 tháng tính đến thời điểm nhận con được trợ cấp một lần. Trường hợp người mang thai hộ, người mẹ nhờ mang thai hộ và người chồng của người mẹ nhờ mang thai hộ không tham gia bảo hiểm xã hội bắt buộc hoặc không đủ điều kiện thì người chồng của người mang thai hộ đã đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 12 tháng tính đến thời điểm người mang thai hộ sinh con được trợ cấp một lần. Người lao động nhận nuôi con nuôi dưới 06 tháng tuổi đủ điều kiện theo quy định tại khoản 2 Điều 50 của Luật này thì được trợ cấp một lần. Mức trợ cấp một lần cho mỗi con quy định tại các khoản 1, 2 và 3 Điều này bằng 02 lần mức tham chiếu tại tháng lao động nữ sinh con, nhận con do nhờ mang thai hộ, nhận nuôi con nuôi.",
+      "global_page": 30,
+      "score": 50.133473142237115,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:58",
+      "provision_path": "58",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

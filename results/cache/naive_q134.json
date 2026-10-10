@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/07/2025,nếu cần xác định xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết 30/06/2025, nên truy xuất điều khoản chuyển tiếp nào?",
+  "answer": "Để xác định cách xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết ngày 30/06/2025, cần truy xuất **điều 38 (Provision 38) – “Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp”** của Nghị định 41/2024/QH15 (tài liệu: 41/2024/QH15:article:38).",
+  "latency_ms": 19267.01690000482,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:33:19:0",
+      "article_id": "41/2024/QH15:article:33",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Trường hợp thời gian đóng bảo hiểm xã hội bắt buộc còn thiếu tối đa 06 tháng để đủ điều kiện hưởng lương hưu hoặc trợ cấp tuất hằng tháng thì người lao động hoặc thân nhân của người lao động được đóng tiếp một lần cho số tháng còn thiếu với mức đóng hằng tháng bằng tổng mức đóng của người lao động và người sử dụng lao động trước khi người lao động nghỉ việc hoặc chết vào quỹ hưu trí và tử tuất. Thời gian đóng tiếp không được tính là thời gian làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành hoặc thời gian làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn. Trường hợp người lao động chấm dứt đóng bảo hiểm xã hội bắt buộc mà thời gian đóng bảo hiểm xã hội còn thiếu trên 06 tháng để đủ điều kiện hưởng lương hưu thì có quyền đóng tiếp bảo hiểm xã hội tự nguyện. Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định chi tiết khoản 7 Điều này.",
+      "global_page": 19,
+      "score": 0.5939127206802368,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:33",
+      "provision_path": "33",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:18:11:1",
+      "article_id": "41/2024/QH15:article:18",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "tăng trưởng quỹ bảo hiểm xã hội, quỹ bảo hiểm thất nghiệp, quỹ bảo hiểm y tế theo quyết định của Hội đồng quản lý bảo hiểm xã hội. Thực hiện công tác thống kê, kế toán tài chính về bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế. Tập huấn và hướng dẫn nghiệp vụ về bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế. Thực hiện chế độ báo cáo như sau: Định kỳ 03 tháng, báo cáo Hội đồng quản lý bảo hiểm xã hội tình hình thực hiện chính sách, chế độ bảo hiểm xã hội, bảo hiểm thất nghiệp, bảo hiểm y tế; Định kỳ 06 tháng, báo cáo Bộ Lao động - Thương binh và Xã hội về tình hình thực hiện chính sách, chế độ bảo hiểm xã hội bắt buộc, bảo hiểm xã hội tự nguyện, bảo hiểm thất nghiệp; báo cáo Bộ Y tế về tình hình",
+      "global_page": 11,
+      "score": 0.5624717473983765,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:18",
+      "provision_path": "18",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:39:21:0",
+      "article_id": "41/2024/QH15:article:39",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp là hành vi của người sử dụng lao động thuộc một trong các trường hợp sau đây để không đóng hoặc đóng không đầy đủ bảo hiểm xã hội, bảo hiểm thất nghiệp cho người lao động: Sau 60 ngày kể từ ngày hết thời hạn quy định tại khoản 1 Điều 28 của Luật này mà người sử dụng lao động không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm xã hội bắt buộc; Sau 60 ngày kể từ ngày hết thời hạn phải tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp mà người sử dụng lao động không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm thất nghiệp; Đăng ký tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc thấp hơn quy định tại khoản 1 Điều 31 của Luật này; Đăng ký tiền lương làm căn cứ đóng bảo hiểm thất nghiệp thấp hơn quy định của pháp luật về bảo hiểm thất nghiệp; đ) Không đóng hoặc đóng không đầy đủ số tiền đã đăng ký bảo hiểm xã hội bắt buộc sau 60 ngày kể từ ngày đóng bảo hiểm xã hội bắt buộc chậm nhất quy định tại khoản 4 Điều 34 của Luật này và đã được cơ quan có thẩm quyền đôn đốc theo quy định tại Điều 35 của Luật này;",
+      "global_page": 21,
+      "score": 0.561585545539856,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:39",
+      "provision_path": "39",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:92:45:0",
+      "article_id": "41/2024/QH15:article:92",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Giải quyết hưởng chế độ bảo hiểm xã hội bắt buộc chậm so với thời hạn quy định Trường hợp nộp hồ sơ quá thời hạn quy định tại khoản 1 và khoản 2 Điều 48, khoản 1 Điều 49, khoản 1 Điều 62, khoản 1 Điều 63, khoản 1 Điều 79, khoản 1 và khoản 2 Điều 91 của Luật này thì phải giải trình",
+      "global_page": 45,
+      "score": 0.559154748916626,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:92",
+      "provision_path": "92",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:38:21:0",
+      "article_id": "41/2024/QH15:article:38",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp là hành vi của người sử dụng lao động thuộc một trong các trường hợp sau đây: Chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng theo hồ sơ tham gia bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp đã đăng ký kể từ sau ngày đóng bảo hiểm xã hội chậm nhất quy định tại khoản 4 Điều 34 của Luật này hoặc kể từ sau ngày đóng bảo hiểm thất nghiệp chậm nhất theo quy định của pháp luật về bảo hiểm thất nghiệp, trừ trường hợp quy định tại điểm đ và điểm e khoản 1 Điều 39 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm xã hội bắt buộc trong thời hạn 60 ngày kể từ ngày hết thời hạn quy định tại khoản 1 Điều 28 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm thất nghiệp trong thời hạn 60 ngày kể từ ngày hết thời hạn phải tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp; Thuộc trường hợp không bị coi là trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp theo quy định tại khoản 2 Điều 39 của Luật này.",
+      "global_page": 21,
+      "score": 0.5538254976272583,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:38",
+      "provision_path": "38",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

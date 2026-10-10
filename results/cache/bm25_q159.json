@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một chính sách hỗ trợ sinh con thuộc điểm c khoản 1 Điều 14 được hỏi đúng ngày 01/07/2026; để xác định có thể áp dụng ngay hay phải chờ, cần đối chiếu quy định nội dung với điều khoản hiệu lực nào?",
+  "answer": "Để xác định xem chính sách hỗ trợ sinh con (điểm c khoản 1 Điều 14) có thể áp dụng ngay hay phải chờ, cần đối chiếu với **quy định về thời gian hiệu lực của điểm c khoản 1 Điều 14**:\n\n- **Tài liệu 113/2025/QH15, Điều 30, khoản 2 (provision 30.2)**:  \n  “Quy định tại điểm c và điểm d khoản 1 Điều 14 của Luật này có hiệu lực thi hành từ ngày **01 tháng 01",
+  "latency_ms": 14860.982800018974,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.2:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Quy định tại điểm c và điểm d khoản 1 Điều 14 của Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2027.",
+      "global_page": 12,
+      "score": 42.517197569832575,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:30.2",
+      "provision_path": "30.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 41.853790760067696,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.3.h:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "h) Sửa đổi, bổ sung điểm đ khoản 1 Điều 79 như sau: “đ) Trường hợp một đối tượng được hưởng nhiều chính sách hỗ trợ khác nhau thì được hưởng một chính sách hỗ trợ mức cao nhất; trường hợp các đối tượng có cùng tiêu chuẩn và điều kiện thì thực hiện hỗ trợ 07/10/2026, 22:15 about:blank about:blank 11/12",
+      "global_page": 11,
+      "score": 38.668188070240944,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.3.h",
+      "provision_path": "29.3.h",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",
+      "article_id": "41/2024/QH15:article:141",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "10. Người lao động có từ đủ 15 năm đóng bảo hiểm xã hội trở lên và có văn bản của cơ quan bảo hiểm xã hội xác nhận về việc chờ đủ điều kiện về tuổi đời để hưởng lương hưu được quy định tại Nghị định số 12/CP ngày 26 tháng 01 năm 1995 được sửa đổi, bổ sung một số điều theo Nghị định số 01/2003/NĐ-CP ngày 09 tháng 01 năm 2003 của Chính phủ thì được hưởng lương hưu khi nam đủ 60 tuổi, nữ đủ 55 tuổi. Cán bộ xã thuộc đối tượng điều chỉnh của Nghị định số 09/1998/NĐ-CP ngày 23 tháng 01 năm 1998 của Chính phủ đã có quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng trợ cấp hằng tháng của cơ quan bảo hiểm xã hội thì được hưởng trợ cấp hằng tháng khi nam đủ 55 tuổi, nữ đủ 50 tuổi. Đối tượng quy định tại điểm a, b, c, d, đ, g và i khoản 1 Điều 2 của Luật này đã tham gia bảo hiểm xã hội trước ngày Luật này có hiệu lực thi hành mà có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì mức lương hưu hằng tháng thấp nhất bằng mức tham chiếu. Đối với số tiền bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp mà người sử dụng lao động có trách nhiệm đóng theo quy định của Luật số 58/2014/QH13, Luật Việc làm số 38/2013/QH13 nhưng đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này. Khi chưa bãi bỏ mức lương cơ sở thì mức tham chiếu quy định tại Luật này bằng mức lương cơ sở. Tại thời điểm mức lương cơ sở bị bãi bỏ thì mức tham chiếu không thấp hơn mức lương cơ sở đó. Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật số 58/2014/QH13 được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026. Chính phủ quy định chi tiết Điều này. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 7 thông qua ngày 29 tháng 6 năm 2024. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn",
+      "global_page": 63,
+      "score": 38.2740369113891,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:provision:141.10",
+      "provision_path": "141.10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:87:43:0",
+      "article_id": "41/2024/QH15:article:87",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Mức trợ cấp tuất hằng tháng Mức trợ cấp tuất hằng tháng đối với mỗi thân nhân bằng 50% mức tham chiếu; trường hợp thân nhân không có người trực tiếp nuôi dưỡng thì mức trợ cấp tuất hằng tháng bằng 70% mức tham chiếu. Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định việc xác định thân nhân không có người trực tiếp nuôi dưỡng. Trường hợp một người chết hoặc bị Tòa án tuyên bố là đã chết thuộc đối tượng quy định tại khoản 1 Điều 86 của Luật này thì số thân nhân được hưởng trợ cấp tuất hằng tháng tối đa 04 người; trường hợp có từ 02 người chết hoặc bị Tòa án tuyên bố là đã chết trở lên thì thân nhân được hưởng 02 lần mức trợ cấp quy định tại khoản 1 Điều này. Thời điểm hưởng trợ cấp tuất hằng tháng được tính kể từ ngày đầu tiên của tháng liền kề sau tháng mà đối tượng quy định tại khoản 1 Điều 86 của Luật này chết hoặc bị Tòa án tuyên bố là đã chết. Trường hợp con được sinh sau thời điểm người cha, người cha là chồng của người mẹ nhờ mang thai hộ hoặc người mẹ nhờ mang thai hộ chết thì thời điểm hưởng trợ cấp tuất hằng tháng của con tính từ tháng con được sinh.",
+      "global_page": 43,
+      "score": 36.59504299529872,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:87",
+      "provision_path": "87",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

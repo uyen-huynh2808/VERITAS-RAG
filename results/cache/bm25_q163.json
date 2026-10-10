@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Bộ luật Lao động 45/2019/QH14 sửa đổi khoản nào của Luật Bảo hiểm xã hội 58/2014/QH13 về điều kiện hưởng lương hưu nói chung?",
+  "answer": "Bộ luật Lao động 45/2019/QH14 đã sửa đổi **Điều 54** của Luật Bảo hiểm xã hội số 58/2014/QH13, quy định về điều kiện hưởng lương hưu.",
+  "latency_ms": 17692.97239999287,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 63.893141957309496,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 42.36482777142497,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung một số điều của Bộ luật Lao động số 45/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2025/QH15 và Luật số 113/2025/QH15 như sau:",
+      "global_page": 18,
+      "score": 40.018802551343136,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1",
+      "provision_path": "43.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:66:0",
+      "article_id": "45/2019/QH14:article:219",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động Sửa đổi, bổ sung một số điều của Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung theo Luật số 84/2015/QH13 và Luật số 35/2018/QH14: Sửa đổi, bổ sung Điều 54 như sau: ' Điều 54. Điều kiện hưởng lương hưu Người lao động quy định tại các điểm a, b, c, d, g, h và i khoản 1 Điều 2 của Luật này, trừ trường hợp quy định tại khoản 3 Điều này, khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên thì được hưởng lương hưu nếu thuộc một trong các trường hợp sau đây: Đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Đủ tuổi theo quy định tại khoản 3 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành hoặc có đủ 15 năm làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn bao gồm cả thời gian làm việc ở nơi có phụ cấp khu vực hệ số 0,7 trở lên trước ngày 01 tháng 01 năm 2021; Người lao động có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu của người lao động quy định tại khoản 2 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm công việc khai thác than trong hầm lò; Người bị nhiễm HIV do tai nạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu khi thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động, trừ trường hợp Luật Sĩ quan Quân đội nhân dân Việt Nam, Luật Công an nhân dân, Luật Cơ yếu, Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng có quy định khác; Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 3 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành hoặc có đủ 15 năm làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn bao gồm cả thời gian làm việc ở nơi có phụ cấp khu vực hệ số 0,7 trở lên",
+      "global_page": 66,
+      "score": 39.75562955218984,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:219",
+      "provision_path": "219",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",
+      "article_id": "41/2024/QH15:article:141",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "10. Người lao động có từ đủ 15 năm đóng bảo hiểm xã hội trở lên và có văn bản của cơ quan bảo hiểm xã hội xác nhận về việc chờ đủ điều kiện về tuổi đời để hưởng lương hưu được quy định tại Nghị định số 12/CP ngày 26 tháng 01 năm 1995 được sửa đổi, bổ sung một số điều theo Nghị định số 01/2003/NĐ-CP ngày 09 tháng 01 năm 2003 của Chính phủ thì được hưởng lương hưu khi nam đủ 60 tuổi, nữ đủ 55 tuổi. Cán bộ xã thuộc đối tượng điều chỉnh của Nghị định số 09/1998/NĐ-CP ngày 23 tháng 01 năm 1998 của Chính phủ đã có quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng trợ cấp hằng tháng của cơ quan bảo hiểm xã hội thì được hưởng trợ cấp hằng tháng khi nam đủ 55 tuổi, nữ đủ 50 tuổi. Đối tượng quy định tại điểm a, b, c, d, đ, g và i khoản 1 Điều 2 của Luật này đã tham gia bảo hiểm xã hội trước ngày Luật này có hiệu lực thi hành mà có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì mức lương hưu hằng tháng thấp nhất bằng mức tham chiếu. Đối với số tiền bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp mà người sử dụng lao động có trách nhiệm đóng theo quy định của Luật số 58/2014/QH13, Luật Việc làm số 38/2013/QH13 nhưng đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này. Khi chưa bãi bỏ mức lương cơ sở thì mức tham chiếu quy định tại Luật này bằng mức lương cơ sở. Tại thời điểm mức lương cơ sở bị bãi bỏ thì mức tham chiếu không thấp hơn mức lương cơ sở đó. Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật số 58/2014/QH13 được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026. Chính phủ quy định chi tiết Điều này. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 7 thông qua ngày 29 tháng 6 năm 2024. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn",
+      "global_page": 63,
+      "score": 38.17757887917167,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:provision:141.10",
+      "provision_path": "141.10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

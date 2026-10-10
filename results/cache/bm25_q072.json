@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Ngày 01/07/2025, Luật Bảo hiểm xã hội 58/2014/QH13 và Nghị quyết 93/2015/QH13 về hưởng bảo hiểm xã hội một lần còn hiệu lực theo điều khoản thi hành của Luật 41/2024/QH15 không?",
+  "answer": "",
+  "latency_ms": 16964.598699938506,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 103.26331761970951,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 67.05042766137191,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",
+      "article_id": "41/2024/QH15:article:141",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "10. Người lao động có từ đủ 15 năm đóng bảo hiểm xã hội trở lên và có văn bản của cơ quan bảo hiểm xã hội xác nhận về việc chờ đủ điều kiện về tuổi đời để hưởng lương hưu được quy định tại Nghị định số 12/CP ngày 26 tháng 01 năm 1995 được sửa đổi, bổ sung một số điều theo Nghị định số 01/2003/NĐ-CP ngày 09 tháng 01 năm 2003 của Chính phủ thì được hưởng lương hưu khi nam đủ 60 tuổi, nữ đủ 55 tuổi. Cán bộ xã thuộc đối tượng điều chỉnh của Nghị định số 09/1998/NĐ-CP ngày 23 tháng 01 năm 1998 của Chính phủ đã có quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng trợ cấp hằng tháng của cơ quan bảo hiểm xã hội thì được hưởng trợ cấp hằng tháng khi nam đủ 55 tuổi, nữ đủ 50 tuổi. Đối tượng quy định tại điểm a, b, c, d, đ, g và i khoản 1 Điều 2 của Luật này đã tham gia bảo hiểm xã hội trước ngày Luật này có hiệu lực thi hành mà có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì mức lương hưu hằng tháng thấp nhất bằng mức tham chiếu. Đối với số tiền bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp mà người sử dụng lao động có trách nhiệm đóng theo quy định của Luật số 58/2014/QH13, Luật Việc làm số 38/2013/QH13 nhưng đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này. Khi chưa bãi bỏ mức lương cơ sở thì mức tham chiếu quy định tại Luật này bằng mức lương cơ sở. Tại thời điểm mức lương cơ sở bị bãi bỏ thì mức tham chiếu không thấp hơn mức lương cơ sở đó. Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật số 58/2014/QH13 được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026. Chính phủ quy định chi tiết Điều này. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 7 thông qua ngày 29 tháng 6 năm 2024. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn",
+      "global_page": 63,
+      "score": 59.79506960013449,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:provision:141.10",
+      "provision_path": "141.10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội số 41/2024/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 73/2025/QH15 và Luật số 84/2025/QH15 như sau: “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.",
+      "global_page": 11,
+      "score": 49.28102161739279,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.2",
+      "provision_path": "29.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:107:50:0",
+      "article_id": "41/2024/QH15:article:107",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Giải quyết hưởng lương hưu, bảo hiểm xã hội một lần đối với người đang bảo lưu thời gian đóng bảo hiểm xã hội, người tham gia bảo hiểm xã hội tự nguyện Trong thời hạn 20 ngày trước thời điểm đủ điều kiện hưởng lương hưu, người đang bảo lưu thời gian đóng bảo hiểm xã hội, người tham gia bảo hiểm xã hội tự nguyện nộp hồ sơ quy định tại Điều 105 của Luật này cho cơ quan bảo hiểm xã hội. Người lao động khi đủ điều kiện và có yêu cầu hưởng bảo hiểm xã hội một lần nộp hồ sơ quy định tại Điều 106 của Luật này cho cơ quan bảo hiểm xã hội. Thời điểm kết thúc ngày cuối cùng của tháng dừng đóng bảo hiểm xã hội hoặc tháng chấm dứt hợp đồng lao động là căn cứ để xác định thời điểm đủ điều kiện giải quyết hưởng bảo hiểm xã hội một lần đối với trường hợp người hưởng bảo hiểm xã hội theo quy định tại điểm đ khoản 1 Điều 102 của Luật này. Trong thời hạn 20 ngày, không bao gồm ngày nghỉ lễ, tết, kể từ ngày nhận đủ hồ sơ theo quy định đối với người đề nghị hưởng lương hưu hoặc trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định đối với người đề nghị hưởng bảo hiểm xã hội một lần, cơ quan bảo hiểm xã hội có trách nhiệm giải quyết; trường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do. Mục 3. CHẾ ĐỘ TỬ TUẤT",
+      "global_page": 50,
+      "score": 47.38772935654481,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:107",
+      "provision_path": "107",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

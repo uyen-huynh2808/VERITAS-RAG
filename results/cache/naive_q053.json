@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Theo Luật Bảo hiểm xã hội, những đối tượng nào thuộc diện tham gia bảo hiểm xã hội tự nguyện?",
+  "answer": "**Các đối tượng được quy định tham gia bảo hiểm xã hội tự nguyện** (theo Điều",
+  "latency_ms": 14068.8216999406,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:2:1",
+      "article_id": "41/2024/QH15:article:2",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "ngoài, tổ chức quốc tế hoạt động trên lãnh thổ Việt Nam; doanh nghiệp, tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã, hộ kinh doanh, tổ chức khác và cá nhân có thuê mướn, sử dụng lao động theo hợp đồng lao động. Đối tượng tham gia bảo hiểm xã hội tự nguyện bao gồm: Công dân Việt Nam từ đủ 15 tuổi trở lên không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc và không phải là người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng; Đối tượng quy định tại điểm a và điểm b khoản 1 Điều này đang tạm hoãn thực hiện hợp đồng lao động, hợp đồng làm việc, trừ trường hợp hai bên có thỏa thuận về việc đóng bảo hiểm xã hội bắt buộc trong thời gian này. Người đồng thời thuộc nhiều đối tượng tham gia bảo hiểm xã hội bắt buộc khác nhau quy định tại khoản 1 Điều này thì việc tham gia bảo hiểm xã hội bắt buộc theo quy định như sau: Đối tượng quy định tại điểm a và điểm l khoản 1 Điều này mà giao kết hợp đồng lao động với nhiều người sử dụng lao động thì tham gia bảo hiểm xã hội bắt buộc theo hợp đồng lao động giao kết đầu tiên. Trường hợp hợp đồng lao động đang sử dụng làm căn cứ tham gia bảo hiểm xã hội bắt buộc đang tạm hoãn thực hiện hợp đồng mà hai bên không có thỏa thuận về việc đóng bảo hiểm xã hội bắt buộc trong thời gian tạm hoãn thì tham gia bảo hiểm xã hội bắt buộc theo thứ tự về thời gian có hiệu lực của hợp đồng được ký kết;",
+      "global_page": 2,
+      "score": 0.7763206958770752,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:1:0",
+      "article_id": "41/2024/QH15:article:2",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đối tượng tham gia bảo hiểm xã hội bắt buộc và bảo hiểm xã hội tự nguyện Người lao động là công dân Việt Nam thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc bao gồm: Người làm việc theo hợp đồng lao động không xác định thời hạn, hợp đồng lao động xác định thời hạn có thời hạn từ đủ 01 tháng trở lên, kể cả trường hợp người lao động và người sử dụng lao động thỏa thuận bằng tên gọi khác nhưng có nội dung thể hiện về việc làm có trả công, tiền lương và sự quản lý, điều hành, giám sát của một bên; Cán bộ, công chức, viên chức; Công nhân và viên chức quốc phòng, công nhân công an, người làm công tác khác trong tổ chức cơ yếu; Sĩ quan, quân nhân chuyên nghiệp quân đội nhân dân; sĩ quan, hạ sĩ quan nghiệp vụ, sĩ quan, hạ sĩ quan chuyên môn kỹ thuật công an nhân dân; người làm công tác cơ yếu hưởng lương như đối với quân nhân; đ) Hạ sĩ quan, binh sĩ quân đội nhân dân; hạ sĩ quan, chiến sĩ nghĩa vụ công an nhân dân; học viên quân đội, công an, cơ yếu đang theo học được hưởng sinh hoạt phí; Dân quân thường trực; Người lao động đi làm việc ở nước ngoài theo hợp đồng quy định tại Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, trừ trường hợp điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác; Vợ hoặc chồng không hưởng lương từ ngân sách nhà nước được cử đi công tác nhiệm kỳ cùng thành viên cơ quan đại diện nước Cộng hòa xã hội chủ nghĩa Việt Nam ở nước ngoài được hưởng chế độ sinh hoạt phí; NHỮNG QUY ĐỊNH CHUNG",
+      "global_page": 1,
+      "score": 0.7076308131217957,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:30:16:0",
+      "article_id": "41/2024/QH15:article:30",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Xác định đối tượng tham gia bảo hiểm xã hội bắt buộc và phát triển đối tượng tham gia bảo hiểm xã hội tự nguyện Cơ quan bảo hiểm xã hội chủ trì, phối hợp với cơ quan, tổ chức, cá nhân có liên quan trong việc xác định và theo dõi đối tượng tham gia bảo hiểm xã hội bắt buộc quy định tại Điều 2 của Luật này; đôn đốc và hướng dẫn việc lập hồ sơ đăng ký tham gia bảo hiểm xã hội bắt buộc. Bộ, cơ quan ngang Bộ, Ủy ban nhân dân các cấp phối hợp với cơ quan bảo hiểm xã hội để tổ chức việc xác định đối tượng tham gia bảo hiểm xã hội bắt buộc. Cơ quan bảo hiểm xã hội chủ trì, phối hợp với cơ quan, tổ chức, cá nhân có liên quan vận động để phát triển đối tượng tham gia bảo hiểm xã hội tự nguyện.",
+      "global_page": 16,
+      "score": 0.6903280019760132,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:30",
+      "provision_path": "30",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:3:0",
+      "article_id": "41/2024/QH15:article:2",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đối tượng quy định tại điểm b và điểm i khoản 1 Điều này đồng thời cũng thuộc đối tượng quy định tại điểm a hoặc điểm l khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng tương ứng quy định tại điểm b hoặc điểm i khoản 1 Điều này; Đối tượng quy định tại điểm i và điểm n khoản 1 Điều này làm việc tại nhiều doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã thì tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, hợp tác xã hoặc liên hiệp hợp tác xã đầu tiên tham gia quản lý, điều hành; Đối tượng quy định tại điểm g và điểm k khoản 1 Điều này đồng thời thuộc đối tượng quy định tại một trong các điểm a, i và l khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng tương ứng quy định tại điểm a, i hoặc l khoản 1 Điều này theo thứ tự đến trước; đ) Đối tượng quy định tại điểm k khoản 1 Điều này đồng thời thuộc đối tượng quy định tại điểm m hoặc điểm n khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng quy định tại điểm k khoản 1 Điều này; Đối tượng quy định tại điểm m và điểm n khoản 1 Điều này đồng thời thuộc nhiều đối tượng quy định tại khoản 1 Điều này thì việc tham gia bảo hiểm xã hội bắt buộc theo quy định của Chính phủ; Đối tượng quy định tại điểm e khoản 1 Điều này đồng thời thuộc đối tượng quy định tại điểm k hoặc điểm m khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng quy định tại điểm e khoản 1 Điều này. Ủy ban Thường vụ Quốc hội quyết định việc tham gia bảo hiểm xã hội bắt buộc đối với đối tượng khác ngoài đối tượng quy định tại khoản 1 Điều này mà có việc làm, thu nhập ổn định, thường xuyên trên cơ sở đề xuất của Chính phủ phù hợp với điều kiện phát triển kinh tế - xã hội từng thời kỳ. Trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc bao gồm: Người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng. Chính phủ quy định đối tượng hưởng trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc; Lao động là người giúp việc gia đình; Đối tượng quy định tại điểm m và điểm n khoản 1 Điều này đã đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động, trừ trường hợp thời gian đóng bảo hiểm xã hội còn thiếu tối đa 06 tháng quy định tại khoản 7 Điều 33 của Luật",
+      "global_page": 3,
+      "score": 0.6778951287269592,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:27:16:0",
+      "article_id": "41/2024/QH15:article:27",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Tờ khai đăng ký tham gia bảo hiểm xã hội của người lao động. Hồ sơ đăng ký tham gia bảo hiểm xã hội bắt buộc của đối tượng quy định tại điểm m và điểm n khoản 1 Điều 2 của Luật này nếu nộp qua người sử dụng lao động thì thực hiện theo quy định tại khoản 1 Điều này, nếu tự nộp thì hồ sơ là tờ khai quy định tại điểm b khoản 1 Điều này. Hồ sơ đăng ký tham gia bảo hiểm xã hội tự nguyện là tờ khai đăng ký tham gia bảo hiểm xã hội của người tham gia bảo hiểm xã hội tự nguyện.",
+      "global_page": 16,
+      "score": 0.6769822835922241,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:27",
+      "provision_path": "27",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

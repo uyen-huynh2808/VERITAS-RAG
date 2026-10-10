@@ -2,6 +2,7 @@ system:
   seed: 42
 
 db:
+  incoming_dir: "data/incoming"
   duckdb_path: "data/silver/lakehouse.duckdb"
   bronze_dir: "data/bronze"
   silver_dir: "data/silver"
@@ -13,10 +14,30 @@ chunking:
   max_tokens: 512
   overlap: 64
 
+parser:
+  prefer_docling: true
+  header_ocr_engine: "torch"
+
 contracts:
   rules_path: "config/contract_rules.json"
 
 models:
   embedding_model: "BAAI/bge-m3"
-  llm_provider: "groq"
+  embedding_batch_size: 16
+  embedding_max_length: 512
   llm_model: "openai/gpt-oss-120b"
+  generation_temperature: 0.0
+  generation_max_tokens: 512
+
+retrieval:
+  top_k: 5
+  bm25_k1: 1.5
+  bm25_b: 0.75
+
+benchmark:
+  questions_path: "data/benchmark/questions.json"
+  output_path: "data/splits/vn_legal_temporal_eval_split.json"
+  gold_path: "data/gold/gold_chunks.parquet"
+  results_dir: "results"
+  cache_dir: "results/cache"
+  contract_metrics_path: "results/contract/contract_metrics.json"

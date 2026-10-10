@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/01/2021, nếu cần xác định người lao động mới vào doanh nghiệp có phải thực hiện thỏa ước đang có hiệu lực, cần truy xuất quy định nào?",
+  "answer": "Để xác định rằng người lao động mới vào doanh nghiệp phải thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực, cần tham khảo **Điều 79** của **Bộ luật Lao động 45/2019/QH14** (điều quy định: “Người sử dụng lao động, người lao động, bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực”).",
+  "latency_ms": 15207.070600008592,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:79:27:0",
+      "article_id": "45/2019/QH14:article:79",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Thực hiện thỏa ước lao động tập thể tại doanh nghiệp Người sử dụng lao động, người lao động, bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực. Trường hợp quyền, nghĩa vụ và lợi ích của các bên trong hợp đồng lao động đã giao kết trước ngày thỏa ước lao động tập thể có hiệu lực thấp hơn quy định tương ứng của thỏa ước lao động tập thể thì phải thực hiện theo thỏa ước lao động tập thể. Quy định của người sử dụng lao động chưa phù hợp với thỏa ước lao động tập thể thì phải được sửa đổi cho phù hợp; trong thời gian chưa sửa đổi thì thực hiện theo nội dung tương ứng của thỏa ước lao động tập thể. Khi một bên cho rằng bên kia thực hiện không đầy đủ hoặc vi phạm thỏa ước lao động tập thể thì có quyền yêu cầu thi hành đúng thỏa ước lao động tập thể và các bên có trách nhiệm cùng xem xét giải quyết; nếu không giải quyết được, mỗi bên đều có quyền yêu cầu giải quyết tranh chấp lao động tập thể theo quy định của pháp luật.",
+      "global_page": 27,
+      "score": 41.72736913608756,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:79",
+      "provision_path": "79",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",
+      "article_id": "45/2019/QH14:article:78",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hiệu lực và thời hạn của thỏa ước lao động tập thể Ngày có hiệu lực của thỏa ước lao động tập thể do các bên thỏa thuận và được ghi trong thỏa ước. Trường hợp các bên không thỏa thuận ngày có hiệu lực thì thỏa ước lao động tập thể có hiệu lực kể từ ngày ký kết. Thỏa ước lao động tập thể sau khi có hiệu lực phải được các bên tôn trọng thực hiện. Thỏa ước lao động tập thể doanh nghiệp có hiệu lực áp dụng đối với người sử dụng lao động và toàn bộ người lao động của doanh nghiệp. Thỏa ước lao động tập thể ngành và thỏa ước lao động tập thể có nhiều",
+      "global_page": 26,
+      "score": 39.10155842555674,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:78",
+      "provision_path": "78",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:20:7:0",
+      "article_id": "45/2019/QH14:article:20",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Loại hợp đồng lao động Hợp đồng lao động phải được giao kết theo một trong các loại sau đây: Hợp đồng lao động không xác định thời hạn là hợp đồng mà trong đó hai bên không xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng; Hợp đồng lao động xác định thời hạn là hợp đồng mà trong đó hai bên xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng. Khi hợp đồng lao động quy định tại điểm b khoản 1 Điều này hết hạn mà người lao động vẫn tiếp tục làm việc thì thực hiện như sau: Trong thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn, hai bên phải ký kết hợp đồng lao động mới; trong thời gian chưa ký kết hợp đồng lao động mới thì quyền, nghĩa vụ và lợi ích của hai bên được thực hiện theo hợp đồng đã giao kết; Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn; Trường hợp hai bên ký kết hợp đồng lao động mới là hợp đồng lao động xác định thời hạn thì cũng chỉ được ký thêm 01 lần, sau đó nếu người lao động vẫn tiếp tục làm việc thì phải ký kết hợp đồng lao động không xác định thời hạn, trừ hợp đồng lao động đối với người được thuê làm giám đốc trong doanh nghiệp có vốn nhà nước và trường hợp quy định tại khoản 1 Điều 149, khoản 2 Điều 151 và khoản 4 Điều 177 của Bộ luật này.",
+      "global_page": 7,
+      "score": 35.87312267720951,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:20",
+      "provision_path": "20",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",
+      "article_id": "45/2019/QH14:article:220",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hiệu lực thi hành Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021. Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp pháp đã giao kết có nội dung không trái hoặc bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định của Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về việc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực lượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã, người làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định nhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ luật này. Bộ luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 8 thông qua ngày 20 tháng 11 năm 2019./. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân",
+      "global_page": 68,
+      "score": 34.738290500679106,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:220",
+      "provision_path": "220",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:27:0",
+      "article_id": "45/2019/QH14:article:78",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "doanh nghiệp có hiệu lực áp dụng đối với toàn bộ người sử dụng lao động và người lao động của các doanh nghiệp tham gia thỏa ước lao động tập thể. Thỏa ước lao động tập thể có thời hạn từ 01 năm đến 03 năm. Thời hạn cụ thể do các bên thỏa thuận và ghi trong thỏa ước lao động tập thể. Các bên có quyền thỏa thuận thời hạn khác nhau đối với các nội dung của thỏa ước lao động tập thể.",
+      "global_page": 27,
+      "score": 33.32867552865495,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:78",
+      "provision_path": "78",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/07/2025, nếu cần xác định thời gian nghỉ của lao động nam khi vợ sinh đôi, nên truy xuất điều khoản nào?",
+  "answer": "Bạn cần tham khảo **khoản 2, mục c) của Điều 29 trong Luật 113/2025/QH15** (Provision 29.2), trong đó quy định: “Trường hợp vợ sinh đôi … thì được nghỉ 10 ngày làm việc”.",
+  "latency_ms": 4742.806100053713,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội số 41/2024/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 73/2025/QH15 và Luật số 84/2025/QH15 như sau: “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.",
+      "global_page": 11,
+      "score": 0.6248070001602173,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.2",
+      "provision_path": "29.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:14.1.a:6:0",
+      "article_id": "113/2025/QH15:article:14",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "a) Trường hợp sinh con thứ hai, thời gian nghỉ thai sản đối với lao động nữ là 07 tháng; lao động nam là 10 ngày làm việc khi vợ sinh con;",
+      "global_page": 6,
+      "score": 0.5823984146118164,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:14.1.a",
+      "provision_path": "14.1.a",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.1:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung khoản 1 Điều 139 của Bộ luật Lao động số 49/2019/QH14 đã được sửa đổi, bổ sung theo Luật số 71/2025/QH15 như sau: “1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; trường hợp sinh con thứ hai, lao động nữ được nghỉ thai sản trước và sau khi sinh con là 07 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ hai trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.”.",
+      "global_page": 11,
+      "score": 0.5659719705581665,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.1",
+      "provision_path": "29.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:115:35:0",
+      "article_id": "45/2019/QH14:article:115",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Nghỉ việc riêng, nghỉ không hưởng lương Người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động trong trường hợp sau đây: Kết hôn: nghỉ 03 ngày; Con đẻ, con nuôi kết hôn: nghỉ 01 ngày; Cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi; cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi của vợ hoặc chồng; vợ hoặc chồng; con đẻ, con nuôi chết: nghỉ 03 ngày.",
+      "global_page": 35,
+      "score": 0.5572457909584045,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:115",
+      "provision_path": "115",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:13.1:5:0",
+      "article_id": "113/2025/QH15:article:13",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Quyết định về thời gian sinh con, số con và khoảng cách giữa các lần sinh phù hợp với lứa tuổi, tình trạng sức khỏe, điều kiện học tập, lao động, thu nhập và nuôi dạy con của mỗi cá nhân, cặp vợ chồng trên cơ sở bình đẳng. 07/10/2026, 22:15 about:blank about:blank 5/12",
+      "global_page": 5,
+      "score": 0.5534613728523254,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:13.1",
+      "provision_path": "13.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

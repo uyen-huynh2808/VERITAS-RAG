@@ -3,17 +3,18 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from datetime import date
 from pathlib import Path
-from typing import List, Optional, Set
+from typing import Any, Dict, List, Optional, Set, Tuple
+from src.core.config import load_system_config
 
 
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
 
-DEFAULT_K = 5
+DEFAULT_K = load_system_config().retrieval.top_k
 
 
 # ---------------------------------------------------------------------------
@@ -27,11 +28,13 @@ class BenchmarkSample:
     t_event: str
     difficulty: str
     category: str
-    gold_doc_ids: List[str]
-    gold_article_ids: List[str]
-    gold_chunk_ids: List[str]
-    gold_answer: str
-    gold_citation_doc_ids: List[str]
+    gold_doc_ids: List[str] = field(default_factory=list)
+    gold_provisions: List[Dict[str, Any]] = field(default_factory=list)
+    gold_chunk_ids: List[str] = field(default_factory=list)
+    gold_answer: str = ""
+    gold_citation_doc_ids: List[str] = field(default_factory=list)
+    # Accepted only for older benchmark files.
+    gold_article_ids: List[str] = field(default_factory=list)
 
 
 @dataclass
@@ -44,6 +47,10 @@ class RetrievedChunk:
     score: float
     effective_from: Optional[str] = None
     effective_to: Optional[str] = None
+    provision_id: Optional[str] = None
+    provision_path: Optional[str] = None
+    effectivity_mode: Optional[str] = None
+    trigger_reference: Optional[str] = None
 
 
 @dataclass
@@ -59,7 +66,8 @@ class EvaluationResult:
     sample_id: str
     model_name: str
     recall_at_k: float
-    temporal_validity: float
+    temporal_validity: Optional[float]
+    temporal_coverage: float
     invalid_citation_rate: float
     faithfulness: float
     latency_ms: float
@@ -75,7 +83,26 @@ def load_dataset(path: str | Path) -> List[BenchmarkSample]:
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
 
-    return [BenchmarkSample(**sample) for sample in data["samples"]]
+    samples = []
+    for raw_sample in data["samples"]:
+        sample = dict(raw_sample)
+        for reference in sample.get("gold_provisions", []):
+            if not isinstance(reference, dict):
+                raise ValueError(
+                    f"Benchmark sample {sample.get('id')} has a non-object "
+                    "gold_provisions entry."
+                )
+            logical_doc_id = reference.get("logical_doc_id")
+            provision_id = reference.get("provision_id")
+            provision_path = reference.get("provision_path")
+            if not logical_doc_id or not (provision_id or provision_path):
+                raise ValueError(
+                    f"Benchmark sample {sample.get('id')} has an invalid "
+                    "gold_provisions entry; expected logical_doc_id and "
+                    "provision_id or provision_path."
+                )
+        samples.append(BenchmarkSample(**sample))
+    return samples
 
 
 # ---------------------------------------------------------------------------
@@ -88,16 +115,45 @@ def retrieval_recall_at_k(
     k: int = DEFAULT_K,
 ) -> float:
     """
-    Retrieval Recall@K at chunk level.
+    Retrieval Recall@K at provision level for the hierarchical benchmark.
+    Legacy files without gold_provisions continue to use gold_chunk_ids.
 
     Only the first K retrieved chunks are evaluated.
-    The benchmark gold set is gold_chunk_ids.
+    Gold provision identity is matched by provision_id when available,
+    otherwise by logical document ID and provision path.
 
     Formula:
-        |gold_chunks ∩ retrieved_top_k| / |gold_chunks|
+        |gold provisions ∩ retrieved top-K provisions| / |gold provisions|
+
+    Legacy samples without provision annotations use chunk IDs instead.
     """
     if k <= 0:
         raise ValueError("k must be > 0")
+
+    gold_provisions: Set[Tuple[str, str, str]] = set()
+    for reference in sample.gold_provisions:
+        logical_doc_id = reference["logical_doc_id"]
+        if reference.get("provision_id"):
+            gold_provisions.add(
+                ("id", logical_doc_id, reference["provision_id"])
+            )
+        elif reference.get("provision_path"):
+            gold_provisions.add(
+                ("path", logical_doc_id, reference["provision_path"])
+            )
+
+    if gold_provisions:
+        retrieved_provisions: Set[Tuple[str, str, str]] = set()
+        for chunk in output.retrieved_chunks[:k]:
+            if chunk.provision_id:
+                retrieved_provisions.add(
+                    ("id", chunk.logical_doc_id, chunk.provision_id)
+                )
+            if chunk.provision_path:
+                retrieved_provisions.add(
+                    ("path", chunk.logical_doc_id, chunk.provision_path)
+                )
+        return len(gold_provisions & retrieved_provisions) / len(gold_provisions)
 
     gold: Set[str] = set(sample.gold_chunk_ids)
 
@@ -143,10 +199,12 @@ def temporal_validity_accuracy(
     sample: BenchmarkSample,
     output: SystemOutput,
     k: int = DEFAULT_K,
-) -> float:
+) -> Optional[float]:
     """
-    Fraction of the top-K retrieved chunks whose temporal interval contains
-    t_event.
+    Fraction of temporally assessable top-K retrieved chunks whose interval
+    contains t_event. Provisions with unknown or externally triggered dates
+    are excluded; temporal_coverage_accuracy reports their share separately.
+    Returns None (N/A) when no retrieved result can be assessed.
 
     Current Gold convention:
         effective_from = required lower bound
@@ -156,7 +214,7 @@ def temporal_validity_accuracy(
         valid iff
             effective_from <= t_event
         AND
-            (effective_to IS NULL OR t_event <= effective_to)
+            (effective_to IS NULL OR t_event < effective_to)
 
     Note:
     This metric evaluates the temporal metadata stored in Gold. It does not
@@ -170,14 +228,15 @@ def temporal_validity_accuracy(
     retrieved_top_k = output.retrieved_chunks[:k]
 
     if not retrieved_top_k:
-        return 0.0
+        return None
 
     t_event = _parse_date(sample.t_event)
 
     if t_event is None:
-        return 0.0
+        return None
 
     valid = 0
+    assessable = 0
 
     for chunk in retrieved_top_k:
         start = _parse_date(chunk.effective_from)
@@ -186,22 +245,39 @@ def temporal_validity_accuracy(
         if start is None:
             continue
 
+        assessable += 1
+
         if start <= t_event and (end is None or t_event < end):
             valid += 1
 
-    return valid / len(retrieved_top_k)
+    return valid / assessable if assessable else None
+
+
+def temporal_coverage_accuracy(
+    sample: BenchmarkSample,
+    output: SystemOutput,
+    k: int = DEFAULT_K,
+) -> float:
+    """Share of top-K retrieved provisions with a known effective_from."""
+    if k <= 0:
+        raise ValueError("k must be > 0")
+
+    retrieved_top_k = output.retrieved_chunks[:k]
+    if not retrieved_top_k:
+        return 0.0
+
+    assessable = sum(
+        _parse_date(chunk.effective_from) is not None
+        for chunk in retrieved_top_k
+    )
+    return assessable / len(retrieved_top_k)
 
 
 # ---------------------------------------------------------------------------
 # Citation extraction
 # ---------------------------------------------------------------------------
 
-# Vietnamese legal-document identifiers such as:
-#   238/2026/NĐ-CP
-#   01/2021/TT-BKHĐT
-#   12/2020/QĐ-TTg
-#   15/2020/QH14
-#   05/2024/NQ-CP
+# Match Vietnamese legal-document identifier structure across document types.
 DOC_PATTERN = re.compile(
     r"\b\d+/\d{4}/[A-ZĐ0-9]+(?:-[A-ZĐ0-9]+)*\b",
     flags=re.IGNORECASE,
@@ -250,9 +326,17 @@ def invalid_citation_rate(
     if not predicted:
         return 0.0
 
+    citation_doc_ids = sample.gold_citation_doc_ids or [
+        reference["logical_doc_id"]
+        for reference in sample.gold_provisions
+        if reference.get("logical_doc_id")
+    ]
+    if not citation_doc_ids:
+        citation_doc_ids = sample.gold_doc_ids
+
     gold = {
         _normalize_unicode(doc_id).upper()
-        for doc_id in sample.gold_citation_doc_ids
+        for doc_id in citation_doc_ids
     }
 
     invalid = predicted - gold
@@ -335,6 +419,7 @@ def evaluate_system(
         model_name=model_name,
         recall_at_k=retrieval_recall_at_k(sample, output, k=k),
         temporal_validity=temporal_validity_accuracy(sample, output, k=k),
+        temporal_coverage=temporal_coverage_accuracy(sample, output, k=k),
         invalid_citation_rate=invalid_citation_rate(sample, output),
         faithfulness=answer_faithfulness(sample, output, k=k),
         latency_ms=output.latency_ms,

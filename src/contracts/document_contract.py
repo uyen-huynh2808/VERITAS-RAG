@@ -498,6 +498,8 @@ class ExecutableDocumentContract(
             metadata.doc_id,
             actual_hash,
             rules.require_chunk_hash,
+            rules.hash_algorithm,
+            rules.require_provision_id,
         )
 
     @staticmethod
@@ -506,12 +508,14 @@ class ExecutableDocumentContract(
         algorithm: str,
     ) -> str:
 
-        if algorithm.lower() != "sha256":
+        try:
+            digest = hashlib.new(
+                algorithm.lower()
+            )
+        except ValueError as exc:
             raise ValueError(
                 f"Unsupported hash algorithm: {algorithm}"
-            )
-
-        digest = hashlib.sha256()
+            ) from exc
 
         with open(
             file_path,
@@ -531,6 +535,8 @@ class ExecutableDocumentContract(
         doc_id: str,
         actual_hash: str,
         require_hash: bool,
+        hash_algorithm: str,
+        require_provision_id: bool,
     ) -> List[ContractIssue]:
 
         issues: List[ContractIssue] = []
@@ -558,6 +564,15 @@ class ExecutableDocumentContract(
                         )
                     )
 
+                if require_provision_id and not chunk.provision_id:
+                    issues.append(
+                        ContractIssue(
+                            layer="provenance",
+                            code="PROVISION_ID_MISSING",
+                            message=f"Chunk {index} has no provision_id.",
+                        )
+                    )
+
                 if (
                     require_hash
                     and chunk.doc_version_hash.lower()
@@ -577,7 +592,8 @@ class ExecutableDocumentContract(
                 # ------------------------------------------------
                 # Canonical chunk hash
                 #
-                # Must match chunk_builder.py exactly:
+                # Must match chunk_builder.py exactly and use the
+                # provenance contract algorithm:
                 #   chunk_id
                 #   doc_version_hash
                 #   text
@@ -588,8 +604,9 @@ class ExecutableDocumentContract(
                     f"text={chunk.text}"
                 )
 
-                computed_chunk_hash = hashlib.sha256(
-                    payload.encode("utf-8")
+                computed_chunk_hash = hashlib.new(
+                    hash_algorithm,
+                    payload.encode("utf-8"),
                 ).hexdigest()
 
                 if (
@@ -631,7 +648,8 @@ class ExecutableDocumentContract(
         metadata: Dict[str, Any],
     ) -> Dict[str, Any]:
         """
-        Validate the document before parsing.
+        Validate the parser-derived document metadata before
+        Bronze materialization.
 
         Enforced layers:
             - Schema

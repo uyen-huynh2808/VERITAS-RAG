@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một gia đình có từ 02 con đẻ trở lên cần xác định đồng thời chính sách nhà ở và chính sách dân số; cần truy xuất những sửa đổi nào trong Điều 29 của Luật Dân số để thấy mối liên hệ?",
+  "answer": "Để thấy mối liên hệ giữa **chính sách nhà ở** (ưu tiên cho hộ có ≥ 02 con đẻ) và **chính sách dân số** đối với một gia đình có từ 02 con trở lên, cần truy xuất các sửa đổi được nêu trong **Điều 29 của Luật Dân số (113/202",
+  "latency_ms": 10753.22029995732,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:14.1.đ:6:0",
+      "article_id": "113/2025/QH15:article:14",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "đ) Ưu tiên mua, thuê mua hoặc thuê nhà ở xã hội theo quy định của pháp luật về nhà ở đối với người có từ 02 con đẻ trở lên;",
+      "global_page": 6,
+      "score": 39.82533854307772,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:14.1.đ",
+      "provision_path": "14.1.đ",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:7.2:3:0",
+      "article_id": "113/2025/QH15:article:7",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Thực hiện chính sách dân số và phát triển là trách nhiệm của cả hệ thống chính trị, của mỗi cá nhân, gia đình, doanh nghiệp, tổ chức và toàn xã hội. Nhà nước giữ vai trò chủ đạo và huy động xã hội thực hiện chính sách dân số.",
+      "global_page": 3,
+      "score": 35.57420630097659,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:7.2",
+      "provision_path": "7.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:95:46:0",
+      "article_id": "41/2024/QH15:article:95",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Trợ cấp thai sản Mức trợ cấp thai sản là 2.000.000 đồng cho mỗi con được sinh ra và mỗi thai từ 22 tuần tuổi trở lên chết trong tử cung, thai chết trong khi chuyển dạ. Lao động nữ là người dân tộc thiểu số hoặc lao động nữ là người dân tộc Kinh có chồng là người dân tộc thiểu số thuộc hộ nghèo khi sinh con còn được hưởng chính sách hỗ trợ khác theo quy định của Chính phủ. BẢO HIỂM XÃ HỘI TỰ NGUYỆN",
+      "global_page": 46,
+      "score": 35.485330397426054,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:95",
+      "provision_path": "95",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.1:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung khoản 1 Điều 139 của Bộ luật Lao động số 49/2019/QH14 đã được sửa đổi, bổ sung theo Luật số 71/2025/QH15 như sau: “1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; trường hợp sinh con thứ hai, lao động nữ được nghỉ thai sản trước và sau khi sinh con là 07 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng. Trường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ hai trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.”.",
+      "global_page": 11,
+      "score": 33.50642566165177,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.1",
+      "provision_path": "29.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội số 41/2024/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 73/2025/QH15 và Luật số 84/2025/QH15 như sau: “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.",
+      "global_page": 11,
+      "score": 33.24640780244882,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.2",
+      "provision_path": "29.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại 01/01/2026, cơ sở giáo dục nghề nghiệp được tuyển sinh trung cấp cho người đã hoàn thành trung học cơ sở đến mốc nào, trừ trường hợp thuộc lĩnh vực sức khỏe?",
+  "answer": "Theo khoản 1 Điều 45 của Nghị định 124/2025/QH15, cơ sở giáo dục nghề nghiệp được phép tuyển sinh trình độ trung cấp cho người đã hoàn thành chương trình giáo dục trung học cơ sở **đến hết ngày 31 tháng 12 năm 2030**, trừ các trường hợp được quy định tại khoản 2 (lĩnh vực sức khỏe).",
+  "latency_ms": 10182.19780002255,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.2:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Cơ sở giáo dục nghề nghiệp chấm dứt tuyển sinh trình độ trung cấp đối với người học đã hoàn thành chương trình giáo dục trung học cơ sở các ngành, nghề thuộc lĩnh vực sức khỏe kể từ ngày 01 tháng 01 năm 2026.",
+      "global_page": 19,
+      "score": 0.8144232034683228,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.2",
+      "provision_path": "45.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.1:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Cơ sở giáo dục nghề nghiệp được tuyển sinh trình độ trung cấp đối với người đã hoàn thành chương trình giáo dục trung học cơ sở cho đến hết ngày 31 tháng 12 năm 2030, trừ trường hợp quy định tại khoản 2 Điều này.",
+      "global_page": 19,
+      "score": 0.7901993989944458,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.1",
+      "provision_path": "45.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.5:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "5. Người học trình độ trung cấp theo quy định tại khoản 1 Điều này hoặc người học các trình độ của giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 tiếp tục được hưởng các chính sách theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
+      "global_page": 19,
+      "score": 0.7014158964157104,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.5",
+      "provision_path": "45.5",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "3. Các khóa đào tạo đã được tuyển sinh theo quy định trước ngày 01 tháng 01 năm 2026 thì cơ sở hoạt động giáo dục nghề nghiệp được tiếp tục tổ chức đào tạo, cấp văn bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
+      "global_page": 19,
+      "score": 0.6802215576171875,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.3",
+      "provision_path": "45.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.4:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "4. Cơ sở giáo dục đại học được nâng cấp từ trường cao đẳng và cơ sở giáo dục đại học có trường cao đẳng sáp nhập vào trước ngày 01 tháng 01 năm 2026 thì được tiếp tục tuyển sinh trình độ cao đẳng đến hết ngày 31 tháng 12 năm 2028 đối với các ngành, nghề mà trường cao đẳng đã được cấp giấy chứng nhận đăng ký hoạt động giáo dục nghề nghiệp, giấy chứng nhận đăng ký bổ sung hoạt động giáo dục nghề nghiệp; có trách nhiệm đăng ký thông tin về chương trình đào tạo vào cơ sở dữ liệu chuyên ngành về giáo dục nghề nghiệp theo quy định tại Điều 20 của Luật này.",
+      "global_page": 19,
+      "score": 0.6542084813117981,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.4",
+      "provision_path": "45.4",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

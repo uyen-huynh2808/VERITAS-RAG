@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một văn bản ủy quyền nhận lương hưu được lập theo Luật 58/2014/QH13 vẫn còn tồn tại sau 30/06/2026; tại 01/07/2026, quy định chuyển tiếp có cho phép tiếp tục dùng văn bản đó không?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 13082.245300058275,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:10:8:0",
+      "article_id": "41/2024/QH15:article:10",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Được thanh toán phí giám định y khoa đối với trường hợp không do người sử dụng lao động giới thiệu đi khám giám định mức suy giảm khả năng lao động mà kết quả giám định y khoa đủ điều kiện để hưởng chế độ bảo hiểm xã hội theo quy định của Luật này; Ủy quyền bằng văn bản cho người khác thực hiện bảo hiểm xã hội. Trường hợp ủy quyền nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật này thì văn bản ủy quyền có hiệu lực tối đa là 12 tháng kể từ ngày xác lập việc ủy quyền. Văn bản ủy quyền phải được chứng thực theo quy định của pháp luật về chứng thực; đ) Đối với người từ đủ 80 tuổi trở lên nếu có nhu cầu thì được cơ quan bảo hiểm xã hội hoặc tổ chức dịch vụ được cơ quan bảo hiểm xã hội ủy quyền thực hiện việc chi trả lương hưu, trợ cấp bảo hiểm xã hội tại nơi cư trú trên lãnh thổ Việt Nam; Được cơ quan bảo hiểm xã hội định kỳ hằng tháng cung cấp thông tin về việc hưởng chế độ bảo hiểm xã hội thông qua phương tiện điện tử; được cơ quan bảo hiểm xã hội xác nhận thông tin về hưởng bảo hiểm xã hội khi có yêu cầu; Khiếu nại, tố cáo và khởi kiện về bảo hiểm xã hội theo quy định của pháp luật; Từ chối hưởng chế độ bảo hiểm xã hội.",
+      "global_page": 8,
+      "score": 0.602580189704895,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:10",
+      "provision_path": "10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "14. Hồ sơ đề nghị giải quyết thủ tục hành chính đã được nộp hợp lệ trước ngày 01 tháng 01 năm 2026 và thuộc thẩm quyền của cơ quan được quy định tại Luật số 74/2014/QH13, thì cơ quan có thẩm quyền đó tiếp tục thụ lý, giải quyết theo quy định của pháp luật tại thời điểm nộp hồ sơ, kể cả trong trường hợp thẩm quyền giải quyết thủ tục hành chính đó đã điều chỉnh theo quy định của Luật này. Các cơ sở giáo dục nghề nghiệp đã có quyết định về việc thành lập, cho phép thành lập, chia, tách, sáp nhập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 phải đáp ứng quy định chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn 60 tháng kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.",
+      "global_page": 20,
+      "score": 0.599772572517395,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.14",
+      "provision_path": "45.14",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "3. Các khóa đào tạo đã được tuyển sinh theo quy định trước ngày 01 tháng 01 năm 2026 thì cơ sở hoạt động giáo dục nghề nghiệp được tiếp tục tổ chức đào tạo, cấp văn bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
+      "global_page": 19,
+      "score": 0.5962698459625244,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.3",
+      "provision_path": "45.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 0.5878408551216125,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 0.5702872276306152,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

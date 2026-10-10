@@ -9,6 +9,7 @@ from typing import Dict, List
 from typing import Optional
 
 import pandas as pd
+from src.core.config import load_system_config
 
 
 # ============================================================
@@ -25,6 +26,10 @@ class RetrievedChunk:
     score: float
     effective_from: Optional[str] = None
     effective_to: Optional[str] = None
+    provision_id: Optional[str] = None
+    provision_path: Optional[str] = None
+    effectivity_mode: Optional[str] = None
+    trigger_reference: Optional[str] = None
 
 # ============================================================
 # BM25 Retriever
@@ -50,12 +55,13 @@ class BM25Retriever:
     def __init__(
         self,
         gold_path: str | Path,
-        k1: float = 1.5,
-        b: float = 0.75,
+        k1: Optional[float] = None,
+        b: Optional[float] = None,
     ):
+        settings = load_system_config()
         self.gold_path = Path(gold_path)
-        self.k1 = k1
-        self.b = b
+        self.k1 = settings.retrieval.bm25_k1 if k1 is None else k1
+        self.b = settings.retrieval.bm25_b if b is None else b
 
         self.df = pd.read_parquet(self.gold_path)
 
@@ -155,8 +161,10 @@ class BM25Retriever:
         self,
         query: str,
         t_event: Optional[str] = None,
-        top_k: int = 5,
+        top_k: Optional[int] = None,
     ) -> List[RetrievedChunk]:
+        if top_k is None:
+            top_k = load_system_config().retrieval.top_k
 
         query_tokens = self.tokenize(query)
 
@@ -194,6 +202,10 @@ class BM25Retriever:
                         if pd.isna(row["effective_to"])
                         else row["effective_to"].isoformat()
                     ),
+                    provision_id=row.get("provision_id"),
+                    provision_path=row.get("provision_path"),
+                    effectivity_mode=row.get("effectivity_mode"),
+                    trigger_reference=row.get("trigger_reference"),
                 )
             )
 
@@ -205,18 +217,16 @@ class BM25Retriever:
 # ============================================================
 
 if __name__ == "__main__":
+    import argparse
 
-    retriever = BM25Retriever(
-        "data/gold/gold_chunks.parquet"
-    )
+    parser = argparse.ArgumentParser(description="Run the BM25 baseline.")
+    parser.add_argument("--gold", required=True, help="Gold chunks parquet path.")
+    parser.add_argument("--query", required=True, help="Query to retrieve.")
+    parser.add_argument("--top-k", type=int, default=None)
+    args = parser.parse_args()
 
-    query = (
-        "Nghị định 168/2024 có hiệu lực từ ngày nào?"
-    )
-
-    chunks = retriever.retrieve(query, top_k=3)
-
-    for c in chunks:
+    retriever = BM25Retriever(args.gold)
+    for c in retriever.retrieve(args.query, top_k=args.top_k):
         print("=" * 80)
         print(c.chunk_id)
         print(c.score)

@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một người đang nghỉ ốm đau do mắc bệnh cần chữa trị dài ngày vào ngày Luật 41/2024/QH15 có hiệu lực; họ có phải dừng ngay chế độ đã được giải quyết trước đó không?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 14462.342399987392,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:43:23:0",
+      "article_id": "41/2024/QH15:article:43",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Thời gian hưởng chế độ ốm đau Thời gian tối đa hưởng chế độ ốm đau trong một năm (từ ngày 01 tháng 01 đến ngày 31 tháng 12) đối với đối tượng quy định tại các điểm a, b, c, i, k, l, m và n khoản 1 và khoản 2 Điều 2 của Luật này tính theo ngày làm việc không kể ngày nghỉ lễ, tết, ngày nghỉ hằng tuần và được quy định như sau: Làm việc trong điều kiện bình thường thì được hưởng 30 ngày nếu đã đóng bảo hiểm xã hội bắt buộc dưới 15 năm; 40 ngày nếu đã đóng từ đủ 15 năm đến dưới 30 năm; 60 ngày nếu đã đóng từ đủ 30 năm trở lên; Làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành hoặc làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì được hưởng 40 ngày nếu đã đóng bảo hiểm xã hội bắt buộc dưới 15 năm; 50 ngày nếu đã đóng từ đủ 15 năm đến dưới 30 năm; 70 ngày nếu đã đóng từ đủ 30 năm trở lên. Hết thời hạn hưởng chế độ ốm đau quy định tại khoản 1 Điều này mà vẫn tiếp tục điều trị thì người lao động nghỉ việc do mắc bệnh thuộc danh mục bệnh cần chữa trị dài ngày do Bộ trưởng Bộ Y tế ban hành được hưởng tiếp chế độ ốm đau với mức theo quy định tại khoản 3 Điều 45 của Luật này. Thời gian nghỉ hưởng chế độ ốm đau theo quy định tại khoản này tính theo ngày làm việc không kể ngày nghỉ lễ, tết, ngày nghỉ hằng tuần. Thời gian hưởng chế độ ốm đau đối với đối tượng quy định tại điểm d khoản 1 Điều 2 của Luật này căn cứ vào thời gian điều trị nội trú tại cơ sở khám bệnh, chữa bệnh và thời gian mà người lao động phải nghỉ việc theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh.",
+      "global_page": 23,
+      "score": 0.6273132562637329,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:43",
+      "provision_path": "43",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:46:25:0",
+      "article_id": "41/2024/QH15:article:46",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "10 ngày đối với người lao động sức khỏe chưa phục hồi sau thời gian ốm đau do mắc bệnh cần chữa trị dài ngày; 07 ngày đối với người lao động sức khỏe chưa phục hồi sau thời gian ốm đau do phải phẫu thuật; 05 ngày đối với trường hợp khác. Mức hưởng cho một ngày nghỉ dưỡng sức, phục hồi sức khỏe sau khi ốm đau bằng 30% mức tham chiếu. Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định về việc tính, việc xác định điều kiện đối với từng trường hợp nghỉ dưỡng sức, phục hồi sức khoẻ sau khi ốm đau.",
+      "global_page": 25,
+      "score": 0.6242225170135498,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:46",
+      "provision_path": "46",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:42:23:0",
+      "article_id": "41/2024/QH15:article:42",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Người lao động không được hưởng chế độ ốm đau trong các trường hợp sau đây: Tự gây thương tích hoặc tự gây tổn hại cho sức khỏe của mình; Sử dụng chất ma túy, tiền chất ma túy theo danh mục do Chính phủ quy định, trừ trường hợp sử dụng thuốc tiền chất hoặc thuốc dạng phối hợp có chứa tiền chất theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh; Trong thời gian lần đầu phải nghỉ việc để điều trị, phục hồi chức năng lao động khi bị tai nạn lao động, bệnh nghề nghiệp; Trong thời gian nghỉ việc theo quy định tại khoản 1 Điều này trùng với thời gian nghỉ theo quy định của pháp luật về lao động hoặc đang nghỉ việc hưởng nguyên lương theo quy định của pháp luật chuyên ngành khác hoặc đang nghỉ việc hưởng chế độ thai sản, dưỡng sức phục hồi sức khỏe theo quy định của pháp luật về bảo hiểm xã hội.",
+      "global_page": 23,
+      "score": 0.6229159832000732,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:42",
+      "provision_path": "42",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:42:22:0",
+      "article_id": "41/2024/QH15:article:42",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đối tượng, điều kiện hưởng chế độ ốm đau Đối tượng quy định tại các điểm a, b, c, d, i, k, l, m và n khoản 1 và khoản 2 Điều 2 của Luật này được hưởng chế độ ốm đau khi nghỉ việc thuộc một trong các trường hợp sau đây, trừ trường hợp quy định tại khoản 2 Điều này: Điều trị khi mắc bệnh mà không phải bệnh nghề nghiệp; Điều trị khi bị tai nạn mà không phải là tai nạn lao động; Điều trị khi bị tai nạn khi đi từ nơi ở đến nơi làm việc hoặc từ nơi làm việc về nơi ở theo tuyến đường và thời gian hợp lý theo quy định của pháp luật về an toàn, vệ sinh lao động; Điều trị, phục hồi chức năng lao động khi thương tật, bệnh tật tái phát do tai nạn lao động, bệnh nghề nghiệp hoặc do bị tai nạn quy định tại điểm c khoản này; đ) Hiến, lấy, ghép mô, bộ phận cơ thể người theo quy định của pháp luật; Chăm sóc con dưới 07 tuổi bị ốm đau. BẢO HIỂM XÃ HỘI BẮT BUỘC",
+      "global_page": 22,
+      "score": 0.6149882078170776,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:42",
+      "provision_path": "42",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:48:25:0",
+      "article_id": "41/2024/QH15:article:48",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Giải quyết hưởng trợ cấp ốm đau Người lao động có trách nhiệm nộp hồ sơ quy định tại Điều 47 của Luật này cho người sử dụng lao động. Thời hạn nộp hồ sơ chậm nhất là 45 ngày kể từ ngày trở lại làm việc. Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động, người sử dụng lao động có trách nhiệm lập danh sách người lao động nghỉ việc hưởng chế độ ốm đau kèm theo hồ sơ nộp cho cơ quan bảo hiểm xã hội.",
+      "global_page": 25,
+      "score": 0.6035821437835693,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:48",
+      "provision_path": "48",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

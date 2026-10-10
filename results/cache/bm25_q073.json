@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Ngày 30/06/2026, văn bản ủy quyền cho người khác nhận lương hưu hoặc trợ cấp theo Luật 58/2014/QH13 có còn được tiếp tục thực hiện theo quy định chuyển tiếp không?",
+  "answer": "Có. Theo quy định trong Điều 141.10 của Luật Bảo hiểm xã hội, văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và các chế độ khác theo Luật 58/2014/QH13 được tiếp tục thực hiện **đến hết ngày 30 / 06 / 2026**. Vì vậy, vào ngày 30 / 06 / 2026 văn bản ủy quyền vẫn còn hiệu lực; sau ngày này thì hiệu lực sẽ chấm dứt.",
+  "latency_ms": 18019.48169991374,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",
+      "article_id": "41/2024/QH15:article:141",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "10. Người lao động có từ đủ 15 năm đóng bảo hiểm xã hội trở lên và có văn bản của cơ quan bảo hiểm xã hội xác nhận về việc chờ đủ điều kiện về tuổi đời để hưởng lương hưu được quy định tại Nghị định số 12/CP ngày 26 tháng 01 năm 1995 được sửa đổi, bổ sung một số điều theo Nghị định số 01/2003/NĐ-CP ngày 09 tháng 01 năm 2003 của Chính phủ thì được hưởng lương hưu khi nam đủ 60 tuổi, nữ đủ 55 tuổi. Cán bộ xã thuộc đối tượng điều chỉnh của Nghị định số 09/1998/NĐ-CP ngày 23 tháng 01 năm 1998 của Chính phủ đã có quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng trợ cấp hằng tháng của cơ quan bảo hiểm xã hội thì được hưởng trợ cấp hằng tháng khi nam đủ 55 tuổi, nữ đủ 50 tuổi. Đối tượng quy định tại điểm a, b, c, d, đ, g và i khoản 1 Điều 2 của Luật này đã tham gia bảo hiểm xã hội trước ngày Luật này có hiệu lực thi hành mà có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì mức lương hưu hằng tháng thấp nhất bằng mức tham chiếu. Đối với số tiền bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp mà người sử dụng lao động có trách nhiệm đóng theo quy định của Luật số 58/2014/QH13, Luật Việc làm số 38/2013/QH13 nhưng đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này. Khi chưa bãi bỏ mức lương cơ sở thì mức tham chiếu quy định tại Luật này bằng mức lương cơ sở. Tại thời điểm mức lương cơ sở bị bãi bỏ thì mức tham chiếu không thấp hơn mức lương cơ sở đó. Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật số 58/2014/QH13 được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026. Chính phủ quy định chi tiết Điều này. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 7 thông qua ngày 29 tháng 6 năm 2024. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn",
+      "global_page": 63,
+      "score": 49.03894460777237,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:provision:141.10",
+      "provision_path": "141.10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:115:53:0",
+      "article_id": "41/2024/QH15:article:115",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hồ sơ đề nghị hưởng trợ cấp một lần bao gồm văn bản đề nghị hưởng trợ cấp một lần kèm theo bản sao giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ quy định tại các điểm a, b, c và d khoản 2 Điều 106 của Luật này; Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan bảo hiểm xã hội có trách nhiệm giải quyết; trường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do. Người đang hưởng lương hưu chuyển đến nơi ở khác trong nước và có nguyện vọng hưởng bảo hiểm xã hội ở nơi cư trú mới được thực hiện như sau: Người đang hưởng lương hưu có nguyện vọng thay đổi hình thức nhận hoặc thay đổi nơi nhận do chuyển nơi cư trú trong nước thì có văn bản gửi cơ quan bảo hiểm xã hội nơi đang chi trả; Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản quy định tại điểm a khoản này, cơ quan bảo hiểm xã hội có trách nhiệm giải quyết; trường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do. Việc tạm dừng, chấm dứt, tiếp tục hưởng lương hưu được thực hiện theo quy định tại các Điều 75, 80 và 81 của Luật này. Chương VII QUỸ BẢO HIỂM XÃ HỘI Mục 1. HÌNH THÀNH VÀ SỬ DỤNG QUỸ BẢO HIỂM XÃ HỘI",
+      "global_page": 53,
+      "score": 42.455298678237014,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:115",
+      "provision_path": "115",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:81:41:0",
+      "article_id": "41/2024/QH15:article:81",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Giải quyết tiếp tục hưởng lương hưu, trợ cấp bảo hiểm xã hội hằng tháng trong trường hợp đã bị tạm dừng hoặc chấm dứt hưởng Người đề nghị tiếp tục hưởng lương hưu, trợ cấp bảo hiểm xã hội hằng tháng nộp hồ sơ quy định tại Điều 80 của Luật này cho cơ quan bảo hiểm xã hội. Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan bảo hiểm xã hội có trách nhiệm giải quyết; trường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do.",
+      "global_page": 41,
+      "score": 40.21853678098743,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:81",
+      "provision_path": "81",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:10:8:0",
+      "article_id": "41/2024/QH15:article:10",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Được thanh toán phí giám định y khoa đối với trường hợp không do người sử dụng lao động giới thiệu đi khám giám định mức suy giảm khả năng lao động mà kết quả giám định y khoa đủ điều kiện để hưởng chế độ bảo hiểm xã hội theo quy định của Luật này; Ủy quyền bằng văn bản cho người khác thực hiện bảo hiểm xã hội. Trường hợp ủy quyền nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật này thì văn bản ủy quyền có hiệu lực tối đa là 12 tháng kể từ ngày xác lập việc ủy quyền. Văn bản ủy quyền phải được chứng thực theo quy định của pháp luật về chứng thực; đ) Đối với người từ đủ 80 tuổi trở lên nếu có nhu cầu thì được cơ quan bảo hiểm xã hội hoặc tổ chức dịch vụ được cơ quan bảo hiểm xã hội ủy quyền thực hiện việc chi trả lương hưu, trợ cấp bảo hiểm xã hội tại nơi cư trú trên lãnh thổ Việt Nam; Được cơ quan bảo hiểm xã hội định kỳ hằng tháng cung cấp thông tin về việc hưởng chế độ bảo hiểm xã hội thông qua phương tiện điện tử; được cơ quan bảo hiểm xã hội xác nhận thông tin về hưởng bảo hiểm xã hội khi có yêu cầu; Khiếu nại, tố cáo và khởi kiện về bảo hiểm xã hội theo quy định của pháp luật; Từ chối hưởng chế độ bảo hiểm xã hội.",
+      "global_page": 8,
+      "score": 39.31826161167688,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:10",
+      "provision_path": "10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "3. Các khóa đào tạo đã được tuyển sinh theo quy định trước ngày 01 tháng 01 năm 2026 thì cơ sở hoạt động giáo dục nghề nghiệp được tiếp tục tổ chức đào tạo, cấp văn bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
+      "global_page": 19,
+      "score": 39.3085979100644,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.3",
+      "provision_path": "45.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

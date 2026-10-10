@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một doanh nghiệp có hợp đồng và thỏa thuận hợp pháp ký trước 01/01/2021, trong đó một số điều kiện có lợi hơn cho người lao động nhưng một số điều khoản khác trái Bộ luật Lao động mới; tại 01/01/2021 có thể tiếp tục thực hiện toàn bộ thỏa thuận theo khoản chuyển tiếp hay phải phân biệt nội dung?",
+  "answer": "",
+  "latency_ms": 14154.763199971057,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:29:10:0",
+      "article_id": "45/2019/QH14:article:29",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "động làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm thì chỉ được thực hiện khi người lao động đồng ý bằng văn bản. Người sử dụng lao động quy định cụ thể trong nội quy lao động những trường hợp do nhu cầu sản xuất, kinh doanh mà người sử dụng lao động được tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động. Khi tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động quy định tại khoản 1 Điều này, người sử dụng lao động phải báo cho người lao động biết trước ít nhất 03 ngày làm việc, thông báo rõ thời hạn làm tạm thời và bố trí công việc phù hợp với sức khỏe, giới tính của người lao động. Người lao động chuyển sang làm công việc khác so với hợp đồng lao động được trả lương theo công việc mới. Nếu tiền lương của công việc mới thấp hơn tiền lương của công việc cũ thì được giữ nguyên tiền lương của công việc cũ trong thời hạn 30 ngày làm việc. Tiền lương theo công việc mới ít nhất phải bằng 85% tiền lương của công việc cũ nhưng không thấp hơn mức lương tối thiểu. Người lao động không đồng ý tạm thời làm công việc khác so với hợp đồng lao động quá 60 ngày làm việc cộng dồn trong 01 năm mà phải ngừng việc thì người sử dụng lao động phải trả lương ngừng việc theo quy định tại Điều 99 của Bộ luật này.",
+      "global_page": 10,
+      "score": 0.6842687129974365,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:29",
+      "provision_path": "29",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:80:27:0",
+      "article_id": "45/2019/QH14:article:80",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Thực hiện thỏa ước lao động tập thể doanh nghiệp trong trường hợp chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp Trường hợp chia, tách, hợp nhất, sáp nhập; bán, cho thuê, chuyển đổi loại hình doanh nghiệp; chuyển nhượng quyền sở hữu, quyền sử dụng tài sản của doanh nghiệp thì người sử dụng lao động kế tiếp và tổ chức đại diện người lao động có quyền thương lượng theo quy định tại Điều 68 của Bộ luật này căn cứ vào phương án sử dụng lao động để xem xét lựa chọn việc tiếp tục thực hiện, sửa đổi, bổ sung thỏa ước lao động tập thể doanh nghiệp cũ hoặc thương lượng để ký kết thỏa ước lao động tập thể mới. Trường hợp thỏa ước lao động tập thể doanh nghiệp hết hiệu lực do người sử dụng lao động chấm dứt hoạt động thì quyền lợi của người lao động được giải quyết theo quy định của pháp luật.",
+      "global_page": 27,
+      "score": 0.6590481400489807,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:80",
+      "provision_path": "80",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:81:27:0",
+      "article_id": "45/2019/QH14:article:81",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Quan hệ giữa thỏa ước lao động tập thể doanh nghiệp, thỏa ước lao động tập thể ngành và thỏa ước lao động tập thể có nhiều doanh nghiệp Trường hợp thỏa ước lao động tập thể doanh nghiệp, thỏa ước lao động tập thể có nhiều doanh nghiệp, thỏa ước lao động tập thể ngành quy định về quyền, nghĩa vụ và lợi ích của người lao động khác nhau thì thực hiện theo nội dung có lợi nhất cho người lao động. Doanh nghiệp thuộc đối tượng áp dụng của thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp nhưng chưa có thỏa ước lao động tập thể doanh nghiệp thì có thể xây dựng thỏa ước lao động tập thể doanh nghiệp với những nội dung có lợi hơn cho người lao động so với thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp. Khuyến khích doanh nghiệp chưa tham gia thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp thực hiện nội dung có lợi hơn cho người lao động của thỏa ước lao động tập thể ngành hoặc thỏa ước lao động tập thể có nhiều doanh nghiệp.",
+      "global_page": 27,
+      "score": 0.6510831713676453,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:81",
+      "provision_path": "81",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:79:27:0",
+      "article_id": "45/2019/QH14:article:79",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Thực hiện thỏa ước lao động tập thể tại doanh nghiệp Người sử dụng lao động, người lao động, bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực. Trường hợp quyền, nghĩa vụ và lợi ích của các bên trong hợp đồng lao động đã giao kết trước ngày thỏa ước lao động tập thể có hiệu lực thấp hơn quy định tương ứng của thỏa ước lao động tập thể thì phải thực hiện theo thỏa ước lao động tập thể. Quy định của người sử dụng lao động chưa phù hợp với thỏa ước lao động tập thể thì phải được sửa đổi cho phù hợp; trong thời gian chưa sửa đổi thì thực hiện theo nội dung tương ứng của thỏa ước lao động tập thể. Khi một bên cho rằng bên kia thực hiện không đầy đủ hoặc vi phạm thỏa ước lao động tập thể thì có quyền yêu cầu thi hành đúng thỏa ước lao động tập thể và các bên có trách nhiệm cùng xem xét giải quyết; nếu không giải quyết được, mỗi bên đều có quyền yêu cầu giải quyết tranh chấp lao động tập thể theo quy định của pháp luật.",
+      "global_page": 27,
+      "score": 0.6497887372970581,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:79",
+      "provision_path": "79",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:29:9:0",
+      "article_id": "45/2019/QH14:article:29",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Chuyển người lao động làm công việc khác so với hợp đồng lao động Khi gặp khó khăn đột xuất do thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, áp dụng biện pháp ngăn ngừa, khắc phục tai nạn lao động, bệnh nghề nghiệp, sự cố điện, nước hoặc do nhu cầu sản xuất, kinh doanh thì người sử dụng lao động được quyền tạm thời chuyển người lao động làm công việc khác so với hợp đồng lao động nhưng không được quá 60 ngày làm việc cộng dồn trong 01 năm; trường hợp chuyển người lao",
+      "global_page": 9,
+      "score": 0.6492812633514404,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:29",
+      "provision_path": "29",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

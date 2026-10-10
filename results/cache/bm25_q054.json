@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Theo Luật Bảo hiểm xã hội, người sử dụng lao động có những trách nhiệm cơ bản nào trong việc đóng và cung cấp thông tin bảo hiểm xã hội?",
+  "answer": "**Theo các quy định trong Nghị quyết 41/2024/QH15 (trích từ Điều 13), người sử dụng lao động có các trách nhiệm cơ bản sau đối với bảo hiểm xã hội:**\n\n1. **Đăng ký tham gia bảo hiểm xã hội bắt buộc** cho người lao động theo quy định của Luật.  \n2. **Thanh toán đầy đủ, đúng thời hạn** các khoản bảo hiểm xã hội bắt buộc (theo Điều 34) và **khấu trừ hàng tháng** khoản tiền phải đóng từ tiền lương của người lao động (theo Điều 33) để nộp vào quỹ bảo hiểm xã hội.  \n3. **Phối hợp với cơ quan bảo hiểm xã hội** trong việc:  \n   - Giao sổ bảo hiểm xã hội bản giấy cho người lao động.  \n   - Xác nhận thời gian đóng bảo hiểm khi người lao động chấm dứt hợp đồng hoặc thôi việc.  \n   - Trả trợ cấp bảo hiểm xã hội cho người lao động (khi chi trả qua người sử dụng).  \n   - Giới thiệu người lao động thuộc đối tượng quy định (Điều 65) đi khám, giám định y khoa để xác định mức suy giảm khả năng lao động.  \n4. **Cung cấp đầy đủ, chính xác và k",
+  "latency_ms": 16257.860799902119,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:35:19:0",
+      "article_id": "41/2024/QH15:article:35",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đôn đốc thực hiện trách nhiệm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Đối với trường hợp quy định tại khoản 1 Điều 38 của Luật này, cơ quan bảo hiểm xã hội có trách nhiệm phát hiện và đôn đốc bằng văn bản. Khi phát hiện người sử dụng lao động chậm đóng thuộc các trường hợp quy định tại khoản 2 và khoản 3 Điều 38 của Luật này hoặc trốn đóng, cơ quan bảo hiểm xã hội có trách nhiệm kịp thời đôn đốc bằng văn bản. Cơ quan bảo hiểm xã hội công khai trên Cổng thông tin điện tử của cơ quan bảo hiểm xã hội về việc người sử dụng lao động chậm đóng, trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp. Cơ quan bảo hiểm xã hội gửi thông tin về người sử dụng lao động chậm đóng, trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp đến cơ quan quản lý nhà nước về bảo hiểm xã hội, bảo hiểm thất nghiệp và cơ quan thanh tra có liên quan để xem xét xử lý theo thẩm quyền.",
+      "global_page": 19,
+      "score": 50.526635399648754,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:35",
+      "provision_path": "35",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:13:9:0",
+      "article_id": "41/2024/QH15:article:13",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Trách nhiệm của người sử dụng lao động Đăng ký tham gia bảo hiểm xã hội bắt buộc cho người lao động theo quy định của Luật này; phối hợp với cơ quan bảo hiểm xã hội trong việc trả sổ bảo hiểm xã hội bản giấy cho người lao động. Lập hồ sơ để người lao động được hưởng chế độ bảo hiểm xã hội. Phối hợp với cơ quan bảo hiểm xã hội trong việc xác nhận thời gian đóng bảo hiểm xã hội khi người lao động chấm dứt hợp đồng lao động, hợp đồng làm việc hoặc thôi việc theo quy định của pháp luật. Đóng bảo hiểm xã hội bắt buộc cho người lao động theo quy định tại Điều 34 của Luật này và hằng tháng trích khoản tiền phải đóng bảo hiểm xã hội bắt buộc theo quy định tại Điều 33 của Luật này từ tiền lương của người lao động để đóng cùng một lúc vào quỹ bảo hiểm xã hội. Xem xét giới thiệu người lao động thuộc đối tượng theo quy định tại Điều 65 của Luật này đi khám giám định y khoa để xác định mức suy giảm khả năng lao động tại Hội đồng giám định y khoa. Phối hợp với cơ quan bảo hiểm xã hội trả trợ cấp bảo hiểm xã hội cho người lao động trong trường hợp chi trả thông qua người sử dụng lao động. Xuất trình, cung cấp đầy đủ, chính xác, kịp thời thông tin, tài liệu liên quan đến việc đóng, hưởng bảo hiểm xã hội thuộc trách nhiệm của người sử dụng lao động theo yêu cầu của cơ quan nhà nước có thẩm quyền. Bồi thường cho người lao động theo quy định của pháp luật nếu không thực hiện hoặc thực hiện không đầy đủ trách nhiệm đóng bảo hiểm xã hội bắt buộc theo quy định của Luật này mà gây thiệt hại đến quyền, lợi ích hợp pháp của người lao động. Phối hợp, tạo điều kiện để cơ quan bảo hiểm xã hội thực hiện thu hồi số tiền bảo hiểm xã hội hưởng không đúng quy định của người lao động khi có quyết định của cơ quan có thẩm quyền.",
+      "global_page": 9,
+      "score": 47.55735200942035,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:13",
+      "provision_path": "13",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:17:10:0",
+      "article_id": "41/2024/QH15:article:17",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Quyền hạn của cơ quan bảo hiểm xã hội Yêu cầu người sử dụng lao động xuất trình sổ quản lý lao động, thang lương, bảng lương và thông tin, tài liệu khác liên quan đến việc đóng, hưởng chế độ bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp, bảo hiểm y tế. Được cơ quan đăng ký kinh doanh, cơ quan cấp giấy chứng nhận hoạt động hoặc giấy phép hoạt động kết nối, chia sẻ thông tin hoặc cung cấp bản sao giấy phép hoạt động, giấy chứng nhận hoạt động hoặc giấy chứng nhận đăng ký doanh nghiệp, hợp tác xã, hộ kinh doanh để rà soát, kiểm tra việc thực hiện đăng ký tham gia bảo hiểm xã hội bắt buộc đối với doanh nghiệp, tổ chức thành lập mới. Được cơ quan thuế cung cấp thông tin về chi phí tiền lương để tính thuế của người sử dụng lao động và các thông tin khác có liên quan đến việc tham gia bảo hiểm xã hội theo quy định của pháp luật về quản lý thuế. Từ chối chi trả chế độ bảo hiểm xã hội bắt buộc, bảo hiểm xã hội tự nguyện, bảo hiểm thất nghiệp, bảo hiểm y tế khi yêu cầu chi trả không đúng quy định của pháp luật; trường hợp từ chối chi trả phải trả lời bằng văn bản và nêu rõ lý do. Kiểm tra việc thực hiện pháp luật về bảo hiểm xã hội bắt buộc, bảo hiểm xã hội tự nguyện, việc thực hiện hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế; việc đóng, chi trả bảo hiểm thất nghiệp, bảo hiểm y tế.",
+      "global_page": 10,
+      "score": 45.12555312702635,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:17",
+      "provision_path": "17",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:29:16:0",
+      "article_id": "41/2024/QH15:article:29",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Điều chỉnh thông tin đăng ký kê khai tham gia bảo hiểm xã hội Khi thông tin đăng ký kê khai tham gia bảo hiểm xã hội thay đổi thì người đăng ký kê khai theo quy định tại Điều 28 của Luật này nộp tờ khai điều chỉnh thông tin kèm theo bản sao giấy tờ có liên quan đến việc điều chỉnh thông tin cho cơ quan bảo hiểm xã hội. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ tờ khai và giấy tờ theo quy định, cơ quan bảo hiểm xã hội có trách nhiệm điều chỉnh thông tin tham gia bảo hiểm xã hội của người tham gia; trường hợp không thực hiện điều chỉnh thì phải trả lời bằng văn bản và nêu rõ lý do. Mục 2. QUẢN LÝ THU, ĐÓNG BẢO HIỂM XÃ HỘI BẮT BUỘC VÀ BẢO HIỂM XÃ HỘI TỰ NGUYỆN",
+      "global_page": 16,
+      "score": 44.154274356060206,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:29",
+      "provision_path": "29",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:25:15:0",
+      "article_id": "41/2024/QH15:article:25",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Sổ bảo hiểm xã hội Sổ bảo hiểm xã hội được cấp cho từng người lao động, trong đó chứa đựng thông tin cơ bản về nhân thân, ghi nhận việc đóng, hưởng, giải quyết các chế độ bảo hiểm xã hội và các thông tin cần thiết khác có liên quan. Sổ bảo hiểm xã hội được cấp bằng bản điện tử, bản giấy và có giá trị pháp lý như nhau. Chậm nhất là ngày 01 tháng 01 năm 2026, thực hiện cấp sổ bảo hiểm xã hội bằng bản điện tử; sổ bảo hiểm xã hội bằng bản giấy được cấp khi người tham gia bảo hiểm xã hội yêu cầu. Dữ liệu về sổ bảo hiểm xã hội được cập nhật chính xác, kịp thời, đối chiếu thông tin và quản lý theo quy định. Chính phủ quy định chi tiết Điều này.",
+      "global_page": 15,
+      "score": 43.545314294361724,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:25",
+      "provision_path": "25",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

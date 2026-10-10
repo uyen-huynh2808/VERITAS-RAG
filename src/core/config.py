@@ -1,32 +1,66 @@
 import os
 
 import yaml
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 
 class DatabaseConfig(BaseModel):
-    duckdb_path: str = "data/silver/lakehouse.duckdb"
-    bronze_dir: str = "data/bronze"
-    silver_dir: str = "data/silver"
-    gold_dir: str = "data/gold"
-    quarantine_dir: str = "data/quarantine"
+    incoming_dir: str
+    duckdb_path: str
+    bronze_dir: str
+    silver_dir: str
+    gold_dir: str
+    quarantine_dir: str
+
+
+class ChunkingConfig(BaseModel):
+    article_level: bool
+    max_tokens: int
+    overlap: int
+
+
+class ParserConfig(BaseModel):
+    prefer_docling: bool
+    header_ocr_engine: str
 
 
 class ContractConfig(BaseModel):
-    rules_path: str = "config/contract_rules.json"
+    rules_path: str
 
 
 class ModelConfig(BaseModel):
-    embedding_model: str = "BAAI/bge-m3"
-    llm_provider: str = "groq"
-    llm_model: str = "openai/gpt-oss-120b"
+    embedding_model: str
+    embedding_batch_size: int
+    embedding_max_length: int
+    llm_model: str
+    generation_temperature: float
+    generation_max_tokens: int
+
+
+class RetrievalConfig(BaseModel):
+    top_k: int
+    bm25_k1: float
+    bm25_b: float
+
+
+class BenchmarkConfig(BaseModel):
+    questions_path: str
+    output_path: str
+    gold_path: str
+    results_dir: str
+    cache_dir: str
+    contract_metrics_path: str
 
 
 class SystemConfig(BaseModel):
-    seed: int = 42
-    db: DatabaseConfig = Field(default_factory=DatabaseConfig)
-    contracts: ContractConfig = Field(default_factory=ContractConfig)
-    models: ModelConfig = Field(default_factory=ModelConfig)
+    seed: int
+    db: DatabaseConfig
+    chunking: ChunkingConfig
+    parser: ParserConfig
+    contracts: ContractConfig
+    models: ModelConfig
+    retrieval: RetrievalConfig
+    benchmark: BenchmarkConfig
 
 
 def load_system_config(
@@ -34,18 +68,32 @@ def load_system_config(
 ) -> SystemConfig:
 
     if not os.path.exists(config_path):
-        return SystemConfig()
+        raise FileNotFoundError(f"Configuration file not found: {config_path}")
 
     with open(config_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
 
     return SystemConfig(
-        seed=data.get("system", {}).get("seed", 42),
-        db=DatabaseConfig(**data.get("db", {})),
+        seed=data["system"]["seed"],
+        db=DatabaseConfig(
+            **data.get("db", {})
+        ),
+        chunking=ChunkingConfig(
+            **data.get("chunking", {})
+        ),
+        parser=ParserConfig(
+            **data.get("parser", {})
+        ),
         contracts=ContractConfig(
             **data.get("contracts", {})
         ),
         models=ModelConfig(
             **data.get("models", {})
+        ),
+        retrieval=RetrievalConfig(
+            **data.get("retrieval", {})
+        ),
+        benchmark=BenchmarkConfig(
+            **data.get("benchmark", {})
         ),
     )

@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại 01/07/2026, các khoản 4 và 5 Điều 24 cùng các điều 26, 32, 35, 36, 39 và 42 của Luật Giáo dục nghề nghiệp đã có hiệu lực chưa?",
+  "answer": "Có. Theo Điều 44, khoản 2 của Luật Giáo dục nghề nghiệp số 124/2025/QH15, khoản 4 và khoản 5 Điều 24 cùng các điều 26, 32, 35, 36, 39 và 42 có hiệu lực thi hành từ ngày **01 tháng 7 năm 2026**. Vì vậy vào ngày 01/07/2026 các quy định này đã có hiệu lực.",
+  "latency_ms": 10504.656700068153,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.2:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Khoản 4 và khoản 5 Điều 24, các điều 26, 32, 35, 36, 39 và 42 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.",
+      "global_page": 19,
+      "score": 87.3571441491034,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.2",
+      "provision_path": "44.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 36.67563107622501,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "14. Hồ sơ đề nghị giải quyết thủ tục hành chính đã được nộp hợp lệ trước ngày 01 tháng 01 năm 2026 và thuộc thẩm quyền của cơ quan được quy định tại Luật số 74/2014/QH13, thì cơ quan có thẩm quyền đó tiếp tục thụ lý, giải quyết theo quy định của pháp luật tại thời điểm nộp hồ sơ, kể cả trong trường hợp thẩm quyền giải quyết thủ tục hành chính đó đã điều chỉnh theo quy định của Luật này. Các cơ sở giáo dục nghề nghiệp đã có quyết định về việc thành lập, cho phép thành lập, chia, tách, sáp nhập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 phải đáp ứng quy định chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn 60 tháng kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.",
+      "global_page": 20,
+      "score": 32.92177628282951,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.14",
+      "provision_path": "45.14",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.5:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "5. Người học trình độ trung cấp theo quy định tại khoản 1 Điều này hoặc người học các trình độ của giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 tiếp tục được hưởng các chính sách theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
+      "global_page": 19,
+      "score": 30.563838016675447,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.5",
+      "provision_path": "45.5",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:63:21:0",
+      "article_id": "45/2019/QH14:article:63",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Tổ chức đối thoại tại nơi làm việc Đối thoại tại nơi làm việc là việc chia sẻ thông tin, tham khảo, thảo luận, trao đổi ý kiến giữa người sử dụng lao động với người lao động hoặc tổ chức đại diện người lao động về những vấn đề liên quan đến quyền, lợi ích và mối quan tâm của các bên tại nơi làm việc nhằm tăng cường sự hiểu biết, hợp tác, cùng nỗ lực hướng tới giải pháp các bên cùng có lợi. Người sử dụng lao động phải tổ chức đối thoại tại nơi làm việc trong trường hợp sau đây: Định kỳ ít nhất 01 năm một lần; Khi có yêu cầu của một hoặc các bên; Khi có vụ việc quy định tại điểm a khoản 1 Điều 36, các điều 42, 44, 93, 104, 118 và khoản 1 Điều 128 của Bộ luật này.",
+      "global_page": 21,
+      "score": 29.920764209547464,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:63",
+      "provision_path": "63",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

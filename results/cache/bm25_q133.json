@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/07/2025, nếu cần xác định ngày bắt đầu nghỉ của lao động nam khi vợ sinh con phải nằm trong bao nhiêu ngày kể từ ngày sinh, nên truy xuất quy định nào?",
+  "answer": "Bạn cần tra cứu **khoản 2 Điều ... của Điều 53** trong **Luật 41/2024/QH15**. Theo quy định này, ngày bắt đầu nghỉ việc hưởng chế độ thai sản của lao động nam phải nằm trong **khoảng thời gian 60 ngày kể từ ngày vợ sinh con",
+  "latency_ms": 15904.86770006828,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:27:0",
+      "article_id": "41/2024/QH15:article:53",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Thời gian nghỉ việc hưởng chế độ thai sản khi sinh con Thời gian nghỉ việc hưởng chế độ thai sản của lao động nữ khi sinh con được thực hiện theo quy định tại khoản 1 Điều 139 của Bộ luật Lao động. Trường hợp lao động nữ trở lại làm việc trước khi hết thời gian nghỉ việc hưởng chế độ thai sản khi sinh con theo quy định tại khoản 4 Điều 139 của Bộ luật Lao động thì được hưởng tiền lương của những ngày làm việc do người sử dụng lao động trả và tiếp tục được hưởng trợ cấp thai sản theo mức quy định tại Điều 59 của Luật này; người sử dụng lao động và người lao động có trách nhiệm đóng bảo hiểm xã hội bắt buộc cho thời gian người lao động trở lại làm việc. Lao động nam đang tham gia bảo hiểm xã hội bắt buộc khi vợ sinh con được nghỉ việc hưởng chế độ thai sản với thời gian như sau: 05 ngày làm việc; 07 ngày làm việc khi vợ sinh con phải phẫu thuật hoặc sinh con dưới 32 tuần tuổi; Trường hợp vợ sinh đôi thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi; Trường hợp vợ sinh đôi phải phẫu thuật thì được nghỉ 14 ngày làm việc. Trường hợp sinh ba trở lên phải phẫu thuật thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi. Ngày bắt đầu nghỉ việc hưởng chế độ thai sản quy định tại khoản 2 Điều này phải trong khoảng thời gian 60 ngày kể từ ngày vợ sinh con, trường hợp người lao động nghỉ nhiều lần thì ngày bắt đầu nghỉ việc của",
+      "global_page": 27,
+      "score": 60.38868160298252,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:53",
+      "provision_path": "53",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:44:23:0",
+      "article_id": "41/2024/QH15:article:44",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Thời gian hưởng chế độ khi chăm sóc con ốm đau Thời gian hưởng chế độ khi chăm sóc con ốm đau trong một năm (từ ngày 01 tháng 01 đến ngày 31 tháng 12) cho mỗi con tối đa là 20 ngày nếu con dưới 03 tuổi; tối đa là 15 ngày nếu con từ đủ 03 tuổi đến dưới 07 tuổi. Trường hợp cả cha và mẹ cùng tham gia bảo hiểm xã hội bắt buộc thì thời gian hưởng chế độ khi chăm sóc con ốm đau của mỗi người theo quy định tại khoản 1 Điều này. Thời gian nghỉ việc hưởng chế độ khi chăm sóc con ốm đau quy định tại Điều này tính theo ngày làm việc không kể ngày nghỉ lễ, tết, ngày nghỉ hằng tuần.",
+      "global_page": 23,
+      "score": 48.84485627849053,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:44",
+      "provision_path": "44",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:28:0",
+      "article_id": "41/2024/QH15:article:53",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "lần cuối cùng phải trong khoảng thời gian 60 ngày đầu kể từ ngày vợ sinh con và tổng thời gian nghỉ việc hưởng chế độ thai sản không quá thời gian quy định tại khoản 2 Điều này. Trường hợp lao động nữ mang thai đôi trở lên mà khi sinh nếu có thai chết trong tử cung, thai chết trong khi chuyển dạ thì thời gian nghỉ việc hưởng chế độ thai sản và trợ cấp một lần khi sinh con được tính theo số thai bao gồm cả con sống, con chết và thai chết. Trường hợp chỉ có mẹ hoặc cả cha và mẹ đều tham gia bảo hiểm xã hội bắt buộc mà mẹ chết sau khi sinh con thì cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc hưởng chế độ thai sản để chăm sóc con đối với thời gian còn lại của người mẹ theo quy định tại khoản 1 Điều này. Trường hợp mẹ tham gia bảo hiểm xã hội bắt buộc nhưng không đủ điều kiện quy định tại khoản 2 hoặc khoản 3 hoặc khoản 5 Điều 50 của Luật này mà chết thì cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 06 tháng tuổi. Trường hợp cha hoặc người trực tiếp nuôi dưỡng không nghỉ việc theo quy định tại khoản 5 Điều này thì ngoài tiền lương còn được hưởng trợ cấp thai sản đối với thời gian còn lại của người mẹ kể từ ngày liền kề sau ngày người mẹ chết theo quy định tại khoản 1 Điều này. Trường hợp chỉ có cha tham gia bảo hiểm xã hội bắt buộc mà mẹ chết sau khi sinh con hoặc gặp rủi ro sau khi sinh mà không đủ sức khỏe để chăm sóc con theo xác nhận của cơ sở khám bệnh, chữa bệnh thì cha được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 06 tháng tuổi. Đối với trường hợp lao động nữ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ khi sinh con, lao động nữ nhờ mang thai hộ thì thời gian nghỉ việc hưởng chế độ thai sản được tính là thời gian đóng bảo hiểm xã hội bắt buộc, người lao động và người sử dụng lao động không phải đóng bảo hiểm xã hội. Đối với các trường hợp khác mà có thời gian nghỉ việc hưởng chế độ thai sản từ 14 ngày làm việc trở lên trong tháng thì thời gian này được tính là thời gian đóng bảo hiểm xã hội bắt buộc, người lao động và người sử dụng lao động không phải đóng bảo hiểm xã hội. Thời gian nghỉ việc hưởng chế độ thai sản quy định tại các khoản 1, 4, 5, 6 và 7 Điều này tính cả ngày nghỉ lễ, tết, ngày nghỉ hằng tuần.",
+      "global_page": 28,
+      "score": 47.33177713896246,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:53",
+      "provision_path": "53",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:14.1.a:6:0",
+      "article_id": "113/2025/QH15:article:14",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "a) Trường hợp sinh con thứ hai, thời gian nghỉ thai sản đối với lao động nữ là 07 tháng; lao động nam là 10 ngày làm việc khi vợ sinh con;",
+      "global_page": 6,
+      "score": 46.043637425220965,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:14.1.a",
+      "provision_path": "14.1.a",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:62:33:0",
+      "article_id": "41/2024/QH15:article:62",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Giải quyết hưởng chế độ thai sản đối với người tham gia bảo hiểm xã hội bắt buộc Người lao động có trách nhiệm nộp hồ sơ quy định tại Điều 61 của Luật này cho người sử dụng lao động. Thời hạn nộp hồ sơ chậm nhất là 45 ngày kể từ ngày hết thời gian nghỉ việc hưởng chế độ thai sản. Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động, người sử dụng lao động có trách nhiệm lập danh sách người lao động nghỉ việc hưởng chế độ thai sản kèm theo hồ sơ quy định tại Điều 61 của Luật này nộp cho cơ quan bảo hiểm xã hội. Người lao động nộp hồ sơ quy định tại Điều 61 của Luật này cho cơ quan bảo hiểm xã hội trong trường hợp thôi việc trước thời điểm sinh con, nhận con khi nhờ mang thai hộ, nhận nuôi con nuôi dưới 06 tháng tuổi hoặc không còn người sử dụng lao động. Cơ quan bảo hiểm xã hội có trách nhiệm giải quyết trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động, 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động; trường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do.",
+      "global_page": 33,
+      "score": 44.154367602909815,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:62",
+      "provision_path": "62",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

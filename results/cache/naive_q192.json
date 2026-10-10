@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 sửa điểm a khoản 2 Điều 59 của Bộ luật Lao động để bổ sung hoạt động nào cho người sử dụng lao động?",
+  "answer": "Luật Giáo dục nghề nghiệp 124/2025/QH15 bổ sung cho người sử dụng lao động **việc thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc** nhằm đào tạo, đào tạo lại, bồi dưỡng và nâng cao trình độ, kỹ năng nghề cho người lao động, đồng thời phối hợp với cơ sở giáo dục nghề nghiệp để thực hiện các chương trình giáo dục trung học nghề và các chương trình đào tạo sơ cấp, trung cấp, cao đẳng.",
+  "latency_ms": 10842.691399971955,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.a:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "a) Sửa đổi, bổ sung điểm a khoản 2 Điều 59 như sau: “a) Thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc để đào tạo, đào tạo lại, bồi dưỡng, nâng cao trình độ, kỹ năng nghề cho người lao động; phối hợp với cơ sở giáo dục nghề nghiệp đào tạo chương trình giáo dục trung học nghề và các chương trình đào tạo trình độ sơ cấp, trung cấp, cao đẳng theo quy định;”;",
+      "global_page": 18,
+      "score": 0.7262942790985107,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1.a",
+      "provision_path": "43.1.a",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:1:1:0",
+      "article_id": "124/2025/QH15:article:1",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Phạm vi điều chỉnh Luật này quy định về hoạt động giáo dục nghề nghiệp trong hệ thống giáo dục quốc dân; tổ chức và hoạt động của cơ sở giáo dục nghề nghiệp; quyền hạn và trách nhiệm của tổ chức, cá nhân tham gia hoạt động giáo dục nghề nghiệp; quản lý nhà nước về giáo dục nghề nghiệp.",
+      "global_page": 1,
+      "score": 0.6326779723167419,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:1",
+      "provision_path": "1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:10:5:0",
+      "article_id": "124/2025/QH15:article:10",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Nhiệm vụ và quyền hạn của cơ sở giáo dục nghề nghiệp",
+      "global_page": 5,
+      "score": 0.6120115518569946,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:10",
+      "provision_path": "10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:33.2:14:0",
+      "article_id": "124/2025/QH15:article:33",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Được thành lập cơ sở giáo dục nghề nghiệp để đào tạo nhân lực trực tiếp cho hoạt động sản xuất, kinh doanh, dịch vụ trong doanh nghiệp và cho xã hội.",
+      "global_page": 14,
+      "score": 0.6094090938568115,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:33.2",
+      "provision_path": "33.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 0.6069784164428711,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

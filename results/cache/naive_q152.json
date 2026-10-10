@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/01/2026, nếu cần xác định thời hạn thành lập hội đồng trường của cơ sở giáo dục nghề nghiệp tư thục, nên truy xuất quy định chuyển tiếp nào?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 7458.076399983838,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:13:6:0",
+      "article_id": "124/2025/QH15:article:13",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Hội đồng trường trong cơ sở giáo dục nghề nghiệp tư thục",
+      "global_page": 6,
+      "score": 0.6975780725479126,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:13",
+      "provision_path": "13",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.13:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "13. Hiệu trưởng cơ sở giáo dục nghề nghiệp tư thục được công nhận trước ngày 01 tháng 01 năm 2026 được tiếp tục thực hiện nhiệm vụ, quyền hạn đến thời hạn hội đồng trường của cơ sở giáo dục nghề nghiệp tư thục bổ nhiệm hiệu trưởng theo quy định tại Luật này.",
+      "global_page": 20,
+      "score": 0.6834293603897095,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.13",
+      "provision_path": "45.13",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.10:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "10. Hội đồng quản trị cơ sở giáo dục nghề nghiệp tư thục được công nhận trước ngày 01 tháng 01 năm 2026 được tiếp tục thực hiện nhiệm vụ, quyền hạn đến khi nhà đầu tư của cơ sở giáo dục nghề nghiệp tư thục 07/10/2026, 22:15 about:blank about:blank 19/21",
+      "global_page": 19,
+      "score": 0.681268036365509,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.10",
+      "provision_path": "45.10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.9:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "9. Hội đồng trường của cơ sở giáo dục nghề nghiệp công lập kết thúc hoạt động, có trách nhiệm bàn giao toàn bộ hồ sơ, tài liệu có liên quan cho hiệu trưởng và hiệu trưởng báo cáo cơ quan quản lý trực tiếp (báo cáo Bộ Giáo dục và Đào tạo đối với các cơ sở giáo dục nghề nghiệp không có cơ quan quản lý trực tiếp) trong thời hạn 06 tháng kể từ ngày 01 tháng 01 năm 2026.",
+      "global_page": 19,
+      "score": 0.6735732555389404,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.9",
+      "provision_path": "45.9",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "14. Hồ sơ đề nghị giải quyết thủ tục hành chính đã được nộp hợp lệ trước ngày 01 tháng 01 năm 2026 và thuộc thẩm quyền của cơ quan được quy định tại Luật số 74/2014/QH13, thì cơ quan có thẩm quyền đó tiếp tục thụ lý, giải quyết theo quy định của pháp luật tại thời điểm nộp hồ sơ, kể cả trong trường hợp thẩm quyền giải quyết thủ tục hành chính đó đã điều chỉnh theo quy định của Luật này. Các cơ sở giáo dục nghề nghiệp đã có quyết định về việc thành lập, cho phép thành lập, chia, tách, sáp nhập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 phải đáp ứng quy định chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn 60 tháng kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.",
+      "global_page": 20,
+      "score": 0.6593058705329895,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.14",
+      "provision_path": "45.14",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

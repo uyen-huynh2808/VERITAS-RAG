@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Theo Luật Bảo hiểm xã hội, quỹ bảo hiểm xã hội có những nguồn hình thành chủ yếu nào?",
+  "answer": "Theo Luật Bảo hiểm xã hội, các nguồn hình thành quỹ bảo hiểm xã hội chủ yếu bao gồm:\n\n1. **Đóng góp của người sử dụng lao động** theo quy định.  \n2. **Đóng góp của người lao động** theo quy định.  \n3. **Tiền sinh lời** từ hoạt động đầu tư của quỹ.  \n4. **Ngân sách nhà nước**.  \n5. **Các nguồn thu hợp pháp khác**.",
+  "latency_ms": 1126.1561000719666,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:117:53:0",
+      "article_id": "41/2024/QH15:article:117",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Các nguồn hình thành quỹ bảo hiểm xã hội Người sử dụng lao động đóng theo quy định. Người lao động đóng theo quy định. Tiền sinh lời của hoạt động đầu tư quỹ. Ngân sách nhà nước. Các nguồn thu hợp pháp khác.",
+      "global_page": 53,
+      "score": 0.7552132606506348,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:117",
+      "provision_path": "117",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:118:53:0",
+      "article_id": "41/2024/QH15:article:118",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Các quỹ thành phần của quỹ bảo hiểm xã hội, quỹ bảo hiểm thất nghiệp",
+      "global_page": 53,
+      "score": 0.6644386053085327,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:118",
+      "provision_path": "118",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:118:54:0",
+      "article_id": "41/2024/QH15:article:118",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Quỹ bảo hiểm xã hội bao gồm các quỹ thành phần sau đây: Quỹ ốm đau và thai sản; Quỹ hưu trí và tử tuất; Quỹ bảo hiểm tai nạn lao động - bệnh nghề nghiệp theo quy định của Luật An toàn, vệ sinh lao động. Quỹ bảo hiểm thất nghiệp theo quy định của Luật Việc làm.",
+      "global_page": 54,
+      "score": 0.6416249871253967,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:118",
+      "provision_path": "118",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:32:17:0",
+      "article_id": "41/2024/QH15:article:32",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Tỷ lệ đóng bảo hiểm xã hội Tỷ lệ đóng bảo hiểm xã hội bắt buộc bao gồm: 3% tiền lương làm căn cứ đóng bảo hiểm xã hội vào quỹ ốm đau và thai sản; 22% tiền lương làm căn cứ đóng bảo hiểm xã hội vào quỹ hưu trí và tử tuất. Tỷ lệ đóng bảo hiểm xã hội tự nguyện bằng 22% thu nhập làm căn cứ đóng bảo hiểm xã hội vào quỹ hưu trí và tử tuất.",
+      "global_page": 17,
+      "score": 0.5954318046569824,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:32",
+      "provision_path": "32",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:116:53:0",
+      "article_id": "41/2024/QH15:article:116",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Quỹ bảo hiểm xã hội Quỹ bảo hiểm xã hội là quỹ tài chính độc lập với ngân sách nhà nước; được hạch toán, kế toán, lập báo cáo tài chính, kiểm toán nội bộ theo quy định của pháp luật về kế toán và các quy định khác của pháp luật có liên quan. Định kỳ 03 năm, Kiểm toán nhà nước thực hiện kiểm toán quỹ bảo hiểm xã hội, hoạt động đầu tư quỹ và báo cáo kết quả với Quốc hội. Theo yêu cầu của Quốc hội, Ủy ban Thường vụ Quốc hội và Chính phủ, quỹ bảo hiểm xã hội được kiểm toán đột xuất. Trường hợp tiến hành hoạt động thanh tra, hoạt động kiểm toán nhà nước về bảo hiểm xã hội, nếu phát hiện chồng chéo, trùng lặp, cơ quan thanh tra phối hợp với cơ quan kiểm toán nhà nước xử lý theo quy định của Luật Thanh tra và Luật Kiểm toán nhà nước, bảo đảm một nội dung hoạt động của tổ chức, cá nhân chỉ là đối tượng của một cơ quan thanh tra hoặc một cơ quan kiểm toán nhà nước; bảo đảm phòng ngừa, phát hiện và xử lý hành vi vi phạm pháp luật về bảo hiểm xã hội.",
+      "global_page": 53,
+      "score": 0.5934133529663086,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:116",
+      "provision_path": "116",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

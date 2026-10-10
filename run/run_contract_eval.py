@@ -6,6 +6,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List
 
+from src.core.config import load_system_config
+
 # ---------------------------------------------------------------------------
 # Loading
 # ---------------------------------------------------------------------------
@@ -204,18 +206,19 @@ def main() -> None:
 
     parser.add_argument(
         "--output",
-        default="results/contract/contract_metrics.json",
+        default=None,
         help="Output JSON path.",
     )
 
     args = parser.parse_args()
+    output_path = args.output or load_system_config().benchmark.contract_metrics_path
 
     results = load_results(args.input)
     metrics = evaluate_contracts(results)
 
     save_json(
         metrics,
-        args.output,
+        output_path,
     )
 
     print(

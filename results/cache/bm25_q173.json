@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Bộ luật Lao động 45/2019/QH14 bãi bỏ khoản nào của Điều 32 Bộ luật Tố tụng dân sự 92/2015/QH13?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 17897.45699998457,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 41.165717009406414,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 35.47106262523263,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",
+      "article_id": "71/2025/QH15:article:49",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Sửa đổi, bổ sung, thay thế, bãi bỏ một số điều của các luật có liên quan Bãi bỏ các khoản 9, 10, 11 và 12 Điều 4; Mục 3 và Mục 4 Chương III của Luật Công nghệ thông tin số 67/2006/QH11 đã được sửa đổi, bổ sung theo Luật số 21/2017/QH14, Luật số 20/2023/QH15 và Luật số 24/2023/QH15. Sửa đổi, bổ sung điểm a khoản 1 Điều 5 của Luật Công nghệ cao số 21/2008/QH12 đã được sửa đổi, bổ sung theo Luật số 32/2013/QH13 và Luật số 67/2014/QH13 như sau: \"a) Công nghệ thông tin, công nghệ số;\". Bổ sung khoản 17 vào sau khoản 16 Điều 4 của Luật Thuế thu nhập cá nhân số 04/2007/QH12 đã được sửa đổi, bổ sung theo Luật số 26/2012/QH13, Luật số 71/2014/QH13, Luật số 31/2024/QH15, Luật số 48/2024/QH15 và Luật số 56/2024/QH15 như sau: '17. Các khoản thu nhập bao gồm tiền lương, tiền công của nhân lực công nghiệp công nghệ số chất lượng cao là các khoản thu nhập miễn thuế thu nhập cá nhân trong thời hạn 05 năm kể từ ngày ký hợp đồng đầu tiên với cơ quan, tổ chức, cá nhân Việt Nam thuộc các trường hợp sau: Thu nhập từ dự án hoạt động công nghiệp công nghệ số trong khu công nghệ số tập trung; Thu nhập từ dự án nghiên cứu và phát triển, sản xuất sản phẩm công nghệ số trọng điểm, chip bán dẫn, hệ thống trí tuệ nhân tạo; Thu nhập từ các hoạt động đào tạo nhân lực công nghiệp công nghệ số.'. Bổ sung khoản 8a vào sau khoản 8 và trước khoản 9 Điều 154 của Bộ luật Lao động số 45/2019/QH14 như sau: '8a. Nhân lực công nghiệp công nghệ số chất lượng cao theo quy định của pháp luật về công nghiệp công nghệ số.'.",
+      "global_page": 21,
+      "score": 34.03590039184723,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:49",
+      "provision_path": "49",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung một số điều của Bộ luật Lao động số 45/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2025/QH15 và Luật số 113/2025/QH15 như sau:",
+      "global_page": 18,
+      "score": 31.988306823733936,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1",
+      "provision_path": "43.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:67:0",
+      "article_id": "45/2019/QH14:article:219",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Điều kiện về tuổi hưởng lương hưu đối với một số trường hợp đặc biệt theo quy định của Chính phủ.'; Sửa đổi, bổ sung Điều 55 như sau: 'Điều 55. Điều kiện hưởng lương hưu khi suy giảm khả năng lao động Người lao động quy định tại các điểm a, b, c, d, g, h và i khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại các điểm a, b và c khoản 1 Điều 54 của Luật này nếu thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 61% đến dưới 81%; Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 81% trở lên; Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành và bị suy giảm khả năng lao động từ 61% trở lên. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên, bị suy giảm khả năng lao động từ 61% trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 54 của Luật này khi thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành.'; Sửa đổi, bổ sung khoản 1 Điều 73 như sau: ' 1. Người lao động hưởng lương hưu khi có đủ các điều kiện sau đây: Đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Đủ 20 năm đóng bảo hiểm xã hội trở lên.'. Sửa đổi, bổ sung Điều 32 của Bộ luật Tố tụng dân sự số 92/2015/QH13 như sau: Sửa đổi, bổ sung tên điều, khoản 1; bổ sung các khoản 1a, 1b và 1c vào sau khoản 1 như sau: ' Điều 32. Những tranh chấp về lao động và tranh chấp liên quan đến lao động thuộc thẩm quyền giải quyết của Tòa án Tranh chấp lao động cá nhân giữa người lao động với",
+      "global_page": 67,
+      "score": 28.402109843761977,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:219",
+      "provision_path": "219",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

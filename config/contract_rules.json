@@ -1,6 +1,6 @@
 {
   "schema_contract": {
-    "doc_id_pattern": "^\\d+/\\d{4}/(NĐ-CP|TT-[A-Z]+|QH\\d+|QĐ-[A-Z]+|NQ-[A-Z]+)$",
+    "doc_id_pattern": "^(?:\\d+/\\d{4}/(NĐ-CP|TT-[A-Z]+|QH\\d+|QĐ-[A-Za-z]+|NQ-[A-Z]+)|DOC-[0-9a-f]{24})$",
     "required_fields": [
       "doc_id",
       "title",
@@ -15,14 +15,12 @@
       "Nghị quyết"
     ]
   },
-
   "temporal_contract": {
     "intra_document": {
       "enabled": true,
       "effective_from_on_or_after_issued": true,
       "effective_to_after_effective_from": true
     },
-
     "cross_document": {
       "enabled": true,
       "relations": {
@@ -37,25 +35,23 @@
       }
     }
   },
-
   "quality_contract": {
     "max_null_ratio": 0.05,
-    "min_diacritic_density": 0.10,
+    "min_diacritic_density": 0.1,
     "max_ocr_noise_ratio": 0.02,
-
     "table_integrity": {
       "require_headers": true,
       "max_broken_cells_ratio": 0.05,
       "check_merged_cells": true
     }
   },
-
   "provenance_contract": {
     "hash_algorithm": "sha256",
     "require_storage_path": true,
     "require_document_hash": true,
     "require_article_id": true,
     "require_chunk_page_number": true,
-    "require_chunk_hash": true
+    "require_chunk_hash": true,
+    "require_provision_id": true
   }
 }

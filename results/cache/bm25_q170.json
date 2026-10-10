@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Theo Điều 219 của Bộ luật Lao động, người lao động có mức suy giảm khả năng lao động từ 61% đến dưới 81% được đặt trong quan hệ thế nào với tuổi nghỉ hưu để hưởng lương hưu thấp hơn?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 23549.841900006868,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:67:0",
+      "article_id": "45/2019/QH14:article:219",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Điều kiện về tuổi hưởng lương hưu đối với một số trường hợp đặc biệt theo quy định của Chính phủ.'; Sửa đổi, bổ sung Điều 55 như sau: 'Điều 55. Điều kiện hưởng lương hưu khi suy giảm khả năng lao động Người lao động quy định tại các điểm a, b, c, d, g, h và i khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại các điểm a, b và c khoản 1 Điều 54 của Luật này nếu thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 61% đến dưới 81%; Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 81% trở lên; Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành và bị suy giảm khả năng lao động từ 61% trở lên. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên, bị suy giảm khả năng lao động từ 61% trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 54 của Luật này khi thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành.'; Sửa đổi, bổ sung khoản 1 Điều 73 như sau: ' 1. Người lao động hưởng lương hưu khi có đủ các điều kiện sau đây: Đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Đủ 20 năm đóng bảo hiểm xã hội trở lên.'. Sửa đổi, bổ sung Điều 32 của Bộ luật Tố tụng dân sự số 92/2015/QH13 như sau: Sửa đổi, bổ sung tên điều, khoản 1; bổ sung các khoản 1a, 1b và 1c vào sau khoản 1 như sau: ' Điều 32. Những tranh chấp về lao động và tranh chấp liên quan đến lao động thuộc thẩm quyền giải quyết của Tòa án Tranh chấp lao động cá nhân giữa người lao động với",
+      "global_page": 67,
+      "score": 75.05691899543157,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:219",
+      "provision_path": "219",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:65:34:0",
+      "article_id": "41/2024/QH15:article:65",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đối tượng và điều kiện hưởng lương hưu khi suy giảm khả năng lao động Đối tượng quy định tại các điểm a, b, c, g, h, i, k, l, m và n khoản 1 và khoản 2 Điều 2 của Luật này khi nghỉ việc có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại các điểm a, b và c khoản 1 Điều 64 của Luật này nếu thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 05 tuổi so với tuổi quy định tại điểm a khoản 1 Điều 64 của Luật này và bị suy giảm khả năng lao động từ 61% đến dưới 81%; Có tuổi thấp hơn tối đa 10 tuổi so với tuổi quy định tại điểm a khoản 1 Điều 64 của Luật này và bị suy giảm khả năng lao động từ 81% trở lên; Có từ đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành và bị suy giảm khả năng lao động từ 61% trở lên. Đối tượng quy định tại các điểm d, đ và e khoản 1 Điều 2 của Luật này khi nghỉ việc có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên, bị suy giảm khả năng lao động từ 61% trở lên thì được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 64 của Luật này nếu thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 10 tuổi so với tuổi quy định tại điểm a khoản 1 Điều 64 của Luật này; Có từ đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.",
+      "global_page": 34,
+      "score": 73.84881108468689,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:65",
+      "provision_path": "65",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:86:42:0",
+      "article_id": "41/2024/QH15:article:86",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Các trường hợp hưởng trợ cấp tuất hằng tháng Đối tượng quy định tại khoản 1 Điều 2 của Luật này khi chết hoặc bị Tòa án tuyên bố là đã chết thuộc một trong các trường hợp sau đây thì thân nhân quy định tại khoản 2 Điều này được hưởng tiền tuất hằng tháng: Có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 15 năm trở lên; Đang hưởng lương hưu hoặc đang tạm dừng hưởng lương hưu; Chết do tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật về an toàn, vệ sinh lao động; Đang hưởng hoặc đang tạm dừng hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng với mức suy giảm khả năng lao động từ 61% trở lên. Thân nhân của đối tượng quy định tại khoản 1 Điều này được hưởng trợ cấp tuất hằng tháng, bao gồm: Các con bao gồm cả con khi người mẹ đang mang thai mà người cha chết, con khi lao động nữ mang thai hộ đang mang thai mà người cha hoặc người mẹ nhờ mang thai hộ chết thì được hưởng đến khi đủ 18 tuổi; Con bị suy giảm khả năng lao động từ 81% trở lên;",
+      "global_page": 42,
+      "score": 52.270410452562636,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:86",
+      "provision_path": "86",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:169:50:0",
+      "article_id": "45/2019/QH14:article:169",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Tuổi nghỉ hưu Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hưu khi đủ tuổi nghỉ hưu. Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035. Kể từ năm 2021, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường là đủ 60 tuổi 03 tháng đối với lao động nam và đủ 55 tuổi 04 tháng đối với lao động nữ; sau đó, cứ mỗi năm tăng thêm 03 tháng đối với lao động nam và 04 tháng đối với lao động nữ. Người lao động bị suy giảm khả năng lao động; làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm; làm nghề, công việc nặng nhọc, độc hại, nguy hiểm; làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn có thể nghỉ hưu ở tuổi thấp hơn nhưng không quá 05 tuổi so với quy định tại khoản 2 Điều này tại thời điểm nghỉ hưu, trừ trường hợp pháp luật có quy định khác. Người lao động có trình độ chuyên môn, kỹ thuật cao và một số trường hợp đặc biệt có thể nghỉ hưu ở tuổi cao hơn nhưng không quá 05 tuổi so với quy định tại khoản 2 Điều này tại thời điểm nghỉ hưu, trừ trường hợp pháp luật có quy định khác. Chính phủ quy định chi tiết Điều này. Chương XIII TỔ CHỨC ĐẠI DIỆN NGƯỜI LAO ĐỘNG TẠI CƠ SỞ",
+      "global_page": 50,
+      "score": 51.83579726182516,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:169",
+      "provision_path": "169",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:86:43:0",
+      "article_id": "41/2024/QH15:article:86",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Vợ, chồng đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động. Vợ, chồng chưa đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động mà bị suy giảm khả năng lao động từ 81% trở lên; Cha đẻ, mẹ đẻ; cha đẻ, mẹ đẻ của vợ hoặc của chồng; thành viên khác của gia đình đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động mà người quy định tại khoản 1 Điều này đang có nghĩa vụ nuôi dưỡng theo quy định của pháp luật về hôn nhân và gia đình; đ) Cha đẻ, mẹ đẻ; cha đẻ, mẹ đẻ của vợ hoặc của chồng; thành viên khác của gia đình chưa đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động bị suy giảm khả năng lao động từ 81% trở lên mà người tham gia bảo hiểm xã hội đang có nghĩa vụ nuôi dưỡng theo quy định của pháp luật về hôn nhân và gia đình. Không áp dụng trợ cấp tuất hằng tháng đối với thân nhân quy định tại các điểm b, c, d và đ khoản 2 Điều này là người đang hưởng tiền lương và tham gia bảo hiểm xã hội bắt buộc hoặc đang hưởng lương hưu, trợ cấp mất sức lao động hằng tháng, trợ cấp hằng tháng mà mức hưởng bằng hoặc cao hơn mức tham chiếu, không bao gồm khoản trợ cấp theo quy định của pháp luật về ưu đãi người có công với cách mạng. Kết quả khám giám định mức suy giảm khả năng lao động để hưởng trợ cấp tuất hằng tháng phải được xác định chậm nhất 06 tháng kể từ ngày người tham gia bảo hiểm xã hội chết hoặc kể từ ngày thân nhân quy định tại điểm a khoản 2 Điều này hết thời hạn hưởng trợ cấp theo quy định. Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định về việc tính, việc xác định điều kiện đối với từng trường hợp để giải quyết chế độ tử tuất.",
+      "global_page": 43,
+      "score": 50.980827305031575,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:86",
+      "provision_path": "86",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

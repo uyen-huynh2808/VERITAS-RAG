@@ -6,6 +6,8 @@ import logging
 from typing import Any, Dict, List, Optional
 
 from src.database.lakehouse_manager import LakehouseManager
+from src.core.config import load_system_config
+from src.contracts.rules import load_contract_rules
 
 
 logger = logging.getLogger(__name__)
@@ -13,10 +15,10 @@ logger = logging.getLogger(__name__)
 
 class ChunkBuilder:
     """
-    Build page-aware Gold-ready chunks from validated Silver Articles.
+    Build page-aware Gold-ready chunks from validated Silver Provisions.
 
     Pipeline:
-        Silver Articles
+        Silver Provisions
               ↓
         Page-aware Chunking
               ↓
@@ -28,7 +30,7 @@ class ChunkBuilder:
 
     Responsibilities:
     - Build deterministic page-aware chunks from Silver data.
-    - Preserve article-level temporal metadata.
+    - Preserve provision-level temporal metadata.
     - Preserve physical and global page provenance.
     - Generate deterministic chunk hashes.
     - Load Silver Articles for the normal E2E pipeline.
@@ -50,14 +52,26 @@ class ChunkBuilder:
     before calling persist_chunks().
     """
 
-    HASH_ALGORITHM = "sha256"
-
     def __init__(
         self,
         lakehouse: LakehouseManager,
-        chunk_size: int = 512,
-        chunk_overlap: int = 64,
+        chunk_size: Optional[int] = None,
+        chunk_overlap: Optional[int] = None,
+        hash_algorithm: Optional[str] = None,
     ) -> None:
+        config = load_system_config()
+        rules = load_contract_rules(config.contracts.rules_path)
+        chunk_size = (
+            config.chunking.max_tokens
+            if chunk_size is None
+            else chunk_size
+        )
+        chunk_overlap = (
+            config.chunking.overlap
+            if chunk_overlap is None
+            else chunk_overlap
+        )
+        hash_algorithm = hash_algorithm or rules.provenance_contract.hash_algorithm
         if chunk_size <= 0:
             raise ValueError("chunk_size must be greater than 0.")
 
@@ -72,6 +86,7 @@ class ChunkBuilder:
         self.lakehouse = lakehouse
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
+        self.hash_algorithm = hash_algorithm
 
     # ------------------------------------------------------------------
     # Public API: build from Silver without persistence
@@ -108,17 +123,17 @@ class ChunkBuilder:
         if not doc_version_hash:
             raise ValueError("doc_version_hash must not be empty.")
 
-        articles = self._load_articles(logical_doc_id)
+        provisions = self._load_provisions(logical_doc_id)
 
-        if not articles:
+        if not provisions:
             logger.warning(
-                "No Silver Articles found for logical_doc_id=%s",
+                "No Silver provisions found for logical_doc_id=%s",
                 logical_doc_id,
             )
             return []
 
         gold_chunks = self.build_chunks(
-            articles=articles,
+            provisions=provisions,
             logical_doc_id=logical_doc_id,
             doc_version_hash=doc_version_hash,
         )
@@ -138,7 +153,7 @@ class ChunkBuilder:
 
     def build_chunks(
         self,
-        articles: List[Dict[str, Any]],
+        provisions: List[Dict[str, Any]],
         logical_doc_id: str,
         doc_version_hash: str,
     ) -> List[Dict[str, Any]]:
@@ -149,13 +164,13 @@ class ChunkBuilder:
         Gold Data Contract against the exact chunks that will later
         be written to Gold.
 
-        Expected article structure:
+        Expected provision structure:
 
             {
-                "article_id": str,
-                "logical_doc_id": str,
-                "article_number": ...,
-                "article_title": ...,
+                "provision_id": str,
+                "parent_provision_id": str | None,
+                "level": str,
+                "path": str,
                 "issued_date": ...,
                 "effective_from": ...,
                 "effective_to": ...,
@@ -181,20 +196,20 @@ class ChunkBuilder:
         if not doc_version_hash:
             raise ValueError("doc_version_hash must not be empty.")
 
-        if not articles:
+        if not provisions:
             logger.warning(
-                "No articles supplied for logical_doc_id=%s",
+                "No provisions supplied for logical_doc_id=%s",
                 logical_doc_id,
             )
             return []
 
-        normalized_articles = self._normalize_articles(
-            articles,
+        normalized_provisions = self._normalize_provisions(
+            provisions,
             logical_doc_id=logical_doc_id,
         )
 
-        chunks = self._chunk_articles(
-            normalized_articles,
+        chunks = self._chunk_provisions(
+            normalized_provisions,
             doc_version_hash=doc_version_hash,
         )
 
@@ -239,12 +254,12 @@ class ChunkBuilder:
     # Silver loading
     # ------------------------------------------------------------------
 
-    def _load_articles(
+    def _load_provisions(
         self,
         logical_doc_id: str,
     ) -> List[Dict[str, Any]]:
         """
-        Load Silver Articles together with page-level provenance.
+        Load Silver Provisions together with page-level provenance.
 
         page_segments_json is required because Gold chunks must retain
         the physical page from which their text originated.
@@ -254,14 +269,20 @@ class ChunkBuilder:
         """
         query = """
             SELECT
+                provision_id,
                 article_id,
                 logical_doc_id,
-                article_number,
-                article_title,
+                parent_provision_id,
+                level,
+                provision_number,
+                provision_path,
+                title,
                 content,
                 issued_date,
                 effective_from,
                 effective_to,
+                effectivity_mode,
+                trigger_reference,
                 status,
                 start_physical_file_id,
                 start_physical_page,
@@ -270,62 +291,44 @@ class ChunkBuilder:
                 start_global_page,
                 end_global_page,
                 page_segments_json
-            FROM silver_articles
+            FROM silver_provisions
             WHERE logical_doc_id = ?
-            ORDER BY start_global_page, article_number
+            ORDER BY start_global_page, provision_path
         """
 
-        rows = self.lakehouse.conn.execute(
+        cursor = self.lakehouse.conn.execute(
             query,
             [logical_doc_id],
-        ).fetchall()
+        )
+        rows = cursor.fetchall()
 
-        columns = [
-            "article_id",
-            "logical_doc_id",
-            "article_number",
-            "article_title",
-            "content",
-            "issued_date",
-            "effective_from",
-            "effective_to",
-            "status",
-            "start_physical_file_id",
-            "start_physical_page",
-            "end_physical_file_id",
-            "end_physical_page",
-            "start_global_page",
-            "end_global_page",
-            "page_segments_json",
-        ]
-
-        articles: List[Dict[str, Any]] = []
+        columns = [description[0] for description in cursor.description]
+        provisions: List[Dict[str, Any]] = []
 
         for row in rows:
-            article = dict(zip(columns, row))
+            provision = dict(zip(columns, row))
 
             page_segments = self._parse_page_segments(
-                article.get("page_segments_json"),
-                article_id=article["article_id"],
+                provision.get("page_segments_json"),
+                article_id=provision["provision_id"],
             )
 
-            article["page_segments"] = page_segments
+            provision["page_segments"] = page_segments
+            provisions.append(provision)
 
-            articles.append(article)
-
-        return articles
+        return provisions
 
     # ------------------------------------------------------------------
     # Article normalization
     # ------------------------------------------------------------------
 
-    def _normalize_articles(
+    def _normalize_provisions(
         self,
-        articles: List[Dict[str, Any]],
+        provisions: List[Dict[str, Any]],
         logical_doc_id: str,
     ) -> List[Dict[str, Any]]:
         """
-        Normalize article dictionaries before chunk construction.
+        Normalize provision dictionaries before chunk construction.
 
         This method does not create synthetic chunks or synthetic
         provenance. It only normalizes the actual article/page-segment
@@ -333,13 +336,13 @@ class ChunkBuilder:
         """
         normalized: List[Dict[str, Any]] = []
 
-        for article in articles:
-            if not isinstance(article, dict):
+        for provision in provisions:
+            if not isinstance(provision, dict):
                 raise TypeError(
-                    "Each article must be a dictionary."
+                    "Each provision must be a dictionary."
                 )
 
-            article_copy = dict(article)
+            article_copy = dict(provision)
 
             article_copy["logical_doc_id"] = (
                 article_copy.get("logical_doc_id")
@@ -352,11 +355,11 @@ class ChunkBuilder:
                     f"logical_doc_id={logical_doc_id}."
                 )
 
-            article_id = article_copy.get("article_id")
+            provision_id = article_copy.get("provision_id")
 
-            if not article_id:
+            if not provision_id:
                 raise ValueError(
-                    "Every article must contain a non-empty article_id."
+                    "Every provision must contain a non-empty provision_id."
                 )
 
             raw_segments = article_copy.get("page_segments")
@@ -369,7 +372,7 @@ class ChunkBuilder:
             article_copy["page_segments"] = (
                 self._parse_page_segments(
                     raw_segments,
-                    article_id=str(article_id),
+                    article_id=str(provision_id),
                 )
             )
 
@@ -381,29 +384,29 @@ class ChunkBuilder:
     # Page-aware chunking
     # ------------------------------------------------------------------
 
-    def _chunk_articles(
+    def _chunk_provisions(
         self,
-        articles: List[Dict[str, Any]],
+        provisions: List[Dict[str, Any]],
         doc_version_hash: str,
     ) -> List[Dict[str, Any]]:
         """
-        Build Gold chunks from actual Silver article/page-segment data.
+        Build Gold chunks from actual Silver provision/page-segment data.
 
         Each page segment is chunked independently so that every Gold
         chunk retains exact physical-page provenance.
 
-        A deterministic SHA-256 hash is generated from the chunk's
+        A deterministic contract-configured hash is generated from the chunk's
         canonical identity and text.
         """
         chunks: List[Dict[str, Any]] = []
 
-        for article in articles:
-            page_segments = article.get("page_segments") or []
+        for provision in provisions:
+            page_segments = provision.get("page_segments") or []
 
             if not page_segments:
                 logger.warning(
                     "Article %s has no page_segments; skipping.",
-                    article.get("article_id"),
+                    provision.get("provision_id"),
                 )
                 continue
 
@@ -423,8 +426,8 @@ class ChunkBuilder:
                     global_page = segment.get("global_page")
 
                     chunk_id = self._build_chunk_id(
-                        logical_doc_id=article["logical_doc_id"],
-                        article_id=article["article_id"],
+                        logical_doc_id=provision["logical_doc_id"],
+                        article_id=provision["provision_id"],
                         global_page=global_page,
                         chunk_index=chunk_index,
                     )
@@ -433,13 +436,18 @@ class ChunkBuilder:
                         chunk_id=chunk_id,
                         doc_version_hash=doc_version_hash,
                         chunk_text=chunk_text,
+                        algorithm=self.hash_algorithm,
                     )
 
                     chunks.append(
                         {
                             "chunk_id": chunk_id,
-                            "article_id": article["article_id"],
-                            "logical_doc_id": article[
+                            "article_id": provision["article_id"],
+                            "provision_id": provision["provision_id"],
+                            "provision_path": provision["provision_path"],
+                            "effectivity_mode": provision["effectivity_mode"],
+                            "trigger_reference": provision.get("trigger_reference"),
+                            "logical_doc_id": provision[
                                 "logical_doc_id"
                             ],
                             "doc_version_hash": doc_version_hash,
@@ -457,23 +465,21 @@ class ChunkBuilder:
                             "global_page": global_page,
                             "chunk_index": chunk_index,
                             "text_content": chunk_text,
-                            "issued_date": article.get(
+                            "issued_date": provision.get(
                                 "issued_date"
                             ),
-                            "effective_from": article.get(
+                            "effective_from": provision.get(
                                 "effective_from"
                             ),
-                            "effective_to": article.get(
+                            "effective_to": provision.get(
                                 "effective_to"
                             ),
-                            "status": article.get("status"),
+                            "status": provision.get("status"),
                             "metadata": {
-                                "article_number": article.get(
-                                    "article_number"
-                                ),
-                                "article_title": article.get(
-                                    "article_title"
-                                ),
+                                "provision_level": provision.get("level"),
+                                "provision_number": provision.get("provision_number"),
+                                "provision_path": provision.get("provision_path"),
+                                "provision_title": provision.get("title"),
                             },
                         }
                     )
@@ -510,15 +516,15 @@ class ChunkBuilder:
             f"{chunk_index}"
         )
 
-    @classmethod
+    @staticmethod
     def _compute_chunk_hash(
-        cls,
         chunk_id: str,
         doc_version_hash: str,
         chunk_text: str,
+        algorithm: str,
     ) -> str:
         """
-        Compute a deterministic SHA-256 hash for a chunk.
+        Compute a deterministic contract-configured hash for a chunk.
 
         The hash covers:
         - chunk identity
@@ -534,8 +540,8 @@ class ChunkBuilder:
             f"text={chunk_text}"
         )
 
-        return hashlib.sha256(
-            canonical_payload.encode("utf-8")
+        return hashlib.new(
+            algorithm, canonical_payload.encode("utf-8")
         ).hexdigest()
 
     # ------------------------------------------------------------------

@@ -1,12 +1,15 @@
-import hashlib
+﻿import hashlib
 import logging
 import re
-import uuid
+import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from src.core.interfaces import BaseParser
+from src.core.config import SystemConfig, load_system_config
+from src.contracts.rules import load_contract_rules
+from src.ingestion.provision_parser import ProvisionParser
 
 logger = logging.getLogger(__name__)
 
@@ -51,7 +54,7 @@ class PhysicalPDFPart:
     """
     Represents one physical PDF file belonging to a logical document.
 
-    physical_file_id is the SHA-256 hash of the physical PDF file.
+    physical_file_id is the contract-configured hash of the physical PDF file.
     """
 
     file_path: str
@@ -131,15 +134,22 @@ class ParsedPage:
 class ParsedDocumentResult:
     """
     Complete parsing result for one logical document.
+
+    metadata contains document-level fields extracted from the PDF,
+    including issued_date and the default effective_from date.
+    Article-level effective dates are stored on ParsedArticle.
     """
 
     logical_doc_id: str
     parts: List[PhysicalPDFPart]
     pages: List[ParsedPage]
     articles: List[ParsedArticle]
+    provisions: List[Dict[str, Any]]
+    effectivity_rules: List[Dict[str, Any]]
     full_markdown: str
     parser_used: str
     total_global_pages: int
+    metadata: Dict[str, Any] = field(default_factory=dict)
 
 
 # ---------------------------------------------------------------------------
@@ -148,7 +158,7 @@ class ParsedDocumentResult:
 
 def calculate_file_hash(
     file_path: str,
-    algorithm: str = "sha256",
+    algorithm: str,
 ) -> str:
     """
     Calculate a deterministic hash for a physical PDF file.
@@ -182,8 +192,31 @@ class PDFParser(BaseParser):
     handled outside this class.
     """
 
-    def __init__(self, prefer_docling: bool = True):
-        self.prefer_docling = prefer_docling and HAS_DOCLING
+    def __init__(
+        self,
+        prefer_docling: Optional[bool] = None,
+        hash_algorithm: Optional[str] = None,
+        header_ocr_engine: Optional[str] = None,
+        config: Optional[SystemConfig] = None,
+    ):
+        self.config = config or load_system_config()
+        rules = load_contract_rules(self.config.contracts.rules_path)
+        self.hash_algorithm = (
+            rules.provenance_contract.hash_algorithm
+            if hash_algorithm is None
+            else hash_algorithm
+        )
+        self.header_ocr_engine_type = (
+            header_ocr_engine or self.config.parser.header_ocr_engine
+        )
+        self._header_ocr_engine = None
+        self._header_ocr_attempted = False
+        selected_parser = (
+            self.config.parser.prefer_docling
+            if prefer_docling is None
+            else prefer_docling
+        )
+        self.prefer_docling = selected_parser and HAS_DOCLING
         self.docling_converter = None
 
         if self.prefer_docling:
@@ -215,8 +248,8 @@ class PDFParser(BaseParser):
     def parse(
         self,
         parts_paths: List[str],
-        logical_doc_id: str,
-    ) -> Any:
+        logical_doc_id: Optional[str] = None,
+    ) -> ParsedDocumentResult:
         return self.parse_multi_part_document(
             parts_paths=parts_paths,
             logical_doc_id=logical_doc_id,
@@ -255,7 +288,7 @@ class PDFParser(BaseParser):
                 "page_offset must be >= 0."
             )
 
-        file_hash = calculate_file_hash(str(path))
+        file_hash = calculate_file_hash(str(path), self.hash_algorithm)
         doc_id = logical_doc_id or path.stem
 
         pages: List[ParsedPage] = []
@@ -320,23 +353,27 @@ class PDFParser(BaseParser):
     def parse_multi_part_document(
         self,
         parts_paths: List[str],
-        logical_doc_id: str,
+        logical_doc_id: Optional[str] = None,
     ) -> ParsedDocumentResult:
         if not parts_paths:
             raise ValueError(
                 "parts_paths must contain at least one PDF file."
             )
 
-        logical_doc_id = logical_doc_id.strip()
-
-        if not logical_doc_id:
-            raise ValueError(
-                "logical_doc_id must not be empty."
-            )
+        if logical_doc_id is not None:
+            logical_doc_id = logical_doc_id.strip() or None
 
         all_parts: List[PhysicalPDFPart] = []
         all_pages: List[ParsedPage] = []
         markdown_sections: List[str] = []
+
+        # A provisional ID is only used while extracting raw pages.
+        # The authoritative logical_doc_id is taken from the PDF metadata
+        # once the document text has been parsed.
+        provisional_doc_id = (
+            logical_doc_id
+            or Path(parts_paths[0]).stem
+        )
 
         current_global_offset = 0
         parser_names: List[str] = []
@@ -347,7 +384,7 @@ class PDFParser(BaseParser):
         ):
             part_info, pages, parser_used = self.parse_file(
                 file_path=file_path,
-                logical_doc_id=logical_doc_id,
+                logical_doc_id=provisional_doc_id,
                 part_no=part_no,
                 page_offset=current_global_offset,
             )
@@ -380,22 +417,111 @@ class PDFParser(BaseParser):
             else "mixed"
         )
 
+        full_markdown = "\n\n".join(markdown_sections)
+
+        # Extract document-level metadata directly from the parsed PDF.
+        # No issued/effective dates are supplied by the ingestion caller.
+        canonical_content = re.sub(
+            r"<!--.*?-->", " ", full_markdown, flags=re.DOTALL
+        )
+        canonical_content = " ".join(canonical_content.split())
+        content_fallback_id = (
+            "DOC-"
+            + hashlib.new(
+                self.hash_algorithm,
+                canonical_content.encode("utf-8"),
+            ).hexdigest()[:24]
+        )
+        metadata = self._extract_document_metadata(
+            full_markdown=full_markdown,
+            logical_doc_id=logical_doc_id or content_fallback_id,
+            fallback_path=parts_paths[0],
+        )
+        if (
+            not metadata.get("issued_date")
+            or str(metadata.get("doc_id", "")).startswith("DOC-")
+        ):
+            header_text = self._extract_header_text(parts_paths[0])
+            if header_text:
+                metadata = self._extract_document_metadata(
+                    full_markdown=header_text + "\n" + full_markdown,
+                    logical_doc_id=logical_doc_id or content_fallback_id,
+                    fallback_path=parts_paths[0],
+                )
+
+        extracted_doc_id = metadata.get("doc_id")
+        actual_logical_doc_id = (
+            extracted_doc_id
+            or logical_doc_id
+            or provisional_doc_id
+        )
+
+        # Pages were parsed before the document ID was known. Update their
+        # logical ID before article extraction so all downstream records
+        # carry the authoritative ID.
+        for page in all_pages:
+            page.logical_doc_id = actual_logical_doc_id
+
         articles = self._extract_articles(
             pages=all_pages,
-            logical_doc_id=logical_doc_id,
+            logical_doc_id=actual_logical_doc_id,
         )
+
+        (
+            default_effective_from,
+            effective_date_rules,
+            effectivity_rules,
+        ) = self._extract_effectivity_from_articles(articles)
+
+        metadata["effective_from"] = (
+            default_effective_from
+        )
+        metadata["effective_date_rules"] = (
+            effective_date_rules
+        )
+
+        self._apply_effective_dates(
+            articles=articles,
+            effective_rules=effective_date_rules,
+            default_effective_from=default_effective_from,
+            issued_date=metadata.get("issued_date"),
+        )
+
+        provision_parser = ProvisionParser()
+        parsed_provisions = [
+            provision
+            for article in articles
+            for provision in provision_parser.parse_article(vars(article))
+        ]
+        provision_parser.apply_effectivity_rules(
+            parsed_provisions,
+            effectivity_rules,
+        )
+
+        provision_paths = {
+            provision["path"] for provision in parsed_provisions
+        }
+        missing_effectivity_targets = sorted(
+            {
+                rule.get("target_path")
+                for rule in effectivity_rules
+                if rule.get("target_path") != "*"
+                and rule.get("target_path") not in provision_paths
+            }
+        )
+
+        logical_doc_id = actual_logical_doc_id
 
         # --------------------------------------------------------------
         # Parser-level fallback
         #
-        # Docling may successfully produce pages while its extracted
-        # text structure is unsuitable for article detection. In that
-        # case, retry the complete logical document with PyMuPDF before
-        # declaring the parsing result unusable.
+        # Docling may produce articles while losing clause/point headings
+        # from its item text. Retry with PyMuPDF when a source effectivity
+        # reference cannot be resolved to an extracted provision.
         # --------------------------------------------------------------
 
         if (
-            not articles
+            (not articles or missing_effectivity_targets)
             and HAS_PYMUPDF
             and any(
                 parser_name == "docling"
@@ -403,10 +529,12 @@ class PDFParser(BaseParser):
             )
         ):
             logger.warning(
-                "Docling produced %d legal articles for %s. "
-                "Retrying article extraction with PyMuPDF.",
+                "Docling produced %d legal articles for %s, but "
+                "could not resolve effectivity targets %s. "
+                "Retrying extraction with PyMuPDF.",
                 len(articles),
                 logical_doc_id,
+                missing_effectivity_targets,
             )
 
             pymupdf_parts: List[PhysicalPDFPart] = []
@@ -499,15 +627,486 @@ class PDFParser(BaseParser):
                     exc,
                 )
 
+        # If the full-document parser fallback replaced the pages/articles,
+        # refresh metadata and article-level effective dates from the
+        # authoritative fallback text.
+        if parser_used == "pymupdf":
+            full_markdown = "\n\n".join(
+                markdown_sections
+            )
+
+            metadata = self._extract_document_metadata(
+                full_markdown=full_markdown,
+                logical_doc_id=logical_doc_id,
+                fallback_path=parts_paths[0],
+            )
+            if not metadata.get("issued_date"):
+                header_text = self._extract_header_text(parts_paths[0])
+                if header_text:
+                    metadata = self._extract_document_metadata(
+                        full_markdown=header_text + "\n" + full_markdown,
+                        logical_doc_id=logical_doc_id,
+                        fallback_path=parts_paths[0],
+                    )
+
+            (
+                default_effective_from,
+                effective_date_rules,
+                effectivity_rules,
+            ) = self._extract_effectivity_from_articles(articles)
+
+            metadata["effective_from"] = (
+                default_effective_from
+            )
+            metadata["effective_date_rules"] = (
+                effective_date_rules
+            )
+
+            self._apply_effective_dates(
+                articles=articles,
+                effective_rules=effective_date_rules,
+                default_effective_from=default_effective_from,
+                issued_date=metadata.get("issued_date"),
+            )
+
+            parsed_provisions = [
+                provision
+                for article in articles
+                for provision in provision_parser.parse_article(vars(article))
+            ]
+            provision_parser.apply_effectivity_rules(
+                parsed_provisions,
+                effectivity_rules,
+            )
+
         return ParsedDocumentResult(
             logical_doc_id=logical_doc_id,
             parts=all_parts,
             pages=all_pages,
             articles=articles,
+            provisions=parsed_provisions,
+            effectivity_rules=effectivity_rules,
             full_markdown="\n\n".join(markdown_sections),
             parser_used=parser_used,
             total_global_pages=current_global_offset,
+            metadata=metadata,
         )
+
+    # ------------------------------------------------------------------
+    # Document metadata extraction
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _normalize_for_matching(text: str) -> str:
+        normalized = unicodedata.normalize("NFD", text)
+        normalized = "".join(
+            char for char in normalized
+            if unicodedata.category(char) != "Mn"
+        )
+        return normalized.replace(chr(273), "d").replace(chr(272), "d").lower()
+
+    @staticmethod
+    def _parse_vietnamese_date(
+        day: str,
+        month: str,
+        year: str,
+    ) -> Optional[str]:
+        """
+        Convert a Vietnamese textual date to ISO format.
+
+        Invalid calendar dates are rejected instead of being silently
+        normalized.
+        """
+        from datetime import date
+
+        try:
+            value = date(
+                int(year),
+                int(month),
+                int(day),
+            )
+        except ValueError:
+            return None
+
+        return value.isoformat()
+
+    @classmethod
+    def _extract_first_date(cls, text: str) -> Optional[str]:
+        normalized = cls._normalize_for_matching(text)
+        pattern = re.compile(
+            r"ngay\s+(\d{1,2})\s+thang\s+(\d{1,2})\s+nam\s+(\d{4})",
+            re.IGNORECASE,
+        )
+        for match in pattern.finditer(normalized):
+            parsed = cls._parse_vietnamese_date(*match.groups())
+            if parsed:
+                return parsed
+        return None
+
+    @classmethod
+    def _extract_issued_date(
+        cls,
+        full_markdown: str,
+    ) -> Optional[str]:
+        """Prefer a date adjacent to the signing location in the PDF."""
+        normalized_text = cls._normalize_for_matching(full_markdown)
+        date_pattern = (
+            r"ngay\s+(\d{1,2})\s+"
+            r"thang\s+(\d{1,2})\s+"
+            r"nam\s+(\d{4})"
+        )
+        location_date_pattern = re.compile(
+            r"(?:ha\s+no?i|tp\.?\s*ho\s+chi\s+minh)"
+            r"\s*[,;:]?\s*"
+            + date_pattern,
+            re.IGNORECASE,
+        )
+        # The signing date is part of the document header. Later pages may
+        # repeat place/date text in amendments, citations, or appended material,
+        # so selecting the last match can incorrectly turn an effective date
+        # into the document's issue date. The first header-style match is the
+        # source-backed signing date for the document.
+        matches = list(location_date_pattern.finditer(normalized_text))
+        if not matches:
+            return None
+        match = matches[0]
+
+        return cls._parse_vietnamese_date(
+            match.group(1), match.group(2), match.group(3)
+        )
+
+    @classmethod
+    def _extract_doc_id(
+        cls,
+        full_markdown: str,
+        fallback_logical_doc_id: Optional[str] = None,
+    ) -> Optional[str]:
+        normalized = cls._normalize_for_matching(full_markdown[:20000])
+        pattern = re.compile(
+            r"(?<![A-Za-z0-9])(\d+/\d{4}/[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*)"
+        )
+        match = pattern.search(normalized)
+        if not match:
+            return fallback_logical_doc_id
+
+        value = match.group(1)
+        prefix, suffix = value.rsplit("/", 1)
+        suffix = suffix.upper()
+        if suffix == "ND-CP":
+            suffix = "N" + chr(272) + "-CP"
+        elif suffix.startswith("QD-"):
+            suffix = "Q" + chr(272) + suffix[2:]
+        return f"{prefix}/{suffix}"
+
+    @classmethod
+    def _extract_doc_type(
+        cls,
+        full_markdown: str,
+        doc_id: Optional[str],
+    ) -> Optional[str]:
+        normalized = cls._normalize_for_matching(full_markdown[:20000])
+        nghi_dinh = "Ngh\u1ecb \u0111\u1ecbnh"
+        thong_tu = "Th\u00f4ng t\u01b0"
+        luat = "Lu\u1eadt"
+        quyet_dinh = "Quy\u1ebft \u0111\u1ecbnh"
+        nghi_quyet = "Ngh\u1ecb quy\u1ebft"
+        candidates = [
+            (nghi_dinh, "nghi dinh"),
+            (thong_tu, "thong tu"),
+            (luat, "luat"),
+            (quyet_dinh, "quyet dinh"),
+            (nghi_quyet, "nghi quyet"),
+        ]
+        for doc_type, alias in candidates:
+            if alias in normalized:
+                return doc_type
+
+        if doc_id:
+            normalized_id = cls._normalize_for_matching(doc_id)
+            if "/nd-cp" in normalized_id:
+                return nghi_dinh
+            if "/tt-" in normalized_id:
+                return thong_tu
+            if "/qd-" in normalized_id:
+                return quyet_dinh
+            if "/nq-" in normalized_id:
+                return nghi_quyet
+        return None
+
+    @classmethod
+    def _extract_title(
+        cls,
+        full_markdown: str,
+        doc_id: Optional[str],
+        doc_type: Optional[str],
+    ) -> Optional[str]:
+        """
+        Extract a concise title from the opening part of the PDF.
+
+        If the source title is not safely recoverable, fall back to the
+        legal type + document ID rather than inventing a substantive title.
+        """
+        head = full_markdown[:16000]
+
+        if doc_id:
+            # Prefer a source line that contains the document ID.
+            for line in head.splitlines():
+                clean = re.sub(
+                    r"^[#*\s]+|[#*\s]+$",
+                    "",
+                    line,
+                ).strip()
+
+                if doc_id in clean:
+                    if len(clean) <= 300:
+                        return clean
+
+        if doc_type and doc_id:
+            return f"{doc_type} {doc_id}"
+
+        return doc_id
+
+    @classmethod
+    def _extract_effective_date_rules(
+        cls,
+        effective_article_content: str,
+    ) -> Tuple[Optional[str], Dict[str, Optional[str]]]:
+        document_rule, scoped_rules = ProvisionParser.extract_effectivity_rules(
+            effective_article_content,
+            cls._parse_vietnamese_date,
+        )
+        default_effective_from = (
+            document_rule.get("effective_from")
+            if document_rule and document_rule.get("mode") == "explicit_date"
+            else None
+        )
+        article_date_rules = {
+            rule["target_path"]: rule["effective_from"]
+            for rule in scoped_rules
+            if "." not in rule["target_path"]
+            and rule["mode"] == "explicit_date"
+        }
+        return default_effective_from, article_date_rules
+
+    def _extract_header_text(self, file_path: str) -> str:
+        """OCR the first-page header when the hybrid parser omits it."""
+        if not HAS_PYMUPDF or fitz is None:
+            return ""
+        try:
+            import numpy as np
+            from rapidocr import EngineType, RapidOCR
+        except ImportError:
+            logger.warning("Header OCR dependencies are unavailable.")
+            return ""
+
+        if not self._header_ocr_attempted:
+            self._header_ocr_attempted = True
+            try:
+                engine_type = EngineType(self.header_ocr_engine_type.lower())
+                params = {
+                    "Det.engine_type": engine_type,
+                    "Cls.engine_type": engine_type,
+                    "Rec.engine_type": engine_type,
+                }
+                self._header_ocr_engine = RapidOCR(params=params)
+            except Exception as exc:
+                logger.warning("Could not initialize header OCR: %s", exc)
+                return ""
+
+        if self._header_ocr_engine is None:
+            return ""
+
+        try:
+            with fitz.open(file_path) as document:
+                if not len(document):
+                    return ""
+                page = document[0]
+                pixmap = page.get_pixmap(
+                    matrix=fitz.Matrix(2, 2),
+                    alpha=False,
+                )
+                image = np.frombuffer(
+                    pixmap.samples,
+                    dtype=np.uint8,
+                ).reshape(pixmap.height, pixmap.width, pixmap.n)
+                header = image[: int(pixmap.height * 0.28), :, :3]
+                result = self._header_ocr_engine(header)
+                return "\n".join(getattr(result, "txts", None) or [])
+        except Exception as exc:
+            logger.warning(
+                "Could not OCR first-page metadata for %s: %s",
+                file_path,
+                exc,
+            )
+            return ""
+
+    @classmethod
+    def _extract_document_metadata(
+        cls,
+        full_markdown: str,
+        logical_doc_id: Optional[str],
+        fallback_path: str,
+    ) -> Dict[str, Any]:
+        """
+        Extract document-level legal metadata from the PDF text.
+
+        The parser does not hard-code dates from the ingestion script.
+        If a required field cannot be extracted, it remains None so the
+        document contract can reject the document rather than accepting
+        fabricated metadata.
+        """
+        doc_id = cls._extract_doc_id(
+            full_markdown=full_markdown,
+            fallback_logical_doc_id=logical_doc_id,
+        )
+
+        doc_type = cls._extract_doc_type(
+            full_markdown=full_markdown,
+            doc_id=doc_id,
+        )
+
+        title = cls._extract_title(
+            full_markdown=full_markdown,
+            doc_id=doc_id,
+            doc_type=doc_type,
+        )
+
+        issued_date = cls._extract_issued_date(
+            full_markdown
+        )
+
+        metadata: Dict[str, Any] = {
+            "doc_id": doc_id,
+            "title": title,
+            "issued_date": issued_date,
+            "effective_from": None,
+            "effective_to": None,
+            "doc_type": doc_type,
+            "storage_path": str(fallback_path),
+            "effective_date_rules": {},
+        }
+
+        return metadata
+
+    @classmethod
+    def _apply_effective_dates(
+        cls,
+        articles: List[ParsedArticle],
+        effective_rules: Dict[str, Optional[str]],
+        default_effective_from: Optional[str],
+        issued_date: Optional[str] = None,
+    ) -> None:
+        """
+        Assign the document's default effective date to every article,
+        then override articles explicitly listed in the effectiveness
+        provision.
+
+        This matches the legal pattern where one article establishes a
+        general effective date and later clauses carve out exceptions for
+        specific articles.
+        """
+        for article in articles:
+            article.issued_date = issued_date
+            article.effective_from = (
+                effective_rules.get(
+                    article.article_number,
+                    default_effective_from,
+                )
+            )
+
+    @classmethod
+    def _extract_effective_dates_from_articles(
+        cls,
+        articles: List[ParsedArticle],
+    ) -> Tuple[
+        Optional[str],
+        Dict[str, Optional[str]],
+    ]:
+        """Compatibility wrapper for article-level effective-date fields."""
+        default_date, article_rules, _ = cls._extract_effectivity_from_articles(articles)
+        return default_date, article_rules
+
+    @classmethod
+    def _extract_effectivity_from_articles(
+        cls,
+        articles: List[ParsedArticle],
+    ) -> Tuple[Optional[str], Dict[str, Optional[str]], List[Dict[str, Any]]]:
+        """Extract the source's general, scoped, and conditional rules."""
+        document_rule: Optional[Dict[str, Any]] = None
+        article_rules: Dict[str, Optional[str]] = {}
+        all_rules: List[Dict[str, Any]] = []
+
+        for article in articles:
+            normalized_title = cls._normalize_for_matching(
+                article.article_title
+            )
+            normalized_content = cls._normalize_for_matching(
+                article.content
+            )
+
+            if (
+                "hieu luc thi hanh" in normalized_title
+                or "hieu luc thi hanh" in normalized_content
+                or "co hieu luc" in normalized_content
+            ):
+                article_document_rule, scoped_rules = (
+                    ProvisionParser.extract_effectivity_rules(
+                        article.content,
+                        cls._parse_vietnamese_date,
+                    )
+                )
+
+                if article_document_rule:
+                    # Keep the first explicit document-wide rule rather than
+                    # letting a later scoped exception replace the default.
+                    if (
+                        document_rule is None
+                        or (
+                            document_rule.get("mode") != "explicit_date"
+                            and article_document_rule.get("mode") == "explicit_date"
+                        )
+                    ):
+                        document_rule = article_document_rule
+                    article_document_rule["target_path"] = "*"
+                    scoped_rules.insert(0, article_document_rule)
+
+                for rule in scoped_rules:
+                    if (
+                        rule["target_path"] != "*"
+                        and "." not in rule["target_path"]
+                        and rule["mode"] == "explicit_date"
+                    ):
+                        article_rules[rule["target_path"]] = rule["effective_from"]
+
+                source_pages = sorted(
+                    {
+                        segment.get("global_page")
+                        for segment in article.page_segments
+                        if segment.get("global_page") is not None
+                    }
+                )
+                for rule in scoped_rules:
+                    rule["source_article_id"] = article.article_id
+                    rule["source_pages"] = source_pages
+                all_rules.extend(scoped_rules)
+
+        default_date = (
+            document_rule.get("effective_from")
+            if document_rule
+            and document_rule.get("mode") == "explicit_date"
+            else None
+        )
+        # A document-wide rule is stored once. Keeping multiple wildcard
+        # entries would make the provision resolver's dictionary collapse to
+        # the last one, potentially replacing an explicit default with a later
+        # conditional statement.
+        resolved_rules = [
+            rule for rule in all_rules if rule.get("target_path") != "*"
+        ]
+        if document_rule is not None:
+            resolved_rules.append(document_rule)
+
+        return default_date, article_rules, resolved_rules
 
     # ------------------------------------------------------------------
     # Article extraction
@@ -515,69 +1114,23 @@ class PDFParser(BaseParser):
 
     @staticmethod
     def _build_article_pattern() -> re.Pattern:
-        """
-        Build a tolerant legal-article heading pattern.
-
-        The parser primarily expects Vietnamese legal headings such as:
-
-            Điều 1. Phạm vi điều chỉnh
-            **Điều 1. Phạm vi điều chỉnh**
-            ## Điều 1. Phạm vi điều chỉnh
-
-        OCR may drop Vietnamese diacritics. For example, the current
-        source document is recognized as:
-
-            Điu 1. Phm vi điu chính
-
-        Therefore the detection pattern accepts common OCR variants
-        of "Điều" while preserving the original text and character
-        offsets.
-
-        The pattern intentionally matches only the heading prefix.
-        It does NOT require the heading line to end immediately after
-        the article number because legal article titles normally follow
-        on the same line.
-        """
-
+        dieu = "\u0110i\u1ec1u"
         return re.compile(
-            r"(?m)"
-            r"^[ \t]*"
-            r"(?:#{1,6}[ \t]*)?"
-            r"(?:\*\*[ \t]*)?"
-            r"(?:Điều|Điu|Diu|Dieu)"
-            r"[ \t\r\n]+"
-            r"(\d+[A-Za-z]?)"
-            r"[ \t]*\.?"
-            r"(?:\*\*)?",
+            r"(?m)^[ \t]*(?:#{1,6}[ \t]*)?(?:\*\*[ \t]*)?"
+            + rf"(?:{dieu}|\u0110iu|Diu|Dieu)"
+            + r"[ \t\r\n]+(\d+[A-Za-z]?)[ \t]*\.?(?:\*\*)?",
             re.IGNORECASE,
         )
 
     @staticmethod
-    def _count_article_markers(
-        text: str,
-    ) -> int:
-        """
-        Count recognizable article headings for diagnostics.
-
-        This uses the same OCR-tolerant heading vocabulary as the
-        extraction pattern so that diagnostic counts remain consistent
-        with actual article extraction.
-        """
-
+    def _count_article_markers(text: str) -> int:
+        normalized = PDFParser._normalize_for_matching(text)
         pattern = re.compile(
-            r"(?m)"
-            r"^[ \t]*"
-            r"(?:#{1,6}[ \t]*)?"
-            r"(?:\*\*[ \t]*)?"
-            r"(?:Điều|Điu|Diu|Dieu)"
-            r"[ \t\r\n]+"
-            r"\d+[A-Za-z]?"
-            r"[ \t]*\.?"
-            r"(?:\*\*)?",
+            r"(?m)^[ \t]*(?:#{1,6}[ \t]*)?(?:\*\*[ \t]*)?"
+            r"(?:dieu|diu)[ \t\r\n]+\d+[a-z]?[ \t]*\.?(?:\*\*)?",
             re.IGNORECASE,
         )
-
-        return len(pattern.findall(text))
+        return len(pattern.findall(normalized))
 
     def _extract_articles(
         self,
@@ -591,12 +1144,12 @@ class PDFParser(BaseParser):
         character offsets remain aligned with the original page text.
 
         The extractor tolerates common PDF/OCR layout variations such as:
-            Điều 1.
-            Điều 1. Phạm vi điều chỉnh
-            Điu 1. Phm vi điu chính
-            Điều
+            Äiá»u 1.
+            Äiá»u 1. Pháº¡m vi Ä‘iá»u chá»‰nh
+            Äiu 1. Phm vi Ä‘iu chÃ­nh
+            Äiá»u
             1.
-            **Điều 1.**
+            **Äiá»u 1.**
         """
 
         if not pages:
@@ -672,8 +1225,8 @@ class PDFParser(BaseParser):
             logger.warning(
                 "No legal article headings detected in %s. "
                 "Accepted heading variants include "
-                "'Điều <number>' and OCR variants such as "
-                "'Điu <number>'.",
+                "'Äiá»u <number>' and OCR variants such as "
+                "'Äiu <number>'.",
                 logical_doc_id,
             )
             return []
@@ -684,9 +1237,21 @@ class PDFParser(BaseParser):
 
         heading_pattern = self._build_article_pattern()
 
-        matches = list(
-            heading_pattern.finditer(full_text)
-        )
+        candidate_matches = list(heading_pattern.finditer(full_text))
+        matches = []
+        seen_article_numbers = set()
+        for candidate in candidate_matches:
+            article_number = candidate.group(1).strip().lower()
+            if article_number in seen_article_numbers:
+                logger.warning(
+                    "Ignoring repeated article-heading candidate %s in %s; "
+                    "keeping its text inside the surrounding provision.",
+                    article_number,
+                    logical_doc_id,
+                )
+                continue
+            seen_article_numbers.add(article_number)
+            matches.append(candidate)
 
         if not matches:
             logger.warning(
@@ -766,7 +1331,7 @@ class PDFParser(BaseParser):
                 .strip("*#: ")
             )
 
-            article_title = f"Điều {article_number}"
+            article_title = f"\u0110i\u1ec1u {article_number}"
 
             if first_line and len(first_line) < 120:
                 article_title += f": {first_line}"
@@ -819,9 +1384,14 @@ class PDFParser(BaseParser):
                     segment_end - page_start
                 )
 
-                segment_text = page_texts[
+                raw_segment_text = page_texts[
                     page_index
-                ][local_start:local_end].strip()
+                ][local_start:local_end]
+                leading_trim = len(raw_segment_text) - len(
+                    raw_segment_text.lstrip()
+                )
+                trailing_trimmed_end = len(raw_segment_text.rstrip())
+                segment_text = raw_segment_text.strip()
 
                 if not segment_text:
                     continue
@@ -838,6 +1408,16 @@ class PDFParser(BaseParser):
                         ),
                         "global_page": page.global_page,
                         "text": segment_text,
+                        "text_start": (
+                            segment_start
+                            + leading_trim
+                            - content_start_actual
+                        ),
+                        "text_end": (
+                            segment_start
+                            + trailing_trimmed_end
+                            - content_start_actual
+                        ),
                     }
                 )
 
@@ -871,7 +1451,7 @@ class PDFParser(BaseParser):
 
             articles.append(
                 ParsedArticle(
-                    article_id=str(uuid.uuid4()),
+                    article_id=f"{logical_doc_id}:article:{article_number}",
                     logical_doc_id=logical_doc_id,
                     article_number=article_number,
                     article_title=article_title,
@@ -1445,7 +2025,7 @@ class PDFParser(BaseParser):
         path = Path(file_path)
 
         file_hash = calculate_file_hash(
-            str(path)
+            str(path), self.hash_algorithm
         )
 
         pages, parser_used = self._parse_with_pymupdf(

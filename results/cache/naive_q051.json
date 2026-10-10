@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một cơ sở giáo dục nghề nghiệp có điều khoản thuộc nhóm chỉ có hiệu lực từ 01/07/2026; nếu tình huống xảy ra ngày 30/06/2026 thì cần phân biệt hiệu lực chung và hiệu lực riêng của nhóm điều khoản này thế nào?",
+  "answer": "**Phân biệt hiệu lực chung và hiệu lực riêng của nhóm điều khoản chỉ có hiệu lực từ 01/07/2026 khi tình huống xảy ra vào ngày 30/06/2026",
+  "latency_ms": 1582.150400034152,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 0.6845005750656128,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.12.a:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "a) Đối với trường hợp quyết định công nhận hoặc bổ nhiệm có thời hạn kết thúc từ ngày 01 tháng 01 năm 2026, hiệu trưởng và phó hiệu trưởng tiếp tục thực hiện nhiệm vụ, quyền hạn cho đến khi cơ quan quản lý trực tiếp có quyết định về nhân sự. Trong thời hạn 06 tháng kể từ ngày 01 tháng 01 năm 2026, cơ quan quản lý trực tiếp hoàn thành việc bổ nhiệm hiệu trưởng, phó hiệu trưởng cơ sở giáo dục nghề nghiệp theo quy định của pháp luật;",
+      "global_page": 20,
+      "score": 0.6439517736434937,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.12.a",
+      "provision_path": "45.12.a",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "14. Hồ sơ đề nghị giải quyết thủ tục hành chính đã được nộp hợp lệ trước ngày 01 tháng 01 năm 2026 và thuộc thẩm quyền của cơ quan được quy định tại Luật số 74/2014/QH13, thì cơ quan có thẩm quyền đó tiếp tục thụ lý, giải quyết theo quy định của pháp luật tại thời điểm nộp hồ sơ, kể cả trong trường hợp thẩm quyền giải quyết thủ tục hành chính đó đã điều chỉnh theo quy định của Luật này. Các cơ sở giáo dục nghề nghiệp đã có quyết định về việc thành lập, cho phép thành lập, chia, tách, sáp nhập cơ sở giáo dục nghề nghiệp, phân hiệu của cơ sở giáo dục nghề nghiệp trước ngày 01 tháng 01 năm 2026 phải đáp ứng quy định chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn 60 tháng kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.",
+      "global_page": 20,
+      "score": 0.6334419846534729,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.14",
+      "provision_path": "45.14",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.1:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Luật này có hiệu lực kể từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này.",
+      "global_page": 12,
+      "score": 0.6326820850372314,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:30.1",
+      "provision_path": "30.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "3. Các khóa đào tạo đã được tuyển sinh theo quy định trước ngày 01 tháng 01 năm 2026 thì cơ sở hoạt động giáo dục nghề nghiệp được tiếp tục tổ chức đào tạo, cấp văn bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
+      "global_page": 19,
+      "score": 0.6235179901123047,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.3",
+      "provision_path": "45.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

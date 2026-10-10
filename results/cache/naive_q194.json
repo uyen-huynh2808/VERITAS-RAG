@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 bổ sung cụm từ nào vào khoản 1 Điều 4 của Luật Nhà giáo 73/2025/QH15?",
+  "answer": "“và trung học nghề”.",
+  "latency_ms": 1337.4360000016168,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.2:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Bổ sung cụm từ “và trung học nghề” vào sau cụm từ “trung cấp” tại khoản 1 Điều 4 của Luật Nhà giáo số 73/2025/QH15. 07/10/2026, 22:15 about:blank about:blank 18/21",
+      "global_page": 18,
+      "score": 0.7104821801185608,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.2",
+      "provision_path": "43.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 0.6046554446220398,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:5:2:0",
+      "article_id": "124/2025/QH15:article:5",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Chính sách của Nhà nước về phát triển giáo dục nghề nghiệp",
+      "global_page": 2,
+      "score": 0.57196044921875,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:5",
+      "provision_path": "5",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:10:5:0",
+      "article_id": "124/2025/QH15:article:10",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Nhiệm vụ và quyền hạn của cơ sở giáo dục nghề nghiệp",
+      "global_page": 5,
+      "score": 0.5635312795639038,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:10",
+      "provision_path": "10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:39:16:0",
+      "article_id": "124/2025/QH15:article:39",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Học phí và các khoản thu dịch vụ phục vụ, hỗ trợ hoạt động giáo dục nghề nghiệp",
+      "global_page": 16,
+      "score": 0.5563141107559204,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:39",
+      "provision_path": "39",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

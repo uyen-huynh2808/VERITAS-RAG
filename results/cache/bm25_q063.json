@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Nếu một tranh chấp lao động phát sinh ngày 31/12/2020, có thể mặc nhiên coi Bộ luật Lao động 45/2019/QH14 đã là văn bản có hiệu lực để xử lý hay không?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 12478.634600061923,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 42.10574505109009,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:179:54:0",
+      "article_id": "45/2019/QH14:article:179",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Tranh chấp lao động Tranh chấp lao động là tranh chấp về quyền và nghĩa vụ, lợi ích phát sinh giữa các bên trong quá trình xác lập, thực hiện hoặc chấm dứt quan hệ lao động; tranh chấp giữa các tổ chức đại diện người lao động với nhau; tranh chấp phát sinh từ quan hệ có liên quan trực tiếp đến quan hệ lao động. Các loại tranh chấp lao động bao gồm: Tranh chấp lao động cá nhân giữa người lao động với người sử dụng lao động; giữa người lao động với doanh nghiệp, tổ chức đưa người lao động đi làm việc ở nước ngoài theo hợp đồng; giữa người lao động thuê lại với người sử dụng lao động thuê lại; Tranh chấp lao động tập thể về quyền hoặc về lợi ích giữa một hay nhiều tổ chức đại diện người lao động với người sử dụng lao động hoặc một hay nhiều tổ chức của người sử dụng lao động. Tranh chấp lao động tập thể về quyền là tranh chấp giữa một hay nhiều tổ chức đại diện người lao động với người sử dụng lao động hoặc một hay nhiều tổ chức của người sử dụng lao động phát sinh trong trường hợp sau đây: Có sự khác nhau trong việc hiểu và thực hiện quy định của thỏa ước lao động tập thể, nội quy lao động, quy chế và thỏa thuận hợp pháp khác; Có sự khác nhau trong việc hiểu và thực hiện quy định của pháp luật về lao động; Khi người sử dụng lao động có hành vi phân biệt đối xử đối với người lao động, thành viên ban lãnh đạo của tổ chức đại diện người lao động vì lý do thành lập, gia nhập, hoạt động trong tổ chức đại diện người lao động; can thiệp, thao túng tổ chức đại diện người lao động; vi phạm nghĩa vụ về thương lượng thiện chí. Tranh chấp lao động tập thể về lợi ích bao gồm: Tranh chấp lao động phát sinh trong quá trình thương lượng tập thể; Khi một bên từ chối thương lượng hoặc không tiến hành thương lượng trong thời hạn theo quy định của pháp luật.",
+      "global_page": 54,
+      "score": 40.54242839300671,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:179",
+      "provision_path": "179",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:126:39:0",
+      "article_id": "45/2019/QH14:article:126",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Xóa kỷ luật, giảm thời hạn chấp hành kỷ luật lao động Người lao động bị khiển trách sau 03 tháng hoặc bị xử lý kỷ luật kéo dài thời hạn nâng lương sau 06 tháng hoặc bị xử lý kỷ luật cách chức sau 03 năm kể từ ngày bị xử lý, nếu không tiếp tục vi phạm kỷ luật lao động thì đương nhiên được xóa kỷ luật. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương sau khi chấp hành được một nửa thời hạn nếu sửa chữa tiến bộ thì có thể được người sử dụng lao động xét giảm thời hạn.",
+      "global_page": 39,
+      "score": 39.27890505225136,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:126",
+      "provision_path": "126",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:182:55:0",
+      "article_id": "45/2019/QH14:article:182",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Quyền và nghĩa vụ của hai bên trong giải quyết tranh chấp lao động Trong giải quyết tranh chấp lao động, các bên có quyền sau đây: Trực tiếp hoặc thông qua đại diện để tham gia vào quá trình giải quyết; Rút yêu cầu hoặc thay đổi nội dung yêu cầu; Yêu cầu thay đổi người tiến hành giải quyết tranh chấp lao động nếu có lý do cho rằng người đó có thể không vô tư hoặc không khách quan. Trong giải quyết tranh chấp lao động, các bên có nghĩa vụ sau đây: Cung cấp đầy đủ, kịp thời tài liệu, chứng cứ để chứng minh cho yêu cầu của mình; Chấp hành thỏa thuận đã đạt được, quyết định của Ban trọng tài lao động, bản án, quyết định của Tòa án đã có hiệu lực pháp luật.",
+      "global_page": 55,
+      "score": 38.214579973025245,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:182",
+      "provision_path": "182",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 37.00791333788129,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

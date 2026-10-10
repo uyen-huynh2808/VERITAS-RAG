@@ -1,7 +1,7 @@
 from importlib import import_module
 from typing import Dict, Optional, Type
 
-from src.core.config import SystemConfig
+from src.core.config import SystemConfig, load_system_config
 from src.core.interfaces import (
     BaseContractGate,
     BaseRetriever,
@@ -47,7 +47,7 @@ class ComponentFactory:
         contract_type: str = "document",
     ) -> BaseContractGate:
 
-        config = config or SystemConfig()
+        config = config or load_system_config()
 
         target = cls._CONTRACT_GATES.get(contract_type)
 
@@ -68,7 +68,7 @@ class ComponentFactory:
         gold_path: Optional[str] = None,
     ) -> BaseRetriever:
 
-        config = config or SystemConfig()
+        config = config or load_system_config()
 
         target = cls._RETRIEVERS.get(retriever_type)
 

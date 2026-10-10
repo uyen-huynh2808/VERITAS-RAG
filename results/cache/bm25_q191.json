@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Luật Dân số 113/2025/QH15 sửa quy định về thứ tự ưu tiên khi nhiều đối tượng có cùng tiêu chuẩn, điều kiện hỗ trợ theo Luật Nhà ở theo hướng thêm nhóm nào?",
+  "answer": "Theo quy định được sửa đổi trong Luật 113/2025/QH15, khi có nhiều đối tượng có cùng tiêu chuẩn và điều kiện hỗ trợ, ưu tiên được mở rộng thêm cho **nhóm đối tượng ưu tiên chuẩn bị cho tuổi già**.",
+  "latency_ms": 8960.155099979602,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Sửa đổi, bổ sung một số điều của Bộ luật Lao động số 45/2019/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2025/QH15 và Luật số 113/2025/QH15 như sau:",
+      "global_page": 18,
+      "score": 40.74854982603164,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1",
+      "provision_path": "43.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.3:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "3. Sửa đổi, bổ sung một số điều, khoản, điểm của Luật Nhà ở số 27/2023/QH15 đã được sửa đổi, bổ sung một số điều theo Luật số 43/2024/QH15, Luật số 47/2024/QH15, Luật số 84/2025/QH15, Luật số 90/2025/QH15 và Luật số 93/2025/QH15 như sau:",
+      "global_page": 11,
+      "score": 40.17708173110143,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.3",
+      "provision_path": "29.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.3.h:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "h) Sửa đổi, bổ sung điểm đ khoản 1 Điều 79 như sau: “đ) Trường hợp một đối tượng được hưởng nhiều chính sách hỗ trợ khác nhau thì được hưởng một chính sách hỗ trợ mức cao nhất; trường hợp các đối tượng có cùng tiêu chuẩn và điều kiện thì thực hiện hỗ trợ 07/10/2026, 22:15 about:blank about:blank 11/12",
+      "global_page": 11,
+      "score": 37.44167695248499,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.3.h",
+      "provision_path": "29.3.h",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:17.2:7:0",
+      "article_id": "113/2025/QH15:article:17",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Nhà nước có chính sách hỗ trợ các nhóm đối tượng ưu tiên chủ động chuẩn bị cho tuổi già.",
+      "global_page": 7,
+      "score": 37.34699578358313,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:17.2",
+      "provision_path": "17.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội số 41/2024/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 73/2025/QH15 và Luật số 84/2025/QH15 như sau: “c) Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai thì được nghỉ 10 ngày làm việc. Trường hợp sinh ba trở lên thì được nghỉ thêm 03 ngày làm việc cho mỗi con tính từ con thứ ba trở đi;”.",
+      "global_page": 11,
+      "score": 37.004123030304626,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:29.2",
+      "provision_path": "29.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

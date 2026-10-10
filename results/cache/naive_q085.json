@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Ngày 01/07/2026, Luật Dân số bắt đầu có hiệu lực chung; Pháp lệnh Dân số 06/2003/PL-UBTVQH11 còn hiệu lực sau mốc này không?",
+  "answer": "Không. Theo nội dung trong **Context 1**, pháp lệnh Dân số số 06/2003/PL‑UBTVQH11 “hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành”. Luật Dân số có hiệu lực từ ngày **01 tháng 7 năm 2026** (xem **Context 2**). Vì vậy, kể từ ngày 01/07/2026, pháp lệnh 06/2003/PL‑",
+  "latency_ms": 1558.5690999869257,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.3:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "3. Pháp lệnh Dân số số 06/2003/PL-UBTVQH11 đã được sửa đổi, bổ sung theo Pháp lệnh số 07/2025/UBTVQH15 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 10 thông qua ngày 10 tháng 12 năm 2025. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn 07/10/2026, 22:15 about:blank about:blank 12/12",
+      "global_page": 12,
+      "score": 0.7249435186386108,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:30.3",
+      "provision_path": "30.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.1:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Luật này có hiệu lực kể từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này.",
+      "global_page": 12,
+      "score": 0.6325432658195496,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:30.1",
+      "provision_path": "30.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:article:44:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "Hiệu lực thi hành",
+      "global_page": 19,
+      "score": 0.6074460744857788,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:article:44",
+      "provision_path": "44",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:article:30:12:0",
+      "article_id": "113/2025/QH15:article:30",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "Hiệu lực thi hành",
+      "global_page": 12,
+      "score": 0.6074460744857788,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:article:30",
+      "provision_path": "30",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 0.6027470827102661,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

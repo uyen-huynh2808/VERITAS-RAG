@@ -7,6 +7,7 @@ from typing import List, Optional
 
 from dotenv import load_dotenv
 from groq import Groq
+from src.core.config import load_system_config
 
 
 # ============================================================
@@ -25,6 +26,10 @@ class RetrievedChunk:
 
     effective_from: Optional[str] = None
     effective_to: Optional[str] = None
+    provision_id: Optional[str] = None
+    provision_path: Optional[str] = None
+    effectivity_mode: Optional[str] = None
+    trigger_reference: Optional[str] = None
 
 
 @dataclass
@@ -52,9 +57,10 @@ class GeneratorAgent:
 
     def __init__(
         self,
-        model_name: str = "openai/gpt-oss-120b",
+        model_name: str | None = None,
         api_key: str | None = None,
     ):
+        settings = load_system_config()
         load_dotenv()
 
         api_key = api_key or os.getenv("GROQ_API_KEY")
@@ -65,7 +71,9 @@ class GeneratorAgent:
             )
 
         self.client = Groq(api_key=api_key)
-        self.model_name = model_name
+        self.model_name = model_name or settings.models.llm_model
+        self.temperature = settings.models.generation_temperature
+        self.max_tokens = settings.models.generation_max_tokens
 
     # --------------------------------------------------------
     # Prompt Builder
@@ -85,6 +93,7 @@ class GeneratorAgent:
                 f"""[Context {i}]
 Document: {chunk.logical_doc_id}
 Article: {chunk.article_id}
+Provision: {chunk.provision_path or 'unknown'}
 Page: {chunk.global_page}
 
 {chunk.text}
@@ -146,8 +155,8 @@ ANSWER
                     "content": prompt,
                 },
             ],
-            temperature=0,
-            max_tokens=512,
+            temperature=self.temperature,
+            max_tokens=self.max_tokens,
         )
 
         latency = (time.perf_counter() - start) * 1000
@@ -162,29 +171,3 @@ ANSWER
         )
 
 
-# ============================================================
-# Example
-# ============================================================
-
-if __name__ == "__main__":
-
-    chunks = [
-        RetrievedChunk(
-            chunk_id="demo_chunk",
-            article_id="article_1",
-            logical_doc_id="168/2024/NĐ-CP",
-            text="Nghị định này có hiệu lực thi hành từ ngày 01/01/2025.",
-            global_page=110,
-            score=9.82,
-        )
-    ]
-
-    agent = GeneratorAgent()
-
-    result = agent.generate(
-        question="Nghị định 168/2024 có hiệu lực từ ngày nào?",
-        chunks=chunks,
-    )
-
-    print(result.answer)
-    print(f"Latency: {result.latency_ms:.2f} ms")

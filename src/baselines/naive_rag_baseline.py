@@ -8,6 +8,7 @@ import faiss
 import numpy as np
 import pandas as pd
 from FlagEmbedding import BGEM3FlagModel
+from src.core.config import load_system_config
 
 
 # ============================================================
@@ -24,6 +25,10 @@ class RetrievedChunk:
     score: float
     effective_from: Optional[str] = None
     effective_to: Optional[str] = None
+    provision_id: Optional[str] = None
+    provision_path: Optional[str] = None
+    effectivity_mode: Optional[str] = None
+    trigger_reference: Optional[str] = None
 
 
 # ============================================================
@@ -53,9 +58,22 @@ class NaiveDenseRetriever:
     def __init__(
         self,
         gold_path: str | Path,
-        embedding_model: str = "BAAI/bge-m3",
+        embedding_model: Optional[str] = None,
+        batch_size: Optional[int] = None,
+        max_length: Optional[int] = None,
         use_fp16: bool = False,
     ):
+        settings = load_system_config()
+        self.batch_size = (
+            settings.models.embedding_batch_size
+            if batch_size is None
+            else batch_size
+        )
+        self.max_length = (
+            settings.models.embedding_max_length
+            if max_length is None
+            else max_length
+        )
 
         self.gold_path = Path(gold_path)
 
@@ -69,7 +87,7 @@ class NaiveDenseRetriever:
         )
 
         self.model = BGEM3FlagModel(
-            embedding_model,
+            embedding_model or settings.models.embedding_model,
             use_fp16=use_fp16,
         )
 
@@ -88,8 +106,8 @@ class NaiveDenseRetriever:
 
         output = self.model.encode(
             texts,
-            batch_size=16,
-            max_length=512,
+            batch_size=self.batch_size,
+            max_length=self.max_length,
         )
 
         embeddings = output["dense_vecs"]
@@ -122,8 +140,11 @@ class NaiveDenseRetriever:
         self,
         query: str, 
         t_event: Optional[str] = None, 
-        top_k: int = 5, 
+        top_k: Optional[int] = None,
     ) -> List[RetrievedChunk]:
+
+        if top_k is None:
+            top_k = load_system_config().retrieval.top_k
 
         query_embedding = self._encode([query])
 
@@ -156,6 +177,10 @@ class NaiveDenseRetriever:
                         if pd.isna(row["effective_to"])
                         else row["effective_to"].isoformat()
                     ),
+                    provision_id=row.get("provision_id"),
+                    provision_path=row.get("provision_path"),
+                    effectivity_mode=row.get("effectivity_mode"),
+                    trigger_reference=row.get("trigger_reference"),
                 )
             )
 
@@ -167,21 +192,16 @@ class NaiveDenseRetriever:
 # ============================================================
 
 if __name__ == "__main__":
+    import argparse
 
-    retriever = NaiveDenseRetriever(
-        gold_path="data/gold/gold_chunks.parquet"
-    )
+    parser = argparse.ArgumentParser(description="Run the dense baseline.")
+    parser.add_argument("--gold", required=True, help="Gold chunks parquet path.")
+    parser.add_argument("--query", required=True, help="Query to retrieve.")
+    parser.add_argument("--top-k", type=int, default=None)
+    args = parser.parse_args()
 
-    query = (
-        "Nghị định 168/2024 có hiệu lực từ ngày nào?"
-    )
-
-    chunks = retriever.retrieve(
-        query=query,
-        top_k=3,
-    )
-
-    for chunk in chunks:
+    retriever = NaiveDenseRetriever(args.gold)
+    for chunk in retriever.retrieve(args.query, top_k=args.top_k):
         print("=" * 80)
         print(chunk.chunk_id)
         print(f"Score: {chunk.score:.4f}")

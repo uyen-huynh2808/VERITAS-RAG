@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một gia đình có từ 02 con đẻ trở lên cần xác định đồng thời chính sách nhà ở và chính sách dân số; cần truy xuất những sửa đổi nào trong Điều 29 của Luật Dân số để thấy mối liên hệ?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 2083.9254000457004,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:article:7:3:0",
+      "article_id": "113/2025/QH15:article:7",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "Chính sách của Nhà nước về dân số",
+      "global_page": 3,
+      "score": 0.663597822189331,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:article:7",
+      "provision_path": "7",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:article:29:11:0",
+      "article_id": "113/2025/QH15:article:29",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "Sửa đổi, bổ sung một số điều của các luật có liên quan đến công tác dân số",
+      "global_page": 11,
+      "score": 0.6281737089157104,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:article:29",
+      "provision_path": "29",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:7.2:3:0",
+      "article_id": "113/2025/QH15:article:7",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Thực hiện chính sách dân số và phát triển là trách nhiệm của cả hệ thống chính trị, của mỗi cá nhân, gia đình, doanh nghiệp, tổ chức và toàn xã hội. Nhà nước giữ vai trò chủ đạo và huy động xã hội thực hiện chính sách dân số.",
+      "global_page": 3,
+      "score": 0.6273848414421082,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:7.2",
+      "provision_path": "7.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:7.1:3:0",
+      "article_id": "113/2025/QH15:article:7",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "1. Dân số là yếu tố quan trọng hàng đầu của sự nghiệp xây dựng, phát triển và bảo vệ Tổ quốc. Thực hiện chính sách dân số và phát triển thông qua các biện pháp duy trì mức sinh thay thế, giảm thiểu mất cân bằng giới tính khi sinh, thích ứng với già hóa dân số, nâng cao chất lượng dân số trong mối quan hệ với các yếu tố kinh tế - xã hội, quốc phòng, an ninh gắn với xây dựng đất nước giàu mạnh, phồn vinh, văn minh, hạnh phúc.",
+      "global_page": 3,
+      "score": 0.6270396113395691,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:7.1",
+      "provision_path": "7.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "113/2025/QH15:113/2025/QH15:provision:3.2:2:0",
+      "article_id": "113/2025/QH15:article:3",
+      "logical_doc_id": "113/2025/QH15",
+      "text": "2. Bảo đảm sự chủ động, tự nguyện, bình đẳng và đề cao trách nhiệm của mỗi cá nhân, cặp vợ chồng, gia đình trong việc thực hiện công tác dân số.",
+      "global_page": 2,
+      "score": 0.6227490305900574,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "provision_id": "113/2025/QH15:provision:3.2",
+      "provision_path": "3.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

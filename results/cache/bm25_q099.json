@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại 01/07/2025, nếu có quy định khác nhau giữa Luật Công nghiệp công nghệ số và một luật khác về cùng vấn đề, nguyên tắc ưu tiên nào được kích hoạt?",
+  "answer": "Theo quy định tại Điều 50 của Luật 71/2025/QH15 (Context 1):  \n\n> “Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì **áp dụng quy định của Luật này**. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.”\n\nVì vậy, vào ngày 01 /07 /2025, khi có sự khác nhau về quy định giữa Luật Công nghiệp công nghệ số và một luật khác về cùng một vấn đề, nguyên tắc ưu tiên được kích hoạt là **ưu tiên áp dụng quy định của Luật Công nghiệp công nghệ số**, trừ khi có văn bản pháp luật khác đưa ra chế độ ưu đãi hoặc thuận lợi hơn, trong trường hợp đó sẽ áp dụng mức ưu đãi có lợi nhất.",
+  "latency_ms": 1620.27339998167,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 47.44020197828309,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:21:9:0",
+      "article_id": "71/2025/QH15:article:21",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Đầu tư, thu hút nguồn lực phát triển hạ tầng công nghiệp công nghệ số Hoạt động đầu tư xây dựng hạ tầng công nghiệp công nghệ số là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Nhà nước ưu tiên bố trí nguồn vốn ngân sách để đầu tư xây dựng hạ tầng công nghiệp công nghệ số thiết yếu, dùng chung như sau: Cơ sở nghiên cứu, thiết kế, sản xuất thử nghiệm sản phẩm, dịch vụ công nghệ số; Phòng thí nghiệm trọng điểm dùng chung quốc gia về công nghệ số; Cơ sở đo kiểm, thử nghiệm, đánh giá sản phẩm, dịch vụ công nghệ số; Trung tâm dữ liệu; đ) Khu công nghệ số tập trung; Hạ tầng công nghiệp công nghệ số thiết yếu, dùng chung khác. Hạ tầng công nghiệp công nghệ số được nhà nước đầu tư quy định tại khoản 2 Điều này là một loại tài sản kết cấu hạ tầng và được quản lý, khai thác, vận hành theo quy định của pháp luật về quản lý, sử dụng tài sản công. Tổ chức, doanh nghiệp được nhập khẩu dây chuyền công nghệ, thiết bị, máy móc, công cụ đã qua sử dụng phục vụ hoạt động đào tạo, nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số đáp ứng tiêu chí do Bộ trưởng Bộ Khoa học và Công nghệ quy định. Chính phủ quy định chi tiết Điều này.",
+      "global_page": 9,
+      "score": 33.51920149848966,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:21",
+      "provision_path": "21",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:33:14:0",
+      "article_id": "71/2025/QH15:article:33",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Phát triển sản phẩm, dịch vụ công nghệ số thân thiện môi trường Sản phẩm, dịch vụ công nghệ số thân thiện môi trường được ưu tiên thực hiện mua sắm xanh đối với dự án đầu tư, nhiệm vụ có sử dụng ngân sách nhà nước theo quy định của pháp luật về bảo vệ môi trường và pháp luật khác có liên quan. Nhà nước có cơ chế hỗ trợ tổ chức, doanh nghiệp nghiên cứu, cải tiến, chuyển đổi hoạt động công nghiệp công nghệ số để tạo ra sản phẩm, dịch vụ công nghệ số là sản phẩm, dịch vụ thân thiện môi trường theo quy định pháp luật về bảo vệ môi trường từ nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại Điều 11 của Luật này. Mục 9. THÔNG TIN VỀ CÔNG NGHIỆP CÔNG NGHỆ SỐ",
+      "global_page": 14,
+      "score": 33.00993718169793,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:33",
+      "provision_path": "33",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:32:14:0",
+      "article_id": "71/2025/QH15:article:32",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Phát triển bền vững trong công nghiệp công nghệ số Nhà nước có cơ chế hỗ trợ, ưu tiên thực hiện hoạt động tái sử dụng, tái chế, tái sản xuất, tân trang, sửa chữa và chia sẻ nguồn lực để hình thành chu trình khép kín trong công nghiệp công nghệ số, bảo đảm tiết kiệm nguồn tài nguyên, giảm tác động ô nhiễm môi trường; ưu tiên đầu tư, thuê, mua sắm, đặt hàng sản phẩm, dịch vụ công nghệ số thân thiện với môi trường. Doanh nghiệp công nghệ số có trách nhiệm tuân thủ các quy định pháp luật về bảo vệ môi trường; thu hồi, xử lý sản phẩm thải bỏ trong công nghiệp công nghệ số; thực hiện nghĩa vụ thuế bảo vệ môi trường theo quy định của pháp luật về thuế bảo vệ môi trường, pháp luật về thuế.",
+      "global_page": 14,
+      "score": 32.54592225978394,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:32",
+      "provision_path": "32",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:29:12:0",
+      "article_id": "71/2025/QH15:article:29",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hỗ trợ, ưu đãi dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số Dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số được hỗ trợ kinh phí trực tiếp từ ngân sách địa phương theo quy định của Luật Ngân sách nhà nước hoặc từ Chương trình phát triển công nghiệp công nghệ số cho các hoạt động bao gồm: Đào tạo phát triển nguồn nhân lực công nghiệp công nghệ số;",
+      "global_page": 12,
+      "score": 31.58417974716969,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:29",
+      "provision_path": "29",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

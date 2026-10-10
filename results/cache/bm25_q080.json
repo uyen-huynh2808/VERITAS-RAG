@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một doanh nghiệp muốn áp dụng các quy định chung của Luật Công nghiệp công nghệ số vào ngày 31/12/2025; theo điều khoản thi hành, mốc hiệu lực chung đã đến chưa?",
+  "answer": "Theo quy định trong **Context 3** (Document 71/2025/QH15, article 50):\n\n- “Hiệu lực thi hành Luật này có hiệu lực thi hành **từ ngày 01 tháng 01 năm 2026**, trừ trường hợp quy định tại khoản 2 Điều này.”\n- Chỉ một số điều (điều 11, 28, 29) mới có hiệu lực từ ngày 01 tháng 07 năm 2025; các quy định chung của luật vẫn chưa có hiệu lực.\n\nVì vậy, vào ngày **31 /12 /2025** mốc hiệu lực chung của Luật Công nghiệp công nghệ số **chưa đến**. Luật sẽ bắt đầu có hiệu lực đối với các quy định chung từ **01 /01 /2026**.",
+  "latency_ms": 13125.243299989961,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 43.97806944839968,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Luật Giáo dục nghề nghiệp số 74/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 97/2015/QH13, Luật số 21/2017/QH14, Luật số 43/2019/QH14 và Luật số 84/2025/QH15 (sau đây gọi là Luật Giáo dục nghề nghiệp số 74/2014/QH13) hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 2 Điều này và các nội dung liên quan trong Điều 45 Luật này.",
+      "global_page": 19,
+      "score": 40.09231678489533,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.1",
+      "provision_path": "44.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 38.218915817389515,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:21:9:0",
+      "article_id": "71/2025/QH15:article:21",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Đầu tư, thu hút nguồn lực phát triển hạ tầng công nghiệp công nghệ số Hoạt động đầu tư xây dựng hạ tầng công nghiệp công nghệ số là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Nhà nước ưu tiên bố trí nguồn vốn ngân sách để đầu tư xây dựng hạ tầng công nghiệp công nghệ số thiết yếu, dùng chung như sau: Cơ sở nghiên cứu, thiết kế, sản xuất thử nghiệm sản phẩm, dịch vụ công nghệ số; Phòng thí nghiệm trọng điểm dùng chung quốc gia về công nghệ số; Cơ sở đo kiểm, thử nghiệm, đánh giá sản phẩm, dịch vụ công nghệ số; Trung tâm dữ liệu; đ) Khu công nghệ số tập trung; Hạ tầng công nghiệp công nghệ số thiết yếu, dùng chung khác. Hạ tầng công nghiệp công nghệ số được nhà nước đầu tư quy định tại khoản 2 Điều này là một loại tài sản kết cấu hạ tầng và được quản lý, khai thác, vận hành theo quy định của pháp luật về quản lý, sử dụng tài sản công. Tổ chức, doanh nghiệp được nhập khẩu dây chuyền công nghệ, thiết bị, máy móc, công cụ đã qua sử dụng phục vụ hoạt động đào tạo, nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số đáp ứng tiêu chí do Bộ trưởng Bộ Khoa học và Công nghệ quy định. Chính phủ quy định chi tiết Điều này.",
+      "global_page": 9,
+      "score": 37.687868789595015,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:21",
+      "provision_path": "21",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",
+      "article_id": "71/2025/QH15:article:51",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Quy định chuyển tiếp Khu công nghệ thông tin tập trung đã được quy hoạch, thành lập, công nhận, mở rộng, đang hoạt động theo quy định của pháp luật được tự động chuyển thành khu công nghệ số tập trung và thực hiện theo quy định tại Luật này. Trong thời gian luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban Thường vụ Quốc hội chưa được sửa đổi, bổ sung trong thời hạn 02 năm từ ngày Luật này có hiệu lực thi hành, giao Chính phủ ban hành văn bản quy phạm pháp luật điều chỉnh để giải quyết khó khăn, vướng mắc cho phát triển công nghiệp công nghệ số được quy định tại luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban Thường vụ Quốc hội để thống nhất áp dụng, định kỳ báo cáo Ủy ban Thường vụ Quốc hội; trường hợp liên quan đến luật, nghị quyết của Quốc hội thì báo cáo Quốc hội tại kỳ họp gần nhất. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 9 thông qua ngày 14 tháng 6 năm 2025.",
+      "global_page": 22,
+      "score": 36.70761934477292,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:51",
+      "provision_path": "51",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

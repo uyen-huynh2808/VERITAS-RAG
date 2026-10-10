@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/07/2025, nếu cần xác định hỗ trợ dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số, nên truy xuất điều khoản nào?",
+  "answer": "Bạn nên tra cứu **Điều 29** (Provision 29) của **Nghị định 71/2025/QH15** – mục “Hỗ trợ, ưu đãi dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số”.",
+  "latency_ms": 1679.2991000693291,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:29:12:0",
+      "article_id": "71/2025/QH15:article:29",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hỗ trợ, ưu đãi dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số Dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số được hỗ trợ kinh phí trực tiếp từ ngân sách địa phương theo quy định của Luật Ngân sách nhà nước hoặc từ Chương trình phát triển công nghiệp công nghệ số cho các hoạt động bao gồm: Đào tạo phát triển nguồn nhân lực công nghiệp công nghệ số;",
+      "global_page": 12,
+      "score": 0.6518746614456177,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:29",
+      "provision_path": "29",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:11:4:0",
+      "article_id": "71/2025/QH15:article:11",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Tài chính cho phát triển công nghiệp công nghệ số Nguồn tài chính cho phát triển công nghiệp công nghệ số: Nguồn ngân sách nhà nước cho khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số theo quy định của pháp luật về ngân sách nhà nước; khoa học, công nghệ và đổi mới sáng tạo; chuyển đổi số; Nguồn ngân sách nhà nước chi đầu tư phát triển và chi thường xuyên cho các hoạt động kinh tế theo quy định của pháp luật về ngân sách nhà nước; Quỹ hỗ trợ đầu tư theo quy định của pháp luật về đầu tư; Nguồn vốn vay, đóng góp, tài trợ, đầu tư của các doanh nghiệp, tổ chức, cá nhân trong và ngoài nước bao gồm Quỹ phát triển khoa học và công nghệ của doanh nghiệp và các quỹ, nguồn tài chính hợp pháp khác theo quy định của pháp luật. Việc lập kế hoạch, dự toán, phân bổ, quản lý, sử dụng ngân sách nhà nước hàng năm quy định tại điểm a khoản 1 Điều này thực hiện theo quy định của pháp luật về ngân sách nhà nước; khoa học, công nghệ và đổi mới sáng tạo; đầu tư công; chuyển đổi số. Chính phủ quy định nội dung chi, lập dự toán, phân bổ, quản lý, sử dụng nguồn tài chính quy định tại điểm a khoản 1 Điều này; hướng dẫn sử dụng các nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại khoản 1 Điều này.",
+      "global_page": 4,
+      "score": 0.6110812425613403,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:11",
+      "provision_path": "11",
+      "effectivity_mode": "explicit_date",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:17:6:0",
+      "article_id": "71/2025/QH15:article:17",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Phát triển cơ sở nghiên cứu và phát triển công nghệ số Bộ, cơ quan ngang Bộ, chính quyền địa phương ưu tiên đầu tư thành lập và phát triển các cơ sở thực hiện hoạt động nghiên cứu và phát triển, đổi mới sáng tạo công nghệ số trong các ngành, lĩnh vực, địa bàn thuộc phạm vi, nhiệm vụ, quyền hạn được phân công phù hợp với mục tiêu phát triển kinh tế - xã hội, định hướng phát triển công nghiệp công nghệ số từng thời kỳ. Nhà nước ưu tiên bố trí nguồn lực và cân đối ngân sách nhà nước hằng năm để hỗ trợ, tài trợ kinh phí cho các chương trình, nhiệm vụ nghiên cứu và phát triển, đổi mới sáng tạo công nghệ số của tổ chức, doanh nghiệp từ nguồn tài chính cho phát triển công nghiệp công nghệ số quy định tại Điều 11 của Luật này. Mục 3. NHÂN LỰC CÔNG NGHIỆP CÔNG NGHỆ SỐ",
+      "global_page": 6,
+      "score": 0.5997152924537659,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:17",
+      "provision_path": "17",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:28:12:0",
+      "article_id": "71/2025/QH15:article:28",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hỗ trợ, ưu đãi đầu tư đối với sản xuất sản phẩm, cung cấp dịch vụ công nghệ số Sản xuất sản phẩm, cung cấp dịch vụ công nghệ số là ngành, nghề ưu đãi đầu tư, được hưởng các ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Sản xuất sản phẩm, cung cấp dịch vụ công nghệ số trọng điểm; sản xuất sản phẩm phần mềm; phát triển hệ thống trí tuệ nhân tạo; nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn; đầu tư xây dựng trung tâm dữ liệu trí tuệ nhân tạo là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Dự án sản xuất sản phẩm công nghệ số trọng điểm; dự án nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn; dự án xây dựng trung tâm dữ liệu trí tuệ nhân tạo có quy mô đầu tư lớn thuộc đối tượng dự án ưu đãi, hỗ trợ đầu tư đặc biệt theo quy định tại Luật Đầu tư thì được hưởng ưu đãi theo quy định của pháp luật về thuế thu nhập doanh nghiệp; đất đai và pháp luật khác có liên quan. Dự án sản xuất sản phẩm công nghệ số trọng điểm; dự án nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn; dự án xây dựng trung tâm dữ liệu trí tuệ nhân tạo được nhà nước hỗ trợ trực tiếp chi phí đầu tư xây dựng nhà máy, hạ tầng kỹ thuật, trang thiết bị máy móc từ nguồn chi đầu tư phát triển từ ngân sách địa phương theo quy định của pháp luật về ngân sách nhà nước và các quy định pháp luật khác có liên quan. Hội đồng nhân dân cấp tỉnh quy định tiêu chí, điều kiện, trình tự, thủ tục, nội dung và mức hỗ trợ từ ngân sách địa phương cho các dự án quy định tại khoản này phù hợp với điều kiện của địa phương. Doanh nghiệp thực hiện dự án sản xuất sản phẩm công nghệ số trọng điểm, dự án nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn, dự án xây dựng trung tâm dữ liệu trí tuệ nhân tạo được hưởng chế độ ưu tiên theo quy định của pháp luật về hải quan.",
+      "global_page": 12,
+      "score": 0.5988912582397461,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:28",
+      "provision_path": "28",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:21:9:0",
+      "article_id": "71/2025/QH15:article:21",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Đầu tư, thu hút nguồn lực phát triển hạ tầng công nghiệp công nghệ số Hoạt động đầu tư xây dựng hạ tầng công nghiệp công nghệ số là ngành, nghề đặc biệt ưu đãi đầu tư, được hưởng ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư; thuế; đất đai và pháp luật khác có liên quan. Nhà nước ưu tiên bố trí nguồn vốn ngân sách để đầu tư xây dựng hạ tầng công nghiệp công nghệ số thiết yếu, dùng chung như sau: Cơ sở nghiên cứu, thiết kế, sản xuất thử nghiệm sản phẩm, dịch vụ công nghệ số; Phòng thí nghiệm trọng điểm dùng chung quốc gia về công nghệ số; Cơ sở đo kiểm, thử nghiệm, đánh giá sản phẩm, dịch vụ công nghệ số; Trung tâm dữ liệu; đ) Khu công nghệ số tập trung; Hạ tầng công nghiệp công nghệ số thiết yếu, dùng chung khác. Hạ tầng công nghiệp công nghệ số được nhà nước đầu tư quy định tại khoản 2 Điều này là một loại tài sản kết cấu hạ tầng và được quản lý, khai thác, vận hành theo quy định của pháp luật về quản lý, sử dụng tài sản công. Tổ chức, doanh nghiệp được nhập khẩu dây chuyền công nghệ, thiết bị, máy móc, công cụ đã qua sử dụng phục vụ hoạt động đào tạo, nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số đáp ứng tiêu chí do Bộ trưởng Bộ Khoa học và Công nghệ quy định. Chính phủ quy định chi tiết Điều này.",
+      "global_page": 9,
+      "score": 0.5978519916534424,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:21",
+      "provision_path": "21",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

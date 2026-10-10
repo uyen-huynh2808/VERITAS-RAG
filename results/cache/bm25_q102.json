@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại 01/01/2026, cơ sở giáo dục nghề nghiệp được tuyển sinh trung cấp cho người đã hoàn thành trung học cơ sở đến mốc nào, trừ trường hợp thuộc lĩnh vực sức khỏe?",
+  "answer": "Đến hết ngày **31 / 12 / 2030** (trừ các trường hợp thuộc lĩnh vực sức khỏe được quy định tại khoản 2).",
+  "latency_ms": 9682.23409994971,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.2:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Cơ sở giáo dục nghề nghiệp chấm dứt tuyển sinh trình độ trung cấp đối với người học đã hoàn thành chương trình giáo dục trung học cơ sở các ngành, nghề thuộc lĩnh vực sức khỏe kể từ ngày 01 tháng 01 năm 2026.",
+      "global_page": 19,
+      "score": 83.42961214121729,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.2",
+      "provision_path": "45.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.1:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "1. Cơ sở giáo dục nghề nghiệp được tuyển sinh trình độ trung cấp đối với người đã hoàn thành chương trình giáo dục trung học cơ sở cho đến hết ngày 31 tháng 12 năm 2030, trừ trường hợp quy định tại khoản 2 Điều này.",
+      "global_page": 19,
+      "score": 63.05347623504957,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.1",
+      "provision_path": "45.1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "3. Các khóa đào tạo đã được tuyển sinh theo quy định trước ngày 01 tháng 01 năm 2026 thì cơ sở hoạt động giáo dục nghề nghiệp được tiếp tục tổ chức đào tạo, cấp văn bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
+      "global_page": 19,
+      "score": 46.627481267107534,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.3",
+      "provision_path": "45.3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.4:19:0",
+      "article_id": "124/2025/QH15:article:45",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "4. Cơ sở giáo dục đại học được nâng cấp từ trường cao đẳng và cơ sở giáo dục đại học có trường cao đẳng sáp nhập vào trước ngày 01 tháng 01 năm 2026 thì được tiếp tục tuyển sinh trình độ cao đẳng đến hết ngày 31 tháng 12 năm 2028 đối với các ngành, nghề mà trường cao đẳng đã được cấp giấy chứng nhận đăng ký hoạt động giáo dục nghề nghiệp, giấy chứng nhận đăng ký bổ sung hoạt động giáo dục nghề nghiệp; có trách nhiệm đăng ký thông tin về chương trình đào tạo vào cơ sở dữ liệu chuyên ngành về giáo dục nghề nghiệp theo quy định tại Điều 20 của Luật này.",
+      "global_page": 19,
+      "score": 45.14447389322025,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:45.4",
+      "provision_path": "45.4",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:6.3.c:3:0",
+      "article_id": "124/2025/QH15:article:6",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "c) Người học học hết chương trình giáo dục trung học nghề và đủ điều kiện theo quy định thì được dự thi tốt nghiệp; đạt yêu cầu thì được người đứng đầu cơ sở hoạt động giáo dục nghề nghiệp cấp bằng trung học nghề; trường hợp người học không dự thi tốt nghiệp hoặc thi tốt nghiệp không đạt yêu cầu thì được người đứng đầu cơ sở hoạt động giáo dục nghề nghiệp cấp giấy chứng nhận hoàn thành chương trình. Giấy chứng nhận hoàn thành chương trình được sử dụng để đăng ký dự thi lấy bằng trung học nghề hoặc sử dụng trong trường hợp cụ thể theo quy định của pháp luật;",
+      "global_page": 3,
+      "score": 44.45971076986709,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:6.3.c",
+      "provision_path": "6.3.c",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

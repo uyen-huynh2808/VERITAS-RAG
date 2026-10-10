@@ -10,6 +10,7 @@ from typing import List
 from src.baselines.bm25_baseline import BM25Retriever
 from src.baselines.naive_rag_baseline import NaiveDenseRetriever
 from src.rag.generator_agent import GeneratorAgent
+from src.core.config import load_system_config
 
 from .run_eval import (
     BenchmarkSample,
@@ -20,7 +21,7 @@ from .run_eval import (
     load_dataset,
 )
 
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 
 
 # ============================================================
@@ -47,11 +48,13 @@ class BenchmarkRunner:
         self,
         gold_path: str,
         model_name: str,
-        top_k: int = 5,
+        top_k: int | None = None,
         resume: bool = False,
+        cache_dir: str | Path | None = None,
     ):
+        self.config = load_system_config()
         self.model_name = model_name.lower()
-        self.top_k = top_k
+        self.top_k = top_k if top_k is not None else self.config.retrieval.top_k
         self.resume = resume
 
         if self.model_name == "bm25":
@@ -63,7 +66,7 @@ class BenchmarkRunner:
 
         self.generator = GeneratorAgent()
 
-        self.cache_dir = Path("results/cache")
+        self.cache_dir = Path(cache_dir or self.config.benchmark.cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     # --------------------------------------------------------
@@ -202,8 +205,18 @@ def print_summary(results: List[EvaluationResult]):
     print(
         f"Recall@K               : {mean(r.recall_at_k for r in results):.3f}"
     )
+    temporal_values = [
+        r.temporal_validity for r in results
+        if r.temporal_validity is not None
+    ]
+    temporal_summary = (
+        f"{mean(temporal_values):.3f} ({len(temporal_values)} assessable samples)"
+        if temporal_values
+        else "N/A (0 assessable samples)"
+    )
+    print(f"Temporal Validity      : {temporal_summary}")
     print(
-        f"Temporal Validity      : {mean(r.temporal_validity for r in results):.3f}"
+        f"Temporal Coverage     : {mean(r.temporal_coverage for r in results):.3f}"
     )
     print(
         f"Invalid Citation Rate  : {mean(r.invalid_citation_rate for r in results):.3f}"
@@ -237,21 +250,21 @@ def main():
     parser.add_argument(
         "--gold",
         type=str,
-        default="data/gold/gold_chunks.parquet",
+        default=None,
         help="Path to Gold chunk parquet.",
     )
 
     parser.add_argument(
         "--dataset",
         type=str,
-        default="data/splits/vn_legal_temporal_eval_split.json",
+        default=None,
         help="Benchmark dataset JSON.",
     )
 
     parser.add_argument(
         "--top_k",
         type=int,
-        default=5,
+        default=None,
         help="Number of retrieved chunks.",
     )
 
@@ -269,11 +282,14 @@ def main():
     )
 
     args = parser.parse_args()
+    config = load_system_config()
+    gold_path = args.gold or config.benchmark.gold_path
+    dataset_path = args.dataset or config.benchmark.output_path
 
-    dataset = load_dataset(args.dataset)
+    dataset = load_dataset(dataset_path)
 
     runner = BenchmarkRunner(
-        gold_path=args.gold,
+        gold_path=gold_path,
         model_name=args.model,
         top_k=args.top_k,
         resume=args.resume,
@@ -288,8 +304,19 @@ def main():
             mean(r.recall_at_k for r in results),
             3,
         ),
-        "temporal_validity": round(
-            mean(r.temporal_validity for r in results),
+        "temporal_validity": (
+            round(mean(
+                r.temporal_validity for r in results
+                if r.temporal_validity is not None
+            ), 3)
+            if any(r.temporal_validity is not None for r in results)
+            else None
+        ),
+        "temporal_validity_assessable_samples": sum(
+            r.temporal_validity is not None for r in results
+        ),
+        "temporal_coverage": round(
+            mean(r.temporal_coverage for r in results),
             3,
         ),
         "invalid_citation_rate": round(
@@ -309,9 +336,8 @@ def main():
     print_summary(results)
 
     if args.output is None:
-        output_path = (
-            Path("results")
-            / f"{args.model}_benchmark.json"
+        output_path = Path(config.benchmark.results_dir) / (
+            f"{args.model}_benchmark.json"
         )
     else:
         output_path = Path(args.output)

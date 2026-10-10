@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Ngày 01/07/2025, các điều 11, 28 và 29 của Luật Công nghiệp công nghệ số đã có hiệu lực chưa?",
+  "answer": "Có. Theo Điều 50 của Luật Công nghiệp công nghệ số, các Điều 11, 28 và 29 có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Vì vậy vào ngày 01/07/2025, ba điều này đã có hiệu lực.",
+  "latency_ms": 11640.114900073968,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",
+      "article_id": "71/2025/QH15:article:51",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Quy định chuyển tiếp Khu công nghệ thông tin tập trung đã được quy hoạch, thành lập, công nhận, mở rộng, đang hoạt động theo quy định của pháp luật được tự động chuyển thành khu công nghệ số tập trung và thực hiện theo quy định tại Luật này. Trong thời gian luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban Thường vụ Quốc hội chưa được sửa đổi, bổ sung trong thời hạn 02 năm từ ngày Luật này có hiệu lực thi hành, giao Chính phủ ban hành văn bản quy phạm pháp luật điều chỉnh để giải quyết khó khăn, vướng mắc cho phát triển công nghiệp công nghệ số được quy định tại luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban Thường vụ Quốc hội để thống nhất áp dụng, định kỳ báo cáo Ủy ban Thường vụ Quốc hội; trường hợp liên quan đến luật, nghị quyết của Quốc hội thì báo cáo Quốc hội tại kỳ họp gần nhất. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 9 thông qua ngày 14 tháng 6 năm 2025.",
+      "global_page": 22,
+      "score": 0.6150022149085999,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:51",
+      "provision_path": "51",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",
+      "article_id": "71/2025/QH15:article:50",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này. Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.",
+      "global_page": 22,
+      "score": 0.5977321863174438,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:50",
+      "provision_path": "50",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",
+      "article_id": "71/2025/QH15:article:49",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Sửa đổi, bổ sung, thay thế, bãi bỏ một số điều của các luật có liên quan Bãi bỏ các khoản 9, 10, 11 và 12 Điều 4; Mục 3 và Mục 4 Chương III của Luật Công nghệ thông tin số 67/2006/QH11 đã được sửa đổi, bổ sung theo Luật số 21/2017/QH14, Luật số 20/2023/QH15 và Luật số 24/2023/QH15. Sửa đổi, bổ sung điểm a khoản 1 Điều 5 của Luật Công nghệ cao số 21/2008/QH12 đã được sửa đổi, bổ sung theo Luật số 32/2013/QH13 và Luật số 67/2014/QH13 như sau: \"a) Công nghệ thông tin, công nghệ số;\". Bổ sung khoản 17 vào sau khoản 16 Điều 4 của Luật Thuế thu nhập cá nhân số 04/2007/QH12 đã được sửa đổi, bổ sung theo Luật số 26/2012/QH13, Luật số 71/2014/QH13, Luật số 31/2024/QH15, Luật số 48/2024/QH15 và Luật số 56/2024/QH15 như sau: '17. Các khoản thu nhập bao gồm tiền lương, tiền công của nhân lực công nghiệp công nghệ số chất lượng cao là các khoản thu nhập miễn thuế thu nhập cá nhân trong thời hạn 05 năm kể từ ngày ký hợp đồng đầu tiên với cơ quan, tổ chức, cá nhân Việt Nam thuộc các trường hợp sau: Thu nhập từ dự án hoạt động công nghiệp công nghệ số trong khu công nghệ số tập trung; Thu nhập từ dự án nghiên cứu và phát triển, sản xuất sản phẩm công nghệ số trọng điểm, chip bán dẫn, hệ thống trí tuệ nhân tạo; Thu nhập từ các hoạt động đào tạo nhân lực công nghiệp công nghệ số.'. Bổ sung khoản 8a vào sau khoản 8 và trước khoản 9 Điều 154 của Bộ luật Lao động số 45/2019/QH14 như sau: '8a. Nhân lực công nghiệp công nghệ số chất lượng cao theo quy định của pháp luật về công nghiệp công nghệ số.'.",
+      "global_page": 21,
+      "score": 0.5966482162475586,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:49",
+      "provision_path": "49",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:1:1:0",
+      "article_id": "71/2025/QH15:article:1",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Phạm vi điều chỉnh Luật này quy định về phát triển công nghiệp công nghệ số, công nghiệp bán dẫn, trí tuệ nhân tạo, tài sản số, quyền và trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan. Luật này không điều chỉnh hoạt động công nghiệp công nghệ số chỉ phục vụ mục đích quốc phòng, an ninh, hoạt động cơ yếu để bảo vệ thông tin bí mật nhà nước.",
+      "global_page": 1,
+      "score": 0.5865291357040405,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:1",
+      "provision_path": "1",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.2:19:0",
+      "article_id": "124/2025/QH15:article:44",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Khoản 4 và khoản 5 Điều 24, các điều 26, 32, 35, 36, 39 và 42 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.",
+      "global_page": 19,
+      "score": 0.5793197751045227,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:44.2",
+      "provision_path": "44.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

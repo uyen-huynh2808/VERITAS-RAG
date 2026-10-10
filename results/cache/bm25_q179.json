@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật An toàn, vệ sinh lao động về việc tạm dừng và hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp theo các điều nào của Luật mới?",
+  "answer": "Theo khoản 3 Điều 49 được sửa đổi, việc **tạm dừng** và **hưởng tiếp** trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng được thực hiện theo **Điều 75**, **Điều 80** và **Điều 81** của Luật Bảo",
+  "latency_ms": 7921.232199994847,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",
+      "article_id": "41/2024/QH15:article:139",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Sửa đổi, bổ sung một số luật có liên quan đến bảo hiểm xã hội Sửa đổi, bổ sung một số điều của Luật An toàn, vệ sinh lao động số 84/2015/QH13 như sau: Sửa đổi, bổ sung khoản 7 Điều 42 như sau: '7. Chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 1 Điều 43 như sau: '1. Đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại Mục này là người lao động tham gia bảo hiểm xã hội bắt buộc theo quy định tại các điểm a, b, c, d, đ, e, i và l khoản 1 Điều 2 và người sử dụng lao động quy định tại khoản 3 Điều 2 của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung điểm b khoản 2 Điều 44 như sau: 'b) Tiền sinh lời của hoạt động đầu tư từ quỹ theo quy định tại Điều 120 và Điều 121 của Luật Bảo hiểm xã hội;'; Sửa đổi, bổ sung khoản 3 Điều 49 như sau: '3. Việc tạm dừng, hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng, trợ cấp phục vụ thực hiện theo quy định tại Điều 75 của Luật Bảo hiểm xã hội; hồ sơ, trình tự giải quyết hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng thực hiện theo quy định tại Điều 80 và Điều 81 của Luật Bảo hiểm xã hội.'; đ) Sửa đổi, bổ sung khoản 5 Điều 49 như sau: '5. Người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng khi ra nước ngoài để định cư được giải quyết hưởng trợ cấp một lần; mức trợ cấp một lần bằng 03 tháng mức trợ cấp đang hưởng. Hồ sơ, trình tự giải quyết trợ cấp một lần thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 3 Điều 53 như sau: '3. Người lao động bị chết trong thời gian điều trị thương tật, bệnh tật mà chưa được giám định mức suy giảm khả năng lao động. Hồ sơ hưởng chế độ tử tuất trong trường hợp người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định tại khoản 1 Điều 90 của Luật Bảo hiểm xã hội.'. Sửa đổi, bổ sung điểm e khoản 3 Điều 57 của Luật Việc làm số 38/2013/QH13 như sau:",
+      "global_page": 61,
+      "score": 61.575381396258976,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:139",
+      "provision_path": "139",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:4:5:0",
+      "article_id": "41/2024/QH15:article:4",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "đ) Bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định của Luật An toàn, vệ sinh lao động. Bảo hiểm xã hội tự nguyện có các chế độ sau đây: Trợ cấp thai sản; Hưu trí; Tử tuất; Bảo hiểm tai nạn lao động theo quy định của Luật An toàn, vệ sinh lao động. Bảo hiểm thất nghiệp theo quy định của Luật Việc làm. Bảo hiểm hưu trí bổ sung.",
+      "global_page": 5,
+      "score": 60.66796157245287,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:4",
+      "provision_path": "4",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:85:42:0",
+      "article_id": "41/2024/QH15:article:85",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Trợ cấp mai táng Người sau đây khi chết thì tổ chức, cá nhân lo mai táng được nhận một lần trợ cấp mai táng: Đối tượng quy định tại khoản 1 và khoản 2 Điều 2 của Luật này có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 12 tháng trở lên; Chết do tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật về an toàn, vệ sinh lao động; Người đang hưởng hoặc đang tạm dừng hưởng lương hưu; người đang hưởng hoặc đang tạm dừng hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng đã nghỉ việc. Mức trợ cấp mai táng bằng 10 lần mức tham chiếu tại tháng mà người quy định tại khoản 1 Điều này chết. Trường hợp đối tượng quy định tại các điểm a, b và c khoản 1 Điều này bị Tòa án tuyên bố là đã chết thì thân nhân được hưởng trợ cấp mai táng quy định tại khoản 2 Điều này.",
+      "global_page": 42,
+      "score": 55.72644980717056,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:85",
+      "provision_path": "85",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:118:54:0",
+      "article_id": "41/2024/QH15:article:118",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Quỹ bảo hiểm xã hội bao gồm các quỹ thành phần sau đây: Quỹ ốm đau và thai sản; Quỹ hưu trí và tử tuất; Quỹ bảo hiểm tai nạn lao động - bệnh nghề nghiệp theo quy định của Luật An toàn, vệ sinh lao động. Quỹ bảo hiểm thất nghiệp theo quy định của Luật Việc làm.",
+      "global_page": 54,
+      "score": 51.54478789459225,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:118",
+      "provision_path": "118",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:86:42:0",
+      "article_id": "41/2024/QH15:article:86",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Các trường hợp hưởng trợ cấp tuất hằng tháng Đối tượng quy định tại khoản 1 Điều 2 của Luật này khi chết hoặc bị Tòa án tuyên bố là đã chết thuộc một trong các trường hợp sau đây thì thân nhân quy định tại khoản 2 Điều này được hưởng tiền tuất hằng tháng: Có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 15 năm trở lên; Đang hưởng lương hưu hoặc đang tạm dừng hưởng lương hưu; Chết do tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật về an toàn, vệ sinh lao động; Đang hưởng hoặc đang tạm dừng hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng với mức suy giảm khả năng lao động từ 61% trở lên. Thân nhân của đối tượng quy định tại khoản 1 Điều này được hưởng trợ cấp tuất hằng tháng, bao gồm: Các con bao gồm cả con khi người mẹ đang mang thai mà người cha chết, con khi lao động nữ mang thai hộ đang mang thai mà người cha hoặc người mẹ nhờ mang thai hộ chết thì được hưởng đến khi đủ 18 tuổi; Con bị suy giảm khả năng lao động từ 81% trở lên;",
+      "global_page": 42,
+      "score": 50.64678868465317,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:86",
+      "provision_path": "86",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

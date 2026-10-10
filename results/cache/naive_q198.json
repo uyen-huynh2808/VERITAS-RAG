@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một người sử dụng lao động tuyển người vào học nghề để làm việc cho mình sau khi Luật Giáo dục nghề nghiệp mới có hiệu lực; để xác định nghĩa vụ về học phí và quyền thành lập cơ sở hoặc mở lớp đào tạo, cần kết hợp hai sửa đổi nào trong Điều 43?",
+  "answer": "Cần kết hợp **sửa đổi 43.1.a** (về việc thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc) và **sửa đổi 43.1.b** (quy định người sử dụng lao động không được thu học phí khi tuyển người vào học nghề, tập nghề để làm việc cho mình).",
+  "latency_ms": 1400.8068999974057,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.a:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "a) Sửa đổi, bổ sung điểm a khoản 2 Điều 59 như sau: “a) Thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc để đào tạo, đào tạo lại, bồi dưỡng, nâng cao trình độ, kỹ năng nghề cho người lao động; phối hợp với cơ sở giáo dục nghề nghiệp đào tạo chương trình giáo dục trung học nghề và các chương trình đào tạo trình độ sơ cấp, trung cấp, cao đẳng theo quy định;”;",
+      "global_page": 18,
+      "score": 0.7410673499107361,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1.a",
+      "provision_path": "43.1.a",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.b:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "b) Sửa đổi, bổ sung khoản 3 Điều 61 như sau: “3. Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không được thu học phí.”.",
+      "global_page": 18,
+      "score": 0.6827794313430786,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1.b",
+      "provision_path": "43.1.b",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:39.2:17:0",
+      "article_id": "124/2025/QH15:article:39",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Cơ sở hoạt động giáo dục nghề nghiệp phải công khai chi phí đào tạo, mức học phí, mức thu dịch vụ tuyển sinh, các khoản thu dịch vụ khác cho từng trình độ, năm học, toàn khóa học; có trách nhiệm trích một phần nguồn thu thực hiện miễn, giảm, hỗ trợ học phí đối với người học có hoàn cảnh khó khăn, người học thuộc đối tượng chính sách theo quy định của Nhà nước và chính sách riêng của cơ sở.",
+      "global_page": 17,
+      "score": 0.6748946905136108,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:39.2",
+      "provision_path": "39.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:33.2:14:0",
+      "article_id": "124/2025/QH15:article:33",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "2. Được thành lập cơ sở giáo dục nghề nghiệp để đào tạo nhân lực trực tiếp cho hoạt động sản xuất, kinh doanh, dịch vụ trong doanh nghiệp và cho xã hội.",
+      "global_page": 14,
+      "score": 0.6686958074569702,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:33.2",
+      "provision_path": "33.2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:7.4:4:0",
+      "article_id": "124/2025/QH15:article:7",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "4. Loại hình cơ sở giáo dục nghề nghiệp, việc chuyển đổi, công nhận cơ sở giáo dục nghề nghiệp, điều kiện, thủ tục, thẩm quyền thành lập hoặc cho phép thành lập, thu hồi quyết định thành lập hoặc cho phép thành lập, thay đổi địa điểm đào tạo, sáp nhập, chia, tách, giải thể cơ sở giáo dục nghề nghiệp thực hiện theo quy định của Luật Giáo dục.",
+      "global_page": 4,
+      "score": 0.6584576964378357,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:7.4",
+      "provision_path": "7.4",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

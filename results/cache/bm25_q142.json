@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/01/2026, nếu cần xác định cơ chế chuyển khu công nghệ thông tin tập trung thành khu công nghệ số tập trung, nên truy xuất điều khoản chuyển tiếp nào?",
+  "answer": "Không đủ thông tin trong tài liệu.",
+  "latency_ms": 16221.957399975508,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:25:11:0",
+      "article_id": "71/2025/QH15:article:25",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Quản lý, vận hành, sử dụng và khai thác tài sản kết cấu hạ tầng khu công nghệ số tập trung Kết cấu hạ tầng khu công nghệ số tập trung bao gồm: Hạ tầng số gồm mạng viễn thông và Internet; hệ thống thông tin, trung tâm dữ liệu, hệ thống giám sát và bảo đảm an toàn thông tin; Cơ sở nghiên cứu, thiết kế, chế tạo, đo kiểm, sản xuất thử nghiệm; phòng thí nghiệm; Các tòa nhà, nhà xưởng sản xuất; Hệ thống hạ tầng kỹ thuật gồm đường giao thông, điện, nước sạch, cấp nước, thoát nước, thu gom và xử lý nước thải, chất thải rắn và hệ thống hạ tầng kỹ thuật khác; đ) Các công trình khác phục vụ hoạt động của khu công nghệ số tập trung. Kết cấu hạ tầng khu công nghệ số tập trung được đầu tư bằng nguồn vốn ngân sách nhà nước thì được quản lý, sử dụng và khai thác theo quy định của pháp luật về quản lý, sử dụng tài sản công. Đơn vị quản lý, vận hành và khai thác khu công nghệ số tập trung là tổ chức được thành lập hoặc được giao nhiệm vụ để thực hiện công tác quản lý, vận hành và khai thác khu công nghệ số tập trung; cung ứng dịch vụ phục vụ cho hoạt động đầu tư, sản xuất, kinh doanh sản phẩm công nghệ số và các hoạt động khác có liên quan của doanh nghiệp trong khu công nghệ số tập trung. Chính phủ quy định chi tiết Điều này. Mục 5. DỮ LIỆU SỐ TRONG HOẠT ĐỘNG CÔNG NGHIỆP CÔNG NGHỆ SỐ",
+      "global_page": 11,
+      "score": 56.50907689769883,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:25",
+      "provision_path": "25",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:23:10:0",
+      "article_id": "71/2025/QH15:article:23",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Công nhận khu chức năng là khu công nghệ số tập trung Khu chức năng đang có hoạt động công nghiệp công nghệ số được xem xét công nhận là khu công nghệ số tập trung khi đáp ứng các tiêu chí sau: Phù hợp với định hướng, mục tiêu của quy hoạch ngành quốc gia có liên quan đến khu công nghệ số tập trung và quy hoạch tỉnh; Đáp ứng các tiêu chí về chức năng, quy mô diện tích, quy hoạch xây dựng, nhân lực của khu công nghệ số tập trung. Ủy ban nhân dân cấp tỉnh quyết định công nhận khu công nghệ số tập trung quy định tại khoản 1 Điều này. Chính phủ quy định chi tiết khoản 1 Điều này; trình tự, thủ tục công nhận khu công nghệ số tập trung.",
+      "global_page": 10,
+      "score": 54.97638048950423,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:23",
+      "provision_path": "23",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:24:11:0",
+      "article_id": "71/2025/QH15:article:24",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghệ số tập trung, dự án đầu tư về lĩnh vực công nghiệp công nghệ số trong khu công nghệ số tập trung được áp dụng chính sách ưu đãi đầu tư đối với ngành, nghề đặc biệt ưu đãi đầu tư theo quy định của pháp luật về đầu tư và pháp luật khác có liên quan. Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghệ số tập trung và dự án đầu tư về lĩnh vực công nghiệp công nghệ số có sử dụng đất tại khu công nghệ số tập trung được miễn, giảm tiền thuê đất theo quy định pháp luật về đất đai và pháp luật khác có liên quan. Nhà đầu tư thực hiện dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghệ số tập trung có thể được nhà nước hỗ trợ: Đầu tư hệ thống hạ tầng kỹ thuật bên trong khu và các hạ tầng kết nối đến khu gồm đường giao thông, điện, nước sạch, cấp nước, thoát nước, thu gom và xử lý nước thải, chất thải rắn và công trình khác; Tổ chức hệ thống giao thông vận chuyển hành khách công cộng đến khu công nghệ số tập trung. Dự án đầu tư xây dựng nhà ở, công trình dịch vụ, tiện ích công cộng cho người lao động làm việc trong khu công nghệ số tập trung được hưởng ưu đãi theo quy định của pháp luật về nhà ở; kinh doanh bất động sản và pháp luật khác có liên quan.",
+      "global_page": 11,
+      "score": 50.66869984786084,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:24",
+      "provision_path": "24",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:3:1:0",
+      "article_id": "71/2025/QH15:article:3",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Giải thích từ ngữ Công nghệ số là tập hợp các phương pháp khoa học, quy trình công nghệ, công cụ kỹ thuật để sản xuất, truyền đưa, thu thập, xử lý, lưu trữ, trao đổi thông tin, dữ liệu số và số hóa thế giới thực. Công nghiệp công nghệ số là ngành kinh tế - kỹ thuật dựa trên sự kết hợp của khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số nhằm tạo ra các sản phẩm, dịch vụ công nghệ số; là bước phát triển tiếp theo của công nghiệp công nghệ thông tin. Thiết bị công nghệ số là thiết bị được sử dụng để sản xuất, truyền đưa, thu thập, xử lý, lưu trữ, trao đổi thông tin, dữ liệu số, số hóa thế giới thực. Nhân lực công nghiệp công nghệ số là người có trình độ, kỹ năng, kiến thức chuyên môn công nghệ số tham gia hoạt động sản xuất sản phẩm công nghệ số, cung cấp dịch vụ công nghệ số, quản lý hoạt động công nghiệp công nghệ số. Doanh nghiệp công nghệ số là doanh nghiệp sản xuất sản phẩm công nghệ số, cung cấp dịch vụ công nghệ số. Khu công nghệ số tập trung là khu chức năng, tập trung các hoạt động nghiên cứu và phát triển, hỗ trợ, đào tạo, thúc đẩy đổi mới sáng tạo, ươm tạo công nghệ số và doanh nghiệp công nghệ số, sản xuất và kinh doanh sản phẩm, dịch vụ công nghệ số, cung cấp hạ tầng, cung ứng dịch vụ cho các tổ chức, doanh nghiệp, cá nhân và các hoạt động khác trong khu. picture NHỮNG QUY ĐỊNH CHUNG",
+      "global_page": 1,
+      "score": 49.992096123161744,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:3",
+      "provision_path": "3",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "71/2025/QH15:71/2025/QH15:article:22:9:0",
+      "article_id": "71/2025/QH15:article:22",
+      "logical_doc_id": "71/2025/QH15",
+      "text": "Thành lập, mở rộng khu công nghệ số tập trung Điều kiện thành lập, mở rộng khu công nghệ số tập trung: Phù hợp với chính sách của Nhà nước về phát triển công nghệ số, công nghiệp công nghệ số; Phù hợp với định hướng, mục tiêu của quy hoạch ngành quốc gia, quy hoạch vùng, quy hoạch tỉnh và quy hoạch sử dụng đất của địa phương; Có quy mô diện tích, phân khu chức năng phù hợp bảo đảm điều kiện thuận lợi để phát triển công nghiệp công nghệ số; Có phương án thành lập, mở rộng phù hợp với chức năng của khu công nghệ số tập trung; đáp ứng quy định về bảo đảm quốc phòng, an ninh, bảo vệ môi trường và ứng phó với biến đổi khí hậu, bảo vệ tài nguyên thiên nhiên và di tích lịch sử, văn hóa, di sản thiên nhiên; đ) Điều kiện khác phù hợp với thực tiễn phát triển và yêu cầu quản lý. Việc thành lập, mở rộng khu công nghệ số tập trung được thực hiện thông qua lập dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng khu công nghệ số tập trung theo các phương thức: Sử dụng ngân sách nhà nước theo quy định của pháp luật về đầu tư công;",
+      "global_page": 9,
+      "score": 49.72527732117155,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "71/2025/QH15:article:22",
+      "provision_path": "22",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

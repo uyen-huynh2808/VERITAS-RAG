@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/07/2025, nếu cần xác định người đồng thời thuộc nhiều đối tượng bảo hiểm xã hội bắt buộc phải tham gia theo hợp đồng nào, nên truy xuất điều khoản nào của Luật 41/2024/QH15?",
+  "answer": "Để xác định người đồng thời thuộc nhiều đối tượng bảo hiểm xã hội bắt buộc phải tham gia theo hợp đồng nào, cần truy xuất **khoản 1 Điều 2** của Luật 41/2024/QH15 (điều 2, khoản 1). Đây là điều khoản quy định cách xác định hợp đồng lao động được áp dụng khi một người thuộc nhiều đối tượng bảo hiểm xã hội bắt buộc.",
+  "latency_ms": 20140.029200003482,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:3:0",
+      "article_id": "41/2024/QH15:article:2",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đối tượng quy định tại điểm b và điểm i khoản 1 Điều này đồng thời cũng thuộc đối tượng quy định tại điểm a hoặc điểm l khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng tương ứng quy định tại điểm b hoặc điểm i khoản 1 Điều này; Đối tượng quy định tại điểm i và điểm n khoản 1 Điều này làm việc tại nhiều doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã thì tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, hợp tác xã hoặc liên hiệp hợp tác xã đầu tiên tham gia quản lý, điều hành; Đối tượng quy định tại điểm g và điểm k khoản 1 Điều này đồng thời thuộc đối tượng quy định tại một trong các điểm a, i và l khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng tương ứng quy định tại điểm a, i hoặc l khoản 1 Điều này theo thứ tự đến trước; đ) Đối tượng quy định tại điểm k khoản 1 Điều này đồng thời thuộc đối tượng quy định tại điểm m hoặc điểm n khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng quy định tại điểm k khoản 1 Điều này; Đối tượng quy định tại điểm m và điểm n khoản 1 Điều này đồng thời thuộc nhiều đối tượng quy định tại khoản 1 Điều này thì việc tham gia bảo hiểm xã hội bắt buộc theo quy định của Chính phủ; Đối tượng quy định tại điểm e khoản 1 Điều này đồng thời thuộc đối tượng quy định tại điểm k hoặc điểm m khoản 1 Điều này thì tham gia bảo hiểm xã hội bắt buộc theo đối tượng quy định tại điểm e khoản 1 Điều này. Ủy ban Thường vụ Quốc hội quyết định việc tham gia bảo hiểm xã hội bắt buộc đối với đối tượng khác ngoài đối tượng quy định tại khoản 1 Điều này mà có việc làm, thu nhập ổn định, thường xuyên trên cơ sở đề xuất của Chính phủ phù hợp với điều kiện phát triển kinh tế - xã hội từng thời kỳ. Trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc bao gồm: Người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng. Chính phủ quy định đối tượng hưởng trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc; Lao động là người giúp việc gia đình; Đối tượng quy định tại điểm m và điểm n khoản 1 Điều này đã đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động, trừ trường hợp thời gian đóng bảo hiểm xã hội còn thiếu tối đa 06 tháng quy định tại khoản 7 Điều 33 của Luật",
+      "global_page": 3,
+      "score": 52.92551041283448,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:2:1",
+      "article_id": "41/2024/QH15:article:2",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "ngoài, tổ chức quốc tế hoạt động trên lãnh thổ Việt Nam; doanh nghiệp, tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã, hộ kinh doanh, tổ chức khác và cá nhân có thuê mướn, sử dụng lao động theo hợp đồng lao động. Đối tượng tham gia bảo hiểm xã hội tự nguyện bao gồm: Công dân Việt Nam từ đủ 15 tuổi trở lên không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc và không phải là người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng; Đối tượng quy định tại điểm a và điểm b khoản 1 Điều này đang tạm hoãn thực hiện hợp đồng lao động, hợp đồng làm việc, trừ trường hợp hai bên có thỏa thuận về việc đóng bảo hiểm xã hội bắt buộc trong thời gian này. Người đồng thời thuộc nhiều đối tượng tham gia bảo hiểm xã hội bắt buộc khác nhau quy định tại khoản 1 Điều này thì việc tham gia bảo hiểm xã hội bắt buộc theo quy định như sau: Đối tượng quy định tại điểm a và điểm l khoản 1 Điều này mà giao kết hợp đồng lao động với nhiều người sử dụng lao động thì tham gia bảo hiểm xã hội bắt buộc theo hợp đồng lao động giao kết đầu tiên. Trường hợp hợp đồng lao động đang sử dụng làm căn cứ tham gia bảo hiểm xã hội bắt buộc đang tạm hoãn thực hiện hợp đồng mà hai bên không có thỏa thuận về việc đóng bảo hiểm xã hội bắt buộc trong thời gian tạm hoãn thì tham gia bảo hiểm xã hội bắt buộc theo thứ tự về thời gian có hiệu lực của hợp đồng được ký kết;",
+      "global_page": 2,
+      "score": 51.25102280223317,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:2",
+      "provision_path": "2",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:28:16:0",
+      "article_id": "41/2024/QH15:article:28",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đăng ký tham gia bảo hiểm xã hội và cấp sổ bảo hiểm xã hội Người sử dụng lao động có trách nhiệm kê khai và nộp hồ sơ tham gia bảo hiểm xã hội bắt buộc của người lao động theo quy định tại khoản 1 và khoản 2 Điều 27 của Luật này cho cơ quan bảo hiểm xã hội trong thời hạn 30 ngày kể từ ngày người lao động thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc, trừ trường hợp quy định tại khoản 2 Điều này. Đối tượng quy định tại điểm m và điểm n khoản 1 Điều 2 của Luật này nếu tự nộp thì nộp hồ sơ là tờ khai quy định tại điểm b khoản 1 Điều 27 của Luật này cho cơ quan bảo hiểm xã hội trong thời hạn 30 ngày kể từ ngày thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc. Người tham gia bảo hiểm xã hội tự nguyện nộp hồ sơ quy định tại khoản 3 Điều 27 của Luật này cho cơ quan bảo hiểm xã hội. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, cơ quan bảo hiểm xã hội có trách nhiệm cấp sổ bảo hiểm xã hội; trường hợp không cấp sổ bảo hiểm xã hội thì phải trả lời bằng văn bản và nêu rõ lý do. Chính phủ quy định chi tiết Điều này.",
+      "global_page": 16,
+      "score": 47.73296872506747,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:28",
+      "provision_path": "28",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:73:38:0",
+      "article_id": "41/2024/QH15:article:73",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Điều chỉnh tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc Tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc để tính mức bình quân quy định tại Điều 72 của Luật này của người lao động thuộc đối tượng thực hiện chế độ tiền lương do Nhà nước quy định được điều chỉnh như sau: Đối với người lao động bắt đầu tham gia bảo hiểm xã hội trước ngày 01 tháng 01 năm 2016, được điều chỉnh theo mức tham chiếu tại thời điểm hưởng chế độ hưu trí; Đối với người lao động bắt đầu tham gia bảo hiểm xã hội từ ngày 01 tháng 01 năm 2016 trở đi, được điều chỉnh như quy định tại khoản 2 Điều này. Tiền lương làm căn cứ đóng bảo hiểm xã hội bắt buộc để tính mức bình quân quy định tại Điều 72 của Luật này của người lao động thuộc đối tượng thực hiện chế độ tiền lương do người sử dụng lao động quyết định được điều chỉnh trên cơ sở chỉ số giá tiêu dùng của từng thời kỳ theo quy định của Chính phủ.",
+      "global_page": 38,
+      "score": 45.05813651772739,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:73",
+      "provision_path": "73",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:38:21:0",
+      "article_id": "41/2024/QH15:article:38",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp là hành vi của người sử dụng lao động thuộc một trong các trường hợp sau đây: Chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng theo hồ sơ tham gia bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp đã đăng ký kể từ sau ngày đóng bảo hiểm xã hội chậm nhất quy định tại khoản 4 Điều 34 của Luật này hoặc kể từ sau ngày đóng bảo hiểm thất nghiệp chậm nhất theo quy định của pháp luật về bảo hiểm thất nghiệp, trừ trường hợp quy định tại điểm đ và điểm e khoản 1 Điều 39 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm xã hội bắt buộc trong thời hạn 60 ngày kể từ ngày hết thời hạn quy định tại khoản 1 Điều 28 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm thất nghiệp trong thời hạn 60 ngày kể từ ngày hết thời hạn phải tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp; Thuộc trường hợp không bị coi là trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp theo quy định tại khoản 2 Điều 39 của Luật này.",
+      "global_page": 21,
+      "score": 43.408116166209695,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:38",
+      "provision_path": "38",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

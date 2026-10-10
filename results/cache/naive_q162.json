@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Bộ luật Lao động 45/2019/QH14 sửa đổi điều nào của Luật Bảo hiểm xã hội 58/2014/QH13 về điều kiện hưởng lương hưu khi suy giảm khả năng lao động?",
+  "answer": "Điều 55 của Luật Bảo hiểm xã hội 58/2014/QH13.",
+  "latency_ms": 25563.614699989557,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:67:0",
+      "article_id": "45/2019/QH14:article:219",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Điều kiện về tuổi hưởng lương hưu đối với một số trường hợp đặc biệt theo quy định của Chính phủ.'; Sửa đổi, bổ sung Điều 55 như sau: 'Điều 55. Điều kiện hưởng lương hưu khi suy giảm khả năng lao động Người lao động quy định tại các điểm a, b, c, d, g, h và i khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại các điểm a, b và c khoản 1 Điều 54 của Luật này nếu thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 61% đến dưới 81%; Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động khi bị suy giảm khả năng lao động từ 81% trở lên; Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành và bị suy giảm khả năng lao động từ 61% trở lên. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên, bị suy giảm khả năng lao động từ 61% trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 54 của Luật này khi thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Có đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành.'; Sửa đổi, bổ sung khoản 1 Điều 73 như sau: ' 1. Người lao động hưởng lương hưu khi có đủ các điều kiện sau đây: Đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Đủ 20 năm đóng bảo hiểm xã hội trở lên.'. Sửa đổi, bổ sung Điều 32 của Bộ luật Tố tụng dân sự số 92/2015/QH13 như sau: Sửa đổi, bổ sung tên điều, khoản 1; bổ sung các khoản 1a, 1b và 1c vào sau khoản 1 như sau: ' Điều 32. Những tranh chấp về lao động và tranh chấp liên quan đến lao động thuộc thẩm quyền giải quyết của Tòa án Tranh chấp lao động cá nhân giữa người lao động với",
+      "global_page": 67,
+      "score": 0.7379403114318848,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:219",
+      "provision_path": "219",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:65:34:0",
+      "article_id": "41/2024/QH15:article:65",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Đối tượng và điều kiện hưởng lương hưu khi suy giảm khả năng lao động Đối tượng quy định tại các điểm a, b, c, g, h, i, k, l, m và n khoản 1 và khoản 2 Điều 2 của Luật này khi nghỉ việc có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại các điểm a, b và c khoản 1 Điều 64 của Luật này nếu thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 05 tuổi so với tuổi quy định tại điểm a khoản 1 Điều 64 của Luật này và bị suy giảm khả năng lao động từ 61% đến dưới 81%; Có tuổi thấp hơn tối đa 10 tuổi so với tuổi quy định tại điểm a khoản 1 Điều 64 của Luật này và bị suy giảm khả năng lao động từ 81% trở lên; Có từ đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành và bị suy giảm khả năng lao động từ 61% trở lên. Đối tượng quy định tại các điểm d, đ và e khoản 1 Điều 2 của Luật này khi nghỉ việc có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên, bị suy giảm khả năng lao động từ 61% trở lên thì được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 64 của Luật này nếu thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 10 tuổi so với tuổi quy định tại điểm a khoản 1 Điều 64 của Luật này; Có từ đủ 15 năm trở lên làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.",
+      "global_page": 34,
+      "score": 0.7017526626586914,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:65",
+      "provision_path": "65",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:66:0",
+      "article_id": "45/2019/QH14:article:219",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Sửa đổi, bổ sung một số điều của các luật có liên quan đến lao động Sửa đổi, bổ sung một số điều của Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung theo Luật số 84/2015/QH13 và Luật số 35/2018/QH14: Sửa đổi, bổ sung Điều 54 như sau: ' Điều 54. Điều kiện hưởng lương hưu Người lao động quy định tại các điểm a, b, c, d, g, h và i khoản 1 Điều 2 của Luật này, trừ trường hợp quy định tại khoản 3 Điều này, khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên thì được hưởng lương hưu nếu thuộc một trong các trường hợp sau đây: Đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động; Đủ tuổi theo quy định tại khoản 3 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành hoặc có đủ 15 năm làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn bao gồm cả thời gian làm việc ở nơi có phụ cấp khu vực hệ số 0,7 trở lên trước ngày 01 tháng 01 năm 2021; Người lao động có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu của người lao động quy định tại khoản 2 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm công việc khai thác than trong hầm lò; Người bị nhiễm HIV do tai nạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu khi thuộc một trong các trường hợp sau đây: Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động, trừ trường hợp Luật Sĩ quan Quân đội nhân dân Việt Nam, Luật Công an nhân dân, Luật Cơ yếu, Luật Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng có quy định khác; Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 3 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục do Bộ Lao động - Thương binh và Xã hội ban hành hoặc có đủ 15 năm làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn bao gồm cả thời gian làm việc ở nơi có phụ cấp khu vực hệ số 0,7 trở lên",
+      "global_page": 66,
+      "score": 0.7007781267166138,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:219",
+      "provision_path": "219",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",
+      "article_id": "41/2024/QH15:article:140",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Luật Bảo hiểm xã hội số 58/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 84/2015/QH13, Luật số 35/2018/QH14, Bộ luật số 45/2019/QH14 (sau đây gọi chung là Luật số 58/2014/QH13) và Nghị quyết số 93/2015/QH13 ngày 22 tháng 6 năm 2015 của Quốc hội về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành.",
+      "global_page": 62,
+      "score": 0.6540142893791199,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:140",
+      "provision_path": "140",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",
+      "article_id": "41/2024/QH15:article:139",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Sửa đổi, bổ sung một số luật có liên quan đến bảo hiểm xã hội Sửa đổi, bổ sung một số điều của Luật An toàn, vệ sinh lao động số 84/2015/QH13 như sau: Sửa đổi, bổ sung khoản 7 Điều 42 như sau: '7. Chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 1 Điều 43 như sau: '1. Đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định tại Mục này là người lao động tham gia bảo hiểm xã hội bắt buộc theo quy định tại các điểm a, b, c, d, đ, e, i và l khoản 1 Điều 2 và người sử dụng lao động quy định tại khoản 3 Điều 2 của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung điểm b khoản 2 Điều 44 như sau: 'b) Tiền sinh lời của hoạt động đầu tư từ quỹ theo quy định tại Điều 120 và Điều 121 của Luật Bảo hiểm xã hội;'; Sửa đổi, bổ sung khoản 3 Điều 49 như sau: '3. Việc tạm dừng, hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng, trợ cấp phục vụ thực hiện theo quy định tại Điều 75 của Luật Bảo hiểm xã hội; hồ sơ, trình tự giải quyết hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng thực hiện theo quy định tại Điều 80 và Điều 81 của Luật Bảo hiểm xã hội.'; đ) Sửa đổi, bổ sung khoản 5 Điều 49 như sau: '5. Người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng khi ra nước ngoài để định cư được giải quyết hưởng trợ cấp một lần; mức trợ cấp một lần bằng 03 tháng mức trợ cấp đang hưởng. Hồ sơ, trình tự giải quyết trợ cấp một lần thực hiện theo quy định của Luật Bảo hiểm xã hội.'; Sửa đổi, bổ sung khoản 3 Điều 53 như sau: '3. Người lao động bị chết trong thời gian điều trị thương tật, bệnh tật mà chưa được giám định mức suy giảm khả năng lao động. Hồ sơ hưởng chế độ tử tuất trong trường hợp người lao động bị chết do tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định tại khoản 1 Điều 90 của Luật Bảo hiểm xã hội.'. Sửa đổi, bổ sung điểm e khoản 3 Điều 57 của Luật Việc làm số 38/2013/QH13 như sau:",
+      "global_page": 61,
+      "score": 0.6509329676628113,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:139",
+      "provision_path": "139",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

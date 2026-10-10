@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Một người sử dụng lao động tuyển người vào học nghề để làm việc cho mình sau khi Luật Giáo dục nghề nghiệp mới có hiệu lực; để xác định nghĩa vụ về học phí và quyền thành lập cơ sở hoặc mở lớp đào tạo, cần kết hợp hai sửa đổi nào trong Điều 43?",
+  "answer": "Cần kết hợp **hai sửa đổi trong Điều 43**:\n\n- **43.1 a** – quy định về việc người sử dụng lao động “thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc” để đào tạo, bồi dưỡng và nâng cao kỹ năng nghề cho người lao động;  \n- **43.1 b** – quy định “người sử dụng lao động",
+  "latency_ms": 14522.503999993205,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.a:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "a) Sửa đổi, bổ sung điểm a khoản 2 Điều 59 như sau: “a) Thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc để đào tạo, đào tạo lại, bồi dưỡng, nâng cao trình độ, kỹ năng nghề cho người lao động; phối hợp với cơ sở giáo dục nghề nghiệp đào tạo chương trình giáo dục trung học nghề và các chương trình đào tạo trình độ sơ cấp, trung cấp, cao đẳng theo quy định;”;",
+      "global_page": 18,
+      "score": 65.16617523250486,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1.a",
+      "provision_path": "43.1.a",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:61:20:0",
+      "article_id": "45/2019/QH14:article:61",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Học nghề, tập nghề để làm việc cho người sử dụng lao động Học nghề để làm việc cho người sử dụng lao động là việc người sử dụng lao động tuyển người vào để đào tạo nghề nghiệp tại nơi làm việc. Thời gian học nghề theo chương trình đào tạo của từng trình độ theo quy định của Luật Giáo dục nghề nghiệp. Tập nghề để làm việc cho người sử dụng lao động là việc người sử dụng lao động tuyển người vào để hướng dẫn thực hành công việc, tập làm nghề theo vị trí việc làm tại nơi làm việc. Thời hạn tập nghề không quá 03 tháng. Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không phải đăng ký hoạt động giáo dục nghề nghiệp; không được thu học phí; phải ký hợp đồng đào tạo theo quy định của Luật Giáo dục nghề nghiệp. Người học nghề, người tập nghề phải đủ 14 tuổi trở lên và phải có đủ sức khỏe phù hợp với yêu cầu học nghề, tập nghề. Người học nghề, người tập nghề thuộc danh mục nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành phải từ đủ 18 tuổi trở lên, trừ lĩnh vực nghệ thuật, thể dục, thể thao.",
+      "global_page": 20,
+      "score": 60.45887260359626,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:61",
+      "provision_path": "61",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.b:18:0",
+      "article_id": "124/2025/QH15:article:43",
+      "logical_doc_id": "124/2025/QH15",
+      "text": "b) Sửa đổi, bổ sung khoản 3 Điều 61 như sau: “3. Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không được thu học phí.”.",
+      "global_page": 18,
+      "score": 60.38904820902478,
+      "effective_from": "2026-01-01",
+      "effective_to": null,
+      "provision_id": "124/2025/QH15:provision:43.1.b",
+      "provision_path": "43.1.b",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:59:20:0",
+      "article_id": "45/2019/QH14:article:59",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Đào tạo nghề nghiệp và phát triển kỹ năng nghề Người lao động được tự do lựa chọn đào tạo nghề nghiệp, tham gia đánh giá, công nhận kỹ năng nghề quốc gia, phát triển năng lực nghề nghiệp phù hợp với nhu cầu việc làm và khả năng của mình. Nhà nước có chính sách khuyến khích người sử dụng lao động có đủ điều kiện đào tạo nghề nghiệp và phát triển kỹ năng nghề cho người lao động đang làm việc cho mình và người lao động khác trong xã hội thông qua hoạt động sau đây: Thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc để đào tạo, đào tạo lại, bồi dưỡng, nâng cao trình độ, kỹ năng nghề cho người lao động; phối hợp với cơ sở giáo dục nghề nghiệp đào tạo các trình độ sơ cấp, trung cấp, cao đẳng và các chương trình đào tạo nghề nghiệp khác theo quy định; Tổ chức thi kỹ năng nghề cho người lao động; tham gia hội đồng kỹ năng nghề; dự báo nhu cầu và xây dựng tiêu chuẩn kỹ năng nghề; tổ chức đánh giá và công nhận kỹ năng nghề; phát triển năng lực nghề nghiệp cho người lao động.",
+      "global_page": 20,
+      "score": 55.788481186643615,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:59",
+      "provision_path": "59",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "45/2019/QH14:45/2019/QH14:article:62:21:0",
+      "article_id": "45/2019/QH14:article:62",
+      "logical_doc_id": "45/2019/QH14",
+      "text": "Hợp đồng đào tạo nghề giữa người sử dụng lao động, người lao động và chi phí đào tạo nghề Hai bên phải ký kết hợp đồng đào tạo nghề trong trường hợp người lao động được đào tạo nâng cao trình độ, kỹ năng nghề, đào tạo lại ở trong nước hoặc nước ngoài từ kinh phí của người sử dụng lao động, kể cả kinh phí do đối tác tài trợ cho người sử dụng lao động. Hợp đồng đào tạo nghề phải làm thành 02 bản, mỗi bên giữ 01 bản. Hợp đồng đào tạo nghề phải có các nội dung chủ yếu sau đây: Nghề đào tạo; Địa điểm, thời gian và tiền lương trong thời gian đào tạo; Thời hạn cam kết phải làm việc sau khi được đào tạo; Chi phí đào tạo và trách nhiệm hoàn trả chi phí đào tạo; đ) Trách nhiệm của người sử dụng lao động; Trách nhiệm của người lao động. Chi phí đào tạo bao gồm các khoản chi có chứng từ hợp lệ về chi phí trả cho người dạy, tài liệu học tập, trường, lớp, máy, thiết bị, vật liệu thực hành, các chi phí khác hỗ trợ cho người học và tiền lương, tiền đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp cho người học trong thời gian đi học. Trường hợp người lao động được gửi đi đào tạo ở nước ngoài thì chi phí đào tạo còn bao gồm chi phí đi lại, chi phí sinh hoạt trong thời gian đào tạo. Chương V ĐỐI THOẠI TẠI NƠI LÀM VIỆC, THƯƠNG LƯỢNG TẬP THỂ, THỎA ƯỚC LAO ĐỘNG TẬP THỂ Mục 1. ĐỐI THOẠI TẠI NƠI LÀM VIỆC",
+      "global_page": 21,
+      "score": 52.762371636144444,
+      "effective_from": "2021-01-01",
+      "effective_to": null,
+      "provision_id": "45/2019/QH14:article:62",
+      "provision_path": "62",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}

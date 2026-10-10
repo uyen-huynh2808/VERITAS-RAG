@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "question": "Tại ngày 01/07/2025,nếu cần xác định xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết 30/06/2025, nên truy xuất điều khoản chuyển tiếp nào?",
+  "answer": "Theo quy định trong **Điều 141, khoản 10 (141.10)** của Luật 41/2024/QH15:  \n\n> “...đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này.”  \n\nVì vậy, vào ngày 01/07/2025 để xác định cách xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết 30/06/2025, cần truy xuất **điều chuyển tiếp",
+  "latency_ms": 34010.77900000382,
+  "retrieved_chunks": [
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",
+      "article_id": "41/2024/QH15:article:141",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "10. Người lao động có từ đủ 15 năm đóng bảo hiểm xã hội trở lên và có văn bản của cơ quan bảo hiểm xã hội xác nhận về việc chờ đủ điều kiện về tuổi đời để hưởng lương hưu được quy định tại Nghị định số 12/CP ngày 26 tháng 01 năm 1995 được sửa đổi, bổ sung một số điều theo Nghị định số 01/2003/NĐ-CP ngày 09 tháng 01 năm 2003 của Chính phủ thì được hưởng lương hưu khi nam đủ 60 tuổi, nữ đủ 55 tuổi. Cán bộ xã thuộc đối tượng điều chỉnh của Nghị định số 09/1998/NĐ-CP ngày 23 tháng 01 năm 1998 của Chính phủ đã có quyết định hoặc giấy chứng nhận chờ đủ điều kiện về tuổi đời để hưởng trợ cấp hằng tháng của cơ quan bảo hiểm xã hội thì được hưởng trợ cấp hằng tháng khi nam đủ 55 tuổi, nữ đủ 50 tuổi. Đối tượng quy định tại điểm a, b, c, d, đ, g và i khoản 1 Điều 2 của Luật này đã tham gia bảo hiểm xã hội trước ngày Luật này có hiệu lực thi hành mà có thời gian đóng bảo hiểm xã hội bắt buộc từ đủ 20 năm trở lên thì mức lương hưu hằng tháng thấp nhất bằng mức tham chiếu. Đối với số tiền bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp mà người sử dụng lao động có trách nhiệm đóng theo quy định của Luật số 58/2014/QH13, Luật Việc làm số 38/2013/QH13 nhưng đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này. Khi chưa bãi bỏ mức lương cơ sở thì mức tham chiếu quy định tại Luật này bằng mức lương cơ sở. Tại thời điểm mức lương cơ sở bị bãi bỏ thì mức tham chiếu không thấp hơn mức lương cơ sở đó. Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật số 58/2014/QH13 được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026. Chính phủ quy định chi tiết Điều này. Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 7 thông qua ngày 29 tháng 6 năm 2024. CHỦ TỊCH QUỐC HỘI Trần Thanh Mẫn",
+      "global_page": 63,
+      "score": 45.20828302501862,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:provision:141.10",
+      "provision_path": "141.10",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:41:22:0",
+      "article_id": "41/2024/QH15:article:41",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Biện pháp xử lý hành vi trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Bắt buộc đóng đủ số tiền trốn đóng; nộp số tiền bằng 0,03%/ngày tính trên số tiền bảo hiểm xã hội, bảo hiểm thất nghiệp trốn đóng và số ngày trốn đóng vào quỹ bảo hiểm xã hội, quỹ bảo hiểm thất nghiệp. Xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật. Không xem xét trao tặng các danh hiệu thi đua, hình thức khen thưởng. Chính phủ quy định chi tiết khoản 1 Điều này. Chương V Mục 1. CHẾ ĐỘ ỐM ĐAU",
+      "global_page": 22,
+      "score": 43.92854984861903,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:41",
+      "provision_path": "41",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:38:21:0",
+      "article_id": "41/2024/QH15:article:38",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp là hành vi của người sử dụng lao động thuộc một trong các trường hợp sau đây: Chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng theo hồ sơ tham gia bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp đã đăng ký kể từ sau ngày đóng bảo hiểm xã hội chậm nhất quy định tại khoản 4 Điều 34 của Luật này hoặc kể từ sau ngày đóng bảo hiểm thất nghiệp chậm nhất theo quy định của pháp luật về bảo hiểm thất nghiệp, trừ trường hợp quy định tại điểm đ và điểm e khoản 1 Điều 39 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm xã hội bắt buộc trong thời hạn 60 ngày kể từ ngày hết thời hạn quy định tại khoản 1 Điều 28 của Luật này; Không đăng ký hoặc đăng ký không đầy đủ số người phải tham gia bảo hiểm thất nghiệp trong thời hạn 60 ngày kể từ ngày hết thời hạn phải tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp; Thuộc trường hợp không bị coi là trốn đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp theo quy định tại khoản 2 Điều 39 của Luật này.",
+      "global_page": 21,
+      "score": 41.61071451493102,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:38",
+      "provision_path": "38",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:40:22:0",
+      "article_id": "41/2024/QH15:article:40",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Biện pháp xử lý hành vi chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp Bắt buộc đóng đủ số tiền chậm đóng; nộp số tiền bằng 0,03%/ngày tính trên số tiền bảo hiểm xã hội, bảo hiểm thất nghiệp chậm đóng và số ngày chậm đóng vào quỹ bảo hiểm xã hội, quỹ bảo hiểm thất nghiệp. Xử phạt vi phạm hành chính theo quy định của pháp luật. Không xem xét trao tặng các danh hiệu thi đua, hình thức khen thưởng. Chính phủ quy định chi tiết khoản 1 Điều này.",
+      "global_page": 22,
+      "score": 41.260810073639455,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:40",
+      "provision_path": "40",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    },
+    {
+      "chunk_id": "41/2024/QH15:41/2024/QH15:article:43:23:0",
+      "article_id": "41/2024/QH15:article:43",
+      "logical_doc_id": "41/2024/QH15",
+      "text": "Thời gian hưởng chế độ ốm đau Thời gian tối đa hưởng chế độ ốm đau trong một năm (từ ngày 01 tháng 01 đến ngày 31 tháng 12) đối với đối tượng quy định tại các điểm a, b, c, i, k, l, m và n khoản 1 và khoản 2 Điều 2 của Luật này tính theo ngày làm việc không kể ngày nghỉ lễ, tết, ngày nghỉ hằng tuần và được quy định như sau: Làm việc trong điều kiện bình thường thì được hưởng 30 ngày nếu đã đóng bảo hiểm xã hội bắt buộc dưới 15 năm; 40 ngày nếu đã đóng từ đủ 15 năm đến dưới 30 năm; 60 ngày nếu đã đóng từ đủ 30 năm trở lên; Làm nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm thuộc danh mục nghề, công việc nặng nhọc, độc hại, nguy hiểm hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành hoặc làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì được hưởng 40 ngày nếu đã đóng bảo hiểm xã hội bắt buộc dưới 15 năm; 50 ngày nếu đã đóng từ đủ 15 năm đến dưới 30 năm; 70 ngày nếu đã đóng từ đủ 30 năm trở lên. Hết thời hạn hưởng chế độ ốm đau quy định tại khoản 1 Điều này mà vẫn tiếp tục điều trị thì người lao động nghỉ việc do mắc bệnh thuộc danh mục bệnh cần chữa trị dài ngày do Bộ trưởng Bộ Y tế ban hành được hưởng tiếp chế độ ốm đau với mức theo quy định tại khoản 3 Điều 45 của Luật này. Thời gian nghỉ hưởng chế độ ốm đau theo quy định tại khoản này tính theo ngày làm việc không kể ngày nghỉ lễ, tết, ngày nghỉ hằng tuần. Thời gian hưởng chế độ ốm đau đối với đối tượng quy định tại điểm d khoản 1 Điều 2 của Luật này căn cứ vào thời gian điều trị nội trú tại cơ sở khám bệnh, chữa bệnh và thời gian mà người lao động phải nghỉ việc theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh.",
+      "global_page": 23,
+      "score": 41.18613791246592,
+      "effective_from": "2025-07-01",
+      "effective_to": null,
+      "provision_id": "41/2024/QH15:article:43",
+      "provision_path": "43",
+      "effectivity_mode": "inherit",
+      "trigger_reference": NaN
+    }
+  ]
+}
