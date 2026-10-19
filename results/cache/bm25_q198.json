@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người sử dụng lao động tuyển người vào học nghề để làm việc cho mình sau khi Luật Giáo dục nghề nghiệp mới có hiệu lực; để xác định nghĩa vụ về học phí và quyền thành lập cơ sở hoặc mở lớp đào tạo, cần kết hợp hai sửa đổi nào trong Điều 43?",
-  "answer": "Cần kết hợp **hai sửa đổi trong Điều 43**:\n\n- **43.1 a** – quy định về việc người sử dụng lao động “thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc” để đào tạo, bồi dưỡng và nâng cao kỹ năng nghề cho người lao động;  \n- **43.1 b** – quy định “người sử dụng lao động",
-  "latency_ms": 14522.503999993205,
+  "answer": "Cần kết hợp sửa đổi a) và b) trong Điều 43:\n\n- **a)** “Thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc …” (điều 43, khoản a)  \n- **b)** “Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không được thu học phí.” (điều 43, khoản b)\n\nNguồn: 124/2025/QH15.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 784.8894000053406,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.a:18:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Luật Bảo hiểm xã hội, người sử dụng lao động có những trách nhiệm cơ bản nào trong việc đóng và cung cấp thông tin bảo hiểm xã hội?",
-  "answer": "**Theo các quy định trong Nghị quyết 41/2024/QH15 (trích từ Điều 13), người sử dụng lao động có các trách nhiệm cơ bản sau đối với bảo hiểm xã hội:**\n\n1. **Đăng ký tham gia bảo hiểm xã hội bắt buộc** cho người lao động theo quy định của Luật.  \n2. **Thanh toán đầy đủ, đúng thời hạn** các khoản bảo hiểm xã hội bắt buộc (theo Điều 34) và **khấu trừ hàng tháng** khoản tiền phải đóng từ tiền lương của người lao động (theo Điều 33) để nộp vào quỹ bảo hiểm xã hội.  \n3. **Phối hợp với cơ quan bảo hiểm xã hội** trong việc:  \n   - Giao sổ bảo hiểm xã hội bản giấy cho người lao động.  \n   - Xác nhận thời gian đóng bảo hiểm khi người lao động chấm dứt hợp đồng hoặc thôi việc.  \n   - Trả trợ cấp bảo hiểm xã hội cho người lao động (khi chi trả qua người sử dụng).  \n   - Giới thiệu người lao động thuộc đối tượng quy định (Điều 65) đi khám, giám định y khoa để xác định mức suy giảm khả năng lao động.  \n4. **Cung cấp đầy đủ, chính xác và k",
-  "latency_ms": 16257.860799902119,
+  "answer": "- Đăng ký tham gia bảo hiểm xã hội bắt buộc cho người lao động.  \n- Đóng bảo hiểm xã hội bắt buộc và trích khoản tiền từ tiền lương hàng tháng vào quỹ bảo hiểm xã hội (theo Điều 34 và Điều 33).  \n- Phối hợp với cơ quan bảo hiểm xã hội trong việc trả sổ bảo hiểm xã hội bản giấy cho người lao động và xác nhận thời gian đóng bảo hiểm khi chấm dứt hợp đồng.  \n- Lập hồ sơ để người lao động được hưởng chế độ bảo hiểm xã hội.  \n- Cung cấp, xuất trình đầy đủ, chính xác, kịp thời thông tin, tài liệu liên quan đến việc đóng, hưởng bảo hiểm xã hội theo yêu cầu của cơ quan nhà nước có thẩm quyền.  \n- Bồi thường cho người lao động nếu không thực hiện hoặc thực hiện không đầy đủ trách nhiệm đóng bảo hiểm xã hội gây thiệt hại.  \n- Phối hợp, tạo điều kiện cho cơ quan bảo hiểm xã hội thu hồi số tiền bảo hiểm xã hội hưởng không đúng quy định.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 13371.675700007472,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:35:19:0",

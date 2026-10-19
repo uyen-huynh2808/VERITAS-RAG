@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 30/06/2026, văn bản ủy quyền cho người khác nhận lương hưu hoặc trợ cấp theo Luật 58/2014/QH13 có còn được tiếp tục thực hiện theo quy định chuyển tiếp không?",
-  "answer": "",
-  "latency_ms": 17210.06650000345,
+  "answer": "Theo quy định tại Điều 10 của Luật Bảo hiểm xã hội, văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội chỉ có hiệu lực tối đa 12 tháng kể từ ngày xác lập việc ủy quyền; không có quy định chuyển tiếp kéo dài thời hạn này. Vì vậy vào ngày 30/06/2026, nếu thời hạn 12 tháng đã hết, văn bản ủy quyền không còn được tiếp tục thực hiện.  \nNguồn: 41/2024/QH15. Nguồn: 41/2024/QH15.",
+  "latency_ms": 14308.974599989597,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:10:8:0",

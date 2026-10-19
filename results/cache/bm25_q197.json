@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một gia đình có từ 02 con đẻ trở lên cần xác định đồng thời chính sách nhà ở và chính sách dân số; cần truy xuất những sửa đổi nào trong Điều 29 của Luật Dân số để thấy mối liên hệ?",
-  "answer": "Để thấy mối liên hệ giữa **chính sách nhà ở** (ưu tiên cho hộ có ≥ 02 con đẻ) và **chính sách dân số** đối với một gia đình có từ 02 con trở lên, cần truy xuất các sửa đổi được nêu trong **Điều 29 của Luật Dân số (113/202",
-  "latency_ms": 10753.22029995732,
+  "answer": "Các sửa đổi liên quan trong Điều 29 của Luật Dân số (113/2025/QH15) bao gồm:\n\n- 29.1: “Lao động nữ được nghỉ thai sản …” (sửa đổi, bổ sung khoản 1 Điều 139 của Bộ luật Lao động).  \n- 29.2: “Trường hợp vợ sinh đôi hoặc vợ sinh con thứ hai …” (sửa đổi, bổ sung điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội).\n\nNguồn: 113/2025/QH15.  \nNguồn: 113/2025/QH15.  \n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 1115.3471000143327,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:14.1.đ:6:0",

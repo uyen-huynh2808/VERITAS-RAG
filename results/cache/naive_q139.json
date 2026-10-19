@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định nguồn tài chính cho phát triển công nghiệp công nghệ số, nên truy xuất điều khoản nào đang có hiệu lực riêng từ ngày này?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 12464.50530004222,
+  "answer": "Điều 11 quy định các nguồn tài chính cho phát triển công nghiệp công nghệ số.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 14962.618400051724,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:11:4:0",

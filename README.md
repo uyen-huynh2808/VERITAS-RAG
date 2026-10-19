@@ -210,6 +210,10 @@ RAW PDF
 > **Temporal parameter note:** `t_event` is passed through the shared retriever interface for benchmark consistency. BM25 and Naive Dense intentionally ignore `t_event` and perform no temporal filtering.
 > Only VERITAS-RAG applies the As-of-Date constraint.
 
+VERITAS distinguishes document availability from legal applicability. `date_basis: "issued"` filters by `issued_date` for questions about a law's contents; `date_basis: "effective"` filters by `[effective_from, effective_to)` for questions about which rule governed an event; `date_basis: "status"` retrieves issued text so the system can determine whether it had taken effect by `t_event`. In the benchmark, `document_understanding` and `amendment_retrieval` default to `issued`, direct effectivity-status questions use `status`, and other categories default to `effective`. A sample-level `date_basis` can override this.
+
+Recall excludes samples without provision-level or chunk-level gold labels. Invalid Citation Rate uses `gold_citation_doc_ids`, falling back to document IDs in `gold_provisions` and then `gold_doc_ids`; samples without any of these labels are excluded. It extracts distinct legal document IDs only from explicit `Nguồn:`, `Nguon:`, `Source:`, `Sources:`, or `Citation:` lines; document numbers mentioned elsewhere in answer prose are not citations. Non-empty answers with no extracted citation are excluded from Invalid Citation Rate (N/A), while Citation Coverage records them as uncovered. Empty answers are N/A for both metrics.
+
 ### Baseline 1: BM25
 
 -   Lexical Retrieval
@@ -224,7 +228,7 @@ RAW PDF
 -   Không As-of Filter
 ### Proposed: VERITAS-RAG
 
--   Temporal SQL Filter
+-   Temporal filtering over Gold Parquet (pandas)
 -   Hierarchical Chunking
 -   Multi-layer Contracts
 -   Page Lineage
@@ -312,13 +316,16 @@ Chạy từng baseline sau khi đã annotate split:
 ```powershell
 python -m run.run_benchmark --model bm25 --resume
 python -m run.run_benchmark --model naive --resume
+python -m run.run_benchmark --model veritas --resume
 ```
 
 `--resume` chỉ tái sử dụng câu trả lời đã lưu trong `results/cache`; nếu chưa có cache hợp lệ, mỗi mẫu vẫn gọi generator Groq. Baseline `naive` cũng cần model embedding được cấu hình (`models.embedding_model`) tải được hoặc đã có đầy đủ trong cache máy local. Các đường dẫn, model, `top_k` và tham số retrieval được đọc từ `config/config.yaml`.
 
 ### C. Metric definitions and schema alignment
 
-Recall@K so sánh provision gold với provision trong các chunk được retrieve. Temporal Validity chấm các provision có `effective_from` đã biết; Temporal Coverage báo tỷ lệ provision retrieve được có ngày bắt đầu hiệu lực đã biết, để dữ liệu chưa xác định hoặc phụ thuộc điều kiện bên ngoài không bị tính nhầm là sai hiệu lực. Invalid Citation Rate hiện so sánh số hiệu văn bản pháp luật ở cấp document. Faithfulness là lexical overlap giữa câu trả lời và nội dung evidence, không phải đánh giá suy luận ngữ nghĩa.
+Recall@K so sánh provision gold với provision trong top-K chunk được retrieve; mỗi câu hỏi được chấm riêng rồi lấy macro-average trên các mẫu có gold label. Temporal Validity Accuracy là tỷ lệ chunk top-K có `effective_from` đã biết và khoảng `[effective_from, effective_to)` chứa `t_event`; `effective_to = NULL` được xem là chưa có cận trên được mã hóa. Mẫu `date_basis` là `issued` hoặc `status` không được chấm metric này. Đây là phép đánh giá metadata hiệu lực đang lưu trong Gold, không phải kiểm chứng độc lập tính đúng của metadata hay quan hệ sửa đổi/thay thế chưa được mã hóa. VERITAS lọc theo cùng metadata trước khi xếp hạng, nên cần diễn giải điểm cùng Temporal Coverage và số mẫu assessable, không dùng riêng nó làm bằng chứng độc lập rằng bộ lọc temporal đúng.
+
+Invalid Citation Rate được tính trên các document ID citation phân biệt: số ID không thuộc gold chia cho tổng ID citation được trích. Câu trả lời không có citation được loại khỏi metric này (N/A), còn Citation Coverage ghi nhận riêng việc thiếu citation. Faithfulness trong benchmark seminar là lexical evidence-overlap proxy: số token phân biệt trong câu trả lời xuất hiện trong evidence chia cho số token phân biệt trong câu trả lời. Chỉ số này không đánh giá entailment, mâu thuẫn hay độ đúng ngữ nghĩa; không nên diễn giải nó như xác suất câu trả lời faithful.
 
 ### D. Hai nhóm thực nghiệm Seminar
 |**Benchmarking**|**Contract Testing**|

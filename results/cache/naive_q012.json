@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trợ cấp thôi việc được tính theo nguyên tắc nào đối với người lao động đã làm việc thường xuyên từ đủ 12 tháng?",
-  "answer": "**Nguyên tắc tính trợ cấp thôi việc** (theo Điều 46, Nghị định 45/2019/QH14):\n\n1. **Đối tượng** – Người lao động đã làm việc thường xuyên cho người sử dụng lao động ít nhất 12 tháng.  \n2. **Mức trợ cấp** – Mỗi năm làm việc được trả **một nửa tháng tiền lương**.  \n3. **Tiền lương để tính** – Tiền lương bình quân của **06 tháng liền kề** theo hợp đồng lao động trước khi người lao động thôi việc.  \n4. **Thời gian làm việc để tính** – Tổng thời gian người lao động đã làm việc thực tế **trừ**:  \n   * thời gian người lao động đã tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp;  \n   * thời gian đã được người sử dụng lao động chi trả trợ cấp thôi việc hoặc trợ cấp mất việc làm.  \n\nVì vậy, trợ cấp thôi việc được tính dựa trên **số năm làm việc (tính theo thời gian thực tế sau khi trừ các thời gian trên) nhân với nửa tháng tiền lương**, trong đó tiền l",
-  "latency_ms": 20003.542199963704,
+  "answer": "Trợ cấp thôi việc được tính dựa trên nguyên tắc trả **một nửa tháng tiền lương** cho mỗi năm làm việc (đối với người lao động đã làm việc thường xuyên từ đủ 12 tháng trở lên).  \nNguồn: 45/2019/QH14:article:46.",
+  "latency_ms": 15111.012000008486,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:46:16:0",

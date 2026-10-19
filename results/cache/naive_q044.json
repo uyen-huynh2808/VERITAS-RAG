@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một doanh nghiệp ký thỏa ước lao động tập thể không quy định ngày có hiệu lực và ký ngày 15/3/2021; theo Bộ luật Lao động, cần xác định thời điểm bắt đầu có hiệu lực của thỏa ước dựa trên nguyên tắc nào?",
-  "answer": "Theo quy định tại Điều 78 của Bộ luật Lao động, nếu các bên không thỏa thuận ngày có hiệu lực trong thỏa ước lao động tập thể, thì thỏa ước sẽ có hiệu lực **kể từ ngày ký kết**. Vì vậy, trong trường hợp doanh nghiệp ký thỏa ước vào ngày 15/3/2021 mà không ghi rõ ngày có hiệu lực, thời điểm bắt đầu có hiệu lực của thỏa ước là **ngày 15/3/2021**.",
-  "latency_ms": 11822.448400082067,
+  "answer": "Theo nguyên tắc “trường hợp các bên không thỏa thuận ngày có hiệu lực thì thỏa ước lao động tập thể có hiệu lực kể từ ngày ký kết.” Nguồn: 45/2019/QH14:article:78.",
+  "latency_ms": 10018.414699996356,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",

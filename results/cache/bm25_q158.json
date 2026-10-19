@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một khu công nghệ thông tin tập trung đã được công nhận trước 01/01/2026; để xác định quy chế áp dụng sau mốc này, cần truy xuất đồng thời Điều 50 và Điều 51 của Luật Công nghiệp công nghệ số như thế nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 19489.355299971066,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 16995.059700042475,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:25:11:0",

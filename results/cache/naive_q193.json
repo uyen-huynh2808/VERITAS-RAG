@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 sửa khoản 3 Điều 61 của Bộ luật Lao động về việc thu học phí khi người sử dụng lao động tuyển người vào học nghề, tập nghề như thế nào?",
-  "answer": "Theo Điều 43, khoản b của Luật Giáo dục nghề nghiệp 124/2025/QH15, khoản 3 Điều 61 của Bộ luật Lao động được sửa đổi, bổ sung như sau:\n\n**“3. Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không được thu học phí.”**",
-  "latency_ms": 7831.05819998309,
+  "answer": "Sửa khoản 3 Điều 61 của Bộ luật Lao động: “Người sử dụng lao động tuyển người vào học nghề, tập nghề để làm việc cho mình thì không được thu học phí.”  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 6085.636299976613,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.b:18:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2027, nếu cần xác định các điểm c và d khoản 1 Điều 14 đã có hiệu lực hay chưa, cần truy xuất điều khoản hiệu lực nào?",
-  "answer": "Cần tra cứu **Điều 30, khoản 2 (provision 30.2) của Luật 113/2025/QH15**.  \nTrong khoản 2 này quy định: “*Quy định tại điểm c và điểm d khoản 1 Điều 14 của Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2027*”. Vì vậy, để xác định vào ngày 01/01/2027 các điểm c và d khoản 1 Điều 14 đã có hiệu lực hay chưa, phải tham chiếu đến điều khoản này.",
-  "latency_ms": 1588.9126000693068,
+  "answer": "Điều 30, khoản 2 (điểm c và điểm d khoản 1 Điều 14) quy định hiệu lực thi hành từ ngày 01/01/2027.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 7008.197600021958,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.2:12:0",

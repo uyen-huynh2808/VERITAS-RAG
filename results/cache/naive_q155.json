@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một tình huống về trợ cấp tai nạn lao động xảy ra sau 01/07/2025; để xác định căn cứ thủ tục, cần truy xuất Luật Bảo hiểm xã hội mới và phần sửa đổi Luật An toàn, vệ sinh lao động trong cùng văn bản như thế nào?",
-  "answer": "",
-  "latency_ms": 22971.84770007152,
+  "answer": "Để xác định căn cứ thủ tục cho trợ cấp tai nạn lao động phát sinh sau ngày 01/07/2025, cần tham khảo:\n\n* Điều 7 khoản 7 Điều 42 của Luật An toàn, vệ sinh lao động được sửa đổi, bổ sung trong văn bản 41/2024/QH15 (article 139), quy định “Chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội.”  \n* Điều 1 khoản 1 Điều 43 của Luật An toàn, vệ sinh lao động (cũng trong article 139) quy định đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo Luật Bảo hiểm xã hội.  \n* Hiệu lực thi hành của toàn bộ văn bản này bắt đầu từ ngày 01 tháng 7 năm 2025 (article 140).\n\nNhư vậy, căn cứ thủ tục được lấy từ các quy định của Luật Bảo hiểm xã hội được nhắc tới trong các khoản trên của Luật An toàn, vệ sinh lao động, và áp dụng kể từ ngày 01/07/2025.\n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 19042.865499970503,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",

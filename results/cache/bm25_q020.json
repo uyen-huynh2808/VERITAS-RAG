@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Khi người lao động nữ trở lại làm việc trước khi hết thời gian nghỉ thai sản, tiền lương và trợ cấp thai sản được xử lý thế nào?",
-  "answer": "Khi người lao động nữ quyết định trở lại làm việc trước khi thời gian nghỉ thai sản (theo khoản 4 Điều 139 của Bộ luật Lao động), quy định pháp luật quy định như sau:\n\n* **Tiền lương** – Người lao động sẽ được người sử dụng lao động trả tiền lương cho những ngày làm việc thực tế (theo mức lương bình thường).  \n* **Trợ cấp thai sản** – Người lao động vẫn tiếp tục được hưởng trợ cấp thai sản theo mức quy định tại Điều 59 của Luật Bảo hiểm xã hội.  \n* **Bảo hiểm xã hội** – Người sử dụng lao động",
-  "latency_ms": 19038.375700009055,
+  "answer": "Khi người lao động nữ trở lại làm việc trước khi hết thời gian nghỉ thai sản, người sử dụng lao động phải trả tiền lương cho những ngày làm việc và người lao động vẫn được tiếp tục hưởng trợ cấp thai sản theo mức quy định.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 19357.54779999843,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:139:42:0",

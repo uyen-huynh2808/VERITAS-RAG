@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xác định cách áp dụng Bộ luật Lao động đối với cán bộ, công chức, viên chức và một số nhóm người có chế độ lao động do văn bản pháp luật khác quy định, cần truy xuất khoản nào của Điều 220?",
-  "answer": "",
-  "latency_ms": 15404.687199974433,
+  "answer": "Không có khoản cụ thể; quy định chung về việc áp dụng một số quy định của Bộ luật Lao động cho cán bộ, công chức, viên chức và các nhóm người có chế độ lao động do văn bản pháp luật khác quy định được nêu trong Điều 220 của Bộ luật Lao động.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 12807.796200038865,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

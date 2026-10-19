@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định thời gian làm việc trong khu vực nhà nước trước 01/01/1995 có được tính hưởng bảo hiểm xã hội, nên truy xuất quy định chuyển tiếp nào?",
-  "answer": "Bạn cần tham khảo **quy định chuyển tiếp tại Điều 141 (article 141) của Luật 41/2024/QH15**.  \n\nTrong Điều 141, khoản nêu rõ:\n\n> “Thời gian làm việc trong khu vực nhà nước trước ngày 01 /01 /1995 thì thời gian này được tính để hưởng bảo hiểm xã hội theo quy định của Chính phủ…”.\n\nDo đó, vào ngày 01 /07 /2025 khi cần xác định thời gian làm việc trước 01 /01 /1995 để tính hưởng bảo hiểm xã hội, hãy truy xuất tới quy định chuyển tiếp này.",
-  "latency_ms": 20899.509600014426,
+  "answer": "Quy định chuyển tiếp về việc tính thời gian làm việc trong khu vực nhà nước trước ngày 01/01/1995 để hưởng bảo hiểm xã hội được nêu trong đoạn:\n\n> “Người lao động có thời gian làm việc trong khu vực nhà nước trước ngày 01 tháng 01 năm 1995 thì thời gian này được tính để hưởng bảo hiểm xã hội theo quy định của Chính phủ.” (Context 2)\n\nNguồn: 41/2024/QH15.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 18262.172500020824,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:1",

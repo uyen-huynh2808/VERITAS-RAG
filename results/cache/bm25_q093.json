@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, người lao động làm việc thườngxuyên đủ 12 tháng và bị mất việc do lý do thuộc khoản 11 Điều 34 thì chế độ trợ cấp nào được xem xét?",
-  "answer": "Theo quy định tại **Điều 47, Nghị định 45/2019/QH14** (Context 1), khi người lao động làm việc thường xuyên từ **12 tháng trở lên** và bị mất việc theo **khoản 11 Điều 34** của Bộ luật Lao động, chế độ được xem xét là **trợ cấp mất việc làm**.  \n\n- Trợ cấp này trả **01 tháng tiền lương** cho mỗi năm làm việc, nhưng ít nhất bằng **02 tháng tiền lương**.  \n- Tiền lương tính trợ cấp là tiền lương bình quân của 06 tháng liền kề trước khi mất việc.  \n\nVì vậy, vào ngày **01/01/2021**, người lao động đáp ứng các tiêu chí trên sẽ được hưởng **trợ cấp mất việc làm**.",
-  "latency_ms": 17654.398299986497,
+  "answer": "Trợ cấp mất việc làm được trả cho người lao động làm việc thường xuyên từ đủ 12 tháng trở lên và bị mất việc theo khoản 11 Điều 34 của Bộ luật Lao động. Nguồn: 45/2019/QH14:article:47.",
+  "latency_ms": 16152.062599954661,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:47:16:0",

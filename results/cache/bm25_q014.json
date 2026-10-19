@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Hợp đồng lao động bị coi là vô hiệu toàn bộ trong những trường hợp nào?",
-  "answer": "Hợp đồng lao động sẽ bị coi là vô hiệu toàn bộ trong các trường hợp sau (theo Điều 49, Bộ luật Lao động 45/2019/QH14):\n\n1. **Toàn bộ nội dung của hợp đồng lao động vi phạm pháp luật.**  \n2. **Người giao kết hợp đồng lao động không có thẩm quyền hoặc vi phạm nguyên tắc giao kết hợp đồng lao động** (theo khoản 1 Điều 15 của Bộ luật này).  \n3. **Công việc được ghi trong hợp đồng lao động là công việc mà pháp luật cấm.**",
-  "latency_ms": 12783.270900021307,
+  "answer": "- Toàn bộ nội dung của hợp đồng lao động vi phạm pháp luật;  \n- Người giao kết hợp đồng lao động không đúng thẩm quyền hoặc vi phạm nguyên tắc giao kết hợp đồng lao động quy định tại khoản 1 Điều 15 của Bộ luật này;  \n- Công việc đã giao kết trong hợp đồng lao động là công việc mà pháp luật cấm.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 9919.166999985464,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:49:17:0",

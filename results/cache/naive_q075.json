@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người đang nghỉ ốm đau do mắc bệnh cần chữa trị dài ngày vào ngày Luật 41/2024/QH15 có hiệu lực; họ có phải dừng ngay chế độ đã được giải quyết trước đó không?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 14462.342399987392,
+  "answer": "Không, khi thời hạn hưởng chế độ ốm đau theo khoản 1 hết mà người lao động vẫn tiếp tục điều trị vì bệnh cần chữa trị dài ngày, họ được hưởng tiếp chế độ ốm đau theo quy định tại khoản 3 Điều 45 của Luật. Nguồn: 41/2024/QH15.",
+  "latency_ms": 13601.428700028919,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:43:23:0",

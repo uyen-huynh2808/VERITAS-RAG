@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 01/01/2026, các quy định của Luật Công nghiệp công nghệ số ngoài nhóm điều 11, 28, 29 có hiệu lực theo mốc nào?",
-  "answer": "Các quy định khác (ngoại trừ Điều 11, 28, 29) có hiệu lực thi hành **từ ngày 01 tháng 01 năm 2026** (trừ trường hợp quy định tại khoản 2 Điều này).",
-  "latency_ms": 10286.13039990887,
+  "answer": "Các quy định của Luật Công nghiệp công nghệ số, ngoại trừ Điều 11, 28 và 29, có hiệu lực thi hành từ ngày 01 /01/2026.  \nNguồn: 71/2025/QH15. Nguồn: 71/2025/QH15.",
+  "latency_ms": 8658.69880001992,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.1:12:0",

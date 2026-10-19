@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Khi người lao động nữ trở lại làm việc trước khi hết thời gian nghỉ thai sản, tiền lương và trợ cấp thai sản được xử lý thế nào?",
-  "answer": "",
-  "latency_ms": 13158.413300057873,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 45/2019/QH14:article:139",
+  "latency_ms": 10031.038300017826,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:140:43:0",

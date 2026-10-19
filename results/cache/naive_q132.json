@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định thời gian nghỉ của lao động nam khi vợ sinh đôi, nên truy xuất điều khoản nào?",
-  "answer": "Bạn cần tham khảo **khoản 2, mục c) của Điều 29 trong Luật 113/2025/QH15** (Provision 29.2), trong đó quy định: “Trường hợp vợ sinh đôi … thì được nghỉ 10 ngày làm việc”.",
-  "latency_ms": 4742.806100053713,
+  "answer": "Điều khoản quy định nghỉ 10 ngày làm việc khi vợ sinh đôi: 113/2025/QH15, Điều 29, khoản 2.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 9198.838799959049,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",

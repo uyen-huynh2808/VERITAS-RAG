@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một doanh nghiệp muốn áp dụng các quy định chung của Luật Công nghiệp công nghệ số vào ngày 31/12/2025; theo điều khoản thi hành, mốc hiệu lực chung đã đến chưa?",
-  "answer": "Theo quy định trong **Context 3** (Document 71/2025/QH15, article 50):\n\n- “Hiệu lực thi hành Luật này có hiệu lực thi hành **từ ngày 01 tháng 01 năm 2026**, trừ trường hợp quy định tại khoản 2 Điều này.”\n- Chỉ một số điều (điều 11, 28, 29) mới có hiệu lực từ ngày 01 tháng 07 năm 2025; các quy định chung của luật vẫn chưa có hiệu lực.\n\nVì vậy, vào ngày **31 /12 /2025** mốc hiệu lực chung của Luật Công nghiệp công nghệ số **chưa đến**. Luật sẽ bắt đầu có hiệu lực đối với các quy định chung từ **01 /01 /2026**.",
-  "latency_ms": 13125.243299989961,
+  "answer": "Chưa, vì Luật Công nghiệp công nghệ số (71/2025/QH15) có hiệu lực thi hành chung từ ngày 01 / 01 / 2026 (trừ một số điều riêng). Do đó vào ngày 31 / 12 / 2025 mốc hiệu lực chung vẫn chưa đến.  \nNguồn: 71/2025/QH15:article:50.",
+  "latency_ms": 11019.636799988803,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

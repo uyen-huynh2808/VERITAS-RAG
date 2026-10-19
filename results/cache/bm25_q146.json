@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2026, nếu cần xác định Pháp lệnh Dân số cũ còn hiệu lực không, cần truy xuất điều khoản nào?",
-  "answer": "",
-  "latency_ms": 12785.029000020586,
+  "answer": "Cần tham khảo Điều 30, khoản 3 của Luật 113/2025/QH15, trong đó quy định rằng Pháp lệnh Dân số 06/2003/PL‑UBTVQH11 “hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành”.  \nNguồn: 113/2025/QH15. Nguồn: 113/2025/QH15.",
+  "latency_ms": 12881.529000005685,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.3:12:0",

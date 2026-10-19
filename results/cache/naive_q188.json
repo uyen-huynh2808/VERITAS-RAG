@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Dân số 113/2025/QH15 sửa khoản 1 Điều 139 của Bộ luật Lao động về thời gian nghỉ thai sản khi sinh con theo những mức nào?",
-  "answer": "Theo Luật Dân số 113/2025/QH15, khoản 1 Điều 139 của Bộ luật Lao động được sửa đổi như sau:\n\n- **Lao động nữ được nghỉ thai sản trước và sau khi sinh con tổng cộng 06 tháng** đối với lần sinh đầu tiên.  \n- **Đối với lần sinh thứ hai**, thời gian nghỉ thai sản trước và sau khi sinh con **tăng lên 07 tháng**.  \n- **Thời gian nghỉ trước khi sinh không quá 02 tháng**.  \n- **Trong trường hợp sinh đôi trở lên**, tính từ con thứ hai trở đi, **mỗi đứa con thêm 01 tháng** nghỉ thai sản cho người mẹ.",
-  "latency_ms": 9212.982699973509,
+  "answer": "- Nghỉ thai sản trước và sau sinh con: 06 tháng.  \n- Khi sinh con thứ hai: 07 tháng.  \n- Thời gian nghỉ trước khi sinh không quá 02 tháng.  \n- Khi sinh đôi trở lên: tính từ con thứ hai, mỗi con thêm 01 tháng.  \n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 8268.96619994659,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.1:11:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2025, người có thời gian làm việc trong khu vực nhà nước trước 01/01/1995 có được tính thời gian này để hưởng bảo hiểm xã hội theo quy định chuyển tiếp không?",
-  "answer": "Có. Theo quy định chuyển tiếp, thời gian làm việc trong khu vực nhà nước trước ngày 01/01/1995 được tính để hưởng bảo hiểm xã hội theo quy định của Chính phủ. Vì vậy, vào ngày 01/07/2025, người có thời gian làm việc trước ngày này vẫn được tính thời gian đó để hưởng các chế độ bảo hiểm xã hội.",
-  "latency_ms": 1356.8220000015572,
+  "answer": "Có, thời gian làm việc trong khu vực nhà nước trước ngày 01/01/1995 được tính để hưởng bảo hiểm xã hội theo quy định của Chính phủ.  \nNguồn: 41/2024/QH15:article:141.",
+  "latency_ms": 20196.228899993002,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:1",

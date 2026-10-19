@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, văn bản nào trong bộ tài liệu điều chỉnh hệ thống bảo hiểm xã hội mới và làm Luật 58/2014/QH13 hết hiệu lực?",
-  "answer": "**Văn bản:** Luật 41/2024/QH15 (Điều 140).  \n\n**Nội dung liên quan (theo Context 1):**  \n- “Hiệu lực thi hành Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025… và Nghị quyết số 93/2015/QH13 … **hết hiệu lực thi hành kể từ ngày Lu",
-  "latency_ms": 16922.72639996372,
+  "answer": "Văn bản 41/2024/QH15 quy định Luật mới có hiệu lực từ ngày 01/07/2025 và làm Luật Bảo hiểm xã hội 58/2014/QH13 hết hiệu lực kể từ ngày đó.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 14930.122999998275,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định các khóa đào tạo đã tuyển sinh trước đó có tiếp tục được tổ chức theo luật cũ hay không, cần truy xuất điều khoản chuyển tiếp nào?",
-  "answer": "Cần tra cứu **Điều 45, khoản 45.3** của Nghị định 124/2025/QH15, trong đó quy định rằng các khóa đào tạo đã tuyển sinh trước ngày 01 / 01 / 2026 sẽ được tiếp tục tổ chức và cấp bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.",
-  "latency_ms": 11631.840800051577,
+  "answer": "45.3 cho phép các khóa đào tạo đã tuyển sinh trước ngày 01/01/2026 tiếp tục tổ chức đào tạo, cấp văn bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 6907.172400038689,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",

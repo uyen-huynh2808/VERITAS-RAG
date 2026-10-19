@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật An toàn, vệ sinh lao động về đối tượng áp dụng chế độ tai nạn lao động, bệnh nghề nghiệp dựa trên nhóm đối tượng nào của Điều 2 Luật Bảo hiểm xã hội?",
-  "answer": "Dựa trên nội dung sửa đổi trong Điều 139 của Nghị quyết 41/2024/QH15, **đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp** được quy định là:\n\n**“Người lao động tham gia bảo hiểm xã hội bắt buộc”** theo các điểm **a, b, c, d,",
-  "latency_ms": 1699.4011999340728,
+  "answer": "Đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp là người lao động tham gia bảo hiểm xã hội bắt buộc theo các điểm a, b, c, d, đ, e, i và l của khoản 1 Điều 2 Luật Bảo hiểm xã hội.  \n\nNguồn: 41/2024/QH15.Đối tượng áp dụng chế độ bảo hiểm tai nạn lao động, bệnh nghề nghiệp là người lao động tham gia bảo hiểm xã hội bắt buộc theo các điểm a, b, c, d, đ, e, i và l của khoản 1 Điều 2 Luật Bảo hiểm xã hội.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 16057.532100006938,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:4:5:0",

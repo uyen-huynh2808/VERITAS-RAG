@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 01/07/2026, Luật Dân số bắt đầu có hiệu lực chung; Pháp lệnh Dân số 06/2003/PL-UBTVQH11 còn hiệu lực sau mốc này không?",
-  "answer": "Không. Theo nội dung trong Context 1, Pháp lệnh Dân số số",
-  "latency_ms": 13799.551200005226,
+  "answer": "Có, Pháp lệnh Dân số số 06/2003/PL‑UBTVQH11 vẫn còn hiệu lực vào ngày 01/07/2026 vì nó chỉ hết hiệu lực kể từ ngày Luật mới có hiệu lực thi hành, thời điểm đó chưa tới.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 1273.4780000173487,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.3:12:0",

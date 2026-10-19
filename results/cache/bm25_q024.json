@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Những trách nhiệm nào thuộc về người sử dụng lao động trong việc đăng ký, đóng và cung cấp thông tin bảo hiểm xã hội?",
-  "answer": "**Các trách nhiệm của người sử dụng lao động (theo Điều 13 của Nghị quyết 41/2024/QH15) liên quan đến việc đăng ký, đóng và cung cấp thông tin bảo hiểm xã hội bao gồm:**\n\n1. **Đăng ký tham gia bảo hiểm xã hội bắt buộc** cho người lao động theo quy định của luật.  \n2. **Phối hợp với cơ quan bảo hiểm xã hội** để:\n   - Trả sổ bảo hiểm xã hội (bản giấy) cho người lao động.  \n   - Xác nhận thời gian đóng bảo hiểm xã hội khi người lao động chấm dứt hợp đồng, hợp đồng làm việc hoặc thôi việc.  \n   - Trả trợ cấp bảo hiểm xã hội",
-  "latency_ms": 16942.18490005005,
+  "answer": "- Đăng ký tham gia bảo hiểm xã hội bắt buộc cho người lao động theo quy định của luật.  \n- Phối hợp với cơ quan bảo hiểm xã hội để trả sổ bảo hiểm xã hội bản giấy cho người lao động.  \n- Lập hồ sơ để người lao động được hưởng chế độ bảo hiểm xã hội.  \n- Phối hợp với cơ quan bảo hiểm xã hội xác nhận thời gian đóng bảo hiểm xã hội khi chấm dứt hợp đồng hoặc thôi việc.  \n- Đóng bảo hiểm xã hội bắt buộc cho người lao động, trích khoản tiền bảo hiểm từ tiền lương hàng tháng và nộp vào quỹ bảo hiểm xã hội.  \n- Cung cấp đầy đủ, chính xác, kịp thời thông tin, tài liệu liên quan đến việc đóng, hưởng bảo hiểm xã hội theo yêu cầu của cơ quan nhà nước có thẩm quyền.  \n- Phối hợp với cơ quan bảo hiểm xã hội trả trợ cấp bảo hiểm xã hội cho người lao động khi chi trả qua người sử dụng lao động.  \n- Bồi thường cho người lao động nếu không thực hiện hoặc thực hiện không đầy đủ trách nhiệm đóng bảo hiểm xã hội bắt buộc gây thiệt hại đến quyền, lợi ích hợp pháp của người lao động.  \n- Phối hợp, tạo điều kiện cho cơ quan bảo hiểm xã hội thu hồi số tiền bảo hiểm xã hội hưởng không đúng quy định khi có quyết định của cơ quan có thẩm quyền.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 14897.322300006635,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:17:10:0",

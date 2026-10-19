@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 quy định người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng ra nước ngoài định cư được hưởng trợ cấp một lần theo mức nào?",
-  "answer": "",
-  "latency_ms": 18079.183200025,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 15127.640400023665,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:115:52:0",

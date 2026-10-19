@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trong trường hợp mẹ chết sau khi sinh con, người cha hoặc người trực tiếp nuôi dưỡng có thể được nghỉ hưởng chế độ thai sản theo nguyên tắc nào?",
-  "answer": "Theo quy định tại **khoản 1 Điều 53** của Luật (được trích trong Điều 53 của Nghị quyết 41/2024/QH15), khi **mẹ chết sau khi sinh con**:\n\n- **Cha hoặc người trực tiếp nuôi dưỡng** được nghỉ việc hưởng chế độ thai sản **để chăm sóc con**; thời gian nghỉ được tính **theo thời gian còn lại mà mẹ đã được hưởng** (tức là tiếp nhận phần còn lại của kỳ nghỉ thai sản của mẹ).  \n\n- Nếu **",
-  "latency_ms": 3030.0652000587434,
+  "answer": "Cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc hưởng chế độ thai sản để chăm sóc con trong thời gian còn lại của người mẹ, theo quy định tại khoản 1 Điều (điều này).  \nNguồn: 41/2024/QH15:article:53.",
+  "latency_ms": 18120.438100013416,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:28:0",

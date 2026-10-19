@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 30/06/2026, nếu cần xác định văn bản ủy quyền nhận lương hưu theo luật cũ còn được tiếp tục thực hiện không, nên truy xuất khoản chuyển tiếp nào?",
-  "answer": "Bạn cần truy xuất **Điều khoản chuyển tiếp** được quy định tại **Điều 45 của Nghị định 124/2025/QH15**. Đây là khoản chuyển tiếp liên quan đến việc xác định việc văn bản ủy quyền nhận lương hưu theo luật cũ còn được tiếp tục thực hiện hay không.",
-  "latency_ms": 9529.730499954894,
+  "answer": "Điều khoản chuyển tiếp quy định tại Điều 45 của Nghị quyết 124/2025/QH15.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 6954.840999969747,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:article:45:19:0",

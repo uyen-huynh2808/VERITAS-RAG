@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Thỏa ước lao động tập thể doanh nghiệp chỉ được ký kết khi có tỷ lệ người lao động biểu quyết tán thành như thế nào?",
-  "answer": "Thỏa ước lao động tập thể doanh nghiệp chỉ được ký kết khi **trên 50 % người lao động của doanh nghiệp biểu quyết tán thành**.",
-  "latency_ms": 15444.582899915986,
+  "answer": "Thỏa ước lao động tập thể doanh nghiệp chỉ được ký kết khi có trên 50 % người lao động của doanh nghiệp biểu quyết tán thành.  \nNguồn: 45/2019/QH14:article:76",
+  "latency_ms": 15739.929499977734,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:76:26:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, một hợp đồng lao động bị tuyên bố vô hiệu từng phần thì việc xử lý phần vô hiệu có thể dựa trên thỏa ước đang áp dụng hay không?",
-  "answer": "Có. Theo quy định tại Điều 51 của Nghị định 45/2019/QH14 (Context 1), khi hợp đồng lao động bị tuyên bố vô hiệu **từng phần**, quyền, nghĩa vụ và lợi ích của các bên được giải quyết **theo thỏa ước lao động tập thể đang áp dụng** (nếu có). Nếu không có thỏa ước lao động tập thể, thì sẽ áp dụng quy định của pháp luật. Do đó, việc xử lý phần vô hiệu có thể dựa trên thỏa ước đang áp dụng.",
-  "latency_ms": 9271.436799899675,
+  "answer": "Có, khi hợp đồng lao động bị tuyên bố vô hiệu từng phần, quyền, nghĩa vụ và lợi ích của các bên được giải quyết theo thỏa ước lao động tập thể đang áp dụng (nếu có). Nguồn: 45/2019/QH14.",
+  "latency_ms": 6075.37079998292,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:51:17:0",

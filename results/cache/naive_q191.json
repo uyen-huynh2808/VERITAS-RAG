@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Dân số 113/2025/QH15 sửa quy định về thứ tự ưu tiên khi nhiều đối tượng có cùng tiêu chuẩn, điều kiện hỗ trợ theo Luật Nhà ở theo hướng thêm nhóm nào?",
-  "answer": "",
-  "latency_ms": 10291.957900044508,
+  "answer": "Thêm nhóm “người có từ 02 con đẻ trở lên” vào thứ tự ưu tiên khi nhiều đối tượng có cùng tiêu chuẩn, điều kiện hỗ trợ.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 9264.732900017407,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.3.h:12:0",

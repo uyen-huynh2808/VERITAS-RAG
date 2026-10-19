@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định người đồng thời thuộc nhiều đối tượng bảo hiểm xã hội bắt buộc phải tham gia theo hợp đồng nào, nên truy xuất điều khoản nào của Luật 41/2024/QH15?",
-  "answer": "Để xác định người đồng thời thuộc nhiều đối tượng bảo hiểm xã hội bắt buộc phải tham gia theo hợp đồng nào, cần truy xuất **khoản 1 Điều 2** của Luật 41/2024/QH15 (điều 2, khoản 1). Đây là điều khoản quy định cách xác định hợp đồng lao động được áp dụng khi một người thuộc nhiều đối tượng bảo hiểm xã hội bắt buộc.",
-  "latency_ms": 20140.029200003482,
+  "answer": "Điều 2, khoản 1 của Luật 41/2024/QH15 quy định rằng khi người lao động đồng thời thuộc nhiều đối tượng bảo hiểm xã hội bắt buộc và ký hợp đồng lao động với nhiều người sử dụng lao động, việc tham gia bảo hiểm xã hội bắt buộc được xác định theo hợp đồng lao động giao kết đầu tiên.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 11313.10610001674,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:3:0",

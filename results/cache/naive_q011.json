@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Khi hợp đồng lao động chấm dứt, trong trường hợp thông thường hai bên phải thanh toán các khoản liên quan đến quyền lợi trong thời hạn bao nhiêu ngày làm việc?",
-  "answer": "Trong trường hợp thông thường, hai bên phải thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi trong vòng **14 ngày làm việc** kể từ ngày chấm dứt hợp đồng lao động. (Theo Điều 48, Văn bản 45/2019/QH14)",
-  "latency_ms": 14322.81589997001,
+  "answer": "Trong thời hạn **14 ngày làm việc** kể từ ngày chấm dứt hợp đồng lao động, hai bên phải thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của mỗi bên.  \nNguồn: 45/2019/QH14. Nguồn: 45/2019/QH14.",
+  "latency_ms": 18117.053499969188,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:48:16:0",

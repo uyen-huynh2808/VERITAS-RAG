@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Điều kiện nào làm cho một sản phẩm hoặc dịch vụ công nghệ số thuộc diện trọng điểm theo tiêu chí thị trường trong nước?",
-  "answer": "Theo Điều 14 của Nghị định 71/2025/QH15, một sản phẩm hoặc dịch vụ công nghệ số được coi là **trọng điểm** khi **thị trường trong nước có nhu cầu lớn và tạo ra giá trị gia tăng cao**. Đây là tiêu chí “thị trường trong nước” để xác định tính trọng điểm của sản phẩm, dịch vụ công nghệ số.",
-  "latency_ms": 17053.115999908186,
+  "answer": "Sản phẩm, dịch vụ công nghệ số được coi là trọng điểm khi **thị trường trong nước có nhu cầu lớn và tạo ra giá trị gia tăng cao**.  \nNguồn: 71/2025/QH15.  \n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 12935.221399995498,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:14:6:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, nếu ngày hiệu lực của thỏa ước lao động tập thể đã đến, người lao độngvào làm việc sau ngày đó có phải thực hiện thỏa ước không?",
-  "answer": "Có. Theo Điều 79 của Nghị định 45/2019/QH14: “Người sử dụng lao động, người lao động, **bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực**, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực.” Vì vậy, kể từ ngày thỏa ước có hiệu lực (ví dụ 01/01/2021), người lao động mới vào làm việc sau ngày đó cũng phải tuân thủ các quy định của thỏa ước lao động tập thể.",
-  "latency_ms": 9855.969600030221,
+  "answer": "Có. Người sử dụng lao động và người lao động, kể cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực. Nguồn: 45/2019/QH14:article:79.",
+  "latency_ms": 11064.289600006305,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",

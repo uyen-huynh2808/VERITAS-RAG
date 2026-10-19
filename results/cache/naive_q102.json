@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2026, cơ sở giáo dục nghề nghiệp được tuyển sinh trung cấp cho người đã hoàn thành trung học cơ sở đến mốc nào, trừ trường hợp thuộc lĩnh vực sức khỏe?",
-  "answer": "Theo khoản 1 Điều 45 của Nghị định 124/2025/QH15, cơ sở giáo dục nghề nghiệp được phép tuyển sinh trình độ trung cấp cho người đã hoàn thành chương trình giáo dục trung học cơ sở **đến hết ngày 31 tháng 12 năm 2030**, trừ các trường hợp được quy định tại khoản 2 (lĩnh vực sức khỏe).",
-  "latency_ms": 10182.19780002255,
+  "answer": "Cơ sở giáo dục nghề nghiệp được tuyển sinh trình độ trung cấp cho người đã hoàn thành trung học cơ sở đến hết ngày 31 tháng 12 năm 2030, trừ các trường hợp thuộc lĩnh vực sức khỏe.\n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 8889.374000020325,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.2:19:0",

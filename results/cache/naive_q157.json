@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một dự án công nghiệp công nghệ số vừa thuộc Điều 28 vừa thuộc nhóm điều khoản có hiệu lực riêng từ 01/07/2025; tại đúng ngày này, cần truy xuất điều khoản hiệu lực và điều khoản nội dung nào để kết luận về ưu đãi?",
-  "answer": "",
-  "latency_ms": 11907.05599996727,
+  "answer": "- Điều 50 quy định rằng các Điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.  \n- Điều 31 quy định nội dung ưu đãi thuê, mua sắm sản phẩm, dịch vụ công nghệ số sử dụng vốn ngân sách nhà nước.\n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 12543.094100023154,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

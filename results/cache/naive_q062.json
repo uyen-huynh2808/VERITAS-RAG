@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 01/01/2026, Luật Giáo dục nghề nghiệp 124/2025/QH15 bắt đầu có hiệu lực chung hay chưa?",
-  "answer": "Có. Theo Điều 44.1 của Luật 124/2025/QH15, luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, nghĩa là bắt đầu có hiệu lực chung vào ngày đó.",
-  "latency_ms": 9521.950099966489,
+  "answer": "Luật Giáo dục nghề nghiệp 124/2025/QH15 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, nên vào ngày 01/01/2026 nó mới bắt đầu có hiệu lực chung.  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 7109.280899981968,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động 45/2019/QH14 sửa đổi khoản nào của Luật Bảo hiểm xã hội 58/2014/QH13 về điều kiện hưởng lương hưu nói chung?",
-  "answer": "Bộ luật Lao động 45/2019/QH14 đã sửa đổi **Điều 54** của Luật Bảo hiểm xã hội số 58/2014/QH13, quy định về điều kiện hưởng lương hưu.",
-  "latency_ms": 17692.97239999287,
+  "answer": "Bộ luật Lao động 45/2019/QH14 sửa đổi, bổ sung Điều 54 của Luật Bảo hiểm xã hội 58/2014/QH13 về điều kiện hưởng lương hưu.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 19054.40379999345,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

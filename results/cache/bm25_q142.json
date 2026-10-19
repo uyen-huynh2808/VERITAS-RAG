@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định cơ chế chuyển khu công nghệ thông tin tập trung thành khu công nghệ số tập trung, nên truy xuất điều khoản chuyển tiếp nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 16221.957399975508,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 16574.0321999765,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:25:11:0",

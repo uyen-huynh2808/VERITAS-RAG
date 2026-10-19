@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, một thỏa ước lao động tập thể được ký trước đó nhưng ghi hiệu lực sau ngày 01/01/2021; để xác định quyền và nghĩa vụ tại ngày này, cần truy xuất đồng thời những quy định hiệu lực nào?",
-  "answer": "",
-  "latency_ms": 17765.134899993427,
+  "answer": "Để xác định quyền và nghĩa vụ vào ngày 01/01/2021, phải áp dụng đồng thời:\n\n* Điều 78 – quy định về hiệu lực và thời hạn của thỏa ước lao động tập thể.  \n* Điều 79 – quy định về việc thực hiện thỏa ước lao động tập thể tại doanh nghiệp.\n\nNguồn: 45/2019/QH14:article:78  \nNguồn: 45/2019/QH14:article:79.",
+  "latency_ms": 13176.217899948824,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

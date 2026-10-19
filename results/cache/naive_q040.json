@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Hội đồng trường trong cơ sở giáo dục nghề nghiệp tư thục có vai trò gì và có trực tiếp quản lý, điều hành cơ sở hay không?",
-  "answer": "Hội đồng trường trong cơ sở giáo dục nghề nghiệp tư thục là **tổ chức quản trị**, đại diện cho các bên liên quan để:\n\n- quyết định định hướng phát triển của cơ sở;\n- xây dựng cơ cấu tổ chức;\n- sử dụng nguồn lực;\n- giám sát việc thực hiện chiến lược và trách nhiệm giải trình của cơ sở giáo dục nghề nghiệp.\n\nHội đồng trường hoạt động theo nguyên tắc tập thể, dân chủ, quyết định theo đa số và chịu trách nhiệm trước pháp luật và các bên liên quan về các quyết định của mình.  \n\n**Không**, hội đồng trường **không trực tiếp quản lý, điều hành** cơ sở giáo dục nghề nghiệp. Nó chỉ thực hiện chức năng quản trị, giám sát và đưa ra các quyết định chiến lược.",
-  "latency_ms": 7769.8443999979645,
+  "answer": "Hội đồng trường trong cơ sở giáo dục nghề nghiệp tư thục là tổ chức quản trị, đại diện cho các bên liên quan, quyết định định hướng phát triển, cơ cấu tổ chức, sử dụng nguồn lực và giám sát việc thực hiện chiến lược, trách nhiệm giải trình của cơ sở giáo dục nghề nghiệp; hoạt động theo nguyên tắc tập thể, dân chủ, quyết định theo đa số và chịu trách nhiệm trước pháp luật và các bên liên quan. Hội đồng trường **không** trực tiếp quản lý, điều hành cơ sở giáo dục nghề nghiệp.  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 7139.942599984352,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:article:13:6:0",

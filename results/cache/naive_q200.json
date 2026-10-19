@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa khoản 3 Điều 49 của Luật An toàn, vệ sinh lao động theo hướng dẫn chiếu đến những điều nào của Luật Bảo hiểm xã hội?",
-  "answer": "Theo khoản 3 Điều 49 được sửa đổi, việc tạm dừng, hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng và trợ cấp phục vụ được thực hiện **theo quy định tại Điều 75 của Luật Bảo hiểm xã hội**; hồ sơ, trình tự giải quyết hưởng tiếp trợ cấp hằng tháng được thực hiện **theo quy định tại Điều 80 và Điều 81 của Luật Bảo hiểm xã hội**.",
-  "latency_ms": 17401.50890010409,
+  "answer": "Khoản 3 Điều 49 của Luật An toàn, vệ sinh lao động được sửa đổi, bổ sung để chiếu đến Điều 75, Điều 80 và Điều 81 của Luật Bảo hiểm xã hội.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 1029.998500016518,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",

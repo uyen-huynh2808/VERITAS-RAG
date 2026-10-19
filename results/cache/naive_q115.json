@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một quy định tại Điều 11, Điều 28 hoặc Điều 29 của Luật Công nghiệp công nghệ số được áp dụng vào 01/07/2025, trong khi một quy định khác của cùng Luật chỉ có hiệu lực từ 01/01/2026; làm thế nào xác định đúng mốc áp dụng cho từng quy định?",
-  "answer": "Theo quy định trong **Điều 50** của Luật Công nghiệp công nghệ số (Document 71/2025/QH15, trang 22) :\n\n- **Ngày hiệu lực chung của toàn bộ Luật** là **01 / 01 / 2026**, trừ những trường hợp được quy định riêng tại khoản 2 Điều này.  \n- **Các điều 11, 28 và 29** được quy định **có hiệu lực từ ngày 01 / 07 / 2025**.\n\nDo đó, khi xác định thời điểm áp dụng:\n\n1. **Nếu quy định thuộc Điều 11, Điều 28 hoặc Điều 29",
-  "latency_ms": 2137.3529999982566,
+  "answer": "Các quy định tại Điều 11, 28 và 29 của Luật có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025, trong khi các quy định khác của cùng Luật chỉ có hiệu lực thi hành từ ngày 01 tháng 1 năm 2026; do đó mỗi quy định được áp dụng theo ngày hiệu lực riêng của nó như quy định trong Luật.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 6171.061200031545,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

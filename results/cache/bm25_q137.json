@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định người đang hưởng chế độ ốm đau dài ngày theo luật cũ có được tiếp tục đến hết thời hạn đã giải quyết, nên truy xuất khoản chuyển tiếp nào?",
-  "answer": "Theo quy định chuyển tiếp, trường hợp người lao động đang nghỉ việc hưởng **chế độ ốm đau dài ngày** theo luật cũ được tiếp tục thực hiện đến hết thời hạn đã được giải quyết được nêu tại:\n\n**Khoản chuyển tiếp – Điều 141 (khoản 141) của Luật 41/2024/QH15**.  \n\nTrong khoản này quy định: “Kể từ ngày Luật này có hiệu lực thi hành mà người lao động đang nghỉ việc hưởng chế độ ốm đau do mắc bệnh thuộc danh mục bệnh cần chữa trị dài ngày",
-  "latency_ms": 1565.7807000679895,
+  "answer": "Khoản chuyển tiếp quy định rằng người lao động đang nghỉ việc hưởng chế độ ốm đau dài ngày theo luật cũ sẽ tiếp tục thực hiện đến hết thời hạn đã được giải quyết. Nguồn: 41/2024/QH15:article:141.",
+  "latency_ms": 19365.12930004392,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:43:23:0",

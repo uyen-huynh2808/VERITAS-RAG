@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Cơ sở hoạt động giáo dục nghề nghiệp phải đăng ký thông tin chương trình đào tạo vào cơ sở dữ liệu chuyên ngành trước thời điểm nào?",
-  "answer": "Cơ sở hoạt động giáo dục nghề nghiệp phải đăng ký thông tin về chương trình đào tạo vào cơ sở dữ liệu chuyên ngành về giáo dục nghề nghiệp **trước khi tuyển sinh và trước khi tổ chức đào tạo**.",
-  "latency_ms": 5281.692699994892,
+  "answer": "Cơ sở hoạt động giáo dục nghề nghiệp phải đăng ký thông tin về chương trình đào tạo vào cơ sở dữ liệu chuyên ngành về giáo dục nghề nghiệp **trước khi tuyển sinh, tổ chức đào tạo**.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 2866.921699955128,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:20.1:9:0",

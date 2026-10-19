@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2025, nếu văn bản khác có cơ chế ưu đãi thuận lợi hơn Luật Công nghiệp công nghệ số, đối tượng được ưu đãi được áp dụng mức nào?",
-  "answer": "Theo Điều 50 của Luật Công nghiệp công nghệ số (Document 71/2025/QH15), nếu có văn bản quy phạm pháp luật khác quy định cơ chế, chính sách ưu đãi **thuận lợi hơn** so với quy định của Luật này, thì **đối tượng được ưu đãi sẽ được áp dụng mức ưu đãi có lợi nhất** (tức là mức ưu đãi cao hơn, có lợi hơn trong các quy định hiện hành).",
-  "latency_ms": 12195.329200010747,
+  "answer": "Đối tượng được ưu đãi sẽ được áp dụng mức ưu đãi có lợi nhất, nếu có văn bản pháp luật khác quy định cơ chế, chính sách ưu đãi thuận lợi hơn Luật này.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 8085.789300035685,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:20:8:0",

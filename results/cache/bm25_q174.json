@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Điều 219 sửa điều kiện hưởng lương hưu đối với lao động nữ là cán bộ, công chức cấp xã hoặc người hoạt động không chuyên trách ở xã, phường, thị trấn như thế nào?",
-  "answer": "Theo quy định được sửa đổi tại Điều 219, **đối với lao động nữ là cán bộ, công chức cấp xã hoặc người hoạt động không chuyên trách ở xã, phường, thị trấn** thì:\n\n- Khi nghỉ việc, nếu **đã đóng bảo hiểm xã hội từ 15 năm đến dưới 20 năm**;  \n- Đồng thời **đủ tuổi nghỉ hưu** theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động;  \n\nthì **được hưởng lương hưu**.",
-  "latency_ms": 2085.717499954626,
+  "answer": "Lao động nữ là cán bộ, công chức cấp xã hoặc người hoạt động không chuyên trách ở xã, phường, thị trấn, khi tham gia bảo hiểm xã hội và nghỉ việc, nếu đã đóng bảo hiểm xã hội từ 15 năm đến dưới 20 năm và đủ tuổi nghỉ hưu theo khoản 2 Điều 169 của Bộ luật Lao động, thì được hưởng lương hưu.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 1118.6089999973774,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:66:1",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Khi hợp đồng lao động bị tuyên bố vô hiệu từng phần, quyền và nghĩa vụ của các bên được xử lý theo thứ tự như thế nào?",
-  "answer": "Khi hợp đồng lao động bị tuyên bố vô hiệu **từng phần**, quyền, nghĩa vụ và lợi ích của các bên được xử lý theo trình tự sau (theo Điều 51 của Nghị định 45/2019/QH14):\n\n1. **Giải quyết theo thỏa ước lao động tập thể đang áp dụng**;  \n2. **Nếu không có thỏa ước lao động tập thể**, thực hiện theo các quy định của pháp luật;  \n3. **Hai bên tiến hành sửa đổi, bổ sung** phần hợp đồng bị tuyên bố vô hiệu sao cho phù hợp với thỏa ước lao động tập thể hoặc với quy định pháp luật về lao động.",
-  "latency_ms": 9917.54019993823,
+  "answer": "Khi hợp đồng lao động bị tuyên bố vô hiệu từng phần, quyền, nghĩa vụ và lợi ích của hai bên được giải quyết theo thứ tự:\n\n1. Theo thỏa ước lao động tập thể đang áp dụng;  \n2. Nếu không có thỏa ước lao động tập thể, thực hiện theo quy định của pháp luật;  \n3. Hai bên tiến hành sửa đổi, bổ sung phần hợp đồng bị vô hiệu để phù hợp với thỏa ước lao động tập thể hoặc pháp luật về lao động.  \n\nNguồn: 45/2019/QH14.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 5271.419600001536,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:51:17:0",

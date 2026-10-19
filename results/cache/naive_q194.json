@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 bổ sung cụm từ nào vào khoản 1 Điều 4 của Luật Nhà giáo 73/2025/QH15?",
-  "answer": "“và trung học nghề”.",
-  "latency_ms": 1337.4360000016168,
+  "answer": "Bổ sung cụm từ “và trung học nghề” vào sau cụm từ “trung cấp”.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 2080.8222999912687,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.2:18:0",

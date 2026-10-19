@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 30/06/2026, nếu cần xác định văn bản ủy quyền nhận lương hưu theo luật cũ còn được tiếp tục thực hiện không, nên truy xuất khoản chuyển tiếp nào?",
-  "answer": "Để xác định vào ngày 30/06/2026 một văn bản ủy quyền nhận lương hưu được lập theo quy định cũ còn hiệu lực hay không, cần tra cứu **khoản 141.10 (điều 141, mục 10) của Nghị quyết 41/2024/QH15**.  \n\nTrong khoản này quy định:  \n\n> “Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác … được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026.”  \n\nDo đó, khoản 141.10 là khoản",
-  "latency_ms": 1580.9788999613374,
+  "answer": "Văn bản ủy quyền nhận lương hưu, trợ cấp bảo hiểm xã hội theo quy định của Luật số 58/2014/QH13 vẫn được tiếp tục thực hiện đến hết ngày 30 /06/2026. Nên truy xuất khoản quy định trong Điều 141, khoản 10 (141.10).  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 21760.033400030807,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:115:53:0",

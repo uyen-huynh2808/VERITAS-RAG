@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, điều khoản nào của Bộ luật Lao động cũ về hiệu lực đã bị thay thế theo điều khoản thi hành của Bộ luật mới?",
-  "answer": "",
-  "latency_ms": 13148.988700006157,
+  "answer": "Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật Lao động mới (số 45/2019/QH14) có hiệu lực (01/01/2021).  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 11746.620199992321,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xác định thời hạn tối đa của chothuê lại lao động, nên truy xuất quy định nào?",
-  "answer": "Để xác định thời hạn tối đa của việc cho thuê lại lao động, cần tham khảo quy định tại **Điều 53** của Nghị định 45/2019/QH14, trong đó quy định rằng thời hạn cho thuê lại lao động đối với người lao động tối đa là **12 tháng**.",
-  "latency_ms": 11400.268700090237,
+  "answer": "Thời hạn tối đa cho thuê lại lao động là 12 tháng. Nguồn: 45/2019/QH14:article:53.",
+  "latency_ms": 12075.665000011213,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:53:18:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người đang hưởng chế độ thai sản theo Luật 58/2014/QH13 tại thời điểm01/07/2025; thời gian hưởng đã được giải quyết trước đó được xử lý theo nguyên tắc chuyển tiếp nào?",
-  "answer": "Theo nguyên tắc chuyển tiếp được quy định trong Điều 141 của Nghị định 41/2024/QH15, người lao động đang nghỉ việc hưởng chế độ thai sản theo quy định của Luật 58/2014/QH13 sẽ **tiếp tục được hưởng chế độ đến hết thời hạn đã được giải quyết trước đó**. Nghĩa là thời gian hưởng đã được xác định trước khi Nghị định có hiệu lực sẽ được duy trì nguyên vẹn, không bị rút ngắn hay thay đổi.",
-  "latency_ms": 22480.050400015898,
+  "answer": "Người lao động đang nghỉ việc hưởng chế độ thai sản theo Luật 58/2014/QH13 sẽ được tiếp tục thực hiện đến hết thời hạn đã được giải quyết.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 18479.2754999944,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:62:33:0",

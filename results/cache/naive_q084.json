@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trong thời hạn 02 năm kể từ ngày Luật Công nghiệp công nghệ số có hiệu lực, nếu luật, nghị quyết của Quốc hội, pháp lệnh hoặc nghị quyết của Ủy ban Thường vụ Quốc hội liên quan chưa được sửa đổi, bổ sung thì cơ chế xử lý khó khăn, vướng mắc theo điều khoản chuyển tiếp được thực hiện như thế nào?",
-  "answer": "Trong thời hạn 02 năm kể từ ngày Luật Công nghiệp công nghệ số có hiệu lực, nếu các luật, nghị quyết của Quốc hội, pháp lệnh hoặc nghị quyết của Ủy ban Thường vụ Quốc hội liên quan **chưa được sửa đổi, bổ sung**, thì:\n\n1. **Chính phủ** được giao nhiệm vụ **ban hành văn bản quy phạm pháp luật điều chỉnh** nhằm giải quyết các khó khăn, vướng mắc trong việc phát triển công nghiệp công nghệ số theo quy định của luật hiện hành.  \n2. Các văn bản này phải được **đưa ra để thống nhất áp dụng** và thực",
-  "latency_ms": 1562.070499989204,
+  "answer": "Trong thời hạn 02 năm kể từ ngày Luật này có hiệu lực, nếu các luật, nghị quyết, pháp lệnh hoặc nghị quyết của Ủy ban Thường vụ Quốc hội liên quan chưa được sửa đổi, bổ sung, thì Chính phủ được giao ban hành văn bản quy phạm pháp luật điều chỉnh để giải quyết các khó khăn, vướng mắc cho phát triển công nghiệp công nghệ số.  \n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 8047.756300016772,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",

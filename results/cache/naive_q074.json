@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Từ ngày 01/07/2026, văn bản ủy quyền nêu trong quy định chuyển tiếp của Luật Bảo hiểm xã hội có còn được tiếp tục thực hiện theo mốc thời gian được luật ghi nhận không?",
-  "answer": "",
-  "latency_ms": 13101.731700007804,
+  "answer": "Văn bản ủy quyền vẫn được thực hiện; theo quy định của Luật Bảo hiểm xã hội, thời hạn tối đa của văn bản ủy quyền là 12 tháng kể từ ngày xác lập (điều này vẫn áp dụng khi luật có hiệu lực từ ngày 01/07/2025, nên kéo dài tới ngày 01/07/2026 và sau đó).  \nNguồn: 41/2024/QH15:article:10; 41/2024/QH15:article:140.",
+  "latency_ms": 9439.644099969883,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:10:8:0",

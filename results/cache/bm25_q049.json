@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một quy định của Luật Công nghiệp công nghệ số về cùng một vấn đề khác với luật khác nhưng luật kia có cơ chế ưu đãi thuận lợi hơn; nguyên tắc lựa chọn quy định áp dụng theo Luật này là gì?",
-  "answer": "Theo khoản 2 Điều 50 của Luật Công nghiệp công nghệ số:  \n\n- Khi có quy định khác nhau về cùng một vấn đề giữa Luật này và luật, nghị quyết khác của Quốc hội, **được ưu tiên áp dụng quy định của Luật này**;  \n- Tuy nhiên, **nếu văn bản pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn** so với quy định của Luật này, thì **đối tượng được ưu đãi sẽ được áp dụng mức ưu đãi có lợi nhất**.",
-  "latency_ms": 1527.8820999665186,
+  "answer": "Khi có quy định khác nhau về cùng một vấn đề giữa Luật Công nghiệp công nghệ số và luật, nghị quyết khác của Quốc hội, nếu văn bản pháp luật khác có cơ chế, chính sách ưu đãi hoặc thuận lợi hơn, thì sẽ áp dụng mức ưu đãi có lợi nhất cho đối tượng được ưu đãi.  \n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 10298.297799949069,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

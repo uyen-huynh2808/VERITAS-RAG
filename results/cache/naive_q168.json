@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 sửa Bộ luật Lao động 45/2019/QH14 ở những điều nào liên quan đến đào tạo nghề?",
-  "answer": "Theo nội dung có trong tài liệu, Luật Giáo dục nghề nghiệp 124/2025/QH15 đã sửa đổi Bộ luật Lao động 45/2019/QH14 tại:\n\n- **Điều 59, khoản 2, điểm a**: bổ sung nội dung “Thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc để đào tạo, đào tạo lại, bồi dưỡng, nâng cao trình độ, kỹ năng nghề cho người lao động; phối hợp với cơ sở giáo dục nghề nghiệp đào tạo chương trình giáo dục trung học nghề và các chương trình đào tạo trình độ sơ cấp, trung cấp, cao đẳng",
-  "latency_ms": 8518.786199972965,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 7127.1061999723315,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

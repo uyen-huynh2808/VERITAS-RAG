@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định cơ chế chuyển khu công nghệ thông tin tập trung thành khu công nghệ số tập trung, nên truy xuất điều khoản chuyển tiếp nào?",
-  "answer": "Để xác định cơ chế chuyển đổi “khu công nghệ thông tin tập trung” sang “khu công nghệ số tập trung” vào ngày 01/01/2026, cần tham khảo **điều khoản chuyển tiếp** được quy định tại **Điều 51** của Luật 71/2025/QH15. Đây là điều quy định việc các khu công nghệ thông tin tập trung đã được quy hoạch, thành lập, công nhận, mở rộng và đang hoạt động sẽ tự động chuyển thành khu công nghệ số tập trung và được thực hiện theo các quy định của luật này.",
-  "latency_ms": 1600.0866000540555,
+  "answer": "Điều 51 quy định về việc chuyển đổi tự động khu công nghệ thông tin tập trung sang khu công nghệ số tập trung.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 13361.331599997357,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",

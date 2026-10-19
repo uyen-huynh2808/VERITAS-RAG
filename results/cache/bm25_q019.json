@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội quy định những trường hợp nào không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc?",
-  "answer": "**Các trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc** (theo Điều 2, khoản 1 của Luật Bảo hiểm xã hội, được nêu trong Văn bản 41/2024/QH15):\n\n1. **Người đang hưởng**  \n   - Lương hưu,  \n   - Trợ cấp bảo hiểm xã hội,  \n   - Trợ cấp hằng tháng.  \n\n   (Chính phủ quy định thêm các đối tượng hưởng trợ cấp bảo hiểm xã hội, trợ cấp hằng tháng mà không phải tham gia bảo hiểm xã hội bắt buộc.)\n\n2. **Lao động là người giúp việc gia đình** (người làm công việc giúp việc trong hộ gia đình).\n\n3. **Đối tượng thuộc các điểm m và n của khoản 1 Điều này** đã **đủ tuổi nghỉ hưu** theo quy định tại",
-  "latency_ms": 21169.282100046985,
+  "answer": "Các trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc bao gồm:\n\n- Người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội hoặc trợ cấp hằng tháng;  \n- Lao động là người giúp việc gia đình;  \n- Đối tượng quy định tại điểm m và điểm n khoản 1 Điều 2 của Luật đã đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động (trừ trường hợp thời gian đóng bảo hiểm còn thiếu tối đa 06 tháng theo khoản 7 Điều 33 của Luật).  \n\nNguồn: 41/2024/QH15.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 21569.293099979404,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:3:0",

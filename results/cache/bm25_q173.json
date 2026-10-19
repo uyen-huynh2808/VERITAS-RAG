@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động 45/2019/QH14 bãi bỏ khoản nào của Điều 32 Bộ luật Tố tụng dân sự 92/2015/QH13?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 17897.45699998457,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 723.5198999987915,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

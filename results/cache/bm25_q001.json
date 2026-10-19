@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động điều chỉnh những nhóm vấn đề chính nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 1563.8985999394208,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 45/2019/QH14",
+  "latency_ms": 975.6789000239223,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:159:48:0",

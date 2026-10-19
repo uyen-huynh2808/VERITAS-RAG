@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 30/06/2025, Luật Công nghiệp công nghệ số 71/2025/QH15 đã có hiệu lực chung chưa?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 9555.976300034672,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 124/2025/QH15",
+  "latency_ms": 7639.815700007603,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",

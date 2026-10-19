@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật Việc làm 38/2013/QH13 liên quan đến khoản chi tổ chức và hoạt động bảo hiểm thất nghiệp như thế nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 19861.032100045122,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 16108.874499972444,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",

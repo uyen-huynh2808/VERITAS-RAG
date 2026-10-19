@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người lao động gia nhập doanh nghiệp sau khi thỏa ước lao động tập thể đã có hiệu lực; tại ngày gia nhập, họ có phải thực hiện thỏa ước đang có hiệu lực không?",
-  "answer": "Có. Theo Điều 79 của Luật Lao động 45/2019/QH14:  \n\n> “Người sử dụng lao động, người lao động, **bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực**, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực.”  \n\nDo đó, khi người lao động mới gia nhập doanh nghiệp sau khi thỏa ước lao động tập thể đã có hiệu lực, họ phải tuân thủ các quy định, quyền lợi và nghĩa vụ được quy định trong thỏa ước đó.",
-  "latency_ms": 12901.470400043763,
+  "answer": "Có, người lao động mới vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực cũng phải thực hiện đầy đủ thỏa ước đang có hiệu lực. Nguồn: 45/2019/QH14:article:79.",
+  "latency_ms": 9574.27069998812,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:79:27:0",

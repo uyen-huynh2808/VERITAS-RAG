@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Các dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số có thể được hỗ trợ kinh phí cho những hoạt động nào?",
-  "answer": "Theo Điều 29 của Nghị định 71/2025/QH15, các dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số có thể được hỗ trợ kinh phí trực tiếp từ ngân sách địa phương hoặc từ Chương trình phát triển công nghiệp công nghệ số cho **hoạt động đào tạo phát triển nguồn nhân lực công nghiệp công nghệ số**.",
-  "latency_ms": 18141.905899974518,
+  "answer": "Dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số có thể được hỗ trợ kinh phí trực tiếp từ ngân sách địa phương cho hoạt động **đào tạo phát triển nguồn nhân lực công nghiệp công nghệ số**.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 16221.902100020088,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:29:12:0",

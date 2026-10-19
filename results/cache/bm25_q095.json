@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2025, người đang hưởng phụ cấp khu vực hằng tháng và đồng thời hưởng lương hưu có được tiếp tục hưởng theo mức đang hưởng hay không?",
-  "answer": "Có. Theo quy định trong Điều 141 của Nghị định 41/2024/QH15, người đang hưởng lương hưu đồng thời hưởng phụ cấp khu vực hằng tháng tại nơi thường trú có phụ cấp khu vực thì **được tiếp tục hưởng phụ cấp khu vực theo mức đang hưởng**. Việc này vẫn áp dụng vào ngày 01/07/2025; chỉ khi thay đổi nơi thường trú thì mức hưởng sẽ được xác định lại theo quy định của Chính phủ.",
-  "latency_ms": 22920.262399944477,
+  "answer": "Có, người đang hưởng lương hưu và đồng thời hưởng phụ cấp khu vực hằng tháng tại nơi thường trú có phụ cấp khu vực sẽ được tiếp tục hưởng phụ cấp khu vực theo mức đang hưởng.  \nNguồn: 41/2024/QH15:article:141.",
+  "latency_ms": 18065.492399968207,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:0",

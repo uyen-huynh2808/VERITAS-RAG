@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động 45/2019/QH14 sửa đổi những quy định của Luật Bảo hiểm xã hội 58/2014/QH13 về điều kiện hưởng lương hưu ở đâu trong bộ luật?",
-  "answer": "Theo các nội dung được trích trong **CONTEXT**:\n\n- Bộ luật Lao động 45/2019/QH14 đã **sửa đổi, bổ sung Điều 54** (điều kiện hưởng lương hưu) của Luật Bảo hiểm xã hội 58/2014/QH13.  \n- Bộ luật Lao động 45/2019/QH14 cũng **sửa đổi, bổ sung Điều 55** (điều kiện hưởng lương hưu khi suy giảm khả năng lao động) của Luật Bảo hiểm xã hội 58/2014/QH13.  \n- Ngoài ra, **khoản",
-  "latency_ms": 23743.646300048567,
+  "answer": "Điều 219 của Bộ luật Lao động số 45/2019/QH14 quy định sửa đổi, bổ sung các điều của Luật Bảo hiểm xã hội 58/2014/QH13 liên quan đến điều kiện hưởng lương hưu (cụ thể các khoản Điều 54, Điều 55 và khoản 1 Điều 73).  \n\nNguồn: 45/2019/QH14. Nguồn: 45/2019/QH14.",
+  "latency_ms": 979.0033000172116,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:66:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2026, người học trung cấp hoặc các trình độ giáo dục nghề nghiệp đã học trước ngày này tiếp tục được hưởng chính sách theo luật cũ đến mốc nào?",
-  "answer": "Theo quy định tại khoản 5 Điều 45 (Provision 45.5) của Nghị quyết 124/2025/QH15, người học trình độ trung cấp hoặc các trình độ giáo dục nghề nghiệp đã bắt đầu học trước ngày 01 / 01 / 2026 sẽ tiếp tục được hưởng các chính sách của Luật Giáo dục nghề nghiệp số 74/2014/QH13 **cho đến khi khóa học của họ kết thúc**.",
-  "latency_ms": 2637.5358999939635,
+  "answer": "Người học trung cấp hoặc các trình độ giáo dục nghề nghiệp đã học trước ngày 01/01/2026 được tiếp tục hưởng các chính sách theo Luật Giáo dục nghề nghiệp số 74/2014/QH13 **đến khi kết thúc khóa học**.  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 6032.375300012063,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.5:19:0",

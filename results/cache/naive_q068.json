@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một doanh nghiệp ký thỏa ước tập thể vào ngày 01/01/2021 nhưng không ghi ngày hiệu lực; theo quy định về hiệu lực thỏa ước, ngày nào là mốc bắt đầu áp dụng?",
-  "answer": "Theo quy định (xem Context 2), nếu các bên không thỏa thuận ngày có hiệu lực, thỏa ước lao động tập thể sẽ có hiệu lực kể từ ngày ký kết. Vì doanh nghiệp ký thỏa ước vào ngày 01/01/2021 và không ghi ngày hiệu lực, nên mốc bắt đầu áp dụng là **ngày 01/01/2021**.",
-  "latency_ms": 10377.855599974282,
+  "answer": "Theo quy định, nếu các bên không thỏa thuận ngày có hiệu lực, thỏa ước lao động tập thể có hiệu lực kể từ ngày ký kết. Vì doanh nghiệp ký thỏa ước vào ngày 01/01/2021 và không ghi ngày hiệu lực, nên ngày bắt đầu áp dụng là ngày ký kết 01/01/2021.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 9364.024599955883,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:27:0",

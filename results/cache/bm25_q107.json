@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, một người lao động thuộc nhóm chịu sự điều chỉnh của văn bản pháp luật khác nhưng được áp dụng một số quy định của Bộ luật Lao động; điều khoản thi hành xử lý mối quan hệ này như thế nào?",
-  "answer": "Theo Điều 220 của Bộ luật Lao động 45/2019/QH14 (hiệu lực thi hành từ ngày 01/01/2021), **đối với người lao động mà quan hệ lao động của họ được quy định bởi các văn bản pháp luật khác** (ví dụ: cán bộ, công chức,",
-  "latency_ms": 15943.627900094725,
+  "answer": "Người lao động thuộc nhóm được quy định bởi các văn bản pháp luật khác, nhưng tùy từng đối tượng, sẽ được áp dụng một số quy định của Bộ luật Lao động. Nguồn: 45/2019/QH14.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 13309.808899997734,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

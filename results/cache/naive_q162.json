@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động 45/2019/QH14 sửa đổi điều nào của Luật Bảo hiểm xã hội 58/2014/QH13 về điều kiện hưởng lương hưu khi suy giảm khả năng lao động?",
-  "answer": "Điều 55 của Luật Bảo hiểm xã hội 58/2014/QH13.",
-  "latency_ms": 25563.614699989557,
+  "answer": "Điều 54 của Luật Bảo hiểm xã hội 58/2014/QH13 được sửa đổi, bổ sung về điều kiện hưởng lương hưu khi suy giảm khả năng lao động.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 1230.2647000178695,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:67:0",

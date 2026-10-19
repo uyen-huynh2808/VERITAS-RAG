@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một dự án công nghiệp công nghệ số vừa thuộc Điều 28 vừa thuộc nhóm điều khoản có hiệu lực riêng từ 01/07/2025; tại đúng ngày này, cần truy xuất điều khoản hiệu lực và điều khoản nội dung nào để kết luận về ưu đãi?",
-  "answer": "Để xác định ưu đãi cho dự án vào đúng ngày 01/07/2025, cần tham chiếu 2 điều sau trong Luật:\n\n1. **Điều 50 (",
-  "latency_ms": 18812.03180004377,
+  "answer": "Điều 28 của Luật 71/2025/QH15 có hiệu lực thi hành từ ngày 01 / 07 / 2025 và quy định nội dung ưu đãi, hỗ trợ cho dự án công nghiệp công nghệ số (sản xuất, thiết kế, đóng gói, kiểm thử chip bán dẫn, trung tâm dữ liệu AI, …) như được nêu trong Điều 28.  \n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 15997.968099953141,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

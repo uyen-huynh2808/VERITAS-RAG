@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một doanh nghiệp áp dụng đồng thời Điều 11, Điều 28 và Điều 29 của Luật Công nghiệp công nghệ số vào 01/07/2025; cần phân biệt hiệu lực riêng của ba điều này với hiệu lực chung của các điều khoản còn lại như thế nào?",
-  "answer": "Theo quy định trong **Điều 50** của Luật số 71/2025/QH15 (Context 1):\n\n- **Hiệu lực chung của toàn bộ Luật**: Luật này có hiệu lực thi hành **từ ngày 01 /01 /2026**, trừ những trường hợp được quy định riêng tại khoản 2 Điều này.  \n- **Hiệu lực riêng của các điều 11, 28 và 29**: Các điều này **được áp dụng từ ngày 01 /07 /2025**.\n\nVì vậy, khi doanh nghiệp áp dụng đồng thời Điều 11, Điều 28 và Điều 29 vào ngày **01 /07 /2025**, ba điều này đã có hiệu lực và có thể thực thi ngay từ thời điểm đó. Ngược lại, các điều khoản khác của Luật Công nghiệp công nghệ số sẽ chỉ có hiệu lực **từ ngày 01 /01 /2026** (hoặc theo quy định cụ thể tại khoản 2 Điều 50 nếu có). \n\nTóm lại:\n\n| Phạm vi | Ngày có hiệu lực |\n|",
-  "latency_ms": 11932.048699934967,
+  "answer": "Các điều 11, 28 và 29 của Luật Công nghiệp công nghệ số có hiệu lực thi hành riêng từ ngày 01 tháng 7 năm 2025; các điều khoản khác của Luật này chỉ có hiệu lực thi hành chung từ ngày 01 tháng 1 năm 2026 (trừ các trường hợp quy định tại khoản 2 Điều này).  \nNguồn: 71/2025/QH15. Nguồn: 71/2025/QH15.",
+  "latency_ms": 8350.463899958413,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

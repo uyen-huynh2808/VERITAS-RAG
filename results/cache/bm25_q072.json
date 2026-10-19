@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 01/07/2025, Luật Bảo hiểm xã hội 58/2014/QH13 và Nghị quyết 93/2015/QH13 về hưởng bảo hiểm xã hội một lần còn hiệu lực theo điều khoản thi hành của Luật 41/2024/QH15 không?",
-  "answer": "",
-  "latency_ms": 16964.598699938506,
+  "answer": "Không, vào ngày 01/07/2025 Luật Bảo hiểm xã hội 58/2014/QH13 và Nghị quyết 93/2015/QH13 đã hết hiệu lực thi hành kể từ ngày Luật 41/2024/QH15 có hiệu lực.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 13131.422800011933,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

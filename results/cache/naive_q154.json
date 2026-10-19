@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, một thỏa ước lao động tập thể được ký trước đó nhưng ghi hiệu lực sau ngày 01/01/2021; để xác định quyền và nghĩa vụ tại ngày này, cần truy xuất đồng thời những quy định hiệu lực nào?",
-  "answer": "",
-  "latency_ms": 14118.276000022888,
+  "answer": "Cần áp dụng đồng thời:  \n\n1. Các quy định của Bộ luật Lao động có hiệu lực thi hành từ ngày 01/01/2021 (Điều 220).  \n2. Các quy định của thỏa ước lao động tập thể áp dụng kể từ ngày có hiệu lực của thỏa ước (Điều 78).  \n\nNguồn: 45/2019/QH14:article:220  \nNguồn: 45/2019/QH14:article:78.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 11255.060900002718,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:79:27:0",

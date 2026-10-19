@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 bãi bỏ khoản nào của Luật Người cao tuổi 39/2009/QH12?",
-  "answer": "Luật Bảo hiểm xã hội 41/2024/QH15 **bãi bỏ khoản 2 Điều 17 của Luật Người cao tuổi số 39/2009/QH12**.",
-  "latency_ms": 18895.32559993677,
+  "answer": "Bãi bỏ khoản 2 Điều 17 của Luật Người cao tuổi số 39/2009/QH12.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 15027.42009999929,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:62:0",

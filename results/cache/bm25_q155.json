@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một tình huống về trợ cấp tai nạn lao động xảy ra sau 01/07/2025; để xác định căn cứ thủ tục, cần truy xuất Luật Bảo hiểm xã hội mới và phần sửa đổi Luật An toàn, vệ sinh lao động trong cùng văn bản như thế nào?",
-  "answer": "",
-  "latency_ms": 17979.781599948183,
+  "answer": "Để xác định căn cứ thủ tục cho trợ cấp tai nạn lao động phát sinh sau ngày 01/07/2025, cần tham khảo:\n\n* **Luật Bảo hiểm xã hội** – các quy định về việc tạm dừng, hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp (Điều 75) và hồ sơ, trình tự giải quyết (Điều 80, 81) được đưa vào trong văn bản sửa đổi 41/2024/QH15 (điều 49).  \n* **Luật An toàn, vệ sinh lao động** – các quy định về bảo hiểm tai nạn lao động, bệnh nghề nghiệp được sửa đổi, bổ sung trong cùng văn bản 41/2024/QH15 (điều 42 khoản 7; điều 43 khoản 1; điều 44 điểm b; điều 49 khoản 3, 5; điều 53 khoản 3; điều 57 điểm e).\n\nCăn cứ vào các quy định trên, người lao động và người sử dụng lao động thực hiện thủ tục theo quy định của Luật Bảo hiểm xã hội và các khoản sửa đổi của Luật An toàn, vệ sinh lao động trong **Quyết định 41/2024/QH15**.\n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 15829.436500032898,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",

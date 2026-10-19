@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một khóa đào tạo đã được tuyển sinh trước 01/01/2026; tại 01/01/2026, cơ sở giáo dục nghề nghiệp có được tiếp tục tổ chức đào tạo và cấp văn bằng, chứng chỉ theo Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học không, và cần kết hợp Điều 44 với khoản chuyển tiếp nào?",
-  "answer": "Có. Theo khoản 45.3 của Điều 45 trong Luật 84/2025/QH15, các khóa đào tạo đã tuyển sinh trước ngày 01/01/2026 được cơ sở giáo dục nghề nghiệp tiếp tục tổ chức đào tạo và cấp văn bằng, chứng chỉ theo quy định của Lu",
-  "latency_ms": 10324.255499988794,
+  "answer": "Có, theo Điều 45, khoản 3 của Nghị định 124/2025/QH15, các khóa đào tạo đã tuyển sinh trước ngày 01/01/2026 được cơ sở giáo dục nghề nghiệp tiếp tục tổ chức đào tạo và cấp văn bằng, chứng chỉ theo Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học. Việc này phải được áp dụng kết hợp với Điều 44, khoản 1 (điều kiện chuyển tiếp khi Luật mới có hiệu lực).  \n\nNguồn: 124/2025/QH15. Nguồn: 124/2025/QH15.",
+  "latency_ms": 7231.975200003944,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",

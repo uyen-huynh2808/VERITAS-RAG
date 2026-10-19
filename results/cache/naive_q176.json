@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Điều 219 sửa điều kiện hưởng lương hưu khi người lao động bị nhiễm HIV do tai nạn rủi ro nghề nghiệp như thế nào?",
-  "answer": "",
-  "latency_ms": 26138.84019991383,
+  "answer": "Điều 219 bổ sung người bị nhiễm HIV do tai nạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao vào danh sách các đối tượng được hưởng lương hưu khi nghỉ việc có đủ thời gian đóng bảo hiểm xã hội.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 1600.1487000030465,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:66:1",

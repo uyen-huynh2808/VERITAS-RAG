@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Những nhóm đối tượng nào được ưu tiên truyền thông, vận động, giáo dục về dân số?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 4107.042899937369,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 5011.0925999470055,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:article:8:4:0",

@@ -1,4 +1,5 @@
 import os
+from typing import Optional
 
 import yaml
 from pydantic import BaseModel
@@ -35,12 +36,15 @@ class ModelConfig(BaseModel):
     llm_model: str
     generation_temperature: float
     generation_max_tokens: int
+    generation_reasoning_effort: str = "low"
+    generation_include_reasoning: bool = False
 
 
 class RetrievalConfig(BaseModel):
     top_k: int
     bm25_k1: float
     bm25_b: float
+    supersession_rules_path: Optional[str] = None
 
 
 class BenchmarkConfig(BaseModel):

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2025, người có thời gian đóng bảo hiểm xã hội bao gồm phụ cấp khu vực trước 01/01/2007 được giải quyết trợ cấp khu vực một lần trong những trường hợp nào?",
-  "answer": "Theo quy định trong Điều 141 của Nghị định 41/2024/QH15, người lao động có thời gian đóng bảo hiểm xã hội bao gồm phụ cấp khu vực trước ngày 01/01/2007 được hưởng **trợ cấp khu vực một lần** trong các trường hợp sau:\n\n1. **Khi giải quyết hưởng lương hưu** (tức là khi người lao động nghỉ hưu và nhận tiền lương hưu).  \n2. **Khi giải quyết hưởng bảo hiểm xã hội một lần** (trợ cấp một lần do bảo hiểm xã hội chi trả, ví dụ như",
-  "latency_ms": 13326.865799957886,
+  "answer": "Người lao động đã có thời gian đóng bảo hiểm xã hội bao gồm phụ cấp khu vực trước ngày 01/01/2007 được hưởng trợ cấp khu vực một lần khi giải quyết :\n\n* hưởng lương hưu;  \n* hưởng bảo hiểm xã hội một lần;  \n* hưởng chế độ tử tuất.  \n\nNguồn: 41/2024/QH15:article:141.",
+  "latency_ms": 15540.6842000084,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:0",

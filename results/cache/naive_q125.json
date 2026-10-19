@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xác định thời điểm áp dụng một thỏa ước lao động tập thể không ghi ngày hiệu lực, cần truy xuất quy định nào về hiệu lực của thỏa ước?",
-  "answer": "Cần tham khảo **Điều 78** của Luật Lao động 45/2019/QH14 (điều quy định về ngày có hiệu lực của thỏa ước lao động tập thể). Theo đó, nếu các bên không thỏa thuận ngày có hiệu lực, thỏa ước sẽ có hiệu lực kể từ ngày ký kết.",
-  "latency_ms": 13385.879599954933,
+  "answer": "Theo Điều 78 của Luật Lao động 45/2019/QH14, nếu các bên không thỏa thuận ngày có hiệu lực thì thỏa ước lao động tập thể có hiệu lực kể từ ngày ký kết.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 925.9823999600485,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",

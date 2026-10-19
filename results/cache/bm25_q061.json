@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 01/07/2025, các điều 11, 28 và 29 của Luật Công nghiệp công nghệ số đã có hiệu lực chưa?",
-  "answer": "Có. Theo Điều 50 của Luật 71/2025/QH15, các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025. Vì vậy vào ngày 01/07/2025, các điều này đã có hiệu lực.",
-  "latency_ms": 15570.255299913697,
+  "answer": "Có, các điều 11, 28 và 29 của Luật này đã có hiệu lực thi hành từ ngày 01/07/2025.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 10828.868100012187,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

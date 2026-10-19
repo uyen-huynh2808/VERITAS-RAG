@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Công nghiệp công nghệ số 71/2025/QH15 thay thế cụm từ “khu công nghệ thông tin tập trung” bằng cụm từ nào trong các luật, nghị quyết được liệt kê?",
-  "answer": "Luật Công nghiệp công nghệ số 71/2025/QH15 thay thế cụm từ “khu công nghệ thông tin tập trung” bằng cụm từ **“khu công nghệ số tập trung”** trong các luật, nghị quyết được liệt kê.",
-  "latency_ms": 15569.888700032607,
+  "answer": "Thay cụm từ “khu công nghệ thông tin tập trung” bằng cụm từ “khu công nghệ số tập trung”.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 906.2201000051573,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:22:0",

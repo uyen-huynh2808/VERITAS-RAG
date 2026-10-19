@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một khoản đóng bảo hiểm xã hội bắt buộc theo luật cũ chưa được người sử dụng lao động đóng đủ đến hết 30/06/2025; từ 01/07/2025 khoản này được xử lý theo cơ chế nào của Luật mới?",
-  "answer": "",
-  "latency_ms": 24902.532099979,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 41/2024/QH15",
+  "latency_ms": 14141.70459995512,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

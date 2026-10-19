@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xác định thời hạn thanh toán các khoản liên quan khi chấm dứt hợp đồng lao động, nên truy xuất điều khoản nào?",
-  "answer": "Bạn nên tham khảo **Điều 48 (điều khoản 48) của Luật Lao động 45/2019/QH14** – trong đó quy định thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng để thanh toán đầy đủ các khoản tiền liên quan (trừ một số trường hợp có thể kéo dài nhưng không quá 30 ngày).",
-  "latency_ms": 17905.255199992098,
+  "answer": "Theo Điều 48, trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động, hai bên phải thanh toán đầy đủ các khoản tiền liên quan (có thể kéo dài không quá 30 ngày trong một số trường hợp).  \nNguồn: 45/2019/QH14. Nguồn: 45/2019/QH14.",
+  "latency_ms": 741.5174000198022,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:20:7:0",

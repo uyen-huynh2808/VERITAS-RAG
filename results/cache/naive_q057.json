@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 01/01/2021, Bộ luật Lao động 45/2019/QH14 bắt đầu có hiệu lực từ thời điểm nào theo điều khoản thi hành?",
-  "answer": "Theo Điều 220 của Bộ luật Lao động 45/2019/QH14, hiệu lực thi hành của Bộ luật này bắt đầu từ ngày **01 tháng 01 năm 2021**.",
-  "latency_ms": 10346.741699962877,
+  "answer": "Bộ luật Lao động 45/2019/QH14 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 7902.727200009394,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

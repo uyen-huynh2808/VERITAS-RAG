@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, nếu doanh nghiệp chấm dứt hợp đồng lao động, thời hạn thanh toán các khoản liên quan được tính từ ngày chấm dứt như thế nào?",
-  "answer": "Theo quy định tại Điều 48 của Nghị định 45/2019/QH14 (Context 1), khi doanh nghiệp (người sử dụng lao động) chấm dứt hợp đồng lao động, **hai bên phải thanh toán đầy đủ các khoản tiền liên quan trong vòng 14 ngày làm việc kể từ ngày chấm dứt hợp đồng**.  \n\nTrong một số trường hợp ngoại lệ (ví dụ: người sử dụng lao động không phải là cá nhân chấm dứt hoạt động; thay đổi cơ cấu, công nghệ; sáp nhập, bán, cho thuê, chuyển đổi loại hình doanh nghiệp; thiên tai, hỏa hoạn, dịch bệnh nguy hiểm, …) thời hạn thanh toán có thể được kéo dài, nhưng **không được vượt quá 30 ngày làm việc**.  \n\nVì vậy, vào ngày 01/01/2021, nếu doanh nghiệp chấm dứt hợp đồng lao động, thời hạn thanh toán các khoản liên quan sẽ được tính **trong 14 ngày làm việc kể từ ngày chấm dứt**, trừ khi rơi vào một trong các trường hợp ngoại lệ nêu trên, khi đó thời hạn có thể kéo dài lên tới **tối",
-  "latency_ms": 13847.66130009666,
+  "answer": "Trong vòng 14 ngày làm việc kể từ ngày chấm dứt hợp đồng lao động, hai bên phải thanh toán đầy đủ các khoản tiền liên quan; trong một số trường hợp ngoại lệ (doanh nghiệp không phải là cá nhân chấm dứt hoạt động, thay đổi cơ cấu, thiên tai, dịch bệnh, …) thời hạn có thể kéo dài nhưng không vượt quá 30 ngày.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 11439.911399967968,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:48:16:0",

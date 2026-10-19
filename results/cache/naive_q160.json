@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một khóa đào tạo đã tuyển sinh trước 01/01/2026 nhưng nội dung quản lý mới có điều khoản riêng chỉ có hiệu lực từ 01/07/2026; tại 01/01/2026, cần kết hợp điều khoản hiệu lực và điều khoản chuyển tiếp nào để xác định quy định áp dụng?",
-  "answer": "",
-  "latency_ms": 10278.702900046483,
+  "answer": "Cần áp dụng Điều 44 (điều khoản hiệu lực ngày 01/01/2026) kết hợp với Điều 45.3 (điều khoản chuyển tiếp cho các khóa đào tạo tuyển sinh trước ngày 01/01/2026).  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 1411.7236000020057,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",

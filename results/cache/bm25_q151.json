@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định thời hạn tiếp tục tuyển sinh cao đẳng của cơ sở giáo dục đại học được nâng cấp từ trường cao đẳng trước ngày này, nên truy xuất khoản chuyển tiếp nào?",
-  "answer": "Bạn cần tham khảo **khoản 45.4** của Điều 45 (tài liệu 124/2025/QH15), vì khoản này quy định thời hạn tiếp tục tuyển sinh trình độ cao đẳng đến hết ngày 31 /12 2028 cho cơ sở giáo dục đại học được nâng cấp từ trường cao đẳng trước ngày 01 /01 2026.",
-  "latency_ms": 10666.106899967417,
+  "answer": "Khoản 45.4 quy định rằng cơ sở giáo dục đại học được nâng cấp từ trường cao đẳng và cơ sở giáo dục đại học có trường cao đẳng sáp nhập vào trước ngày 01/01/2026 sẽ được tiếp tục tuyển sinh trình độ cao đẳng đến hết ngày 31/12/2028.  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 8091.067400004249,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.4:19:0",

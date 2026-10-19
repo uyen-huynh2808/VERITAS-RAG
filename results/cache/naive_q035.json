@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Các yếu tố dân số phải được lồng ghép vào những loại chiến lược, quy hoạch, kế hoạch hoặc dự án nào?",
-  "answer": "Theo quy định trong Nghị quyết 113/2025/QH15, yếu tố dân số phải được lồng ghép vào **tất cả các công cụ hoạch định và thực hiện** sau:\n\n- **Chiến lược**  \n- **Quy hoạch**  \n- **Kế hoạch**  \n- **Chương trình**  \n- **Đề án**  \n- **Dự án**  \n\nvà các công cụ này đều liên quan tới **phát triển kinh tế - xã hội, quốc phòng, an ninh**. Việc lồng ghép được thực hiện ở mọi cấp độ: toàn quốc, từng khu vực, từng vùng, từng ngành, từng địa phương và từng tổ chức.",
-  "latency_ms": 6081.056800088845,
+  "answer": "Yếu tố dân số phải được lồng ghép vào: chiến lược, quy hoạch, kế hoạch, chương trình, đề án và dự án phát triển kinh tế - xã hội, quốc phòng, an ninh.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 5007.021499972325,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:article:4:2:0",

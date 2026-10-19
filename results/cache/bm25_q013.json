@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trợ cấp mất việc làm được tính theo nguyên tắc nào và mức tối thiểu là bao nhiêu tháng tiền lương?",
-  "answer": "**Nguyên tắc tính trợ cấp mất việc làm**  \n- Trợ cấp mất việc làm được tính dựa trên **số năm người lao động đã làm việc thường xuyên cho người sử dụng lao động** (từ 12 tháng trở lên).  \n- Mỗi năm làm việc, người sử dụng lao động phải trả **1 tháng tiền lương** cho người lao động.  \n- Tiền lương dùng để tính trợ cấp là **tiền lương bình quân của 6 tháng liền kề** theo hợp đồng lao động trước khi người lao động mất việc.\n\n**Mức tối thiểu**  \n- Dù tính theo nguyên tắc 1 tháng tiền lương cho mỗi năm làm việc, **tổng trợ cấp không được dưới 2 tháng tiền lương**.",
-  "latency_ms": 16349.242999916896,
+  "answer": "Trợ cấp mất việc làm được tính dựa trên nguyên tắc “mỗi năm làm việc trả 01 tháng tiền lương, nhưng không dưới mức tối thiểu bằng 02 tháng tiền lương.”  \nNguồn: 45/2019/QH14.  \nN​guồn: 45/2019/QH14.",
+  "latency_ms": 16129.486899997573,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:47:16:0",

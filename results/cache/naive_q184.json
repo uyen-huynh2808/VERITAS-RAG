@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Công nghiệp công nghệ số 71/2025/QH15 bổ sung quy định miễn thuế thu nhập cá nhân cho nhân lực công nghiệp công nghệ số chất lượng cao trong thời hạn bao lâu và từ mốc nào?",
-  "answer": "Theo quy định được bổ sung tại khoản 17, Điều 4 của Luật Thuế thu nhập cá nhân (được áp dụng trong khuôn khổ Luật Công nghiệp công nghệ số 71/2025/QH15), **thu nhập của nhân lực công nghiệp công nghệ số chất lượng cao được miễn thuế thu nhập cá nhân trong thời hạn 05 năm**, tính **từ ngày ký hợp đồng đầu tiên** với cơ quan, tổ chức hoặc cá nhân Việt Nam.",
-  "latency_ms": 18529.76059995126,
+  "answer": "Miễn thuế thu nhập cá nhân cho nhân lực công nghiệp công nghệ số chất lượng cao được áp dụng trong thời hạn 05 năm, tính từ ngày ký hợp đồng đầu tiên với cơ quan, tổ chức, cá nhân Việt Nam.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 1103.738899983,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",

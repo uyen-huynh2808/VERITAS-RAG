@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một doanh nghiệp có hợp đồng và thỏa thuận hợp pháp ký trước 01/01/2021, trong đó một số điều kiện có lợi hơn cho người lao động nhưng một số điều khoản khác trái Bộ luật Lao động mới; tại 01/01/2021 có thể tiếp tục thực hiện toàn bộ thỏa thuận theo khoản chuyển tiếp hay phải phân biệt nội dung?",
-  "answer": "",
-  "latency_ms": 14154.763199971057,
+  "answer": "Theo quy định tại Điều 81 của Bộ luật Lao động, khi nội dung của thỏa ước lao động (hoặc hợp đồng) có một số điều khoản có lợi hơn và một số điều khoản trái với quy định của Bộ luật, các bên phải thực hiện theo nội dung có lợi nhất cho người lao động; các điều khoản trái pháp luật không được áp dụng. Vì vậy, vào ngày 01/01/2021 doanh nghiệp không được tiếp tục thực hiện toàn bộ thỏa thuận mà phải loại bỏ các điều khoản trái Bộ luật Lao động và chỉ giữ lại các điều khoản có lợi hơn cho người lao động.  \n\nNguồn: 45/2019/QH14:article:81.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 11957.179600023665,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:29:10:0",

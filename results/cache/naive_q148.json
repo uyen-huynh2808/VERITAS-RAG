@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định cơ sở giáo dục nghề nghiệp đã được cấp giấy chứng nhận trước đó có được tiếp tục tuyển sinh ngành nghề đã được cấp, cần truy xuất khoản chuyển tiếp nào?",
-  "answer": "Cần truy xuất **khoản 45.15** của Điều 45 trong Nghị định 124/2025/QH15.  \nKhoản này quy định rằng: “Cơ sở hoạt động giáo dục nghề nghiệp đã được cấp giấy chứng nhận … **trước ngày 01 tháng 01 năm 2026** được tiếp tục tuyển sinh, tổ chức đào tạo ngành, nghề đã được cấp…”. Đây là khoản chuyển tiếp xác định quyền tiếp tục tuyển sinh cho các cơ sở đã có giấy chứng nhận trước ngày 01/01/2026.",
-  "latency_ms": 9089.986499981023,
+  "answer": "Khoản 45.15 quy định rằng cơ sở giáo dục nghề nghiệp đã được cấp giấy chứng nhận đăng ký hoạt động giáo dục nghề nghiệp trước ngày 01/01/2026 được tiếp tục tuyển sinh các ngành, nghề đã được cấp.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 9307.780899980571,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.15:20:0",

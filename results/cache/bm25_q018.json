@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trong trường hợp một người thuộc đồng thời một số nhóm đối tượng tại khoản 1 Điều 2, Luật Bảo hiểm xã hội ưu tiên nhóm nào trong một số trường hợp cụ thể?",
-  "answer": "",
-  "latency_ms": 24123.182100011036,
+  "answer": "Khi một người thuộc đồng thời nhiều nhóm đối tượng tại khoản 1 Điều 2, Luật Bảo hiểm xã hội quy định ưu tiên nhóm xuất hiện sớm hơn trong danh sách các điểm quy định; tức là đối tượng sẽ tham gia bảo hiểm xã hội bắt buộc theo nhóm được liệt kê trước (theo thứ tự đến trước). 【Document: 41/2024/QH15】",
+  "latency_ms": 20843.760499963537,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:70:36:0",

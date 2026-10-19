@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Luật Giáo dục nghề nghiệp, cơ sở tham gia hoạt động giáo dục nghề nghiệp gồm những nhóm cơ sở nào ngoài cơ sở giáo dục nghề nghiệp?",
-  "answer": "Theo Điều 7, khoản 3 của Luật Giáo dục nghề nghiệp, **cơ sở tham gia hoạt động giáo dục nghề nghiệp** (ngoài “cơ sở giáo dục nghề nghiệp”) bao gồm các nhóm sau:\n\n1. **Trung tâm giáo dục nghề nghiệp**  \n2. **Trung tâm giáo dục nghề nghiệp – giáo dục thường xuyên**  \n3. **Trung tâm giáo dục thường xuyên**  \n4. **Trung tâm khác có chức năng hoạt động giáo dục nghề nghiệp** (gọi chung là “trung tâm”)  \n5. **Doanh nghiệp**  \n6. **Hợp tác xã**  \n7. **Cơ sở giáo dục đại học**  \n\n(Trích từ Context 2, Điều 7.3).",
-  "latency_ms": 6638.651299988851,
+  "answer": "Cơ sở tham gia hoạt động giáo dục nghề nghiệp bao gồm:  \n- Trung tâm giáo dục nghề nghiệp;  \n- Trung tâm giáo dục nghề nghiệp – giáo dục thường xuyên;  \n- Trung tâm giáo dục thường xuyên;  \n- Trung tâm khác có chức năng hoạt động giáo dục nghề nghiệp (gọi chung là “trung tâm”);  \n- Doanh nghiệp;  \n- Hợp tác xã;  \n- Cơ sở giáo dục đại học.  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 6210.480500012636,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:7.1:3:0",

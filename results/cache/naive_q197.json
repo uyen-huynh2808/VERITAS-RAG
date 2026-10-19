@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một gia đình có từ 02 con đẻ trở lên cần xác định đồng thời chính sách nhà ở và chính sách dân số; cần truy xuất những sửa đổi nào trong Điều 29 của Luật Dân số để thấy mối liên hệ?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 2083.9254000457004,
+  "answer": "Điều 29 của Luật Dân số (113/2025/QH15) quy định các sửa đổi, bổ sung liên quan đến chính sách dân số; để xác định mối liên hệ với chính sách nhà ở cho gia đình có từ 02 con đẻ trở lên, cần tra cứu các sửa đổi được nêu trong Điều 29 của Luật Dân số.\n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 1179.4728999957442,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:article:7:3:0",

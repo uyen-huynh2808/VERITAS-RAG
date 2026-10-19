@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2026, hai quy định tại điểm c và d khoản 1 Điều 14 của Luật Dân số đã có hiệu lực chưa, và mốc nào làm chúng bắt đầu có hiệu lực?",
-  "answer": "Theo **Context 1**, quy định tại điểm c và điểm d khoản 1 Điều 14 của Luật này **có hiệu lực thi hành từ ngày 01 tháng 01 năm 2027**.  \n\nVì vậy, vào ngày **01/07/2026** các quy định này **chưa có hiệu lực**; chúng sẽ bắt đầu có hiệu lực vào **ngày 01/01/2027**.",
-  "latency_ms": 1250.0348000321537,
+  "answer": "Chưa có hiệu lực vào ngày 01/07/2026; chúng bắt đầu có hiệu lực từ ngày 01/01/2027.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 9129.804000025615,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.2:12:0",

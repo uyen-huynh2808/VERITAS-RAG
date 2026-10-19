@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, văn bản nào trong bộ tài liệu bắt đầu có hiệu lực chung về công nghiệp công nghệ số?",
-  "answer": "",
-  "latency_ms": 13139.84379998874,
+  "answer": "Luật Giáo dục nghề nghiệp số (Document 124/2025/QH15) có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, đánh dấu thời điểm bắt đầu có hiệu lực chung về công nghiệp công nghệ số.\n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 1396.8023000052199,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",

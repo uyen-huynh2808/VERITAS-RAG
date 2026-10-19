@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định nguồn tài chính cho phát triển công nghiệp công nghệ số, nên truy xuất điều khoản nào đang có hiệu lực riêng từ ngày này?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 14210.512999910861,
+  "answer": "Điều 11 của Luật 71/2025/QH15 quy định về nguồn tài chính cho phát triển công nghiệp công nghệ số và không có thời điểm hiệu lực hạn chế, do đó vẫn đang có hiệu lực vào ngày 01/07/2025.  \nNguồn: 71/2025/QH15:article:11.",
+  "latency_ms": 13183.068099955563,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:29:13:0",

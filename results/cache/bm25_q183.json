@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Công nghiệp công nghệ số 71/2025/QH15 sửa Luật Công nghệ cao 21/2008/QH12 để bổ sung cụm từ nào vào điểm a khoản 1 Điều 5?",
-  "answer": "Cụm từ được bổ sung là **“Công nghệ thông tin, công nghệ số”**.",
-  "latency_ms": 11650.736100040376,
+  "answer": "Cụm từ được bổ sung là “Công nghệ thông tin, công nghệ số”.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 11229.128399980254,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",

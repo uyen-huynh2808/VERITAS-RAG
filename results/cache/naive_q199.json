@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một câu hỏi về tranh chấp lao động tại Tòa án yêu cầu biết cả điều kiện hòa giải và trường hợp lựa chọn trọng tài; cần truy xuất những phần sửa đổi nào của Điều 219 để trả lời đầy đủ?",
-  "answer": "Để trả lời đầy đủ câu hỏi cần **truy xuất các phần đã được sửa đổi, bổ sung vào Điều 219** – cụ thể là:\n\n| Điều 219 (sửa đổi) | Nội dung được bổ sung |\n|",
-  "latency_ms": 11245.539500028826,
+  "answer": "Các phần sửa đổi của Điều 219 bao gồm: sửa đổi, bổ sung tên điều, khoản 1; bổ sung các khoản 1a, 1b và 1c vào sau khoản 1.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 670.7532000145875,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:67:1",

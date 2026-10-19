@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2026, nếu cần xác định ngày Dân số Việt Nam, nên truy xuất quy định nào của Luật Dân số?",
-  "answer": "Bạn cần tham khảo **Điều 5, khoản 5.1** của Luật Dân số (văn bản 113/2025/QH15), trong đó quy định: “Ngày Dân số Việt Nam là ngày 26 tháng 12 hằng năm.”",
-  "latency_ms": 1702.7863999828696,
+  "answer": "Ngày Dân số Việt Nam là ngày 26 tháng 12 hằng năm.  \nNguồn: 113/2025/QH15.article:5",
+  "latency_ms": 3891.537200019229,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:5.1:2:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Điều 219 của Bộ luật Lao động, điều kiện hưởng lương hưu trong Luật Bảo hiểm xã hội cũ được sửa đổi theo những nhóm trường hợp nào?",
-  "answer": "",
-  "latency_ms": 25380.411600111984,
+  "answer": "Điều 219 quy định các nhóm trường hợp được sửa đổi, bổ sung để hưởng lương hưu như sau:\n\n1. Người lao động có đủ 20 năm đóng bảo hiểm xã hội trở lên và **đủ tuổi** theo khoản 2 hoặc khoản 3 Điều 169 Bộ luật Lao động; hoặc có đủ 15 năm làm nghề, công việc nặng nhọc, độc hại, nguy hiểm (hoặc đặc biệt nặng nhọc, độc hại, nguy hiểm) do Bộ Lao động‑Thương binh và Xã hội ban hành; hoặc có đủ 15 năm làm việc ở vùng kinh tế‑xã hội đặc biệt khó khăn (kèm phụ cấp khu vực ≥ 0,7) trước ngày 01/01/2021.\n\n2. Người lao động **có tuổi thấp hơn tối đa 10 tuổi** so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 và có 15 năm làm công việc khai thác than trong hầm lò.\n\n3. Người bị nhiễm HIV do tai nạn rủi ro nghề nghiệp khi thực hiện nhiệm vụ được giao.\n\n4. Người lao động thuộc các điểm **đ và e** khoản 1 Điều 2 (các trường hợp đặc biệt) khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên, được hưởng lương hưu nếu:\n   - Có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 (trừ các luật quân đội, công an, …);\n   - Hoặc có tuổi thấp hơn tối đa 05 tuổi so với tuổi nghỉ hưu quy định tại khoản 3 Điều 169 và có 15 năm làm nghề, công việc nặng nhọc, độc hại, nguy hiểm (hoặc làm việc ở vùng khó khăn như trên).  \n\nNguồn: 45/2019/QH14:article:219.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 24968.55819999473,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:66:0",

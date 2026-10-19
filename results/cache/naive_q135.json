@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định Luật 58/2014/QH13 đã hết hiệu lực hay chưa, nên truy xuất điều khoản hiệu lực nào?",
-  "answer": "Để xác định vào ngày 01/07/2025 Luật 58/2014/QH13 đã hết hiệu lực hay chưa, cần tham khảo **điều khoản hiệu lực thi hành của",
-  "latency_ms": 6910.598500049673,
+  "answer": "Theo Điều 140 của Luật 41/2024/QH15, Luật Bảo hiểm xã hội số 58/2014/QH13 sẽ hết hiệu lực thi hành kể từ ngày Luật này có hiệu lực thi hành (01/07/2025).  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 9380.672700004652,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

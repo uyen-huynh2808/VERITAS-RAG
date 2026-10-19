@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2026, cơ sở giáo dục nghề nghiệpđã được tuyển sinh khóa học trước ngày này có thể tiếp tục tổ chức đào tạo và cấp văn bằng, chứng chỉ theo luật cũ đến khi nào?",
-  "answer": "Theo quy định tại Điều 45, khoản 3 của Nghị định 124/2025/QH15, các khóa đào tạo đã được tuyển sinh trước ngày 01 / 01 / 2026 sẽ được cơ sở giáo dục nghề nghiệp tiếp tục tổ chức đào tạo và cấp văn bằng, chứng chỉ theo Luật Giáo dục nghề nghiệp số 74/2014/QH13 **cho đến khi khóa học đó kết thúc**.",
-  "latency_ms": 9479.098699986935,
+  "answer": "Cơ sở giáo dục nghề nghiệp đã tuyển sinh khóa học trước ngày 01/01/2026 được tiếp tục tổ chức đào tạo và cấp văn bằng, chứng chỉ theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 cho đến khi kết thúc khóa học.  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 8751.700400025584,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.3:19:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định quy tắc xử lý khi Luật Công nghiệp công nghệ số và luật khác có quy định khác nhau về cùng một vấn đề, nên truy xuất điều khoản nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 963.3493999717757,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 71/2025/QH15",
+  "latency_ms": 7916.062799980864,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:1:1:0",

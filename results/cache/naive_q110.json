@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người lao động có khoản đóng bảo hiểm xã hội chưa đủ đến hết 30/06/2025, đồng thời đang trong thời gian hưởng chế độ theo luật cũ; tại 01/07/2025 cần phân biệt hai cơ chế chuyển tiếp này như thế nào để xác định quy định áp dụng?",
-  "answer": "",
-  "latency_ms": 15085.287599940784,
+  "answer": "- Luật Bảo hiểm xã hội mới (số 41/2024/QH15) có hiệu lực thi hành từ ngày 01/07/2025 (Điều 140). Từ thời điểm này, các quy định của Luật cũ không còn áp dụng.\n\n- Đối với người lao động chưa đủ thời gian đóng bảo hiểm xã hội tính đến ngày 30/06/2025, Luật mới quy định hai cơ chế chuyển tiếp (Điều 33):\n  1. **Nếu thời gian còn thiếu ≤ 06 tháng**: người lao động (hoặc thân nhân) được đóng một lần số tháng còn thiếu với mức đóng bằng tổng mức đóng của người lao động và người sử dụng lao động trước khi nghỉ việc hoặc chết, và thời gian này không tính là thời gian làm nghề nặng nhọc, độc hại, nguy hiểm (Điều 33, khoản 1).  \n  2. **Nếu thời gian còn thiếu > 06 tháng**: người lao động có quyền đóng tiếp bảo hiểm xã hội tự nguyện (Điều 33, khoản 2).  \n\nNhư vậy, vào ngày 01/07/2025, cần xác định mức thiếu hụt thời gian đóng để áp dụng cơ chế “đóng một lần” (≤ 6 tháng) hoặc “đóng tự nguyện” (> 6 tháng), thay vì áp dụng các quy định của Luật cũ.\n\nNguồn: 41/2024/QH15:article:140.",
+  "latency_ms": 13891.320499998983,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:68:36:0",

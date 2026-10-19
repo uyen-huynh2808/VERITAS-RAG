@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trong trường hợp doanh nghiệp thay đổi cơ cấu hoặc công nghệ làm ảnh hưởng việc làm của nhiều người, những bước và nghĩa vụ chính nào của người sử dụng lao động được Bộ luật Lao động yêu cầu?",
-  "answer": "**Các bước và nghĩa vụ chính của người sử dụng lao động khi thay đổi cơ cấu, công nghệ ảnh hưởng đến việc làm của nhiều người lao động (theo Điều 42, 44 và 47 của Bộ luật Lao động 45/2019/QH14):**\n\n1. **Xây dựng và thực hiện phương án sử dụng lao động**  \n   - Khi thay đổi cơ cấu, công nghệ (hoặc vì lý do kinh tế) gây ảnh hưởng đến việc làm của nhiều người lao động, người sử dụng lao động phải lập **phương án sử dụng lao động** theo quy định tại **Điều 44**.  \n   - Phương án này phải bao gồm các biện pháp duy trì việc làm, chuyển đổi công việc, đào tạo lại, và các giải pháp khác để giảm thiểu mất việc.\n\n2. **Ưu tiên đào tạo lại và chuyển đổi công việc**  \n   - Nếu có chỗ làm việc mới, người sử dụng lao động phải **ưu tiên đào tạo lại** người",
-  "latency_ms": 15645.327499951236,
+  "answer": "- Xây dựng và thực hiện phương án sử dụng lao động theo quy định tại Điều 44 của Bộ luật Lao động.  \n- Ưu tiên đào tạo lại người lao động để tiếp tục sử dụng khi có chỗ làm việc mới.  \n- Nếu không thể giải quyết việc làm, phải trả trợ cấp mất việc làm theo quy định tại Điều 47.  \n- Thực hiện việc cho thôi việc sau khi đã trao đổi ý kiến với tổ chức đại diện người lao động tại cơ sở (nếu có) và thông báo trước 30 ngày cho Ủy ban nhân dân cấp tỉnh và cho người lao động.  \n\nNguồn: 45/2019/QH14. Nguồn: 45/2019/QH14. Nguồn: 45/2019/QH14.",
+  "latency_ms": 13205.381600011606,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:42:14:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Nhà nước hỗ trợ hoạt động nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số bằng những cơ chế nào?",
-  "answer": "",
-  "latency_ms": 18482.827099971473,
+  "answer": "Nhà nước hỗ trợ hoạt động nghiên cứu và phát triển sản phẩm, dịch vụ công nghệ số bằng các cơ chế:\n\n* Bố trí kinh phí từ nguồn tài chính cho phát triển công nghiệp công nghệ số (theo Điều 11 của Luật) để thực hiện, hỗ trợ R&D.  \n* Ưu tiên, tạo điều kiện cho tổ chức, cá nhân sử dụng trang thiết bị tại phòng thí nghiệm trọng điểm quốc gia, cơ sở ươm tạo công nghệ, ươm tạo công nghệ cao, ươm tạo doanh nghiệp công nghệ cao, cơ sở nghiên cứu khoa học và công nghệ của nhà nước.  \n* Tăng mức chi bổ sung khi xác định thu nhập chịu thuế thu nhập doanh nghiệp cho các khoản chi của doanh nghiệp cho R&D công nghệ số, theo quy định pháp luật về thuế thu nhập doanh nghiệp.  \n\nNguồn: 71/2025/QH15:article:16.",
+  "latency_ms": 16335.44019999681,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:16:6:0",

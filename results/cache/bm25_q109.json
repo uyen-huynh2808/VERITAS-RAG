@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một thỏa ước lao động tập thể được ký ngày 31/12/2020, ghi ngày hiệu lực là 02/01/2021; khi đánh giá quyền và nghĩa vụ tại 01/01/2021, cần ưu tiên mốc hiệu lực của thỏa ước hay mốc hiệu lực chung của Bộ luật Lao động?",
-  "answer": "Theo quy định của **Điều 78** và **Điều 79** của Luật Lao động 45/2019/QH14 (Context 1, 3), ngày có hiệu lực của thỏa ước lao động tập thể là ngày các bên thỏa thuận và ghi trong thỏa ước; nếu không thỏa thuận thì tính từ ngày ký kết. Ở trường hợp này, thỏa ước được ghi ngày có hiệu lực là **02/01/2021**, nên đến **01/01/2021** nó vẫn chưa có hiệu lực.\n\nTrong khi đó, **Điều 220** của cùng Luật (Context 2) quy định rằng **Bộ luật Lao động có hiệu lực thi",
-  "latency_ms": 13173.093499965034,
+  "answer": "Theo quy định, Bộ luật Lao động 45/2019/QH14 có hiệu lực thi hành từ ngày 01/01/2021; thỏa ước lao động tập thể chỉ có hiệu lực từ ngày 02/01/2021, vì vậy tại ngày 01/01/2021 quyền và nghĩa vụ phải được áp dụng theo quy định của Bộ luật Lao động cho đến khi thỏa ước có hiệu lực.  \nNguồn: 45/2019/QH14:article:220.",
+  "latency_ms": 13382.012200017925,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",

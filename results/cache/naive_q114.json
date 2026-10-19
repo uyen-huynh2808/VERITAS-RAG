@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một văn bản quy phạm pháp luật khác quy định cùng vấn đề với Luật Công nghiệp công nghệ số nhưng cho cơ chế ưu đãi thuận lợi hơn; tại 01/01/2026, quy tắc ưu tiên của Điều 50 dẫn đến lựa chọn quy định nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 23139.64860001579,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 14030.376600043382,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:4:2:0",

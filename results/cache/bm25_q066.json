@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một thỏa thuận lao động hợp pháp đã ký trước 01/01/2021 nhưng có nội dung không trái hoặc thuận lợi hơn cho người lao động; tại 01/01/2021 có được tiếp tục thực hiện không?",
-  "answer": "Có. Theo Điều 220 của Bộ luật Lao động 45/2019/QH14, kể từ ngày 01 /01 /2021, các hợp đồng lao động, thỏa ước lao động tập thể và các thỏa thuận hợp pháp đã ký trước ngày này **nếu có nội dung không trái pháp luật và/hoặc có điều kiện, quyền lợi thuận lợi hơn cho người lao động** so với quy định mới thì được tiếp tục thực hiện. Trừ trường hợp các bên thỏa thuận sửa đổi, bổ sung để phù hợp và áp dụng quy định của Bộ luật mới.",
-  "latency_ms": 11667.564400006086,
+  "answer": "Có, kể từ ngày 01/01/2021, các hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp pháp đã ký trước ngày này mà có nội dung không trái hoặc có lợi hơn cho người lao động được tiếp tục thực hiện.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 9744.784900045488,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

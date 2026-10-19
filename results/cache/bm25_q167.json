@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Dân số 113/2025/QH15 bổ sung điểm nào vào khoản 1 Điều 34 của Luật Khám bệnh, chữa bệnh 15/2023/QH15?",
-  "answer": "Luật 113/2025/QH15 bổ sung **điểm d** vào sau điểm c khoản 1 Điều 34 của Luật Khám bệnh, chữa bệnh số 15/2023/QH15, với nội dung:\n\n**“d) Có hành vi thông báo, tiết lộ giới tính thai nhi để phá thai.”**",
-  "latency_ms": 12316.873100004159,
+  "answer": "Bổ sung điểm **d** vào sau điểm c khoản 1 Điều 34 của Luật Khám bệnh, chữa bệnh số 15/2023/QH15.\n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 9033.688299998175,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.4:12:0",

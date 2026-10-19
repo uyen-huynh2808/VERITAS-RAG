@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội quy định quỹ bảo hiểm xã hội được hình thành từ những nguồn nào?",
-  "answer": "Quỹ bảo hiểm xã hội được hình thành từ các nguồn sau:\n\n- **Đóng góp của người sử dụng lao động** theo quy định.  \n- **Đóng góp của người lao động** theo quy định.  \n- **Tiền sinh lời** từ hoạt động đầu tư của quỹ.  \n- **Ngân sách nhà nước**.  \n- **Các nguồn thu hợp pháp khác**.",
-  "latency_ms": 18513.6464999523,
+  "answer": "Quỹ bảo hiểm xã hội được hình thành từ các nguồn sau:  \n- Đóng góp của người sử dụng lao động theo quy định;  \n- Đóng góp của người lao động theo quy định;  \n- Tiền sinh lời từ hoạt động đầu tư của quỹ;  \n- Ngân sách nhà nước;  \n- Các nguồn thu hợp pháp khác.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 16115.27779995231,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:117:53:0",

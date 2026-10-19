@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một lao động nam có vợ sinh đôi và muốn chia thời gian nghỉ thành nhiềulần; Luật Bảo hiểm xã hội giới hạn ngày bắt đầu lần nghỉ cuối và tổng thời gian nghỉ như thế nào?",
-  "answer": "",
-  "latency_ms": 24350.76579998713,
+  "answer": "Theo quy định tại khoản 2 Điều 53 của Luật Bảo hiểm xã hội, ngày bắt đầu nghỉ việc hưởng chế độ thai sản của người lao động nam (khi vợ sinh) phải nằm trong vòng 60 ngày kể từ ngày vợ sinh con; nếu người lao động nghỉ nhiều lần, ngày bắt đầu nghỉ việc của lần cuối cũng phải trong 60 ngày đầu kể từ ngày sinh. Tổng thời gian nghỉ việc hưởng chế độ thai sản không được vượt quá thời gian quy định tại khoản 2 Điều 53.  \n\nNguồn: 41/2024/QH15.   Nguồn: 41/2024/QH15.",
+  "latency_ms": 20191.126900026575,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:27:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Cung cấp dịch vụ công nghệ số bao gồm những hoạt động tiêu biểu nào được liệt kê trong Luật?",
-  "answer": "Theo Điều 13 của Luật công nghiệp công nghệ số, **cung cấp dịch vụ công nghệ số** bao gồm thực hiện một hoặc một số hoạt động tiêu biểu sau:\n\n- Tư vấn  \n- Thiết kế  \n- Cài đặt  \n- Tích hợp  \n- Quản lý  \n- Vận hành  \n- Đào tạo  \n- Số hoá  \n- Xử lý dữ liệu  \n- Bảo hành  \n- Bảo trì  \n- Sửa chữa  \n- Tân trang  \n- Xuất bản  \n- Phân phối sản phẩm công nghệ số  \n\nNgoài ra, còn bao gồm **cung cấp các sản phẩm công nghệ số dưới dạng dịch vụ** và các **dịch vụ công nghệ số khác** được quy định trong luật.",
-  "latency_ms": 12203.755900030956,
+  "answer": "Cung cấp dịch vụ công nghệ số bao gồm các hoạt động tiêu biểu: tư vấn, thiết kế, cài đặt, tích hợp, quản lý, vận hành, đào tạo, số hóa, xử lý dữ liệu, bảo hành, bảo trì, sửa chữa, tân trang, xuất bản, phân phối sản phẩm công nghệ số; cung cấp các sản phẩm công nghệ số dưới dạng dịch vụ và các dịch vụ công nghệ số khác.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 12372.65859998297,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:34:15:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Nếu một tranh chấp lao động phát sinh ngày 31/12/2020, có thể mặc nhiên coi Bộ luật Lao động 45/2019/QH14 đã là văn bản có hiệu lực để xử lý hay không?",
-  "answer": "Không. Theo nội dung trong **Context 1**, Bộ luật Lao động số 45/2019/QH14 chỉ có hiệu lực thi hành kể từ ngày **01 tháng 01 năm 2021**. Vì vậy, một tranh chấp lao động phát sinh vào ngày **31 /12 /2020** chưa nằm trong thời gian áp dụng của Bộ luật này và không thể mặc nhiên coi nó đã có hiệu lực để giải quyết vụ việc. Thay vào đó, các quy định của bộ luật lao động hiện hành trước ngày 01 /01 /2021 (ví dụ: Bộ luật Lao động 10/2012/QH13) sẽ là căn cứ pháp lý áp dụng.",
-  "latency_ms": 10571.385800023563,
+  "answer": "Không, vì Bộ luật Lao động 45/2019/QH14 chỉ có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021, nên vào ngày 31/12/2020 nó chưa có hiệu lực. N​guồn: 45/2019/QH14.",
+  "latency_ms": 8287.760599981993,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

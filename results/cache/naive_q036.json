@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Dân số yêu cầu truyền thông, vận động, giáo dục về dân số phải đáp ứng những yêu cầu cơ bản nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 6188.227299950086,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 2925.6667000008747,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:article:8:4:0",

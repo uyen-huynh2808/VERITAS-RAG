@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Hội đồng trường trong cơ sở giáo dục nghề nghiệp tư thục có vai trò gì và có trực tiếp quản lý, điều hành cơ sở hay không?",
-  "answer": "Theo quy định tại Điều 13, khoản 2 của Nghị định 124/2025/QH15, **Hội đồng trường** ở cơ sở giáo dục nghề nghiệp (kể cả cơ sở tư thục) **hoạt động theo nguyên tắc tập thể, dân chủ, quyết định theo đa số** và **chịu trách nhiệm trước pháp luật và các bên liên quan về các quyết định của mình**.  \n\nNgoài ra, tại Điều 40, khoản 1, mục b, Hội đồng trường của cơ sở giáo dục nghề nghiệp tư thục **quản lý, sử dụng tài sản** của cơ sở nhằm mục tiêu phát triển bền vững và phục vụ lợi ích chung, nhưng **không được chuyển thành sở hữu cá nhân hoặc định giá phân chia**.\n\n**Vì vậy, Hội đồng trường không trực tiếp quản lý, điều hành cơ sở giáo dục nghề nghiệp tư thục**; vai trò của nó là đưa ra các quyết định chung, quản lý tài sản và chịu trách nhiệm pháp lý, chứ không thực hiện chức năng quản lý điều hành hàng ngày của cơ sở.",
-  "latency_ms": 8999.092200072482,
+  "answer": "Hội đồng trường hoạt động theo nguyên tắc tập thể, dân chủ, quyết định theo đa số; chịu trách nhiệm trước pháp luật và các bên liên quan về quyết định của mình, nhưng không trực tiếp quản lý, điều hành cơ sở giáo dục nghề nghiệp. \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 6977.49100002693,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.9:19:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2026, cơ sở giáo dục nghề nghiệp được tuyển sinh trung cấp cho người đã hoàn thành trung học cơ sở đến mốc nào, trừ trường hợp thuộc lĩnh vực sức khỏe?",
-  "answer": "Đến hết ngày **31 / 12 / 2030** (trừ các trường hợp thuộc lĩnh vực sức khỏe được quy định tại khoản 2).",
-  "latency_ms": 9682.23409994971,
+  "answer": "Cơ sở giáo dục nghề nghiệp được tuyển sinh trình độ trung cấp cho người đã hoàn thành trung học cơ sở đến hết ngày 31 /12 /2030 (trừ trường hợp quy định tại khoản 2).  \nNguồn: 124/2025/QH15:article:45.",
+  "latency_ms": 5205.59399999911,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.2:19:0",

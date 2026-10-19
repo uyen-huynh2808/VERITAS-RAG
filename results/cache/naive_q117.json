@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, nếu cần xác định hiệu lực của một thỏa thuận lao động đã ký trước đó nhưng có điều kiện thuận lợi hơn cho người lao động, cần truy xuất điều khoản thi hành của văn bản nào?",
-  "answer": "Cần tra cứu **Bộ luật Lao động số 45/2019/QH14**, cụ thể là **điều 220 (provision 220)**, vì trong điều này quy định rằng kể từ ngày 01 /01 /2021 các thỏa ước lao động đã ký trước có nội dung thuận lợi hơn cho người lao động vẫn được tiếp tục thực hiện.",
-  "latency_ms": 11930.408700020052,
+  "answer": "Cần truy xuất Điều 220 của Bộ luật Lao động số 45/2019/QH14 để xác định hiệu lực của thỏa thuận lao động có nội dung có lợi hơn cho người lao động kể từ ngày 01/01/2021.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 7070.592099975329,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

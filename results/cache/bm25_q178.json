@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật An toàn, vệ sinh lao động về tiền sinh lời từ hoạt động đầu tư của quỹ bằng cách dẫn chiếu đến những điều nào của Luật Bảo hiểm xã hội?",
-  "answer": "Theo sửa đổi, Luật An toàn, vệ sinh lao động (điểm b khoản 2 Điều 44) đã dẫn chiếu đến **Điều 120 và Điều 121 của Luật Bảo hiểm xã hội** để quy định về tiền sinh lời từ hoạt động đầu tư của quỹ.",
-  "latency_ms": 1410.6793000828475,
+  "answer": "Điều 120 và Điều 121 của Luật Bảo hiểm xã hội được dẫn chiếu để quy định tiền sinh lời từ hoạt động đầu tư của quỹ.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 1161.3502000109293,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:120:54:0",

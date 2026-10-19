@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, văn bản nào trong bộ tài liệu bắt đầu có hiệu lực chung về giáo dục nghề nghiệp?",
-  "answer": "Văn bản **Luật 124/2025/QH15** bắt đầu có hiệu lực chung về giáo dục nghề nghiệp kể từ ngày 01/01/2026.",
-  "latency_ms": 6332.297499990091,
+  "answer": "Luật 124/2025/QH15 có hiệu lực thi hành từ ngày 01/01/2026, là văn bản bắt đầu có hiệu lực chung về giáo dục nghề nghiệp.\n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 835.9705999610014,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

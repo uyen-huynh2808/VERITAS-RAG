@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người lao động có khoản đóng bảo hiểm xã hội chưa đủ đến hết 30/06/2025, đồng thời đang trong thời gian hưởng chế độ theo luật cũ; tại 01/07/2025 cần phân biệt hai cơ chế chuyển tiếp này như thế nào để xác định quy định áp dụng?",
-  "answer": "",
-  "latency_ms": 25117.15050006751,
+  "answer": "- Người lao động đã đang hưởng chế độ theo luật cũ sẽ tiếp tục được hưởng chế độ đó đến khi hết thời hạn đã được giải quyết theo quy định chuyển tiếp.  \n- Từ ngày 01/07/2025 trở đi, nếu người lao động chưa đủ thời gian đóng bảo hiểm xã hội để đáp ứng các tiêu chuẩn mới, thì các quyền lợi còn lại sẽ được áp dụng theo quy định chuyển tiếp của Luật mới (điều 141), chứ không áp dụng ngay các quy định mới về thời gian đóng bảo hiểm xã hội.  \n\nNguồn: 41/2024/QH15:article:141.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 23775.16330004437,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:43:23:0",

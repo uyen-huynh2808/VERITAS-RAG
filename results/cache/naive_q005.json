@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Người sử dụng lao động có những quyền cơ bản nào trong tuyển dụng và quản lý lao động?",
-  "answer": "**Các quyền cơ bản của người sử dụng lao động trong tuyển dụng và quản lý lao động (theo các Điều 5, 6 và 11 của Nghị định 45/2019/QH14):**\n\n1. **Quyền tuyển dụng**  \n   - Tuyển dụng lao động trực tiếp hoặc thông qua tổ chức dịch vụ việc làm, doanh nghiệp cho thuê lại lao động, phù hợp với nhu cầu của mình (Context 3).  \n   - Người lao động không được trả bất kỳ chi phí nào cho việc tuyển dụng (Context 3).\n\n2. **Quyền bố trí, quản lý, điều hành và giám sát lao động**  \n   - Được tuyển dụng, bố trí, quản lý, điều hành, giám sát người lao động (Context 1).  \n\n3. **Quyền khen thưởng và xử lý vi phạm kỷ luật**  \n   - Có quyền khen thưởng người lao động và xử lý các vi phạm kỷ luật lao động (Context 1).  \n\n4. **Quyền thành lập,",
-  "latency_ms": 14966.373099945486,
+  "answer": "- Tuyển dụng, bố trí, quản lý, điều hành, giám sát lao động;  \n- Khen thưởng và xử lý vi phạm kỷ luật lao động;  \n- Thành lập, gia nhập, hoạt động trong tổ chức đại diện người sử dụng lao động, tổ chức nghề nghiệp và các tổ chức khác theo quy định của pháp luật;  \n- Yêu cầu tổ chức đại diện người lao động thương lượng để ký kết thỏa ước lao động tập thể;  \n- Tham gia giải quyết tranh chấp lao động, đình công;  \n- Đối thoại, trao đổi với tổ chức đại diện người lao động về các vấn đề trong quan hệ lao động, cải thiện đời sống vật chất và tinh thần của người lao động;  \n- Đóng cửa tạm thời nơi làm việc;  \n- Các quyền khác theo quy định của pháp luật.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 9270.851699984632,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:6:3:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2026, các khoản 4 và 5 Điều 24 cùng các điều 26, 32, 35, 36, 39 và 42 của Luật Giáo dục nghề nghiệp đã có hiệu lực chưa?",
-  "answer": "Có. Theo Điều 44, khoản 2 của Luật Giáo dục nghề nghiệp số 124/2025/QH15, khoản 4 và khoản 5 Điều 24 cùng các điều 26, 32, 35, 36, 39 và 42 có hiệu lực thi hành từ ngày **01 tháng 7 năm 2026**. Vì vậy vào ngày 01/07/2026 các quy định này đã có hiệu lực.",
-  "latency_ms": 10504.656700068153,
+  "answer": "Có, các khoản 4 và 5 Điều 24 cùng các điều 26, 32, 35, 36, 39 và 42 của Luật Giáo dục nghề nghiệp đã có hiệu lực thi hành từ ngày 01 tháng 7 năm 2026.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 8136.099900002591,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.2:19:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2025, người tham gia bảo hiểm xã hội tự nguyện trước 01/01/2021 và đủ 20 năm đóng nhưng chưa đủ tuổi chuyển tiếp đã được hưởng lương hưu chưa?",
-  "answer": "Không. Theo Điều 141 của Luật Bảo hiểm xã hội (Document 41/2024/QH15), người tham gia bảo hiểm xã hội tự nguyện trước ngày 01/01/2021 và đã đóng đủ 20 năm chỉ được hưởng lương hưu khi **đủ tuổi** (nam 60 tuổi, nữ 55 tuổi) hoặc khi có nguyện vọng hưởng lương hưu theo quy định tại Điều 98. Vì ở",
-  "latency_ms": 1889.2931999871507,
+  "answer": "Không, người tham gia bảo hiểm xã hội tự nguyện trước 01/01/2021 dù đã đủ 20 năm đóng nhưng chưa đạt tuổi nghỉ hưu (60 tuổi nam, 55 tuổi nữ) thì chưa được hưởng lương hưu. Nguồn: 41/2024/QH15.",
+  "latency_ms": 14996.569900016766,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:1",

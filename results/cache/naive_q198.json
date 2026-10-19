@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người sử dụng lao động tuyển người vào học nghề để làm việc cho mình sau khi Luật Giáo dục nghề nghiệp mới có hiệu lực; để xác định nghĩa vụ về học phí và quyền thành lập cơ sở hoặc mở lớp đào tạo, cần kết hợp hai sửa đổi nào trong Điều 43?",
-  "answer": "Cần kết hợp **sửa đổi 43.1.a** (về việc thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc) và **sửa đổi 43.1.b** (quy định người sử dụng lao động không được thu học phí khi tuyển người vào học nghề, tập nghề để làm việc cho mình).",
-  "latency_ms": 1400.8068999974057,
+  "answer": "Cần kết hợp sửa đổi a) khoản 2 Điều 59 (điều 43.1.a) và sửa đổi b) khoản 3 Điều 61 (điều 43.1.b).  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 1084.4199999701232,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.a:18:0",

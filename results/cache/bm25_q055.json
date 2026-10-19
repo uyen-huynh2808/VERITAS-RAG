@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, thẩm quyền bổ nhiệm hiệu trưởng cơ sở giáo dục nghề nghiệp công lập và tư thục được xác định theo quy định nào của Luật Giáo dục nghề nghiệp?",
-  "answer": "Theo quy định tại **Điều 45, khoản 45.12** và **khoản 45.13** của Luật Giáo dục nghề nghiệp (số 124/2025/QH15),",
-  "latency_ms": 11236.11279996112,
+  "answer": "Theo Luật Giáo dục nghề nghiệp, thẩm quyền bổ nhiệm hiệu trưởng:\n\n- Đối với cơ sở giáo dục nghề nghiệp công lập: quy định tại Điều 45, khoản 45.12.  \n- Đối với cơ sở giáo dục nghề nghiệp tư thục: quy định tại Điều 45, khoản 45.13.  \n\nNguồn: 124/2025/QH15. Nguồn: 124/2025/QH15.",
+  "latency_ms": 9152.513099950738,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.13:20:0",

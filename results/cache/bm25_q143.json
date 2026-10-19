@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định quy tắc xử lý khi Luật Công nghiệp công nghệ số và luật khác có quy định khác nhau về cùng một vấn đề, nên truy xuất điều khoản nào?",
-  "answer": "Theo quy định tại **Điều 50** của **Luật 71/2025/QH15** (điều khoản 50, trang 22) – “Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này.”  \n\nVì vậy, vào ngày 01/01/2026, khi Luật Công nghiệp công nghệ số và các luật khác có quy định trái nhau về cùng một vấn đề, bạn cần truy xuất **Điều 50 (Provision 50) của Luật 71/2025/QH15** để xác định quy tắc xử lý.",
-  "latency_ms": 13631.260699941777,
+  "answer": "Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì áp dụng quy định của Luật này.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 13094.49470002437,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

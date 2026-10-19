@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Công nghiệp công nghệ số 71/2025/QH15 bổ sung khoản nào vào Điều 154 của Bộ luật Lao động 45/2019/QH14 để xác định nhân lực công nghiệp công nghệ số chất lượng cao?",
-  "answer": "Luật số 71/2025/QH15 đã **bổ sung khoản 8a** vào sau khoản 8 và trước khoản 9 của Điều 154 Bộ luật Lao động 45/2019/QH14, với nội dung:\n\n**“8a. Nhân lực công nghiệp công nghệ số chất lượng cao theo quy định của pháp luật về công nghiệp công nghệ số.”**",
-  "latency_ms": 9391.818800009787,
+  "answer": "Bổ sung khoản 8a vào sau khoản 8 và trước khoản 9 Điều 154 của Bộ luật Lao động số 45/2019/QH14.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 11380.347800033633,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",

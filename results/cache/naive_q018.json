@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trong trường hợp một người thuộc đồng thời một số nhóm đối tượng tại khoản 1 Điều 2, Luật Bảo hiểm xã hội ưu tiên nhóm nào trong một số trường hợp cụ thể?",
-  "answer": "",
-  "latency_ms": 15349.495799979195,
+  "answer": "Ưu tiên theo thứ tự: người có công với cách mạng → thân nhân liệt sĩ → người khuyết tật → người được bố trí tái định cư theo hình thức mua, thuê mua nhà ở xã hội → người có từ 02 con đẻ trở lên → nữ giới.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 11306.443199981004,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:3:0",

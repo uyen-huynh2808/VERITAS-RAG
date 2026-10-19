@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người có thời gian làm việc trước 01/01/1995 và đang hưởng phụ cấp khu vực; tại 01/07/2025, cần kết hợp quy định chung của Luật Bảo hiểm xã hội mới với khoản chuyển tiếp nào để xác định quyền hưởng?",
-  "answer": "",
-  "latency_ms": 23613.72989998199,
+  "answer": "Áp dụng quy định chuyển tiếp về thời gian làm việc trước ngày 01/01/1995 được tính để hưởng bảo hiểm xã hội (điều 141) kết hợp với quy định chung của Luật Bảo hiểm xã hội.  \nNguồn: 41/2024/QH15 article 141.",
+  "latency_ms": 1495.7304999697953,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:0",

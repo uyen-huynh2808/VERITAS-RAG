@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 31/12/2026, quy định tại điểm c và điểm d khoản 1 Điều 14 của Luật Dân số đã có hiệu lực chưa?",
-  "answer": "Theo **Context 1** (văn bản 113/2025/QH15, Điều 30.2) quy định tại **điểm c và điểm d khoản 1 Điều 14** của Luật Dân số **có hiệu lực thi hành từ ngày 01 / 01 / 2027**.  \n\nVì ngày **31 / 12 / 2026** vẫn chưa tới ngày 01 / 01 / 2027, nên vào thời điểm đó các quy định này **chưa có hiệu lực**.",
-  "latency_ms": 16537.99980005715,
+  "answer": "Chưa, vì quy định tại điểm c và điểm d khoản 1 Điều 14 của Luật này chỉ có hiệu lực thi hành từ ngày 01 /01 /2027, nên vào ngày 31 /12 /2026 vẫn chưa có hiệu lực.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 12311.704199993983,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.2:12:0",

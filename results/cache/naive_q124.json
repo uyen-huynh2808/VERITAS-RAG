@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2026, văn bản nào trong bộ tài liệu có một nhóm điều khoản về giáo dục nghề nghiệp bắt đầu có hiệu lực riêng?",
-  "answer": "Không đủ",
-  "latency_ms": 8732.491000089794,
+  "answer": "Luật 124/2025/QH15 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026, đánh dấu việc một nhóm điều khoản về giáo dục nghề nghiệp bắt đầu có hiệu lực riêng.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 936.4886999828741,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

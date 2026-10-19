@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, một bên muốn hủy bỏ việc đơn phương chấm dứt hợp đồng trước khi hết thời hạn báo trước; điều kiện về thời điểm và sự đồng ý của bên kia được xác định thế nào?",
-  "answer": "Theo quy định tại Điều 38 của Nghị định 45/2019/QH14 (Context 1), **mỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước**.  \n\nĐể thực hiện quyền này, bên muốn hủy bỏ phải đáp ứng hai điều kiện:\n\n1. **Thông báo bằng văn bản** cho bên kia;  \n2. **Được sự đồng ý của bên kia** (sự chấp nhận bằng văn bản).  \n\nVì vậy, vào ngày 01/01/2021, nếu một bên muốn rút lại quyết định chấm dứt hợp đồng trước khi thời gian báo trước kết thúc, bên đó phải gửi thông báo bằng văn bản và phải có sự đồng ý bằng văn bản của bên đối tác.",
-  "latency_ms": 16941.553100012243,
+  "answer": "Mỗi bên có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước, nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.  \nNguồn: 45/2019/QH14:article:38.",
+  "latency_ms": 15632.370999956038,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:38:13:0",

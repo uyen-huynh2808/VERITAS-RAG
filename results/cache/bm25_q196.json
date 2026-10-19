@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một doanh nghiệp tuyển nhân lực công nghiệp công nghệ số chất lượng cao và muốn biết cả ưu đãi thuế thu nhập cá nhân lẫn việc khái niệm này được bổ sung vào Bộ luật Lao động; cần kết hợp những sửa đổi nào của Điều 49?",
-  "answer": "",
-  "latency_ms": 22298.271299921907,
+  "answer": "Cần áp dụng các sửa đổi được liệt kê trong Điều 49 của Luật 71/2025/QH15, bao gồm:\n\n- Bãi bỏ các khoản 9, 10, 11 và 12 Điều 4; Mục 3 và Mục 4 Chương III của Luật Công nghệ thông tin 67/2006/QH11.  \n- Sửa đổi, bổ sung điểm a khoản 1 Điều 5 của Luật Công nghệ cao 21/2008/QH12.  \n- Bổ sung khoản 17 vào sau khoản 16 Điều 4 của Luật Thuế thu nhập cá nhân.  \n- Bổ sung khoản 8a vào sau khoản 8 và trước khoản 9 Điều 154 của Bộ luật Lao động 45/2019/QH14.  \n\nCác sửa đổi này cùng nhau đưa ra ưu đãi thuế thu nhập cá nhân cho nhân lực công nghiệp công nghệ số chất lượng cao và bổ sung khái niệm này vào Bộ luật Lao động.  \n\nNguồn: 71/2025/QH15.  \n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 1589.8774999659508,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",

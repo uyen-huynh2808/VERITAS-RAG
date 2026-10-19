@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định thời gian nghỉ của lao động nam khi vợ sinh đôi, nên truy xuất điều khoản nào?",
-  "answer": "",
-  "latency_ms": 13904.811499989592,
+  "answer": "Theo quy định, khi vợ sinh đôi, lao động nam được nghỉ 10 ngày làm việc.\n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 7254.216699977405,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:27:0",

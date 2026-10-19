@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 31/12/2020, Bộ luật Lao động 45/2019/QH14 đã có hiệu lực thi hành chưa?",
-  "answer": "Theo nội dung trong **Context 3**, Bộ luật Lao động số 45/2019/QH14 có hiệu lực thi hành **từ ngày 01 tháng 01 năm 2021**. Vì vậy, vào ngày **31/12/2020** thì Bộ luật này **chưa có hiệu lực thi hành**.",
-  "latency_ms": 11649.467800045386,
+  "answer": "Không, vào ngày 31/12/2020 Bộ luật Lao động 45/2019/QH14 chưa có hiệu lực thi hành. Nguồn: 45/2019/QH14.",
+  "latency_ms": 13430.280799977481,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

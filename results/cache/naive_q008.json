@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trong thời hạn bao lâu kể từ ngày thỏa ước lao động tập thể được ký kết, người sử dụng lao động phải gửi một bản đến cơ quan chuyên môn về lao động?",
-  "answer": "Trong thời hạn **10 ngày** kể từ ngày thỏa ước lao động tập thể được ký kết, người sử dụng lao động phải gửi một bản thỏa ước lao động tập thể đến cơ quan chuyên môn về lao động.",
-  "latency_ms": 9492.090100073256,
+  "answer": "Trong thời hạn 10 ngày kể từ ngày thỏa ước lao động tập thể được ký kết, người sử dụng lao động phải gửi 01 bản thỏa ước lao động tập thể đến cơ quan chuyên môn về lao động.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 6989.755199989304,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:77:26:0",

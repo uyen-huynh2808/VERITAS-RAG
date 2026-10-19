@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Bộ luật Lao động, độ tuổi lao động tối thiểu của người lao động là bao nhiêu tuổi?",
-  "answer": "Độ tuổi lao động tối thiểu của người lao động là **15 tuổi** (trừ các trường hợp đặc biệt được quy định tại Mục 1 Chương XI của Bộ luật Lao động).",
-  "latency_ms": 1053.259800071828,
+  "answer": "Độ tuổi lao động tối thiểu của người lao động là đủ 15 tuổi.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 795.0313999899663,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:3:1:0",

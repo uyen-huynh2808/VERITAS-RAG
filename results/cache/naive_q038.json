@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Điều lệ cơ sở giáo dục nghề nghiệp phải bao gồm những nhóm nội dung chủ yếu nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 5748.431299929507,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 124/2025/QH15",
+  "latency_ms": 3758.1797000020742,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:article:9:5:0",

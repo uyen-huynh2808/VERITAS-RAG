@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người đang nghỉ ốm đau dài ngày theo luật cũ và đồng thời có nghĩa vụ đóng bảo hiểm xã hội chưa hoàn tất đến hết 30/06/2025; tại 01/07/2025, hai vấn đề này được xử lý theo những khoản chuyển tiếp khác nhau như thế nào?",
-  "answer": "",
-  "latency_ms": 22829.196200007573,
+  "answer": "- Theo khoản chuyển tiếp, kể từ ngày Luật này có hiệu lực thi hành, người lao động đang nghỉ việc hưởng chế độ ốm đau do mắc bệnh thuộc danh mục bệnh cần chữa trị dài ngày sẽ **tiếp tục hưởng chế độ ốm đau đến hết thời hạn đã được giải quyết**. 【Document: 41/2024/QH15】  \n\n- Về việc nghĩa vụ đóng bảo hiểm xã hội chưa hoàn tất đến hết 30/06/2025, tài liệu không đưa ra quy định chuyển tiếp nào liên quan.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 23458.81919999374,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:43:23:0",

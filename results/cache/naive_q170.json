@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Điều 219 của Bộ luật Lao động, người lao động có mức suy giảm khả năng lao động từ 61% đến dưới 81% được đặt trong quan hệ thế nào với tuổi nghỉ hưu để hưởng lương hưu thấp hơn?",
-  "answer": "Theo quy định tại Điều 219 (điều chỉnh trong Nghị quyết 45/2019/QH14), người lao động có mức suy giảm khả năng lao động từ **61 % đến dưới 81 %** chỉ được hưởng lương hưu ở mức thấp hơn **khi tuổi của mình không vượt quá 5 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động**.  Nghĩa là, người lao động này phải có tuổi **thấp nhất 5 tuổi** so với tuổi nghỉ hưu chuẩn để được áp dụng mức lương hưu thấp hơn.",
-  "latency_ms": 27461.191699956544,
+  "answer": "Người lao động có mức suy giảm khả năng lao động từ 61 % đến dưới 81 % được hưởng lương hưu với mức thấp hơn khi tuổi của mình không vượt quá 5 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 1341.9533999986015,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:65:34:0",

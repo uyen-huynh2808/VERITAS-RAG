@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một quy định của Luật Công nghiệp công nghệ số về cùng một vấn đề khác với luật khác nhưng luật kia có cơ chế ưu đãi thuận lợi hơn; nguyên tắc lựa chọn quy định áp dụng theo Luật này là gì?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 1038.866400020197,
+  "answer": "Không đủ thông tin trong tài liệu.  \n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 11960.473800019827,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:4:2:0",

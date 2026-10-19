@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025,nếu cần xác định xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết 30/06/2025, nên truy xuất điều khoản chuyển tiếp nào?",
-  "answer": "Để xác định cách xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết ngày 30/06/2025, cần truy xuất **điều 38 (Provision 38) – “Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp”** của Nghị định 41/2024/QH15 (tài liệu: 41/2024/QH15:article:38).",
-  "latency_ms": 19267.01690000482,
+  "answer": "Điều 38 quy định về “Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp”, trong đó nêu rõ các trường hợp xử lý khi người sử dụng lao động chưa đóng hoặc đóng chưa đầy đủ số tiền phải đóng theo hồ sơ tham gia bảo hiểm xã hội bắt buộc.\n\nNguồn: 41/2024/QH15. Nguồn: 41/2024/QH15.",
+  "latency_ms": 11120.76680001337,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:33:19:0",

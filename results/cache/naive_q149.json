@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định hồ sơ thủ tục hành chính đã nộp hợp lệ trước ngày này được giải quyết theo luật nào, cần truy xuất khoản chuyển tiếp nào?",
-  "answer": "Theo **Khoản 45.14** của Điều 45 (điều khoản chuyển tiếp) trong Nghị định 124/2025/QH15:\n\n- Hồ sơ đề nghị giải quyết thủ tục hành chính đã nộp hợp lệ trước ngày **01 /01 /2026** và thuộc thẩm quyền của cơ quan quy định tại **Luật số 74/2014/QH13** (Luật Giáo dục nghề nghiệp",
-  "latency_ms": 10280.218299943954,
+  "answer": "Hồ sơ thủ tục hành chính đã nộp hợp lệ trước ngày 01/01/2026 sẽ được giải quyết theo quy định của Luật Giáo dục nghề nghiệp số 74/2014/QH13 tại thời điểm nộp hồ sơ. Để xác định quy định này cần truy xuất “Điều khoản chuyển tiếp” được nêu trong Điều 45 của Nghị quyết 124/2025/QH15.  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 6244.828699971549,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",

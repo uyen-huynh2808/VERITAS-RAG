@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật An toàn, vệ sinh lao động về việc tạm dừng và hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp theo các điều nào của Luật mới?",
-  "answer": "Theo khoản 3 Điều 49 được sửa đổi, việc **tạm dừng** và **hưởng tiếp** trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng được thực hiện theo **Điều 75**, **Điều 80** và **Điều 81** của Luật Bảo",
-  "latency_ms": 7921.232199994847,
+  "answer": "Việc tạm dừng và hưởng tiếp trợ cấp tai nạn lao động, bệnh nghề nghiệp được thực hiện theo Điều 75, Điều 80 và Điều 81 của Luật Bảo hiểm xã hội.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 905.6804999709129,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",

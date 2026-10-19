@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xử lý hợp đồng lao động vô hiệu từng phần, nên truy xuất điều khoản nào của Bộ luật Lao động?",
-  "answer": "Theo nội dung trong **Điều 51** của Bộ luật Lao động (tài liệu 45/2019/QH14, article 51) quy định cách xử lý khi hợp đồng lao động bị tuyên bố vô hiệu **từng phần**.",
-  "latency_ms": 9839.396300027147,
+  "answer": "Điều 51 quy định cách xử lý khi hợp đồng lao động bị tuyên bố vô hiệu từng phần.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 10808.6499000201,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:49:17:0",

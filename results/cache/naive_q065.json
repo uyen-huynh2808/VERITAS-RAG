@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Sau ngày 01/01/2021, Bộ luật Lao động 10/2012/QH13 còn tiếp tục có hiệu lực theo điều khoản thi hành của Bộ luật 45/2019/QH14 không?",
-  "answer": "Không. Theo Điều 220 của Bộ luật Lao động 45/2019/QH14, “Bộ luật Lao động số 10/2012/QH13 **hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực**” (tức từ ngày 01 /01 /2021). Vì vậy sau ngày 01 /01 /2021, Bộ luật 10/2012/QH13 không còn hiệu lực thi hành.",
-  "latency_ms": 10786.364400060847,
+  "answer": "Không, Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày 01/01/2021 khi Bộ luật 45/2019/QH14 có hiệu lực.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 7905.209299991839,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

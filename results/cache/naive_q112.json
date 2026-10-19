@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một văn bản ủy quyền nhận lương hưu được lập theo Luật 58/2014/QH13 vẫn còn tồn tại sau 30/06/2026; tại 01/07/2026, quy định chuyển tiếp có cho phép tiếp tục dùng văn bản đó không?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 13082.245300058275,
+  "answer": "Không, văn bản ủy quyền nhận lương hưu không được tiếp tục sử dụng sau ngày 01/07/2026 vì thời hạn hiệu lực tối đa của văn bản ủy quyền là 12 tháng kể từ ngày xác lập (theo Điều 10).  \nNguồn: 41/2024/QH15. Nguồn: 41/2024/QH15.",
+  "latency_ms": 9243.826499965508,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:10:8:0",

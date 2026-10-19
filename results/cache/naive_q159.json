@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một chính sách hỗ trợ sinh con thuộc điểm c khoản 1 Điều 14 được hỏi đúng ngày 01/07/2026; để xác định có thể áp dụng ngay hay phải chờ, cần đối chiếu quy định nội dung với điều khoản hiệu lực nào?",
-  "answer": "Đối chiếu với **điều khoản quy định hiệu lực thi hành của điểm c khoản 1 Điều 14** – theo nội dung trong Context 4:  \n\n> “Quy định tại **điểm c và điểm d khoản 1 Điều 14** của Luật này có hiệu lực thi hành **từ ngày 01 tháng 01 năm 2027**.”  \n\nVì vậy, vào ngày 01/07/2026 chính sách hỗ trợ sinh con thuộc điểm c khoản 1 Điều 14 chưa có hiệu lực và phải chờ đến ngày 01/01/2027 mới được áp dụng.",
-  "latency_ms": 8780.679400078952,
+  "answer": "Điểm c khoản 1 Điều 14 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2027.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 753.3223999780603,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Những loại dự án nào được nêu là ngành, nghề đặc biệt ưu đãi đầu tư trong hỗ trợ sản xuất và cung cấp dịch vụ côngnghệ số?",
-  "answer": "Theo Điều 28 của Nghị định 71/2025/QH15 (Context 1), các dự án được quy định là **ngành, nghề đặc biệt ưu đãi đầu tư** trong lĩnh vực hỗ trợ sản xuất và cung cấp dịch vụ công nghệ số bao gồm:\n\n1. **Dự án sản xuất sản phẩm công nghệ số trọng điểm**  \n2. **Dự án nghiên cứu và phát triển, thiết kế, sản xuất, đóng gói, kiểm thử sản phẩm chip bán dẫn**  \n3. **Dự án xây dựng trung tâm dữ liệu trí tuệ nhân tạo**  \n\nCác dự án trên được hưởng các ưu đãi, hỗ trợ theo quy định của pháp luật về đầu tư, thuế, đất đai và các luật",
-  "latency_ms": 16043.348900042474,
+  "answer": "Các dự án được quy định là “ngành, nghề đặc biệt ưu đãi đầu tư” trong lĩnh vực hỗ trợ sản xuất và cung cấp dịch vụ công nghệ số bao gồm:\n\n- Sản xuất sản phẩm và cung cấp dịch vụ công nghệ số.  \n- Sản xuất sản phẩm công nghệ số trọng điểm.  \n- Sản xuất sản phẩm phần mềm.  \n- Phát triển hệ thống trí tuệ nhân tạo.  \n- Nghiên cứu, thiết kế, sản xuất, đóng gói và kiểm thử sản phẩm chip bán dẫn.  \n- Đầu tư xây dựng trung tâm dữ liệu trí tuệ nhân tạo.  \n\nNguồn: 71/2025/QH15.article:28.",
+  "latency_ms": 15505.411499994807,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:28:12:0",

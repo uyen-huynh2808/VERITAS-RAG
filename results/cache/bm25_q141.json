@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định hỗ trợ dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số, nên truy xuất điều khoản nào?",
-  "answer": "Bạn nên tra cứu **Điều 29** (Provision 29) của Nghị định **71/2025/QH15** – đây là điều khoản quy định về “Hỗ trợ, ưu đãi dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số”.",
-  "latency_ms": 22403.40740000829,
+  "answer": "Điều 29 quy định hỗ trợ, ưu đãi dự án khởi nghiệp sáng tạo trong công nghiệp công nghệ số.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 19132.44560000021,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:29:12:0",

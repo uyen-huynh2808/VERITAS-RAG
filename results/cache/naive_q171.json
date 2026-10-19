@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động 45/2019/QH14 sửa đổi Điều 32 của Bộ luật Tố tụng dân sự 92/2015/QH13 theo hướng bổ sung những trường hợp tranh chấp lao động nào không cần hòa giải trước?",
-  "answer": "Các trường hợp tranh chấp lao động được bổ sung vào Điều 32 của Bộ luật Tố tụng dân sự 92/2015/QH13, theo Nghị định 45/2019/QH14, **không",
-  "latency_ms": 17413.08810003102,
+  "answer": "Các trường hợp tranh chấp lao động không bắt buộc phải qua thủ tục hòa giải trước khi đưa ra Tòa án hoặc Hội đồng trọng tài lao động bao gồm:\n\n1. Tranh chấp về xử lý kỷ luật lao động theo hình thức sa thải hoặc về trường hợp bị đơn phương chấm dứt hợp đồng lao động;  \n2. Tranh chấp về bồi thường thiệt hại, trợ cấp khi chấm dứt hợp đồng lao động;  \n3. Tranh chấp giữa người giúp việc gia đình với người sử dụng lao động;  \n4. Tranh chấp liên quan đến bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo quy định của pháp luật tương ứng;  \n5. Tranh chấp về bồi thường thiệt hại giữa người lao động với doanh nghiệp, tổ chức đưa người lao động đi làm việc ở nước ngoài theo hợp đồng;  \n6. Tranh chấp giữa người lao động thuê lại với người sử dụng lao động thuê lại.  \n\nNguồn: 45/2019/QH14:article:219. Nguồn: 45/2019/QH14:article:188.",
+  "latency_ms": 1089.8059999453835,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:219:67:1",

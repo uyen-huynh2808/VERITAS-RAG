@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2025, nếu có quy định khác nhau giữa Luật Công nghiệp công nghệ số và một luật khác về cùng vấn đề, nguyên tắc ưu tiên nào được kích hoạt?",
-  "answer": "Theo quy định tại Điều 50 của Luật 71/2025/QH15 (Context 1):  \n\n> “Trường hợp có quy định khác nhau về cùng một vấn đề giữa Luật này với luật, nghị quyết khác của Quốc hội thì **áp dụng quy định của Luật này**. Trừ trường hợp văn bản quy phạm pháp luật khác có quy định cơ chế, chính sách ưu đãi hoặc thuận lợi hơn Luật này thì đối tượng được ưu đãi được áp dụng mức ưu đãi có lợi nhất.”\n\nVì vậy, vào ngày 01 /07 /2025, khi có sự khác nhau về quy định giữa Luật Công nghiệp công nghệ số và một luật khác về cùng một vấn đề, nguyên tắc ưu tiên được kích hoạt là **ưu tiên áp dụng quy định của Luật Công nghiệp công nghệ số**, trừ khi có văn bản pháp luật khác đưa ra chế độ ưu đãi hoặc thuận lợi hơn, trong trường hợp đó sẽ áp dụng mức ưu đãi có lợi nhất.",
-  "latency_ms": 1620.27339998167,
+  "answer": "Khi có quy định khác nhau về cùng một vấn đề giữa Luật Công nghiệp công nghệ số và luật, nghị quyết khác của Quốc hội, thì áp dụng quy định của Luật Công nghiệp công nghệ số.  \n\nNguồn: 71/2025/QH15:article:50.",
+  "latency_ms": 10204.0607999661,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

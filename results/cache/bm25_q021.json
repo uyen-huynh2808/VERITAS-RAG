@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trường hợp vợ sinh đôi nhưng không phẫu thuật, lao động nam được nghỉ bao nhiêu ngày làm việc?",
-  "answer": "10 ngày làm việc.",
-  "latency_ms": 16675.496599986218,
+  "answer": "Lao động nam được nghỉ **10 ngày làm việc** khi vợ sinh đôi (không cần phẫu thuật).  \nNguồn: 41/2024/QH15.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 14189.907899999525,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:27:0",

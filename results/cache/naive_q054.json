@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Luật Bảo hiểm xã hội, người sử dụng lao động có những trách nhiệm cơ bản nào trong việc đóng và cung cấp thông tin bảo hiểm xã hội?",
-  "answer": "**Các trách nhiệm cơ bản của người sử dụng lao động theo Luật Bảo hiểm xã hội (theo các nội dung trong tài liệu):**\n\n1. **Đăng ký tham gia bảo hiểm xã hội cho người lao động**  \n   - Kê khai và nộp hồ sơ tham gia bảo hiểm xã hội bắt buộc (hoặc tự nguyện) cho cơ quan bảo hiểm xã hội trong thời hạn 30 ngày kể từ ngày người lao động thuộc đối tượng (Context 4).  \n   - Phối hợp với cơ quan bảo hiểm xã hội để cấp sổ bảo hiểm xã hội (bản giấy) cho người lao động (Context 1, 4).\n\n2. **Nộp và đóng bảo hiểm xã hội bắt buộc**  \n   - Đóng bảo hiểm xã hội bắt buộc cho người lao động theo quy định tại Điều 34 và trích khoản tiền đóng bảo hiểm xã hội bắt buộc từ tiền lương của người lao động mỗi tháng (Context 1).  \n   - Thanh toán đồng thời với kỳ trả lương cho người lao động không thuộc đối tượng bắt buộc (theo quy định tương tự trong Context 2).\n\n3. **Xác nhận thời gian đóng bảo hiểm**  \n   - Phối hợp với cơ quan bảo hiểm xã",
-  "latency_ms": 18189.58600005135,
+  "answer": "- Đăng ký tham gia bảo hiểm xã hội bắt buộc cho người lao động và nộp hồ sơ, hồ sơ cấp sổ bảo hiểm xã hội trong thời hạn quy định.  \n- Đóng bảo hiểm xã hội bắt buộc cho người lao động hàng tháng, trích khoản tiền từ tiền lương và nộp vào quỹ bảo hiểm xã hội.  \n- Cung cấp đầy đủ, chính xác, kịp thời thông tin, tài liệu liên quan đến việc đóng và hưởng bảo hiểm xã hội cho cơ quan nhà nước có thẩm quyền.  \n- Phối hợp với cơ quan bảo hiểm xã hội trong việc xác nhận thời gian đóng bảo hiểm, trả trợ cấp, thu hồi số tiền bảo hiểm không đúng quy định và bồi thường nếu không thực hiện đầy đủ trách nhiệm.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 16460.297900019214,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:13:9:0",

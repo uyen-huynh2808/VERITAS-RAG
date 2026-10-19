@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định ngày bắt đầu nghỉ của lao động nam khi vợ sinh con phải nằm trong bao nhiêu ngày kể từ ngày sinh, nên truy xuất quy định nào?",
-  "answer": "Bạn cần tra cứu **khoản 2 Điều ... của Điều 53** trong **Luật 41/2024/QH15**. Theo quy định này, ngày bắt đầu nghỉ việc hưởng chế độ thai sản của lao động nam phải nằm trong **khoảng thời gian 60 ngày kể từ ngày vợ sinh con",
-  "latency_ms": 15904.86770006828,
+  "answer": "Khoản 2 Điều 139 của Bộ luật Lao động quy định rằng ngày bắt đầu nghỉ việc hưởng chế độ thai sản (bao gồm cả nghỉ cho lao động nam khi vợ sinh con) phải nằm trong khoảng thời gian 60 ngày kể từ ngày vợ sinh con.  \n\nNguồn: 41/2024/QH15. Nguồn: 41/2024/QH15.",
+  "latency_ms": 17360.481100040488,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:27:0",

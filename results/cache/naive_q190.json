@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Dân số 113/2025/QH15 bổ sung khoản 13 vào Điều 76 của Luật Nhà ở để mở rộng nhóm đối tượng nào?",
-  "answer": "Luật Dân số 113/2025/QH15 bổ sung khoản 13 vào Điều 76 của Luật Nhà ở nhằm mở rộng nhóm đối tượng **người có từ 02 con đẻ trở lên**.",
-  "latency_ms": 10326.902300002985,
+  "answer": "Luật Dân số 113/2025/QH15 bổ sung khoản 13 vào Điều 76 để mở rộng đối tượng là “Người có từ 02 con đẻ trở lên.”  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 10159.215300052892,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.3.a:11:0",

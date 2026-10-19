@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người lao động bị đơn phương chấm dứt hợp đồng trái pháp luật; ngoài nghĩa vụ về tiền lương và bảo hiểm, Bộ luật Lao động còn đặt ra những nghĩa vụ tài chính nào đối với người lao động?",
-  "answer": "Theo Điều 40 của Bộ luật Lao động (xem **Context 2**), khi người lao động tự mình đơn phương chấm dứt hợp đồng lao động một cách trái pháp luật, ngoài việc không được nhận trợ cấp thôi việc, người lao động còn phải thực hiện các nghĩa vụ tài chính sau:\n\n1. **Bồi thường cho người sử dụng lao động**  \n   - Trả **nửa tháng tiền lương** theo hợp đồng lao động.  \n   - Trả **tiền lương tương ứng** với những ngày không báo trước (theo quy định về thời hạn báo trước).\n\n2. **Hoàn trả chi phí đào tạo** mà người sử dụng lao động đã chi trả cho người lao động, theo quy định tại Điều 62 của Bộ luật Lao động.\n\nNhư vậy, các nghĩa vụ tài chính của người lao động bao gồm: bồi thường nửa tháng lương, bồi thường tiền lương cho thời gian không báo trước, và hoàn trả chi phí đào tạo. (Nguồn: **Context",
-  "latency_ms": 13920.566499931738,
+  "answer": "- Không được trợ cấp thôi việc.  \n- Phải bồi thường cho người sử dụng lao động nửa tháng tiền lương theo hợp đồng lao động và một khoản tiền tương ứng với tiền lương theo hợp đồng lao động trong những ngày không báo trước.  \n- Phải hoàn trả cho người sử dụng lao động chi phí đào tạo quy định tại Điều 62 của Bộ luật Lao động.  \n\nNguồn: 45/2019/QH14:article:40.",
+  "latency_ms": 13667.717000003904,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:41:14:0",

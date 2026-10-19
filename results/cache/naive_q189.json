@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Dân số 113/2025/QH15 sửa điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội 41/2024/QH15 về thời gian nghỉ của lao động nam trong những trường hợp nào?",
-  "answer": "Theo điểm c khoản 2",
-  "latency_ms": 18562.627899926156,
+  "answer": "- Khi vợ sinh đôi hoặc sinh con thứ hai: nghỉ 10 ngày làm việc.  \n- Khi vợ sinh ba trở lên: nghỉ thêm 3 ngày làm việc cho mỗi đứa con tính từ đứa thứ ba trở đi.  \n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 16481.637999997474,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",

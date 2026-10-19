@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, một tình huống thuộc Điều 28 của Luật Công nghiệp công nghệ số được đánh giá theo quy định của điều này hay phải chờ đến 01/01/2026?",
-  "answer": "Theo nội dung trong **Context 3**, “Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 07 năm 2025.” Vì vậy, vào ngày **01/07/2025** tình huống thuộc **Điều 28** đã có hiệu lực và phải được đánh giá theo quy định của Điều 28 ngay tại thời điểm đó; không cần chờ đến ngày 01/01/2026.",
-  "latency_ms": 14036.815600004047,
+  "answer": "Điều 28 có hiệu lực thi hành từ ngày 01 / 07 / 2025, nên tại ngày 01 / 07 / 2025 tình huống này được áp dụng theo quy định của Điều 28.\n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 8243.361199973151,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",

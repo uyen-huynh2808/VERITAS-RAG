@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xác định mức trợ cấp mất việc làm tối thiểu, nên truy xuất quy định nào?",
-  "answer": "Để xác định mức trợ cấp mất việc làm tối thiểu vào ngày 01/01/2021, cần tham khảo **Điều 47 của Nghị định 45/2019/QH14** (Document 45/2019/QH14, article 47, Provision 47). Trong quy định này quy định rằng “cứ mỗi năm làm việc trả 01 tháng tiền lương nhưng **ít nhất bằng 02 tháng tiền lương**,” là mức tối thiểu của trợ cấp mất việc làm.",
-  "latency_ms": 18780.284099979326,
+  "answer": "Theo Điều 47 của Luật Bảo hiểm xã hội, trợ cấp mất việc làm phải trả ít nhất bằng 02 tháng tiền lương.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 17997.38700001035,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:47:16:0",

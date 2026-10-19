@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, Bộ luật Lao động 10/2012/QH13 có còn hiệu lực đối với quan hệ lao động thông thường không?",
-  "answer": "Không. Theo Điều 220 của Bộ luật Lao động 45/2019/QH14 (Context 1), “Bộ luật Lao động số 10/2012/QH13 **hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực**”, tức là kể từ ngày 01 tháng 01 năm 2021. Vì vậy, vào ngày 01/01/2021, Bộ luật Lao động 10/2012/QH13 không còn hiệu lực đối",
-  "latency_ms": 12155.891299946234,
+  "answer": "Bộ luật Lao động số 10/2012/QH13 đã hết hiệu lực thi hành kể từ ngày 01 /01 /2021, khi Bộ luật Lao động 45/2019/QH14 có hiệu lực. Vì vậy vào ngày 01/01/2021, Bộ luật 10/2012/QH13 không còn áp dụng cho các quan hệ lao động thông thường.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 13412.409499986097,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

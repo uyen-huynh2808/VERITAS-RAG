@@ -2,554 +2,614 @@
   "summary": {
     "model": "bm25",
     "samples": 200,
-    "recall_at_k": 0.9,
-    "temporal_validity": 0.447,
-    "temporal_validity_assessable_samples": 200,
+    "recall_at_k": 0.909,
+    "recall_assessable_samples": 198,
+    "temporal_validity": 0.791,
+    "temporal_validity_assessable_samples": 88,
     "temporal_coverage": 1.0,
-    "invalid_citation_rate": 0.064,
-    "faithfulness": 0.74,
-    "latency_ms": 13522.7
+    "invalid_citation_rate": 0.041,
+    "invalid_citation_assessable_samples": 197,
+    "citation_coverage": 0.995,
+    "citation_coverage_assessable_samples": 200,
+    "faithfulness": 0.896,
+    "faithfulness_assessable_samples": 200,
+    "empty_answer_samples": 0,
+    "latency_ms": 11698.1
   },
   "results": [
     {
       "sample_id": "q001",
       "model_name": "bm25",
       "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.5714285714285714,
-      "latency_ms": 1563.8985999394208
+      "latency_ms": 975.6789000239223
     },
     {
       "sample_id": "q002",
       "model_name": "bm25",
       "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.42857142857142855,
-      "latency_ms": 1035.632099956274
+      "latency_ms": 914.3510999856517
     },
     {
       "sample_id": "q003",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 947.8267999365926
+      "latency_ms": 761.7936999886297
     },
     {
       "sample_id": "q004",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8526315789473684,
-      "latency_ms": 1618.697200086899
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9807692307692307,
+      "latency_ms": 862.8111999714747
     },
     {
       "sample_id": "q005",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8673469387755102,
-      "latency_ms": 3088.085600058548
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9705882352941176,
+      "latency_ms": 3214.1498999553733
     },
     {
       "sample_id": "q006",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 12487.235899898224
+      "latency_ms": 9950.994899962097
     },
     {
       "sample_id": "q007",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 15444.582899915986
+      "latency_ms": 15739.929499977734
     },
     {
       "sample_id": "q008",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9285714285714286,
-      "latency_ms": 12785.50749993883
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 14924.961199983954
     },
     {
       "sample_id": "q009",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9047619047619048,
-      "latency_ms": 15096.430700039491
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9743589743589743,
+      "latency_ms": 15128.068200021517
     },
     {
       "sample_id": "q010",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9047619047619048,
-      "latency_ms": 10117.304000072181
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9803921568627451,
+      "latency_ms": 8307.081300008576
     },
     {
       "sample_id": "q011",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9444444444444444,
-      "latency_ms": 12123.509300057776
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 15229.379100026563
     },
     {
       "sample_id": "q012",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8974358974358975,
-      "latency_ms": 19498.280200059526
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9565217391304348,
+      "latency_ms": 13168.95789996488
     },
     {
       "sample_id": "q013",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9636363636363636,
-      "latency_ms": 16349.242999916896
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8387096774193549,
+      "latency_ms": 16129.486899997573
     },
     {
       "sample_id": "q014",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8627450980392157,
-      "latency_ms": 12783.270900021307
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 9919.166999985464
     },
     {
       "sample_id": "q015",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8382352941176471,
-      "latency_ms": 9917.54019993823
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9122807017543859,
+      "latency_ms": 5271.419600001536
     },
     {
       "sample_id": "q016",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.776595744680851,
-      "latency_ms": 13898.416799958795
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 13216.321500018239
     },
     {
       "sample_id": "q017",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8636363636363636,
-      "latency_ms": 21065.91100001242
+      "citation_coverage": 1.0,
+      "faithfulness": 0.92,
+      "latency_ms": 20287.873700028285
     },
     {
       "sample_id": "q018",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 24123.182100011036
+      "invalid_citation_rate": null,
+      "citation_coverage": 0.0,
+      "faithfulness": 0.8076923076923077,
+      "latency_ms": 20843.760499963537
     },
     {
       "sample_id": "q019",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9393939393939394,
-      "latency_ms": 21169.282100046985
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 21569.293099979404
     },
     {
       "sample_id": "q020",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.4,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8928571428571429,
-      "latency_ms": 19038.375700009055
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.972972972972973,
+      "latency_ms": 19357.54779999843
     },
     {
       "sample_id": "q021",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 1.0,
-      "latency_ms": 16675.496599986218
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9411764705882353,
+      "latency_ms": 14189.907899999525
     },
     {
       "sample_id": "q022",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8518518518518519,
-      "latency_ms": 14349.804700003006
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9583333333333334,
+      "latency_ms": 14184.886500006542
     },
     {
       "sample_id": "q023",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 1.0,
-      "faithfulness": 0.7142857142857143,
-      "latency_ms": 18005.575000075623
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 15397.740500047803
     },
     {
       "sample_id": "q024",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9090909090909091,
-      "latency_ms": 16942.18490005005
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9904761904761905,
+      "latency_ms": 14897.322300006635
     },
     {
       "sample_id": "q025",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.972972972972973,
-      "latency_ms": 18513.6464999523
+      "latency_ms": 16115.27779995231
     },
     {
       "sample_id": "q026",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9117647058823529,
-      "latency_ms": 13807.225600001402
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9827586206896551,
+      "latency_ms": 15312.719200039282
     },
     {
       "sample_id": "q027",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8695652173913043,
-      "latency_ms": 19111.40689998865
+      "citation_coverage": 1.0,
+      "faithfulness": 0.978494623655914,
+      "latency_ms": 16373.664500017185
     },
     {
       "sample_id": "q028",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9230769230769231,
-      "latency_ms": 16672.374400077388
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9791666666666666,
+      "latency_ms": 16012.630400015041
     },
     {
       "sample_id": "q029",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 17498.06020001415
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9885057471264368,
+      "latency_ms": 13492.29490000289
     },
     {
       "sample_id": "q030",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9016393442622951,
-      "latency_ms": 16484.100500005297
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9682539682539683,
+      "latency_ms": 15658.943500020541
     },
     {
       "sample_id": "q031",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8043478260869565,
-      "latency_ms": 17053.115999908186
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9310344827586207,
+      "latency_ms": 12935.221399995498
     },
     {
       "sample_id": "q032",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9324324324324325,
-      "latency_ms": 19128.71289998293
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9830508474576272,
+      "latency_ms": 19349.090500036255
     },
     {
       "sample_id": "q033",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8913043478260869,
-      "latency_ms": 18141.905899974518
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 16221.902100020088
     },
     {
       "sample_id": "q034",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 1.0,
-      "latency_ms": 9162.26359992288
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9523809523809523,
+      "latency_ms": 7199.832200014498
     },
     {
       "sample_id": "q035",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.6363636363636364,
-      "latency_ms": 6740.306099993177
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9354838709677419,
+      "latency_ms": 7934.6205000183545
     },
     {
       "sample_id": "q036",
       "model_name": "bm25",
       "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.42857142857142855,
-      "latency_ms": 7255.8601999189705
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8518518518518519,
+      "latency_ms": 4621.481100039091
     },
     {
       "sample_id": "q037",
       "model_name": "bm25",
-      "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "recall_at_k": null,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 1.0,
-      "faithfulness": 0.5737704918032787,
-      "latency_ms": 7836.704300018027
+      "invalid_citation_rate": null,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7222222222222222,
+      "latency_ms": 4179.590999963693
     },
     {
       "sample_id": "q038",
       "model_name": "bm25",
-      "recall_at_k": 0.0,
-      "temporal_validity": 0.4,
+      "recall_at_k": null,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
-      "faithfulness": 0.2857142857142857,
-      "latency_ms": 8847.318000043742
+      "invalid_citation_rate": null,
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 7033.273899985943
     },
     {
       "sample_id": "q039",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.967741935483871,
-      "latency_ms": 5282.8287000302225
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7941176470588235,
+      "latency_ms": 4990.156100015156
     },
     {
       "sample_id": "q040",
       "model_name": "bm25",
       "recall_at_k": 0.5,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8349514563106796,
-      "latency_ms": 8999.092200072482
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9545454545454546,
+      "latency_ms": 6977.49100002693
     },
     {
       "sample_id": "q041",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8717948717948718,
-      "latency_ms": 9400.098700076342
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 6116.782700002659
     },
     {
       "sample_id": "q042",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7916666666666666,
-      "latency_ms": 6638.651299988851
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9655172413793104,
+      "latency_ms": 6210.480500012636
     },
     {
       "sample_id": "q043",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9428571428571428,
-      "latency_ms": 9471.045500016771
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8214285714285714,
+      "latency_ms": 7636.707599973306
     },
     {
       "sample_id": "q044",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.6981132075471698,
-      "latency_ms": 15602.295999997295
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9565217391304348,
+      "latency_ms": 11008.178599993698
     },
     {
       "sample_id": "q045",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9512195121951219,
-      "latency_ms": 14290.515700005926
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9777777777777777,
+      "latency_ms": 12481.639400008135
     },
     {
       "sample_id": "q046",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7948717948717948,
-      "latency_ms": 15645.327499951236
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9859154929577465,
+      "latency_ms": 13205.381600011606
     },
     {
       "sample_id": "q047",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 24350.76579998713
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9019607843137255,
+      "latency_ms": 20191.126900026575
     },
     {
       "sample_id": "q048",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.98,
-      "latency_ms": 1986.5351000335068
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9714285714285714,
+      "latency_ms": 17152.50530000776
     },
     {
       "sample_id": "q049",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8771929824561403,
-      "latency_ms": 1527.8820999665186
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9361702127659575,
+      "latency_ms": 10298.297799949069
     },
     {
       "sample_id": "q050",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7631578947368421,
-      "latency_ms": 1250.0348000321537
+      "citation_coverage": 1.0,
+      "faithfulness": 0.6428571428571429,
+      "latency_ms": 9129.804000025615
     },
     {
       "sample_id": "q051",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.8,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7619047619047619,
-      "latency_ms": 1767.345399945043
+      "citation_coverage": 1.0,
+      "faithfulness": 0.6271186440677966,
+      "latency_ms": 8182.220199960284
     },
     {
       "sample_id": "q052",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8222222222222222,
-      "latency_ms": 8779.739400022663
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9310344827586207,
+      "latency_ms": 16011.449999990873
     },
     {
       "sample_id": "q053",
       "model_name": "bm25",
       "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.42857142857142855,
-      "latency_ms": 14319.991099997424
+      "latency_ms": 14901.986299955752
     },
     {
       "sample_id": "q054",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8773584905660378,
-      "latency_ms": 16257.860799902119
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9897959183673469,
+      "latency_ms": 13371.675700007472
     },
     {
       "sample_id": "q055",
@@ -558,18 +618,20 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.75,
-      "latency_ms": 11236.11279996112
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9285714285714286,
+      "latency_ms": 9152.513099950738
     },
     {
       "sample_id": "q056",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7647058823529411,
-      "latency_ms": 11649.467800045386
+      "citation_coverage": 1.0,
+      "faithfulness": 0.75,
+      "latency_ms": 13430.280799977481
     },
     {
       "sample_id": "q057",
@@ -578,18 +640,20 @@
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.88,
-      "latency_ms": 11347.038900014013
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9,
+      "latency_ms": 11577.434899983928
     },
     {
       "sample_id": "q058",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8,
-      "latency_ms": 10326.553399907425
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7916666666666666,
+      "latency_ms": 8099.221199983731
     },
     {
       "sample_id": "q059",
@@ -598,48 +662,53 @@
       "temporal_validity": 0.4,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9642857142857143,
-      "latency_ms": 12478.21259999182
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 12375.29050000012
     },
     {
       "sample_id": "q060",
       "model_name": "bm25",
       "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.2857142857142857,
-      "latency_ms": 9555.976300034672
+      "latency_ms": 7639.815700007603
     },
     {
       "sample_id": "q061",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9,
-      "latency_ms": 15570.255299913697
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 10828.868100012187
     },
     {
       "sample_id": "q062",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7666666666666667,
-      "latency_ms": 8493.18280001171
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9411764705882353,
+      "latency_ms": 8140.534000005573
     },
     {
       "sample_id": "q063",
       "model_name": "bm25",
       "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.8571428571428571,
-      "latency_ms": 12478.634600061923
+      "latency_ms": 13106.572899967432
     },
     {
       "sample_id": "q064",
@@ -648,8 +717,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8888888888888888,
-      "latency_ms": 14200.98439999856
+      "citation_coverage": 1.0,
+      "faithfulness": 0.95,
+      "latency_ms": 11951.67619996937
     },
     {
       "sample_id": "q065",
@@ -657,9 +727,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8611111111111112,
-      "latency_ms": 16572.945600026287
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 12062.35869997181
     },
     {
       "sample_id": "q066",
@@ -668,8 +739,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9538461538461539,
-      "latency_ms": 11667.564400006086
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 9744.784900045488
     },
     {
       "sample_id": "q067",
@@ -678,8 +750,9 @@
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 13148.988700006157
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9565217391304348,
+      "latency_ms": 11746.620199992321
     },
     {
       "sample_id": "q068",
@@ -688,28 +761,31 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7941176470588235,
-      "latency_ms": 13385.77129994519
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8378378378378378,
+      "latency_ms": 11183.521499973722
     },
     {
       "sample_id": "q069",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.782608695652174,
-      "latency_ms": 10616.405199980363
+      "citation_coverage": 1.0,
+      "faithfulness": 0.84,
+      "latency_ms": 9220.37980001187
     },
     {
       "sample_id": "q070",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8245614035087719,
-      "latency_ms": 13337.599500082433
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 9779.278100002557
     },
     {
       "sample_id": "q071",
@@ -718,8 +794,9 @@
       "temporal_validity": 0.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8596491228070176,
-      "latency_ms": 21139.523299993016
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9310344827586207,
+      "latency_ms": 19149.736699997447
     },
     {
       "sample_id": "q072",
@@ -728,8 +805,9 @@
       "temporal_validity": 0.6,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 16964.598699938506
+      "citation_coverage": 1.0,
+      "faithfulness": 0.967741935483871,
+      "latency_ms": 13131.422800011933
     },
     {
       "sample_id": "q073",
@@ -737,9 +815,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 1.0,
-      "faithfulness": 0.8596491228070176,
-      "latency_ms": 18019.48169991374
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9696969696969697,
+      "latency_ms": 14946.108600008301
     },
     {
       "sample_id": "q074",
@@ -748,8 +827,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8727272727272727,
-      "latency_ms": 18337.932100053877
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9230769230769231,
+      "latency_ms": 15197.600800020155
     },
     {
       "sample_id": "q075",
@@ -758,8 +838,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.875,
-      "latency_ms": 20725.269100046717
+      "citation_coverage": 1.0,
+      "faithfulness": 0.896551724137931,
+      "latency_ms": 17112.171999993734
     },
     {
       "sample_id": "q076",
@@ -767,9 +848,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8305084745762712,
-      "latency_ms": 18096.470099990256
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8048780487804879,
+      "latency_ms": 18517.14070001617
     },
     {
       "sample_id": "q077",
@@ -778,8 +860,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9473684210526315,
-      "latency_ms": 18615.35440001171
+      "citation_coverage": 1.0,
+      "faithfulness": 0.868421052631579,
+      "latency_ms": 14936.131800001021
     },
     {
       "sample_id": "q078",
@@ -788,28 +871,31 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8,
-      "latency_ms": 21374.520599958487
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8823529411764706,
+      "latency_ms": 18354.43889995804
     },
     {
       "sample_id": "q079",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.6,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7692307692307693,
-      "latency_ms": 13796.959800063632
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9,
+      "latency_ms": 11125.716500042472
     },
     {
       "sample_id": "q080",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7,
-      "latency_ms": 13125.243299989961
+      "citation_coverage": 1.0,
+      "faithfulness": 0.71875,
+      "latency_ms": 11019.636799988803
     },
     {
       "sample_id": "q081",
@@ -818,8 +904,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8275862068965517,
-      "latency_ms": 13257.755400030874
+      "citation_coverage": 1.0,
+      "faithfulness": 0.92,
+      "latency_ms": 9267.08590000635
     },
     {
       "sample_id": "q082",
@@ -828,8 +915,9 @@
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7543859649122807,
-      "latency_ms": 8776.687799952924
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7714285714285715,
+      "latency_ms": 982.2377000236884
     },
     {
       "sample_id": "q083",
@@ -838,8 +926,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9545454545454546,
-      "latency_ms": 16216.118599986658
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9230769230769231,
+      "latency_ms": 640.4641999979503
     },
     {
       "sample_id": "q084",
@@ -848,28 +937,31 @@
       "temporal_validity": 0.8,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8809523809523809,
-      "latency_ms": 14908.13260001596
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9827586206896551,
+      "latency_ms": 1102.0465000183322
     },
     {
       "sample_id": "q085",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9090909090909091,
-      "latency_ms": 13799.551200005226
+      "citation_coverage": 1.0,
+      "faithfulness": 0.6363636363636364,
+      "latency_ms": 1273.4780000173487
     },
     {
       "sample_id": "q086",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8478260869565217,
-      "latency_ms": 16537.99980005715
+      "citation_coverage": 1.0,
+      "faithfulness": 0.875,
+      "latency_ms": 12311.704199993983
     },
     {
       "sample_id": "q087",
@@ -878,8 +970,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8021978021978022,
-      "latency_ms": 15832.846200093627
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9821428571428571,
+      "latency_ms": 13237.123599974439
     },
     {
       "sample_id": "q088",
@@ -887,19 +980,21 @@
       "recall_at_k": 1.0,
       "temporal_validity": 0.4,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.9642857142857143,
-      "latency_ms": 9402.628700016066
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 14151.913800043985
     },
     {
       "sample_id": "q089",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.825,
-      "latency_ms": 13658.081700094044
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8529411764705882,
+      "latency_ms": 12187.825799977873
     },
     {
       "sample_id": "q090",
@@ -908,8 +1003,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7307692307692307,
-      "latency_ms": 9855.969600030221
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8181818181818182,
+      "latency_ms": 11064.289600006305
     },
     {
       "sample_id": "q091",
@@ -918,8 +1014,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8524590163934426,
-      "latency_ms": 8895.125900045969
+      "citation_coverage": 1.0,
+      "faithfulness": 0.868421052631579,
+      "latency_ms": 9859.254400013015
     },
     {
       "sample_id": "q092",
@@ -928,8 +1025,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9230769230769231,
-      "latency_ms": 15813.178200041875
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9666666666666667,
+      "latency_ms": 14238.116800028365
     },
     {
       "sample_id": "q093",
@@ -938,8 +1036,9 @@
       "temporal_validity": 0.4,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8,
-      "latency_ms": 17654.398299986497
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8571428571428571,
+      "latency_ms": 16152.062599954661
     },
     {
       "sample_id": "q094",
@@ -948,8 +1047,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7236842105263158,
-      "latency_ms": 16941.553100012243
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 15632.370999956038
     },
     {
       "sample_id": "q095",
@@ -958,8 +1058,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8113207547169812,
-      "latency_ms": 22920.262399944477
+      "citation_coverage": 1.0,
+      "faithfulness": 0.96,
+      "latency_ms": 18065.492399968207
     },
     {
       "sample_id": "q096",
@@ -968,8 +1069,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7910447761194029,
-      "latency_ms": 17816.458799992688
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 15421.506000042427
     },
     {
       "sample_id": "q097",
@@ -978,8 +1080,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8979591836734694,
-      "latency_ms": 1889.2931999871507
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8648648648648649,
+      "latency_ms": 14996.569900016766
     },
     {
       "sample_id": "q098",
@@ -988,8 +1091,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9047619047619048,
-      "latency_ms": 1356.8220000015572
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 20196.228899993002
     },
     {
       "sample_id": "q099",
@@ -998,8 +1102,9 @@
       "temporal_validity": 0.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.782051282051282,
-      "latency_ms": 1620.27339998167
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9615384615384616,
+      "latency_ms": 10204.0607999661
     },
     {
       "sample_id": "q100",
@@ -1008,8 +1113,9 @@
       "temporal_validity": 0.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8367346938775511,
-      "latency_ms": 2741.2892000284046
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9473684210526315,
+      "latency_ms": 14219.790800008923
     },
     {
       "sample_id": "q101",
@@ -1018,8 +1124,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.6274509803921569,
-      "latency_ms": 10022.495499928482
+      "citation_coverage": 1.0,
+      "faithfulness": 0.6612903225806451,
+      "latency_ms": 10217.326099984348
     },
     {
       "sample_id": "q102",
@@ -1028,8 +1135,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 9682.23409994971
+      "latency_ms": 5205.59399999911
     },
     {
       "sample_id": "q103",
@@ -1038,8 +1146,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9107142857142857,
-      "latency_ms": 9639.684699941427
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 10213.22269999655
     },
     {
       "sample_id": "q104",
@@ -1047,9 +1156,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8703703703703703,
-      "latency_ms": 9479.098699986935
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 8751.700400025584
     },
     {
       "sample_id": "q105",
@@ -1057,19 +1167,21 @@
       "recall_at_k": 1.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8431372549019608,
-      "latency_ms": 9684.95690007694
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9722222222222222,
+      "latency_ms": 8229.496699990705
     },
     {
       "sample_id": "q106",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8936170212765957,
-      "latency_ms": 10504.656700068153
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 8136.099900002591
     },
     {
       "sample_id": "q107",
@@ -1078,8 +1190,9 @@
       "temporal_validity": 0.6,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.825,
-      "latency_ms": 15943.627900094725
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8064516129032258,
+      "latency_ms": 13309.808899997734
     },
     {
       "sample_id": "q108",
@@ -1088,8 +1201,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9058823529411765,
-      "latency_ms": 16067.771999980323
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8285714285714286,
+      "latency_ms": 13363.91640000511
     },
     {
       "sample_id": "q109",
@@ -1098,8 +1212,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.711864406779661,
-      "latency_ms": 13173.093499965034
+      "citation_coverage": 1.0,
+      "faithfulness": 0.85,
+      "latency_ms": 13382.012200017925
     },
     {
       "sample_id": "q110",
@@ -1108,8 +1223,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 25117.15050006751
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8095238095238095,
+      "latency_ms": 23775.16330004437
     },
     {
       "sample_id": "q111",
@@ -1118,8 +1234,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 22829.196200007573
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7808219178082192,
+      "latency_ms": 23458.81919999374
     },
     {
       "sample_id": "q112",
@@ -1127,9 +1244,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8591549295774648,
-      "latency_ms": 20968.42900000047
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8863636363636364,
+      "latency_ms": 12502.826299984008
     },
     {
       "sample_id": "q113",
@@ -1138,8 +1256,9 @@
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8181818181818182,
-      "latency_ms": 17998.204500065185
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9090909090909091,
+      "latency_ms": 17576.806099968962
     },
     {
       "sample_id": "q114",
@@ -1148,8 +1267,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8135593220338984,
-      "latency_ms": 20835.48070001416
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8857142857142857,
+      "latency_ms": 18204.387400008272
     },
     {
       "sample_id": "q115",
@@ -1158,8 +1278,9 @@
       "temporal_validity": 0.6,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7368421052631579,
-      "latency_ms": 16004.380099941045
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8823529411764706,
+      "latency_ms": 15354.782200010959
     },
     {
       "sample_id": "q116",
@@ -1168,8 +1289,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.5714285714285714,
-      "latency_ms": 11908.534699934535
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9433962264150944,
+      "latency_ms": 8345.712499984074
     },
     {
       "sample_id": "q117",
@@ -1178,18 +1300,20 @@
       "temporal_validity": 0.6,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8360655737704918,
-      "latency_ms": 18009.41729999613
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9302325581395349,
+      "latency_ms": 15995.983600034378
     },
     {
       "sample_id": "q118",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8181818181818182,
-      "latency_ms": 15747.070999932475
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9259259259259259,
+      "latency_ms": 13242.889099987224
     },
     {
       "sample_id": "q119",
@@ -1197,19 +1321,21 @@
       "recall_at_k": 1.0,
       "temporal_validity": 0.6,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8947368421052632,
-      "latency_ms": 16922.72639996372
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9310344827586207,
+      "latency_ms": 14930.122999998275
     },
     {
       "sample_id": "q120",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.4,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9444444444444444,
-      "latency_ms": 13579.93979996536
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8947368421052632,
+      "latency_ms": 14099.1521999822
     },
     {
       "sample_id": "q121",
@@ -1217,9 +1343,10 @@
       "recall_at_k": 0.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.8571428571428571,
-      "latency_ms": 15160.733900032938
+      "latency_ms": 12143.855799979065
     },
     {
       "sample_id": "q122",
@@ -1227,9 +1354,10 @@
       "recall_at_k": 0.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.7142857142857143,
-      "latency_ms": 11070.271600037813
+      "latency_ms": 8913.943400024436
     },
     {
       "sample_id": "q123",
@@ -1238,8 +1366,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8260869565217391,
-      "latency_ms": 10736.129599972628
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8666666666666667,
+      "latency_ms": 9161.928199988324
     },
     {
       "sample_id": "q124",
@@ -1247,9 +1376,10 @@
       "recall_at_k": 0.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
-      "faithfulness": 0.5714285714285714,
-      "latency_ms": 11459.08459997736
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8518518518518519,
+      "latency_ms": 8119.850300019607
     },
     {
       "sample_id": "q125",
@@ -1258,8 +1388,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8,
-      "latency_ms": 12690.059499931522
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9523809523809523,
+      "latency_ms": 11700.552199967206
     },
     {
       "sample_id": "q126",
@@ -1268,8 +1399,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8936170212765957,
-      "latency_ms": 15207.070600008592
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 13882.885700033512
     },
     {
       "sample_id": "q127",
@@ -1278,8 +1410,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.78125,
-      "latency_ms": 9839.396300027147
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8947368421052632,
+      "latency_ms": 10808.6499000201
     },
     {
       "sample_id": "q128",
@@ -1288,8 +1421,9 @@
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8571428571428571,
-      "latency_ms": 19080.043900059536
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9487179487179487,
+      "latency_ms": 1290.3603999875486
     },
     {
       "sample_id": "q129",
@@ -1298,8 +1432,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8627450980392157,
-      "latency_ms": 17905.255199992098
+      "citation_coverage": 1.0,
+      "faithfulness": 0.975,
+      "latency_ms": 741.5174000198022
     },
     {
       "sample_id": "q130",
@@ -1307,9 +1442,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 0.4,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
-      "faithfulness": 0.6851851851851852,
-      "latency_ms": 15858.001800021157
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.42857142857142855,
+      "latency_ms": 867.102199990768
     },
     {
       "sample_id": "q131",
@@ -1318,8 +1454,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7777777777777778,
-      "latency_ms": 20140.029200003482
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8636363636363636,
+      "latency_ms": 11313.10610001674
     },
     {
       "sample_id": "q132",
@@ -1327,9 +1464,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 0.4,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 13904.811499989592
+      "invalid_citation_rate": 1.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 7254.216699977405
     },
     {
       "sample_id": "q133",
@@ -1338,8 +1476,9 @@
       "temporal_validity": 0.8,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7857142857142857,
-      "latency_ms": 15904.86770006828
+      "citation_coverage": 1.0,
+      "faithfulness": 0.95,
+      "latency_ms": 17360.481100040488
     },
     {
       "sample_id": "q134",
@@ -1348,8 +1487,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8275862068965517,
-      "latency_ms": 34010.77900000382
+      "citation_coverage": 1.0,
+      "faithfulness": 0.875,
+      "latency_ms": 17384.99779999256
     },
     {
       "sample_id": "q135",
@@ -1358,8 +1498,9 @@
       "temporal_validity": 0.6,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 1824.8627999564633
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8333333333333334,
+      "latency_ms": 17424.859299964737
     },
     {
       "sample_id": "q136",
@@ -1368,8 +1509,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8484848484848485,
-      "latency_ms": 1580.9788999613374
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8809523809523809,
+      "latency_ms": 21760.033400030807
     },
     {
       "sample_id": "q137",
@@ -1378,8 +1520,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9016393442622951,
-      "latency_ms": 1565.7807000679895
+      "citation_coverage": 1.0,
+      "faithfulness": 0.775,
+      "latency_ms": 19365.12930004392
     },
     {
       "sample_id": "q138",
@@ -1388,8 +1531,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7719298245614035,
-      "latency_ms": 20899.509600014426
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9047619047619048,
+      "latency_ms": 18262.172500020824
     },
     {
       "sample_id": "q139",
@@ -1398,8 +1542,9 @@
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.42857142857142855,
-      "latency_ms": 14210.512999910861
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7837837837837838,
+      "latency_ms": 13183.068099955563
     },
     {
       "sample_id": "q140",
@@ -1408,8 +1553,9 @@
       "temporal_validity": 0.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.696969696969697,
-      "latency_ms": 17795.345999998972
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9473684210526315,
+      "latency_ms": 18024.28090001922
     },
     {
       "sample_id": "q141",
@@ -1418,8 +1564,9 @@
       "temporal_validity": 0.2,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.6875,
-      "latency_ms": 22403.40740000829
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9444444444444444,
+      "latency_ms": 19132.44560000021
     },
     {
       "sample_id": "q142",
@@ -1428,8 +1575,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.7142857142857143,
-      "latency_ms": 16221.957399975508
+      "latency_ms": 16574.0321999765
     },
     {
       "sample_id": "q143",
@@ -1438,8 +1586,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7586206896551724,
-      "latency_ms": 13631.260699941777
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 13094.49470002437
     },
     {
       "sample_id": "q144",
@@ -1448,28 +1597,31 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.6521739130434783,
-      "latency_ms": 12506.44959998317
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 11911.068499961402
     },
     {
       "sample_id": "q145",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7291666666666666,
-      "latency_ms": 11726.361699984409
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9642857142857143,
+      "latency_ms": 9994.750100013334
     },
     {
       "sample_id": "q146",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 1.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 12785.029000020586
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8571428571428571,
+      "latency_ms": 12881.529000005685
     },
     {
       "sample_id": "q147",
@@ -1477,9 +1629,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8363636363636363,
-      "latency_ms": 11631.840800051577
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.972972972972973,
+      "latency_ms": 6907.172400038689
     },
     {
       "sample_id": "q148",
@@ -1488,8 +1641,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7777777777777778,
-      "latency_ms": 10147.531699971296
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9142857142857143,
+      "latency_ms": 7867.816899961326
     },
     {
       "sample_id": "q149",
@@ -1497,9 +1651,10 @@
       "recall_at_k": 1.0,
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8,
-      "latency_ms": 15851.92319995258
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8372093023255814,
+      "latency_ms": 13206.215799960773
     },
     {
       "sample_id": "q150",
@@ -1508,8 +1663,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.868421052631579,
-      "latency_ms": 11588.474499993026
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9615384615384616,
+      "latency_ms": 8407.541599997785
     },
     {
       "sample_id": "q151",
@@ -1518,8 +1674,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7755102040816326,
-      "latency_ms": 10666.106899967417
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9,
+      "latency_ms": 8091.067400004249
     },
     {
       "sample_id": "q152",
@@ -1528,8 +1685,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 12039.328399929218
+      "citation_coverage": 1.0,
+      "faithfulness": 0.926829268292683,
+      "latency_ms": 7092.76830003364
     },
     {
       "sample_id": "q153",
@@ -1538,8 +1696,9 @@
       "temporal_validity": 0.4,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 16995.139300008304
+      "citation_coverage": 1.0,
+      "faithfulness": 0.5714285714285714,
+      "latency_ms": 19107.563199999277
     },
     {
       "sample_id": "q154",
@@ -1548,8 +1707,9 @@
       "temporal_validity": 0.8,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 17765.134899993427
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9459459459459459,
+      "latency_ms": 13176.217899948824
     },
     {
       "sample_id": "q155",
@@ -1558,8 +1718,9 @@
       "temporal_validity": 0.8,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 17979.781599948183
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8222222222222222,
+      "latency_ms": 15829.436500032898
     },
     {
       "sample_id": "q156",
@@ -1568,8 +1729,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 20089.257100014947
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7837837837837838,
+      "latency_ms": 18253.020800009836
     },
     {
       "sample_id": "q157",
@@ -1578,8 +1740,9 @@
       "temporal_validity": 0.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.75,
-      "latency_ms": 18812.03180004377
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9230769230769231,
+      "latency_ms": 15997.968099953141
     },
     {
       "sample_id": "q158",
@@ -1588,8 +1751,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.7142857142857143,
-      "latency_ms": 19489.355299971066
+      "latency_ms": 16995.059700042475
     },
     {
       "sample_id": "q159",
@@ -1598,8 +1762,9 @@
       "temporal_validity": 1.0,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7962962962962963,
-      "latency_ms": 14860.982800018974
+      "citation_coverage": 1.0,
+      "faithfulness": 0.84,
+      "latency_ms": 15690.801999997348
     },
     {
       "sample_id": "q160",
@@ -1608,408 +1773,449 @@
       "temporal_validity": 0.8,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 10860.997999901883
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8653846153846154,
+      "latency_ms": 6280.566999979783
     },
     {
       "sample_id": "q161",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 19907.819199957885
+      "citation_coverage": 1.0,
+      "faithfulness": 0.96875,
+      "latency_ms": 17383.698599995114
     },
     {
       "sample_id": "q162",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 22565.201599965803
+      "latency_ms": 20182.367799978238
     },
     {
       "sample_id": "q163",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 17692.97239999287
+      "latency_ms": 19054.40379999345
     },
     {
       "sample_id": "q164",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.82,
-      "latency_ms": 14869.691299973056
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 11966.23040002305
     },
     {
       "sample_id": "q165",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.8571428571428571,
-      "latency_ms": 19861.032100045122
+      "latency_ms": 16108.874499972444
     },
     {
       "sample_id": "q166",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 16646.139999968
+      "latency_ms": 15534.997700015083
     },
     {
       "sample_id": "q167",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.9210526315789473,
-      "latency_ms": 12316.873100004159
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 9033.688299998175
     },
     {
       "sample_id": "q168",
       "model_name": "bm25",
       "recall_at_k": 0.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.5714285714285714,
-      "latency_ms": 13331.81889995467
+      "latency_ms": 11357.574400026351
     },
     {
       "sample_id": "q169",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 19989.328299998306
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9523809523809523,
+      "latency_ms": 16921.605099982116
     },
     {
       "sample_id": "q170",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.42857142857142855,
-      "latency_ms": 23549.841900006868
+      "citation_coverage": 1.0,
+      "faithfulness": 0.975,
+      "latency_ms": 23439.382700016722
     },
     {
       "sample_id": "q171",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.9482758620689655,
-      "latency_ms": 14696.034600026906
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.975609756097561,
+      "latency_ms": 13109.319799987134
     },
     {
       "sample_id": "q172",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9433962264150944,
-      "latency_ms": 18534.268100047484
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9444444444444444,
+      "latency_ms": 1164.8745999555103
     },
     {
       "sample_id": "q173",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.5714285714285714,
-      "latency_ms": 17897.45699998457
+      "latency_ms": 723.5198999987915
     },
     {
       "sample_id": "q174",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9830508474576272,
-      "latency_ms": 2085.717499954626
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 1118.6089999973774
     },
     {
       "sample_id": "q175",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 1791.092999977991
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9433962264150944,
+      "latency_ms": 21918.625999998767
     },
     {
       "sample_id": "q176",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 2061.997600016184
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9354838709677419,
+      "latency_ms": 25436.112400027923
     },
     {
       "sample_id": "q177",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8125,
-      "latency_ms": 1699.4011999340728
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 16057.532100006938
     },
     {
       "sample_id": "q178",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9487179487179487,
-      "latency_ms": 1410.6793000828475
+      "citation_coverage": 1.0,
+      "faithfulness": 0.92,
+      "latency_ms": 1161.3502000109293
     },
     {
       "sample_id": "q179",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 7921.232199994847
+      "latency_ms": 905.6804999709129
     },
     {
       "sample_id": "q180",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9166666666666666,
-      "latency_ms": 23999.374000006355
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 984.6508000046015
     },
     {
       "sample_id": "q181",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9130434782608695,
-      "latency_ms": 15660.459599923342
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 5391.65560004767
     },
     {
       "sample_id": "q182",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 16388.590599992312
+      "latency_ms": 11926.240400003735
     },
     {
       "sample_id": "q183",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 11650.736100040376
+      "latency_ms": 11229.128399980254
     },
     {
       "sample_id": "q184",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9615384615384616,
-      "latency_ms": 21041.90299997572
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9666666666666667,
+      "latency_ms": 19383.880499983206
     },
     {
       "sample_id": "q185",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 9391.818800009787
+      "latency_ms": 11380.347800033633
     },
     {
       "sample_id": "q186",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.92,
-      "latency_ms": 17348.22019992862
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 10052.285399986431
     },
     {
       "sample_id": "q187",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 12137.075099977665
+      "latency_ms": 11154.076399980113
     },
     {
       "sample_id": "q188",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.4,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8428571428571429,
-      "latency_ms": 6907.141299918294
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 6289.444599999115
     },
     {
       "sample_id": "q189",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.5,
-      "faithfulness": 0.8518518518518519,
-      "latency_ms": 14211.263000033796
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.2857142857142857,
+      "latency_ms": 12024.948399979621
     },
     {
       "sample_id": "q190",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.5172413793103449,
-      "latency_ms": 8768.364300020039
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 7019.684700004291
     },
     {
       "sample_id": "q191",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8235294117647058,
-      "latency_ms": 8960.155099979602
+      "citation_coverage": 1.0,
+      "faithfulness": 0.0,
+      "latency_ms": 6043.7425000127405
     },
     {
       "sample_id": "q192",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.953125,
-      "latency_ms": 14773.137599928305
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 13711.010599974543
     },
     {
       "sample_id": "q193",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.4,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.9069767441860465,
-      "latency_ms": 9700.476599973626
+      "citation_coverage": 1.0,
+      "faithfulness": 0.9459459459459459,
+      "latency_ms": 7955.490900028963
     },
     {
       "sample_id": "q194",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 1.0,
-      "latency_ms": 9605.584100005217
+      "latency_ms": 8148.00510002533
     },
     {
       "sample_id": "q195",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
-      "invalid_citation_rate": 0.75,
-      "faithfulness": 0.8846153846153846,
-      "latency_ms": 12780.814900062978
+      "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8888888888888888,
+      "latency_ms": 1329.9631000263616
     },
     {
       "sample_id": "q196",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.0,
-      "latency_ms": 22298.271299921907
+      "citation_coverage": 1.0,
+      "faithfulness": 0.8674698795180723,
+      "latency_ms": 1589.8774999659508
     },
     {
       "sample_id": "q197",
       "model_name": "bm25",
       "recall_at_k": 0.5,
-      "temporal_validity": 0.2,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7045454545454546,
-      "latency_ms": 10753.22029995732
+      "citation_coverage": 1.0,
+      "faithfulness": 0.851063829787234,
+      "latency_ms": 1115.3471000143327
     },
     {
       "sample_id": "q198",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.6,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
+      "citation_coverage": 1.0,
       "faithfulness": 0.9565217391304348,
-      "latency_ms": 14522.503999993205
+      "latency_ms": 784.8894000053406
     },
     {
       "sample_id": "q199",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.7142857142857143,
-      "latency_ms": 18522.83160004299
+      "citation_coverage": 1.0,
+      "faithfulness": 0.7936507936507936,
+      "latency_ms": 1271.1303000105545
     },
     {
       "sample_id": "q200",
       "model_name": "bm25",
       "recall_at_k": 1.0,
-      "temporal_validity": 0.0,
+      "temporal_validity": null,
       "temporal_coverage": 1.0,
       "invalid_citation_rate": 0.0,
-      "faithfulness": 0.8125,
-      "latency_ms": 15174.513600068167
+      "citation_coverage": 1.0,
+      "faithfulness": 1.0,
+      "latency_ms": 1030.1538999774493
     }
   ]
 }

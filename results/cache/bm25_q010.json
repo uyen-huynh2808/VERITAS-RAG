@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động quy định những hành vi nào thuộc nhóm bị nghiêm cấm trong lĩnh vực lao động?",
-  "answer": "**Các hành vi bị nghiêm cấm trong lĩnh vực lao động theo Bộ luật Lao động (theo Context 5):**\n\n1. **Phân biệt đối xử trong lao động**.  \n2. **Ngược đãi người lao động** và **cưỡng bức lao động**.  \n3. **Quấy rối tình dục tại nơi làm việc**.  \n4. **Lợi dụng danh nghĩa dạy nghề, tập nghề** để trục lợi, bóc lột sức lao động hoặc lôi kéo, dụ dỗ, ép buộc người học nghề, người tập nghề vào các hoạt động trái pháp luật.  \n5. **Sử dụng",
-  "latency_ms": 10117.304000072181,
+  "answer": "Các hành vi bị nghiêm cấm trong lĩnh vực lao động bao gồm:\n\n- Phân biệt đối xử trong lao động.  \n- Ngược đãi người lao động, cưỡng bức lao động.  \n- Quấy rối tình dục tại nơi làm việc.  \n- Lợi dụng danh nghĩa dạy nghề, tập nghề để trục lợi, bóc lột sức lao động hoặc lôi kéo, dụ dỗ, ép buộc người học nghề, người tập nghề vào hoạt động trái pháp luật.  \n- Sử dụng lao động chưa qua đào tạo hoặc chưa có chứng chỉ kỹ năng nghề quốc gia đối với nghề, công việc phải sử dụng lao động đã được đào tạo hoặc phải có chứng chỉ kỹ năng nghề quốc gia.  \n- Lôi kéo, dụ dỗ, hứa hẹn, quảng cáo gian dối hoặc thủ đoạn khác để lừa gạt người lao động hoặc để tuyển dụng người lao động với mục đích mua bán người, bóc lột, cưỡng bức lao động hoặc lợi dụng dịch vụ việc làm, hoạt động đưa người lao động đi làm việc ở nước ngoài theo hợp đồng để thực hiện hành vi trái pháp luật.  \n- Sử dụng lao động chưa thành niên trái pháp luật.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 8307.081300008576,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:127:39:0",

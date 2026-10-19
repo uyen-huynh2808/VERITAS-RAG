@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Điều 219 của Bộ luật Lao động quy định thế nào về tranh chấp lao động cá nhân khi các bên đã chọn Hội đồng trọng tài lao động nhưng Ban trọng tài không được thành lập hoặc không ra quyết định?",
-  "answer": "Theo Điều 219 của Bộ luật Lao động, nếu trong tranh chấp lao động cá nhân hai bên đã thỏa thuận lựa chọn giải quyết qua Hội đồng trọng tài lao động mà:\n\n* Ban trọng tài lao động không được thành lập trong thời hạn quy định;  \n* hoặc Ban trọng tài lao động đã được thành lập nhưng không ra quyết định giải quyết tranh chấp;  \n* hoặc một trong các bên không thi hành quyết định của Ban trọng tài lao động,\n\nthì các bên có quyền yêu cầu Tòa án giải quyết tranh chấp đó.",
-  "latency_ms": 18534.268100047484,
+  "answer": "Điều 219 quy định rằng trong trường hợp tranh chấp lao động cá nhân, nếu hai bên đã thỏa thuận lựa chọn Hội đồng trọng tài lao động giải quyết nhưng thời hạn quy định của pháp luật về lao động mà Ban trọng tài lao động không được thành lập hoặc Ban trọng tài không ra quyết định giải quyết tranh chấp, hoặc một trong các bên không thi hành quyết định của Ban trọng tài, thì các bên có quyền yêu cầu Tòa án giải quyết.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 1164.8745999555103,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:189:58:0",

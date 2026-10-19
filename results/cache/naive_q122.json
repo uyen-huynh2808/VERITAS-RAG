@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2026, văn bảnnào trong bộ tài liệu bắt đầu có hiệu lực chung về dân số?",
-  "answer": "",
-  "latency_ms": 9122.684999951161,
+  "answer": "Luật 113/2025/QH15 có hiệu lực chung từ ngày 01/07/2026.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 704.175699967891,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.1:12:0",

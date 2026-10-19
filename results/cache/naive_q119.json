@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, văn bản nào trong bộ tài liệu điều chỉnh hệ thống bảo hiểm xã hội mới và làm Luật 58/2014/QH13 hết hiệu lực?",
-  "answer": "Văn bản là **Luật số 41/2024/QH15** – văn bản này có hiệu lực thi hành từ ngày 01 / 07 / 2025 và quy định rằng Luật Bảo hiểm xã hội số 58/2014/QH13 sẽ hết hiệu lực kể từ ngày Luật này có hiệu lực.",
-  "latency_ms": 14368.12690005172,
+  "answer": "Nghị quyết số 93/2015/QH13, được nêu trong Luật 41/2024/QH15, quy định Luật Bảo hiểm xã hội 58/2014/QH13 hết hiệu lực kể từ ngày Luật 41/2024/QH15 có hiệu lực (01/07/2025).  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 11501.733899989631,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

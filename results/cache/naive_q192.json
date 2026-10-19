@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 sửa điểm a khoản 2 Điều 59 của Bộ luật Lao động để bổ sung hoạt động nào cho người sử dụng lao động?",
-  "answer": "Luật Giáo dục nghề nghiệp 124/2025/QH15 bổ sung cho người sử dụng lao động **việc thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc** nhằm đào tạo, đào tạo lại, bồi dưỡng và nâng cao trình độ, kỹ năng nghề cho người lao động, đồng thời phối hợp với cơ sở giáo dục nghề nghiệp để thực hiện các chương trình giáo dục trung học nghề và các chương trình đào tạo sơ cấp, trung cấp, cao đẳng.",
-  "latency_ms": 10842.691399971955,
+  "answer": "Luật Giáo dục nghề nghiệp 124/2025/QH15 sửa điểm a khoản 2 Điều 59 của Bộ luật Lao động để bổ sung hoạt động “thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc để đào tạo, đào tạo lại, bồi dưỡng, nâng cao trình độ, kỹ năng nghề cho người lao động”.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 8326.541399990674,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1.a:18:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Luật Bảo hiểm xã hội, quỹ bảo hiểm xã hội có những nguồn hình thành chủ yếu nào?",
-  "answer": "Theo Luật Bảo hiểm xã hội, các nguồn hình thành quỹ bảo hiểm xã hội chủ yếu bao gồm:\n\n1. **Đóng góp của người sử dụng lao động** theo quy định.  \n2. **Đóng góp của người lao động** theo quy định.  \n3. **Tiền sinh lời** từ hoạt động đầu tư của quỹ.  \n4. **Ngân sách nhà nước**.  \n5. **Các nguồn thu hợp pháp khác**.",
-  "latency_ms": 1126.1561000719666,
+  "answer": "Quỹ bảo hiểm xã hội hình thành từ các nguồn chính:  \n- Đóng góp của người sử dụng lao động theo quy định;  \n- Đóng góp của người lao động theo quy định;  \n- Tiền sinh lời từ hoạt động đầu tư của quỹ;  \n- Ngân sách nhà nước;  \n- Các nguồn thu hợp pháp khác.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 7217.91360003408,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:117:53:0",

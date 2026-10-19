@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một khóa đào tạo đã tuyển sinh trước 01/01/2026 nhưng nội dung quản lý mới có điều khoản riêng chỉ có hiệu lực từ 01/07/2026; tại 01/01/2026, cần kết hợp điều khoản hiệu lực và điều khoản chuyển tiếp nào để xác định quy định áp dụng?",
-  "answer": "",
-  "latency_ms": 10860.997999901883,
+  "answer": "Áp dụng Điều 45 của Luật 124/2025/QH15 (cho phép các khóa đào tạo tuyển sinh trước ngày 01/01/2026 tiếp tục thực hiện theo quy định của Luật Giáo dục nghề nghiệp 74/2014/QH13) kết hợp với Điều 50 của Luật 71/2025/QH15 (qui định hiệu lực thi hành chung của Luật này từ ngày 01/01/2026, trừ các điều được quy định có hiệu lực từ ngày 01/07/2025).  \n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 6280.566999979783,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

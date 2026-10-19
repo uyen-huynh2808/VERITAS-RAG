@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Sản phẩm phần cứng, phần mềm và nội dung số được Luật Công nghiệp công nghệ số phân biệt như thế nào?",
-  "answer": "**Phân biệt các loại sản phẩm theo Luật Công nghiệp công nghệ số (Điều 13):**\n\n| Loại sản phẩm | Định nghĩa chi tiết trong luật |\n|---------------|--------------------------------|\n| **Sản phẩm phần cứng** | Là các thiết bị công nghệ số và các bộ phận của chúng, bao gồm: <br>‑ Máy tính, thiết bị mạng, thiết bị ngoại vi <br>‑ Thiết bị viễn thông <br>‑ Thiết bị đa phương tiện <br>‑ Thiết bị truyền dẫn <br>‑ Thiết bị điện tử, thiết bị điện tử tích hợp công nghệ số <br>‑ Bộ phận, cụm linh kiện, linh kiện điện tử, chip bán dẫn và các sản phẩm phần cứng khác. |\n| **Sản phẩm phần mềm** | Là tập hợp các hướng dẫn, lệnh, dữ liệu số được thiết kế để điều khiển thiết bị công nghệ số thực hiện chức năng nhất định, bao gồm: <br>‑ Phần mềm hệ thống <br>‑ Phần mềm ứng dụng <br>‑ Phần mềm tiện ích <br>‑ Phần mềm công cụ <br>‑ Phần mềm nền tảng số và các phần mềm khác. |\n| **Sản phẩm nội dung số** | Là thông tin được tạo ra, xử lý, lưu trữ và phân phối dưới dạng dữ liệu số, phục vụ các mục đích giải trí, giáo dục, truyền thông, thương mại hoặc các nhu cầu xã hội khác. Nội dung số bao gồm: <br>‑ Văn bản <br>‑ Dữ liệu số <br>‑ Hình ảnh <br>‑ B",
-  "latency_ms": 18589.760200004093,
+  "answer": "Sản phẩm phần cứng là các thiết bị công nghệ số và các bộ phận, linh kiện của chúng (máy tính, thiết bị mạng, thiết bị viễn thông, thiết bị đa phương tiện, thiết bị truyền dẫn, thiết bị điện tử, chip bán dẫn, …).  \nSản phẩm phần mềm là tập hợp các hướng dẫn, lệnh, dữ liệu số được thiết kế để điều khiển thiết bị công nghệ số thực hiện chức năng nhất định (phần mềm hệ thống, phần mềm ứng dụng, phần mềm tiện ích, phần mềm công cụ, phần mềm nền tảng số, …).  \nSản phẩm nội dung số là thông tin được tạo ra, xử lý, lưu trữ và phân phối dưới dạng dữ liệu số phục vụ các mục đích như giải trí, giáo dục, truyền thông, thương mại hoặc các nhu cầu xã hội khác (văn bản, dữ liệu số, hình ảnh, bản ghi âm, bản ghi hình, …).  \n\nNguồn: 71/2025/QH15:article:13.",
+  "latency_ms": 12375.93460001517,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:13:5:0",

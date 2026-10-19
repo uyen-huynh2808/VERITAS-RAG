@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người có thời gian công tác trong khu vực nhà nước trước 01/01/1995; khi Luật 41/2024/QH15 có hiệu lực, thời gian này có được tính để hưởng bảo hiểm xã hội theo quy định chuyển tiếp không?",
-  "answer": "Có. Theo các quy định chuyển tiếp trong Luật 41/2024/QH15, thời gian công tác của người lao động trong khu vực nhà nước trước ngày 01/01/1995 được tính vào thời gian hưởng bảo hiểm xã hội theo quy định của Chính phủ.",
-  "latency_ms": 18615.35440001171,
+  "answer": "Có, thời gian công tác trong khu vực nhà nước trước ngày 01/01/1995 được tính để hưởng bảo hiểm xã hội theo quy định của Chính phủ khi Luật 41/2024/QH15 có hiệu lực. Nguồn: 41/2024/QH15:article:141.",
+  "latency_ms": 14936.131800001021,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:1",

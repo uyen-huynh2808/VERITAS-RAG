@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Từ ngày 01/07/2026, văn bản ủy quyền nêu trong quy định chuyển tiếp của Luật Bảo hiểm xã hội có còn được tiếp tục thực hiện theo mốc thời gian được luật ghi nhận không?",
-  "answer": "Không. Theo quy định chuyển tiếp được nêu trong Điều 141, điểm 10 của Luật Bảo hiểm xã hội (Document 41/2024/QH15, article 141.10), văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và các chế độ khác “được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026”. Vì vậy, sau ngày 01/",
-  "latency_ms": 18337.932100053877,
+  "answer": "Không, văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và các chế độ khác chỉ được tiếp tục thực hiện đến hết ngày 30 / 06 / 2026; sau ngày 01 / 07 / 2026 không còn hiệu lực.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 15197.600800020155,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:115:53:0",

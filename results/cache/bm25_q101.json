@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/07/2026, Luật Dân số có hiệu lực nhưng các điểm c và d khoản 1 Điều 14 chưa có hiệu lực; tình huống này được giải thích bằng sự khác nhau giữa hiệu lực chung và hiệu lực riêng như thế nào?",
-  "answer": "**Giải thích dựa trên các nội dung trong tài liệu**\n\n- **Hiệu lực chung của Luật**  \n  Theo **Context 4** (Điều 30.1), “Luật này có hiệu lực kể từ ngày 01 tháng 7 năm 2026, trừ trường hợp quy định tại khoản 2 Điều này.” → Như vậy, toàn bộ Luật Dân số (trừ những quy định có hiệu lực riêng) bắt đầu có hiệu lực vào ngày **01/07/2026**.",
-  "latency_ms": 10022.495499928482,
+  "answer": "Luật Dân số có hiệu lực chung từ ngày 01 tháng 7 năm 2026 (theo Điều 30.1), trong khi các quy định tại điểm c và d khoản 1 Điều 14 chỉ có hiệu lực thi hành từ ngày 01 tháng 1 năm 2027 (theo Điều 30.2). Do đó, vào ngày 01 /07/2026, luật đã có hiệu lực nhưng những nội dung cụ thể ở điểm c và d không yet áp dụng vì chúng được quy định có hiệu lực riêng, muộn hơn so với hiệu lực chung của toàn bộ luật.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 10217.326099984348,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:30.2:12:0",

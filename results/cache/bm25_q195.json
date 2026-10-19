@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Giáo dục nghề nghiệp 124/2025/QH15 dẫn chiếu rằng Bộ luật Lao động 45/2019/QH14 đã được sửa đổi trước đó bởi những luật nào?",
-  "answer": "Luật Giáo dục nghề nghiệp 124/2025/QH15 nêu rằng Bộ luật Lao động 45/2019/QH14 đã được sửa đổi, bổ sung theo:\n\n- Luật số **71/2025/QH15**  \n- Luật số **113/2025/QH15**.",
-  "latency_ms": 12780.814900062978,
+  "answer": "Luật Giáo dục nghề nghiệp 124/2025/QH15 cho biết Bộ luật Lao động 45/2019/QH14 đã được sửa đổi, bổ sung theo Luật số 71/2025/QH15 và Luật số 113/2025/QH15.  \nNguồn: 124/2025/QH15.",
+  "latency_ms": 1329.9631000263616,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:43.1:18:0",

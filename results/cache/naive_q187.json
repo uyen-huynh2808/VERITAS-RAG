@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Công nghiệp công nghệ số 71/2025/QH15 sửa đổi Luật Thuế thu nhập cá nhân bằng cách bổ sung khoản 17 vào điều nào?",
-  "answer": "Luật Công nghiệp công nghệ số 71/2025/QH15 đã bổ sung khoản 17 **vào Điều 4** của Luật Thuế thu nhập cá nhân.",
-  "latency_ms": 14744.843699969351,
+  "answer": "Điều 4 của Luật Thuế thu nhập cá nhân số 04/2007/QH12 được bổ sung khoản 17.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 2431.169499992393,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",

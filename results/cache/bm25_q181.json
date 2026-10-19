@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật An toàn, vệ sinh lao động về hồ sơ tử tuất khi người lao động chết do tai nạn lao động, bệnh nghề nghiệp theo quy định nào?",
-  "answer": "Theo sửa đổi, bổ sung khoản 3 Điều 53 của Luật Bảo hiểm xã hội trong Nghị định 41/2024/QH15, **hồ sơ hưởng chế độ tử tuất khi người lao động chết do tai nạn lao động, bệnh nghề nghiệp được thực hiện theo quy định tại khoản 1 Điều 90 của Luật Bảo hiểm xã hội**.",
-  "latency_ms": 15660.459599923342,
+  "answer": "Hồ sơ hưởng chế độ tử tuất khi người lao động chết do tai nạn lao động, bệnh nghề nghiệp được thực hiện theo quy định tại khoản 1 Điều 90 của Luật Bảo hiểm xã hội.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 5391.65560004767,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:4:5:0",

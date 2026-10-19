@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một hoạt động thuộc Điều 11 của Luật Công nghiệp công nghệ số xảy ra ngày 01/07/2025; ngày này có nằm trong mốc hiệu lực riêng của Điều 11 không?",
-  "answer": "Có. Theo quy định trong Context 1, các Điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày **01 tháng 7 năm 2025**. Vì hoạt động thuộc Điều 11 xảy ra vào ngày **01/07/2025**, nên ngày này nằm trong mốc hiệu lực riêng của Điều 11.",
-  "latency_ms": 13796.959800063632,
+  "answer": "Có, ngày 01/07/2025 nằm trong thời gian hiệu lực riêng của Điều 11 theo quy định: “Các điều 11, 28 và 29 của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025.”  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 11125.716500042472,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:50:22:0",

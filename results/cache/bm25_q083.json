@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một khu công nghệ thông tin tập trung đang hoạt động vào ngày 01/01/2026; quy định chuyển tiếp yêu cầu chuyển đổi nó thành loại khu nào?",
-  "answer": "Theo quy định chuyển tiếp trong Luật, khu công nghệ thông tin tập trung đang hoạt động sẽ tự động được chuyển thành **khu công nghệ số tập trung**.",
-  "latency_ms": 16216.118599986658,
+  "answer": "Khu công nghệ thông tin tập trung sẽ tự động chuyển thành **khu công nghệ số tập trung**.  \nNguồn: 71/2025/QH15. Nguồn: 71/2025/QH15.",
+  "latency_ms": 640.4641999979503,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",

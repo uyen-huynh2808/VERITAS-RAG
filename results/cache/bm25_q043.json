@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Luật Giáo dục nghề nghiệp, người học hoàn thành chương trình trung học nghề nhưng không dự thi tốt nghiệp hoặc thi không đạt được cấp loại giấy tờ nào?",
-  "answer": "Theo quy định, nếu người học hoàn thành chương trình trung học nghề mà không dự thi tốt nghiệp hoặc thi không đạt yêu cầu, người đứng đầu cơ sở hoạt động giáo dục nghề nghiệp sẽ cấp **giấy chứng nhận hoàn thành chương trình**.",
-  "latency_ms": 9471.045500016771,
+  "answer": "Người học hoàn thành chương trình trung học nghề nhưng không dự thi tốt nghiệp hoặc thi không đạt yêu cầu sẽ được cấp “giấy chứng nhận hoàn thành chương trình”. Nguồn: 124/2025/QH15.",
+  "latency_ms": 7636.707599973306,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:6.3.c:3:0",

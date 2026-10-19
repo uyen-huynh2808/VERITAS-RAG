@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người tham gia bảo hiểm xã hội tự nguyện trước 01/01/2021 và đủ 20 năm đóng; nếu đến ngày 01/07/2025 chưa đủ tuổi theo quy định chuyển tiếp thì quyền hưởng lương hưu đã phát sinh chưa?",
-  "answer": "Không. Theo **Điều 141** của Luật Bảo hiểm xã hội (Document 41/2024/QH15, article 141) :\n\n> “Người tham gia bảo hiểm xã hội tự nguyện trước ngày 01/01/2021 và",
-  "latency_ms": 16866.902700043283,
+  "answer": "Chưa, quyền hưởng lương hưu chưa phát sinh vì người tham gia bảo hiểm xã hội tự nguyện trước ngày 01/01/2021 chỉ được hưởng lương hưu khi đã đủ tuổi nghỉ hưu (60 tuổi nam, 55 tuổi nữ) và đủ 20 năm đóng bảo hiểm xã hội.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 13186.903800000437,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:1",

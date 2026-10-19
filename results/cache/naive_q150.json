@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2026, nếu cần xác định nhóm điều khoản của Luật Giáo dục nghề nghiệp bắt đầu có hiệu lực riêng từ ngày này, cần truy xuất khoản nào của Điều 44?",
-  "answer": "",
-  "latency_ms": 11023.172099958174,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 124/2025/QH15",
+  "latency_ms": 4909.638699959032,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

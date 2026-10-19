@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, nếu cần xác định ưu đãi đầu tư đối với sản phẩm, dịch vụ công nghệ số, nên truy xuất điều khoản nào đang có hiệu lực riêng?",
-  "answer": "Để xác định ưu đãi đầu tư đối với sản phẩm, dịch vụ công nghệ số vào ngày 01/07/2025, cần truy xuất **Điều 28 (Provision 28) của Luật 71/2025/QH15**. Điều này quy định cụ thể về hỗ trợ, ưu đãi đầu tư cho việc sản xuất và cung cấp sản phẩm, dịch vụ công nghệ số.",
-  "latency_ms": 15977.222900022753,
+  "answer": "Ưu đãi đầu tư đối với sản phẩm, dịch vụ công nghệ số được quy định tại Điều 28.\n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 15126.73779996112,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:28:12:0",

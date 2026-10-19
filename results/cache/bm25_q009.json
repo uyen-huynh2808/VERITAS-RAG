@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Điểm khác nhau giữa khái niệm “người làm việc không có quan hệ lao động” và “quan hệ lao động” trong Bộ luật Lao động là gì?",
-  "answer": "**“Người làm việc không có quan hệ lao động”**  \n- Được định nghĩa trong Điều 2 của Bộ luật Lao động: là người làm việc **không trên cơ sở thuê mướn bằng hợp đồng lao động**.  \n- Vì không có hợp đồng lao động, họ không nằm trong phạm vi “quan hệ lao động” và do đó không được bảo vệ, điều chỉnh bởi các quy định về quan hệ lao động của luật.\n\n**“Quan hệ lao động”**  \n- Được định nghĩa trong Điều 2 của",
-  "latency_ms": 15096.430700039491,
+  "answer": "“Người làm việc không có quan hệ lao động” là người làm việc không trên cơ sở thuê mướn bằng hợp đồng lao động; còn “quan hệ lao động” là quan hệ xã hội phát sinh trong việc thuê mướn, sử dụng lao động, trả lương giữa người lao động, người sử dụng lao động, các tổ chức đại diện và cơ quan nhà nước có thẩm quyền.  \n\nNguồn: 45/2019/QH14:article:2.",
+  "latency_ms": 15128.068200021517,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:179:54:0",

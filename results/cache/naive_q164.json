@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa đổi, bổ sung Luật An toàn, vệ sinh lao động về khoản chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp theo hướng nào?",
-  "answer": "Theo khoản 7 Điều 42 được sửa đổi trong Luật Bảo hiểm xã hội 41/2024/QH15, khoản chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp sẽ **được thực hiện theo quy định của Luật Bảo hiểm xã hội**.",
-  "latency_ms": 14270.253299968317,
+  "answer": "Khoản 7 Điều 42 được sửa đổi, bổ sung để quy định rằng “Chi tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội.” — điều này hướng việc tổ chức và hoạt động bảo hiểm tai nạn lao động, bệnh nghề nghiệp sang áp dụng các quy định của Luật Bảo hiểm xã hội.\n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 837.2040999820456,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",

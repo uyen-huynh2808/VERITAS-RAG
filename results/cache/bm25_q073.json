@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 30/06/2026, văn bản ủy quyền cho người khác nhận lương hưu hoặc trợ cấp theo Luật 58/2014/QH13 có còn được tiếp tục thực hiện theo quy định chuyển tiếp không?",
-  "answer": "Có. Theo quy định trong Điều 141.10 của Luật Bảo hiểm xã hội, văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và các chế độ khác theo Luật 58/2014/QH13 được tiếp tục thực hiện **đến hết ngày 30 / 06 / 2026**. Vì vậy, vào ngày 30 / 06 / 2026 văn bản ủy quyền vẫn còn hiệu lực; sau ngày này thì hiệu lực sẽ chấm dứt.",
-  "latency_ms": 18019.48169991374,
+  "answer": "Có, văn bản ủy quyền cho người khác nhận lương hưu hoặc trợ cấp theo Luật 58/2014/QH13 vẫn được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 14946.108600008301,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",

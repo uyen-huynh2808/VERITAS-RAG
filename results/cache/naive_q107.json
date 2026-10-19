@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, một người lao động thuộc nhóm chịu sự điều chỉnh của văn bản pháp luật khác nhưng được áp dụng một số quy định của Bộ luật Lao động; điều khoản thi hành xử lý mối quan hệ này như thế nào?",
-  "answer": "Theo **Điều 220** của **Bộ luật Lao động 45/2019/QH14** (hiệu lực thi hành từ ngày 01/01/2021) :\n\n> “**Chế độ lao động đối với … người làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định nhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ luật này**.”\n\nDo đó, khi một người lao động thuộc nhóm “**được điều chỉnh bởi văn bản pháp luật khác**” (ví dụ: cán bộ, công chức, viên chức, người thuộc lực lượng Quân đội, …) thì:\n\n1. **Quy định chính** về quan hệ lao động của người đó được quy định trong **văn bản pháp luật riêng** (luật, nghị định, …) mà người lao động thuộc phạm vi.  \n2. **Tuy nhiên**, tùy theo từng đối tượng, **các quy định của Bộ luật Lao động** mà không trái với hoặc có lợi hơn cho người lao động **được áp dụng**.  \n3. Nếu có **hợp đồng lao động, thỏa ước lao động tập thể hoặc các thỏa thuận** đã ký trước ngày 01/01/2021 có nội dung **không trái** hoặc **đảm bảo quyền lợi tốt hơn** so với quy định",
-  "latency_ms": 12270.297299954109,
+  "answer": "Theo Điều 220 của Bộ luật Lao động 45/2019/QH14, đối với người làm việc không có quan hệ lao động nhưng được quy định bởi các văn bản pháp luật khác, một số quy định của Bộ luật Lao động vẫn được áp dụng cho họ. Nội dung này quy định cách thức áp dụng các quy định của Bộ luật Lao động cho những đối tượng này kể từ ngày Bộ luật có hiệu lực thi hành.  \n\nNguồn: 45/2019/QH14:article:220.",
+  "latency_ms": 13426.963599980809,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:1:1:0",

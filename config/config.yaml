@@ -28,11 +28,14 @@ models:
   llm_model: "openai/gpt-oss-120b"
   generation_temperature: 0.0
   generation_max_tokens: 512
+  generation_reasoning_effort: "low"
+  generation_include_reasoning: false
 
 retrieval:
   top_k: 5
   bm25_k1: 1.5
   bm25_b: 0.75
+  supersession_rules_path: null
 
 benchmark:
   questions_path: "data/benchmark/questions.json"

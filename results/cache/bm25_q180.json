@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 quy định người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng ra nước ngoài định cư được hưởng trợ cấp một lần theo mức nào?",
-  "answer": "Theo quy định tại khoản 5 Điều 49 của Luật Bảo hiểm xã hội 41/2024/QH15 (điều chỉnh trong Nghị quyết 41/2024/QH15), người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng khi ra nước ngoài để định cư được giải quyết hưởng **trợ cấp một lần bằng 03 tháng mức trợ cấp đang hưởng**.",
-  "latency_ms": 23999.374000006355,
+  "answer": "Người đang hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp hằng tháng ra nước ngoài để định cư được giải quyết hưởng trợ cấp một lần, mức trợ cấp một lần bằng **03 tháng mức trợ cấp đang hưởng**.  \n\nNguồn: 41/2024/QH15:article:49 (điều khoản 5). Nguồn: 41/2024/QH15.",
+  "latency_ms": 984.6508000046015,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:76:39:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Công nghiệp công nghệ số 71/2025/QH15 bãi bỏ những nhóm quy định nào của Luật Công nghệ thông tin 67/2006/QH11?",
-  "answer": "Luật Công nghiệp công nghệ số 71/2025/QH15 **bãi bỏ** các quy định sau của Luật Công nghệ thông tin 67/2006/QH11:\n\n- **Các khoản 9, 10, 11 và 12 của Điều 4**;  \n- **Mục 3 và Mục 4 của Chương III**.",
-  "latency_ms": 16646.139999968,
+  "answer": "Luật Công nghiệp công nghệ số 71/2025/QH15 bãi bỏ:\n\n- Các khoản 9, 10, 11 và 12 của Điều 4;\n- Mục 3 và Mục 4 của Chương III của Luật Công nghệ thông tin 67/2006/QH11.  \n\nNguồn: 71/2025/QH15.",
+  "latency_ms": 15534.997700015083,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:49:21:0",

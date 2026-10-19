@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, nếu hợp đồng lao động đã ký trước đó có điều kiện thuận lợi hơn cho người lao động nhưng không trái Bộ luật mới, nguyên tắc tiếp tục thực hiện được áp dụng thế nào?",
-  "answer": "Theo Điều 220 của Bộ luật Lao động 45/2019/QH14 (trang 68), kể từ ngày Bộ luật này có hiệu lực thi hành (01 /01 /2021) :\n\n- Các hợp đồng lao động, thỏa ước lao động tập thể và các thỏa thuận hợp pháp đã ký trước đó **nếu có nội dung không trái** quy định của Bộ luật mới **và/hoặc bảo đảm cho người lao động những quyền và điều kiện thuận lợi hơn** so với quy định hiện hành, **được tiếp tục thực hiện**.  \n- Trường hợp các bên muốn sửa đổi, bổ sung để phù hợp với quy định mới, họ có thể thỏa thuận và thực hiện việc sửa đổi/ bổ sung (theo quy định về sửa đổi hợp đồng tại Điều 33).\n\nVì vậy, vào ngày 01 /01 /2021, một hợp đồng lao động đã ký trước đó mà có các điều kiện có lợi hơn cho người lao động, **không vi phạm** quy định mới, sẽ **được duy trì và thực hiện** cho đến khi các bên đồng ý thay đổi để phù hợp với Bộ luật mới.",
-  "latency_ms": 15832.846200093627,
+  "answer": "Các hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp pháp đã ký trước ngày Bộ luật mới có hiệu lực, nếu có nội dung không trái quy định và bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định của Bộ luật mới, sẽ được tiếp tục thực hiện, trừ khi các bên thỏa thuận sửa đổi, bổ sung để phù hợp với quy định mới.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 13237.123599974439,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

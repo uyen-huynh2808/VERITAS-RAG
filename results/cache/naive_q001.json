@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bộ luật Lao động điều chỉnh những nhóm vấn đề chính nào?",
-  "answer": "Bộ luật Lao động quy định các nhóm vấn đề chính sau:\n\n1. **Tiêu chuẩn lao động**.  \n2. **Quyền, nghĩa vụ và trách nhiệm** của:  \n   - Người lao động,  \n   - Người sử dụng lao động,  \n   - Tổ chức đại diện người lao động tại cơ sở,  \n   - Tổ chức đại diện người sử dụng lao động trong quan hệ lao động.  \n3. **Các quan hệ khác liên quan trực tiếp đến quan hệ lao động**.  \n4. **Quản lý nhà nước về lao động**.  \n\n(Trích từ Context 1)",
-  "latency_ms": 1916.825200081803,
+  "answer": "Bộ luật Lao động quy định các tiêu chuẩn lao động; quyền, nghĩa vụ và trách nhiệm của người lao động, người sử dụng lao động; quyền, nghĩa vụ và trách nhiệm của tổ chức đại diện người lao động tại cơ sở và tổ chức đại diện người sử dụng lao động; cùng với quản lý nhà nước về lao động.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 1211.0797999775968,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:1:1:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2026, văn bản nào trong bộ tài liệu có một nhóm điều khoản về giáo dục nghề nghiệp bắt đầu có hiệu lực riêng?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 11459.08459997736,
+  "answer": "Văn bản 71/2025/QH15 có nhóm các điều 11, 28 và 29 về giáo dục nghề nghiệp có hiệu lực thi hành riêng từ ngày 01 /07 /2025.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 8119.850300019607,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

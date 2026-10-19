@@ -10,6 +10,7 @@ from typing import List
 from src.baselines.bm25_baseline import BM25Retriever
 from src.baselines.naive_rag_baseline import NaiveDenseRetriever
 from src.rag.generator_agent import GeneratorAgent
+from src.rag.veritas_model import VeritasModel
 from src.core.config import load_system_config
 
 from .run_eval import (
@@ -21,7 +22,7 @@ from .run_eval import (
     load_dataset,
 )
 
-CACHE_VERSION = 3
+CACHE_VERSION = 9
 
 
 # ============================================================
@@ -35,7 +36,7 @@ class BenchmarkRunner:
     Gold Chunks
          │
          ▼
-    BM25 / Naive Retriever
+    BM25 / Naive / VERITAS Retriever
          │
          ▼
     Shared Generator
@@ -61,8 +62,13 @@ class BenchmarkRunner:
             self.retriever = BM25Retriever(gold_path)
         elif self.model_name == "naive":
             self.retriever = NaiveDenseRetriever(gold_path)
+        elif self.model_name == "veritas":
+            self.retriever = VeritasModel(
+                config=self.config,
+                gold_path=gold_path,
+            )
         else:
-            raise ValueError("model_name must be 'bm25' or 'naive'")
+            raise ValueError("model_name must be 'bm25', 'naive', or 'veritas'")
 
         self.generator = GeneratorAgent()
 
@@ -151,11 +157,14 @@ class BenchmarkRunner:
                     k=self.top_k,
                 )
 
-        retrieved_chunks = self.retriever.retrieve(
-            query=sample.query,
-            t_event=sample.t_event,
-            top_k=self.top_k,
-        )
+        retrieve_args = {
+            "query": sample.query,
+            "t_event": sample.t_event,
+            "top_k": self.top_k,
+        }
+        if self.model_name == "veritas":
+            retrieve_args["date_basis"] = sample.date_basis
+        retrieved_chunks = self.retriever.retrieve(**retrieve_args)
 
         output = self.generator.generate(
             question=sample.query,
@@ -202,28 +211,46 @@ def print_summary(results: List[EvaluationResult]):
     print("\n========== BENCHMARK SUMMARY ==========")
 
     print(f"Samples                : {len(results)}")
+    recall_values = [r.recall_at_k for r in results if r.recall_at_k is not None]
     print(
-        f"Recall@K               : {mean(r.recall_at_k for r in results):.3f}"
+        f"Recall@K               : {mean(recall_values):.3f}"
+        if recall_values
+        else "Recall@K               : N/A"
     )
     temporal_values = [
         r.temporal_validity for r in results
         if r.temporal_validity is not None
     ]
-    temporal_summary = (
-        f"{mean(temporal_values):.3f} ({len(temporal_values)} assessable samples)"
-        if temporal_values
-        else "N/A (0 assessable samples)"
-    )
+    temporal_summary = f"{mean(temporal_values):.3f}" if temporal_values else "N/A"
     print(f"Temporal Validity      : {temporal_summary}")
     print(
         f"Temporal Coverage     : {mean(r.temporal_coverage for r in results):.3f}"
     )
+    citation_error_values = [
+        r.invalid_citation_rate for r in results
+        if r.invalid_citation_rate is not None
+    ]
     print(
-        f"Invalid Citation Rate  : {mean(r.invalid_citation_rate for r in results):.3f}"
+        f"Invalid Citation Rate  : {mean(citation_error_values):.3f}"
+        if citation_error_values
+        else "Invalid Citation Rate  : N/A"
     )
+    citation_values = [r.citation_coverage for r in results if r.citation_coverage is not None]
     print(
-        f"Faithfulness           : {mean(r.faithfulness for r in results):.3f}"
+        f"Citation Coverage      : {mean(citation_values):.3f}"
+        if citation_values
+        else "Citation Coverage      : N/A"
     )
+    faithfulness_values = [
+        r.faithfulness for r in results if r.faithfulness is not None
+    ]
+    print(
+        f"Faithfulness           : {mean(faithfulness_values):.3f}"
+        if faithfulness_values
+        else "Faithfulness           : N/A"
+    )
+    empty_answers = sum(r.faithfulness is None for r in results)
+    print(f"Empty Answers          : {empty_answers}")
     print(
         f"Latency (ms)           : {mean(r.latency_ms for r in results):.1f}"
     )
@@ -236,15 +263,15 @@ def print_summary(results: List[EvaluationResult]):
 def main():
 
     parser = argparse.ArgumentParser(
-        description="Run BM25 or Naive RAG benchmark."
+        description="Run the BM25, Naive RAG, or VERITAS benchmark."
     )
 
     parser.add_argument(
         "--model",
         type=str,
         required=True,
-        choices=["bm25", "naive"],
-        help="Retrieval baseline to evaluate.",
+        choices=["bm25", "naive", "veritas"],
+        help="Retrieval model to evaluate.",
     )
 
     parser.add_argument(
@@ -300,9 +327,16 @@ def main():
     summary = {
         "model": args.model,
         "samples": len(results),
-        "recall_at_k": round(
-            mean(r.recall_at_k for r in results),
-            3,
+        "recall_at_k": (
+            round(mean(
+                r.recall_at_k for r in results
+                if r.recall_at_k is not None
+            ), 3)
+            if any(r.recall_at_k is not None for r in results)
+            else None
+        ),
+        "recall_assessable_samples": sum(
+            r.recall_at_k is not None for r in results
         ),
         "temporal_validity": (
             round(mean(
@@ -319,14 +353,40 @@ def main():
             mean(r.temporal_coverage for r in results),
             3,
         ),
-        "invalid_citation_rate": round(
-            mean(r.invalid_citation_rate for r in results),
-            3,
+        "invalid_citation_rate": (
+            round(mean(
+                r.invalid_citation_rate for r in results
+                if r.invalid_citation_rate is not None
+            ), 3)
+            if any(r.invalid_citation_rate is not None for r in results)
+            else None
         ),
-        "faithfulness": round(
-            mean(r.faithfulness for r in results),
-            3,
+        "invalid_citation_assessable_samples": sum(
+            r.invalid_citation_rate is not None for r in results
         ),
+        "citation_coverage": (
+            round(mean(
+                r.citation_coverage for r in results
+                if r.citation_coverage is not None
+            ), 3)
+            if any(r.citation_coverage is not None for r in results)
+            else None
+        ),
+        "citation_coverage_assessable_samples": sum(
+            r.citation_coverage is not None for r in results
+        ),
+        "faithfulness": (
+            round(mean(
+                r.faithfulness for r in results
+                if r.faithfulness is not None
+            ), 3)
+            if any(r.faithfulness is not None for r in results)
+            else None
+        ),
+        "faithfulness_assessable_samples": sum(
+            r.faithfulness is not None for r in results
+        ),
+        "empty_answer_samples": sum(r.faithfulness is None for r in results),
         "latency_ms": round(
             mean(r.latency_ms for r in results),
             1,

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2026, một cơ sở giáo dục nghề nghiệp đã có quyết định thành lập trước ngày này phải đáp ứng chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn chuyển tiếp bao lâu?",
-  "answer": "Theo quy định tại Điều 45, khoản 14 của Luật 124/2025/QH15, các cơ sở giáo dục nghề nghiệp đã có quyết định thành lập (hoặc cho phép thành lập, chia, tách, sáp nhập) trước ngày 01/01/2026 phải đáp ứng chuẩn cơ sở giáo dục nghề nghiệp **trong thời hạn 60 tháng** kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.",
-  "latency_ms": 9639.684699941427,
+  "answer": "Cơ sở giáo dục nghề nghiệp phải đáp ứng chuẩn cơ sở giáo dục nghề nghiệp trong thời hạn **60 tháng** kể từ ngày văn bản quy phạm pháp luật mới có hiệu lực thi hành.  \nNguồn: 124/2025/QH15. Nguồn: 124/2025/QH15.",
+  "latency_ms": 10213.22269999655,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",

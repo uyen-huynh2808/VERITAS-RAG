@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một văn bản ủy quyền nhận lương hưu được lập theo Luật 58/2014/QH13 vẫn còn tồn tại sau 30/06/2026; tại 01/07/2026, quy định chuyển tiếp có cho phép tiếp tục dùng văn bản đó không?",
-  "answer": "Theo nội dung trong **Context 2** (Điều 141.10 của Nghị định 41/2024/QH15) :\n\n> “Văn bản ủy quyền cho người khác nhận lương hưu, trợ cấp bảo hiểm xã hội và chế độ khác theo quy định của Luật số 58/2014/QH13 **được tiếp tục thực hiện đến hết ngày 30 tháng 6 năm 2026**. Chính phủ quy định chi tiết Điều này.”\n\nDo đó, quyền sử dụng văn bản ủy quyền này chỉ được duy trì **cho đến ngày 30 /06 2026**. Sau ngày này, không còn quy định chuyển tiếp cho phép tiếp tục sử dụng văn",
-  "latency_ms": 20968.42900000047,
+  "answer": "Theo quy định, văn bản ủy quyền cho người khác nhận lương hưu theo Luật số 58/2014/QH13 chỉ được thực hiện đến hết ngày 30 / 06 / 2026; sau ngày này không còn hiệu lực. Vì vậy vào ngày 01 /07 /2026 không được tiếp tục sử dụng văn bản ủy quyền đó.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 12502.826299984008,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:45.14:20:0",

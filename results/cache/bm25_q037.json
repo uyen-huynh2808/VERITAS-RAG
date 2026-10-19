@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Những nhóm đối tượng nào được ưu tiên truyền thông, vận động, giáo dục về dân số?",
-  "answer": "Theo tài liệu 113/2025/QH15, các đối tượng được ưu tiên truyền thông, vận động, giáo dục về dân số bao gồm:\n\n- **Cơ quan**\n- **Tổ chức**\n- **Cộng đồng**\n- **Cá nhân**\n\n(Trong phần 10.2 của Điều 10 có nêu “Ưu tiên truyền thông, vận động, giáo dục nội dung phù hợp về dân số cho các đối tượng sau đây”, nhưng danh sách chi tiết các nhóm đối tượng không được trích dẫn trong các đoạn văn bản đã cung cấp.)",
-  "latency_ms": 7836.704300018027,
+  "answer": "Các nhóm đối tượng được ưu tiên truyền thông, vận động, giáo dục về dân số là những nhóm phù hợp với đặc điểm của địa bàn, theo quy định tại Điều 8, khoản 2, mục c.  \n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 4179.590999963693,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:10.2:5:0",

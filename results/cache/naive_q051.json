@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một cơ sở giáo dục nghề nghiệp có điều khoản thuộc nhóm chỉ có hiệu lực từ 01/07/2026; nếu tình huống xảy ra ngày 30/06/2026 thì cần phân biệt hiệu lực chung và hiệu lực riêng của nhóm điều khoản này thế nào?",
-  "answer": "**Phân biệt hiệu lực chung và hiệu lực riêng của nhóm điều khoản chỉ có hiệu lực từ 01/07/2026 khi tình huống xảy ra vào ngày 30/06/2026",
-  "latency_ms": 1582.150400034152,
+  "answer": "Nhóm điều khoản có hiệu lực riêng bắt đầu từ ngày 01/07/2026 (theo Điều 30, khoản 1 của Luật 113/2025/QH15). Vì vậy vào ngày 30/06/2026, nhóm điều khoản này chưa có hiệu lực và không áp dụng; chỉ các quy định có hiệu lực chung (ví dụ: Luật 124/2025/QH15 có hiệu lực từ 01/01/2026) mới được áp dụng.\n\nNguồn: 113/2025/QH15.",
+  "latency_ms": 8336.247199971694,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

@@ -35,6 +35,9 @@ class BenchmarkSample:
     gold_citation_doc_ids: List[str] = field(default_factory=list)
     # Accepted only for older benchmark files.
     gold_article_ids: List[str] = field(default_factory=list)
+    # ``issued`` retrieves text already promulgated by t_event; ``effective``
+    # retrieves provisions legally in force at t_event.
+    date_basis: Optional[str] = None
 
 
 @dataclass
@@ -51,6 +54,9 @@ class RetrievedChunk:
     provision_path: Optional[str] = None
     effectivity_mode: Optional[str] = None
     trigger_reference: Optional[str] = None
+    issued_date: Optional[str] = None
+    date_basis: Optional[str] = None
+    is_in_force_at_event: Optional[bool] = None
 
 
 @dataclass
@@ -65,11 +71,12 @@ class SystemOutput:
 class EvaluationResult:
     sample_id: str
     model_name: str
-    recall_at_k: float
+    recall_at_k: Optional[float]
     temporal_validity: Optional[float]
     temporal_coverage: float
-    invalid_citation_rate: float
-    faithfulness: float
+    invalid_citation_rate: Optional[float]
+    citation_coverage: Optional[float]
+    faithfulness: Optional[float]
     latency_ms: float
 
 
@@ -86,6 +93,34 @@ def load_dataset(path: str | Path) -> List[BenchmarkSample]:
     samples = []
     for raw_sample in data["samples"]:
         sample = dict(raw_sample)
+        if sample.get("date_basis") is None:
+            # These categories ask about the text of an enacted instrument.
+            # Its provisions can be retrieved from issuance even before they
+            # take legal effect. Applicability questions still use effective.
+            status_question = any(re.search(
+                pattern, sample.get("query", ""), flags=re.IGNORECASE
+            ) for pattern in (
+                r"đã.{0,30}có hiệu lực",
+                r"có hiệu lực.{0,30}(?:chưa|không)",
+                r"còn hiệu lực.{0,30}(?:chưa|không)",
+                r"nằm trong mốc hiệu lực",
+                r"mốc hiệu lực.{0,30}(?:đến|chưa)",
+                r"được coi là.{0,30}hiệu lực",
+            ))
+            content_categories = {"document_understanding", "amendment_retrieval"}
+            if status_question:
+                sample["date_basis"] = "status"
+            else:
+                sample["date_basis"] = (
+                    "issued"
+                    if sample.get("category") in content_categories
+                    else "effective"
+                )
+        if sample["date_basis"] not in {"issued", "effective", "status"}:
+            raise ValueError(
+                f"Benchmark sample {sample.get('id')} has invalid date_basis "
+                f"{sample['date_basis']!r}; expected 'issued', 'effective', or 'status'."
+            )
         for reference in sample.get("gold_provisions", []):
             if not isinstance(reference, dict):
                 raise ValueError(
@@ -113,7 +148,7 @@ def retrieval_recall_at_k(
     sample: BenchmarkSample,
     output: SystemOutput,
     k: int = DEFAULT_K,
-) -> float:
+) -> Optional[float]:
     """
     Retrieval Recall@K at provision level for the hierarchical benchmark.
     Legacy files without gold_provisions continue to use gold_chunk_ids.
@@ -158,7 +193,9 @@ def retrieval_recall_at_k(
     gold: Set[str] = set(sample.gold_chunk_ids)
 
     if not gold:
-        return 0.0
+        # Without provision or chunk labels there is no retrieval target to
+        # score. Keep the sample in the benchmark, but exclude it from Recall.
+        return None
 
     retrieved_top_k = output.retrieved_chunks[:k]
     retrieved: Set[str] = {
@@ -224,6 +261,9 @@ def temporal_validity_accuracy(
     """
     if k <= 0:
         raise ValueError("k must be > 0")
+
+    if sample.date_basis in {"issued", "status"}:
+        return None
 
     retrieved_top_k = output.retrieved_chunks[:k]
 
@@ -291,13 +331,21 @@ def _normalize_unicode(text: str) -> str:
 
 def extract_cited_documents(text: str) -> Set[str]:
     """
-    Extract Vietnamese legal-document IDs from an answer.
+    Extract document IDs from explicit source-citation lines only.
 
     Matching is case-insensitive; extracted IDs are normalized to uppercase
     so comparison with gold annotations is stable.
     """
     text = _normalize_unicode(text)
-    matches = DOC_PATTERN.findall(text)
+    citation_blocks = re.findall(
+        r"(?i)(?:nguồn|nguon|source|sources|citation)\s*:\s*([^\r\n]+)",
+        text,
+    )
+    matches = [
+        document_id
+        for block in citation_blocks
+        for document_id in DOC_PATTERN.findall(block)
+    ]
 
     return {match.upper() for match in matches}
 
@@ -309,7 +357,7 @@ def extract_cited_documents(text: str) -> Set[str]:
 def invalid_citation_rate(
     sample: BenchmarkSample,
     output: SystemOutput,
-) -> float:
+) -> Optional[float]:
     """
     Invalid Citation Rate:
 
@@ -317,15 +365,10 @@ def invalid_citation_rate(
         -----------------------------------------
               number of predicted citations
 
-    A response with no explicit legal-document citation receives 0.0 here.
-    This means "no invalid citation was detected"; it does NOT mean that the
-    answer has good citation coverage.
+    An empty response or a response with no explicit legal-document citation
+    is excluded (None). Citation coverage is reported separately, so missing
+    citations are not treated as error-free citations.
     """
-    predicted = extract_cited_documents(output.answer)
-
-    if not predicted:
-        return 0.0
-
     citation_doc_ids = sample.gold_citation_doc_ids or [
         reference["logical_doc_id"]
         for reference in sample.gold_provisions
@@ -333,6 +376,12 @@ def invalid_citation_rate(
     ]
     if not citation_doc_ids:
         citation_doc_ids = sample.gold_doc_ids
+    if not citation_doc_ids or not output.answer.strip():
+        return None
+
+    predicted = extract_cited_documents(output.answer)
+    if not predicted:
+        return None
 
     gold = {
         _normalize_unicode(doc_id).upper()
@@ -342,6 +391,13 @@ def invalid_citation_rate(
     invalid = predicted - gold
 
     return len(invalid) / len(predicted)
+
+
+def citation_coverage(output: SystemOutput) -> Optional[float]:
+    """Whether a non-empty answer includes an explicit ``Nguồn:`` citation."""
+    if not output.answer.strip():
+        return None
+    return 1.0 if extract_cited_documents(output.answer) else 0.0
 
 
 # ---------------------------------------------------------------------------
@@ -371,7 +427,7 @@ def answer_faithfulness(
     sample: BenchmarkSample,
     output: SystemOutput,
     k: int = DEFAULT_K,
-) -> float:
+) -> Optional[float]:
     """
     Lexical evidence-overlap proxy over the same top-K evidence used by the
     other retrieval metrics:
@@ -386,6 +442,9 @@ def answer_faithfulness(
     if k <= 0:
         raise ValueError("k must be > 0")
 
+    if not output.answer.strip():
+        return None
+
     retrieved_top_k = output.retrieved_chunks[:k]
 
     evidence = " ".join(
@@ -393,7 +452,12 @@ def answer_faithfulness(
         for chunk in retrieved_top_k
     )
 
-    answer_tokens = normalize(output.answer)
+    answer_body = re.sub(
+        r"(?im)^\s*(?:nguồn|nguon|source|sources|citation)\s*:\s*.*$",
+        "",
+        output.answer,
+    )
+    answer_tokens = normalize(answer_body)
     evidence_tokens = normalize(evidence)
 
     if not answer_tokens:
@@ -421,6 +485,7 @@ def evaluate_system(
         temporal_validity=temporal_validity_accuracy(sample, output, k=k),
         temporal_coverage=temporal_coverage_accuracy(sample, output, k=k),
         invalid_citation_rate=invalid_citation_rate(sample, output),
+        citation_coverage=citation_coverage(output),
         faithfulness=answer_faithfulness(sample, output, k=k),
         latency_ms=output.latency_ms,
     )

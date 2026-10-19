@@ -16,10 +16,6 @@ from src.contracts.rules import (
     load_contract_rules,
 )
 
-from src.contracts.temporal_relationship_validator import (
-    CrossDocumentTemporalValidator,
-)
-
 from src.contracts.quality_metrics import (
     QualityMetricsCalculator,
 )
@@ -27,7 +23,6 @@ from src.contracts.quality_metrics import (
 
 __all__ = [
     "ExecutableDocumentContract",
-    "CrossDocumentTemporalValidator",
     "QualityMetricsCalculator",
     "ContractIssue",
     "ContractReport",

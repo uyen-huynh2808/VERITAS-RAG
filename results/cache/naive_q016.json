@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Bên thuê lại lao động có những nghĩa vụ nào liên quan đến nội quy và điều kiện lao động của người lao động thuê lại?",
-  "answer": "**Các nghĩa vụ của bên thuê lại lao động liên quan đến nội quy và điều kiện lao động của người lao động thuê lại** (theo Điều 57 của Nghị định 45/2019/QH14):\n\n1. **Thông báo, hướng dẫn** người lao động thuê lại biết nội quy lao động và các quy chế, quy định khác của bên thuê lại.  \n2. **Không được phân biệt đối xử** về điều kiện lao động (lương, thời gian làm việc, an toàn, vệ sinh, …)",
-  "latency_ms": 13043.413300067186,
+  "answer": "Bên thuê lại lao động phải thông báo, hướng dẫn người lao động thuê lại biết nội quy lao động và các quy chế khác của mình; không được phân biệt đối xử về điều kiện lao động; đồng thời thỏa thuận với người lao động thuê lại về làm việc vào ban đêm, làm thêm giờ theo quy định của Bộ luật.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 12553.347999986727,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:57:19:0",

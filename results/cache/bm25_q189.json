@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Dân số 113/2025/QH15 sửa điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội 41/2024/QH15 về thời gian nghỉ của lao động nam trong những trường hợp nào?",
-  "answer": "Theo điểm c khoản 2 Điều 53 của Luật Bảo hiểm xã hội 41/2024/QH15 được sửa đổi bởi Luật Dân số 113/2025/QH15, lao động nam được nghỉ:\n\n- **10 ngày làm việc** khi vợ sinh **đôi** hoặc sinh **con thứ hai**;  \n- **Thêm 3 ngày làm việc** cho mỗi đứa trẻ tính từ **con thứ ba trở đi** (tức là khi sinh ba trở lên).",
-  "latency_ms": 14211.263000033796,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 113/2025/QH15.",
+  "latency_ms": 12024.948399979621,
   "retrieved_chunks": [
     {
       "chunk_id": "113/2025/QH15:113/2025/QH15:provision:29.2:11:0",

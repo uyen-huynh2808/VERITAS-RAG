@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Ngày 30/06/2025, Luật Bảo hiểm xã hội 41/2024/QH15 đã có hiệu lực thi hành chưa?",
-  "answer": "Không, vào ngày 30/06/2025 Luật Bảo hiểm xã hội 41/2024/QH15 chưa có hiệu lực thi hành. Theo nội dung trong Context 1, Luật này chỉ có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2025.",
-  "latency_ms": 9231.86329996679,
+  "answer": "Không, Luật Bảo hiểm xã hội 41/2024/QH15 có hiệu lực thi hành từ ngày 01/07/2025, nên vào ngày 30/06/2025 chưa có hiệu lực.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 6257.006399973761,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:140:62:0",

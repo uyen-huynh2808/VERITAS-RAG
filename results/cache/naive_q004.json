@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Người lao động có những quyền cơ bản nào liên quan đến lựa chọn việc làm và nơi làm việc?",
-  "answer": "Theo quy định trong Luật Lao động 45/2019/QH14:\n\n- Người lao động **được tự do lựa chọn việc làm**, có thể làm việc cho bất kỳ người sử dụng lao động nào và ở bất kỳ nơi nào mà pháp luật không cấm (Context 1, Điều 10).  \n- Người lao động **có quyền tự do lựa chọn nơi làm việc**, nghề nghiệp, học nghề và nâng cao trình độ nghề nghiệp theo nguyện vọng, khả năng, trình độ và sức khỏe của mình (Context 2, Điều 5).  \n\nNhững quyền này cho phép người lao động tiếp cận trực tiếp hoặc qua tổ chức dịch vụ việc làm để tìm kiếm công việc phù hợp, đồng thời không bị phân biệt đối xử hay cưỡng bức trong quá trình lựa chọn.",
-  "latency_ms": 2816.739600035362,
+  "answer": "Người lao động có quyền tự do lựa chọn việc làm, lựa chọn nơi làm việc và nghề nghiệp; được tự do tìm kiếm việc làm theo nguyện vọng, khả năng, trình độ và sức khỏe; không bị cấm hoặc phân biệt đối xử trong việc lựa chọn việc làm và nơi làm việc. Nguồn: 45/2019/QH14:article:10.",
+  "latency_ms": 716.7428000248037,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:10:5:0",

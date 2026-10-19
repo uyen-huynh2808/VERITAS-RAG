@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một doanh nghiệp có hợp đồng và thỏa thuận hợp pháp ký trước 01/01/2021, trong đó một số điều kiện có lợi hơn cho người lao động nhưng một số điều khoản khác trái Bộ luật Lao động mới; tại 01/01/2021 có thể tiếp tục thực hiện toàn bộ thỏa thuận theo khoản chuyển tiếp hay phải phân biệt nội dung?",
-  "answer": "Theo khoản chuyển tiếp được quy định tại Điều 220 của Bộ luật Lao động 45/2019/QH14 (Context 1):\n\n> “Kể từ ngày Bộ luật này có hiệu lực thi hành, **hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp pháp đã giao kết có nội dung không trái hoặc bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so với quy định của Bộ luật này được tiếp tục thực hiện**, trừ trường hợp các bên có thỏa thuận về việc sửa đổi, bổ sung để phù hợp và để áp dụng quy định của Bộ luật này.”\n\nDo đó, khi ngày 01/01/2021 tới:\n\n1. **Các điều khoản** của hợp đồng / thỏa thuận **không trái** quy định mới (ví dụ: thời hạn, nội dung thử việc, quyền lợi",
-  "latency_ms": 16067.771999980323,
+  "answer": "Theo Điều 220, kể từ ngày Bộ luật Lao động mới có hiệu lực (01/01/2021) các hợp đồng, thỏa ước đã ký trước đó mà có nội dung **không trái** quy định của Bộ luật mới không được tiếp tục thực hiện; chỉ những nội dung **có lợi hơn** cho người lao động và không trái quy định mới được duy trì cho đến khi các bên thỏa thuận sửa đổi, bổ sung để phù hợp. Vì vậy tại ngày 01/01/2021 phải phân biệt nội dung: giữ lại các điều khoản có lợi hơn và không trái luật, còn các điều khoản trái luật phải được sửa đổi hoặc không áp dụng.  \nNguồn: 45/2019/QH14:article:220.",
+  "latency_ms": 13363.91640000511,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:220:68:0",

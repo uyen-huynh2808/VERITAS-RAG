@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại 01/01/2021, nếu cần xác định Bộ luật Lao động 10/2012/QH13 còn hiệu lực hay không, cần truy xuất điều khoản nào của Bộ luật 45/2019/QH14?",
-  "answer": "Cần tra cứu **Điều 220** (article 220) của Bộ luật Lao động 45/2019/QH14, trong đó quy định rằng “Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực”.",
-  "latency_ms": 15747.070999932475,
+  "answer": "Điều 220 của Bộ luật Lao động 45/2019/QH14 quy định rằng “Bộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực.”  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 13242.889099987224,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:44.1:19:0",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Luật Bảo hiểm xã hội 41/2024/QH15 sửa Luật Việc làm 38/2013/QH13 liên quan đến khoản chi tổ chức và hoạt động bảo hiểm thất nghiệp như thế nào?",
-  "answer": "Theo nội dung được trích trong **Context 2** (tài liệu 41/2024/QH15, Điều 139, trang 62), Luật Bảo hiểm xã hội 41/2024/QH15 đã sửa đổi Luật Việc làm 38/2013/QH13 bằng cách **thêm một khoản mới (điểm e)**, trong đó quy định:\n\n> “**Chi tổ chức và hoạt động bảo hiểm thất nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội**”.\n\nNhư vậy, sửa đổi này quy định rằng chi phí dành cho việc tổ chức và thực hiện bảo hiểm thất nghiệp phải được thực",
-  "latency_ms": 13251.079700072296,
+  "answer": "Luật 41/2024/QH15 sửa đổi, bổ sung khoản e) của Luật Việc làm 38/2013/QH13, quy định: “Chi tổ chức và hoạt động bảo hiểm thất nghiệp thực hiện theo quy định của Luật Bảo hiểm xã hội.” Nguồn: 41/2024/QH15.  \n\nNguồn: 41/2024/QH15.",
+  "latency_ms": 5383.562099945266,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:139:61:0",

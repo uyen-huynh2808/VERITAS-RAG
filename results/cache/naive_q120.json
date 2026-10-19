@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025, văn bản nào trong bộ tài liệu đã có hiệu lực riêng đối với các điều 11, 28 và 29 về công nghiệp công nghệ số?",
-  "answer": "Văn bản là **Luật số 71/2025/QH15** (Luật công nghiệp công nghệ số). Theo Điều 50 của luật này, các Điều 11, 28 và 29 có hiệu lực thi hành riêng từ ngày **01 / 07 / 2025**.",
-  "latency_ms": 16120.582500007004,
+  "answer": "Các điều 11, 28 và 29 của Luật công nghiệp công nghệ số (71/2025/QH15) có hiệu lực thi hành riêng từ ngày 01 tháng 7 năm 2025.  \nNguồn: 71/2025/QH15.",
+  "latency_ms": 11984.544100007042,
   "retrieved_chunks": [
     {
       "chunk_id": "71/2025/QH15:71/2025/QH15:article:51:22:0",

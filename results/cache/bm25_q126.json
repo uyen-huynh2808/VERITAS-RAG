@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xác định người lao động mới vào doanh nghiệp có phải thực hiện thỏa ước đang có hiệu lực, cần truy xuất quy định nào?",
-  "answer": "Để xác định rằng người lao động mới vào doanh nghiệp phải thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực, cần tham khảo **Điều 79** của **Bộ luật Lao động 45/2019/QH14** (điều quy định: “Người sử dụng lao động, người lao động, bao gồm cả người lao động vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực”).",
-  "latency_ms": 15207.070600008592,
+  "answer": "Người lao động mới vào doanh nghiệp, kể cả người vào làm việc sau ngày thỏa ước lao động tập thể có hiệu lực, có nghĩa vụ thực hiện đầy đủ thỏa ước lao động tập thể đang có hiệu lực.  \nNguồn: 45/2019/QH14:article:79.",
+  "latency_ms": 13882.885700033512,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:79:27:0",

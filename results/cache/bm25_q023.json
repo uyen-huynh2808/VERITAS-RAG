@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Trong trường hợp mẹ chết sau khi sinh con, người cha hoặc người trực tiếp nuôi dưỡng có thể được nghỉ hưởng chế độ thai sản theo nguyên tắc nào?",
-  "answer": "Theo quy định tại Khoản 1 Điều … của Luật Bảo hiểm xã hội (được nêu trong Điều 53 của Nghị định 41/2024/Q",
-  "latency_ms": 18005.575000075623,
+  "answer": "Cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc hưởng chế độ thai sản để chăm sóc con trong thời gian còn lại của người mẹ, tính đến khi con đủ 06 tháng tuổi.  \nNguồn: 41/2024/QH15:article:53.",
+  "latency_ms": 15397.740500047803,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:28:0",

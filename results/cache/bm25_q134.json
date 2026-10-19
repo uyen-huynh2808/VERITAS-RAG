@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/07/2025,nếu cần xác định xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết 30/06/2025, nên truy xuất điều khoản chuyển tiếp nào?",
-  "answer": "Theo quy định trong **Điều 141, khoản 10 (141.10)** của Luật 41/2024/QH15:  \n\n> “...đến hết ngày 30 tháng 6 năm 2025 mà không đóng hoặc không đóng đầy đủ thì được xử lý theo quy định về chậm đóng, trốn đóng của Luật này.”  \n\nVì vậy, vào ngày 01/07/2025 để xác định cách xử lý số tiền bảo hiểm xã hội bắt buộc chưa đóng đủ đến hết 30/06/2025, cần truy xuất **điều chuyển tiếp",
-  "latency_ms": 34010.77900000382,
+  "answer": "Điều 40 quy định biện pháp xử lý hành vi chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp. Nguồn: 41/2024/QH15.",
+  "latency_ms": 17384.99779999256,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:provision:141.10:63:0",

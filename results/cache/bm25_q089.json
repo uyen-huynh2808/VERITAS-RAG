@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một thỏa ước lao động tập thể được ký ngày 01/01/2021 nhưng các bên thỏa thuận ngày hiệu lực là 10/01/2021; tại 05/01/2021 thỏa ước đã có hiệu lực chưa?",
-  "answer": "Không. Theo quy định (Context 1), ngày có hiệu lực của thỏa ước lao động tập thể do các bên thỏa thuận và ghi trong thỏa ước. Khi các bên đã thỏa thuận ngày hiệu lực là 10/01/2021, thỏa ước chỉ có hiệu lực kể từ ngày 10 tháng 1 năm 2021. Vì vậy vào ngày 05 tháng 1 năm 2021, thỏa ước chưa có hiệu lực.",
-  "latency_ms": 13658.081700094044,
+  "answer": "Theo Điều 78, ngày có hiệu lực của thỏa ước lao động tập thể là ngày các bên thỏa thuận; nếu không thỏa thuận thì có hiệu lực kể từ ngày ký kết. Vì các bên đã thỏa thuận ngày hiệu lực là 10/01/2021, nên vào ngày 05/01/2021 thỏa ước chưa có hiệu lực.  \nNguồn: 45/2019/QH14:article:78.",
+  "latency_ms": 12187.825799977873,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",

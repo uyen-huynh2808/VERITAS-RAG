@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Các nguyên tắc đầu tư quỹ bảo hiểm xã hội được đặt ra để bảo đảm những yêu cầu nào?",
-  "answer": "Các nguyên tắc đầu tư của quỹ bảo hiểm xã hội được đặt ra nhằm bảo đảm:\n\n- **An toàn** trong hoạt động đầu tư;  \n- **Bền vững** và **hiệu quả** kinh tế;  \n- **Đa dạng hóa** danh mục, cơ cấu và phương thức đầu tư sao cho phù hợp với năng lực và cơ sở vật chất của tổ chức quản lý quỹ;  \n- **Ưu tiên** đầu tư vào trái phiếu Chính phủ, đặc biệt là trái phiếu Chính phủ dài hạn;  \n- Thực hiện **chiến lược đầu tư dài hạn** và **phương án đầu tư hằng năm**.",
-  "latency_ms": 1255.5774000938982,
+  "answer": "Nguyên tắc đầu tư quỹ bảo hiểm xã hội phải bảo đảm an toàn, bền vững và hiệu quả; đa dạng hoá danh mục, cơ cấu và phương thức đầu tư phù hợp với năng lực và cơ sở vật chất của tổ chức; ưu tiên đầu tư vào trái phiếu Chính phủ, đặc biệt là trái phiếu Chính phủ dài hạn.  \nNguồn: 41/2024/QH15:article:121.",
+  "latency_ms": 14430.83879997721,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:121:55:0",

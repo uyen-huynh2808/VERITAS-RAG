@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Nếu thỏa ước lao động tập thể ghi rõ ngày hiệu lực muộn hơn ngày ký, tại ngày ký có thể coi toàn bộ nội dung thỏa ước đã có hiệu lực chưa?",
-  "answer": "Không. Theo Điều 78 của Luật Lao động 45/2019/QH14, **ngày có hiệu lực của thỏa ước lao động tập thể do các bên thỏa thuận và phải được ghi trong thỏa ước**. Nếu các bên không ghi ngày hiệu lực, thỏa ước sẽ có hiệu lực kể từ ngày ký kết. Vì vậy, khi thỏa ước ghi rõ ngày hiệu lực muộn hơn ngày ký, **nội dung thỏa ước chỉ có hiệu lực từ ngày được ghi trong thỏa ước**, chứ không có hiệu lực ngay tại ngày ký. (Xem Context 1).",
-  "latency_ms": 9972.901199944317,
+  "answer": "Không, nếu thỏa ước lao động tập thể ghi rõ ngày hiệu lực muộn hơn ngày ký thì nội dung thỏa ước chỉ có hiệu lực kể từ ngày đã thỏa thuận, không có hiệu lực tại ngày ký. Nguồn: 45/2019/QH14:article:78.",
+  "latency_ms": 9340.40530002676,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:78:26:0",

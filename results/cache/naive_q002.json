@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Những đối tượng nào được liệt kê là đối tượng áp dụng của Bộ luật Lao động?",
-  "answer": "Các đối tượng được nêu là **đối tượng áp dụng của Bộ luật Lao động** gồm:\n\n- Người lao động  \n- Người học nghề  \n- Người tập nghề  \n- Người làm việc không có quan hệ lao động  \n- Người sử dụng lao động  \n- Người lao động nước ngoài làm việc tại Việt Nam  \n- Các cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.",
-  "latency_ms": 1377.914599957876,
+  "answer": "Đối tượng áp dụng của Bộ luật Lao động bao gồm:\n\n- Người lao động, người học nghề, người tập nghề và người làm việc không có quan hệ lao động.  \n- Người sử dụng lao động.  \n- Người lao động nước ngoài làm việc tại Việt Nam.  \n- Cơ quan, tổ chức, cá nhân khác có liên quan trực tiếp đến quan hệ lao động.  \n\nNguồn: 45/2019/QH14.",
+  "latency_ms": 842.4759000190534,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:2:1:0",

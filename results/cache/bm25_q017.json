@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Nếu một người đồng thời thuộc nhiều đối tượng tham gia bảo hiểm xã hội bắt buộc và ký nhiều hợp đồng lao động, nguyên tắc xác định hợp đồng làm căn cứ tham gia được quy định thế nào?",
-  "answer": "**Nguyên tắc xác định hợp đồng làm căn cứ tham gia bảo hiểm xã hội bắt buộc**\n\nTheo quy định tại **Điều 2,",
-  "latency_ms": 21065.91100001242,
+  "answer": "Người lao động đồng thời thuộc nhiều đối tượng tham gia bảo hiểm xã hội bắt buộc và ký nhiều hợp đồng lao động sẽ tham gia bảo hiểm xã hội bắt buộc dựa trên hợp đồng lao động ký đầu tiên; nếu hợp đồng đầu tiên đang tạm hoãn thực hiện và không có thỏa thuận về việc đóng bảo hiểm xã hội bắt buộc, thì sẽ áp dụng theo thứ tự thời gian có hiệu lực của các hợp đồng đã ký.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 20287.873700028285,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:2:1",

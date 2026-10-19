@@ -30,6 +30,9 @@ class RetrievedChunk:
     provision_path: Optional[str] = None
     effectivity_mode: Optional[str] = None
     trigger_reference: Optional[str] = None
+    issued_date: Optional[str] = None
+    date_basis: Optional[str] = None
+    is_in_force_at_event: Optional[bool] = None
 
 
 @dataclass
@@ -74,6 +77,8 @@ class GeneratorAgent:
         self.model_name = model_name or settings.models.llm_model
         self.temperature = settings.models.generation_temperature
         self.max_tokens = settings.models.generation_max_tokens
+        self.reasoning_effort = settings.models.generation_reasoning_effort
+        self.include_reasoning = settings.models.generation_include_reasoning
 
     # --------------------------------------------------------
     # Prompt Builder
@@ -89,12 +94,30 @@ class GeneratorAgent:
 
         for i, chunk in enumerate(chunks, start=1):
 
+            temporal_note = ""
+            date_basis = getattr(chunk, "date_basis", None)
+            if date_basis:
+                in_force = getattr(chunk, "is_in_force_at_event", None)
+                if in_force is True:
+                    applicability = "in force at t_event"
+                elif in_force is False:
+                    applicability = "not in force at t_event"
+                else:
+                    applicability = "effectivity at t_event unknown"
+                temporal_note = (
+                    f"Issued: {getattr(chunk, 'issued_date', None) or 'unknown'}; "
+                    f"effective: {chunk.effective_from or 'unknown'} to "
+                    f"{chunk.effective_to or 'open-ended'}; "
+                    f"status: {applicability}; retrieval basis: {date_basis}.\n"
+                )
+
             context_blocks.append(
                 f"""[Context {i}]
 Document: {chunk.logical_doc_id}
 Article: {chunk.article_id}
 Provision: {chunk.provision_path or 'unknown'}
 Page: {chunk.global_page}
+{temporal_note}
 
 {chunk.text}
 """
@@ -112,6 +135,10 @@ Nếu context không đủ, hãy trả lời đúng: "Không đủ thông tin tr
 ========================
 CONTEXT
 ========================
+
+Temporal rule: an issued date determines whether a document was available to describe. The effective interval determines whether its provisions were legally in force. If a context says it was not in force at t_event, do not present it as applicable law at that time.
+
+Answer only with facts directly supported by the context. Keep the answer concise and name the relevant article or provision. End with a separate line in this exact format, replacing DOCUMENT_ID with the actual ID: Nguồn: DOCUMENT_ID. Use the exact Document ID from the context header and cite only the source that directly supports the answer. Do not use legal-document IDs mentioned only inside a chunk's body as source citations. Do not add background facts or legal conclusions from memory.
 
 {context}
 
@@ -157,6 +184,8 @@ ANSWER
             ],
             temperature=self.temperature,
             max_tokens=self.max_tokens,
+            reasoning_effort=self.reasoning_effort,
+            include_reasoning=self.include_reasoning,
         )
 
         latency = (time.perf_counter() - start) * 1000

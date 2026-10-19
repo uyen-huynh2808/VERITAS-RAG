@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một hợp đồng lao động đã giao kết trước 01/01/2021 nhưng không trái Bộ luật Lao động mới và có điều kiện thuận lợi hơn cho người lao động; từ 01/01/2021 hợp đồng đó được xử lý thế nào?",
-  "answer": "Theo Điều 220 của Bộ luật Lao động mới (hiệu lực từ ngày 01/01/2021), các hợp đồng lao động đã ký trước ngày này **nếu không trái quy định của Bộ luật mới và có nội dung bảo đảm cho người lao động quyền lợi hoặc điều kiện thuận lợi hơn** so với quy định hiện hành, sẽ **được tiếp tục thực hiện**.  \n\nChỉ trong trường hợp các bên có thỏa thuận sửa đổi, bổ sung hợp đồng để phù hợp với quy định mới thì mới cần điều chỉnh lại. Vì hợp đồng của bạn đáp ứng các tiêu chí trên, nên từ ngày 01/01/2021 nó sẽ vẫn có hiệu lực và được thực hiện như trước.",
-  "latency_ms": 18521.684899926186,
+  "answer": "Hợp đồng lao động đã giao kết trước ngày 01/01/2021, nếu không trái quy định của Bộ luật Lao động mới và có nội dung có lợi hơn cho người lao động, sẽ được tiếp tục thực hiện kể từ ngày 01/01/2021.  \nNguồn: 45/2019/QH14:article:220.",
+  "latency_ms": 11334.268199978396,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:29:10:0",

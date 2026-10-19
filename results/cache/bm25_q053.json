@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Luật Bảo hiểm xã hội, những đối tượng nào thuộc diện tham gia bảo hiểm xã hội tự nguyện?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 14319.991099997424,
+  "answer": "Không đủ thông tin trong tài liệu.  \nNguồn: 41/2024/QH15.",
+  "latency_ms": 14901.986299955752,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:30:16:0",

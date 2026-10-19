@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Nếu vợ sinh ba trở lên, thời gian nghỉ của lao động nam được tính thêm như thế nào từ con thứ ba trở đi?",
-  "answer": "Nếu vợ sinh ba trở lên, lao động nam được nghỉ thêm **03 ngày làm việc cho mỗi đứa con**, tính từ con thứ ba trở đi. (Mỗi đứa con từ con thứ ba trở đi sẽ cộng thêm 3 ngày nghỉ.)",
-  "latency_ms": 14349.804700003006,
+  "answer": "Nếu vợ sinh ba trở lên, lao động nam được nghỉ thêm **03 ngày làm việc cho mỗi đứa con** tính từ con thứ ba trở đi.  \n\nNguồn: 41/2024/QH15. Nguồn: 41/2024/QH15.",
+  "latency_ms": 14184.886500006542,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:53:27:0",

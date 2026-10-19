@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Theo Luật Bảo hiểm xã hội, những đối tượng nào thuộc diện tham gia bảo hiểm xã hội tự nguyện?",
-  "answer": "**Các đối tượng được quy định tham gia bảo hiểm xã hội tự nguyện** (theo Điều",
-  "latency_ms": 14068.8216999406,
+  "answer": "Đối tượng tham gia bảo hiểm xã hội tự nguyện là: công dân Việt Nam từ đủ 15 tuổi trở lên, không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc và không phải là người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội hoặc trợ cấp hằng tháng. Nguồn: 41/2024/QH15:article:2.",
+  "latency_ms": 16371.966000006068,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:2:2:1",

@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Thời hạn cho thuê lại lao động đối với một người lao động tối đa là bao lâu?",
-  "answer": "Thời hạn cho thuê lại lao động đối với một người lao động tối đa là **12 tháng**.",
-  "latency_ms": 12487.235899898224,
+  "answer": "Thời hạn cho thuê lại lao động đối với một người lao động tối đa là 12 tháng.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 9950.994899962097,
   "retrieved_chunks": [
     {
       "chunk_id": "45/2019/QH14:45/2019/QH14:article:53:18:0",

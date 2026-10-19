@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2026, nếu cần xác định thời hạn thành lập hội đồng trường của cơ sở giáo dục nghề nghiệp tư thục, nên truy xuất quy định chuyển tiếp nào?",
-  "answer": "Không đủ thông tin trong tài liệu.",
-  "latency_ms": 7458.076399983838,
+  "answer": "Theo Điều 45, khoản 13, quy định rằng hiệu trưởng cơ sở giáo dục nghề nghiệp tư thục được công nhận trước ngày 01/01/2026 sẽ tiếp tục thực hiện nhiệm vụ, quyền hạn đến thời hạn hội đồng trường của cơ sở giáo dục nghề nghiệp tư thục. Đây là quy định chuyển tiếp cần truy xuất để xác định thời hạn thành lập hội đồng trường.\n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 6226.518200011924,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:article:13:6:0",

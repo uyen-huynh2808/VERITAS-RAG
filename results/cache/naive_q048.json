@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Một người đã tham gia bảo hiểm xã hội tự nguyện trước ngày 01/01/2021 và có từ đủ 20 năm đóng; điều kiện tuổi hưởng lương hưu theo quy định chuyển tiếp được xác định thế nào?",
-  "answer": "Theo quy định chuyển tiếp (xem **Context 1**, Điều 141), người tham gia bảo hiểm xã hội tự nguyện **trước ngày 01/01/2021** và đã đóng đủ **20 năm** trở lên sẽ được hưởng lương hưu khi:\n\n- **Nam**: đủ **60 tuổi**;  \n- **Nữ**: đủ **55 tuổi**.\n\nTrường hợp này là ngoại lệ so với quy định chung về tuổi nghỉ hưu (khoản 2 Điều 169 Bộ",
-  "latency_ms": 309968.83170004,
+  "answer": "Người tham gia bảo hiểm xã hội tự nguyện trước ngày 01/01/2021, khi đã đóng đủ 20 năm, được hưởng lương hưu khi đủ tuổi nghỉ hưu theo quy định tại khoản 2 Điều 169 của Bộ luật Lao động (độ tuổi nghỉ hưu quy định cho người lao động).  \n\nNguồn: 41/2024/QH15. Nguồn: 41/2024/QH15.",
+  "latency_ms": 14105.11929995846,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:141:62:1",

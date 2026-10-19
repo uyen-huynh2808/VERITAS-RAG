@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Hiệu trưởng cơ sở giáo dục nghề nghiệp công lập và tư thục được bổ nhiệm, miễn nhiệm bởi chủ thể nào?",
-  "answer": "Theo quy định trong Luật Giáo dục nghề nghiệp:\n\n- **Cơ sở giáo dục nghề nghiệp công lập**: Hiệu trưởng được **cơ quan quản lý trực tiếp** cơ sở giáo dục nghề nghiệp công lập **bổ nhiệm và miễn nhiệm**.\n\n- **Cơ sở giáo dục nghề nghiệp tư thục**: Hiệu trưởng được **hội đồng trường** của cơ sở giáo dục nghề nghiệp tư thục **bổ nhiệm và miễn nhiệm**.",
-  "latency_ms": 5282.8287000302225,
+  "answer": "- Hiệu trưởng cơ sở giáo dục nghề nghiệp công lập: được bổ nhiệm, miễn nhiệm bởi cơ quan quản lý trực tiếp cơ sở giáo dục nghề nghiệp công lập. (124/2025/QH15:article:12, provision 12.2.a)\n\n- Hiệu trưởng cơ sở giáo dục nghề nghiệp tư thục: được bổ nhiệm, miễn nhiệm bởi hội đồng trường cơ sở giáo dục nghề nghiệp tư thục. (124/2025/QH15:article:12, provision 12.2.b)\n\nNguồn: 124/2025/QH15.",
+  "latency_ms": 4990.156100015156,
   "retrieved_chunks": [
     {
       "chunk_id": "124/2025/QH15:124/2025/QH15:provision:12.2.b:6:0",

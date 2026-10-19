@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 9,
   "question": "Tại ngày 01/01/2021, nếu cần xác định thời hạn tối đa của chothuê lại lao động, nên truy xuất quy định nào?",
-  "answer": "Để xác định thời hạn tối đa của việc cho thuê lại (hoặc ký kết) lao động vào ngày 01/01/2021, cần tham khảo **Nghị định 45/2019/QH14 – Điều 20 (Điều 20, Khoản b)**.  \n\nTrong Điều 20, Nghị định quy định:\n\n- Hợp đồng lao động **xác định thời hạn** chỉ được ký với thời hạn **không quá 36 tháng** kể từ ngày có hiệu lực của hợp đồng.  \n- Khi hợp đồng hết hạn và không ký hợp đồng mới trong vòng 30 ngày, hợp đồng sẽ tự",
-  "latency_ms": 19080.043900059536,
+  "answer": "Theo Điều 20, khoản b, điểm b của Luật Lao động 2019, thời hạn tối đa của hợp đồng lao động xác định thời hạn không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng; khi hợp đồng hết hạn và không ký hợp đồng mới trong 30 ngày, hợp đồng sẽ chuyển thành hợp đồng không xác định thời hạn.  \nNguồn: 45/2019/QH14.",
+  "latency_ms": 1290.3603999875486,
   "retrieved_chunks": [
     {
       "chunk_id": "41/2024/QH15:41/2024/QH15:article:44:23:0",
