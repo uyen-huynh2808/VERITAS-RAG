@@ -1,0 +1,251 @@
+{
+  "dataset": "Task1 - PDF giả lập lỗi để kiểm thử Executable Data Contract",
+  "description": "Mỗi PDF lỗi chứa đúng một lỗi tương ứng một họ mutation trong README (Mục 3); 111/2026/NĐ-CP là văn bản sạch đối chứng (kỳ vọng PASS). Đọc bởi run/run_contract_eval.py.",
+  "cases": [
+    {
+      "file": "1112026NĐ-CP.pdf",
+      "mutation_type": "clean",
+      "variant": "valid_document",
+      "target_layer": "none",
+      "expected": "PASS",
+      "expected_stage": null,
+      "expected_codes": [],
+      "description": "Văn bản sạch đối chứng: ban hành 01/06/2026, có hiệu lực 01/07/2026, không lỗi cài sẵn. Dùng để đo False Positive Rate."
+    },
+    {
+      "file": "1212026NĐ-CP.pdf",
+      "mutation_type": "ocr_corruption",
+      "variant": "diacritics_lost",
+      "target_layer": "quality",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "DIACRITIC_DENSITY_LOW"
+      ],
+      "description": "Toàn bộ văn bản mất dấu tiếng Việt (kể cả metadata). Parser vẫn trích được số hiệu và ngày vì so khớp dạng không dấu; lớp Quality phải chặn ở Silver vì mật độ ký tự có dấu dưới ngưỡng 0,10."
+    },
+    {
+      "file": "1312026NĐ-CP.pdf",
+      "mutation_type": "metadata_corruption",
+      "variant": "invalid_doc_id",
+      "target_layer": "schema",
+      "expected": "QUARANTINE",
+      "expected_stage": "pre_parse",
+      "expected_codes": [
+        "SCHEMA_VIOLATION"
+      ],
+      "description": "Số hiệu thiếu hậu tố '-CP' (131/2026/NĐ) nên không khớp mẫu doc_id của Schema; phải bị chặn ở pre_parse, trước Bronze."
+    },
+    {
+      "file": "1412025NĐ-CP.pdf",
+      "mutation_type": "revoked_law",
+      "variant": "replaced_but_open_ended",
+      "target_layer": "temporal",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "REVOKED_TARGET_STILL_EFFECTIVE"
+      ],
+      "description": "Bị Nghị định 151/2026/NĐ-CP thay thế từ 01/04/2026 nhưng không ghi thời điểm hết hiệu lực (effective_to trống): văn bản đã bị thay thế vẫn được coi là còn hiệu lực. Chỉ phát hiện được khi tra chéo với 151 trong cùng thư mục."
+    },
+    {
+      "file": "1512026NĐ-CP.pdf",
+      "mutation_type": "clean",
+      "variant": "valid_replacing_document",
+      "target_layer": "none",
+      "expected": "PASS",
+      "expected_stage": null,
+      "expected_codes": [],
+      "description": "Văn bản thay thế hợp lệ (ban hành và có hiệu lực sau 141). Lỗi nằm ở 141, không phải ở văn bản này: kiểm tra rule không gắn nhầm lỗi cho văn bản nguồn."
+    },
+    {
+      "file": "1612025NĐ-CP.pdf",
+      "mutation_type": "clean",
+      "variant": "valid_time_limited_document",
+      "target_layer": "none",
+      "expected": "PASS",
+      "expected_stage": null,
+      "expected_codes": [],
+      "description": "Có hiệu lực từ 01/07/2025 đến hết 31/03/2026 (effective_to = 2026-04-01), đúng ngày 171 thay thế nó có hiệu lực: không được báo REVOKED_TARGET_STILL_EFFECTIVE. Kiểm tra trích effective_to dạng 'đến hết ngày'."
+    },
+    {
+      "file": "1712026NĐ-CP.pdf",
+      "mutation_type": "clean",
+      "variant": "valid_replacing_document",
+      "target_layer": "none",
+      "expected": "PASS",
+      "expected_stage": null,
+      "expected_codes": [],
+      "description": "Thay thế 161 đúng lúc 161 hết hiệu lực: cặp quan hệ hợp lệ."
+    },
+    {
+      "file": "1812025NĐ-CP.pdf",
+      "mutation_type": "revoked_law",
+      "variant": "amendment_effective_before_target",
+      "target_layer": "temporal",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "RELATION_EFFECTIVE_ORDER_INVALID"
+      ],
+      "description": "Sửa đổi 141 và ban hành sau 141 (20/03 > 01/03/2025) nhưng có hiệu lực 01/04/2025, trước khi chính 141 có hiệu lực (15/04/2025)."
+    },
+    {
+      "file": "1912026NĐ-CP.pdf",
+      "mutation_type": "wrong_date",
+      "variant": "end_before_start",
+      "target_layer": "temporal",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "INVALID_END_DATE"
+      ],
+      "description": "Có hiệu lực từ 01/06/2026 'đến hết ngày 30/04/2026': thời điểm hết hiệu lực (2026-05-01) đứng trước thời điểm có hiệu lực."
+    },
+    {
+      "file": "2112026NĐ-CP.pdf",
+      "mutation_type": "clean",
+      "variant": "valid_table_and_expiry",
+      "target_layer": "none",
+      "expected": "PASS",
+      "expected_stage": null,
+      "expected_codes": [],
+      "description": "Bảng hợp lệ (cột 'Năm áp dụng' toàn năm 4 chữ số, không ô trống) và câu 'Nghị định này hết hiệu lực kể từ ngày 01/01/2028': các rule bảng không được báo nhầm, effective_to phải trích được = 2028-01-01."
+    },
+    {
+      "file": "2222026NĐ-CP.pdf",
+      "mutation_type": "ocr_corruption",
+      "variant": "metadata_preserved",
+      "target_layer": "quality",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "OCR_TOKEN_CORRUPTION",
+        "OCR_NOISE_EXCEEDED",
+        "DIACRITIC_DENSITY_LOW"
+      ],
+      "description": "Nhiễu OCR 1% số từ nhưng giữ nguyên số hiệu, ngày ban hành, tiêu đề Điều và câu hiệu lực: Schema phải PASS, lớp Quality ở Silver tự chặn. Văn bản này DƯỚI ngưỡng max_corrupted_token_ratio: probe đo độ nhạy, không tính vào Detection Rate.",
+      "severity": "rate_0.01",
+      "in_scope": false
+    },
+    {
+      "file": "2312026NĐ-CP.pdf",
+      "mutation_type": "clean",
+      "variant": "valid_amending_document",
+      "target_layer": "none",
+      "expected": "PASS",
+      "expected_stage": null,
+      "expected_codes": [],
+      "description": "Sửa đổi 111 (ban hành và có hiệu lực sau 111) và trích nguyên văn “Điều 2. …” trong ngoặc kép: không được báo trùng tiêu đề Điều, không được báo sai thứ tự quan hệ."
+    },
+    {
+      "file": "2412026NĐ-CP.pdf",
+      "mutation_type": "clean",
+      "variant": "valid_multi_page_document",
+      "target_layer": "none",
+      "expected": "PASS",
+      "expected_stage": null,
+      "expected_codes": [],
+      "description": "Văn bản sạch nhiều trang, có Khoản và Điểm: kiểm tra toàn bộ pipeline không báo nhầm trên văn bản dài."
+    },
+    {
+      "file": "3332026NĐ-CP.pdf",
+      "mutation_type": "ocr_corruption",
+      "variant": "metadata_preserved",
+      "target_layer": "quality",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "OCR_TOKEN_CORRUPTION",
+        "OCR_NOISE_EXCEEDED",
+        "DIACRITIC_DENSITY_LOW"
+      ],
+      "description": "Nhiễu OCR 15% số từ nhưng giữ nguyên số hiệu, ngày ban hành, tiêu đề Điều và câu hiệu lực: Schema phải PASS, lớp Quality ở Silver tự chặn.",
+      "severity": "rate_0.15",
+      "in_scope": true
+    },
+    {
+      "file": "4442026NĐ-CP.pdf",
+      "mutation_type": "ocr_corruption",
+      "variant": "partial_metadata_readable",
+      "target_layer": "quality",
+      "expected": "QUARANTINE",
+      "expected_stage": "pre_parse",
+      "expected_codes": [
+        "OCR_TOKEN_CORRUPTION",
+        "OCR_NOISE_EXCEEDED",
+        "DIACRITIC_DENSITY_LOW"
+      ],
+      "description": "Nhiễu OCR mức nhẹ hơn 888: số hiệu và ngày ban hành vẫn đọc được (444/2026/NĐ-CP, 01/01/2026), nhưng câu hiệu lực bị hỏng ('Ng#ị địn# này có hiệu lực t#i h@nh...') nên không trích được effective_from; Schema chặn ở pre_parse, rule OCR được kiểm tra bằng diagnostic probe."
+    },
+    {
+      "file": "5552026NĐ-CP.pdf",
+      "mutation_type": "revoked_law",
+      "variant": "amends_later_document",
+      "target_layer": "temporal",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "RELATION_ISSUED_ORDER_INVALID"
+      ],
+      "description": "Nghị định 555/2026/NĐ-CP ban hành 01/01/2026 nhưng tự nhận sửa đổi Nghị định 168/2026/NĐ-CP ban hành 30/12/2026 (văn bản sửa đổi ra đời trước văn bản bị sửa đổi)."
+    },
+    {
+      "file": "6662026NĐ-CP.pdf",
+      "mutation_type": "duplicated_article",
+      "variant": "repeated_article_heading",
+      "target_layer": "quality",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "DUPLICATE_ARTICLE_HEADING",
+        "DUPLICATE_ARTICLE_NUMBER",
+        "DUPLICATE_ARTICLE_CONTENT",
+        "DUPLICATE_CHUNK_CONTENT"
+      ],
+      "description": "Điều 1 (Phạm vi điều chỉnh) xuất hiện hai lần; Điều 2 và Điều 3 cùng tiêu đề 'Hiệu lực thi hành'."
+    },
+    {
+      "file": "7772026NĐ-CP.pdf",
+      "mutation_type": "table_break",
+      "variant": "misaligned_merged_cells",
+      "target_layer": "quality",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "TABLE_VALUE_INVALID",
+        "TABLE_CELL_INTEGRITY_FAILED",
+        "TABLE_INTEGRITY_FAILED",
+        "MERGED_CELL_ISSUE",
+        "TABLE_HEADER_MISSING"
+      ],
+      "description": "Bảng Mã số / Chỉ số KPI / Năm có đường kẻ hàng lệch và ô gộp sai vị trí; cột Năm chứa giá trị không phải năm (20552, 20264). PyMuPDF để lại ô trống trong lưới bảng; Docling dựng lại lưới đúng hàng nên chỉ còn dấu vết ở giá trị cột Năm."
+    },
+    {
+      "file": "8882026NĐ-CP.pdf",
+      "mutation_type": "ocr_corruption",
+      "variant": "character_substitution",
+      "target_layer": "quality",
+      "expected": "QUARANTINE",
+      "expected_stage": "pre_parse",
+      "expected_codes": [
+        "OCR_TOKEN_CORRUPTION",
+        "OCR_NOISE_EXCEEDED",
+        "DIACRITIC_DENSITY_LOW"
+      ],
+      "description": "Văn bản bị nhiễu OCR (2o26, o1, Đ0c, C#Ủ, d@, $HỦ...). Số hiệu và ngày tháng không đọc được nên Schema chặn ngay ở pre_parse; rule OCR được kiểm tra bằng diagnostic probe."
+    },
+    {
+      "file": "9992026NĐ-CP.pdf",
+      "mutation_type": "wrong_date",
+      "variant": "effective_before_issued",
+      "target_layer": "temporal",
+      "expected": "QUARANTINE",
+      "expected_stage": "silver",
+      "expected_codes": [
+        "INVALID_START_DATE"
+      ],
+      "description": "Ban hành 15/06/2026 nhưng có hiệu lực từ 01/06/2026 (effective_from < issued_date). Theo PhanCong.md (Như An)."
+    }
+  ]
+}

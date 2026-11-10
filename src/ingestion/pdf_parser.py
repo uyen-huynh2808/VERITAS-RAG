@@ -156,6 +156,33 @@ class ParsedDocumentResult:
 # Utilities
 # ---------------------------------------------------------------------------
 
+# Characters some PDF producers emit instead of a plain space or hyphen.
+# With Times New Roman, for example, PyMuPDF-written PDFs map the space glyph
+# to U+00A0 and the hyphen glyph to U+00AD, which hides "Điều 1." headings
+# and turns "NĐ-CP" into "NĐ\u00adCP".
+_SPACE_VARIANTS = re.compile(r"[\u00a0\u2007\u202f\u2009\u200a\u3000]")
+_SOFT_HYPHEN_INSIDE_WORD = re.compile(r"(?<=\S)\u00ad(?=\S)")
+
+
+def normalize_extracted_text(text: str) -> str:
+    """
+    Normalize PDF text before metadata and article extraction.
+
+    - NFC composition (also maps U+037E GREEK QUESTION MARK to ";");
+    - non-breaking / narrow spaces -> ordinary space;
+    - a soft hyphen between two visible characters -> "-" (a mis-mapped
+      hyphen); any remaining soft hyphen (end-of-line hyphenation hint)
+      is removed.
+    """
+
+    if not text:
+        return text
+    text = unicodedata.normalize("NFC", text)
+    text = _SPACE_VARIANTS.sub(" ", text)
+    text = _SOFT_HYPHEN_INSIDE_WORD.sub("-", text)
+    return text.replace("\u00ad", "")
+
+
 def calculate_file_hash(
     file_path: str,
     algorithm: str,
@@ -476,6 +503,17 @@ class PDFParser(BaseParser):
         metadata["effective_from"] = (
             default_effective_from
         )
+        # End of validity stated by the document itself ("... đến hết ngày
+        # ...", "Nghị định này hết hiệu lực kể từ ngày ..."), if any.
+        metadata["effective_to"] = next(
+            (
+                rule.get("effective_to")
+                for rule in effectivity_rules
+                if rule.get("target_path") == "*"
+                and rule.get("mode") == "explicit_date"
+            ),
+            None,
+        )
         metadata["effective_date_rules"] = (
             effective_date_rules
         )
@@ -657,6 +695,15 @@ class PDFParser(BaseParser):
 
             metadata["effective_from"] = (
                 default_effective_from
+            )
+            metadata["effective_to"] = next(
+                (
+                    rule.get("effective_to")
+                    for rule in effectivity_rules
+                    if rule.get("target_path") == "*"
+                    and rule.get("mode") == "explicit_date"
+                ),
+                None,
             )
             metadata["effective_date_rules"] = (
                 effective_date_rules
@@ -1634,7 +1681,7 @@ class PDFParser(BaseParser):
 
                 if text.strip():
                     page_content[physical_page].append(
-                        text.strip()
+                        normalize_extracted_text(text.strip())
                     )
 
                 if (
@@ -1961,9 +2008,9 @@ class PDFParser(BaseParser):
                     page_offset + physical_page
                 )
 
-                text = page.get_text(
-                    "text"
-                ).strip()
+                text = normalize_extracted_text(
+                    page.get_text("text").strip()
+                )
 
                 provenance_header = (
                     "<!-- PageProvenance: "

@@ -1,0 +1,6 @@
+# Contract ablation: disable the schema layer.
+# Read by run/run_ablation.py; the production pipeline ignores this file.
+name: wo_schema
+description: "Bỏ lớp Schema: không kiểm tra trường bắt buộc, mẫu doc_id, doc_type."
+disabled_layers:
+  - schema

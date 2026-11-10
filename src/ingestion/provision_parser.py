@@ -272,8 +272,78 @@ class ProvisionParser:
             "text_end": end,
         }
 
+    # "... có hiệu lực ... từ ngày X đến (hết) ngày Y" -> end of validity.
+    _UNTIL_PHRASE = re.compile(r"den\s+(?P<through>het\s+)?ngay", re.IGNORECASE)
+    # "Nghị định này hết hiệu lực (thi hành) kể từ ngày Y" -> the CURRENT
+    # document stops applying on Y. A sentence where another document
+    # expires ("Luật số X hết hiệu lực kể từ ngày Luật này có hiệu lực")
+    # does not match because the subject must directly precede the phrase.
+    _SELF_EXPIRY = re.compile(
+        r"(?:nghi\s+dinh|thong\s+tu|luat|quyet\s+dinh|nghi\s+quyet|van\s+ban)"
+        r"\s+nay\s+(?:se\s+)?het\s+hieu\s+luc(?:\s+thi\s+hanh)?"
+        r"\s+(?:ke\s+tu|tu|vao)\s+ngay",
+        re.IGNORECASE,
+    )
+
+    @classmethod
+    def _first_date(cls, text: str, parse_date) -> Optional[str]:
+        for index, pattern in enumerate(cls._DATE_PATTERNS):
+            match = pattern.search(text)
+            if match:
+                parts = match.groups()
+                return (
+                    parse_date(parts[2], parts[1], parts[0])
+                    if index == 0
+                    else parse_date(*parts)
+                )
+        return None
+
+    @classmethod
+    def _end_date(cls, segment: str, parse_date) -> Optional[str]:
+        """
+        Exclusive end date of a validity interval stated in ``segment``.
+
+        "đến ngày Y" ends on Y (exclusive bound Y); "đến hết ngày Y" includes
+        Y, so the exclusive bound is the following day.
+        """
+        from datetime import date, timedelta
+
+        until = cls._UNTIL_PHRASE.search(segment)
+        if until is None:
+            return None
+        # The date must follow "đến (hết) ngày" directly.
+        value = cls._first_date("ngay" + segment[until.end():until.end() + 40], parse_date)
+        if value is None:
+            return None
+        if until.group("through"):
+            value = (date.fromisoformat(value) + timedelta(days=1)).isoformat()
+        return value
+
     @classmethod
     def extract_effectivity_rules(
+        cls,
+        text: str,
+        parse_date,
+    ) -> Tuple[Optional[Dict[str, Any]], List[Dict[str, Any]]]:
+        document_rule, scoped_rules = cls._extract_effectivity_rules(text, parse_date)
+
+        # Document-level end of validity, if the text states one.
+        expiry: Optional[str] = None
+        normalized = cls._normalize(re.sub(r"\s+", " ", text))
+        for segment in re.split(r";|(?<=\.)\s+", normalized):
+            self_expiry = cls._SELF_EXPIRY.search(segment)
+            if self_expiry:
+                expiry = cls._first_date(
+                    "ngay" + segment[self_expiry.end():self_expiry.end() + 40],
+                    parse_date,
+                ) or expiry
+        if document_rule is not None:
+            if document_rule.get("effective_to") is None and expiry:
+                document_rule["effective_to"] = expiry
+        return document_rule, scoped_rules
+
+    @classmethod
+    def _extract_effectivity_rules(
         cls,
         text: str,
         parse_date,
@@ -355,7 +425,10 @@ class ProvisionParser:
                     "target_path": "*",
                     "mode": "explicit_date" if effective_date else "external_trigger",
                     "effective_from": effective_date,
-                    "effective_to": None,
+                    "effective_to": (
+                        cls._end_date(date_segment, parse_date)
+                        if effective_date else None
+                    ),
                     "trigger_reference": None if effective_date else source_segment,
                     "source_text": source_segment,
                 }

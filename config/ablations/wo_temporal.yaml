@@ -1,0 +1,6 @@
+# Contract ablation: disable the temporal layer.
+# Read by run/run_ablation.py; the production pipeline ignores this file.
+name: wo_temporal
+description: "Bỏ lớp Temporal: không kiểm tra thứ tự ngày trong văn bản và quan hệ thay thế/sửa đổi giữa văn bản."
+disabled_layers:
+  - temporal

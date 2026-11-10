@@ -1,0 +1,6 @@
+# Contract ablation: disable the quality layer.
+# Read by run/run_ablation.py; the production pipeline ignores this file.
+name: wo_quality
+description: "Bỏ lớp Quality: không kiểm tra OCR/dấu tiếng Việt, bảng, cấu trúc điều khoản trùng lặp."
+disabled_layers:
+  - quality

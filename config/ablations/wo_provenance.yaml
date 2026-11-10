@@ -1,0 +1,6 @@
+# Contract ablation: disable the provenance layer.
+# Read by run/run_ablation.py; the production pipeline ignores this file.
+name: wo_provenance
+description: "Bỏ lớp Provenance: không kiểm tra hash nguồn, hash chunk, liên kết provision và tính toàn vẹn Gold."
+disabled_layers:
+  - provenance

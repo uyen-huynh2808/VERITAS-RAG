@@ -107,7 +107,10 @@ class QualityMetrics(BaseModel):
     null_ratio: float = 0.0
     diacritic_density: float = 0.0
     ocr_noise_ratio: float = 0.0
+    corrupted_token_ratio: float = 0.0
     broken_cells_ratio: float = 0.0
+    empty_cells_ratio: float = 0.0
+    invalid_year_cells: int = 0
     missing_table_headers: bool = False
     merged_cell_issues: int = 0
 

@@ -26,11 +26,18 @@
       "relations": {
         "amends": {
           "issued_after_target": true,
-          "effective_after_target": true
+          "effective_after_target": true,
+          "target_must_end_by_source_effective": false
         },
         "replaces": {
           "issued_after_target": true,
-          "effective_after_target": true
+          "effective_after_target": true,
+          "target_must_end_by_source_effective": true
+        },
+        "repeals": {
+          "issued_after_target": true,
+          "effective_after_target": true,
+          "target_must_end_by_source_effective": true
         }
       }
     }
@@ -39,10 +46,22 @@
     "max_null_ratio": 0.05,
     "min_diacritic_density": 0.1,
     "max_ocr_noise_ratio": 0.02,
+    "max_corrupted_token_ratio": 0.02,
     "table_integrity": {
       "require_headers": true,
       "max_broken_cells_ratio": 0.05,
-      "check_merged_cells": true
+      "check_merged_cells": true,
+      "check_structured_cells": true,
+      "max_empty_cells_ratio": 0.1,
+      "check_year_columns": true
+    },
+    "structure_integrity": {
+      "enabled": true,
+      "reject_duplicate_article_numbers": true,
+      "reject_duplicate_provision_ids": true,
+      "reject_duplicate_article_content": true,
+      "reject_repeated_article_headings": true,
+      "min_duplicate_content_tokens": 20
     }
   },
   "provenance_contract": {
@@ -52,6 +71,9 @@
     "require_article_id": true,
     "require_chunk_page_number": true,
     "require_chunk_hash": true,
-    "require_provision_id": true
+    "require_provision_id": true,
+    "reject_duplicate_chunk_ids": true,
+    "reject_duplicate_chunk_content": true,
+    "min_duplicate_chunk_tokens": 40
   }
 }
