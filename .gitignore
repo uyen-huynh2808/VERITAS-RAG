@@ -4,3 +4,6 @@ __pycache__/
 # Only the top-level data directory is local; src/data/ is source code.
 /data/
 .DS_Store
+# Thư mục đầu ra và kết quả tạm thời
+Claude outputs/
+results/contract/
